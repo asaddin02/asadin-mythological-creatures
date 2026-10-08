@@ -1,0 +1,50 @@
+{
+  "original_file": "data/artwork-generated/batch-1047/rejected/serket-attempt-02.png",
+  "native_sha256": "4bdda07a34d5b003cb7bc957376d52e66fde3f01e45cdee4752ae37036dd189c",
+  "prompt": "Use case: stylized-concept. Square premium Mythics painterly art, monumental low viewpoint, tiny architecture/landscape scale references, cinematic rich light and brush texture, original respectful religious design. No text of any kind, watermark, signature, frame, gore, nudity or film/game/anime imitation. SERKET Egyptian protecting and healing goddess (serket-c01,c03), one fully clothed woman in opaque long linen dress with high covered chest, exactly TWO arms and human head. A realistic single scorpion sits on her head as emblem; one hand holds an ankh and other holds was-sceptre (serket-c02). She stands protectively at a vast underworld path bend (serket-c05), mist-free stone architecture and distant small canopic vessels (serket-c04). Protective healing shown by warm natural light enclosing safe path, no invented glowing force field, scorpion body, wings, venom beams or fire.",
+  "reason": "Ordinary woman with a scorpion emblem at human scale.",
+  "old_receipt": {
+    "slug": "serket",
+    "prompt": "Use case: stylized-concept. Square premium Mythics painterly art, monumental low viewpoint, tiny architecture/landscape scale references, cinematic rich light and brush texture, original respectful religious design. No text of any kind, watermark, signature, frame, gore, nudity or film/game/anime imitation. SERKET Egyptian protecting and healing goddess (serket-c01,c03), one fully clothed woman in opaque long linen dress with high covered chest, exactly TWO arms and human head. A realistic single scorpion sits on her head as emblem; one hand holds an ankh and other holds was-sceptre (serket-c02). She stands protectively at a vast underworld path bend (serket-c05), mist-free stone architecture and distant small canopic vessels (serket-c04). Protective healing shown by warm natural light enclosing safe path, no invented glowing force field, scorpion body, wings, venom beams or fire.",
+    "depicted_variant": "Clothed goddess with scorpion head emblem, ankh and was-sceptre.",
+    "basis_claim_ids": [
+      "serket-c01",
+      "serket-c02",
+      "serket-c03",
+      "serket-c04",
+      "serket-c05"
+    ],
+    "visual_requirements": [
+      "Scorpion on head, ankh and was-sceptre (serket-c02)",
+      "Healing/protection and path guardian (serket-c03,c05)",
+      "One covered woman two arms, no scorpion hybrid body"
+    ],
+    "aura": "Natural warm protective path light, no asserted spell type.",
+    "artistic_choices": [
+      "Exact clothing/path design editorial; healing/magic documented but no specific emitted effect, so no invented protective force field.",
+      "Small architectural braziers are ambient lighting, not a claimed emitted fire power."
+    ],
+    "visual_review": {
+      "verdict": "pass",
+      "notes": "Native inspected: one covered two-arm woman with scorpion on head, ankh and was-sceptre, path bend and canopic jars; braziers are environmental architecture lighting, no deity-emitted spell.",
+      "reviewer": "codex",
+      "native_sha256": "4bdda07a34d5b003cb7bc957376d52e66fde3f01e45cdee4752ae37036dd189c"
+    },
+    "generated_file": "/home/asadin/.codex/generated_images/01a11024-55c8-7c93-8727-a166e5328535/exec-bde32936-69c1-4fb8-845f-71a1f3e4d2c3.png",
+    "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/serket.png",
+    "native_sha256": "4bdda07a34d5b003cb7bc957376d52e66fde3f01e45cdee4752ae37036dd189c",
+    "worker": "codex",
+    "tool": "OpenAI built-in image_gen",
+    "status": "needs-correction",
+    "review_path": "data/gemini/reviews/batch-077.review.json",
+    "reviewed_at": "2026-10-06T08:19:14.254010+00:00",
+    "root_visual_review": {
+      "verdict": "reject",
+      "reviewer": "claude",
+      "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+      "native_sha256": "4bdda07a34d5b003cb7bc957376d52e66fde3f01e45cdee4752ae37036dd189c",
+      "notes": "Ordinary woman with a scorpion emblem at human scale."
+    },
+    "correction_notes": "Ordinary woman with a scorpion emblem at human scale."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/hathor-attempt-01.png",
+  "native_sha256": "a0884386dabd230f17426d7bc59110bde00bd204b52e0d95e58a7a0797326eec",
+  "prompt": "Square premium painterly Mythics illustration, original monumental mythological art, no lettering, logos, watermark or border, fully clothed and respectful. Hathor in documented early Egyptian cow form (hathor-c10,c11,c15): one magnificent living cow with exactly four legs, one head, two natural bovine horns, golden SUN DISK BETWEEN the horns, emerging from tall papyrus reeds beside the Nile. Stars visible high above as documented above her cow form c10. Make the goddess awe-inspiring and benevolent: low camera angle close to papyrus, monumental central silhouette, rich detailed animal anatomy, sun disk catching spectacular warm dawn sunlight, small distant Egyptian limestone architecture for comparison. Radiant mood follows joy/love patronage c05, not an invented fire attack. NO human torso, no wings, extra heads or limbs, no energy ribbons or magical fire. Disk is the documented ornament, bright sunlight lighting fur and water. Dark teal river and rich golden cinematic contrast, beautiful painterly naturalism, expansive cosmic-feeling sky without new supernatural abilities.",
+  "reason": "Reads as an ordinary spotted dairy cow; needs a majestic divine presence for a major goddess.",
+  "receipt_snapshot": {
+    "revision": "nama-besar",
+    "slug": "hathor",
+    "worker": "codex",
+    "tool": "OpenAI built-in image_gen",
+    "status": "needs-correction",
+    "generated_at": "2026-10-06T07:40:44.384Z",
+    "prompt": "Square premium painterly Mythics illustration, original monumental mythological art, no lettering, logos, watermark or border, fully clothed and respectful. Hathor in documented early Egyptian cow form (hathor-c10,c11,c15): one magnificent living cow with exactly four legs, one head, two natural bovine horns, golden SUN DISK BETWEEN the horns, emerging from tall papyrus reeds beside the Nile. Stars visible high above as documented above her cow form c10. Make the goddess awe-inspiring and benevolent: low camera angle close to papyrus, monumental central silhouette, rich detailed animal anatomy, sun disk catching spectacular warm dawn sunlight, small distant Egyptian limestone architecture for comparison. Radiant mood follows joy/love patronage c05, not an invented fire attack. NO human torso, no wings, extra heads or limbs, no energy ribbons or magical fire. Disk is the documented ornament, bright sunlight lighting fur and water. Dark teal river and rich golden cinematic contrast, beautiful painterly naturalism, expansive cosmic-feeling sky without new supernatural abilities.",
+    "depicted_variant": "Documented cow Hathor with solar disk between horns emerging from papyrus.",
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "aura": "Majestic benevolent monumental cow, documented solar disk and overhead stars; natural dawn radiance.",
+    "review_path": "data/gemini/reviews/batch-040.review.json",
+    "basis_claim_ids": [
+      "hathor-c11",
+      "hathor-c10",
+      "hathor-c15"
+    ],
+    "visual_requirements": [
+      {
+        "kind": "anatomy",
+        "description": "Single cow with sun disk between two horns.",
+        "claim_ids": [
+          "hathor-c11"
+        ]
+      },
+      {
+        "kind": "setting",
+        "description": "Cow emerging from papyrus with stars above.",
+        "claim_ids": [
+          "hathor-c10",
+          "hathor-c15"
+        ]
+      }
+    ],
+    "artistic_choices": [
+      "Warm dawn light, Egyptian riverbank and distant architecture are editorial natural scenery.",
+      "Research does not give cow Hathor an emitted solar-fire attack, so disk reflects sunlight."
+    ],
+    "old_url": "/assets/art/hathor-verified.webp",
+    "old_webp_sha256": "3b2de6d0789a37d2f3923c3ff451eafdfad96e6f2cf30ee5acc3ccea5889ec2a",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/hathor.png",
+    "old_native_sha256": null,
+    "historical_native_sha256": "d54f5f00d073b176f9a170cf63c9b724215cf843b8af8bcf606ac5dd8ebe2630",
+    "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/hathor.png",
+    "native_sha256": "a0884386dabd230f17426d7bc59110bde00bd204b52e0d95e58a7a0797326eec",
+    "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-61909194-5ee0-455b-99d6-ecbf121b19a9.png",
+    "visual_review": {
+      "verdict": "pass",
+      "reviewer": "codex",
+      "notes": "Native inspected: single cow, two horns framing sun disk, coherent bovine limbs partly screened by papyrus, stars overhead, beautiful natural golden light. No human hybrid, added limbs, text, watermark or fire effects.",
+      "native_sha256": "a0884386dabd230f17426d7bc59110bde00bd204b52e0d95e58a7a0797326eec",
+      "reviewed_at": "2026-10-06T07:40:44.385Z"
+    },
+    "root_visual_review": {
+      "verdict": "reject",
+      "reviewer": "claude",
+      "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+      "native_sha256": "a0884386dabd230f17426d7bc59110bde00bd204b52e0d95e58a7a0797326eec",
+      "notes": "Reads as an ordinary spotted dairy cow; needs a majestic divine presence for a major goddess."
+    },
+    "correction_notes": "Reads as an ordinary spotted dairy cow; needs a majestic divine presence for a major goddess."
+  }
+}

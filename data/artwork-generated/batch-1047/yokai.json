@@ -1,43 +1,83 @@
 {
   "slug": "yokai",
-  "prompt": "Use case: historical-scene. ONE square premium painterly naturalistic Mythics mythology encyclopedia illustration; dramatic low camera, monumental presence, small scale references, rich materials and cinematic contrast. Respect living religions. No text, letters, hieroglyphs, cuneiform, logos, border, watermark, gore or nudity. Never copy film/game/anime/comic character designs. Add no extra attributes or anatomy beyond the explicitly specified source-backed variant. ONE representative Japanese YŌKAI of the documented HUMANOID WITH THREE EYES category: ordinary fully clothed humanoid with exactly THREE EYES, two normal horizontal eyes plus one central forehead eye; one head, two arms, two legs, no extra neck, wings, horns or other creature traits. A solemn uncanny face looking directly from a plain modest Japanese robe at a vast moonlit rural path, low-angle imposing silhouette, shadow and natural ground mist convey frightening supernatural presence. This is an illustrative representative of a BROAD CATEGORY, not a claim there is one canonical named Yokai body. No eye lasers, energy aura or unsupported magic, no film/anime reference, letters or writing.",
-  "depicted_variant": "ONE representative Japanese YŌKAI of the documented HUMANOID WITH THREE EYES category: ordinary fully clothed humanoid with exactly THREE EYES, two normal horizontal eyes plus one central forehead eye; one head, two arms, two legs, no extra neck, wings, horns or other creature traits. A solemn uncanny face looking directly from a plain modest Japanese robe at a vast moonlit rural path, low-angle imposing silhouette, shadow and natural ground mist convey frightening supernatural presence. This is an illustrative representative of a BROAD CATEGORY, not a claim there is one canonical named Yokai body. No eye lasers, energy aura or unsupported magic, no film/anime reference, letters or writing.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of YŌKAI, one representative three-eyed humanlike supernatural being from Japanese folklore, never a canonical body for the whole category.\nANATOMY: one humanlike head, exactly THREE LARGE OPEN EYES: two normal horizontal eyes and a very obvious THIRD EYE centered vertically on the bare forehead, all three eyes equally lifelike, wet and sharply focused; exactly two ordinary arms and legs; one fully opaque plain dark robe, covered chest. No horns, wings, claws, fangs or elongated neck. [yokai-c04]\nMOMENT: lunging directly toward the viewer, head lowered, all THREE eyes looking down into camera, one hand reaching out of dark cloth toward the foreground, lips tense, unsettling confrontational stare.\nPOWER: no documented emitted power; menace only through the source-backed impossible third eye and close-up confrontation. [yokai-c01,yokai-c04,yokai-c06]\nSCALE & CAMERA: extreme low-angle close portrait from upper chest to forehead; the head fills two thirds of the square; all three eyes legible at 200-pixel thumbnail; ordinary human bodily size, no tiny human scale references.\nLIGHT & WEATHER: one hard warm light from below, deep near-black shadow backdrop, strong chiaroscuro; never a peaceful portrait.\nSURFACE: rough woven dark cloth, real weathered skin and wet eyes, brush texture.\nSETTING: spare abstract darkness as editorial portrait backdrop within Japanese folklore context. [yokai-c02]\nMOOD: uncanny, dangerous, imposing, never cute, calm, decorative or ordinary.\nHARD CONSTRAINTS: EXACTLY THREE open eyes, no extra heads, limbs, fingers, no text, lettering, logo, border, frame or watermark; no film, game, anime or comic design; no nudity or gore; no generic glow aura, eye lasers, neon outline or energy ribbons.",
+  "depicted_variant": "Close confrontational portrait of one representative three-eyed humanlike yōkai; no canonical body for whole category.",
   "basis_claim_ids": [
     "yokai-c01",
     "yokai-c02",
-    "yokai-c03",
     "yokai-c04",
     "yokai-c06"
   ],
   "visual_requirements": [
-    "Representative altered-human form has exactly three eyes and otherwise coherent ordinary anatomy (yokai-c04)",
-    "Supernatural Japanese folklore category rendered as an uncanny representative, not a universal body (yokai-c01,yokai-c02,yokai-c03)"
+    {
+      "kind": "anatomy",
+      "description": "Representative humanlike variant with exactly three plainly visible eyes, from exact source quote; not canonical anatomy of all yōkai.",
+      "claim_ids": [
+        "yokai-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No emitted power; fear conveyed by the source-backed altered-human anatomy and confrontational framing.",
+      "claim_ids": [
+        "yokai-c01",
+        "yokai-c04",
+        "yokai-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Japanese folklore portrait; dark abstract background is editorial, no asserted habitat.",
+      "claim_ids": [
+        "yokai-c02"
+      ]
+    }
   ],
-  "aura": "Three-eye uncanny gaze, monumental moonlit shadow and natural mist.",
+  "aura": "Uncanny source-backed three-eye anatomy (yokai-c04) and remembered fear (yokai-c06), with low-angle close framing and natural underlighting; no emitted power.",
   "artistic_choices": [
-    "Third-eye forehead placement, facial details and plain robes/path are artistic choices within source-described three-eyed human category. No unique canonical creature or emitted power is claimed.",
-    "Camera angle, palette and environmental composition are artistic rendering of accepted research, rather than source quotations."
+    "Forehead placement of the third eye, plain opaque robe, hair, face and hand gesture are editorial choices within the exact three-eyed humanoid example of yokai-c04.",
+    "Abstract dark backdrop and warm light below are portrait staging, not asserted habitat or magic.",
+    "Close crop preserves ordinary bodily size while making all three eyes readable at thumbnail scale, directly addressing the prior rejection."
   ],
   "visual_review": {
-    "verdict": "pass",
-    "notes": "Viewed native PNG: one clothed humanoid with exactly three eyes (two ordinary, one forehead), two arms/hands and ordinary two-leg silhouette under robe; no horns/wings/extra neck. Moonlit rural Japanese setting and natural mist provide uncanny presence without emitted powers. Represents one documented category variant, not universal Yokai anatomy; no text.",
     "reviewer": "codex",
-    "native_sha256": "bd07e17a1939a61bf0420dba03248af535d12a0aa4688b13a1c3098c9f5bbfb5"
+    "verdict": "pass",
+    "notes": "Native 1254-square PNG inspected: head dominates, three large open eyes clearly visible, one head and coherent reaching hand, opaque dark robe; confrontational forward action and low lighting feel uncanny even at thumbnail size. No emitted power, text, watermark, frame or borrowed media design; previous barely-visible-eye issue resolved.",
+    "limitations": [],
+    "native_sha256": "76b79c396c7643c1077b4172088b6324295ef6c353ab670ad28c528afb7fd2d9",
+    "reviewed_at": "2026-10-08T03:55:48.132426+00:00"
   },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-2dd13509-446a-44a4-920a-3d0c568aafee.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/yokai.png",
-  "native_sha256": "bd07e17a1939a61bf0420dba03248af535d12a0aa4688b13a1c3098c9f5bbfb5",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-5164-7c31-95b8-92b89dd9af58/exec-8836ed75-617a-487b-aba6-3742cfde20d1.png",
+  "original_file": "data/artwork-generated/batch-1047/originals/yokai.png",
+  "native_sha256": "76b79c396c7643c1077b4172088b6324295ef6c353ab670ad28c528afb7fd2d9",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
-  "status": "needs-correction",
+  "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-049.review.json",
-  "reviewed_at": "2026-10-06T08:43:41.731155+00:00",
+  "worker_agent": "lane_1047",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1047,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T03:55:48.132426+00:00",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1047/rejected/yokai-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1047/rejected/yokai-attempt-01.json",
+      "native_sha256": "bd07e17a1939a61bf0420dba03248af535d12a0aa4688b13a1c3098c9f5bbfb5",
+      "reason": "Reads as an ordinary man; the documented third eye is barely visible."
+    }
+  ],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "bd07e17a1939a61bf0420dba03248af535d12a0aa4688b13a1c3098c9f5bbfb5",
-    "notes": "Reads as an ordinary man; the documented third eye is barely visible."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "76b79c396c7643c1077b4172088b6324295ef6c353ab670ad28c528afb7fd2d9",
+    "notes": "Three plainly visible eyes on a humanlike face reaching toward the viewer in low light; uncanny and no longer an ordinary man."
   },
-  "correction_notes": "Reads as an ordinary man; the documented third eye is barely visible."
+  "reviewed_at": "2026-10-08T04:30:26.950Z"
 }

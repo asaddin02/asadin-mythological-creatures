@@ -1,45 +1,89 @@
 {
   "slug": "ceres",
-  "prompt": "CERES, Roman harvest goddess: ONE majestic matronly adult woman in fully opaque flowing ivory and ochre DRAPERIES, CROWN OF WHEAT EARS (ceres-c06), one head TWO arms. One hand holds tall WHEAT STALKS and other cradles a CORNUCOPIA of grain and ripe fruit (ceres-c07/c12). She towers above a vast golden harvest field with green new crops at her feet; tiny distant Roman countryside buildings provide scale. Documented blessing of plentiful crops ceres-c02 expressed through extraordinary abundance, warm sunlit grain, no sparkles or magic beams. Benevolent maternal authoritative gaze, monumental low camera among wheat, dramatic sunset clouds. Use case: stylized-concept. Original square premium monumental painterly Mythics encyclopedia image. Low viewpoint, powerful clear silhouette, rich tactile textures, cinematic high contrast. Respectful sacred portrayal, no text, watermark, logo, border, nudity, gore, copied films/games/anime, extra heads or limbs.",
-  "depicted_variant": "Matronly wheat-crowned Ceres with grain and agricultural bounty.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of CERES, Roman goddess whose favor gives fruitful harvests and whose wrath brings blight, drought and famine.\nANATOMY: one matronly human woman, exactly one head and two arms, fully opaque heavy ochre and ivory flowing draperies, a prominent broad crown woven from unmistakable wheat ears. One hand grips a single worn agricultural sickle with a curved iron blade; the other hand opens toward the ripening crop. [ceres-c06, ceres-c07]\nMOMENT: stride toward the viewer and sweep the sickle low across the foreground as wind lifts the folds of her robe; stern maternal face looks down with overwhelming authority. Fresh tall wheat brushes the opened hand, while dry withered wheat and cracked drought soil occupy the opposite lower corner.\nPOWER: physically show the contrast between her blessing and anger: dense heavy golden ripe wheat on one side, curled blighted stems and cracked dry soil on the other. No hand beams, magical ribbons or flames. [ceres-c02]\nSCALE & CAMERA: extreme low-angle close framing from between wheat stems; the foreground sickle, enormous folds of robe, face and broad wheat crown fill the square, not a distant woman in a landscape. Apparent grandeur from framing, no literal giant-height claim.\nLIGHT & WEATHER: one sharp setting sun behind her wheat crown, narrow amber rim and deep walnut facial shadows; loose crop chaff blows across foreground.\nSURFACE: rough woven drapery, rusted iron sickle edge, individual wheat husks, grain dust, fissured earth.\nSETTING: agricultural field at harvest, filling the lowest foreground with documented crop contrast; only sliver of distant sky. [ceres-c01, ceres-c02]\nMOOD: awe-inspiring sacred authority over food and famine, stern yet benevolent, not evil; never placid, cute or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; exactly one head and two arms, no extra limbs or fingers; no design borrowed from films, games, anime or comics; no nudity or explicit gore; no generic glow aura, neon outlines or energy ribbons.",
+  "depicted_variant": "Wheat-crowned matronly Ceres advancing with sickle between abundant and drought-stricken grain.",
   "basis_claim_ids": [
     "ceres-c01",
     "ceres-c02",
     "ceres-c06",
-    "ceres-c07",
-    "ceres-c12"
+    "ceres-c07"
   ],
   "visual_requirements": [
-    "Matronly woman in flowing draperies and wheat-ear crown — ceres-c06.",
-    "Wheat stalks and cornucopia — ceres-c07/c12.",
-    "Plentiful harvest — ceres-c02."
+    {
+      "kind": "anatomy",
+      "description": "Matronly woman in opaque flowing draperies and broad wheat-ear crown.",
+      "claim_ids": [
+        "ceres-c06"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Clearly readable agricultural sickle.",
+      "claim_ids": [
+        "ceres-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Abundant ripe wheat contrasts physically with dry withered stems and drought-cracked soil, without magical beams.",
+      "claim_ids": [
+        "ceres-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Harvest field immediately around viewer.",
+      "claim_ids": [
+        "ceres-c01",
+        "ceres-c02"
+      ]
+    }
   ],
-  "aura": "Rich crop growth and immense fertile harvest field grounded in c02; warm natural sun.",
+  "aura": "Contrasting crop bounty and drought manifest Ceres authority over harvest and famine (ceres-c02), enhanced by foreground sickle and wheat crown (ceres-c06/c07).",
   "artistic_choices": [
-    "Fabric, color palette, apparent scale and natural cinematic light are editorial presentation.",
-    "Conservative human appearance selected where research does not define detailed anatomy."
+    "Close camera creates monumental impression, not documented literal giant size.",
+    "Contrast of blessing and anger is a visual juxtaposition of two attested outcomes, not a claim of simultaneous new magical attack.",
+    "Stride, sickle sweep, crop chaff, sunset, cloth colors and weathered materials are editorial composition."
   ],
   "visual_review": {
-    "notes": "Viewed native: fully draped mature woman wearing wheat-ear crown, two arms holding bundle of wheat and abundant cornucopia; rich crops foreground and tiny rural temple below sunrise. Clear documented iconography and fertile harvest setting; no magic beams, text or watermark.",
     "reviewer": "codex",
     "verdict": "pass",
-    "native_sha256": "a363c7fa55ef540c5e5b7a021119a9d25b648f6f2c4c75b41651ac2a877cc244",
-    "reviewed_at": "2026-10-06T08:04:37.240735+00:00"
+    "notes": "Native PNG inspected: matronly wheat-crowned woman, one head two arms, opaque draperies, enormous foreshortened curved agricultural sickle. Stern downward gaze with active sweep and opened crop hand; physically abundant golden wheat contrasts with black wilted stems and clearly cracked drought soil. Documented harvest/famine domain remains legible at thumbnail. No attack beams, extra limbs, lettering or watermark. All seven Uji Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "b55ac62de254cf1c71c016646be44f563e5de13c2d2b533805e32b446237ec43",
+    "reviewed_at": "2026-10-08T03:59:30.984487+00:00"
   },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-371c-7680-935d-9da18174a957/exec-937ce8b2-51d2-48f8-9cff-46af15d2fe5d.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/ceres.png",
-  "native_sha256": "a363c7fa55ef540c5e5b7a021119a9d25b648f6f2c4c75b41651ac2a877cc244",
-  "status": "needs-correction",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-784e-76a1-b1ae-5d5cc188cac8/exec-7674deda-7934-442b-927e-b8e52b3408c5.png",
+  "original_file": "data/artwork-generated/batch-1055/originals/ceres.png",
+  "native_sha256": "b55ac62de254cf1c71c016646be44f563e5de13c2d2b533805e32b446237ec43",
+  "status": "reviewed",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
   "review_path": "data/gemini/reviews/batch-042.review.json",
-  "reviewed_at": "2026-10-06T08:04:37.240735+00:00",
+  "reviewed_at": "2026-10-08T04:30:26.950Z",
+  "worker_agent": "lane_1055_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1055,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T03:59:30.984487+00:00",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1055/rejected/ceres-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1055/rejected/ceres-attempt-01.json",
+      "native_sha256": "a363c7fa55ef540c5e5b7a021119a9d25b648f6f2c4c75b41651ac2a877cc244",
+      "reason": "Ordinary woman in a wheat field; no divine scale or presence."
+    }
+  ],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "a363c7fa55ef540c5e5b7a021119a9d25b648f6f2c4c75b41651ac2a877cc244",
-    "notes": "Ordinary woman in a wheat field; no divine scale or presence."
-  },
-  "correction_notes": "Ordinary woman in a wheat field; no divine scale or presence."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "b55ac62de254cf1c71c016646be44f563e5de13c2d2b533805e32b446237ec43",
+    "notes": "Wheat-crowned Ceres sweeps a great sickle between ripe wheat and withered stems over cracked soil; stern and monumental."
+  }
 }

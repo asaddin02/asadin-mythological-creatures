@@ -1,0 +1,49 @@
+{
+  "original_file": "data/artwork-generated/batch-1047/rejected/wadjet-attempt-02.png",
+  "native_sha256": "cb1abc150da40ba1bdbd9ba7aefd810a8ad1013139376f04abb7b8a6787fad31",
+  "prompt": "Use case: stylized-concept. Square premium Mythics painterly art, monumental low viewpoint, tiny architecture/landscape scale references, cinematic rich light and brush texture. Original respectful religious design, NO TEXT/signature/watermark/border, gore, nudity or film/game/anime imitation. WADJET, Egyptian protective goddess of Lower Egypt (wadjet-c01,c04), research does not specify body iconography, so conservative one human-headed fully clothed woman in opaque long Egyptian linen robe, exactly TWO arms with hands clasped quietly at waist, NO cobra head, snake body, wings or invented weapon. Monumental protective presence above a lush Lower Egyptian papyrus riverbank (wadjet-c03,c06), tiny distant temple. Natural golden dawn and dense papyrus planted along river express protective deity who planted first papyrus (wadjet-c06). No emitted fire/venom/eye beams, no invented Eye symbols as magical attacks.\nRevision: Edit ONLY forehead/headband ornament: remove the upright cobra-shaped emblem and replace with a plain small smooth oval gold jewel. Keep image unchanged otherwise: fully clothed two-arm human-headed goddess, clasped hands, papyrus river landscape and sunrise. No serpent imagery anywhere on head; no text.",
+  "reason": "Ordinary woman by the Nile.",
+  "old_receipt": {
+    "slug": "wadjet",
+    "prompt": "Use case: stylized-concept. Square premium Mythics painterly art, monumental low viewpoint, tiny architecture/landscape scale references, cinematic rich light and brush texture. Original respectful religious design, NO TEXT/signature/watermark/border, gore, nudity or film/game/anime imitation. WADJET, Egyptian protective goddess of Lower Egypt (wadjet-c01,c04), research does not specify body iconography, so conservative one human-headed fully clothed woman in opaque long Egyptian linen robe, exactly TWO arms with hands clasped quietly at waist, NO cobra head, snake body, wings or invented weapon. Monumental protective presence above a lush Lower Egyptian papyrus riverbank (wadjet-c03,c06), tiny distant temple. Natural golden dawn and dense papyrus planted along river express protective deity who planted first papyrus (wadjet-c06). No emitted fire/venom/eye beams, no invented Eye symbols as magical attacks.\nRevision: Edit ONLY forehead/headband ornament: remove the upright cobra-shaped emblem and replace with a plain small smooth oval gold jewel. Keep image unchanged otherwise: fully clothed two-arm human-headed goddess, clasped hands, papyrus river landscape and sunrise. No serpent imagery anywhere on head; no text.",
+    "depicted_variant": "Editorial clothed humanlike goddess with papyrus landscape.",
+    "basis_claim_ids": [
+      "wadjet-c01",
+      "wadjet-c03",
+      "wadjet-c04",
+      "wadjet-c06"
+    ],
+    "visual_requirements": [
+      "Protective Egyptian goddess presence (wadjet-c01,c04)",
+      "Papyrus landscape and planting association (wadjet-c03,c06)",
+      "No unsupported cobra iconography or emitted attacks"
+    ],
+    "aura": "Natural papyrus riverbank sunrise, protection through majestic composition.",
+    "artistic_choices": [
+      "Research lacks physical form; modest ordinary woman explicitly editorial. Did not import familiar cobra anatomy without claim support.",
+      "Rejected first attempt kept at rejected/wadjet-attempt-1.png for unsupported cobra emblem, replaced with plain oval jewel using built-in edit."
+    ],
+    "visual_review": {
+      "verdict": "pass",
+      "notes": "Native edit viewed: unsupported cobra ornament removed, one modest clothed two-arm woman with papyrus river landscape, no invented effects.",
+      "reviewer": "codex",
+      "native_sha256": "cb1abc150da40ba1bdbd9ba7aefd810a8ad1013139376f04abb7b8a6787fad31"
+    },
+    "generated_file": "/home/asadin/.codex/generated_images/01a11024-55c8-7c93-8727-a166e5328535/exec-8d55b4cb-3235-4998-b339-b14c42d7498e.png",
+    "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/wadjet.png",
+    "native_sha256": "cb1abc150da40ba1bdbd9ba7aefd810a8ad1013139376f04abb7b8a6787fad31",
+    "worker": "codex",
+    "tool": "OpenAI built-in image_gen",
+    "status": "needs-correction",
+    "review_path": "data/gemini/reviews/batch-077.review.json",
+    "reviewed_at": "2026-10-06T08:32:23.171301+00:00",
+    "root_visual_review": {
+      "verdict": "reject",
+      "reviewer": "claude",
+      "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+      "native_sha256": "cb1abc150da40ba1bdbd9ba7aefd810a8ad1013139376f04abb7b8a6787fad31",
+      "notes": "Ordinary woman by the Nile."
+    },
+    "correction_notes": "Ordinary woman by the Nile."
+  }
+}

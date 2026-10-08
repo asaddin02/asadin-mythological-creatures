@@ -1,48 +1,88 @@
 {
   "slug": "neith",
-  "prompt": "NEITH, Egyptian goddess: ONE fully clothed adult HUMAN woman, ONE head TWO arms, wearing unmistakable Lower Egypt RED CROWN with tall red asymmetric deshret and front curl (neith-c08). Holds ONE curved BOW in one hand and ONE ordinary ARROW in other, quiver on back. NO SHIELD ANYWHERE, no crossed-symbol emblem, no extra weapons. Fully opaque white-red linen gown, poised protective martial presence above vast Nile delta Sais rampart, tiny town/temples far below, low camera, golden natural sun against sapphire sky. No weapon glow, wings, extra limbs, text, glyphs, watermark, border or nudity. Original square premium monumental painterly Mythics artwork.",
-  "depicted_variant": "Red-Crowned human Neith with bow and arrows.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of NEITH, Egyptian goddess of warfare and motherhood.\nANATOMY: one fully clothed adult female deity, one human head, two eyes, exactly two arms and two legs; unmistakable tall RED CROWN of Lower Egypt with asymmetric rear spike and curling front wire. Opaque layered ivory linen and dark red mantle. ONE bow and ONE arrow, normal fingers, no shield. [neith-c01, neith-c08]\nMOMENT: Draw the bow taut straight past the viewer's shoulder, front fist foreshortened close to the lens and rear hand at her cheek; stern eyes looking down toward the viewer. Her face and enormous bow dominate the picture; cloth whips from the motion.\nPOWER: no documented elemental power; awe through imposing divine iconography, close framing, tension of the drawn bow, and extreme low perspective only. [neith-c11]\nSCALE & CAMERA: extreme low angle, very tight waist-up crop filling 90 percent of the image; crown fully visible near top edge, arrow and bow limbs clearly readable. Do not depict an ordinary woman posing at normal distance. No giant literal body or tiny human scale comparison needed.\nLIGHT & WEATHER: a single hard shaft of low amber sunset side light on crown, face and bow; deep walnut-black shadows, airborne ordinary dry dust.\nSURFACE: rough woven linen, worn red crown lacquer, strained bow wood, aged bronze fittings.\nSETTING: Sais in Nile Delta, only fragments of its shadowed stone sanctuary behind her. [neith-c06]\nMOOD: awe-inspiring sacred martial authority, tense and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no magic arrow glow, no glyphs.",
+  "depicted_variant": "Neith in documented Red Crown, pulling bow taut in an imposing close low-angle confrontation.",
   "basis_claim_ids": [
     "neith-c01",
     "neith-c08",
-    "neith-c11"
+    "neith-c11",
+    "neith-c06"
   ],
   "visual_requirements": [
-    "Human woman with Lower Egypt Red Crown, bow and arrows — neith-c08.",
-    "One head two arms, no shield emblem or extra weapons."
+    {
+      "kind": "anatomy",
+      "description": "Human female Neith with Lower Egypt Red Crown, bow and arrow.",
+      "claim_ids": [
+        "neith-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magical emission; martial tension shown by drawing documented bow.",
+      "claim_ids": [
+        "neith-c01",
+        "neith-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Shadowed Sais stone sanctuary staging.",
+      "claim_ids": [
+        "neith-c06"
+      ]
+    }
   ],
-  "aura": "Martial protective stance and natural cinematic light; no documented elemental emission.",
+  "aura": "Martial authority from Red Crown and drawn bow (neith-c08, neith-c11), with no magical emission.",
   "artistic_choices": [
-    "Clothing, weapon construction, quiver, landscape, apparent scale and natural light are editorial staging."
+    "Low close framing creates apparent grandeur without asserting a giant body.",
+    "Opaque linen, sunset palette, worn materials and bow-drawing motion are editorial staging of the documented martial attributes.",
+    "No physical elemental effect documented or added."
   ],
   "visual_review": {
-    "notes": "Viewed replacement native: fully robed woman with exactly one head/two arms, correct Red Crown, one ordinary bow and one arrow plus quiver; no shield or faulty crossed-bow emblem. Tiny Nile delta buildings and natural golden light create grandeur. First attempt preserved rejected. No weapon glow, wings, text or watermark.",
     "reviewer": "codex",
     "verdict": "pass",
-    "native_sha256": "7c54826e1bbdd40b932d382df95c54e12051a8c11afe7ae0df2810b256cf886d",
-    "reviewed_at": "2026-10-06T09:13:09.260814+00:00"
+    "notes": "Native PNG inspected: Neith fills frame, Red Crown and drawn bow remain readable, two arms and one arrow, opaque garment. Very low perspective, foreshortened fist and taut bow produce confronting martial action. No power effect, extra anatomy, text, watermark or copied design. All seven Uji Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "b6f2c4f2caf180da4985545cf8216805d65c45e1d07997f51d9a4b2622faf804",
+    "reviewed_at": "2026-10-08T03:56:26.291479+00:00"
   },
   "rejected_attempts": [
     {
       "original_file": "data/artwork-generated/batch-1055/rejected/neith-attempt-01.png",
       "receipt_file": "data/artwork-generated/batch-1055/rejected/neith-attempt-01.json",
-      "reason": "Crossed bows emblem generated as bow and arrow. Regenerated simple Red-Crown bow/arrow c08 variant without shield."
+      "reason": "Crossed bows emblem generated as bow and arrow. Regenerated simple Red-Crown bow/arrow c08 variant without shield.",
+      "native_sha256": "c24fdb34decdda9b914463abce9ec56e461cd82b8e3d832fca764023e8da3722"
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1055/rejected/neith-attempt-02.png",
+      "native_sha256": "7c54826e1bbdd40b932d382df95c54e12051a8c11afe7ae0df2810b256cf886d",
+      "reason": "Ordinary woman archer.",
+      "receipt_file": "data/artwork-generated/batch-1055/rejected/neith-attempt-02.json"
     }
   ],
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-371c-7680-935d-9da18174a957/exec-79296fdd-9611-4432-a1cb-fc1b86a853ef.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/neith.png",
-  "native_sha256": "7c54826e1bbdd40b932d382df95c54e12051a8c11afe7ae0df2810b256cf886d",
-  "status": "needs-correction",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-9949-75d3-9b67-7f8980960be5/exec-dc38ac05-d826-44dd-b699-1a2c3cc2170e.png",
+  "original_file": "data/artwork-generated/batch-1055/originals/neith.png",
+  "native_sha256": "b6f2c4f2caf180da4985545cf8216805d65c45e1d07997f51d9a4b2622faf804",
+  "status": "reviewed",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
   "review_path": "data/gemini/reviews/batch-077.review.json",
-  "reviewed_at": "2026-10-06T09:13:09.260814+00:00",
+  "reviewed_at": "2026-10-08T04:30:26.950Z",
+  "worker_agent": "lane_1055_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1055,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T03:56:26.291479+00:00",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "7c54826e1bbdd40b932d382df95c54e12051a8c11afe7ae0df2810b256cf886d",
-    "notes": "Ordinary woman archer."
-  },
-  "correction_notes": "Ordinary woman archer."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "b6f2c4f2caf180da4985545cf8216805d65c45e1d07997f51d9a4b2622faf804",
+    "notes": "Neith in the Red Crown draws a bow with arrow toward the viewer before the Sais temple; martial and dominant, no legible text."
+  }
 }

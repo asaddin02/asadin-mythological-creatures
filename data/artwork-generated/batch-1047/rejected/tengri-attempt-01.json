@@ -1,0 +1,46 @@
+{
+  "original_file": "data/artwork-generated/batch-1047/rejected/tengri-attempt-01.png",
+  "native_sha256": "2f5ce0550c917c55ef1525174c58ed5b23dd09033833a42c6731235f4aabcf5a",
+  "prompt": "Use case: stylized-concept. Square premium Mythics painterly illustration, monumental low viewpoint, tiny environmental scale references, cinematic natural lighting, rich brush texture, strong silhouette, no text, logo, watermark, border, gore, nudity or film/game/anime imitation. Respectfully depict TENGRI as the vast clear blue heaven above the brown earth (tengri-c02,c06,c08), a cosmic landscape with no invented anthropomorphic body or face. Boundless intensely azure sky occupies most of the image, monumental sunlit cloud vault over tiny windswept steppe mountains and encampment. Convey deity's immense presence through the scale of the sky, its depth and natural light. No thunderbolt, no creature, no eagle, no magical runes or invented energy beams.",
+  "reason": "Only a calm sky over a steppe; no sense of a supreme sky god's power.",
+  "old_receipt": {
+    "slug": "tengri",
+    "prompt": "Use case: stylized-concept. Square premium Mythics painterly illustration, monumental low viewpoint, tiny environmental scale references, cinematic natural lighting, rich brush texture, strong silhouette, no text, logo, watermark, border, gore, nudity or film/game/anime imitation. Respectfully depict TENGRI as the vast clear blue heaven above the brown earth (tengri-c02,c06,c08), a cosmic landscape with no invented anthropomorphic body or face. Boundless intensely azure sky occupies most of the image, monumental sunlit cloud vault over tiny windswept steppe mountains and encampment. Convey deity's immense presence through the scale of the sky, its depth and natural light. No thunderbolt, no creature, no eagle, no magical runes or invented energy beams.",
+    "depicted_variant": "Aniconic clear blue Heaven over brown earth.",
+    "basis_claim_ids": [
+      "tengri-c02",
+      "tengri-c06",
+      "tengri-c08"
+    ],
+    "visual_requirements": [
+      "Vast clear blue sky, brown steppe earth (tengri-c02,c06,c08)",
+      "No invented bodily form or storm power"
+    ],
+    "aura": "Clear blue cosmic heaven, natural cloud light (tengri-c02).",
+    "artistic_choices": [
+      "No anatomy is documented; selected aniconic landscape instead of inventing a humanoid form."
+    ],
+    "visual_review": {
+      "verdict": "pass",
+      "notes": "Native viewed: vast clear blue cloud heaven over brown steppe with tiny yurts; no invented body or energy effects.",
+      "reviewer": "codex",
+      "native_sha256": "2f5ce0550c917c55ef1525174c58ed5b23dd09033833a42c6731235f4aabcf5a"
+    },
+    "generated_file": "/home/asadin/.codex/generated_images/01a11024-55c8-7c93-8727-a166e5328535/exec-f87507b4-d3e4-447d-8a2c-d41152453007.png",
+    "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/tengri.png",
+    "native_sha256": "2f5ce0550c917c55ef1525174c58ed5b23dd09033833a42c6731235f4aabcf5a",
+    "worker": "codex",
+    "tool": "OpenAI built-in image_gen",
+    "status": "needs-correction",
+    "review_path": "data/gemini/reviews/batch-066.review.json",
+    "reviewed_at": "2026-10-06T07:47:03.918584+00:00",
+    "root_visual_review": {
+      "verdict": "reject",
+      "reviewer": "claude",
+      "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+      "native_sha256": "2f5ce0550c917c55ef1525174c58ed5b23dd09033833a42c6731235f4aabcf5a",
+      "notes": "Only a calm sky over a steppe; no sense of a supreme sky god's power."
+    },
+    "correction_notes": "Only a calm sky over a steppe; no sense of a supreme sky god's power."
+  }
+}

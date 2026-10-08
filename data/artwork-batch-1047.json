@@ -12,7 +12,7 @@
     "bukan-makhluk": 127
   },
   "status": "in-progress",
-  "complete": 29,
+  "complete": 34,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -1024,7 +1024,7 @@
       "slug": "tengri",
       "canonical_name": "Tengri",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "tidak-digambar",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-066.review.json",
       "research": {
@@ -1333,8 +1333,8 @@
         "tengri-c07"
       ],
       "receipt": "data/artwork-generated/batch-1047/tengri.json",
-      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/tengri.png",
-      "native_sha256": "2f5ce0550c917c55ef1525174c58ed5b23dd09033833a42c6731235f4aabcf5a"
+      "receipt_path": "data/artwork-generated/batch-1047/tengri.json",
+      "reason": "Klaim tengri-c02/c06 mendokumentasikan langit biru dan c03 pencipta bumi, tetapi tidak mendokumentasikan rupa tubuh atau mekanisme manifestasi aktif seperti badai, langit terbelah, petir, atau bumi terangkat. Mengulang lanskap tenang menjawab penolakan dengan buruk; mengarang dewa berjubah atau efek penghancuran melampaui klaim. Ditahan sesuai §6.5 sampai riset menyediakan manifestasi/wujud yang dapat digambar."
     },
     {
       "index": 5,
@@ -1576,7 +1576,7 @@
       "slug": "seshat",
       "canonical_name": "Seshat",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-077.review.json",
       "research": {
@@ -1781,7 +1781,55 @@
       ],
       "receipt": "data/artwork-generated/batch-1047/seshat.json",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/seshat.png",
-      "native_sha256": "438683da191926ef7a6122ce756a0e60a7d0b6d2aa8913f55b22717a73b8908c"
+      "native_sha256": "87cfa7d2dc69b2065728c03f06db73eeb99b75dd0e6ef1c3bf0c82a2c10a9ff6",
+      "receipt_path": "data/artwork-generated/batch-1047/seshat.json",
+      "url": "/assets/art/seshat-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of SESHAT, the Egyptian Lady of Builders and goddess of measurements, conducting the stretching-the-cord foundation ritual.\nANATOMY: one WOMAN, one head, exactly two ordinary arms and two legs beneath fully opaque long linen clothing; a leopard-skin mantle over the fully covered robe; seven-pointed gold emblem above head on headband: ONE vertical top ray and exactly THREE rays spreading to each side, total SEVEN, no bottom ray. Emblem as broad as head and sharply readable. [seshat-c05]\nMOMENT: hauling a measuring cord taut toward viewer, upper body leaning forward, two hands pulling the thick line, direct stern downward gaze; ritual action at temple foundation, never quietly posing. [seshat-c03]\nPOWER: no documented emitted attack or spell; authority through Lady of Builders' ritual control, emblem and imposing perspective only. [seshat-c02,seshat-c04]\nSCALE & CAMERA: extreme low-angle close three-quarter portrait; woman fills four fifths of square; foreshortened hands and cord cross immediate foreground, head and seven-pointed emblem against dark sky; no tiny humans, no literal giant.\nLIGHT & WEATHER: one hard amber side light skimming face, gold emblem and leopard mantle; deep walnut shadow, airborne natural construction dust.\nSURFACE: rough linen, weathered cord fibers, coarse leopard-skin texture, worn limestone.\nSETTING: Egyptian building foundation blocks and sparse columns, contextual ritual setting inferred from Lady of Builders and foundation measurement. [seshat-c03,seshat-c04]\nMOOD: divine scholarly authority, commanding and awe-inspiring, never an ordinary worker, cute, calm or decorative.\nHARD CONSTRAINTS: exactly seven emblem rays, no solar disk; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; no nudity or gore; no glowing aura, floating rune, neon outline or energy ribbons.",
+      "depicted_variant": "Seven-pointed-emblem woman in leopard-skin mantle and opaque linen, actively stretching the measuring cord at foundation blocks.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Female depiction with exactly seven-pointed head emblem and leopard-skin dress/mantle over opaque robe, from exact c05 quote.",
+          "claim_ids": [
+            "seshat-c05"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Active stretching-the-cord ritual; no source-supported emitted power is present.",
+          "claim_ids": [
+            "seshat-c02",
+            "seshat-c03",
+            "seshat-c04"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Builder/foundation ritual environment, limestone blocks editorial interpretation rather than a specific claimed temple.",
+          "claim_ids": [
+            "seshat-c03",
+            "seshat-c04"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "seshat-c02",
+        "seshat-c03",
+        "seshat-c04",
+        "seshat-c05"
+      ],
+      "aura": "Authority of Lady of Builders (seshat-c04) through forceful foreground cord ritual (seshat-c03), seven-pointed emblem and leopard mantle (seshat-c05); natural lighting, no emitted powers.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native PNG inspected: one covered woman, two hands actively stretch foreground cord, clear commanding low-angle gaze; seven-point emblem counted as central ray plus three each side, leopard mantle over opaque linen. No generic aura, emitted magic, readable text, frame or borrowed design. Close monumental presence resolves ordinary distant worker composition.",
+        "limitations": [],
+        "native_sha256": "87cfa7d2dc69b2065728c03f06db73eeb99b75dd0e6ef1c3bf0c82a2c10a9ff6",
+        "reviewed_at": "2026-10-08T03:59:31.310268+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cc3c3c79879db38b9cc45a7936426d4246a92ea90b0d42536bacb678b80fe5d0"
     },
     {
       "index": 7,
@@ -5167,7 +5215,7 @@
       "slug": "serket",
       "canonical_name": "Serket",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-077.review.json",
       "research": {
@@ -5371,7 +5419,52 @@
       ],
       "receipt": "data/artwork-generated/batch-1047/serket.json",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/serket.png",
-      "native_sha256": "4bdda07a34d5b003cb7bc957376d52e66fde3f01e45cdee4752ae37036dd189c"
+      "native_sha256": "ebf8ec8bf815484cd9e0f1ec6b95d5ec48054a58123a39dc3fba2c3090961c81",
+      "receipt_path": "data/artwork-generated/batch-1047/serket.json",
+      "url": "/assets/art/serket-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of SERKET, the Egyptian protective goddess who binds and contains the snake deity Apep, guarding the turn of the underworld path.\nANATOMY: one fully clothed WOMAN, one human head, exactly TWO arms and TWO legs under an opaque floor-length linen robe, covered chest and shoulders; ONE distinct realistic SCORPION atop her head as clearly readable emblem, large spread pincers and a hooked tail above the crown of her head. One hand holds a large ANKH, the other hand grips a WAS-SCEPTRE. No scorpion hybrid body. [serket-c02]\nMOMENT: bracing forward toward the viewer as she contains ONE dark serpent across the stone path at her feet, the was-sceptre presses down on the serpent's coiled body, her ankh lifted boldly, fierce protective downward gaze. The serpent struggles within tight coils beneath her authority. [serket-c05]\nPOWER: documented binding/containment of Apep represented physically by held-down serpent, not glowing bonds, rays or invented magic. She guards the pathway bend and funerary canopic vessels. [serket-c04,serket-c05]\nSCALE & CAMERA: extreme low angle near the path; goddess fills four fifths of frame, head and oversized perspective emblem clearly readable against dark vault; held ankh and sceptre unmistakable foreground silhouettes; no tiny humans, no claim of literal giant size.\nLIGHT & WEATHER: one low architectural amber brazier casts sharp rim light across face, scorpion and hands; black shadows, natural dust, underworld darkness.\nSURFACE: creased opaque linen, tarnished gold ankh, worn dark staff, rough stone and matte snake scales.\nSETTING: bend in underworld stone pathway with a few distant canopic vessels. [serket-c04,serket-c05]\nMOOD: formidable divine protector, controlling dangerous serpent, awe-inspiring and unyielding, never a calm ordinary woman or monster goddess.\nHARD CONSTRAINTS: one human head, two arms, single scorpion on head, one serpent below; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; no nudity or gore; no generic glow aura, neon outline, energy ribbons or venom lasers.\nTARGETED CONSTRAINT: all clothing is COMPLETELY UNDECORATED plain ivory linen, simple uninscribed gold cuffs, absolutely NO sash, symbols, glyph-like motifs, embroidery or writing. Architecture is plain uninscribed stone with no carved wall reliefs. Keep the two-arm protective action, scorpion, ankh, was-sceptre and contained serpent.",
+      "depicted_variant": "Woman with scorpion, ankh and was-sceptre physically containing Apep at the underworld path bend.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Woman with scorpion on head, ankh in one hand and was-sceptre in the other, opaque clothing.",
+          "claim_ids": [
+            "serket-c02"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Physical containment of the snake deity Apep, explicitly documented in exact quote c05; no invented emitted spell.",
+          "claim_ids": [
+            "serket-c05"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Underworld pathway bend and canopic vessels reflect guardian and funerary roles.",
+          "claim_ids": [
+            "serket-c04",
+            "serket-c05"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "serket-c02",
+        "serket-c04",
+        "serket-c05"
+      ],
+      "aura": "Formidable containment of serpent Apep and path guarding (serket-c05), clear scorpion/ankh/was-sceptre (serket-c02) and funerary role (serket-c04); natural brazier lighting rather than emitted spells.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native inspected: one covered two-arm woman, one scorpion atop head with two pincers and curled tail, clear ankh and was-sceptre in separate hands; staff contains one coiled snake, one snake head. Active containment and extreme low camera give awe at thumbnail. Plain cloth/stone has no pseudo-writing, no text/aura/gore. First attempt retained for lettering failure.",
+        "limitations": [],
+        "native_sha256": "ebf8ec8bf815484cd9e0f1ec6b95d5ec48054a58123a39dc3fba2c3090961c81",
+        "reviewed_at": "2026-10-08T04:02:45.694001+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0079553e2585f4cb47289b7cb4c9c09d8cf9321e1a9dfb315ba5f3340a58455a"
     },
     {
       "index": 21,
@@ -6186,7 +6279,7 @@
       "slug": "wadjet",
       "canonical_name": "Wadjet",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-077.review.json",
       "research": {
@@ -6389,7 +6482,55 @@
         "wadjet-c02"
       ],
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/wadjet.png",
-      "native_sha256": "cb1abc150da40ba1bdbd9ba7aefd810a8ad1013139376f04abb7b8a6787fad31"
+      "native_sha256": "755bed2f449771fcd67281554eb39194ff952d160cc17eac863fba08994e3e8f",
+      "receipt_path": "data/artwork-generated/batch-1047/wadjet.json",
+      "url": "/assets/art/wadjet-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of WADJET, the Egyptian protective goddess in her documented living cobra form, defending the papyrus swamps of the Nile Delta.\nANATOMY: exactly ONE living cobra, one head, two eyes, hood fully spread, one long tapering coiled body, no legs, arms, wings, crown or humanoid body. This is the source-backed cobra form, not an ordinary woman. [wadjet-c03,wadjet-c04]\nMOMENT: rising violently from the papyrus water, broad hood thrusting toward the viewer, head angled down toward camera, mouth opening in a fierce defensive threat; water breaks around her coils.\nPOWER: protective presence and physical serpent motion, water splash from moving body; no claimed venom beam, fire or emitted magic. [wadjet-c04,wadjet-c05]\nSCALE & CAMERA: camera at water level looking upward into a very close hood and head filling two thirds of the square, foreground coils occupying lower frame; awe through crop and perspective, no humans or unsupported giant scale.\nLIGHT & WEATHER: single low amber sunset sidelighting the hood, deep walnut shadows, sharp golden rim; dark stormlike ambient sky only scenery.\nSURFACE: real wet olive-brown cobra scales, rough papyrus stems, muddy water and physically splashing droplets.\nSETTING: Nile Delta papyrus swamp of the Horus protection story. [wadjet-c05,wadjet-c06]\nMOOD: fierce divine protector, awe-inspiring and dangerous to intruders; never cute, calm, decorative or an ordinary snake documentary photo.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or eyes; no film, game, anime or comic design; no nudity or gore; no generic glow aura, neon outline, flames or energy ribbons.",
+      "depicted_variant": "Source-backed cobra form, rearing defensively from Nile Delta papyrus water.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One living cobra as Wadjet's directly documented cobra form, no female human body or invented crown.",
+          "claim_ids": [
+            "wadjet-c03",
+            "wadjet-c04"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Defensive cobra action as protector; water splash caused by physical movement, no emitted powers.",
+          "claim_ids": [
+            "wadjet-c04",
+            "wadjet-c05"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Nile Delta papyrus swamps from Horus protection and papyrus planting accounts.",
+          "claim_ids": [
+            "wadjet-c05",
+            "wadjet-c06"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "wadjet-c03",
+        "wadjet-c04",
+        "wadjet-c05",
+        "wadjet-c06"
+      ],
+      "aura": "Cobra protective form (wadjet-c04) dominates through close water-level framing and physically disturbed water in documented Nile Delta habitat (wadjet-c05/c06), without emitted magic.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Viewed native PNG: one living cobra with one head, two eyes, expanded hood, coherent serpentine coils and no limbs, lunging defensive open mouth fills image; wet papyrus water splashes physically. Clear fierce presence at thumbnail, no human, invented crown, aura, text or gore.",
+        "limitations": [],
+        "native_sha256": "755bed2f449771fcd67281554eb39194ff952d160cc17eac863fba08994e3e8f",
+        "reviewed_at": "2026-10-08T03:57:56.706124+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4949686443bdcc15d845adf97f2fd624c8d1a4fa8f53c0ee2696da7bf9d9fa4a"
     },
     {
       "index": 25,
@@ -6860,7 +7001,7 @@
       "slug": "anahita",
       "canonical_name": "Anahita",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "tidak-digambar",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-079.review.json",
       "research": {
@@ -7060,8 +7201,8 @@
         ]
       },
       "selection_visual_claim_ids": [],
-      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/anahita.png",
-      "native_sha256": "82725f655162857f7278d4e6a96899b5530902438386f5840f881a1d13e7a8bf"
+      "receipt_path": "data/artwork-generated/batch-1047/anahita.json",
+      "reason": "anahita-c01/c04 hanya identitas dewi serta fertility/procreation/wisdom; c05 kuil di aliran air dan c06 hewan suci, tanpa rupa, atribut tubuh, pakaian ikonografis atau tindakan kuasa konkret. Tubuh perempuan monumental, banjir, atau pancaran kesuburan akan dikarang; kuil/hewan saja mengulang absennya subjek."
     },
     {
       "index": 28,
@@ -7291,7 +7432,7 @@
       "slug": "ennead",
       "canonical_name": "Ennead",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "tidak-digambar",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-077.review.json",
       "research": {
@@ -7491,8 +7632,8 @@
         ]
       },
       "selection_visual_claim_ids": [],
-      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/ennead.png",
-      "native_sha256": "3b3265e7b35958c993d711e52fd76a5f9948c7b28a0cb0e60d1721f11def0308"
+      "receipt_path": "data/artwork-generated/batch-1047/ennead.json",
+      "reason": "ennead-c01/c02 memberi sembilan nama dan genealogi, serta Atum sebagai dewa matahari; c06 tindakan penghakiman Set/Horus. Tidak ada klaim anatomi/atribut masing-masing Atum, Shu, Tefnut, Geb, Nut, Osiris, Isis, Set, Nephthys. Sembilan tubuh manusia tanpa ciri mengulang gambar orang biasa yang ditolak; mengganti dengan kepala singa/hewan, mahkota, senjata atau atribut dewa dari luar riset dilarang. Perlu ikonografi sembilan anggota agar §6.5 kelompok dapat dipenuhi."
     },
     {
       "index": 30,
@@ -7731,7 +7872,7 @@
       "slug": "inari",
       "canonical_name": "Inari",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "tidak-digambar",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-049.review.json",
       "research": {
@@ -7952,15 +8093,15 @@
         ]
       },
       "selection_visual_claim_ids": [],
-      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/inari.png",
-      "native_sha256": "bc16f125ced5ceaf069ed18b302c284a6017ee8af2f8be94353b5bad1f80c806"
+      "receipt_path": "data/artwork-generated/batch-1047/inari.json",
+      "reason": "inari-c01/c06 mendokumentasikan ranah padi, biji-bijian, kemakmuran dan memancing; c05 hanya asosiasi rubah, tidak menyatakan Inari berwujud rubah. c04 lima dewa perwujudan kebajikan juga tanpa ikonografi. Mengarang tubuh kami atau menjadikan rubah sebagai Inari tidak ditopang klaim; lanskap/torii/patung saja sudah ditolak."
     },
     {
       "index": 32,
       "slug": "karna",
       "canonical_name": "Karṇa",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-072.review.json",
       "research": {
@@ -8195,14 +8336,62 @@
       },
       "selection_visual_claim_ids": [],
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/karna.png",
-      "native_sha256": "40333a42a7964e355021d56e3c2144498e2b0f2ac3862982c5e4e6a080e3cb6e"
+      "native_sha256": "c5bcf90f11d962a5c242a1e66c68ff12603e690a0a4d5534495f1876a5327255",
+      "receipt_path": "data/artwork-generated/batch-1047/karna.json",
+      "url": "/assets/art/karna-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of KARNA, the heroic warrior and king of Anga from the Mahabharata, with the documented golden earrings of Surya.\nANATOMY: one human male warrior, one head, two eyes, exactly TWO ordinary arms and TWO legs, wearing fully opaque layered ancient South Asian battle clothing and plain practical protective armor. A pair of large clearly GOLDEN EARRINGS, one at each ear, no glowing magic jewelry. [karna-c03,karna-c04,karna-c05]\nMOMENT: charging forward into battle toward the viewer, head lowered with fierce focused downward gaze, one clenched fist driving forward, the other arm thrown backward, strong upper body twisting with momentum; no passive pose. [karna-c04]\nPOWER: no documented supernatural attack or specific weapon; immense heroic presence through fierce action, armor texture, dust and close camera only. Son of the sun god does not imply emitted solar power. [karna-c01,karna-c04]\nSCALE & CAMERA: extreme low-angle close three-quarter portrait, shoulders and face fill most of square, golden earrings both clearly visible at thumbnail, foreground fist foreshortened; ordinary human bodily size, no tiny people.\nLIGHT & WEATHER: one harsh warm sunrise sidelight, deep shadow, airborne natural battle dust; dramatic but no halo, aura or flames.\nSURFACE: weathered plain bronze protective plates, rough cloth, worn gold earrings, sweat and gritty dust.\nSETTING: smoky-dusty battlefield of the Kurukshetra war, no visible combatants needed. [karna-c04]\nMOOD: noble, awe-inspiring, dangerous battlefield resolve, respectful epic hero; never calm ordinary soldier or monster.\nHARD CONSTRAINTS: no bow, sword, invented magical armor, solar disk, sunfire or magic powers; no readable patterns, text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; no nudity or gore; no generic glow aura, neon outline or energy ribbons.",
+      "depicted_variant": "Human epic warrior charging into Kurukshetra combat with two conspicuous golden earrings, no supernatural attack.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Human male warrior/king with pair of clearly golden earrings explicitly documented in c05, ordinary human anatomy and opaque attire.",
+          "claim_ids": [
+            "karna-c03",
+            "karna-c04",
+            "karna-c05"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Active battlefield charge, physical motion and environmental dust; no source-supported supernatural emitted effect.",
+          "claim_ids": [
+            "karna-c01",
+            "karna-c04"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Kurukshetra battlefield from c04, no unsupported specific weapon.",
+          "claim_ids": [
+            "karna-c04"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "karna-c01",
+        "karna-c03",
+        "karna-c04",
+        "karna-c05"
+      ],
+      "aura": "Heroic fierce battlefield action (karna-c04), source-backed golden earrings (karna-c05), close foreshortening and natural dawn/dust; Surya parentage (karna-c01) is not represented as emitted solar power.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native inspected: one human hero with two arms, foreground clenched fist and back clenched fist, covered torso, coherent lower clothing, two clear large golden earrings. Forceful charge, wind/dust and fierce direct gaze dominate thumbnail, resolving passive ordinary soldier issue. No held unsupported weapon, solar attack, aura, text, watermark or gore.",
+        "limitations": [],
+        "native_sha256": "c5bcf90f11d962a5c242a1e66c68ff12603e690a0a4d5534495f1876a5327255",
+        "reviewed_at": "2026-10-08T04:06:48.584589+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "07a9a11240c78987544d0706917ceca7782e1bd38d354af65c45f2244e4c8450"
     },
     {
       "index": 33,
       "slug": "manat",
       "canonical_name": "Manāt",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "tidak-digambar",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-079.review.json",
       "research": {
@@ -8402,8 +8591,8 @@
         ]
       },
       "selection_visual_claim_ids": [],
-      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/manat.png",
-      "native_sha256": "c700db413537c4e05e9aee6eb55381837e73207d08c678eb2de41261f5119ffd"
+      "receipt_path": "data/artwork-generated/batch-1047/manat.json",
+      "reason": "manat-c01/c02 identitas dewi nasib, waktu dan takdir; c03 lokasi kuil pesisir serta c05 keberadaan idolanya, tanpa bentuk tubuh/idola atau manifestasi kuasa yang terlihat. Batu saja telah ditolak, sedangkan tubuh dewi atau efek manipulasi waktu/takdir akan dikarang."
     },
     {
       "index": 34,
@@ -10314,7 +10503,7 @@
       "slug": "tammuz",
       "canonical_name": "Tammuz",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "tidak-digambar",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-079.review.json",
       "research": {
@@ -10514,8 +10703,8 @@
         ]
       },
       "selection_visual_claim_ids": [],
-      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/tammuz.png",
-      "native_sha256": "aac4aa2a9f13c892cd64c9818d616b46d10aad133cdc9def6e1b11ffe71fde11"
+      "receipt_path": "data/artwork-generated/batch-1047/tammuz.json",
+      "reason": "tammuz-c01 ranah pertanian/gembala dan c05/c06 tinggal bergantian di underworld, tanpa wujud, pakaian, atribut atau tindakan kuasa. Tubuh dewa monumental/gembala manusia, pertumbuhan tanaman magis atau kemunculan tubuh dari gua tidak terdokumentasi. Lanskap ladang/gua saja mengulang subjek absen."
     },
     {
       "index": 41,
@@ -10757,7 +10946,7 @@
       "slug": "yokai",
       "canonical_name": "Yōkai",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": false,
       "review_path": "data/gemini/reviews/batch-049.review.json",
       "research": {
@@ -10982,7 +11171,54 @@
       ],
       "catatan_sebelumnya": "Broad category without a specific visual exemplar documented in this research.",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/yokai.png",
-      "native_sha256": "bd07e17a1939a61bf0420dba03248af535d12a0aa4688b13a1c3098c9f5bbfb5"
+      "native_sha256": "76b79c396c7643c1077b4172088b6324295ef6c353ab670ad28c528afb7fd2d9",
+      "receipt_path": "data/artwork-generated/batch-1047/yokai.json",
+      "url": "/assets/art/yokai-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of YŌKAI, one representative three-eyed humanlike supernatural being from Japanese folklore, never a canonical body for the whole category.\nANATOMY: one humanlike head, exactly THREE LARGE OPEN EYES: two normal horizontal eyes and a very obvious THIRD EYE centered vertically on the bare forehead, all three eyes equally lifelike, wet and sharply focused; exactly two ordinary arms and legs; one fully opaque plain dark robe, covered chest. No horns, wings, claws, fangs or elongated neck. [yokai-c04]\nMOMENT: lunging directly toward the viewer, head lowered, all THREE eyes looking down into camera, one hand reaching out of dark cloth toward the foreground, lips tense, unsettling confrontational stare.\nPOWER: no documented emitted power; menace only through the source-backed impossible third eye and close-up confrontation. [yokai-c01,yokai-c04,yokai-c06]\nSCALE & CAMERA: extreme low-angle close portrait from upper chest to forehead; the head fills two thirds of the square; all three eyes legible at 200-pixel thumbnail; ordinary human bodily size, no tiny human scale references.\nLIGHT & WEATHER: one hard warm light from below, deep near-black shadow backdrop, strong chiaroscuro; never a peaceful portrait.\nSURFACE: rough woven dark cloth, real weathered skin and wet eyes, brush texture.\nSETTING: spare abstract darkness as editorial portrait backdrop within Japanese folklore context. [yokai-c02]\nMOOD: uncanny, dangerous, imposing, never cute, calm, decorative or ordinary.\nHARD CONSTRAINTS: EXACTLY THREE open eyes, no extra heads, limbs, fingers, no text, lettering, logo, border, frame or watermark; no film, game, anime or comic design; no nudity or gore; no generic glow aura, eye lasers, neon outline or energy ribbons.",
+      "depicted_variant": "Close confrontational portrait of one representative three-eyed humanlike yōkai; no canonical body for whole category.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Representative humanlike variant with exactly three plainly visible eyes, from exact source quote; not canonical anatomy of all yōkai.",
+          "claim_ids": [
+            "yokai-c04"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "No emitted power; fear conveyed by the source-backed altered-human anatomy and confrontational framing.",
+          "claim_ids": [
+            "yokai-c01",
+            "yokai-c04",
+            "yokai-c06"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Japanese folklore portrait; dark abstract background is editorial, no asserted habitat.",
+          "claim_ids": [
+            "yokai-c02"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "yokai-c01",
+        "yokai-c02",
+        "yokai-c04",
+        "yokai-c06"
+      ],
+      "aura": "Uncanny source-backed three-eye anatomy (yokai-c04) and remembered fear (yokai-c06), with low-angle close framing and natural underlighting; no emitted power.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native 1254-square PNG inspected: head dominates, three large open eyes clearly visible, one head and coherent reaching hand, opaque dark robe; confrontational forward action and low lighting feel uncanny even at thumbnail size. No emitted power, text, watermark, frame or borrowed media design; previous barely-visible-eye issue resolved.",
+        "limitations": [],
+        "native_sha256": "76b79c396c7643c1077b4172088b6324295ef6c353ab670ad28c528afb7fd2d9",
+        "reviewed_at": "2026-10-08T03:55:48.132426+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "99362405a847d7b36fc609512ff0c941d1e69fb71d2f25b212e871999020b316"
     }
   ],
   "replacements": [],

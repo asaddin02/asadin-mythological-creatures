@@ -1,43 +1,85 @@
 {
   "slug": "seshat",
-  "prompt": "Use case: stylized-concept. Square premium Mythics painterly illustration, monumental low viewpoint, tiny environmental scale references, cinematic natural lighting, rich brush texture, strong silhouette, no text, logo, watermark, border, gore, nudity or film/game/anime imitation. SESHAT, majestic Egyptian goddess of writing, books and measurements (seshat-c01,c02), one respectfully clothed woman with one head two arms, long modest linen dress, seven-pointed emblem clearly above her head (seshat-c05). She performs stretching-the-cord foundation measurement ritual (seshat-c03), both hands gripping ONE measuring cord across enormous temple foundation stones. No legible writing. Tall columns and distant tiny temple structures show monumental scale. Natural warm shafts of sunrise, serene commanding scholarly authority. No invented emitted magic, no floating glyphs, no solar disk or unsupported weapons.\nRevision instruction: Edit only headdress emblem: EXACTLY SEVEN gold narrow rays/leaves, one straight vertical ray at12o'clock and THREE rays on left THREE on right, total7. No bottom vertical ray; do not make8-point star. Keep everything else unchanged, one clothed Egyptian woman two arms holding measuring cord temple scene, no text.",
-  "depicted_variant": "Seven-pointed-emblem goddess performing cord measurement.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of SESHAT, the Egyptian Lady of Builders and goddess of measurements, conducting the stretching-the-cord foundation ritual.\nANATOMY: one WOMAN, one head, exactly two ordinary arms and two legs beneath fully opaque long linen clothing; a leopard-skin mantle over the fully covered robe; seven-pointed gold emblem above head on headband: ONE vertical top ray and exactly THREE rays spreading to each side, total SEVEN, no bottom ray. Emblem as broad as head and sharply readable. [seshat-c05]\nMOMENT: hauling a measuring cord taut toward viewer, upper body leaning forward, two hands pulling the thick line, direct stern downward gaze; ritual action at temple foundation, never quietly posing. [seshat-c03]\nPOWER: no documented emitted attack or spell; authority through Lady of Builders' ritual control, emblem and imposing perspective only. [seshat-c02,seshat-c04]\nSCALE & CAMERA: extreme low-angle close three-quarter portrait; woman fills four fifths of square; foreshortened hands and cord cross immediate foreground, head and seven-pointed emblem against dark sky; no tiny humans, no literal giant.\nLIGHT & WEATHER: one hard amber side light skimming face, gold emblem and leopard mantle; deep walnut shadow, airborne natural construction dust.\nSURFACE: rough linen, weathered cord fibers, coarse leopard-skin texture, worn limestone.\nSETTING: Egyptian building foundation blocks and sparse columns, contextual ritual setting inferred from Lady of Builders and foundation measurement. [seshat-c03,seshat-c04]\nMOOD: divine scholarly authority, commanding and awe-inspiring, never an ordinary worker, cute, calm or decorative.\nHARD CONSTRAINTS: exactly seven emblem rays, no solar disk; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; no nudity or gore; no glowing aura, floating rune, neon outline or energy ribbons.",
+  "depicted_variant": "Seven-pointed-emblem woman in leopard-skin mantle and opaque linen, actively stretching the measuring cord at foundation blocks.",
   "basis_claim_ids": [
-    "seshat-c01",
     "seshat-c02",
     "seshat-c03",
+    "seshat-c04",
     "seshat-c05"
   ],
   "visual_requirements": [
-    "One modestly clothed woman with seven-pointed emblem (seshat-c05)",
-    "Cord measurement ritual (seshat-c03)",
-    "Writing/books/measurement environment, no readable glyphs (seshat-c01,c02)"
+    {
+      "kind": "anatomy",
+      "description": "Female depiction with exactly seven-pointed head emblem and leopard-skin dress/mantle over opaque robe, from exact c05 quote.",
+      "claim_ids": [
+        "seshat-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Active stretching-the-cord ritual; no source-supported emitted power is present.",
+      "claim_ids": [
+        "seshat-c02",
+        "seshat-c03",
+        "seshat-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Builder/foundation ritual environment, limestone blocks editorial interpretation rather than a specific claimed temple.",
+      "claim_ids": [
+        "seshat-c03",
+        "seshat-c04"
+      ]
+    }
   ],
-  "aura": "Natural cinematic temple light; no emitted power effects.",
+  "aura": "Authority of Lady of Builders (seshat-c04) through forceful foreground cord ritual (seshat-c03), seven-pointed emblem and leopard mantle (seshat-c05); natural lighting, no emitted powers.",
   "artistic_choices": [
-    "Research documents knowledge and measurement rather than emitted power. Majesty uses perspective, architecture and natural light; exact dress is conservative editorial rendering.",
-    "Rejected first attempt retained in rejected/seshat-attempt-1.png for eight-point emblem; corrected using built-in image editing."
+    "Extreme low-angle close composition and stern downward gaze give divine authority without unsupported giant size.",
+    "Opaque layered robe beneath documented leopard-skin clothing; exact tailoring and jewelry editorial.",
+    "Gold emblem designed as seven rays: central vertical and three to each side; top ray reaches frame edge but remains countable.",
+    "Foundation masonry and ambient construction dust contextualize building ritual, not a destruction or stone-moving power."
   ],
   "visual_review": {
-    "verdict": "pass",
-    "notes": "Native edited output viewed: seven narrow gold rays above head (one central, three each side), modest two-arm woman measuring with cord; original eight-point attempt retained.",
     "reviewer": "codex",
-    "native_sha256": "438683da191926ef7a6122ce756a0e60a7d0b6d2aa8913f55b22717a73b8908c"
+    "verdict": "pass",
+    "notes": "Native PNG inspected: one covered woman, two hands actively stretch foreground cord, clear commanding low-angle gaze; seven-point emblem counted as central ray plus three each side, leopard mantle over opaque linen. No generic aura, emitted magic, readable text, frame or borrowed design. Close monumental presence resolves ordinary distant worker composition.",
+    "limitations": [],
+    "native_sha256": "87cfa7d2dc69b2065728c03f06db73eeb99b75dd0e6ef1c3bf0c82a2c10a9ff6",
+    "reviewed_at": "2026-10-08T03:59:31.310268+00:00"
   },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-55c8-7c93-8727-a166e5328535/exec-638da0fe-131b-402d-b859-3bd01e9109c7.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/seshat.png",
-  "native_sha256": "438683da191926ef7a6122ce756a0e60a7d0b6d2aa8913f55b22717a73b8908c",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-5164-7c31-95b8-92b89dd9af58/exec-559a315a-a628-40af-a4d5-414017fe7039.png",
+  "original_file": "data/artwork-generated/batch-1047/originals/seshat.png",
+  "native_sha256": "87cfa7d2dc69b2065728c03f06db73eeb99b75dd0e6ef1c3bf0c82a2c10a9ff6",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
-  "status": "needs-correction",
+  "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-077.review.json",
-  "reviewed_at": "2026-10-06T07:54:33.017336+00:00",
+  "worker_agent": "lane_1047",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1047,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T03:59:31.310268+00:00",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1047/rejected/seshat-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1047/rejected/seshat-attempt-02.json",
+      "native_sha256": "438683da191926ef7a6122ce756a0e60a7d0b6d2aa8913f55b22717a73b8908c",
+      "reason": "Ordinary woman measuring with a cord."
+    }
+  ],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "438683da191926ef7a6122ce756a0e60a7d0b6d2aa8913f55b22717a73b8908c",
-    "notes": "Ordinary woman measuring with a cord."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "87cfa7d2dc69b2065728c03f06db73eeb99b75dd0e6ef1c3bf0c82a2c10a9ff6",
+    "notes": "Seshat with the seven-pointed emblem and leopard mantle stretches the cord at foundation blocks from a low angle; commanding, not an ordinary surveyor."
   },
-  "correction_notes": "Ordinary woman measuring with a cord."
+  "reviewed_at": "2026-10-08T04:30:26.950Z"
 }

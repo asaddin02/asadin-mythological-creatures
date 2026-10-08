@@ -12,7 +12,7 @@
     "bukan-makhluk": 127
   },
   "status": "in-progress",
-  "complete": 32,
+  "complete": 43,
   "presence_policy": true,
   "require_root_visual_review": true,
   "items": [
@@ -4477,7 +4477,7 @@
       "slug": "maat",
       "canonical_name": "Maat",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-077.review.json",
       "research": {
@@ -4835,14 +4835,68 @@
       ],
       "receipt_file": "data/artwork-generated/batch-1055/maat.json",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/maat.png",
-      "native_sha256": "c16f8f900e83bf95b48db1689df3b05d83d9edb298bee75f2d9b95070f9c6958"
+      "native_sha256": "c16f9d351be7a2867fbaf466df79f837024e4429dc86bdf2b58ede156b62dc2a",
+      "receipt_path": "data/artwork-generated/batch-1055/maat.json",
+      "url": "/assets/art/maat-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of MAAT, Egyptian goddess personifying truth, cosmic order and justice.\nANATOMY: one young adult human woman, one head, two human arms and hands, two legs, wingless selected variant. One large single ostrich feather upright in her headband; completely opaque ivory linen gown. A huge balanced judgment scale directly before her, one pan containing a feather and the other a closed opaque vessel symbolizing the heart, no actual organ. [maat-c09, maat-c06, maat-c07]\nMOMENT: lean forward and lower the immense balanced scale toward the viewer as she judges a soul; fingers hold the upright scale shaft securely, the other hand extends in an authoritative verdict. Severe compassionate concentrated gaze looks directly downward at the viewer. Her face, feather and scales occupy nearly the whole square.\nPOWER: behind her, the stars form vast orderly celestial arcs, visualizing her documented regulation of stars, with no emitted beams or generic glow. [maat-c02] The massive scales weigh the soul in the Duat. [maat-c06, maat-c07]\nSCALE & CAMERA: extreme worm's-eye viewpoint directly below the balance; close framing with foreshortened hands and scale pans projecting into the foreground; apparent monumental sacred presence, no claim of literal giant height.\nLIGHT & WEATHER: a single warm low lamp outside the frame casts hard antique gold light up onto the scales and face, deep walnut shadows, faint natural dust.\nSURFACE: weighted rough-woven linen, tarnished heavy bronze scales, distinct individual ostrich feather barbs, human skin.\nSETTING: dark Duat judgment space beneath the ordered stars, bare rock ground, no invented creatures or additional people. [maat-c06, maat-c02]\nMOOD: awe-inspiring and imposing guardian of justice; judgment feels unavoidable, never a decorative portrait or an ordinary passerby.\nHARD CONSTRAINTS: no text, lettering, hieroglyphs, logo, border, frame or watermark; exactly one head and two human arms; no wings; no extra limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+      "depicted_variant": "Wingless feather-bearing young Maat delivering judgment through a foreground bronze balance.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Young human woman wearing one ostrich feather; wingless selected alternative, fully opaque linen editorial clothing.",
+          "claim_ids": [
+            "maat-c09"
+          ]
+        },
+        {
+          "kind": "anatomy",
+          "description": "Large balance with feather and opaque symbolic heart vessel.",
+          "claim_ids": [
+            "maat-c06",
+            "maat-c07"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Ordered stars behind her representing regulation of stars, no new attack.",
+          "claim_ids": [
+            "maat-c02"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Duat judgment space.",
+          "claim_ids": [
+            "maat-c06"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "maat-c01",
+        "maat-c02",
+        "maat-c06",
+        "maat-c07",
+        "maat-c09"
+      ],
+      "aura": "Inevitable judgment through the huge scales and ordered stars (maat-c06/c07/c02), no luminous body aura.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native PNG inspected: dominant wingless young goddess, one head two human arms, explicit single head feather, both scale pans clear with feather and sealed vessel; central lower disc is balance stand base. Foreshortened reaching verdict hand and frontal scale provide judgment action and imposing thumbnail silhouette. Ordered star arcs, warm lamp light, textured bronze and opaque linen, no emitted beams or extra anatomy, no lettering or watermark. All seven Uji Sangar checks yes.",
+        "limitations": [],
+        "native_sha256": "c16f9d351be7a2867fbaf466df79f837024e4429dc86bdf2b58ede156b62dc2a",
+        "reviewed_at": "2026-10-08T03:56:05.301341+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b038b7b5bb77c512be16ebd70050dcc1997e4087a862d69f895461397661e86a"
     },
     {
       "index": 13,
       "slug": "min",
       "canonical_name": "Min",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-077.review.json",
       "research": {
@@ -5190,7 +5244,56 @@
       ],
       "receipt_file": "data/artwork-generated/batch-1055/min.json",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/min.png",
-      "native_sha256": "0ac5f3365464cdb2f0e5ed5f54bb0aa85b42c8928525e0d6bc0fa52ab10c7bfb"
+      "native_sha256": "2f00d6e4969f30e2f327ededbf00e117e14fc9381769c37139ed23e5a761cef8",
+      "receipt_path": "data/artwork-generated/batch-1055/min.json",
+      "url": "/assets/art/min-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of MIN, ancient Egyptian god with black skin representing the fertile Nile soil, guardian of eastern-desert travellers.\nANATOMY: exactly one adult human male head, two human arms, black ebony skin; his RIGHT arm is raised high gripping a huge ceremonial flail with a bronze handle and separated dark leather lashes. Fully opaque heavy ivory linen wraps cover entire torso and pelvis, no exposed genital anatomy. No crown or wings. [min-c02, min-c10]\nMOMENT: advance abruptly toward the viewer out of a steep desert pass, raise the flail overhead in commanding protection, shoulders twist forward with one clenched left hand across his completely clothed chest. Flail lashes sweep diagonally across the upper foreground from physical movement. Fixed forceful gaze looks down into the camera, not a neutral standing pose.\nPOWER: no documented elemental attack; protection conveyed by authoritative raised flail and confrontational presence only. Dust is ordinary desert wind, not emitted power. [min-c11]\nSCALE & CAMERA: extreme low viewpoint directly below the chest, close half-body composition; head, shoulders, forearm and large flail fill the entire frame, decisive foreshortening. No literal giant anatomy.\nLIGHT & WEATHER: single blazing low desert sun from behind his shoulder makes narrow amber rim light and strong deep facial shadows; ochre windblown dust.\nSURFACE: weathered dark human skin, coarse heavy linen, worn bronze handle and old leather lashes.\nSETTING: eastern Egyptian desert rocky pass, a few lettuce leaves in the lowest corner as an unobtrusive documented cult plant. [min-c04, min-c07, min-c11]\nMOOD: awe-inspiring sacred guardian; unmistakably commanding and overwhelming, never an ordinary farmer or a placid man in a field.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, phallic imagery or explicit gore; no generic glow aura, neon outline or energy ribbons; no new supernatural powers.",
+      "depicted_variant": "Fully draped black-skinned human Min advancing with a raised right-hand flail as desert guardian.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Male human form, raised right arm holding flail, fully opaque no-nudity adaptation.",
+          "claim_ids": [
+            "min-c02"
+          ]
+        },
+        {
+          "kind": "anatomy",
+          "description": "Black skin representing fertile Nile soil.",
+          "claim_ids": [
+            "min-c10"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Eastern desert pass and subtle lettuce cult reference.",
+          "claim_ids": [
+            "min-c04",
+            "min-c07",
+            "min-c11"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "min-c01",
+        "min-c02",
+        "min-c04",
+        "min-c07",
+        "min-c10",
+        "min-c11"
+      ],
+      "aura": "Raised flail and imposing protective gesture rooted in min-c02/c11, natural desert sunlight only.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native PNG inspected: black-skinned human man with one head two arms, raised right flail arm, left clenched hand against fully opaque linen torso. Dominant close foreshortened flail lashes, downward commanding gaze, protected eastern desert pass and environmental dust, lettuce corner. No explicit anatomy, invented elemental attack, text or watermark. Sacred guardian reads imposing at thumbnail and physical advance/raised flail supplies action. All seven Uji Sangar checks yes.",
+        "limitations": [],
+        "native_sha256": "2f00d6e4969f30e2f327ededbf00e117e14fc9381769c37139ed23e5a761cef8",
+        "reviewed_at": "2026-10-08T03:57:50.495851+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1643570d7f327a8339de25be588a07c6af638d6136419d280e45b16ddfd9f836"
     },
     {
       "index": 14,
@@ -5607,7 +5710,7 @@
       "slug": "sekhmet",
       "canonical_name": "Sekhmet",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "tidak-digambar",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-077.review.json",
       "research": {
@@ -5999,8 +6102,8 @@
         "sekhmet-c04"
       ],
       "receipt_file": "data/artwork-generated/batch-1055/sekhmet.json",
-      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/sekhmet.png",
-      "native_sha256": "16958db7fb3d43c1c2bd7fe08a0f20ef834eba8192990adb9a47d07490b59bba"
+      "receipt_path": "data/artwork-generated/batch-1055/sekhmet.json",
+      "reason": "Seluruh 15 claim.quote diperiksa: sekhmet-c01/c02/c04/c06/c12 mendokumentasikan dewi perang, ranah matahari dan pembalasan, tetapi tidak mendokumentasikan tubuh manusia maupun kepala singa. Mengarang kepala singa dilarang; memakai perempuan editorial mengulang alasan penolakan Claude. Manifestasi matahari saja tidak memastikan sosok dewi hadir. Dipilih tidak-digambar menurut GAMBAR.md §6.5(b), menunggu riset wujud oleh Claude."
     },
     {
       "index": 16,
@@ -6848,7 +6951,7 @@
       "slug": "ahura-mazda",
       "canonical_name": "Ahura Mazda",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "tidak-digambar",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-041.review.json",
       "research": {
@@ -7217,15 +7320,15 @@
         "ahura-mazda-c12"
       ],
       "receipt_file": "data/artwork-generated/batch-1055/ahura-mazda.json",
-      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/ahura-mazda.png",
-      "native_sha256": "b75da41d0bd60d095ee6efc4d4a11d482f1d6822ecb93e2608711c9c3806b5ca"
+      "receipt_path": "data/artwork-generated/batch-1055/ahura-mazda.json",
+      "reason": "Seluruh 15 claim.quote diperiksa: ahura-mazda-c10 menyatakan tidak ada representasi pada awal Achaemenid; c11 menyebut roh tertinggi; c13 mendokumentasikan penciptaan bumi/langit/manusia, tanpa anatomi atau manifestasi visual yang bisa dihadirkan sebagai sosok. Lanskap penciptaan sudah ditolak karena sosok absen. Tidak mengarang tubuh, cakram bersayap atau wajah kosmis; dipilih tidak-digambar menurut GAMBAR.md §6.5(b), menunggu bukti representasi oleh Claude."
     },
     {
       "index": 19,
       "slug": "anuket",
       "canonical_name": "Anuket",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-077.review.json",
       "research": {
@@ -7582,7 +7685,56 @@
       ],
       "receipt_file": "data/artwork-generated/batch-1055/anuket.json",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/anuket.png",
-      "native_sha256": "faed241a57057625949ca4548de3fdce506c4ebf468d768124473dd8124e2e04"
+      "native_sha256": "624974df38b69573724620746ef80fae2ae06aa4bfba4fc2c44495c85ae1b3f0",
+      "receipt_path": "data/artwork-generated/batch-1055/anuket.json",
+      "url": "/assets/art/anuket-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of ANUKET, Egyptian protective goddess of the Nile flood and cataracts, the Embracer.\nANATOMY: one adult female goddess in human form with exactly one head and two human arms, arms clearly outstretched to either side echoing the two branches of the Nile, documented pose. Fully opaque weighted deep blue and ivory linen robe covering torso and legs. No invented animal head, wings, feather crown or extra limbs. [anuket-c06]\nMOMENT: emerge directly toward the viewer from the foreground cataract ledge, spreading both arms wide in the documented embracing pose. Strong forward momentum in the heavy wet fabric; one palm is dramatically foreshortened close to camera. Eyes gaze down with unwavering protective authority.\nPOWER: swift Nile floodwater physically surges around the rocky ledge in two turbulent channels beneath her open arms. Thick foaming water and windblown spray fill the lower frame; papyrus plants bend in the current. The waters are domain imagery, not streams emitted from her hands. [anuket-c06, anuket-c07]\nSCALE & CAMERA: extreme low angle at water level, half-body close framing; face, broad arms and saturated robe dominate square, water nearly strikes viewer. Sacred grandeur through framing, no invented literal giant height.\nLIGHT & WEATHER: one low setting sun filtered through real water spray, antique gold rim on face and cloth against dark teal cataract shadows.\nSURFACE: heavy wet textured linen, rough granite, distinct white foam and droplets, papyrus stalks.\nSETTING: the rocky Nile First Cataract at Elephantine/Aswan, seen immediately around her rather than a wide landscape. [anuket-c01, anuket-c02, anuket-c11]\nMOOD: awe-inspiring protective divinity; majestic and overwhelming, never ordinary, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity or explicit gore; no generic glow aura, neon outlines or energy ribbons; no magical water emitted by hands.",
+      "depicted_variant": "Anuket in the attested outstretched-arm embracing pose confronting the viewer amid the Nile flood.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Female goddess with two outstretched human arms following the exact c06 quote; fully opaque linen editorial clothing.",
+          "claim_ids": [
+            "anuket-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Swift physical floodwater in two channels echoing the arms, and current-bent papyrus; no emitted hand jets.",
+          "claim_ids": [
+            "anuket-c06",
+            "anuket-c07"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Rocky Nile First Cataract at Elephantine/Aswan.",
+          "claim_ids": [
+            "anuket-c01",
+            "anuket-c02",
+            "anuket-c11"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "anuket-c01",
+        "anuket-c02",
+        "anuket-c06",
+        "anuket-c07",
+        "anuket-c11"
+      ],
+      "aura": "Overwhelming swift Nile flood surrounds the documented embracing arms (anuket-c06/c07), natural sunlight through spray only.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native PNG inspected: female goddess dominates in documented two-arm embracing pose, one hand foreshortened toward viewer, one head, opaque blue/ivory robe. Torrent surges around rocky cataract and papyrus, no jets emitted from hands. Close water-level angle and protective gaze remain imposing at thumbnail; advancing drapery and flood supply action. Gold headband, collar and bracelets are decorative editorial costume, no specific unclaimed emblem. No extra limbs, lettering, aura or watermark. All seven Uji Sangar checks yes.",
+        "limitations": [],
+        "native_sha256": "624974df38b69573724620746ef80fae2ae06aa4bfba4fc2c44495c85ae1b3f0",
+        "reviewed_at": "2026-10-08T04:01:27.120593+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6384aa4a959e8885d5ce332d93744d664ef96f06e23c2f43f5be8ff984bf13d2"
     },
     {
       "index": 20,
@@ -7992,7 +8144,7 @@
       "slug": "ceres",
       "canonical_name": "Ceres",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-042.review.json",
       "research": {
@@ -8387,7 +8539,60 @@
       ],
       "receipt_file": "data/artwork-generated/batch-1055/ceres.json",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/ceres.png",
-      "native_sha256": "a363c7fa55ef540c5e5b7a021119a9d25b648f6f2c4c75b41651ac2a877cc244"
+      "native_sha256": "b55ac62de254cf1c71c016646be44f563e5de13c2d2b533805e32b446237ec43",
+      "receipt_path": "data/artwork-generated/batch-1055/ceres.json",
+      "url": "/assets/art/ceres-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of CERES, Roman goddess whose favor gives fruitful harvests and whose wrath brings blight, drought and famine.\nANATOMY: one matronly human woman, exactly one head and two arms, fully opaque heavy ochre and ivory flowing draperies, a prominent broad crown woven from unmistakable wheat ears. One hand grips a single worn agricultural sickle with a curved iron blade; the other hand opens toward the ripening crop. [ceres-c06, ceres-c07]\nMOMENT: stride toward the viewer and sweep the sickle low across the foreground as wind lifts the folds of her robe; stern maternal face looks down with overwhelming authority. Fresh tall wheat brushes the opened hand, while dry withered wheat and cracked drought soil occupy the opposite lower corner.\nPOWER: physically show the contrast between her blessing and anger: dense heavy golden ripe wheat on one side, curled blighted stems and cracked dry soil on the other. No hand beams, magical ribbons or flames. [ceres-c02]\nSCALE & CAMERA: extreme low-angle close framing from between wheat stems; the foreground sickle, enormous folds of robe, face and broad wheat crown fill the square, not a distant woman in a landscape. Apparent grandeur from framing, no literal giant-height claim.\nLIGHT & WEATHER: one sharp setting sun behind her wheat crown, narrow amber rim and deep walnut facial shadows; loose crop chaff blows across foreground.\nSURFACE: rough woven drapery, rusted iron sickle edge, individual wheat husks, grain dust, fissured earth.\nSETTING: agricultural field at harvest, filling the lowest foreground with documented crop contrast; only sliver of distant sky. [ceres-c01, ceres-c02]\nMOOD: awe-inspiring sacred authority over food and famine, stern yet benevolent, not evil; never placid, cute or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; exactly one head and two arms, no extra limbs or fingers; no design borrowed from films, games, anime or comics; no nudity or explicit gore; no generic glow aura, neon outlines or energy ribbons.",
+      "depicted_variant": "Wheat-crowned matronly Ceres advancing with sickle between abundant and drought-stricken grain.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Matronly woman in opaque flowing draperies and broad wheat-ear crown.",
+          "claim_ids": [
+            "ceres-c06"
+          ]
+        },
+        {
+          "kind": "anatomy",
+          "description": "Clearly readable agricultural sickle.",
+          "claim_ids": [
+            "ceres-c07"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Abundant ripe wheat contrasts physically with dry withered stems and drought-cracked soil, without magical beams.",
+          "claim_ids": [
+            "ceres-c02"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Harvest field immediately around viewer.",
+          "claim_ids": [
+            "ceres-c01",
+            "ceres-c02"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "ceres-c01",
+        "ceres-c02",
+        "ceres-c06",
+        "ceres-c07"
+      ],
+      "aura": "Contrasting crop bounty and drought manifest Ceres authority over harvest and famine (ceres-c02), enhanced by foreground sickle and wheat crown (ceres-c06/c07).",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native PNG inspected: matronly wheat-crowned woman, one head two arms, opaque draperies, enormous foreshortened curved agricultural sickle. Stern downward gaze with active sweep and opened crop hand; physically abundant golden wheat contrasts with black wilted stems and clearly cracked drought soil. Documented harvest/famine domain remains legible at thumbnail. No attack beams, extra limbs, lettering or watermark. All seven Uji Sangar checks yes.",
+        "limitations": [],
+        "native_sha256": "b55ac62de254cf1c71c016646be44f563e5de13c2d2b533805e32b446237ec43",
+        "reviewed_at": "2026-10-08T03:59:30.984487+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d136968ae8c61742bee335afb83fa8c1476a89521af33187f58e1902516a35df"
     },
     {
       "index": 22,
@@ -8780,7 +8985,7 @@
       "slug": "nephthys",
       "canonical_name": "Nephthys",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "tidak-digambar",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-077.review.json",
       "research": {
@@ -9148,8 +9353,8 @@
         "nephthys-c04"
       ],
       "receipt_file": "data/artwork-generated/batch-1055/nephthys.json",
-      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/nephthys.png",
-      "native_sha256": "e8fefd928b6af1a3c0df77242f0250e9de4fc05de282fdbb198415870767147f"
+      "receipt_path": "data/artwork-generated/batch-1055/nephthys.json",
+      "reason": "Seluruh 15 claim.quote diperiksa: nephthys-c05/c08 mendokumentasikan malam, duka dan perlindungan; c07 lambang gerbang pylon; c14 memanggil jiwa Osiris, tetapi tidak mendokumentasikan wujud tubuh, sayap atau lambang kepala dewi. Mengarang perempuan editorial mengulang gambar ditolak, dan menggambar gerbang saja menghilangkan sosok. Dipilih tidak-digambar menurut GAMBAR.md §6.5(b), menunggu riset wujud oleh Claude."
     },
     {
       "index": 24,
@@ -10797,7 +11002,7 @@
       "slug": "sati",
       "canonical_name": "Sati",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-072.review.json",
       "research": {
@@ -11024,7 +11229,46 @@
       ],
       "receipt_file": "data/artwork-generated/batch-1055/sati.json",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/sati.png",
-      "native_sha256": "f7e86e7e72b6ccdc4cea9de8ab4ee2272949682ed3a24c77b07d75d302f531da"
+      "native_sha256": "182b82fc6449aada0ddb890aa578c0076822f95dd740790ab07efa778edb1c4d",
+      "receipt_path": "data/artwork-generated/batch-1055/sati.json",
+      "url": "/assets/art/sati-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of SATI, the Hindu goddess of marital felicity and longevity, a sacred aspect of Shakti and the ideal of a virtuous Hindu woman.\nANATOMY: one adult human woman, exactly one head, two human arms, two hands; completely opaque layered crimson and ivory sari covering torso and legs, simple gold jewelry and cloth veil, no extra arms or fantasy anatomy. [sati-c06]\nMOMENT: turn sharply toward the viewer in solemn, unshakable dignity at the sacrificial rite where her husband Shiva was slighted. One palm rises close to the camera as a solemn vow, the other holds the edge of her heavy veil; crimson fabric sweeps diagonally in the wind. Her piercing resolute eyes look down toward the viewer. Capture the dignified moment before the tragic act, with her body completely unharmed. [sati-c03, sati-c06]\nPOWER: no visible supernatural attack is documented. Real ordinary sacrificial fire lights the scene from a brazier behind and below her, never burning or surrounding her body, never emitted from her hands. [sati-c06]\nSCALE & CAMERA: extremely low close viewpoint, foreshortened foreground palm, face and vast sweep of crimson fabric fill almost the entire square; imposing devotional presence through framing, no literal giant-height claim.\nLIGHT & WEATHER: one deep orange ordinary ritual flame off the lower side makes hard golden light on her face against near-black walnut shadows, fine natural smoke behind her.\nSURFACE: coarse opaque woven silk, weighted sari folds, worn gold ornaments, dark stone brazier lip at far lower edge.\nSETTING: the sacrificial rite referred to in the story, minimal dark ritual enclosure, no mountain landscape, no invented divine creatures. [sati-c06]\nMOOD: respectful, awe-inspiring, morally resolute and commanding; living Hindu divinity, never monstrous, decorative or serene passerby.\nHARD CONSTRAINTS: no self-injury shown, no burns, no body entering fire, no distressed suffering pose; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity or explicit gore; no generic glow aura, neon outlines or energy ribbons.",
+      "depicted_variant": "Sati as a fully clothed human Hindu woman in resolute ritual prelude, unharmed beside ordinary sacrificial fire.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Human Hindu woman grounded in c06 exact quote, one head two arms, fully opaque sari editorial clothing.",
+          "claim_ids": [
+            "sati-c06"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Sacrificial rite from the attested account, ordinary brazier flame used as environmental light; no self-injury or body entering flame.",
+          "claim_ids": [
+            "sati-c06"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "sati-c01",
+        "sati-c02",
+        "sati-c03",
+        "sati-c05",
+        "sati-c06"
+      ],
+      "aura": "Resolute close devotional presence and ordinary sacrificial-fire illumination rooted in the ritual account (sati-c06), no emitted supernatural effect.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native PNG inspected: dignified human Hindu woman with one head two arms, large five-finger vow palm and other hand holding cloth, fully opaque crimson/ivory sari and veiled head. Close low-angle turn, sweeping heavy cloth and firm downward gaze establish commanding sacred presence at thumbnail. Ordinary fire burns in a separate brazier behind and left; body remains unharmed with no fire-emitting hands or powers. Decorative jewelry, facial mark and ritual columns are editorial staging, no claimed extra sacred anatomy. No text or watermark. All seven Uji Sangar checks yes.",
+        "limitations": [],
+        "native_sha256": "182b82fc6449aada0ddb890aa578c0076822f95dd740790ab07efa778edb1c4d",
+        "reviewed_at": "2026-10-08T04:02:42.879910+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "dccad813accde723cb4583b5e8765f9748029e61373deb03b26a42861794ea81"
     },
     {
       "index": 29,
@@ -14379,7 +14623,7 @@
       "slug": "adonis",
       "canonical_name": "Adonis",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-045.review.json",
       "research": {
@@ -14743,14 +14987,64 @@
       "selection_visual_claim_ids": [],
       "receipt_file": "data/artwork-generated/batch-1055/adonis.json",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/adonis.png",
-      "native_sha256": "0e5a1fe0924deaf5abf145b094ece17387d218b93e33d28f17dc403b7317ec74"
+      "native_sha256": "e54c94848a3ee70df43e73cc072ec80de61e793e581cb2ccbd91837d1d64a6b7",
+      "receipt_path": "data/artwork-generated/batch-1055/adonis.json",
+      "url": "/assets/art/adonis-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of ADONIS, Greek god of impossible beauty and attraction, returning to life from Hades.\nANATOMY: ONE impossibly handsome adult HUMAN male god, one head, two eyes, TWO arms and TWO legs, fully opaque antique ivory tunic that covers his chest, heavy dark crimson mantle. Exquisitely striking ideal noble features, sculptural cheekbones and dark curls, eyes forcefully looking DOWN toward viewer from above. No wounds, weapons, crown, wings or horns. [adonis-c01, adonis-c03]\nMOMENT: WALK UPRIGHT in a powerful long forward stride UP out of Hades; torso VERTICAL, shoulders square, head high, commanding godly face turned DOWN toward the viewer. Raise his open right hand in a huge foreshortened gesture of arrival toward the low camera; left hand gathers his surging heavy mantle. His divine impossible beauty feels overwhelming, demanding reverence. DO NOT scramble, crawl, crouch, kneel, bend down, squeeze through crack, cling to walls, or reach for rescue. [adonis-c02, adonis-c08]\nPOWER: Return to life expressed by his upright triumphant living arrival across the threshold of Hades, NO emitted magical light, resurrection rays, or energy. [adonis-c02]\nSCALE & CAMERA: Camera ON THE GROUND BELOW HIS KNEE LOOKING STRAIGHT UP AT THE GOD, extreme worm's-eye viewpoint, strong foreshortening from foreground hand and knee toward huge godly face overhead. God fills full frame with noble head near top, fully visible; background doorway behind him at steep upward perspective. Viewer feels physically beneath his divine authority. NO view looking down, NO ordinary man scrambling through a crack, no tiny human comparison or literal giant anatomy.\nLIGHT & WEATHER: ONE BLINDING PHYSICAL DAWN SUN low outside the threshold lights his face and crimson mantle with hard antique-gold light, deep black underworld behind him; forceful cloth motion from stride, ordinary dust from footsteps. Light is from SUN only, never emitted from god or generic aura.\nSURFACE: weighty woven wool with massive sweeping folds, rough ancient threshold stone, textured handsome skin and sculptural dark curls.\nSETTING: broad imposing dark Hades threshold behind his upright body, not a narrow rock crack; rooted vivid dark RED ANEMONES with dark centres along lower foreground stone steps. Only plain stone, no writing. [adonis-c08, adonis-c05, adonis-c12]\nMOOD: sublime awe-inspiring beauty god returning victorious to life, overwhelming and commanding, never cute, calm, decorative or frightened.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or bare torso, gore or bleeding; no generic glow aura, neon outline, magical resurrection beam, energy ribbons, emitted flowers, extra attributes or elemental attacks.",
+      "depicted_variant": "Fully clothed handsome Adonis returning from underworld darkness in an active close low-angle depiction.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Impossibly handsome adult human man, fully dressed, normal anatomy.",
+          "claim_ids": [
+            "adonis-c01",
+            "adonis-c03"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Return-to-life story staged as unwounded living Adonis moving out of underworld shadow; no power emission.",
+          "claim_ids": [
+            "adonis-c02",
+            "adonis-c08"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Underworld threshold with rooted red anemone story motif.",
+          "claim_ids": [
+            "adonis-c08",
+            "adonis-c12"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "adonis-c01",
+        "adonis-c03",
+        "adonis-c02",
+        "adonis-c08",
+        "adonis-c12",
+        "adonis-c05"
+      ],
+      "aura": "God of beauty presence (adonis-c01/c03) and return-to-life story (adonis-c02) conveyed through movement and close natural illumination; no magical emission.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native inspected second attempt: upright commanding return from broad dark threshold, extreme worm's-eye camera beneath advancing knee, open near hand and sweeping mantle. Hands/arms coherent, fully dressed handsome adult human man, downward authoritative gaze; rooted red anemones readable. All light is physical dawn sunlight, no invented emission/weapon, lettering or watermark. Unlike first attempt, sublime low-angle arrival dominates viewer and passes all seven Sangar checks.",
+        "limitations": [],
+        "native_sha256": "e54c94848a3ee70df43e73cc072ec80de61e793e581cb2ccbd91837d1d64a6b7",
+        "reviewed_at": "2026-10-08T04:17:26.120839+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fbeaf3ea8056cefcb22d9c191dc72a983902f5961f3285a36c3027a2320cf992"
     },
     {
       "index": 38,
       "slug": "amunet",
       "canonical_name": "Amunet",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-077.review.json",
       "research": {
@@ -15105,7 +15399,57 @@
       "selection_visual_claim_ids": [],
       "receipt_file": "data/artwork-generated/batch-1055/amunet.json",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/amunet.png",
-      "native_sha256": "9527e0d643f05d819ef4120d45847cbd4687f381fb31b1b1893808c0c238d832"
+      "native_sha256": "a1b8e83e2fd6f5b76eb0493b01650cdc4e44e60267eccf4817a70e212c35afc2",
+      "receipt_path": "data/artwork-generated/batch-1055/amunet.json",
+      "url": "/assets/art/amunet-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of AMUNET, Egyptian primordial goddess and protector of the king.\nANATOMY: ONE adult female deity depicted in the documented goddess-with-RED-CROWN relief form, one human head, two eyes, exactly TWO arms; wear tall asymmetric Red Crown of Lower Egypt with high rear spike and a curled front wire, fully visible with a margin at top. Completely opaque heavy ivory linen gown and dark crimson mantle. [amunet-c01, amunet-c12]\nMOMENT: Advance out from deep darkness to intercept the viewer at the threshold, thrust one open protective hand close to the lens, palm large in foreground, other arm sweeping her mantle outward; intense commanding gaze angled down toward viewer. Head and crown fill the upper half, guardian action fills the lower half.\nPOWER: No documented physical emission; darkness is ordinary low-key staging of her primordial/Hidden One associations, no dark energy emitted. Authority through crown and protective stance. [amunet-c04, amunet-c05, amunet-c08]\nSCALE & CAMERA: extreme low angle, very tight chest-up crop with foreshortened large near hand; she occupies ninety percent of frame, no giant literal body or tiny scale humans.\nLIGHT & WEATHER: one narrow hard amber shaft of light falls on the crown edge, severe eyes and near hand; the surrounding sanctuary falls into near-black shadow, ordinary dust visible in that shaft.\nSURFACE: rough ivory woven linen, creased red cloth, weathered red crown, plain worn stone.\nSETTING: Thebes sanctuary threshold, only blank UNCARVED jambs and plain stone visible; absolutely no inscriptions, carved hieroglyphs or patterned symbols. [amunet-c02, amunet-c12]\nMOOD: awe-inspiring sacred guardian emerging from darkness, imposing and overwhelming, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers, wings or snakes; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no invented magical objects, staff or elemental effect.",
+      "depicted_variant": "Red-Crowned Amunet in a confronting protective close threshold gesture.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Female goddess Red-Crown relief form; Red Crown large and fully visible.",
+          "claim_ids": [
+            "amunet-c12"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "No magical emission; protective threshold gesture and ordinary shadow only.",
+          "claim_ids": [
+            "amunet-c08",
+            "amunet-c04",
+            "amunet-c05"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Thebes sanctuary threshold with plain blank jambs.",
+          "claim_ids": [
+            "amunet-c02",
+            "amunet-c12"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "amunet-c01",
+        "amunet-c12",
+        "amunet-c04",
+        "amunet-c05",
+        "amunet-c08",
+        "amunet-c02"
+      ],
+      "aura": "Documented protector authority (amunet-c08) and Red Crown (amunet-c12), with ordinary shadow associated editorially with primordial/Hidden One claims (c04/c05).",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native inspected: large Red-Crowned goddess dominates threshold, confrontational downward gaze and five-finger protective hand projected toward lens, other hand draws mantle. Two arms, opaque linen, fully visible tall red crown, plain stone jambs with no inscriptions. Ordinary light/shadow only; no invented aura, text or watermark. Seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "a1b8e83e2fd6f5b76eb0493b01650cdc4e44e60267eccf4817a70e212c35afc2",
+        "reviewed_at": "2026-10-08T04:03:53.919796+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4be23d563dd115d25215bc4263e0be1b4da23c4e1553a173d20face27c4023e5"
     },
     {
       "index": 39,
@@ -17220,7 +17564,7 @@
       "slug": "frigg",
       "canonical_name": "Frigg",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "tidak-digambar",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-045.review.json",
       "research": {
@@ -17674,14 +18018,16 @@
       "selection_visual_claim_ids": [],
       "receipt_file": "data/artwork-generated/batch-1055/frigg.json",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/frigg.png",
-      "native_sha256": "a2d54b1c8f632b590b69b1253c09c1a7c702f11a57ec899910423478a936a9e5"
+      "native_sha256": "a2d54b1c8f632b590b69b1253c09c1a7c702f11a57ec899910423478a936a9e5",
+      "receipt_path": "data/artwork-generated/batch-1055/frigg.json",
+      "reason": "Frigg: seluruh klaim serta kutipan mentah riset lengkap dibaca. Tidak ada wujud fisik atau ikonografi tubuh yang terdokumentasi; klaim hanya mengidentifikasi dewi, relasi, ranah, dan tempat/atribut non-tubuh. Gambar sebelumnya memakai tubuh manusia editorial dan ditolak sebagai perempuan biasa. §6.5 tidak mengizinkan mengarang tubuh; klaim juga tidak memberi manifestasi kekuatan aktif yang dapat digambar tanpa mengarang efek. Ditahan tidak-digambar sampai riset Claude mendokumentasikan wujud atau manifestasi yang bisa digambar."
     },
     {
       "index": 45,
       "slug": "janus",
       "canonical_name": "Janus",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-046.review.json",
       "research": {
@@ -18047,14 +18393,60 @@
       "selection_visual_claim_ids": [],
       "receipt_file": "data/artwork-generated/batch-1055/janus.json",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/janus.png",
-      "native_sha256": "f618d298ea55ceeb3cb85c104321be7b93ce9a865cc3c2095ddfbbf7529d846f"
+      "native_sha256": "2e0a90601e2480e1916cfdd07d08ef84741807ebd116a15777a924abf0da9e1a",
+      "receipt_path": "data/artwork-generated/batch-1055/janus.json",
+      "url": "/assets/art/janus-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of JANUS BIFRONS, Roman god of entrances, beginnings and ends.\nANATOMY: ONE shared human head on ONE neck and ONE opaque dark toga-clothed body, with EXACTLY TWO opposing faces: a clear full bearded profile looks LEFT and a clear full clean-shaven profile looks RIGHT. TWO noses pointing away from one another, TWO visible eyes total, TWO mouths, both clearly visible at equal size; no forward face. This is one cranial mass, not two heads or two men. Exactly TWO arms: left holds a long porter staff, right lifts a great iron key-ring. [janus-c03, janus-c04, janus-c08]\nMOMENT: Thrust the key ring close toward the viewer as he strides across the threshold; both faces scrutinize the opposite passages, staff braced forcefully on the ground. Two profiles occupy the entire upper half and remain equally large and crisp.\nPOWER: No documented emission or magical attack; authority through explicit impossible bifrons anatomy and gatekeeper attributes. [janus-c03, janus-c04]\nSCALE & CAMERA: extreme low angle, tight chest-up framing of a single sacred being; immense key ring foreshortened in the foreground; head near top edge, no small distant figure.\nLIGHT & WEATHER: one low amber torch source illuminates both opposed profiles and worn bronze; deep walnut black recesses, ordinary threshold dust raised by his stride.\nSURFACE: weathered bronze keys, heavy folded woven wool, deeply textured beard and Roman masonry.\nSETTING: a protected Roman gateway, narrow view of stone lintel and open door leaves behind. [janus-c11]\nMOOD: awe-inspiring inhuman sacred sentinel, severe and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no third face, extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+      "depicted_variant": "Janus bifrons with both opposed faces equally visible, keys thrust forward at gateway.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One bifrons head with two opposite visible faces, one bearded one clean-shaven.",
+          "claim_ids": [
+            "janus-c03",
+            "janus-c08"
+          ]
+        },
+        {
+          "kind": "anatomy",
+          "description": "Porter's staff and key ring.",
+          "claim_ids": [
+            "janus-c04"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Roman protected gateway.",
+          "claim_ids": [
+            "janus-c11"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "janus-c03",
+        "janus-c04",
+        "janus-c08",
+        "janus-c11"
+      ],
+      "aura": "Awe from documented two-faced anatomy and gatekeeper staff/keys (janus-c03, janus-c04), no physical magic effect.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native inspected: both opposed profiles large and visible on bifrons head, one bearded left and clean-shaven right, one robed torso with two arms. Keys extend toward viewer and staff readable. Imposing low-angle gatekeeper action, no third face, supernatural emission, text/watermark. Seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "2e0a90601e2480e1916cfdd07d08ef84741807ebd116a15777a924abf0da9e1a",
+        "reviewed_at": "2026-10-08T03:59:00.764363+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "593dbd3776cfb4c032505f0dfbbe91b687338d99a51884be6fa5d9a99aa7a65d"
     },
     {
       "index": 46,
       "slug": "mnemosyne",
       "canonical_name": "Mnemosyne",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "tidak-digambar",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-046.review.json",
       "research": {
@@ -18439,14 +18831,16 @@
       "selection_visual_claim_ids": [],
       "receipt_file": "data/artwork-generated/batch-1055/mnemosyne.json",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/mnemosyne.png",
-      "native_sha256": "8bef7130d4714956ed1dc7b97e8c162af0445940ba376f5b7279b4b434e11a96"
+      "native_sha256": "8bef7130d4714956ed1dc7b97e8c162af0445940ba376f5b7279b4b434e11a96",
+      "receipt_path": "data/artwork-generated/batch-1055/mnemosyne.json",
+      "reason": "Mnemosyne: seluruh klaim serta kutipan mentah riset lengkap dibaca. Tidak ada wujud fisik atau ikonografi tubuh yang terdokumentasi; klaim hanya mengidentifikasi dewi, relasi, ranah, dan tempat/atribut non-tubuh. Gambar sebelumnya memakai tubuh manusia editorial dan ditolak sebagai perempuan biasa. §6.5 tidak mengizinkan mengarang tubuh; klaim juga tidak memberi manifestasi kekuatan aktif yang dapat digambar tanpa mengarang efek. Ditahan tidak-digambar sampai riset Claude mendokumentasikan wujud atau manifestasi yang bisa digambar."
     },
     {
       "index": 47,
       "slug": "mut",
       "canonical_name": "Mut",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-077.review.json",
       "research": {
@@ -18812,14 +19206,60 @@
       "selection_visual_claim_ids": [],
       "receipt_file": "data/artwork-generated/batch-1055/mut.json",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/mut.png",
-      "native_sha256": "2129e970029adcac57bf38b44076dd71a78dca123aa51f0c137170dfab7a1ba2"
+      "native_sha256": "3877645d1abd2961b513fb09524130cff8899de931a1214e06643336fcfa7445",
+      "receipt_path": "data/artwork-generated/batch-1055/mut.json",
+      "url": "/assets/art/mut-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of MUT, Egyptian divine mother and protector of king and state.\nANATOMY: ONE adult human woman deity, one head, two eyes, exactly two arms; fully opaque heavy ivory linen robes and dark red mantle. Wear a huge clearly readable DOUBLE CROWN: tall WHITE round-tipped hedjet rising inside the RED deshret base with a thin curled front projection. Do not fuse animal forms. [mut-c01, mut-c08, mut-c12]\nMOMENT: Lean forward over the blazing bronze brazier and sweep her open palm down above its rim, face tilted down to confront the viewer, eyes severe, lips parted in command. Other hand grips the far rim. The brazier and her face occupy most of the image; active blaze throws real sparks toward foreground.\nPOWER: a ferocious but contained brazier fire from documented flaming brazier, no victim or gore; physical rising flame and sparks only. No fire out of her hands, eyes or crown. [mut-c13]\nSCALE & CAMERA: extreme low angle from just below the brazier rim, close framing WITH 10 PERCENT CLEAR SPACE ABOVE THE COMPLETE ROUND WHITE CROWN TIP; the double crown is as wide as her shoulders and her commanding face is large. Divine grandeur through perspective, no tiny human scale comparison or invented giant anatomy.\nLIGHT & WEATHER: ONLY the roaring brazier provides amber key light and hard rim illumination; deep black-walnut shadows, real soot and smoke rising from its coals.\nSURFACE: hammered old bronze brazier, charred coals, dense woven linen, aged crown lacquer.\nSETTING: dark Theban triad sanctuary setting, PLAIN UNCARVED columns: absolutely no hieroglyphs, no engraved marks or patterned writing anywhere. [mut-c07]\nMOOD: awe-inspiring sacred mother/protector with ruthless authority, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore, burning people or visible victims; no generic glow aura, neon outline or energy ribbons. Additional critical requirement: ALL architecture and brazier surfaces are blank rough uncarved material with absolutely no glyphs or inscriptions; keep both parts of double crown completely inside frame.",
+      "depicted_variant": "Human double-crowned Mut commanding a blazing brazier in a close low-angle protective-authority scene.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Human woman Mut wearing clearly visible double Red-and-White crown.",
+          "claim_ids": [
+            "mut-c08"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Fire, sparks and smoke remain physically in/from flaming brazier, without victims.",
+          "claim_ids": [
+            "mut-c13"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Theban triad sanctuary editorial staging.",
+          "claim_ids": [
+            "mut-c07"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "mut-c01",
+        "mut-c08",
+        "mut-c12",
+        "mut-c13",
+        "mut-c07"
+      ],
+      "aura": "Documented double crown (mut-c08), protector authority (mut-c12) and physical flaming brazier (mut-c13) create imposing presence.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native inspected: imposing close crowned female Mut leaning forward over blazing brazier with commanding open palm and rim-gripping other hand, two arms. Full white-red double crown visible, opaque robes. Fire originates from coals only, plain columns have no lettering. No victims, invented emission, extra anatomy, watermark. All Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "3877645d1abd2961b513fb09524130cff8899de931a1214e06643336fcfa7445",
+        "reviewed_at": "2026-10-08T04:02:13.326698+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "49ce3ce7cbd58addffb5244e131b086d4e3c7f7c78eea31b4c74ed7d7175bb0e"
     },
     {
       "index": 48,
       "slug": "neith",
       "canonical_name": "Neith",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-077.review.json",
       "research": {
@@ -19164,14 +19604,60 @@
       "selection_visual_claim_ids": [],
       "receipt_file": "data/artwork-generated/batch-1055/neith.json",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/neith.png",
-      "native_sha256": "7c54826e1bbdd40b932d382df95c54e12051a8c11afe7ae0df2810b256cf886d"
+      "native_sha256": "b6f2c4f2caf180da4985545cf8216805d65c45e1d07997f51d9a4b2622faf804",
+      "receipt_path": "data/artwork-generated/batch-1055/neith.json",
+      "url": "/assets/art/neith-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of NEITH, Egyptian goddess of warfare and motherhood.\nANATOMY: one fully clothed adult female deity, one human head, two eyes, exactly two arms and two legs; unmistakable tall RED CROWN of Lower Egypt with asymmetric rear spike and curling front wire. Opaque layered ivory linen and dark red mantle. ONE bow and ONE arrow, normal fingers, no shield. [neith-c01, neith-c08]\nMOMENT: Draw the bow taut straight past the viewer's shoulder, front fist foreshortened close to the lens and rear hand at her cheek; stern eyes looking down toward the viewer. Her face and enormous bow dominate the picture; cloth whips from the motion.\nPOWER: no documented elemental power; awe through imposing divine iconography, close framing, tension of the drawn bow, and extreme low perspective only. [neith-c11]\nSCALE & CAMERA: extreme low angle, very tight waist-up crop filling 90 percent of the image; crown fully visible near top edge, arrow and bow limbs clearly readable. Do not depict an ordinary woman posing at normal distance. No giant literal body or tiny human scale comparison needed.\nLIGHT & WEATHER: a single hard shaft of low amber sunset side light on crown, face and bow; deep walnut-black shadows, airborne ordinary dry dust.\nSURFACE: rough woven linen, worn red crown lacquer, strained bow wood, aged bronze fittings.\nSETTING: Sais in Nile Delta, only fragments of its shadowed stone sanctuary behind her. [neith-c06]\nMOOD: awe-inspiring sacred martial authority, tense and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no magic arrow glow, no glyphs.",
+      "depicted_variant": "Neith in documented Red Crown, pulling bow taut in an imposing close low-angle confrontation.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Human female Neith with Lower Egypt Red Crown, bow and arrow.",
+          "claim_ids": [
+            "neith-c08"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "No magical emission; martial tension shown by drawing documented bow.",
+          "claim_ids": [
+            "neith-c01",
+            "neith-c11"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Shadowed Sais stone sanctuary staging.",
+          "claim_ids": [
+            "neith-c06"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "neith-c01",
+        "neith-c08",
+        "neith-c11",
+        "neith-c06"
+      ],
+      "aura": "Martial authority from Red Crown and drawn bow (neith-c08, neith-c11), with no magical emission.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native PNG inspected: Neith fills frame, Red Crown and drawn bow remain readable, two arms and one arrow, opaque garment. Very low perspective, foreshortened fist and taut bow produce confronting martial action. No power effect, extra anatomy, text, watermark or copied design. All seven Uji Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "b6f2c4f2caf180da4985545cf8216805d65c45e1d07997f51d9a4b2622faf804",
+        "reviewed_at": "2026-10-08T03:56:26.291479+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0ffac5e82cad78d9ed7700a9360b3dfb6126cbc3a58506c711649cd035868aa7"
     },
     {
       "index": 49,
       "slug": "themis",
       "canonical_name": "Themis",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "requires_catalogue_record": true,
       "review_path": "data/gemini/reviews/batch-044.review.json",
       "research": {
@@ -19585,7 +20071,54 @@
       "selection_visual_claim_ids": [],
       "receipt_file": "data/artwork-generated/batch-1055/themis.json",
       "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/themis.png",
-      "native_sha256": "25894e9856355ca72aa00a5eea56e19d0148b87458dff9c94a646a45a7f5c9a2"
+      "native_sha256": "974e8ff97ced47888d17304997b5592ce5a4c1a382b19e57e8677d09beb79b93",
+      "receipt_path": "data/artwork-generated/batch-1055/themis.json",
+      "url": "/assets/art/themis-verified.webp",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of THEMIS, Greek Titan goddess of divine law, order and justice.\nANATOMY: ONE adult female deity, one human head, two eyes open and UNBLINDFOLDED, exactly TWO arms, fully opaque thick antique ivory Greek drapery and a dark walnut mantle. Her RIGHT hand grips the handle of ONE large suspended BALANCED SCALE with TWO clearly separate bronze pans hanging on chains from its horizontal beam. Her LEFT arm carries ONE abundant CORNUCOPIA horn of fruit and grain, huge spiraling horn mouth facing the lens. No sword. [themis-c01, themis-c02, themis-c09]\nMOMENT: Raise the balanced scales overhead to summon an assembly and step down toward the viewer; mouth slightly open in authoritative address, stern eyes cast down directly toward the lens. The full scale beam and both hanging pans are clearly readable above her commanding face, cornucopia projects toward foreground. [themis-c07]\nPOWER: no documented physical emission; summoning authority is a vocal physical gesture, not magic projections. Awe through documented sacred scales and cornucopia.\nSCALE & CAMERA: extreme low camera from the bottom of Delphi stone steps, very close waist-up composition; figure, scales and cornucopia fill ninety percent, no tiny distant goddess. Full scale beam/pans and horn remain inside frame.\nLIGHT & WEATHER: one slanting hard warm sunbeam illuminates bronze, cheeks and ripe fruit, deep walnut and charcoal shadows; ordinary wind moves heavy mantle.\nSURFACE: hammered bronze scales with taut real chains, rough woven opaque wool and linen, ridged real horn, dusty stone steps.\nSETTING: Delphi oracle stone steps with shadowed plain marble doorway fragments and dark mountain glimpse; all stone surfaces blank and uninscribed. [themis-c06]\nMOOD: awe-inspiring divine lawgiver issuing a command, severe and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no blindfold or sword; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no floating magical symbols or invented power.",
+      "depicted_variant": "Unblindfolded Themis lifting clearly balanced scales and projecting cornucopia during a commanding summons.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Female law personification with readable scales and cornucopia; no blindfold or sword.",
+          "claim_ids": [
+            "themis-c02",
+            "themis-c09"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "No physical magic emission; raised scales and addressing posture stage summoning assemblies.",
+          "claim_ids": [
+            "themis-c07"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Delphi oracle steps staged with blank marble architecture.",
+          "claim_ids": [
+            "themis-c06"
+          ]
+        }
+      ],
+      "basis_claim_ids": [
+        "themis-c01",
+        "themis-c02",
+        "themis-c09",
+        "themis-c07",
+        "themis-c06"
+      ],
+      "aura": "Lawgiver authority from documented scales/cornucopia (themis-c09) and summoning assemblies (themis-c07), no invented emission.",
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native inspected: Themis fills frame from a steep low viewpoint, steps forward with raised balanced scale, lips parted in address, large cornucopia held in other arm. Two arms, one head, both scales pans and fruit horn readable, no blindfold/sword. Opaque Greek robes, natural sunlight and blank Delphi stone/mountain setting. No supernatural emission, text or watermark; seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "974e8ff97ced47888d17304997b5592ce5a4c1a382b19e57e8677d09beb79b93",
+        "reviewed_at": "2026-10-08T04:05:40.086303+00:00"
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ff806a0209c31458ddf9238ece621bc865053705fb62a469ce17e73f4d9f4349"
     },
     {
       "index": 50,

@@ -1,42 +1,34 @@
 {
   "slug": "anahita",
-  "prompt": "Use case: stylized-concept. Square premium Mythics painterly art, monumental low viewpoint, tiny landscape scale references, cinematic natural lighting, rich brush texture, respectful original design. Absolutely no text/signature/watermark/border, gore, nudity or film/game/anime imitation. ANAHITA Iranian goddess of fertility and wisdom (anahita-c01,c04). One dignified fully clothed woman in opaque high-neck ancient Iranian robes covering torso and legs, one head TWO arms, hands calmly clasped. Immense fertile green river valley and ancient temple beside a flowing stream (anahita-c05); one natural dove and one peacock quietly present by temple (anahita-c06), ordinary animals no magic emission. Majesty through low perspective, natural radiant dawn and verdant abundance grounded in fertility (anahita-c04), no water-bending spell or unsupported fire/lightning. No wings on goddess.",
-  "depicted_variant": "Editorial clothed Iranian goddess in fertile watercourse temple landscape.",
+  "worker": "codex",
+  "worker_agent": "lane_1047",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "tidak-digambar",
+  "batch": 1047,
+  "review_path": "data/gemini/reviews/batch-079.review.json",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "reason": "anahita-c01/c04 hanya identitas dewi serta fertility/procreation/wisdom; c05 kuil di aliran air dan c06 hewan suci, tanpa rupa, atribut tubuh, pakaian ikonografis atau tindakan kuasa konkret. Tubuh perempuan monumental, banjir, atau pancaran kesuburan akan dikarang; kuil/hewan saja mengulang absennya subjek.",
   "basis_claim_ids": [
     "anahita-c01",
     "anahita-c04",
     "anahita-c05",
     "anahita-c06"
   ],
-  "visual_requirements": [
-    "Fertility/wisdom goddess, modest editorial humanlike body (anahita-c04)",
-    "Streamside temple (anahita-c05)",
-    "Ordinary dove/peacock sacred animals (anahita-c06), no bodily wings"
-  ],
-  "aura": "Natural fertility landscape and streamside dawn, no emitted power.",
+  "visual_requirements": [],
   "artistic_choices": [
-    "Exact woman/robe rendered editorial because research lacks anatomy; watercourse is temple association, not unsupported hydrokinesis."
+    "Tidak ada PNG baru: gambar lama dan receipt penolakan disimpan sebagai riwayat; tubuh atau mekanisme kuasa tidak dikarang."
   ],
-  "visual_review": {
-    "verdict": "pass",
-    "notes": "Native inspected: one modest Iranian goddess two arms clasped, streamside fertile temple, ordinary dove and peacocks, no bodily wings or emitted water spell.",
-    "reviewer": "codex",
-    "native_sha256": "82725f655162857f7278d4e6a96899b5530902438386f5840f881a1d13e7a8bf"
-  },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-55c8-7c93-8727-a166e5328535/exec-5ef22c06-2311-4a42-817a-60e00e3914a2.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/anahita.png",
-  "native_sha256": "82725f655162857f7278d4e6a96899b5530902438386f5840f881a1d13e7a8bf",
-  "worker": "codex",
-  "tool": "OpenAI built-in image_gen",
-  "status": "needs-correction",
-  "review_path": "data/gemini/reviews/batch-079.review.json",
-  "reviewed_at": "2026-10-06T08:32:23.351301+00:00",
-  "root_visual_review": {
-    "verdict": "reject",
-    "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "82725f655162857f7278d4e6a96899b5530902438386f5840f881a1d13e7a8bf",
-    "notes": "Ordinary woman at human scale; no divine presence."
-  },
-  "correction_notes": "Ordinary woman at human scale; no divine presence."
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1047/rejected/anahita-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1047/rejected/anahita-attempt-01.json",
+      "native_sha256": "82725f655162857f7278d4e6a96899b5530902438386f5840f881a1d13e7a8bf",
+      "reason": "Ordinary woman at human scale; no divine presence."
+    }
+  ],
+  "evaluated_at": "2026-10-08T04:06:48.866994+00:00"
 }

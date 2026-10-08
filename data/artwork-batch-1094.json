@@ -2091,8 +2091,8 @@
           ]
         },
         "culture": {
-          "value": null,
-          "suggested_new": "Gothic literature",
+          "value": "modern-literature",
+          "suggested_new": null,
           "claim_ids": [
             "frankensteins-monster-c19",
             "frankensteins-monster-c20"
@@ -3189,7 +3189,14 @@
         "frankensteins-monster-c34",
         "frankensteins-monster-c35"
       ],
-      "receipt_path": "data/artwork-generated/batch-1094/frankensteins-monster.json"
+      "receipt_path": "data/artwork-generated/batch-1094/frankensteins-monster.json",
+      "research_refreshed": {
+        "at": "2026-10-08T04:32:23.400Z",
+        "by": "claude",
+        "reason": "Accepted research changed after selection (enrichment); every basis claim keeps its id, source and statement.",
+        "claims_before": 48,
+        "claims_after": 48
+      }
     },
     {
       "index": 4,

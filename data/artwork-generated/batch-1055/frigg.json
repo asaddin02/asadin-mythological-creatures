@@ -8,37 +8,33 @@
     "frigg-c05",
     "frigg-c08"
   ],
-  "visual_requirements": [
-    "Norse maternal/prophetic queen — frigg-c02/c05.",
-    "Fensalir hall staging — frigg-c08; location fictional editorial.",
-    "No unsupported crown of horns, wings or magical familiar."
-  ],
+  "visual_requirements": [],
   "aura": "No explicit physical power effect; commanding prophetic gaze, vast natural light and composition.",
   "artistic_choices": [
-    "Research does not specify a visible prophecy effect or physical iconography; used gaze, natural light and monumental composition.",
-    "Fensalir landscape location and dress are editorial choices, not historical reconstruction."
+    "Tidak membuat gambar baru: tidak mengarang tubuh/manifestasi tanpa klaim. Gambar ditolak disimpan sebagai sejarah."
   ],
-  "visual_review": {
-    "notes": "Viewed native: mature woman fully clothed in woven Norse gown/mantle, two arms, steady wise gaze at timber hall doorway; distant tiny northern settlement and natural cloud-sun light. Carved roof animal is building ornament, no live familiar or invented body feature. No prophecy beam, runic text or watermark.",
-    "reviewer": "codex",
-    "verdict": "pass",
-    "native_sha256": "a2d54b1c8f632b590b69b1253c09c1a7c702f11a57ec899910423478a936a9e5",
-    "reviewed_at": "2026-10-06T09:01:18.329137+00:00"
-  },
   "generated_file": "/home/asadin/.codex/generated_images/01a11024-371c-7680-935d-9da18174a957/exec-373cc7db-df15-4f9f-80ec-83e49cd12971.png",
   "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/frigg.png",
   "native_sha256": "a2d54b1c8f632b590b69b1253c09c1a7c702f11a57ec899910423478a936a9e5",
-  "status": "needs-correction",
+  "status": "tidak-digambar",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
   "review_path": "data/gemini/reviews/batch-045.review.json",
   "reviewed_at": "2026-10-06T09:01:18.329137+00:00",
-  "root_visual_review": {
-    "verdict": "reject",
-    "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "a2d54b1c8f632b590b69b1253c09c1a7c702f11a57ec899910423478a936a9e5",
-    "notes": "Ordinary woman at a doorway."
-  },
-  "correction_notes": "Ordinary woman at a doorway."
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1055/rejected/frigg-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1055/rejected/frigg-attempt-01.json",
+      "native_sha256": "a2d54b1c8f632b590b69b1253c09c1a7c702f11a57ec899910423478a936a9e5",
+      "reason": "Ordinary woman at a doorway."
+    }
+  ],
+  "reason": "Frigg: seluruh klaim serta kutipan mentah riset lengkap dibaca. Tidak ada wujud fisik atau ikonografi tubuh yang terdokumentasi; klaim hanya mengidentifikasi dewi, relasi, ranah, dan tempat/atribut non-tubuh. Gambar sebelumnya memakai tubuh manusia editorial dan ditolak sebagai perempuan biasa. §6.5 tidak mengizinkan mengarang tubuh; klaim juga tidak memberi manifestasi kekuatan aktif yang dapat digambar tanpa mengarang efek. Ditahan tidak-digambar sampai riset Claude mendokumentasikan wujud atau manifestasi yang bisa digambar.",
+  "worker_agent": "lane_1055_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1055,
+  "generated_at": "2026-10-08T03:58:31.949874+00:00",
+  "generation_failures": []
 }

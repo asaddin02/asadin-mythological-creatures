@@ -1,44 +1,88 @@
 {
   "slug": "serket",
-  "prompt": "Use case: stylized-concept. Square premium Mythics painterly art, monumental low viewpoint, tiny architecture/landscape scale references, cinematic rich light and brush texture, original respectful religious design. No text of any kind, watermark, signature, frame, gore, nudity or film/game/anime imitation. SERKET Egyptian protecting and healing goddess (serket-c01,c03), one fully clothed woman in opaque long linen dress with high covered chest, exactly TWO arms and human head. A realistic single scorpion sits on her head as emblem; one hand holds an ankh and other holds was-sceptre (serket-c02). She stands protectively at a vast underworld path bend (serket-c05), mist-free stone architecture and distant small canopic vessels (serket-c04). Protective healing shown by warm natural light enclosing safe path, no invented glowing force field, scorpion body, wings, venom beams or fire.",
-  "depicted_variant": "Clothed goddess with scorpion head emblem, ankh and was-sceptre.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of SERKET, the Egyptian protective goddess who binds and contains the snake deity Apep, guarding the turn of the underworld path.\nANATOMY: one fully clothed WOMAN, one human head, exactly TWO arms and TWO legs under an opaque floor-length linen robe, covered chest and shoulders; ONE distinct realistic SCORPION atop her head as clearly readable emblem, large spread pincers and a hooked tail above the crown of her head. One hand holds a large ANKH, the other hand grips a WAS-SCEPTRE. No scorpion hybrid body. [serket-c02]\nMOMENT: bracing forward toward the viewer as she contains ONE dark serpent across the stone path at her feet, the was-sceptre presses down on the serpent's coiled body, her ankh lifted boldly, fierce protective downward gaze. The serpent struggles within tight coils beneath her authority. [serket-c05]\nPOWER: documented binding/containment of Apep represented physically by held-down serpent, not glowing bonds, rays or invented magic. She guards the pathway bend and funerary canopic vessels. [serket-c04,serket-c05]\nSCALE & CAMERA: extreme low angle near the path; goddess fills four fifths of frame, head and oversized perspective emblem clearly readable against dark vault; held ankh and sceptre unmistakable foreground silhouettes; no tiny humans, no claim of literal giant size.\nLIGHT & WEATHER: one low architectural amber brazier casts sharp rim light across face, scorpion and hands; black shadows, natural dust, underworld darkness.\nSURFACE: creased opaque linen, tarnished gold ankh, worn dark staff, rough stone and matte snake scales.\nSETTING: bend in underworld stone pathway with a few distant canopic vessels. [serket-c04,serket-c05]\nMOOD: formidable divine protector, controlling dangerous serpent, awe-inspiring and unyielding, never a calm ordinary woman or monster goddess.\nHARD CONSTRAINTS: one human head, two arms, single scorpion on head, one serpent below; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; no nudity or gore; no generic glow aura, neon outline, energy ribbons or venom lasers.\nTARGETED CONSTRAINT: all clothing is COMPLETELY UNDECORATED plain ivory linen, simple uninscribed gold cuffs, absolutely NO sash, symbols, glyph-like motifs, embroidery or writing. Architecture is plain uninscribed stone with no carved wall reliefs. Keep the two-arm protective action, scorpion, ankh, was-sceptre and contained serpent.",
+  "depicted_variant": "Woman with scorpion, ankh and was-sceptre physically containing Apep at the underworld path bend.",
   "basis_claim_ids": [
-    "serket-c01",
     "serket-c02",
-    "serket-c03",
     "serket-c04",
     "serket-c05"
   ],
   "visual_requirements": [
-    "Scorpion on head, ankh and was-sceptre (serket-c02)",
-    "Healing/protection and path guardian (serket-c03,c05)",
-    "One covered woman two arms, no scorpion hybrid body"
+    {
+      "kind": "anatomy",
+      "description": "Woman with scorpion on head, ankh in one hand and was-sceptre in the other, opaque clothing.",
+      "claim_ids": [
+        "serket-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical containment of the snake deity Apep, explicitly documented in exact quote c05; no invented emitted spell.",
+      "claim_ids": [
+        "serket-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Underworld pathway bend and canopic vessels reflect guardian and funerary roles.",
+      "claim_ids": [
+        "serket-c04",
+        "serket-c05"
+      ]
+    }
   ],
-  "aura": "Natural warm protective path light, no asserted spell type.",
+  "aura": "Formidable containment of serpent Apep and path guarding (serket-c05), clear scorpion/ankh/was-sceptre (serket-c02) and funerary role (serket-c04); natural brazier lighting rather than emitted spells.",
   "artistic_choices": [
-    "Exact clothing/path design editorial; healing/magic documented but no specific emitted effect, so no invented protective force field.",
-    "Small architectural braziers are ambient lighting, not a claimed emitted fire power."
+    "Sceptre physically pinning Apep represents documented binding/containment; method of contact and serpent appearance are restrained editorial staging, not an asserted spell.",
+    "Plain opaque ivory linen and uninscribed cuffs correct first generation's pseudo-writing.",
+    "Low camera gives towering authority without a claimed gigantic body; head scorpion rendered as oversized readable attribute as required for divine iconography.",
+    "Brazier is architectural ambient light, not goddess-emitted fire."
   ],
   "visual_review": {
-    "verdict": "pass",
-    "notes": "Native inspected: one covered two-arm woman with scorpion on head, ankh and was-sceptre, path bend and canopic jars; braziers are environmental architecture lighting, no deity-emitted spell.",
     "reviewer": "codex",
-    "native_sha256": "4bdda07a34d5b003cb7bc957376d52e66fde3f01e45cdee4752ae37036dd189c"
+    "verdict": "pass",
+    "notes": "Native inspected: one covered two-arm woman, one scorpion atop head with two pincers and curled tail, clear ankh and was-sceptre in separate hands; staff contains one coiled snake, one snake head. Active containment and extreme low camera give awe at thumbnail. Plain cloth/stone has no pseudo-writing, no text/aura/gore. First attempt retained for lettering failure.",
+    "limitations": [],
+    "native_sha256": "ebf8ec8bf815484cd9e0f1ec6b95d5ec48054a58123a39dc3fba2c3090961c81",
+    "reviewed_at": "2026-10-08T04:02:45.694001+00:00"
   },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-55c8-7c93-8727-a166e5328535/exec-bde32936-69c1-4fb8-845f-71a1f3e4d2c3.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/serket.png",
-  "native_sha256": "4bdda07a34d5b003cb7bc957376d52e66fde3f01e45cdee4752ae37036dd189c",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-5164-7c31-95b8-92b89dd9af58/exec-6d377da8-ec91-4471-83ce-484e47ef4beb.png",
+  "original_file": "data/artwork-generated/batch-1047/originals/serket.png",
+  "native_sha256": "ebf8ec8bf815484cd9e0f1ec6b95d5ec48054a58123a39dc3fba2c3090961c81",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
-  "status": "needs-correction",
+  "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-077.review.json",
-  "reviewed_at": "2026-10-06T08:19:14.254010+00:00",
+  "worker_agent": "lane_1047",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1047,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T04:02:45.694001+00:00",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1047/rejected/serket-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1047/rejected/serket-attempt-02.json",
+      "native_sha256": "4bdda07a34d5b003cb7bc957376d52e66fde3f01e45cdee4752ae37036dd189c",
+      "reason": "Ordinary woman with a scorpion emblem at human scale."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1047/rejected/serket-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1047/rejected/serket-attempt-01.json",
+      "native_sha256": "d349ff305fe5676b9e7f2e96df00df65b67997f571062cfe7ea1d6777b5e1402",
+      "reason": "Codex native rejection: gold pseudo-hieroglyphic markings on sash violate no-lettering constraint; regenerate with undecorated cloth and masonry."
+    }
+  ],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "4bdda07a34d5b003cb7bc957376d52e66fde3f01e45cdee4752ae37036dd189c",
-    "notes": "Ordinary woman with a scorpion emblem at human scale."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "ebf8ec8bf815484cd9e0f1ec6b95d5ec48054a58123a39dc3fba2c3090961c81",
+    "notes": "Serket with scorpion crown, ankh and was-sceptre pins the coiled Apep beneath her in the underworld; monumental and threatening."
   },
-  "correction_notes": "Ordinary woman with a scorpion emblem at human scale."
+  "reviewed_at": "2026-10-08T04:30:26.950Z"
 }

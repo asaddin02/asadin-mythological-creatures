@@ -1,44 +1,88 @@
 {
   "slug": "mut",
-  "prompt": "MUT, Egyptian mother/protector goddess: ONE fully robed adult HUMAN woman wearing precisely Egypt's DOUBLE CROWN, white tall hedjet nested within red deshret base (mut-c08), one head TWO arms. Monumental stance at huge Karnak-like temple gate, a great FLAMING BRAZIER burns beside her grounded in mut-c13, flame in brazier only, no people burned or victims. Motherly authoritative serene face, opaque deep red/gold linen robes, tiny Nile landscape and columns below, dramatic amber fire and silver dusk. No vulture/lioness fusion, wings or unclaimed extra parts; select human crown variant. Use case: stylized-concept. Original square premium monumental painterly Mythics encyclopedia artwork, very low camera, tiny environmental scale references, clear powerful silhouette, cinematic contrast, rich texture. Respectful sacred depiction, no text, watermark, logo, border, nudity, gore, copied modern media or unsupported anatomy/effects.",
-  "depicted_variant": "Mut as human woman in Egyptian double crown, protective mother with brazier attribute.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of MUT, Egyptian divine mother and protector of king and state.\nANATOMY: ONE adult human woman deity, one head, two eyes, exactly two arms; fully opaque heavy ivory linen robes and dark red mantle. Wear a huge clearly readable DOUBLE CROWN: tall WHITE round-tipped hedjet rising inside the RED deshret base with a thin curled front projection. Do not fuse animal forms. [mut-c01, mut-c08, mut-c12]\nMOMENT: Lean forward over the blazing bronze brazier and sweep her open palm down above its rim, face tilted down to confront the viewer, eyes severe, lips parted in command. Other hand grips the far rim. The brazier and her face occupy most of the image; active blaze throws real sparks toward foreground.\nPOWER: a ferocious but contained brazier fire from documented flaming brazier, no victim or gore; physical rising flame and sparks only. No fire out of her hands, eyes or crown. [mut-c13]\nSCALE & CAMERA: extreme low angle from just below the brazier rim, close framing WITH 10 PERCENT CLEAR SPACE ABOVE THE COMPLETE ROUND WHITE CROWN TIP; the double crown is as wide as her shoulders and her commanding face is large. Divine grandeur through perspective, no tiny human scale comparison or invented giant anatomy.\nLIGHT & WEATHER: ONLY the roaring brazier provides amber key light and hard rim illumination; deep black-walnut shadows, real soot and smoke rising from its coals.\nSURFACE: hammered old bronze brazier, charred coals, dense woven linen, aged crown lacquer.\nSETTING: dark Theban triad sanctuary setting, PLAIN UNCARVED columns: absolutely no hieroglyphs, no engraved marks or patterned writing anywhere. [mut-c07]\nMOOD: awe-inspiring sacred mother/protector with ruthless authority, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore, burning people or visible victims; no generic glow aura, neon outline or energy ribbons. Additional critical requirement: ALL architecture and brazier surfaces are blank rough uncarved material with absolutely no glyphs or inscriptions; keep both parts of double crown completely inside frame.",
+  "depicted_variant": "Human double-crowned Mut commanding a blazing brazier in a close low-angle protective-authority scene.",
   "basis_claim_ids": [
     "mut-c01",
     "mut-c08",
-    "mut-c11",
     "mut-c12",
-    "mut-c13"
+    "mut-c13",
+    "mut-c07"
   ],
   "visual_requirements": [
-    "Woman wearing DOUBLE CROWN — mut-c08.",
-    "Protective motherhood — mut-c01/c12.",
-    "Flaming brazier only, no victims — mut-c13."
+    {
+      "kind": "anatomy",
+      "description": "Human woman Mut wearing clearly visible double Red-and-White crown.",
+      "claim_ids": [
+        "mut-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Fire, sparks and smoke remain physically in/from flaming brazier, without victims.",
+      "claim_ids": [
+        "mut-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Theban triad sanctuary editorial staging.",
+      "claim_ids": [
+        "mut-c07"
+      ]
+    }
   ],
-  "aura": "Strong brazier flame is sourced c13; surrounding natural temple light complements protection.",
+  "aura": "Documented double crown (mut-c08), protector authority (mut-c12) and physical flaming brazier (mut-c13) create imposing presence.",
   "artistic_choices": [
-    "Clothing, staff as ordinary regal prop, architecture, apparent scale and light are editorial staging."
+    "Low close framing and forceful open-palm gesture stage documented protective authority without inventing an emission.",
+    "Opaque robes, brazier construction and dark sanctuary architectural detail are editorial.",
+    "Omit victims/gore and any hand-emitted magic; fire remains in its documented brazier."
   ],
   "visual_review": {
-    "notes": "Viewed native: fully robed human woman, unmistakable Red+White Double Crown and two arms, huge flaming brazier beside her, tiny Nile temples beneath. Flame remains in documented brazier c13 with no victims or weapon; ordinary staff is editorial regal prop. No animal fusion, wings, text caption or watermark.",
     "reviewer": "codex",
     "verdict": "pass",
-    "native_sha256": "2129e970029adcac57bf38b44076dd71a78dca123aa51f0c137170dfab7a1ba2",
-    "reviewed_at": "2026-10-06T09:08:42.060861+00:00"
+    "notes": "Native inspected: imposing close crowned female Mut leaning forward over blazing brazier with commanding open palm and rim-gripping other hand, two arms. Full white-red double crown visible, opaque robes. Fire originates from coals only, plain columns have no lettering. No victims, invented emission, extra anatomy, watermark. All Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "3877645d1abd2961b513fb09524130cff8899de931a1214e06643336fcfa7445",
+    "reviewed_at": "2026-10-08T04:02:13.326698+00:00"
   },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-371c-7680-935d-9da18174a957/exec-a5e493af-e1a7-471f-aaeb-ae9841fa3c6e.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/mut.png",
-  "native_sha256": "2129e970029adcac57bf38b44076dd71a78dca123aa51f0c137170dfab7a1ba2",
-  "status": "needs-correction",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-9949-75d3-9b67-7f8980960be5/exec-29450a7f-eee8-4c7b-8e40-8ef8140abd37.png",
+  "original_file": "data/artwork-generated/batch-1055/originals/mut.png",
+  "native_sha256": "3877645d1abd2961b513fb09524130cff8899de931a1214e06643336fcfa7445",
+  "status": "reviewed",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
   "review_path": "data/gemini/reviews/batch-077.review.json",
-  "reviewed_at": "2026-10-06T09:08:42.060861+00:00",
+  "reviewed_at": "2026-10-08T04:30:26.950Z",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1055/rejected/mut-attempt-02.png",
+      "native_sha256": "2129e970029adcac57bf38b44076dd71a78dca123aa51f0c137170dfab7a1ba2",
+      "reason": "Ordinary woman with a crown beside a brazier.",
+      "receipt_file": "data/artwork-generated/batch-1055/rejected/mut-attempt-02.json"
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1055/rejected/mut-attempt-01.png",
+      "native_sha256": "ea9685b3d267f24d5c15b3f12937273af96fcccfc87b0a353a1979fd644f395a",
+      "reason": "Rejected by Codex native inspection: visible rows of hieroglyphs on columns violate no lettering and white crown apex cropped.",
+      "receipt_file": "data/artwork-generated/batch-1055/rejected/mut-attempt-01.json"
+    }
+  ],
+  "worker_agent": "lane_1055_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1055,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T04:02:13.326698+00:00",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "2129e970029adcac57bf38b44076dd71a78dca123aa51f0c137170dfab7a1ba2",
-    "notes": "Ordinary woman with a crown beside a brazier."
-  },
-  "correction_notes": "Ordinary woman with a crown beside a brazier."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "3877645d1abd2961b513fb09524130cff8899de931a1214e06643336fcfa7445",
+    "notes": "Mut in the full double crown commands a blazing brazier from a low angle; fire stays in the brazier, columns are plain."
+  }
 }

@@ -2007,49 +2007,73 @@
       "visual_basis": "data/gemini/reviews/batch-080.review.json"
     },
     "ahriman": {
-      "url": "/assets/art/ahriman-mythic-presence.webp",
+      "url": "/assets/art/ahriman-presentation-revision-nama-besar.webp",
       "creature_id": "ahriman",
       "canonical_name": "Ahriman",
-      "prompt": "Ahriman: Replace snake with the explicitly documented young-man manifestation of Ahriman, evil Iranian spirit, inhabiting an abyss of endless northern darkness. Human-shaped young man in simple dark cloth stands at vast cliff above bottomless shadowed chasm; dying plants mark creation's decay, his expression cold. One head, two arms, two legs, no invented horns, fangs or serpent limbs. Avoid cheerful ordinary man portrait. Separate revised catalogue folklore illustration, painterly naturalistic detailed dramatic scene. Use only specified documented variant, don't combine alternatives. Clothing,colours,age and supporting layout editorial. Coherent anatomy and clear mythic identity at small viewing scale. No text/watermark/neon/aura/energy ribbons/generic mist or smoke; only source-specific restrained effect when explicitly requested.",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of AHRIMAN / Angra Mainyu, destructive spirit in the documented SNAKE form.\nANATOMY: ONE coherent living serpent with ONE snake head, TWO eyes, ONE continuous coiled body, NO arms or legs, NO wings or horns. Large mouth opens naturally with a snake forked tongue; no exaggerated invented teeth. [ahriman-c06]\nMOMENT: Lunge upward from dark coils almost into the viewer, head thrust forward, neck forming a strong S-curve. Knock a brittle dead twig aside through actual contact, tiny bark fragments falling. Direct menacing eyes toward viewer.\nPOWER: Destructive darkness and death/disease are documented; visualize an already withered environment and swallowing darkness, not an invented poison cloud or emitted flame. [ahriman-c01,c07,c08]\nSCALE & CAMERA: extreme low angle; macro extreme close perspective; head huge by proximity occupying over half the square, coils recede into abyss, NO humans or giant-body scale props.\nLIGHT & WEATHER: ONE narrow warm side-light from an unseen natural opening rims scales; near-black abyss dominates remaining frame, dry dust from broken twig.\nSURFACE: rough black-brown scales with muted bronze highlights, dry dead stems, gritty dark rock.\nSETTING: an abyss of endless northern darkness, dead stalks in the foreground are editorial embodiment of destructive death/disease opposition. [ahriman-c05,c08]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
       "review_path": "data/gemini/reviews/batch-079.review.json",
       "review_verdict": "lulus-otomatis",
       "visual_review": "Reviewed for creature identity and the described folklore variant",
-      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/ahriman.png",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/ahriman.png",
       "width": 1254,
       "height": 1254,
-      "visual_review_notes": "Documented young-man form at immense abyss of darkness, dying plants; coherent human anatomy without invented demon organs.",
-      "depicted_variant": "Replace snake with the explicitly documented young-man manifestation of Ahriman, evil Iranian spirit, inhabiting an abyss of endless northern darkness. Human-shaped young man in simple dark cloth stands at vast cliff above bottomless shadowed chasm; dying plants mark creation's decay, his expression cold. One head, two arms, two legs, no invented horns, fangs or serpent limbs. Avoid cheerful ordinary man portrait.",
+      "visual_review_notes": "Native PNG inspected: one coherent snake form, single head with two eyes, forked tongue, natural snake mouth/fangs, no limbs, horns or wings. Extreme close head lunges through dead stems with bark debris from physical contact; coils recede into near-black abyss. Warm natural opening light, rough scales and lifeless vegetation, no emitted venom, disease cloud, magic or writing. Strong dangerous head silhouette at thumbnail; documented snake variant answers rejected ordinary young man. All seven Uji Sangar checks yes.",
+      "depicted_variant": "Single snake incarnation lunging from the northern dark abyss through dead vegetation.",
       "visual_basis": "data/gemini/reviews/batch-079.review.json",
       "accuracy_mode": "source-supported",
       "artistic_changes": [
-        "Colours, human age/appearance, clothing, supporting props and scene arrangement are editorial staging rather than unique attested iconography."
+        "Snake variant answers rejection of ordinary young man; close macro perspective supplies scale without inventing gigantic size.",
+        "Withered stems and a narrow warm side-light are editorial symbols, not source-specific plant or event.",
+        "No venom emission, horns, wings, magic ribbons or fantasy extra anatomy."
       ],
-      "aura": "None; natural environmental light only.",
+      "aura": "Destructive darkness and death/disease are documented; visualize an already withered environment and swallowing darkness, not an invented poison cloud or emitted flame. [ahriman-c01,c07,c08]",
       "visual_requirements": [
-        "Cited variant/episode readable",
-        "Coherent anatomy",
-        "No generic aura"
+        {
+          "kind": "anatomy",
+          "description": "Single coherent snake form, one head and no limbs",
+          "claim_ids": [
+            "ahriman-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Destructive dark and lifeless surrounding vegetation, no emitted attack",
+          "claim_ids": [
+            "ahriman-c01",
+            "ahriman-c07",
+            "ahriman-c08"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Abyss of endless northern darkness",
+          "claim_ids": [
+            "ahriman-c05"
+          ]
+        }
       ],
       "root_visual_review": {
         "verdict": "pass",
-        "reviewer": "root",
-        "notes": "Young human male stands at endless dark abyss; black costume editorial. No unsourced animal hybrid or glow.",
-        "native_sha256": "05006fa29c9a524269a17917f28a509007bde9d385d23ffc59bafc48d6652d93",
-        "reviewed_at": "2026-10-05T18:35:59.160784+00:00"
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "a950ba53a892a157bd0def3fb38276a148ccb59040a139110b47e1067cc22b27",
+        "notes": "A single giant snake lunges from the dark abyss through dead vegetation; one head, forked tongue, destructive darkness dominates."
       },
       "presentation_revision": {
-        "ledger": "data/artwork-presentation-revision-1000.json",
-        "receipt_path": "data/artwork-generated/presentation-revision-1000/ahriman.json",
-        "native_sha256": "05006fa29c9a524269a17917f28a509007bde9d385d23ffc59bafc48d6652d93",
-        "old_url": "/assets/art/ahriman-verified.webp",
-        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-949998e4-3ab1-4a87-a165-3238f8bf953b.png",
-        "old_webp_sha256": "e154323e2cd238d71d23248324757dfdbe737865e45d10b3ee015c6a55b4eaca",
-        "old_native_sha256": "302746d3e3b9801ba583277fe0a95b0629a1f00649b5dee2e8d2edc537441dc7",
-        "rationale": "Stronger recorded mythic variant or episode replaces the passive ordinary animal image.",
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/ahriman.json",
+        "native_sha256": "a950ba53a892a157bd0def3fb38276a148ccb59040a139110b47e1067cc22b27",
+        "old_url": "/assets/art/ahriman-mythic-presence.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/ahriman.png",
+        "old_webp_sha256": "fcce1203fb818fd3e160f6f78b0d5819db8fe284e8d9879637d46755cbe313cc",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
         "basis_claim_ids": [
-          "ahriman-c05",
           "ahriman-c06",
-          "ahriman-c07"
+          "ahriman-c01",
+          "ahriman-c07",
+          "ahriman-c08",
+          "ahriman-c05"
         ]
       }
     },
@@ -8692,25 +8716,71 @@
       "batch": "267"
     },
     "incubus": {
-      "url": "/assets/art/incubus-verified.webp",
+      "url": "/assets/art/incubus-presentation-revision-nama-besar.webp",
       "creature_id": "incubus",
       "canonical_name": "Incubus",
-      "prompt": "One square detailed painterly naturalistic folklore encyclopedia illustration of an INCUBUS in the documented BAT form used to enter rooms at night, never the modern handsome human seducer. One large unsettling dark BAT with entirely chiropteran anatomy: furry small bat body, unmistakable bat muzzle and bat ears, two broad leathery wings stretched over elongated bat finger bones, small two hind feet with hooked claws, thin membranous tail web. It hangs in a hovering approach just outside an old unoccupied stone chamber window at midnight, watchful predatory bat gaze and oppressive dense shadows suggest the nightmare demon. Naturalistic wing membranes and fur, dim cold moonlight. Full bat silhouette with wing tips within frame, generous margins. No human face, human torso, horns, armor, tail spike, extra wings, people, sleeping victim, erotic content, blood, text, labels, border or watermark. Sole source-backed animal form.",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of INCUBUS, a male dream-intruding demon taking the documented BAT form.\nANATOMY: ONE realistic living BAT with ONE bat head, TWO eyes, TWO membranous wings connected to forelimbs, TWO hind feet. Natural bat muzzle and ears; no horns, human torso, extra arms or oversized monster teeth. [incubus-c10]\nMOMENT: Bank into the viewer through a narrow open bedroom window at night, wings bent asymmetrically in strong flight foreshortening and small natural bat mouth open. The bat dominates nearly entire square. No person or sleeping victim shown.\nPOWER: Explicit documented transformation into a bat to enter a bedroom; physical flight and nocturnal menace only. NO supernatural ray, smoke body or emitted magic. [incubus-c10]\nSCALE & CAMERA: extreme low angle; extreme close upward perspective at window threshold; face and wings fill frame, wing near viewer huge through proximity, NOT gigantic anatomical size.\nLIGHT & WEATHER: ONE cold moonbeam from the open window cuts across brown-black fur and membranes; walnut interior shadow, thin airborne dust, no second magical source.\nSURFACE: real damp coarse bat fur, fine veined leathery wings, rough timber and coarse linen.\nSETTING: nocturnal bedroom seen only as a narrow strip of window jamb and empty dark bed edge, no victim, no sexual scene. [incubus-c10]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
       "review_path": "data/gemini/reviews/batch-128.review.json",
       "review_verdict": "lulus-otomatis",
       "visual_review": "Reviewed for creature identity and the described folklore variant",
-      "original_file": "/home/asadin/.codex/generated_images/01a10610-63b9-72e0-b40c-ea8572d6e4c9/exec-5fdcd44b-dad4-46e1-a706-e4b2857fcb81.png",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/incubus.png",
       "width": 1254,
       "height": 1254,
-      "visual_review_notes": "Observed wholly bat anatomy with bat muzzle, two bat ears, fur, two membranous finger-bone wings, two hind clawed feet and tail web. Hovering outside empty stone window in oppressive moonlit shadows gives sinister nightmare-spirit aura. Uses documented bat variant rather than ordinary handsome male form.",
-      "depicted_variant": "Bat form entering at night, not handsome human seducer",
+      "visual_review_notes": "Native PNG inspected: one coherent bat incarnation with one head, two eyes, two membranous forelimb wings and two hind feet, natural ears and opened small-toothed bat mouth. Wings bank asymmetrically through empty bedroom window directly toward viewer; the foreshortened membrane fills foreground and bat dominates thumbnail. Moonlight, dust, rough timber and empty bed edge; no people, sexual content, horns, human torso, emitted magic, lettering or watermark. Physical flight into bedroom uses documented c10 variant and answers ordinary man rejection. All seven Uji Sangar checks yes.",
+      "depicted_variant": "Bat incarnation entering a nocturnal bedroom, face and folded flight membranes confronting the viewer.",
       "visual_basis": "data/gemini/reviews/batch-128.review.json",
-      "aura": "Sinister oppressive nocturnal nightmare spirit",
-      "visual_requirements": [
-        "Documented bat nocturnal-entry variant",
-        "Full bat anatomy",
-        "Sinister nightmare-spirit aura"
+      "accuracy_mode": "source-supported",
+      "artistic_changes": [
+        "Bat variant chosen to answer ordinary robed man rejection without inventing horns or wings on a human.",
+        "No people, nudity, sexual activity or assault; flight through window is the selected nonsexual moment.",
+        "Natural brown bat, close framing, moonlight and linen are editorial; no invented giant animal size."
       ],
+      "aura": "Explicit documented transformation into a bat to enter a bedroom; physical flight and nocturnal menace only. NO supernatural ray, smoke body or emitted magic. [incubus-c10]",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One anatomically coherent bat incarnation",
+          "claim_ids": [
+            "incubus-c10"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Bat transformation and physical entry flight",
+          "claim_ids": [
+            "incubus-c10"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Bedroom at night",
+          "claim_ids": [
+            "incubus-c10",
+            "incubus-c04"
+          ]
+        }
+      ],
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "cebd86d6053784474e7df54395ce6acae4a0207f9825c696f4ba5b17040e00c4",
+        "notes": "A coherent bat with spread membranes and open fanged mouth enters the moonlit bedroom window toward the viewer; menacing night entry."
+      },
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/incubus.json",
+        "native_sha256": "cebd86d6053784474e7df54395ce6acae4a0207f9825c696f4ba5b17040e00c4",
+        "old_url": "/assets/art/incubus-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a10610-63b9-72e0-b40c-ea8572d6e4c9/exec-5fdcd44b-dad4-46e1-a706-e4b2857fcb81.png",
+        "old_webp_sha256": "fc62190fdc7a4880c1d02dbb6e378e9d46b367f6f790cc16b83901d608d92a66",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "incubus-c10",
+          "incubus-c04"
+        ]
+      },
       "batch": "267"
     },
     "kratt": {
@@ -11480,48 +11550,73 @@
       "batch": "regeneration-139"
     },
     "dwarf-folklore": {
-      "url": "/assets/art/dwarf-folklore-regeneration-139-mythic-presence.webp",
+      "url": "/assets/art/dwarf-folklore-presentation-revision-nama-besar.webp",
       "creature_id": "dwarf-folklore",
       "canonical_name": "Dwarf (folklore)",
-      "prompt": "Replace the plain pike fish variant with a documented Germanic dwarf: a short HUMAN-SHAPED supernatural mountain craftsman, clearly small relative to forge tools and cave doorway, working hammer and tongs on hot iron in an underground mountain forge with raw gold and silver seams. Adult stout human anatomy, one head, two arms, two legs, compact stature and weathered face. Beard and plain wool/leather clothes are editorial choices. Source cave-dwelling smith identity, not copyrighted fantasy dwarf costume or video-game runes. No fish anatomy retained. Separate revised illustration for a scholarly mythology catalogue. Detailed naturalistic painterly mythic scene, coherent anatomy, portrait or square composition. Identity must be visible through the cited documented variant/episode; no invented creature anatomy beyond the specified variant. No lettering, watermark, generic neon/aura/energy ribbons/magic smoke or glowing eyes. Clothing, colours and minor environmental staging are editorial choices.",
+      "prompt": "ONE square original painterly cinematic Mythics illustration of a fierce short German folklore dwarf actively becoming invisible through his hooded Tarnkappe cloak [dwarf-folklore-c01,c02,c07,c08]. Original art, NO writing of any sort, NO signature, NO watermark anywhere, NO branding.\nShow the dwarf FRONT-ON close from head to knees, standing in OPEN SPACE inside a large cavern workshop. Solid left half: one fierce left eye, half human face, half coarse beard, left wool-clothed shoulder and arm lifting the hood, left leg. The right half of the face, hood, beard, torso, arm and leg DISAPPEARS into empty space, revealing the distant cavern workshop behind. A narrow softly fading edge lets the viewer understand that he is vanishing, never a wound or cut. The visible hood's fabric dissolves halfway across his forehead.\nIMPORTANT BACKGROUND: distant cave wall, wooden shelf and forge are MANY METERS behind the dwarf. One horizontal wooden shelf in that BACK wall extends uninterrupted THROUGH THE SPACE OF THE INVISIBLE RIGHT HALF OF HIS TORSO. Empty clean air around him. NO foreground stone pillar, NO rock coating his skin, NO petrification, NO object in front occluding his right half. His vanishing face and hood show the same empty air and distant background as outside the body. No glowing outlines or aura.\nThe Tarnkappe invisibility (c07) must be unmistakable even at thumbnail. The dwarf is not an intact ordinary man leaning against stone. His solid half leans forward with confrontational eye toward viewer. Body is short and human-shaped, no giant scale, horns or pointed ears. Plain dark opaque wool clothing, rough fabric and real skin/beard texture.\nLow-angle dramatic camera; left face and hand large foreground, one warm forge fire far left illuminates solid wool and beard; rich walnut shadow and antique gold accents, no pastel. Mountain cavern of miners and smiths, little mined gold in shelf [dwarf-folklore-c14].\nNo extra heads/limbs; partial invisibility only changes visibility, not anatomy. No gore, nudity, letters, symbols, rune, frame, film/game/anime/comic designs, glow, neon or particles. ABSOLUTELY NO ARTIST SIGNATURE OR WATERMARK.",
       "review_path": "data/gemini/reviews/batch-115.review.json",
       "review_verdict": "lulus-otomatis",
       "visual_review": "Reviewed for creature identity and the described folklore variant",
-      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/dwarf-folklore-mythic-presence.png",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/dwarf-folklore.png",
       "width": 1254,
       "height": 1254,
-      "visual_review_notes": "Compact human-shaped dwarf works hammer/tongs at cave forge; coherent human anatomy, smith and mineral context.",
-      "depicted_variant": "Replace the plain pike fish variant with a documented Germanic dwarf: a short HUMAN-SHAPED supernatural mountain craftsman, clearly small relative to forge tools and cave doorway, working hammer and tongs on hot iron in an underground mountain forge with raw gold and silver seams. Adult stout human anatomy, one head, two arms, two legs, compact stature and weathered face. Beard and plain wool/leather clothes are editorial choices. Source cave-dwelling smith identity, not copyrighted fantasy dwarf costume or video-game runes. No fish anatomy retained.",
+      "visual_review_notes": "Native inspected: clearly half-visible short humanlike dwarf; lifting Tarnkappe hood, one fierce solid eye/face half, wool and leg fade into uninterrupted distant workshop shelves, empty air and floor on vanished side. No stone pillar, rock skin, wound or severing. Close confronting subject, action and unmistakable c07 invisibility solve prior ordinary-man rejection. No lettering, watermark, aura, extra anatomy or media design. Two preceding attempts self-rejected and retained.",
+      "depicted_variant": "Short humanlike dwarf visibly fading halfway to invisibility through the Tarnkappe; distant cave workshop visible through vanished face/body half.",
       "visual_basis": "data/gemini/reviews/batch-115.review.json",
       "accuracy_mode": "source-supported",
       "artistic_changes": [
-        "Clothing, coat colours, human age/appearance, material ornament and environmental arrangement are editorial staging."
+        "Partial mid-transition visualizes documented invisibility rather than inventing altered anatomy.",
+        "Short later-folklore male variant, beard, wool hooded cloak and workshop layout editorial.",
+        "Uninterrupted distant shelf and empty air through missing half make invisibility explicit; no rock pillar occlusion or petrification.",
+        "No giant body, glowing rune, elemental attack or emitted fire; forge fire ambient."
       ],
-      "aura": "None; environmental sunlight/moonlight/fire only.",
+      "aura": "The documented Tarnkappe turns him invisible: show an unmistakable PARTIAL DISAPPEARANCE mid-transition, not simply a man wearing a cloak. Rock behind the vanished half remains sharp. No energy particles. [dwarf-folklore-c07]",
       "visual_requirements": [
-        "Documented variant or episode clearly visible",
-        "Coherent required anatomy",
-        "No generic aura"
+        {
+          "kind": "anatomy",
+          "description": "Short male human-shaped dwarf in opaque Tarnkappe",
+          "claim_ids": [
+            "dwarf-folklore-c01",
+            "dwarf-folklore-c02",
+            "dwarf-folklore-c08"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Visible partial invisibility transition through Tarnkappe",
+          "claim_ids": [
+            "dwarf-folklore-c07"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Mountain cave and mined gold",
+          "claim_ids": [
+            "dwarf-folklore-c14"
+          ]
+        }
       ],
       "root_visual_review": {
         "verdict": "pass",
-        "reviewer": "root",
-        "native_sha256": "23eba95fdfc34aa38b4323807cc3b33d0f3188145a932140fe02a1ef5f29f34d",
-        "notes": "Inspected native: short stout human craftsman works hammer and tongs on hot iron in an underground forge with mineral seams. Supported small later-folklore form and smith role replace a fish portrait; physical forge sparks only.",
-        "reviewed_at": "2026-10-05T18:12:41.652204+00:00"
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "eee92a5613566660fc687fc92db456af04da7441ce2e1de86852e8e1b3db4d48",
+        "notes": "The hooded dwarf lifts the Tarnkappe and his right half fades into the workshop behind him; the invisibility is unmistakable."
       },
       "presentation_revision": {
-        "ledger": "data/artwork-presentation-revision-1000.json",
-        "receipt_path": "data/artwork-generated/presentation-revision-1000/dwarf-folklore.json",
-        "native_sha256": "23eba95fdfc34aa38b4323807cc3b33d0f3188145a932140fe02a1ef5f29f34d",
-        "old_url": "/assets/art/dwarf-folklore-regeneration-139.webp",
-        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/dwarf-folklore.png",
-        "old_webp_sha256": "46c6df6ff23b3900a27a0419761e29e46f09f04c7b8a7cb9f9dc6db2517ef2b9",
-        "old_native_sha256": "ca1991ccddd8f89cb141c6d3c8410589d566dd920c89b3db0c2b6bebc21ee2f9",
-        "rationale": "Replaces passive ordinary animal presentation with the stronger explicitly documented variant/episode recorded in assigned research.",
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/dwarf-folklore.json",
+        "native_sha256": "eee92a5613566660fc687fc92db456af04da7441ce2e1de86852e8e1b3db4d48",
+        "old_url": "/assets/art/dwarf-folklore-regeneration-139-mythic-presence.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/dwarf-folklore-mythic-presence.png",
+        "old_webp_sha256": "834847d60ee7eaa5e3d28cc3c9e679b85d17bf06e402336a77bcbed853209120",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
         "basis_claim_ids": [
           "dwarf-folklore-c01",
+          "dwarf-folklore-c02",
           "dwarf-folklore-c08",
+          "dwarf-folklore-c07",
           "dwarf-folklore-c14"
         ]
       },
@@ -12979,41 +13074,74 @@
       }
     },
     "yaksha": {
-      "url": "/assets/art/yaksha-regeneration-139.webp",
+      "url": "/assets/art/yaksha-presentation-revision-nama-besar.webp",
       "creature_id": "yaksha",
       "canonical_name": "Yaksha",
-      "prompt": "Use case: scientific-educational. Asset type: ONE square refined painterly mythology encyclopedia illustration for Mythics. Subject: YAKSHA represented by the specifically attested Buddhist Jataka #55 forest-yakkha SILESALOMA / Sticky-Hair, from Chalmers translation. One tall monstrous hairy forest ogre with a disproportionately broad large head, two enormous bowl-like eyes, ONE hooked HAWK BEAK at the center of the face, and exactly TWO thick ivory tusks flanking the beak/mouth. Dense coarse dark shaggy bodily coat covers chest, shoulders, arms and legs; a small bare belly patch has mottled purple blotches. Exactly two arms with two hands, two legs with two feet; palms and soles blue-black. Show open hands partly forward to read dark palms. Simple opaque brown waist wrap for modesty. Fully uncropped head-to-feet silhouette, entire tusks and beak visible, all fingers countable, comfortable margin. Deep ancient Indian forest with palms and mossy rocks establishes tall stature without adding humans. Formidable territorial predatory forest spirit in a poised watchful stance, not attacking. Premium detailed painterly folklore-book illustration, dark forest greens and walnut hair, restrained copper twilight, preserve blue-black palms and purple belly details. No horns, wings, extra heads or limbs, axe, held weapons, costumes from Thai Ramakien, victim, blood, text, watermark or border. One explicitly named yaksha subtype, not generic mixed demon imagery.",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of YAKSHA, a Buddhist guardian nature spirit in its documented ugly OGRE form.\nANATOMY: ONE living male ogre-form guardian with ONE head, TWO eyes, TWO human-shaped arms, TWO legs. Rough heavily furrowed ugly broad face, thick brow, broad nose and square jaw; no added horns, tusks, third eye, wings or extra limbs. Opaque coarse earth-brown tunic and deep red wrap over covered torso. [yaksha-c05]\nMOMENT: Rise forward from the dark wooded entrance guarding hidden treasure, thrust one open palm toward the viewer to forbid intrusion, face staring downward with fierce protective authority. Cloth and nearby leaves shift through direct movement.\nPOWER: Protective guardian presence from documented attendants of Vaisravana and guardians of hidden treasure; no invented force-beam, tree animation or magical strength. [yaksha-c05,c06]\nSCALE & CAMERA: extreme low angle; extreme low, tight waist-up framing; ugly ogre face fills upper half and foreshortened blocking palm fills foreground, no tiny-human giant-size props.\nLIGHT & WEATHER: ONE angled warm sunset shaft rims face and hand through branches; deep walnut forest shadows and natural dust, no glowing eyes.\nSURFACE: rough furrowed skin, coarse woven cloth, weathered mountain roots and a partly visible simple dull-gold treasure vessel.\nSETTING: wooded Himalayan mountain treasure shelter, a keeper in forest/mountain setting rather than a man relaxed on roots. [yaksha-c01,c06]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
       "review_path": "data/gemini/reviews/batch-072.review.json",
       "review_verdict": "lulus-otomatis",
       "visual_review": "Reviewed for creature identity and the described folklore variant",
-      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/yaksha.png",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/yaksha.png",
       "width": 1254,
       "height": 1254,
-      "visual_review_notes": "Individually inspected full output. Single clearly hooked bird beak centered between exactly two ivory tusks; two bowl-like eyes on broad head. Hairy body with purple mottled belly, two arms/hands, five visible digits per hand, two feet. Both open palms dark blue-black; upper feet dark with soles planted and not asserted visible. Opaque waistcloth, full figure and all primary identifying anatomy in frame. No horns, wings, axe, attacking victim, blood or text.",
-      "depicted_variant": "Silesaloma / Sticky-Hair forest-yakkha in Pañcāvudha Jataka #55",
+      "visual_review_notes": "Native inspected: one ugly ogre-form guardian, rough exaggerated broad brow/nose/jaw, two ordinary eyes, no horns/tusks/wings/third eye; coherent five-finger blocking palm and second hand, fully covered torso with coarse tunic/red wrap. Forward warning action, fierce downward gaze and close low camera feel formidable at thumbnail; hidden treasure vessel/chest and wooded rock shelter contextualize c05/c06. No emitted power, aura, readable text, signature, frame or gore. Answers former relaxed ordinary-man-on-roots rejection.",
+      "depicted_variant": "Ugly ogre-form beneficent yaksha blocking access to a forest mountain treasure shelter.",
       "visual_basis": "data/gemini/reviews/batch-072.review.json",
       "accuracy_mode": "source-supported",
-      "nonhuman_features": [
-        "One hawk beak and exactly two thick tusks",
-        "Disproportionately large head and bowl-like eyes",
-        "Shaggy coat, purple-mottled belly and blue-black palms"
+      "artistic_changes": [
+        "Buddhist ogre guardian form chosen from exact c05 quote; protective and dignified, not a villain caricature.",
+        "Face proportions, clothing, dust and treasure vessel editorial, no claim-specific tusks or horns added.",
+        "Guardian hand and close perspective answer passive ordinary man rejection; no invented supernatural strength."
       ],
-      "historical_basis": "Pañcāvudha Jataka #55 primary translation names Silesaloma a forest yakkha and gives specific nonhuman anatomy. This is one attested Buddhist yaksha subtype rather than a conflated Thai Ramakien guardian.",
-      "artistic_changes": "Stationary pose, forest lighting and modest waistcloth are interpretive; sole color follows prompt but soles are hidden by grounded stance.",
-      "additional_sources": [
+      "aura": "Protective guardian presence from documented attendants of Vaisravana and guardians of hidden treasure; no invented force-beam, tree animation or magical strength. [yaksha-c05,c06]",
+      "visual_requirements": [
         {
-          "url": "https://ancient-buddhist-texts.net/English-Texts/Jataka/055.htm",
-          "title": "Jataka 55: Pañcāvudha, translated by Robert Chalmers",
-          "locator": "Meeting the forest Yakkha Silesaloma",
-          "purpose": "Primary translated tale explicitly identifies this as a yakkha and describes broad head, bowl eyes, two tusks, hawk beak, purple-blotched belly, blue-black hands/feet and shaggy sticky coat."
+          "kind": "anatomy",
+          "description": "Ugly ogre form from Buddhist stories, ordinary coherent limbs",
+          "claim_ids": [
+            "yaksha-c05"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Fierce but beneficent treasure guard; no emitted attack",
+          "claim_ids": [
+            "yaksha-c05",
+            "yaksha-c06"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Nature spirit forest and Himalayan treasure context",
+          "claim_ids": [
+            "yaksha-c01",
+            "yaksha-c06"
+          ]
         }
       ],
-      "batch": "regeneration-139",
       "root_visual_review": {
         "verdict": "pass",
-        "notes": "Individually viewed original. One hawk-beaked head with two tusks and bowl-like eyes, shaggy body, purple belly and dark palms. Two arms/two legs, five digits each visible hand, full figure. Strong wild guardian/ogre aura fits individually named Sticky-Hair Yakkha example.",
-        "reviewed_at": "2026-10-04T16:58:31.541238+00:00"
-      }
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "07a312006a81e3a0d5575074850d5498291a61a98071d07ff83ad666c74c3ec6",
+        "notes": "An ugly ogre-form yaksha blocks the treasure cave with a huge palm, gold vessels behind; fierce guardian from a low angle."
+      },
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/yaksha.json",
+        "native_sha256": "07a312006a81e3a0d5575074850d5498291a61a98071d07ff83ad666c74c3ec6",
+        "old_url": "/assets/art/yaksha-regeneration-139.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/yaksha.png",
+        "old_webp_sha256": "ed78f5e9c572752772c4615d69097159064a2d7ab7f088652a4ee828a7e42adf",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "yaksha-c05",
+          "yaksha-c06",
+          "yaksha-c01"
+        ]
+      },
+      "batch": "regeneration-139"
     },
     "lange-wapper": {
       "url": "/assets/art/lange-wapper-regeneration-139-mythic-presence.webp",
@@ -13785,50 +13913,72 @@
       }
     },
     "ra": {
-      "url": "/assets/art/ra-regeneration-139-mythic-presence.webp",
+      "url": "/assets/art/ra-presentation-revision-nama-besar.webp",
       "creature_id": "ra",
       "canonical_name": "Rå",
-      "prompt": "Create one square premium painterly mythological catalogue illustration. A HUMAN FEMALE FOREST GUARDIAN RÅ (Nordic/Sami spirit, NOT Egyptian sun god) stands quietly between tall ancient trees, watching over nearby wild deer and forest birds. Full adult human form two hands/twolegs, human face, opaque earthy plain Scandinavian cloak and dress, no raven body. Animals stand calmly under her protection, the mature woman central and powerful in still stance. Source rår can appear as women and rule forces/animals of guarded forest; appearance and attire editorial, no invented tail/hollowback/horns. Natural forest light. Detailed naturalistic painting, documented mythical form/scene, coherent complete relevant anatomy. No text, watermark or border. No generic glow, luminous eyes/mist, floating ribbons, particles or unsupported magical powers.",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of RÅ, the Scandinavian and Sami keeper spirit of the forest, NOT the Egyptian sun god.\nANATOMY: ONE female human-form forest rå, ONE head, TWO eyes, TWO arms, TWO legs; fully opaque dark wool long dress and mantle, no crown, solar disk, horns, wings, extra eyes, hollow back or tail. Weathered stern woman face close to viewer. [ra-c06]\nMOMENT: Stride out between forest trunks directly toward viewer with one hand thrust palm-first toward intruder; commanding downward gaze. A powerful wind gust whips her mantle and pushes branches and needles outward around her advancing body.\nPOWER: Documented mastery of natural forces and animals of her guarded place: physical forest wind bows the branches, rushes needles and bends undergrowth; no emitted rays, no glowing eyes, no floating runes. [ra-c02]\nSCALE & CAMERA: extreme low angle; waist-up close view with huge foreshortened palm and imposing face, figure fills most of square; perspective only, no unsupported giant body size.\nLIGHT & WEATHER: ONE low amber sunset shaft from behind trees rims hand and wet cloak, dark walnut-green shadows; flying needles, damp natural mist, no glowing colored haze.\nSURFACE: coarse wet wool, weathered skin, pine bark, mud, dense dark needles.\nSETTING: a guarded Scandinavian forest, skogsrå type explicitly selected; trees and vegetation visible close behind. [ra-c01,c03]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
       "review_path": "data/gemini/reviews/batch-111.review.json",
       "review_verdict": "lulus-otomatis",
       "visual_review": "Reviewed for creature identity and the described folklore variant",
-      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/ra-mythic-presence.png",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/ra.png",
       "width": 1254,
       "height": 1254,
-      "visual_review_notes": "Human female guardian surrounded by calm protected forest animals; Nordic Rå correct identity.",
-      "depicted_variant": "Female forest guardian Nordic Rå",
+      "visual_review_notes": "Native PNG inspected: one Scandinavian female human-form forest spirit, one head two arms, one close five-finger commanding palm and lower second hand. Opaque dark textured dress/mantle, no tail, hollow back, wings, solar disk or Egyptian imagery. Stern downward gaze, advancing knee/cloth perspective, wind-driven loose needles, hair and nearby boughs create physical forest-command moment and imposing thumbnail. Moss, cords and surface twigs lie on clothing as editorial woodland costume rather than new anatomy. Natural low amber sun, no emitted rays, symbols, glow, lettering or watermark. All seven Uji Sangar checks yes.",
+      "depicted_variant": "Female human-form skogsrå confronting an intruder while a forest gust bends branches and drives needles around her.",
       "visual_basis": "data/gemini/reviews/batch-111.review.json",
       "accuracy_mode": "source-supported",
       "artistic_changes": [
-        "Painterly square composition",
-        "Clothing, weather and exact setting details are editorial unless identified in claims"
+        "Scandinavian forest rå identity kept distinct from Egyptian Ra.",
+        "Wind selected as editorial concrete rendering of documented natural-force domain, no invented hollow back or animal tail.",
+        "Wool dress, age, sunset, color and tight foreshortening editorial; giant size not claimed.",
+        "Visible moss, rope-like cords and small twigs on mantle/dress are editorial woodland costume texture, not fused plant anatomy or additional source attributes."
       ],
-      "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+      "aura": "Documented mastery of natural forces and animals of her guarded place: physical forest wind bows the branches, rushes needles and bends undergrowth; no emitted rays, no glowing eyes, no floating runes. [ra-c02]",
       "visual_requirements": [
-        "Female forest guardian Nordic Rå",
-        "Coherent anatomy and documented mythic scene"
+        {
+          "kind": "anatomy",
+          "description": "One female human-form skogsrå",
+          "claim_ids": [
+            "ra-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Physical wind in forest expresses documented control of natural forces",
+          "claim_ids": [
+            "ra-c02"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Forest keeper type, guarded woodland",
+          "claim_ids": [
+            "ra-c01",
+            "ra-c03"
+          ]
+        }
       ],
       "root_visual_review": {
         "verdict": "pass",
-        "reviewer": "root",
-        "native_sha256": "d6edb3eab5009c2b81447b0a2a0bad2e726264375ffb472245df6dc60cbd0e4e",
-        "notes": "Inspected native: clothed female Nordic place guardian stands among calm woodland animals in her forest domain. Accepted female forest-spirit manifestation and care for animals establish identity; staff and dress are editorial choices.",
-        "reviewed_at": "2026-10-05T18:24:24.089782+00:00"
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "f0a83c22caefebfce21106ebe370b600c74092007feef80496b7306eb5156d22",
+        "notes": "The Scandinavian skogsrå in bark-dark robes halts the intruder with a raised palm amid wind-driven pine; a forest keeper, no Egyptian imagery."
       },
       "presentation_revision": {
-        "ledger": "data/artwork-presentation-revision-1000.json",
-        "receipt_path": "data/artwork-generated/presentation-revision-1000/ra.json",
-        "native_sha256": "d6edb3eab5009c2b81447b0a2a0bad2e726264375ffb472245df6dc60cbd0e4e",
-        "old_url": "/assets/art/ra-regeneration-139.webp",
-        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/ra.png",
-        "old_webp_sha256": "5b1a0a760db5f18d3e3ff6b6d7e05a5276d5b382d5d4ec4277c5ab7d7436d5e3",
-        "old_native_sha256": "70367032ea70d661ae649066c21867803d3e682d2d36c0cea5edd2a6e9b308a3",
-        "rationale": "Replaces ordinary animal presentation with Female forest guardian Nordic Rå",
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/ra.json",
+        "native_sha256": "f0a83c22caefebfce21106ebe370b600c74092007feef80496b7306eb5156d22",
+        "old_url": "/assets/art/ra-regeneration-139-mythic-presence.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/ra-mythic-presence.png",
+        "old_webp_sha256": "920a87610830d9f1b31b6604f940ea6519fb5c30473add18ef64c831c8fa8181",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
         "basis_claim_ids": [
-          "ra-c01",
+          "ra-c06",
           "ra-c02",
-          "ra-c03",
-          "ra-c06"
+          "ra-c01",
+          "ra-c03"
         ]
       },
       "batch": "regeneration-139"
@@ -27037,33 +27187,66 @@
       "batch": "1000"
     },
     "hathor": {
-      "url": "/assets/art/hathor-verified.webp",
+      "url": "/assets/art/hathor-presentation-revision-nama-besar.webp",
       "creature_id": "hathor",
       "canonical_name": "Hathor",
-      "prompt": "Use case: stylized-concept. Square premium naturalistic painterly mythology encyclopedia illustration of HATHOR in her documented COW FORM emerging from a papyrus thicket. One full-bodied ordinary cow with two natural horns; a SOLID METAL SUN DISK rests between the horns as a non-emitting iconographic emblem, supported by an ancient metal-plaque depiction. Four bovine legs, calm cow head and muzzle, ordinary adult-cow scale relative to papyrus. Nile floodbank, lush green papyrus stems, warm natural dawn sunlight, majestic benevolent presence through steady posture and calm eyes. Egyptian bank setting and exact metal finish are editorial staging. No woman body, no added human hands, no wings, no extra horns, no giant inflation, no emitting glowing sun orb, no aura envelope, energy ribbons, neon outline or luminous mist. Reverent dignified depiction, no calves, no characters, no text or watermark.",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of HATHOR, the ancient Egyptian goddess in her documented heavenly cow form.\nANATOMY: One living female bovine, exactly one bovine head, two horns, two eyes and four legs; a HUGE METAL SUN DISK visibly nestled between the two horns, nearly as wide as her face. This is the sacred cow with stars above, emerging from papyrus. No human torso, no wings, no extra anatomy. [hathor-c10,hathor-c11,hathor-c15]\nMOMENT: Thrust her head forward and down toward the viewer as she drives bodily through towering papyrus, one front hoof landing at the very bottom foreground, reeds bending and dark water splashing through direct contact. Forceful, awe-inspiring arrival of a goddess, steady authoritative stare into the viewer. Not grazing, not a peaceful farm animal.\nPOWER: No invented emitted magic or fire attack. Divinity is expressed through her documented disk and star-filled heavenly iconography; splashes and moving reeds come only from her physical advance. [hathor-c10,hathor-c11,hathor-c15]\nSCALE & CAMERA: Extreme low camera at hoof level, wide-angle close framing; the head and horns occupy the upper TWO THIRDS of the square. Forehead almost brushes the viewer. Her deep chest and the receding four legs complete a coherent body; no tiny-human scale props or invented giant anatomy. Build overwhelming monumental presence through perspective, not added biological size.\nLIGHT & WEATHER: ONE dominant golden backlight precisely behind the metal sun disk silhouettes the horns and rims her face; deep walnut shadows, suspended spray and a dark night sky showing crisp stars overhead. Disk is metal in backlight, not an energy weapon.\nSURFACE: Dense dark russet hide, wet coarse hair, fine rough horn texture, ancient gold disk; avoid black-and-white dairy spotting. Rich painterly physical material, not plastic.\nSETTING: Tangled papyrus thicket with shallow dark water; stars overhead. [hathor-c10,hathor-c15]\nMOOD: Benevolent but overwhelming divine authority, awe-inspiring and imposing; never cute, placid, decorative, or ordinary livestock. Sacred devotional art, original composition.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glowing aura, neon outline or energy ribbons. No human spectators, no farm fence, no pastoral daylight.",
       "review_path": "data/gemini/reviews/batch-040.review.json",
       "review_verdict": "lulus-otomatis",
       "visual_review": "Reviewed for creature identity and the described folklore variant",
-      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/hathor.png",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/hathor.png",
       "width": 1254,
       "height": 1254,
-      "visual_review_notes": "Inspected native image: single ordinary-scale cow emerging from papyrus with two horns and solid gold solar disk between them. Natural reflected sun on metal, gentle alert eyes; no luminous emission, human hybrid or invented giant scale.",
-      "depicted_variant": "Documented cow form emerging from papyrus, with non-emitting solar disk between horns following metal-plaque iconography.",
+      "visual_review_notes": "Native inspected: sacred cow head fills frame beneath a huge textured metal solar disk and stars, forceful hoof advancing through water and papyrus. Two horns, one head, coherent bovine limbs partly occluded in physical perspective; no human hybrid. Awe readable at thumbnail, no generic aura or invented emitted attack, no text or watermark. All seven Sangar checks pass.",
+      "depicted_variant": "Sacred cow advancing through papyrus, face and solar disk dominating the low-angle frame.",
       "visual_basis": "data/gemini/reviews/batch-040.review.json",
-      "aura": "Calm direct gaze, poised Nile-bank emergence and naturally reflected dawn light.",
-      "visual_requirements": [
-        "One ordinary cow emerging from papyrus",
-        "Two cow horns with solid solar disk between them",
-        "Ordinary scale, calm presence and natural light; no woman hybrid or aura glow"
+      "accuracy_mode": "source-supported",
+      "artistic_changes": [
+        "Tight low-angle foreshortening creates monumentality without claiming giant body size.",
+        "Night, dark russet hide and single gold backlight are editorial choices; no emitted solar attack.",
+        "Physical movement of papyrus and water comes from bodily contact, not invented magic."
       ],
-      "batch": "1000",
+      "aura": "Overwhelming perspective and documented solar disk and stars (hathor-c10,c11); physical splash from motion only.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One living cow with two horns surrounding a broad metal sun disk.",
+          "claim_ids": [
+            "hathor-c11"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Cow advances out of papyrus, stars overhead.",
+          "claim_ids": [
+            "hathor-c10",
+            "hathor-c15"
+          ]
+        }
+      ],
       "root_visual_review": {
         "verdict": "pass",
-        "reviewer": "worker-2",
-        "notes": "Independent actual native PNG inspection: ordinary-scale four-legged cow emerging from papyrus; two horns frame a solid metallic solar disk. Natural metal reflections, no emitted halo or woman hybrid. Fits selected Hathor cow/papyrus/plaque claims c02,c11,c15; support headband is already disclosed editorial staging.",
-        "native_sha256": "d54f5f00d073b176f9a170cf63c9b724215cf843b8af8bcf606ac5dd8ebe2630",
-        "reviewed_at": "2026-10-05T11:19:25.895839+00:00"
-      }
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
+        "notes": "Hathor as a sacred cow advances through papyrus water beneath a vast sun disk and stars; divine, no longer a dairy cow."
+      },
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/hathor.json",
+        "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
+        "old_url": "/assets/art/hathor-verified.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/hathor.png",
+        "old_webp_sha256": "3b2de6d0789a37d2f3923c3ff451eafdfad96e6f2cf30ee5acc3ccea5889ec2a",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "hathor-c10",
+          "hathor-c11",
+          "hathor-c15"
+        ]
+      },
+      "batch": "1000"
     },
     "nozuchi": {
       "url": "/assets/art/nozuchi-verified.webp",
@@ -28313,48 +28496,74 @@
       "batch": "1000"
     },
     "tefnut": {
-      "url": "/assets/art/tefnut-mythic-presence.webp",
+      "url": "/assets/art/tefnut-presentation-revision-nama-besar.webp",
       "creature_id": "tefnut",
       "canonical_name": "Tefnut",
-      "prompt": "Square premium painterly mythology encyclopedia illustration of TEFNUT, select the explicitly documented Egyptian LIONESS-HEADED WOMAN form, not an ordinary lioness. One seated regal adult goddess with the complete head of a tawny lioness (no mane), natural lioness ears and muzzle, and an entirely HUMAN female body, exactly two human arms/hands and two human legs/feet. Her torso and legs fully modestly clothed in opaque pleated linen; human hands rest on the carved stone chair arms. Seated full figure from ears to human sandaled feet within frame, frontal three-quarter view. Quiet commanding deity presence, ancient Egyptian temple courtyard with tall sandstone columns, distant river under humid morning sky; costume, simple broad gold collar and chair are declared editorial staging. Authority through composed face, regal posture and monument scale, natural soft dawn light, rich oil painting detail. No lion paws on body, lion torso, tail, wings, horns, giant solar crown, aura, glowing eyes, magic water projection, colored mist, symbols, text, watermark, border. Identity must immediately read lion-headed goddess, not zoo lion and not a woman wearing a lion mask.",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of TEFNUT, Egyptian moisture goddess in her documented lion-headed female form.\nANATOMY: Exactly ONE unmistakable LIONESS HEAD on ONE human female body, TWO human arms with human hands, TWO human legs, no mane, no animal forelegs or tail. Opaque heavy linen dress covering body and chest, antique gold neck collar editorial. Lion face occupies upper half of square, wet whiskers and clearly opened leonine jaws. [tefnut-c05,c11]\nMOMENT: Advance with fierce commanding stare and open lioness mouth; extend one human hand toward the viewer as she steps through dense rain and spray. Torso leans forward and wet linen trails in the motion. Divine confrontation, not an ordinary wildlife lion in rain.\nPOWER: Moisture and near-earth atmosphere are documented domains; show heavy physical rain and wind-swept mist in her surroundings, NOT an invented water weapon or rays. Threat comes from documented fierce lioness aspect. [tefnut-c01,c07,c09]\nSCALE & CAMERA: extreme low angle; extreme close upward view, the leonine head and approaching human hand fill frame; ordinary anatomical proportions, no invented giant scale.\nLIGHT & WEATHER: ONE golden oblique dusk light catches droplets and rims lion muzzle; deep walnut shadows, driving natural rain.\nSURFACE: wet lioness fur, amber eyes without glow, coarse soaked linen, rough gold collar.\nSETTING: Nubian desert crags dark under rainstorm, reflecting her desert departure story; weather is editorial atmosphere related to her moisture domain. [tefnut-c07,c01]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
       "review_path": "data/gemini/reviews/batch-077.review.json",
       "review_verdict": "lulus-otomatis",
       "visual_review": "Reviewed for creature identity and the described folklore variant",
-      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut-mythic-presence.png",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/tefnut.png",
       "width": 1254,
       "height": 1254,
-      "visual_review_notes": "Viewed native: lioness head seamlessly on human clothed seated female body, two human hands and sandaled feet; no tail or other invented animal anatomy, natural dawn light.",
-      "depicted_variant": "Seated lioness-headed goddess with human female body",
+      "visual_review_notes": "Native inspected: one wet lioness head on female human body with two human arms, forward hand and roaring jaws dominate frame; opaque linen and desert crags under physical rain. No ordinary quadruped lion, no invented weapon or emitted magic, no text. Collar panels are abstract ornament, not legible writing. All seven Sangar checks pass.",
+      "depicted_variant": "Lioness-headed human goddess striding toward viewer in a Nubian storm, opened jaws and reaching hand dominating frame.",
       "visual_basis": "data/gemini/reviews/batch-077.review.json",
       "accuracy_mode": "source-supported",
       "artistic_changes": [
-        "Linen dress, broad collar, sandals, sandstone throne and river courtyard are editorial staging"
+        "Lion-headed woman variant replaces the rejected ordinary wildlife lioness.",
+        "Rain, dress, collar and dusk are editorial; no solar disk borrowed from other goddesses.",
+        "No emitted water attack or invented giant size."
       ],
-      "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+      "aura": "Moisture and near-earth atmosphere are documented domains; show heavy physical rain and wind-swept mist in her surroundings, NOT an invented water weapon or rays. Threat comes from documented fierce lioness aspect. [tefnut-c01,c07,c09]",
       "visual_requirements": [
-        "Natural lioness head, no mane",
-        "Human female torso arms hands legs feet",
-        "Seated divine figure, modest opaque dress"
+        {
+          "kind": "anatomy",
+          "description": "Lion-headed female goddess, human arms and opaque clothing",
+          "claim_ids": [
+            "tefnut-c05",
+            "tefnut-c11"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Physical rain evokes moisture domain, fierce lioness aspect supplies threat",
+          "claim_ids": [
+            "tefnut-c01",
+            "tefnut-c07",
+            "tefnut-c09"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Nubian desert departure setting",
+          "claim_ids": [
+            "tefnut-c07"
+          ]
+        }
       ],
       "root_visual_review": {
         "verdict": "pass",
-        "reviewer": "root",
-        "notes": "Inspected native: seated woman with a lioness head, no mane, human hands and sandaled feet. Seated lion-headed goddess follows the cited variant; temple and linen are editorial. No invented animal appendages.",
-        "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec",
-        "reviewed_at": "2026-10-05T15:37:43.572018+00:00"
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+        "notes": "Lioness-headed Tefnut roars and reaches toward the viewer in driving rain over Nubian crags; fierce goddess, not a lioness."
       },
       "presentation_revision": {
-        "ledger": "data/artwork-presentation-revision-1000.json",
-        "receipt_path": "data/artwork-generated/presentation-revision-1000/tefnut.json",
-        "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec",
-        "old_url": "/assets/art/tefnut-verified.webp",
-        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut.png",
-        "old_webp_sha256": "fafd52bb410aaad4df81c61510ea29488ac8661ced56ae1b4f89eb9df65f67ff",
-        "old_native_sha256": "522b6c0bfe0f3403508b00a99300ea1b04c7f68f9d89f5a86dce9174b6120f12",
-        "rationale": "Previous image looked like an ordinary lioness; accepted research explicitly supports the more identifiable lion-headed woman deity form.",
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/tefnut.json",
+        "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+        "old_url": "/assets/art/tefnut-mythic-presence.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut-mythic-presence.png",
+        "old_webp_sha256": "409325959a9cc131034758918e8cdb517e7ee2e18156dfb619bc15dd3fc4862e",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
         "basis_claim_ids": [
           "tefnut-c05",
-          "tefnut-c11"
+          "tefnut-c11",
+          "tefnut-c01",
+          "tefnut-c07",
+          "tefnut-c09"
         ]
       },
       "batch": "1000"
@@ -32557,34 +32766,81 @@
       }
     },
     "kartikeya": {
-      "url": "/assets/art/kartikeya-verified.webp",
+      "url": "/assets/art/kartikeya-presentation-revision-nama-besar.webp",
       "creature_id": "kartikeya",
       "canonical_name": "Kartikeya",
-      "prompt": "Create one square premium painterly naturalistic Hindu mythology illustration no lettering. KARTIKEYA select documented ONE-HEADED ever-youthful MAN iconography, standing NEAR his PEACOCK Paravani, carrying a VEL SPEAR. One young ADULT natural human male with ONE head, ordinary two arms/two legs, mature serene face, fully opaque tasteful silk tunic/dhoti and restrained gold ornaments editorial costume. Holds a long physical vel spear with leaf-shaped metal blade upright; peaceful alert stance, not combat. One ordinary natural-size blue peacock stands beside his feet with elegant tail train, clearly near him, not a giant rideable mount. Quiet stone garden temple courtyard in natural morning sun with rich painterly naturalism. No sixheaded variant, child/birthscene, extra arms, red god colour from other sculpture variant, horns/wings on man, halo/glow aura, neon or colored magical fog.",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of KARTIKEYA, the revered Hindu war god and commander of the gods.\nANATOMY: One youthful male deity, ONE head, TWO eyes, TWO arms, TWO legs. Fully opaque red-gold woven battle garments, modest covered torso. One large broad leaf-bladed VEL spear in his right hand. A living blue peacock Paravani close at his left flank, feathers distinct. [kartikeya-c06,c07,c08,c14]\nMOMENT: Stride into battle toward the viewer with a commanding downward gaze; drive the vel diagonally forward into the extreme near foreground. Cloak and peacock feathers swept backwards by the advance, no gore. This is a commander leading an assault, not a youth posing on a hill.\nPOWER: No invented elemental attack or emitted magic. Authority from documented war command and the real spear; boot dislodges dry grit. [kartikeya-c09,c07]\nSCALE & CAMERA: extreme low angle; waist-to-head deity fills nearly the whole frame with foreshortened spear blade huge at lower foreground; perspective builds divine presence without invented giant body size. Peacock head visible beside him, not extra human limbs.\nLIGHT & WEATHER: ONE strong golden sunset rim light behind the vel blade, low-key walnut shadows on face; dusty air catches this same light.\nSURFACE: rough red-gold woven cloth, scratched ancient gold spear, detailed peacock feathers, skin real and warm.\nSETTING: Kurinji hill country, dark crags immediately behind his commanding figure. [kartikeya-c05]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
       "review_path": "data/gemini/reviews/batch-072.review.json",
       "review_verdict": "lulus-otomatis",
       "visual_review": "Reviewed for creature identity and the described folklore variant",
-      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kartikeya.png",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/kartikeya.png",
       "width": 1254,
       "height": 1254,
-      "visual_review_notes": "Inspected native: one youthful adult human man with one head, two arms/two legs, leaf-shaped physical vel spear upright, one normal-size peacock beside feet. No six-head variant, extra arms, combat or glow.",
-      "depicted_variant": "One-headed youthful man with peacock and vel spear",
+      "visual_review_notes": "Native inspected: advancing youthful war commander, spear blade strongly foreshortened toward viewer, coherent single head and two arms, blue peacock distinct at flank, Kurinji crags. Full opaque costume and dust through stride, no elemental attack or emitted aura, no text. Rear military silhouettes follow army-command claim c09, distant perspective does not assert giant size. All seven Sangar checks pass.",
+      "depicted_variant": "One-headed youthful commander striding forward with vel spear and blue peacock in tight low-angle battle framing.",
       "visual_basis": "data/gemini/reviews/batch-072.review.json",
-      "aura": "Presence through expression, posture, framing and natural scene light.",
-      "visual_requirements": [
-        "One adult human head",
-        "Two human arms and legs",
-        "One peacock nearby",
-        "Vel spear"
+      "accuracy_mode": "source-supported",
+      "artistic_changes": [
+        "Single head variant chosen from c08; two ordinary arms, no unsupported multiple-arm configuration.",
+        "Red-gold opaque clothing, dusty sunset and tight foreshortening are editorial staging.",
+        "No magic attack invented; physical weapon motion expresses documented military authority.",
+        "Gold crown and jewelry are editorial headwear/costume, not a claim-specific iconographic assertion.",
+        "Distant army silhouettes illustrate command c09; their background placement and foreground foreshortening do not assert giant biological size."
       ],
-      "batch": "1000",
+      "aura": "No invented elemental attack or emitted magic. Authority from documented war command and the real spear; boot dislodges dry grit. [kartikeya-c09,c07]",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One-head young man with vel spear and living peacock",
+          "claim_ids": [
+            "kartikeya-c06",
+            "kartikeya-c07",
+            "kartikeya-c08",
+            "kartikeya-c14"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Documented military command and spear action; physical dust only",
+          "claim_ids": [
+            "kartikeya-c09",
+            "kartikeya-c07"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Kurinji hill country",
+          "claim_ids": [
+            "kartikeya-c05"
+          ]
+        }
+      ],
       "root_visual_review": {
         "verdict": "pass",
-        "reviewer": "root",
-        "reviewed_at": "2026-10-05",
-        "native_sha256": "531c5f59ccd51d20062141b0aae13d447061e274035ef83899971c308e0f3466",
-        "notes": "Viewed native: one-headed youthful adult man carrying upright leaf-shaped vel spear, with one natural-size peacock near his feet. c06/c07/c08 chosen single-headed variant, no six-head blend or glowing effects."
-      }
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "f65cb103d9526e88c2dff61d1fc37360616d185e4469ae9dc886b9c84e69121f",
+        "notes": "One-headed young Kartikeya strides with the vel spear foreshortened toward the viewer, peacock at his flank, army behind; a war god with authority."
+      },
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/kartikeya.json",
+        "native_sha256": "f65cb103d9526e88c2dff61d1fc37360616d185e4469ae9dc886b9c84e69121f",
+        "old_url": "/assets/art/kartikeya-verified.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kartikeya.png",
+        "old_webp_sha256": "01d0b6227bffeedd5222e4064d27034f8029b8a2300255c980257ed503abf2dd",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "kartikeya-c06",
+          "kartikeya-c07",
+          "kartikeya-c08",
+          "kartikeya-c14",
+          "kartikeya-c09",
+          "kartikeya-c05"
+        ]
+      },
+      "batch": "1000"
     },
     "obyda": {
       "url": "/assets/art/obyda-verified.webp",
@@ -37061,6 +37317,793 @@
         "reviewed_at": "2026-10-07T16:58:13.786783+07:00",
         "native_sha256": "5afa503241fc76e3bc072f6c09ea8547fc24f79847ee007f90239fc58c856ee6",
         "notes": "Fully clothed Venus as protective mother of Rome with the evening star (c19) and the Pygmalion altar-flame omen (c22); dignified."
+      }
+    },
+    "seshat": {
+      "url": "/assets/art/seshat-verified.webp",
+      "creature_id": "seshat",
+      "canonical_name": "Seshat",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of SESHAT, the Egyptian Lady of Builders and goddess of measurements, conducting the stretching-the-cord foundation ritual.\nANATOMY: one WOMAN, one head, exactly two ordinary arms and two legs beneath fully opaque long linen clothing; a leopard-skin mantle over the fully covered robe; seven-pointed gold emblem above head on headband: ONE vertical top ray and exactly THREE rays spreading to each side, total SEVEN, no bottom ray. Emblem as broad as head and sharply readable. [seshat-c05]\nMOMENT: hauling a measuring cord taut toward viewer, upper body leaning forward, two hands pulling the thick line, direct stern downward gaze; ritual action at temple foundation, never quietly posing. [seshat-c03]\nPOWER: no documented emitted attack or spell; authority through Lady of Builders' ritual control, emblem and imposing perspective only. [seshat-c02,seshat-c04]\nSCALE & CAMERA: extreme low-angle close three-quarter portrait; woman fills four fifths of square; foreshortened hands and cord cross immediate foreground, head and seven-pointed emblem against dark sky; no tiny humans, no literal giant.\nLIGHT & WEATHER: one hard amber side light skimming face, gold emblem and leopard mantle; deep walnut shadow, airborne natural construction dust.\nSURFACE: rough linen, weathered cord fibers, coarse leopard-skin texture, worn limestone.\nSETTING: Egyptian building foundation blocks and sparse columns, contextual ritual setting inferred from Lady of Builders and foundation measurement. [seshat-c03,seshat-c04]\nMOOD: divine scholarly authority, commanding and awe-inspiring, never an ordinary worker, cute, calm or decorative.\nHARD CONSTRAINTS: exactly seven emblem rays, no solar disk; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; no nudity or gore; no glowing aura, floating rune, neon outline or energy ribbons.",
+      "review_path": "data/gemini/reviews/batch-077.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/seshat.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Native PNG inspected: one covered woman, two hands actively stretch foreground cord, clear commanding low-angle gaze; seven-point emblem counted as central ray plus three each side, leopard mantle over opaque linen. No generic aura, emitted magic, readable text, frame or borrowed design. Close monumental presence resolves ordinary distant worker composition.",
+      "depicted_variant": "Seven-pointed-emblem woman in leopard-skin mantle and opaque linen, actively stretching the measuring cord at foundation blocks.",
+      "visual_basis": "data/gemini/reviews/batch-077.review.json",
+      "aura": "Authority of Lady of Builders (seshat-c04) through forceful foreground cord ritual (seshat-c03), seven-pointed emblem and leopard mantle (seshat-c05); natural lighting, no emitted powers.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Female depiction with exactly seven-pointed head emblem and leopard-skin dress/mantle over opaque robe, from exact c05 quote.",
+          "claim_ids": [
+            "seshat-c05"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Active stretching-the-cord ritual; no source-supported emitted power is present.",
+          "claim_ids": [
+            "seshat-c02",
+            "seshat-c03",
+            "seshat-c04"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Builder/foundation ritual environment, limestone blocks editorial interpretation rather than a specific claimed temple.",
+          "claim_ids": [
+            "seshat-c03",
+            "seshat-c04"
+          ]
+        }
+      ],
+      "batch": "1047",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "87cfa7d2dc69b2065728c03f06db73eeb99b75dd0e6ef1c3bf0c82a2c10a9ff6",
+        "notes": "Seshat with the seven-pointed emblem and leopard mantle stretches the cord at foundation blocks from a low angle; commanding, not an ordinary surveyor."
+      }
+    },
+    "serket": {
+      "url": "/assets/art/serket-verified.webp",
+      "creature_id": "serket",
+      "canonical_name": "Serket",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of SERKET, the Egyptian protective goddess who binds and contains the snake deity Apep, guarding the turn of the underworld path.\nANATOMY: one fully clothed WOMAN, one human head, exactly TWO arms and TWO legs under an opaque floor-length linen robe, covered chest and shoulders; ONE distinct realistic SCORPION atop her head as clearly readable emblem, large spread pincers and a hooked tail above the crown of her head. One hand holds a large ANKH, the other hand grips a WAS-SCEPTRE. No scorpion hybrid body. [serket-c02]\nMOMENT: bracing forward toward the viewer as she contains ONE dark serpent across the stone path at her feet, the was-sceptre presses down on the serpent's coiled body, her ankh lifted boldly, fierce protective downward gaze. The serpent struggles within tight coils beneath her authority. [serket-c05]\nPOWER: documented binding/containment of Apep represented physically by held-down serpent, not glowing bonds, rays or invented magic. She guards the pathway bend and funerary canopic vessels. [serket-c04,serket-c05]\nSCALE & CAMERA: extreme low angle near the path; goddess fills four fifths of frame, head and oversized perspective emblem clearly readable against dark vault; held ankh and sceptre unmistakable foreground silhouettes; no tiny humans, no claim of literal giant size.\nLIGHT & WEATHER: one low architectural amber brazier casts sharp rim light across face, scorpion and hands; black shadows, natural dust, underworld darkness.\nSURFACE: creased opaque linen, tarnished gold ankh, worn dark staff, rough stone and matte snake scales.\nSETTING: bend in underworld stone pathway with a few distant canopic vessels. [serket-c04,serket-c05]\nMOOD: formidable divine protector, controlling dangerous serpent, awe-inspiring and unyielding, never a calm ordinary woman or monster goddess.\nHARD CONSTRAINTS: one human head, two arms, single scorpion on head, one serpent below; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; no nudity or gore; no generic glow aura, neon outline, energy ribbons or venom lasers.\nTARGETED CONSTRAINT: all clothing is COMPLETELY UNDECORATED plain ivory linen, simple uninscribed gold cuffs, absolutely NO sash, symbols, glyph-like motifs, embroidery or writing. Architecture is plain uninscribed stone with no carved wall reliefs. Keep the two-arm protective action, scorpion, ankh, was-sceptre and contained serpent.",
+      "review_path": "data/gemini/reviews/batch-077.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/serket.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Native inspected: one covered two-arm woman, one scorpion atop head with two pincers and curled tail, clear ankh and was-sceptre in separate hands; staff contains one coiled snake, one snake head. Active containment and extreme low camera give awe at thumbnail. Plain cloth/stone has no pseudo-writing, no text/aura/gore. First attempt retained for lettering failure.",
+      "depicted_variant": "Woman with scorpion, ankh and was-sceptre physically containing Apep at the underworld path bend.",
+      "visual_basis": "data/gemini/reviews/batch-077.review.json",
+      "aura": "Formidable containment of serpent Apep and path guarding (serket-c05), clear scorpion/ankh/was-sceptre (serket-c02) and funerary role (serket-c04); natural brazier lighting rather than emitted spells.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Woman with scorpion on head, ankh in one hand and was-sceptre in the other, opaque clothing.",
+          "claim_ids": [
+            "serket-c02"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Physical containment of the snake deity Apep, explicitly documented in exact quote c05; no invented emitted spell.",
+          "claim_ids": [
+            "serket-c05"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Underworld pathway bend and canopic vessels reflect guardian and funerary roles.",
+          "claim_ids": [
+            "serket-c04",
+            "serket-c05"
+          ]
+        }
+      ],
+      "batch": "1047",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "ebf8ec8bf815484cd9e0f1ec6b95d5ec48054a58123a39dc3fba2c3090961c81",
+        "notes": "Serket with scorpion crown, ankh and was-sceptre pins the coiled Apep beneath her in the underworld; monumental and threatening."
+      }
+    },
+    "wadjet": {
+      "url": "/assets/art/wadjet-verified.webp",
+      "creature_id": "wadjet",
+      "canonical_name": "Wadjet",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of WADJET, the Egyptian protective goddess in her documented living cobra form, defending the papyrus swamps of the Nile Delta.\nANATOMY: exactly ONE living cobra, one head, two eyes, hood fully spread, one long tapering coiled body, no legs, arms, wings, crown or humanoid body. This is the source-backed cobra form, not an ordinary woman. [wadjet-c03,wadjet-c04]\nMOMENT: rising violently from the papyrus water, broad hood thrusting toward the viewer, head angled down toward camera, mouth opening in a fierce defensive threat; water breaks around her coils.\nPOWER: protective presence and physical serpent motion, water splash from moving body; no claimed venom beam, fire or emitted magic. [wadjet-c04,wadjet-c05]\nSCALE & CAMERA: camera at water level looking upward into a very close hood and head filling two thirds of the square, foreground coils occupying lower frame; awe through crop and perspective, no humans or unsupported giant scale.\nLIGHT & WEATHER: single low amber sunset sidelighting the hood, deep walnut shadows, sharp golden rim; dark stormlike ambient sky only scenery.\nSURFACE: real wet olive-brown cobra scales, rough papyrus stems, muddy water and physically splashing droplets.\nSETTING: Nile Delta papyrus swamp of the Horus protection story. [wadjet-c05,wadjet-c06]\nMOOD: fierce divine protector, awe-inspiring and dangerous to intruders; never cute, calm, decorative or an ordinary snake documentary photo.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or eyes; no film, game, anime or comic design; no nudity or gore; no generic glow aura, neon outline, flames or energy ribbons.",
+      "review_path": "data/gemini/reviews/batch-077.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/wadjet.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Viewed native PNG: one living cobra with one head, two eyes, expanded hood, coherent serpentine coils and no limbs, lunging defensive open mouth fills image; wet papyrus water splashes physically. Clear fierce presence at thumbnail, no human, invented crown, aura, text or gore.",
+      "depicted_variant": "Source-backed cobra form, rearing defensively from Nile Delta papyrus water.",
+      "visual_basis": "data/gemini/reviews/batch-077.review.json",
+      "aura": "Cobra protective form (wadjet-c04) dominates through close water-level framing and physically disturbed water in documented Nile Delta habitat (wadjet-c05/c06), without emitted magic.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One living cobra as Wadjet's directly documented cobra form, no female human body or invented crown.",
+          "claim_ids": [
+            "wadjet-c03",
+            "wadjet-c04"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Defensive cobra action as protector; water splash caused by physical movement, no emitted powers.",
+          "claim_ids": [
+            "wadjet-c04",
+            "wadjet-c05"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Nile Delta papyrus swamps from Horus protection and papyrus planting accounts.",
+          "claim_ids": [
+            "wadjet-c05",
+            "wadjet-c06"
+          ]
+        }
+      ],
+      "batch": "1047",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "755bed2f449771fcd67281554eb39194ff952d160cc17eac863fba08994e3e8f",
+        "notes": "A huge rearing cobra with spread hood and fangs lunges from papyrus water at sunset; one head, no limbs, fierce at thumbnail size."
+      }
+    },
+    "karna": {
+      "url": "/assets/art/karna-verified.webp",
+      "creature_id": "karna",
+      "canonical_name": "Karṇa",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of KARNA, the heroic warrior and king of Anga from the Mahabharata, with the documented golden earrings of Surya.\nANATOMY: one human male warrior, one head, two eyes, exactly TWO ordinary arms and TWO legs, wearing fully opaque layered ancient South Asian battle clothing and plain practical protective armor. A pair of large clearly GOLDEN EARRINGS, one at each ear, no glowing magic jewelry. [karna-c03,karna-c04,karna-c05]\nMOMENT: charging forward into battle toward the viewer, head lowered with fierce focused downward gaze, one clenched fist driving forward, the other arm thrown backward, strong upper body twisting with momentum; no passive pose. [karna-c04]\nPOWER: no documented supernatural attack or specific weapon; immense heroic presence through fierce action, armor texture, dust and close camera only. Son of the sun god does not imply emitted solar power. [karna-c01,karna-c04]\nSCALE & CAMERA: extreme low-angle close three-quarter portrait, shoulders and face fill most of square, golden earrings both clearly visible at thumbnail, foreground fist foreshortened; ordinary human bodily size, no tiny people.\nLIGHT & WEATHER: one harsh warm sunrise sidelight, deep shadow, airborne natural battle dust; dramatic but no halo, aura or flames.\nSURFACE: weathered plain bronze protective plates, rough cloth, worn gold earrings, sweat and gritty dust.\nSETTING: smoky-dusty battlefield of the Kurukshetra war, no visible combatants needed. [karna-c04]\nMOOD: noble, awe-inspiring, dangerous battlefield resolve, respectful epic hero; never calm ordinary soldier or monster.\nHARD CONSTRAINTS: no bow, sword, invented magical armor, solar disk, sunfire or magic powers; no readable patterns, text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; no nudity or gore; no generic glow aura, neon outline or energy ribbons.",
+      "review_path": "data/gemini/reviews/batch-072.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/karna.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Native inspected: one human hero with two arms, foreground clenched fist and back clenched fist, covered torso, coherent lower clothing, two clear large golden earrings. Forceful charge, wind/dust and fierce direct gaze dominate thumbnail, resolving passive ordinary soldier issue. No held unsupported weapon, solar attack, aura, text, watermark or gore.",
+      "depicted_variant": "Human epic warrior charging into Kurukshetra combat with two conspicuous golden earrings, no supernatural attack.",
+      "visual_basis": "data/gemini/reviews/batch-072.review.json",
+      "aura": "Heroic fierce battlefield action (karna-c04), source-backed golden earrings (karna-c05), close foreshortening and natural dawn/dust; Surya parentage (karna-c01) is not represented as emitted solar power.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Human male warrior/king with pair of clearly golden earrings explicitly documented in c05, ordinary human anatomy and opaque attire.",
+          "claim_ids": [
+            "karna-c03",
+            "karna-c04",
+            "karna-c05"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Active battlefield charge, physical motion and environmental dust; no source-supported supernatural emitted effect.",
+          "claim_ids": [
+            "karna-c01",
+            "karna-c04"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Kurukshetra battlefield from c04, no unsupported specific weapon.",
+          "claim_ids": [
+            "karna-c04"
+          ]
+        }
+      ],
+      "batch": "1047",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "c5bcf90f11d962a5c242a1e66c68ff12603e690a0a4d5534495f1876a5327255",
+        "notes": "Karna charges with fist toward the viewer, two large golden earrings clear, battlefield dust and banners; forceful, no unsupported weapon."
+      }
+    },
+    "yokai": {
+      "url": "/assets/art/yokai-verified.webp",
+      "creature_id": "yokai",
+      "canonical_name": "Yōkai",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of YŌKAI, one representative three-eyed humanlike supernatural being from Japanese folklore, never a canonical body for the whole category.\nANATOMY: one humanlike head, exactly THREE LARGE OPEN EYES: two normal horizontal eyes and a very obvious THIRD EYE centered vertically on the bare forehead, all three eyes equally lifelike, wet and sharply focused; exactly two ordinary arms and legs; one fully opaque plain dark robe, covered chest. No horns, wings, claws, fangs or elongated neck. [yokai-c04]\nMOMENT: lunging directly toward the viewer, head lowered, all THREE eyes looking down into camera, one hand reaching out of dark cloth toward the foreground, lips tense, unsettling confrontational stare.\nPOWER: no documented emitted power; menace only through the source-backed impossible third eye and close-up confrontation. [yokai-c01,yokai-c04,yokai-c06]\nSCALE & CAMERA: extreme low-angle close portrait from upper chest to forehead; the head fills two thirds of the square; all three eyes legible at 200-pixel thumbnail; ordinary human bodily size, no tiny human scale references.\nLIGHT & WEATHER: one hard warm light from below, deep near-black shadow backdrop, strong chiaroscuro; never a peaceful portrait.\nSURFACE: rough woven dark cloth, real weathered skin and wet eyes, brush texture.\nSETTING: spare abstract darkness as editorial portrait backdrop within Japanese folklore context. [yokai-c02]\nMOOD: uncanny, dangerous, imposing, never cute, calm, decorative or ordinary.\nHARD CONSTRAINTS: EXACTLY THREE open eyes, no extra heads, limbs, fingers, no text, lettering, logo, border, frame or watermark; no film, game, anime or comic design; no nudity or gore; no generic glow aura, eye lasers, neon outline or energy ribbons.",
+      "review_path": "data/gemini/reviews/batch-049.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/yokai.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Native 1254-square PNG inspected: head dominates, three large open eyes clearly visible, one head and coherent reaching hand, opaque dark robe; confrontational forward action and low lighting feel uncanny even at thumbnail size. No emitted power, text, watermark, frame or borrowed media design; previous barely-visible-eye issue resolved.",
+      "depicted_variant": "Close confrontational portrait of one representative three-eyed humanlike yōkai; no canonical body for whole category.",
+      "visual_basis": "data/gemini/reviews/batch-049.review.json",
+      "aura": "Uncanny source-backed three-eye anatomy (yokai-c04) and remembered fear (yokai-c06), with low-angle close framing and natural underlighting; no emitted power.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Representative humanlike variant with exactly three plainly visible eyes, from exact source quote; not canonical anatomy of all yōkai.",
+          "claim_ids": [
+            "yokai-c04"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "No emitted power; fear conveyed by the source-backed altered-human anatomy and confrontational framing.",
+          "claim_ids": [
+            "yokai-c01",
+            "yokai-c04",
+            "yokai-c06"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Japanese folklore portrait; dark abstract background is editorial, no asserted habitat.",
+          "claim_ids": [
+            "yokai-c02"
+          ]
+        }
+      ],
+      "batch": "1047",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "76b79c396c7643c1077b4172088b6324295ef6c353ab670ad28c528afb7fd2d9",
+        "notes": "Three plainly visible eyes on a humanlike face reaching toward the viewer in low light; uncanny and no longer an ordinary man."
+      }
+    },
+    "maat": {
+      "url": "/assets/art/maat-verified.webp",
+      "creature_id": "maat",
+      "canonical_name": "Maat",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of MAAT, Egyptian goddess personifying truth, cosmic order and justice.\nANATOMY: one young adult human woman, one head, two human arms and hands, two legs, wingless selected variant. One large single ostrich feather upright in her headband; completely opaque ivory linen gown. A huge balanced judgment scale directly before her, one pan containing a feather and the other a closed opaque vessel symbolizing the heart, no actual organ. [maat-c09, maat-c06, maat-c07]\nMOMENT: lean forward and lower the immense balanced scale toward the viewer as she judges a soul; fingers hold the upright scale shaft securely, the other hand extends in an authoritative verdict. Severe compassionate concentrated gaze looks directly downward at the viewer. Her face, feather and scales occupy nearly the whole square.\nPOWER: behind her, the stars form vast orderly celestial arcs, visualizing her documented regulation of stars, with no emitted beams or generic glow. [maat-c02] The massive scales weigh the soul in the Duat. [maat-c06, maat-c07]\nSCALE & CAMERA: extreme worm's-eye viewpoint directly below the balance; close framing with foreshortened hands and scale pans projecting into the foreground; apparent monumental sacred presence, no claim of literal giant height.\nLIGHT & WEATHER: a single warm low lamp outside the frame casts hard antique gold light up onto the scales and face, deep walnut shadows, faint natural dust.\nSURFACE: weighted rough-woven linen, tarnished heavy bronze scales, distinct individual ostrich feather barbs, human skin.\nSETTING: dark Duat judgment space beneath the ordered stars, bare rock ground, no invented creatures or additional people. [maat-c06, maat-c02]\nMOOD: awe-inspiring and imposing guardian of justice; judgment feels unavoidable, never a decorative portrait or an ordinary passerby.\nHARD CONSTRAINTS: no text, lettering, hieroglyphs, logo, border, frame or watermark; exactly one head and two human arms; no wings; no extra limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+      "review_path": "data/gemini/reviews/batch-077.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/maat.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Native PNG inspected: dominant wingless young goddess, one head two human arms, explicit single head feather, both scale pans clear with feather and sealed vessel; central lower disc is balance stand base. Foreshortened reaching verdict hand and frontal scale provide judgment action and imposing thumbnail silhouette. Ordered star arcs, warm lamp light, textured bronze and opaque linen, no emitted beams or extra anatomy, no lettering or watermark. All seven Uji Sangar checks yes.",
+      "depicted_variant": "Wingless feather-bearing young Maat delivering judgment through a foreground bronze balance.",
+      "visual_basis": "data/gemini/reviews/batch-077.review.json",
+      "aura": "Inevitable judgment through the huge scales and ordered stars (maat-c06/c07/c02), no luminous body aura.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Young human woman wearing one ostrich feather; wingless selected alternative, fully opaque linen editorial clothing.",
+          "claim_ids": [
+            "maat-c09"
+          ]
+        },
+        {
+          "kind": "anatomy",
+          "description": "Large balance with feather and opaque symbolic heart vessel.",
+          "claim_ids": [
+            "maat-c06",
+            "maat-c07"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Ordered stars behind her representing regulation of stars, no new attack.",
+          "claim_ids": [
+            "maat-c02"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Duat judgment space.",
+          "claim_ids": [
+            "maat-c06"
+          ]
+        }
+      ],
+      "batch": "1055",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "c16f9d351be7a2867fbaf466df79f837024e4429dc86bdf2b58ede156b62dc2a",
+        "notes": "Maat with ostrich feather behind a huge foreground balance holding feather and sealed vessel, ordered stars above; imposing judgment scene."
+      }
+    },
+    "min": {
+      "url": "/assets/art/min-verified.webp",
+      "creature_id": "min",
+      "canonical_name": "Min",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of MIN, ancient Egyptian god with black skin representing the fertile Nile soil, guardian of eastern-desert travellers.\nANATOMY: exactly one adult human male head, two human arms, black ebony skin; his RIGHT arm is raised high gripping a huge ceremonial flail with a bronze handle and separated dark leather lashes. Fully opaque heavy ivory linen wraps cover entire torso and pelvis, no exposed genital anatomy. No crown or wings. [min-c02, min-c10]\nMOMENT: advance abruptly toward the viewer out of a steep desert pass, raise the flail overhead in commanding protection, shoulders twist forward with one clenched left hand across his completely clothed chest. Flail lashes sweep diagonally across the upper foreground from physical movement. Fixed forceful gaze looks down into the camera, not a neutral standing pose.\nPOWER: no documented elemental attack; protection conveyed by authoritative raised flail and confrontational presence only. Dust is ordinary desert wind, not emitted power. [min-c11]\nSCALE & CAMERA: extreme low viewpoint directly below the chest, close half-body composition; head, shoulders, forearm and large flail fill the entire frame, decisive foreshortening. No literal giant anatomy.\nLIGHT & WEATHER: single blazing low desert sun from behind his shoulder makes narrow amber rim light and strong deep facial shadows; ochre windblown dust.\nSURFACE: weathered dark human skin, coarse heavy linen, worn bronze handle and old leather lashes.\nSETTING: eastern Egyptian desert rocky pass, a few lettuce leaves in the lowest corner as an unobtrusive documented cult plant. [min-c04, min-c07, min-c11]\nMOOD: awe-inspiring sacred guardian; unmistakably commanding and overwhelming, never an ordinary farmer or a placid man in a field.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, phallic imagery or explicit gore; no generic glow aura, neon outline or energy ribbons; no new supernatural powers.",
+      "review_path": "data/gemini/reviews/batch-077.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/min.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Native PNG inspected: black-skinned human man with one head two arms, raised right flail arm, left clenched hand against fully opaque linen torso. Dominant close foreshortened flail lashes, downward commanding gaze, protected eastern desert pass and environmental dust, lettuce corner. No explicit anatomy, invented elemental attack, text or watermark. Sacred guardian reads imposing at thumbnail and physical advance/raised flail supplies action. All seven Uji Sangar checks yes.",
+      "depicted_variant": "Fully draped black-skinned human Min advancing with a raised right-hand flail as desert guardian.",
+      "visual_basis": "data/gemini/reviews/batch-077.review.json",
+      "aura": "Raised flail and imposing protective gesture rooted in min-c02/c11, natural desert sunlight only.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Male human form, raised right arm holding flail, fully opaque no-nudity adaptation.",
+          "claim_ids": [
+            "min-c02"
+          ]
+        },
+        {
+          "kind": "anatomy",
+          "description": "Black skin representing fertile Nile soil.",
+          "claim_ids": [
+            "min-c10"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Eastern desert pass and subtle lettuce cult reference.",
+          "claim_ids": [
+            "min-c04",
+            "min-c07",
+            "min-c11"
+          ]
+        }
+      ],
+      "batch": "1055",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "2f00d6e4969f30e2f327ededbf00e117e14fc9381769c37139ed23e5a761cef8",
+        "notes": "Black-skinned Min raises the flail in a desert pass, wrapped in opaque linen, lettuce at the corner; dominant low-angle figure."
+      }
+    },
+    "anuket": {
+      "url": "/assets/art/anuket-verified.webp",
+      "creature_id": "anuket",
+      "canonical_name": "Anuket",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of ANUKET, Egyptian protective goddess of the Nile flood and cataracts, the Embracer.\nANATOMY: one adult female goddess in human form with exactly one head and two human arms, arms clearly outstretched to either side echoing the two branches of the Nile, documented pose. Fully opaque weighted deep blue and ivory linen robe covering torso and legs. No invented animal head, wings, feather crown or extra limbs. [anuket-c06]\nMOMENT: emerge directly toward the viewer from the foreground cataract ledge, spreading both arms wide in the documented embracing pose. Strong forward momentum in the heavy wet fabric; one palm is dramatically foreshortened close to camera. Eyes gaze down with unwavering protective authority.\nPOWER: swift Nile floodwater physically surges around the rocky ledge in two turbulent channels beneath her open arms. Thick foaming water and windblown spray fill the lower frame; papyrus plants bend in the current. The waters are domain imagery, not streams emitted from her hands. [anuket-c06, anuket-c07]\nSCALE & CAMERA: extreme low angle at water level, half-body close framing; face, broad arms and saturated robe dominate square, water nearly strikes viewer. Sacred grandeur through framing, no invented literal giant height.\nLIGHT & WEATHER: one low setting sun filtered through real water spray, antique gold rim on face and cloth against dark teal cataract shadows.\nSURFACE: heavy wet textured linen, rough granite, distinct white foam and droplets, papyrus stalks.\nSETTING: the rocky Nile First Cataract at Elephantine/Aswan, seen immediately around her rather than a wide landscape. [anuket-c01, anuket-c02, anuket-c11]\nMOOD: awe-inspiring protective divinity; majestic and overwhelming, never ordinary, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity or explicit gore; no generic glow aura, neon outlines or energy ribbons; no magical water emitted by hands.",
+      "review_path": "data/gemini/reviews/batch-077.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/anuket.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Native PNG inspected: female goddess dominates in documented two-arm embracing pose, one hand foreshortened toward viewer, one head, opaque blue/ivory robe. Torrent surges around rocky cataract and papyrus, no jets emitted from hands. Close water-level angle and protective gaze remain imposing at thumbnail; advancing drapery and flood supply action. Gold headband, collar and bracelets are decorative editorial costume, no specific unclaimed emblem. No extra limbs, lettering, aura or watermark. All seven Uji Sangar checks yes.",
+      "depicted_variant": "Anuket in the attested outstretched-arm embracing pose confronting the viewer amid the Nile flood.",
+      "visual_basis": "data/gemini/reviews/batch-077.review.json",
+      "aura": "Overwhelming swift Nile flood surrounds the documented embracing arms (anuket-c06/c07), natural sunlight through spray only.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Female goddess with two outstretched human arms following the exact c06 quote; fully opaque linen editorial clothing.",
+          "claim_ids": [
+            "anuket-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Swift physical floodwater in two channels echoing the arms, and current-bent papyrus; no emitted hand jets.",
+          "claim_ids": [
+            "anuket-c06",
+            "anuket-c07"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Rocky Nile First Cataract at Elephantine/Aswan.",
+          "claim_ids": [
+            "anuket-c01",
+            "anuket-c02",
+            "anuket-c11"
+          ]
+        }
+      ],
+      "batch": "1055",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "624974df38b69573724620746ef80fae2ae06aa4bfba4fc2c44495c85ae1b3f0",
+        "notes": "Anuket in the outstretched-arms pose rises from the surging cataract flood at water level; the torrent and scale read as divine."
+      }
+    },
+    "ceres": {
+      "url": "/assets/art/ceres-verified.webp",
+      "creature_id": "ceres",
+      "canonical_name": "Ceres",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of CERES, Roman goddess whose favor gives fruitful harvests and whose wrath brings blight, drought and famine.\nANATOMY: one matronly human woman, exactly one head and two arms, fully opaque heavy ochre and ivory flowing draperies, a prominent broad crown woven from unmistakable wheat ears. One hand grips a single worn agricultural sickle with a curved iron blade; the other hand opens toward the ripening crop. [ceres-c06, ceres-c07]\nMOMENT: stride toward the viewer and sweep the sickle low across the foreground as wind lifts the folds of her robe; stern maternal face looks down with overwhelming authority. Fresh tall wheat brushes the opened hand, while dry withered wheat and cracked drought soil occupy the opposite lower corner.\nPOWER: physically show the contrast between her blessing and anger: dense heavy golden ripe wheat on one side, curled blighted stems and cracked dry soil on the other. No hand beams, magical ribbons or flames. [ceres-c02]\nSCALE & CAMERA: extreme low-angle close framing from between wheat stems; the foreground sickle, enormous folds of robe, face and broad wheat crown fill the square, not a distant woman in a landscape. Apparent grandeur from framing, no literal giant-height claim.\nLIGHT & WEATHER: one sharp setting sun behind her wheat crown, narrow amber rim and deep walnut facial shadows; loose crop chaff blows across foreground.\nSURFACE: rough woven drapery, rusted iron sickle edge, individual wheat husks, grain dust, fissured earth.\nSETTING: agricultural field at harvest, filling the lowest foreground with documented crop contrast; only sliver of distant sky. [ceres-c01, ceres-c02]\nMOOD: awe-inspiring sacred authority over food and famine, stern yet benevolent, not evil; never placid, cute or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; exactly one head and two arms, no extra limbs or fingers; no design borrowed from films, games, anime or comics; no nudity or explicit gore; no generic glow aura, neon outlines or energy ribbons.",
+      "review_path": "data/gemini/reviews/batch-042.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/ceres.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Native PNG inspected: matronly wheat-crowned woman, one head two arms, opaque draperies, enormous foreshortened curved agricultural sickle. Stern downward gaze with active sweep and opened crop hand; physically abundant golden wheat contrasts with black wilted stems and clearly cracked drought soil. Documented harvest/famine domain remains legible at thumbnail. No attack beams, extra limbs, lettering or watermark. All seven Uji Sangar checks yes.",
+      "depicted_variant": "Wheat-crowned matronly Ceres advancing with sickle between abundant and drought-stricken grain.",
+      "visual_basis": "data/gemini/reviews/batch-042.review.json",
+      "aura": "Contrasting crop bounty and drought manifest Ceres authority over harvest and famine (ceres-c02), enhanced by foreground sickle and wheat crown (ceres-c06/c07).",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Matronly woman in opaque flowing draperies and broad wheat-ear crown.",
+          "claim_ids": [
+            "ceres-c06"
+          ]
+        },
+        {
+          "kind": "anatomy",
+          "description": "Clearly readable agricultural sickle.",
+          "claim_ids": [
+            "ceres-c07"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Abundant ripe wheat contrasts physically with dry withered stems and drought-cracked soil, without magical beams.",
+          "claim_ids": [
+            "ceres-c02"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Harvest field immediately around viewer.",
+          "claim_ids": [
+            "ceres-c01",
+            "ceres-c02"
+          ]
+        }
+      ],
+      "batch": "1055",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "b55ac62de254cf1c71c016646be44f563e5de13c2d2b533805e32b446237ec43",
+        "notes": "Wheat-crowned Ceres sweeps a great sickle between ripe wheat and withered stems over cracked soil; stern and monumental."
+      }
+    },
+    "sati": {
+      "url": "/assets/art/sati-verified.webp",
+      "creature_id": "sati",
+      "canonical_name": "Sati",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of SATI, the Hindu goddess of marital felicity and longevity, a sacred aspect of Shakti and the ideal of a virtuous Hindu woman.\nANATOMY: one adult human woman, exactly one head, two human arms, two hands; completely opaque layered crimson and ivory sari covering torso and legs, simple gold jewelry and cloth veil, no extra arms or fantasy anatomy. [sati-c06]\nMOMENT: turn sharply toward the viewer in solemn, unshakable dignity at the sacrificial rite where her husband Shiva was slighted. One palm rises close to the camera as a solemn vow, the other holds the edge of her heavy veil; crimson fabric sweeps diagonally in the wind. Her piercing resolute eyes look down toward the viewer. Capture the dignified moment before the tragic act, with her body completely unharmed. [sati-c03, sati-c06]\nPOWER: no visible supernatural attack is documented. Real ordinary sacrificial fire lights the scene from a brazier behind and below her, never burning or surrounding her body, never emitted from her hands. [sati-c06]\nSCALE & CAMERA: extremely low close viewpoint, foreshortened foreground palm, face and vast sweep of crimson fabric fill almost the entire square; imposing devotional presence through framing, no literal giant-height claim.\nLIGHT & WEATHER: one deep orange ordinary ritual flame off the lower side makes hard golden light on her face against near-black walnut shadows, fine natural smoke behind her.\nSURFACE: coarse opaque woven silk, weighted sari folds, worn gold ornaments, dark stone brazier lip at far lower edge.\nSETTING: the sacrificial rite referred to in the story, minimal dark ritual enclosure, no mountain landscape, no invented divine creatures. [sati-c06]\nMOOD: respectful, awe-inspiring, morally resolute and commanding; living Hindu divinity, never monstrous, decorative or serene passerby.\nHARD CONSTRAINTS: no self-injury shown, no burns, no body entering fire, no distressed suffering pose; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity or explicit gore; no generic glow aura, neon outlines or energy ribbons.",
+      "review_path": "data/gemini/reviews/batch-072.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/sati.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Native PNG inspected: dignified human Hindu woman with one head two arms, large five-finger vow palm and other hand holding cloth, fully opaque crimson/ivory sari and veiled head. Close low-angle turn, sweeping heavy cloth and firm downward gaze establish commanding sacred presence at thumbnail. Ordinary fire burns in a separate brazier behind and left; body remains unharmed with no fire-emitting hands or powers. Decorative jewelry, facial mark and ritual columns are editorial staging, no claimed extra sacred anatomy. No text or watermark. All seven Uji Sangar checks yes.",
+      "depicted_variant": "Sati as a fully clothed human Hindu woman in resolute ritual prelude, unharmed beside ordinary sacrificial fire.",
+      "visual_basis": "data/gemini/reviews/batch-072.review.json",
+      "aura": "Resolute close devotional presence and ordinary sacrificial-fire illumination rooted in the ritual account (sati-c06), no emitted supernatural effect.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Human Hindu woman grounded in c06 exact quote, one head two arms, fully opaque sari editorial clothing.",
+          "claim_ids": [
+            "sati-c06"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Sacrificial rite from the attested account, ordinary brazier flame used as environmental light; no self-injury or body entering flame.",
+          "claim_ids": [
+            "sati-c06"
+          ]
+        }
+      ],
+      "batch": "1055",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "182b82fc6449aada0ddb890aa578c0076822f95dd740790ab07efa778edb1c4d",
+        "notes": "Sati halts the viewer with a raised palm before the sacrificial fire, fully clothed; commanding sacred presence rather than a bystander."
+      }
+    },
+    "adonis": {
+      "url": "/assets/art/adonis-verified.webp",
+      "creature_id": "adonis",
+      "canonical_name": "Adonis",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of ADONIS, Greek god of impossible beauty and attraction, returning to life from Hades.\nANATOMY: ONE impossibly handsome adult HUMAN male god, one head, two eyes, TWO arms and TWO legs, fully opaque antique ivory tunic that covers his chest, heavy dark crimson mantle. Exquisitely striking ideal noble features, sculptural cheekbones and dark curls, eyes forcefully looking DOWN toward viewer from above. No wounds, weapons, crown, wings or horns. [adonis-c01, adonis-c03]\nMOMENT: WALK UPRIGHT in a powerful long forward stride UP out of Hades; torso VERTICAL, shoulders square, head high, commanding godly face turned DOWN toward the viewer. Raise his open right hand in a huge foreshortened gesture of arrival toward the low camera; left hand gathers his surging heavy mantle. His divine impossible beauty feels overwhelming, demanding reverence. DO NOT scramble, crawl, crouch, kneel, bend down, squeeze through crack, cling to walls, or reach for rescue. [adonis-c02, adonis-c08]\nPOWER: Return to life expressed by his upright triumphant living arrival across the threshold of Hades, NO emitted magical light, resurrection rays, or energy. [adonis-c02]\nSCALE & CAMERA: Camera ON THE GROUND BELOW HIS KNEE LOOKING STRAIGHT UP AT THE GOD, extreme worm's-eye viewpoint, strong foreshortening from foreground hand and knee toward huge godly face overhead. God fills full frame with noble head near top, fully visible; background doorway behind him at steep upward perspective. Viewer feels physically beneath his divine authority. NO view looking down, NO ordinary man scrambling through a crack, no tiny human comparison or literal giant anatomy.\nLIGHT & WEATHER: ONE BLINDING PHYSICAL DAWN SUN low outside the threshold lights his face and crimson mantle with hard antique-gold light, deep black underworld behind him; forceful cloth motion from stride, ordinary dust from footsteps. Light is from SUN only, never emitted from god or generic aura.\nSURFACE: weighty woven wool with massive sweeping folds, rough ancient threshold stone, textured handsome skin and sculptural dark curls.\nSETTING: broad imposing dark Hades threshold behind his upright body, not a narrow rock crack; rooted vivid dark RED ANEMONES with dark centres along lower foreground stone steps. Only plain stone, no writing. [adonis-c08, adonis-c05, adonis-c12]\nMOOD: sublime awe-inspiring beauty god returning victorious to life, overwhelming and commanding, never cute, calm, decorative or frightened.\nHARD CONSTRAINTS: no text, lettering, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or bare torso, gore or bleeding; no generic glow aura, neon outline, magical resurrection beam, energy ribbons, emitted flowers, extra attributes or elemental attacks.",
+      "review_path": "data/gemini/reviews/batch-045.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/adonis.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Native inspected second attempt: upright commanding return from broad dark threshold, extreme worm's-eye camera beneath advancing knee, open near hand and sweeping mantle. Hands/arms coherent, fully dressed handsome adult human man, downward authoritative gaze; rooted red anemones readable. All light is physical dawn sunlight, no invented emission/weapon, lettering or watermark. Unlike first attempt, sublime low-angle arrival dominates viewer and passes all seven Sangar checks.",
+      "depicted_variant": "Fully clothed handsome Adonis returning from underworld darkness in an active close low-angle depiction.",
+      "visual_basis": "data/gemini/reviews/batch-045.review.json",
+      "aura": "God of beauty presence (adonis-c01/c03) and return-to-life story (adonis-c02) conveyed through movement and close natural illumination; no magical emission.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Impossibly handsome adult human man, fully dressed, normal anatomy.",
+          "claim_ids": [
+            "adonis-c01",
+            "adonis-c03"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Return-to-life story staged as unwounded living Adonis moving out of underworld shadow; no power emission.",
+          "claim_ids": [
+            "adonis-c02",
+            "adonis-c08"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Underworld threshold with rooted red anemone story motif.",
+          "claim_ids": [
+            "adonis-c08",
+            "adonis-c12"
+          ]
+        }
+      ],
+      "batch": "1055",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "e54c94848a3ee70df43e73cc072ec80de61e793e581cb2ccbd91837d1d64a6b7",
+        "notes": "Adonis steps out of the dark underworld doorway over red anemones with an open hand toward the camera; luminous and imposing."
+      }
+    },
+    "amunet": {
+      "url": "/assets/art/amunet-verified.webp",
+      "creature_id": "amunet",
+      "canonical_name": "Amunet",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of AMUNET, Egyptian primordial goddess and protector of the king.\nANATOMY: ONE adult female deity depicted in the documented goddess-with-RED-CROWN relief form, one human head, two eyes, exactly TWO arms; wear tall asymmetric Red Crown of Lower Egypt with high rear spike and a curled front wire, fully visible with a margin at top. Completely opaque heavy ivory linen gown and dark crimson mantle. [amunet-c01, amunet-c12]\nMOMENT: Advance out from deep darkness to intercept the viewer at the threshold, thrust one open protective hand close to the lens, palm large in foreground, other arm sweeping her mantle outward; intense commanding gaze angled down toward viewer. Head and crown fill the upper half, guardian action fills the lower half.\nPOWER: No documented physical emission; darkness is ordinary low-key staging of her primordial/Hidden One associations, no dark energy emitted. Authority through crown and protective stance. [amunet-c04, amunet-c05, amunet-c08]\nSCALE & CAMERA: extreme low angle, very tight chest-up crop with foreshortened large near hand; she occupies ninety percent of frame, no giant literal body or tiny scale humans.\nLIGHT & WEATHER: one narrow hard amber shaft of light falls on the crown edge, severe eyes and near hand; the surrounding sanctuary falls into near-black shadow, ordinary dust visible in that shaft.\nSURFACE: rough ivory woven linen, creased red cloth, weathered red crown, plain worn stone.\nSETTING: Thebes sanctuary threshold, only blank UNCARVED jambs and plain stone visible; absolutely no inscriptions, carved hieroglyphs or patterned symbols. [amunet-c02, amunet-c12]\nMOOD: awe-inspiring sacred guardian emerging from darkness, imposing and overwhelming, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers, wings or snakes; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no invented magical objects, staff or elemental effect.",
+      "review_path": "data/gemini/reviews/batch-077.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/amunet.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Native inspected: large Red-Crowned goddess dominates threshold, confrontational downward gaze and five-finger protective hand projected toward lens, other hand draws mantle. Two arms, opaque linen, fully visible tall red crown, plain stone jambs with no inscriptions. Ordinary light/shadow only; no invented aura, text or watermark. Seven Sangar checks pass.",
+      "depicted_variant": "Red-Crowned Amunet in a confronting protective close threshold gesture.",
+      "visual_basis": "data/gemini/reviews/batch-077.review.json",
+      "aura": "Documented protector authority (amunet-c08) and Red Crown (amunet-c12), with ordinary shadow associated editorially with primordial/Hidden One claims (c04/c05).",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Female goddess Red-Crown relief form; Red Crown large and fully visible.",
+          "claim_ids": [
+            "amunet-c12"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "No magical emission; protective threshold gesture and ordinary shadow only.",
+          "claim_ids": [
+            "amunet-c08",
+            "amunet-c04",
+            "amunet-c05"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Thebes sanctuary threshold with plain blank jambs.",
+          "claim_ids": [
+            "amunet-c02",
+            "amunet-c12"
+          ]
+        }
+      ],
+      "batch": "1055",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "a1b8e83e2fd6f5b76eb0493b01650cdc4e44e60267eccf4817a70e212c35afc2",
+        "notes": "Red-crowned Amunet thrusts a protective hand at the viewer from the sanctuary threshold; the crown is large and fully visible."
+      }
+    },
+    "janus": {
+      "url": "/assets/art/janus-verified.webp",
+      "creature_id": "janus",
+      "canonical_name": "Janus",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of JANUS BIFRONS, Roman god of entrances, beginnings and ends.\nANATOMY: ONE shared human head on ONE neck and ONE opaque dark toga-clothed body, with EXACTLY TWO opposing faces: a clear full bearded profile looks LEFT and a clear full clean-shaven profile looks RIGHT. TWO noses pointing away from one another, TWO visible eyes total, TWO mouths, both clearly visible at equal size; no forward face. This is one cranial mass, not two heads or two men. Exactly TWO arms: left holds a long porter staff, right lifts a great iron key-ring. [janus-c03, janus-c04, janus-c08]\nMOMENT: Thrust the key ring close toward the viewer as he strides across the threshold; both faces scrutinize the opposite passages, staff braced forcefully on the ground. Two profiles occupy the entire upper half and remain equally large and crisp.\nPOWER: No documented emission or magical attack; authority through explicit impossible bifrons anatomy and gatekeeper attributes. [janus-c03, janus-c04]\nSCALE & CAMERA: extreme low angle, tight chest-up framing of a single sacred being; immense key ring foreshortened in the foreground; head near top edge, no small distant figure.\nLIGHT & WEATHER: one low amber torch source illuminates both opposed profiles and worn bronze; deep walnut black recesses, ordinary threshold dust raised by his stride.\nSURFACE: weathered bronze keys, heavy folded woven wool, deeply textured beard and Roman masonry.\nSETTING: a protected Roman gateway, narrow view of stone lintel and open door leaves behind. [janus-c11]\nMOOD: awe-inspiring inhuman sacred sentinel, severe and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no third face, extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+      "review_path": "data/gemini/reviews/batch-046.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/janus.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Native inspected: both opposed profiles large and visible on bifrons head, one bearded left and clean-shaven right, one robed torso with two arms. Keys extend toward viewer and staff readable. Imposing low-angle gatekeeper action, no third face, supernatural emission, text/watermark. Seven Sangar checks pass.",
+      "depicted_variant": "Janus bifrons with both opposed faces equally visible, keys thrust forward at gateway.",
+      "visual_basis": "data/gemini/reviews/batch-046.review.json",
+      "aura": "Awe from documented two-faced anatomy and gatekeeper staff/keys (janus-c03, janus-c04), no physical magic effect.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One bifrons head with two opposite visible faces, one bearded one clean-shaven.",
+          "claim_ids": [
+            "janus-c03",
+            "janus-c08"
+          ]
+        },
+        {
+          "kind": "anatomy",
+          "description": "Porter's staff and key ring.",
+          "claim_ids": [
+            "janus-c04"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Roman protected gateway.",
+          "claim_ids": [
+            "janus-c11"
+          ]
+        }
+      ],
+      "batch": "1055",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "2e0a90601e2480e1916cfdd07d08ef84741807ebd116a15777a924abf0da9e1a",
+        "notes": "Janus bifrons shows both opposed faces, bearded and clean-shaven, keys and staff thrust forward at the gate; exactly the documented form."
+      }
+    },
+    "mut": {
+      "url": "/assets/art/mut-verified.webp",
+      "creature_id": "mut",
+      "canonical_name": "Mut",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of MUT, Egyptian divine mother and protector of king and state.\nANATOMY: ONE adult human woman deity, one head, two eyes, exactly two arms; fully opaque heavy ivory linen robes and dark red mantle. Wear a huge clearly readable DOUBLE CROWN: tall WHITE round-tipped hedjet rising inside the RED deshret base with a thin curled front projection. Do not fuse animal forms. [mut-c01, mut-c08, mut-c12]\nMOMENT: Lean forward over the blazing bronze brazier and sweep her open palm down above its rim, face tilted down to confront the viewer, eyes severe, lips parted in command. Other hand grips the far rim. The brazier and her face occupy most of the image; active blaze throws real sparks toward foreground.\nPOWER: a ferocious but contained brazier fire from documented flaming brazier, no victim or gore; physical rising flame and sparks only. No fire out of her hands, eyes or crown. [mut-c13]\nSCALE & CAMERA: extreme low angle from just below the brazier rim, close framing WITH 10 PERCENT CLEAR SPACE ABOVE THE COMPLETE ROUND WHITE CROWN TIP; the double crown is as wide as her shoulders and her commanding face is large. Divine grandeur through perspective, no tiny human scale comparison or invented giant anatomy.\nLIGHT & WEATHER: ONLY the roaring brazier provides amber key light and hard rim illumination; deep black-walnut shadows, real soot and smoke rising from its coals.\nSURFACE: hammered old bronze brazier, charred coals, dense woven linen, aged crown lacquer.\nSETTING: dark Theban triad sanctuary setting, PLAIN UNCARVED columns: absolutely no hieroglyphs, no engraved marks or patterned writing anywhere. [mut-c07]\nMOOD: awe-inspiring sacred mother/protector with ruthless authority, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore, burning people or visible victims; no generic glow aura, neon outline or energy ribbons. Additional critical requirement: ALL architecture and brazier surfaces are blank rough uncarved material with absolutely no glyphs or inscriptions; keep both parts of double crown completely inside frame.",
+      "review_path": "data/gemini/reviews/batch-077.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/mut.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Native inspected: imposing close crowned female Mut leaning forward over blazing brazier with commanding open palm and rim-gripping other hand, two arms. Full white-red double crown visible, opaque robes. Fire originates from coals only, plain columns have no lettering. No victims, invented emission, extra anatomy, watermark. All Sangar checks pass.",
+      "depicted_variant": "Human double-crowned Mut commanding a blazing brazier in a close low-angle protective-authority scene.",
+      "visual_basis": "data/gemini/reviews/batch-077.review.json",
+      "aura": "Documented double crown (mut-c08), protector authority (mut-c12) and physical flaming brazier (mut-c13) create imposing presence.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Human woman Mut wearing clearly visible double Red-and-White crown.",
+          "claim_ids": [
+            "mut-c08"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Fire, sparks and smoke remain physically in/from flaming brazier, without victims.",
+          "claim_ids": [
+            "mut-c13"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Theban triad sanctuary editorial staging.",
+          "claim_ids": [
+            "mut-c07"
+          ]
+        }
+      ],
+      "batch": "1055",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "3877645d1abd2961b513fb09524130cff8899de931a1214e06643336fcfa7445",
+        "notes": "Mut in the full double crown commands a blazing brazier from a low angle; fire stays in the brazier, columns are plain."
+      }
+    },
+    "neith": {
+      "url": "/assets/art/neith-verified.webp",
+      "creature_id": "neith",
+      "canonical_name": "Neith",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of NEITH, Egyptian goddess of warfare and motherhood.\nANATOMY: one fully clothed adult female deity, one human head, two eyes, exactly two arms and two legs; unmistakable tall RED CROWN of Lower Egypt with asymmetric rear spike and curling front wire. Opaque layered ivory linen and dark red mantle. ONE bow and ONE arrow, normal fingers, no shield. [neith-c01, neith-c08]\nMOMENT: Draw the bow taut straight past the viewer's shoulder, front fist foreshortened close to the lens and rear hand at her cheek; stern eyes looking down toward the viewer. Her face and enormous bow dominate the picture; cloth whips from the motion.\nPOWER: no documented elemental power; awe through imposing divine iconography, close framing, tension of the drawn bow, and extreme low perspective only. [neith-c11]\nSCALE & CAMERA: extreme low angle, very tight waist-up crop filling 90 percent of the image; crown fully visible near top edge, arrow and bow limbs clearly readable. Do not depict an ordinary woman posing at normal distance. No giant literal body or tiny human scale comparison needed.\nLIGHT & WEATHER: a single hard shaft of low amber sunset side light on crown, face and bow; deep walnut-black shadows, airborne ordinary dry dust.\nSURFACE: rough woven linen, worn red crown lacquer, strained bow wood, aged bronze fittings.\nSETTING: Sais in Nile Delta, only fragments of its shadowed stone sanctuary behind her. [neith-c06]\nMOOD: awe-inspiring sacred martial authority, tense and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no magic arrow glow, no glyphs.",
+      "review_path": "data/gemini/reviews/batch-077.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/neith.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Native PNG inspected: Neith fills frame, Red Crown and drawn bow remain readable, two arms and one arrow, opaque garment. Very low perspective, foreshortened fist and taut bow produce confronting martial action. No power effect, extra anatomy, text, watermark or copied design. All seven Uji Sangar checks pass.",
+      "depicted_variant": "Neith in documented Red Crown, pulling bow taut in an imposing close low-angle confrontation.",
+      "visual_basis": "data/gemini/reviews/batch-077.review.json",
+      "aura": "Martial authority from Red Crown and drawn bow (neith-c08, neith-c11), with no magical emission.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Human female Neith with Lower Egypt Red Crown, bow and arrow.",
+          "claim_ids": [
+            "neith-c08"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "No magical emission; martial tension shown by drawing documented bow.",
+          "claim_ids": [
+            "neith-c01",
+            "neith-c11"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Shadowed Sais stone sanctuary staging.",
+          "claim_ids": [
+            "neith-c06"
+          ]
+        }
+      ],
+      "batch": "1055",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "b6f2c4f2caf180da4985545cf8216805d65c45e1d07997f51d9a4b2622faf804",
+        "notes": "Neith in the Red Crown draws a bow with arrow toward the viewer before the Sais temple; martial and dominant, no legible text."
+      }
+    },
+    "themis": {
+      "url": "/assets/art/themis-verified.webp",
+      "creature_id": "themis",
+      "canonical_name": "Themis",
+      "prompt": "ONE original square premium painterly cinematic Mythics illustration of THEMIS, Greek Titan goddess of divine law, order and justice.\nANATOMY: ONE adult female deity, one human head, two eyes open and UNBLINDFOLDED, exactly TWO arms, fully opaque thick antique ivory Greek drapery and a dark walnut mantle. Her RIGHT hand grips the handle of ONE large suspended BALANCED SCALE with TWO clearly separate bronze pans hanging on chains from its horizontal beam. Her LEFT arm carries ONE abundant CORNUCOPIA horn of fruit and grain, huge spiraling horn mouth facing the lens. No sword. [themis-c01, themis-c02, themis-c09]\nMOMENT: Raise the balanced scales overhead to summon an assembly and step down toward the viewer; mouth slightly open in authoritative address, stern eyes cast down directly toward the lens. The full scale beam and both hanging pans are clearly readable above her commanding face, cornucopia projects toward foreground. [themis-c07]\nPOWER: no documented physical emission; summoning authority is a vocal physical gesture, not magic projections. Awe through documented sacred scales and cornucopia.\nSCALE & CAMERA: extreme low camera from the bottom of Delphi stone steps, very close waist-up composition; figure, scales and cornucopia fill ninety percent, no tiny distant goddess. Full scale beam/pans and horn remain inside frame.\nLIGHT & WEATHER: one slanting hard warm sunbeam illuminates bronze, cheeks and ripe fruit, deep walnut and charcoal shadows; ordinary wind moves heavy mantle.\nSURFACE: hammered bronze scales with taut real chains, rough woven opaque wool and linen, ridged real horn, dusty stone steps.\nSETTING: Delphi oracle stone steps with shadowed plain marble doorway fragments and dark mountain glimpse; all stone surfaces blank and uninscribed. [themis-c06]\nMOOD: awe-inspiring divine lawgiver issuing a command, severe and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no blindfold or sword; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no floating magical symbols or invented power.",
+      "review_path": "data/gemini/reviews/batch-044.review.json",
+      "review_verdict": "lulus-otomatis",
+      "visual_review": "Reviewed for creature identity and the described folklore variant",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/themis.png",
+      "width": 1254,
+      "height": 1254,
+      "visual_review_notes": "Native inspected: Themis fills frame from a steep low viewpoint, steps forward with raised balanced scale, lips parted in address, large cornucopia held in other arm. Two arms, one head, both scales pans and fruit horn readable, no blindfold/sword. Opaque Greek robes, natural sunlight and blank Delphi stone/mountain setting. No supernatural emission, text or watermark; seven Sangar checks pass.",
+      "depicted_variant": "Unblindfolded Themis lifting clearly balanced scales and projecting cornucopia during a commanding summons.",
+      "visual_basis": "data/gemini/reviews/batch-044.review.json",
+      "aura": "Lawgiver authority from documented scales/cornucopia (themis-c09) and summoning assemblies (themis-c07), no invented emission.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Female law personification with readable scales and cornucopia; no blindfold or sword.",
+          "claim_ids": [
+            "themis-c02",
+            "themis-c09"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "No physical magic emission; raised scales and addressing posture stage summoning assemblies.",
+          "claim_ids": [
+            "themis-c07"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Delphi oracle steps staged with blank marble architecture.",
+          "claim_ids": [
+            "themis-c06"
+          ]
+        }
+      ],
+      "batch": "1055",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "974e8ff97ced47888d17304997b5592ce5a4c1a382b19e57e8677d09beb79b93",
+        "notes": "Themis raises balanced scales and bears a cornucopia on the Delphi steps from a steep low angle; unblindfolded, no sword."
       }
     }
   }

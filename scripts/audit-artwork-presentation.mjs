@@ -34,7 +34,7 @@ const prompts = read('assets/art/verified-prompts.json');
 const { EDITORIAL_ART } = await import(new URL('../js/editorial-art.js', import.meta.url));
 const selected = new Map(ledger.items.filter(i => i.status === 'complete').map(i => [i.slug, i]));
 const hashes = new Set(), images = [];
-let awaitingIndependentReview = 0, reviewedPendingReceipts = 0, generatedNativeImagesDecoded = 0, needsCorrection = 0;
+let awaitingIndependentReview = 0, reviewedPendingReceipts = 0, generatedNativeImagesDecoded = 0, needsCorrection = 0, notDrawn = 0;
 for (const item of ledger.items.filter(i => i.status !== 'complete')) {
   const receiptPath = item.receipt_path || `${directory}/${item.slug}.json`;
   if (!existing(receiptPath)) {
@@ -42,7 +42,14 @@ for (const item of ledger.items.filter(i => i.status !== 'complete')) {
     continue;
   }
   const receipt = read(receiptPath);
-  assert(['awaiting-independent-review', 'reviewed', 'needs-correction'].includes(receipt.status), 'Unexpected receipt status');
+  assert(['awaiting-independent-review', 'reviewed', 'needs-correction', 'tidak-digambar'].includes(receipt.status), `Unexpected receipt status: ${item.slug} ${receipt.status}`);
+  // Declined by the generator (8 October): the claims document no depictable form, so nothing is installed and the
+  // earlier artwork stays active; the receipt must say why.
+  if (receipt.status === 'tidak-digambar') {
+    assert(String(receipt.reason || '').trim().length >= 20, `Declined revision needs a reason: ${item.slug}`);
+    notDrawn++;
+    continue;
+  }
   // Rejected by the second reviewer: the earlier artwork stays active until a corrected image passes.
   if (receipt.status === 'needs-correction') {
     assert.equal(receipt.root_visual_review?.verdict, 'reject', `Correction needs a recorded rejection: ${item.slug}`);
@@ -104,7 +111,7 @@ const decoded = JSON.parse(execFileSync('python3', ['-c', `import json,sys\nfrom
 { input: JSON.stringify(images), encoding: 'utf8' }));
 const report = { status: ledger.status === 'complete' ? 'pass' : 'in-progress',
   active_artwork_count: ledger.baseline.length, screened: ledger.screening.length,
-  revision, target: ledger.target, complete: ledger.complete, awaiting_independent_review: awaitingIndependentReview, needs_correction: needsCorrection,
+  revision, target: ledger.target, complete: ledger.complete, awaiting_independent_review: awaitingIndependentReview, needs_correction: needsCorrection, not_drawn: notDrawn,
   decoded, generated_native_images_decoded: generatedNativeImagesDecoded,
   preserved_earlier_native_images: preservedNative,
   earlier_missing_native_images: previouslyMissingNative, preserved_earlier_webp_images: ledger.baseline.length,

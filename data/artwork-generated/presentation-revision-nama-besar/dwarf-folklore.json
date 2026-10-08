@@ -3,45 +3,50 @@
   "slug": "dwarf-folklore",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
-  "status": "needs-correction",
-  "generated_at": "2026-10-06T08:36:17.297Z",
-  "prompt": "Square premium original painterly German DWARF folklore illustration. ONE SHORT HUMAN-SHAPED supernatural man c01,c08, one head two arms two legs, normal round HUMAN ears, fully clothed sturdy dark woolen tunic trousers boots and plain cloak, ordinary natural beard as editorial facial rendering. He wears a TARNKAPPE cap c07 and visibly TURNS INVISIBLE: lower torso, one leg and part of one hand gradually become transparent so rock/lichen BEHIND can be seen through them, all anatomy remains coherent, no severed parts. Standing at towering mountain rock doorway/cave sourcec01, low camera emphasizes powerful cunning commanding expression and dramatic mysterious silhouette, tiny coarse moss rocks provide scale but short height not colossal fact. Natural gold shaft of sunlight through dark cave, rich premium painterly texture, fading invisibility clear. No horns wings pointed ears magic lightning/fire beams, no Tolkien/Disney/game/movie/anime/comic styling, no writing text logos watermark border gore nudity.",
-  "depicted_variant": "Later German short human-shaped dwarf wearing Tarnkappe and turning invisible.",
+  "status": "reviewed",
+  "generated_at": "2026-10-08T04:17:21.678137+00:00",
+  "prompt": "ONE square original painterly cinematic Mythics illustration of a fierce short German folklore dwarf actively becoming invisible through his hooded Tarnkappe cloak [dwarf-folklore-c01,c02,c07,c08]. Original art, NO writing of any sort, NO signature, NO watermark anywhere, NO branding.\nShow the dwarf FRONT-ON close from head to knees, standing in OPEN SPACE inside a large cavern workshop. Solid left half: one fierce left eye, half human face, half coarse beard, left wool-clothed shoulder and arm lifting the hood, left leg. The right half of the face, hood, beard, torso, arm and leg DISAPPEARS into empty space, revealing the distant cavern workshop behind. A narrow softly fading edge lets the viewer understand that he is vanishing, never a wound or cut. The visible hood's fabric dissolves halfway across his forehead.\nIMPORTANT BACKGROUND: distant cave wall, wooden shelf and forge are MANY METERS behind the dwarf. One horizontal wooden shelf in that BACK wall extends uninterrupted THROUGH THE SPACE OF THE INVISIBLE RIGHT HALF OF HIS TORSO. Empty clean air around him. NO foreground stone pillar, NO rock coating his skin, NO petrification, NO object in front occluding his right half. His vanishing face and hood show the same empty air and distant background as outside the body. No glowing outlines or aura.\nThe Tarnkappe invisibility (c07) must be unmistakable even at thumbnail. The dwarf is not an intact ordinary man leaning against stone. His solid half leans forward with confrontational eye toward viewer. Body is short and human-shaped, no giant scale, horns or pointed ears. Plain dark opaque wool clothing, rough fabric and real skin/beard texture.\nLow-angle dramatic camera; left face and hand large foreground, one warm forge fire far left illuminates solid wool and beard; rich walnut shadow and antique gold accents, no pastel. Mountain cavern of miners and smiths, little mined gold in shelf [dwarf-folklore-c14].\nNo extra heads/limbs; partial invisibility only changes visibility, not anatomy. No gore, nudity, letters, symbols, rune, frame, film/game/anime/comic designs, glow, neon or particles. ABSOLUTELY NO ARTIST SIGNATURE OR WATERMARK.",
+  "depicted_variant": "Short humanlike dwarf visibly fading halfway to invisibility through the Tarnkappe; distant cave workshop visible through vanished face/body half.",
   "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
-  "aura": "Documented Tarnkappe invisibility c07, body partially fading rather than new magic beams.",
+  "aura": "The documented Tarnkappe turns him invisible: show an unmistakable PARTIAL DISAPPEARANCE mid-transition, not simply a man wearing a cloak. Rock behind the vanished half remains sharp. No energy particles. [dwarf-folklore-c07]",
   "review_path": "data/gemini/reviews/batch-115.review.json",
   "basis_claim_ids": [
     "dwarf-folklore-c01",
+    "dwarf-folklore-c02",
     "dwarf-folklore-c08",
-    "dwarf-folklore-c07"
+    "dwarf-folklore-c07",
+    "dwarf-folklore-c14"
   ],
   "visual_requirements": [
     {
       "kind": "anatomy",
-      "description": "Short supernatural human-shaped dwarf in later folklore variant.",
+      "description": "Short male human-shaped dwarf in opaque Tarnkappe",
       "claim_ids": [
         "dwarf-folklore-c01",
+        "dwarf-folklore-c02",
         "dwarf-folklore-c08"
       ]
     },
     {
       "kind": "effect",
-      "description": "Tarnkappe makes dwarf invisible.",
+      "description": "Visible partial invisibility transition through Tarnkappe",
       "claim_ids": [
         "dwarf-folklore-c07"
       ]
     },
     {
       "kind": "setting",
-      "description": "Mountain/stone dwelling.",
+      "description": "Mountain cave and mined gold",
       "claim_ids": [
-        "dwarf-folklore-c01"
+        "dwarf-folklore-c14"
       ]
     }
   ],
   "artistic_choices": [
-    "Full rough garments, ordinary round ears, beard and cap fabric editorial; no modern franchise design.",
-    "Transparency/fading visualizes invisibility, no magic fire or lightning added. Mountain threshold used without Eddic treasure-crafting scene blend."
+    "Partial mid-transition visualizes documented invisibility rather than inventing altered anatomy.",
+    "Short later-folklore male variant, beard, wool hooded cloak and workshop layout editorial.",
+    "Uninterrupted distant shelf and empty air through missing half make invisibility explicit; no rock pillar occlusion or petrification.",
+    "No giant body, glowing rune, elemental attack or emitted fire; forge fire ambient."
   ],
   "old_url": "/assets/art/dwarf-folklore-regeneration-139-mythic-presence.webp",
   "old_webp_sha256": "834847d60ee7eaa5e3d28cc3c9e679b85d17bf06e402336a77bcbed853209120",
@@ -49,21 +54,50 @@
   "old_native_sha256": null,
   "historical_native_sha256": "23eba95fdfc34aa38b4323807cc3b33d0f3188145a932140fe02a1ef5f29f34d",
   "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/dwarf-folklore.png",
-  "native_sha256": "5f032a6b57d85bb86375d3c0c250cb40035635012c18ac63d0b2b543063f4567",
-  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-5800cba8-8e58-4bc6-b1be-beec085fe846.png",
+  "native_sha256": "eee92a5613566660fc687fc92db456af04da7441ce2e1de86852e8e1b3db4d48",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-5164-7c31-95b8-92b89dd9af58/exec-05e0611f-5647-4df7-b0ca-afb9a2a1d8b0.png",
   "visual_review": {
-    "verdict": "pass",
     "reviewer": "codex",
-    "notes": "Native inspected: one clothed short humanlike figure in Tarnkappe with coherent two arms/legs; left hand and lower body fade partially to reveal rock/lichen behind, no dismemberment. Mountain cave, normal human ears and natural light; no extra anatomy, text watermark or attack beams.",
-    "native_sha256": "5f032a6b57d85bb86375d3c0c250cb40035635012c18ac63d0b2b543063f4567",
-    "reviewed_at": "2026-10-06T08:36:17.297Z"
+    "verdict": "pass",
+    "notes": "Native inspected: clearly half-visible short humanlike dwarf; lifting Tarnkappe hood, one fierce solid eye/face half, wool and leg fade into uninterrupted distant workshop shelves, empty air and floor on vanished side. No stone pillar, rock skin, wound or severing. Close confronting subject, action and unmistakable c07 invisibility solve prior ordinary-man rejection. No lettering, watermark, aura, extra anatomy or media design. Two preceding attempts self-rejected and retained.",
+    "limitations": [],
+    "native_sha256": "eee92a5613566660fc687fc92db456af04da7441ce2e1de86852e8e1b3db4d48",
+    "reviewed_at": "2026-10-08T04:17:21.678137+00:00"
   },
+  "worker_agent": "lane_1047",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/dwarf-folklore-attempt-03.png",
+      "receipt_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/dwarf-folklore-attempt-03.json",
+      "native_sha256": "5f032a6b57d85bb86375d3c0c250cb40035635012c18ac63d0b2b543063f4567",
+      "reason": "Reads as an ordinary bearded man at a cave; the documented invisibility of the Tarnkappe is not shown."
+    },
+    {
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/dwarf-folklore-attempt-01.png",
+      "receipt_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/dwarf-folklore-attempt-01.json",
+      "native_sha256": "e22124b9af18875c58ac338b90ff20e6ab47c39095e7933880f6a93c9b6173e0",
+      "reason": "Native Codex rejection: disappearance not unmistakable; right side simply looks turned away/occluded rather than vanishing. The prior invisibility rejection would still apply."
+    },
+    {
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/dwarf-folklore-attempt-02.png",
+      "receipt_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/dwarf-folklore-attempt-02.json",
+      "native_sha256": "2d77a0478cad7255dec0a4d90b23dd1cc09439dac38dbcefe0959294ea60c789",
+      "reason": "Codex native rejection: bottom-right pseudo-signature/lettering violates no-text constraint; rock-shaped foreground left half reads as pillar occlusion or petrification instead of clear invisibility."
+    }
+  ],
+  "batch": "nama-besar",
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "5f032a6b57d85bb86375d3c0c250cb40035635012c18ac63d0b2b543063f4567",
-    "notes": "Reads as an ordinary bearded man at a cave; the documented invisibility of the Tarnkappe is not shown."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "eee92a5613566660fc687fc92db456af04da7441ce2e1de86852e8e1b3db4d48",
+    "notes": "The hooded dwarf lifts the Tarnkappe and his right half fades into the workshop behind him; the invisibility is unmistakable."
   },
-  "correction_notes": "Reads as an ordinary bearded man at a cave; the documented invisibility of the Tarnkappe is not shown."
+  "reviewed_at": "2026-10-08T04:30:26.950Z"
 }

@@ -1,43 +1,84 @@
 {
   "slug": "wadjet",
-  "prompt": "Use case: stylized-concept. Square premium Mythics painterly art, monumental low viewpoint, tiny architecture/landscape scale references, cinematic rich light and brush texture. Original respectful religious design, NO TEXT/signature/watermark/border, gore, nudity or film/game/anime imitation. WADJET, Egyptian protective goddess of Lower Egypt (wadjet-c01,c04), research does not specify body iconography, so conservative one human-headed fully clothed woman in opaque long Egyptian linen robe, exactly TWO arms with hands clasped quietly at waist, NO cobra head, snake body, wings or invented weapon. Monumental protective presence above a lush Lower Egyptian papyrus riverbank (wadjet-c03,c06), tiny distant temple. Natural golden dawn and dense papyrus planted along river express protective deity who planted first papyrus (wadjet-c06). No emitted fire/venom/eye beams, no invented Eye symbols as magical attacks.\nRevision: Edit ONLY forehead/headband ornament: remove the upright cobra-shaped emblem and replace with a plain small smooth oval gold jewel. Keep image unchanged otherwise: fully clothed two-arm human-headed goddess, clasped hands, papyrus river landscape and sunrise. No serpent imagery anywhere on head; no text.",
-  "depicted_variant": "Editorial clothed humanlike goddess with papyrus landscape.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of WADJET, the Egyptian protective goddess in her documented living cobra form, defending the papyrus swamps of the Nile Delta.\nANATOMY: exactly ONE living cobra, one head, two eyes, hood fully spread, one long tapering coiled body, no legs, arms, wings, crown or humanoid body. This is the source-backed cobra form, not an ordinary woman. [wadjet-c03,wadjet-c04]\nMOMENT: rising violently from the papyrus water, broad hood thrusting toward the viewer, head angled down toward camera, mouth opening in a fierce defensive threat; water breaks around her coils.\nPOWER: protective presence and physical serpent motion, water splash from moving body; no claimed venom beam, fire or emitted magic. [wadjet-c04,wadjet-c05]\nSCALE & CAMERA: camera at water level looking upward into a very close hood and head filling two thirds of the square, foreground coils occupying lower frame; awe through crop and perspective, no humans or unsupported giant scale.\nLIGHT & WEATHER: single low amber sunset sidelighting the hood, deep walnut shadows, sharp golden rim; dark stormlike ambient sky only scenery.\nSURFACE: real wet olive-brown cobra scales, rough papyrus stems, muddy water and physically splashing droplets.\nSETTING: Nile Delta papyrus swamp of the Horus protection story. [wadjet-c05,wadjet-c06]\nMOOD: fierce divine protector, awe-inspiring and dangerous to intruders; never cute, calm, decorative or an ordinary snake documentary photo.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or eyes; no film, game, anime or comic design; no nudity or gore; no generic glow aura, neon outline, flames or energy ribbons.",
+  "depicted_variant": "Source-backed cobra form, rearing defensively from Nile Delta papyrus water.",
   "basis_claim_ids": [
-    "wadjet-c01",
     "wadjet-c03",
     "wadjet-c04",
+    "wadjet-c05",
     "wadjet-c06"
   ],
   "visual_requirements": [
-    "Protective Egyptian goddess presence (wadjet-c01,c04)",
-    "Papyrus landscape and planting association (wadjet-c03,c06)",
-    "No unsupported cobra iconography or emitted attacks"
+    {
+      "kind": "anatomy",
+      "description": "One living cobra as Wadjet's directly documented cobra form, no female human body or invented crown.",
+      "claim_ids": [
+        "wadjet-c03",
+        "wadjet-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Defensive cobra action as protector; water splash caused by physical movement, no emitted powers.",
+      "claim_ids": [
+        "wadjet-c04",
+        "wadjet-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Nile Delta papyrus swamps from Horus protection and papyrus planting accounts.",
+      "claim_ids": [
+        "wadjet-c05",
+        "wadjet-c06"
+      ]
+    }
   ],
-  "aura": "Natural papyrus riverbank sunrise, protection through majestic composition.",
+  "aura": "Cobra protective form (wadjet-c04) dominates through close water-level framing and physically disturbed water in documented Nile Delta habitat (wadjet-c05/c06), without emitted magic.",
   "artistic_choices": [
-    "Research lacks physical form; modest ordinary woman explicitly editorial. Did not import familiar cobra anatomy without claim support.",
-    "Rejected first attempt kept at rejected/wadjet-attempt-1.png for unsupported cobra emblem, replaced with plain oval jewel using built-in edit."
+    "Selected documented cobra form instead of unsupported female human iconography; exact brown/olive coloration and scale texture editorial.",
+    "Extreme close crop gives awe through perspective rather than asserting gigantic bodily size.",
+    "Sunset and storm-cloud backdrop are natural cinematic lighting; water spray is physical movement, not a flood power."
   ],
   "visual_review": {
-    "verdict": "pass",
-    "notes": "Native edit viewed: unsupported cobra ornament removed, one modest clothed two-arm woman with papyrus river landscape, no invented effects.",
     "reviewer": "codex",
-    "native_sha256": "cb1abc150da40ba1bdbd9ba7aefd810a8ad1013139376f04abb7b8a6787fad31"
+    "verdict": "pass",
+    "notes": "Viewed native PNG: one living cobra with one head, two eyes, expanded hood, coherent serpentine coils and no limbs, lunging defensive open mouth fills image; wet papyrus water splashes physically. Clear fierce presence at thumbnail, no human, invented crown, aura, text or gore.",
+    "limitations": [],
+    "native_sha256": "755bed2f449771fcd67281554eb39194ff952d160cc17eac863fba08994e3e8f",
+    "reviewed_at": "2026-10-08T03:57:56.706124+00:00"
   },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-55c8-7c93-8727-a166e5328535/exec-8d55b4cb-3235-4998-b339-b14c42d7498e.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/wadjet.png",
-  "native_sha256": "cb1abc150da40ba1bdbd9ba7aefd810a8ad1013139376f04abb7b8a6787fad31",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-5164-7c31-95b8-92b89dd9af58/exec-c240baf6-a693-4f6c-a532-c84d1d897c3a.png",
+  "original_file": "data/artwork-generated/batch-1047/originals/wadjet.png",
+  "native_sha256": "755bed2f449771fcd67281554eb39194ff952d160cc17eac863fba08994e3e8f",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
-  "status": "needs-correction",
+  "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-077.review.json",
-  "reviewed_at": "2026-10-06T08:32:23.171301+00:00",
+  "worker_agent": "lane_1047",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1047,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T03:57:56.706124+00:00",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1047/rejected/wadjet-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1047/rejected/wadjet-attempt-02.json",
+      "native_sha256": "cb1abc150da40ba1bdbd9ba7aefd810a8ad1013139376f04abb7b8a6787fad31",
+      "reason": "Ordinary woman by the Nile."
+    }
+  ],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "cb1abc150da40ba1bdbd9ba7aefd810a8ad1013139376f04abb7b8a6787fad31",
-    "notes": "Ordinary woman by the Nile."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "755bed2f449771fcd67281554eb39194ff952d160cc17eac863fba08994e3e8f",
+    "notes": "A huge rearing cobra with spread hood and fangs lunges from papyrus water at sunset; one head, no limbs, fierce at thumbnail size."
   },
-  "correction_notes": "Ordinary woman by the Nile."
+  "reviewed_at": "2026-10-08T04:30:26.950Z"
 }

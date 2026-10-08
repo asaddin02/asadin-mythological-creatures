@@ -3,47 +3,48 @@
   "slug": "ra",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
-  "status": "needs-correction",
-  "generated_at": "2026-10-06T08:18:04.882Z",
-  "prompt": "Creature identity: ra. Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. SCANDINAVIAN RÅ nature-place guardian, NOT Egyptian sun god Ra. One powerful humanlike FEMALE FOREST SPIRIT (skogsrå subtype), ordinarily shaped fully clothed woman with two arms and two legs, standing in an immense Nordic forest. She governs natural forces/animals: wind visibly bends tree boughs and forest deer stand alert in distant small scale, natural mist gathers between roots. Her strong commanding expression and low-angle composition create supernatural authority. Clothes and species of animals are artistic generic forest styling. No Egyptian motifs, falcon head, solar disk, fire, horns/wings or invented hollow back. Plain uninscribed walls, clothing and objects: no hieroglyphs, cuneiform, letters or pictographic writing. No solar-disk crown, horns or additional attributes unless explicitly specified above.",
-  "depicted_variant": "SCANDINAVIAN RÅ nature-place guardian, NOT Egyptian sun god Ra. One powerful humanlike FEMALE FOREST SPIRIT (skogsrå subtype), ordinarily shaped fully clothed woman with two arms and two legs, standing in an immense Nordic forest. She governs natural forces/animals: wind visibly bends tree boughs and forest deer stand alert in distant small scale, natural mist gathers between roots. Her strong commanding expression and low-angle composition create supernatural authority. Clothes and species of animals are artistic generic forest styling. No Egyptian motifs, falcon head, solar disk, fire, horns/wings or invented hollow back.",
+  "status": "reviewed",
+  "generated_at": "2026-10-08T04:17:24.695628+00:00",
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of RÅ, the Scandinavian and Sami keeper spirit of the forest, NOT the Egyptian sun god.\nANATOMY: ONE female human-form forest rå, ONE head, TWO eyes, TWO arms, TWO legs; fully opaque dark wool long dress and mantle, no crown, solar disk, horns, wings, extra eyes, hollow back or tail. Weathered stern woman face close to viewer. [ra-c06]\nMOMENT: Stride out between forest trunks directly toward viewer with one hand thrust palm-first toward intruder; commanding downward gaze. A powerful wind gust whips her mantle and pushes branches and needles outward around her advancing body.\nPOWER: Documented mastery of natural forces and animals of her guarded place: physical forest wind bows the branches, rushes needles and bends undergrowth; no emitted rays, no glowing eyes, no floating runes. [ra-c02]\nSCALE & CAMERA: extreme low angle; waist-up close view with huge foreshortened palm and imposing face, figure fills most of square; perspective only, no unsupported giant body size.\nLIGHT & WEATHER: ONE low amber sunset shaft from behind trees rims hand and wet cloak, dark walnut-green shadows; flying needles, damp natural mist, no glowing colored haze.\nSURFACE: coarse wet wool, weathered skin, pine bark, mud, dense dark needles.\nSETTING: a guarded Scandinavian forest, skogsrå type explicitly selected; trees and vegetation visible close behind. [ra-c01,c03]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
+  "depicted_variant": "Female human-form skogsrå confronting an intruder while a forest gust bends branches and drives needles around her.",
   "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
-  "aura": "Commanding wind and gathering forest mist",
+  "aura": "Documented mastery of natural forces and animals of her guarded place: physical forest wind bows the branches, rushes needles and bends undergrowth; no emitted rays, no glowing eyes, no floating runes. [ra-c02]",
   "review_path": "data/gemini/reviews/batch-111.review.json",
   "basis_claim_ids": [
-    "ra-c01",
+    "ra-c06",
     "ra-c02",
-    "ra-c03",
-    "ra-c05",
-    "ra-c06"
+    "ra-c01",
+    "ra-c03"
   ],
   "visual_requirements": [
     {
       "kind": "anatomy",
-      "description": "SCANDINAVIAN RÅ nature-place guardian, NOT Egyptian sun god Ra. One powerful humanlike FEMALE FOREST SPIRIT (skogsrå subtype), ordinarily shaped fully clothed woman with two arms and two legs, standing in an immense Nordic forest. She governs natural forces/animals: wind visibly bends tree boughs and forest deer stand alert in distant small scale, natural mist gathers between roots. Her strong commanding expression and low-angle composition create supernatural authority. Clothes and species of animals are artistic generic forest styling. No Egyptian motifs, falcon head, solar disk, fire, horns/wings or invented hollow back.",
+      "description": "One female human-form skogsrå",
       "claim_ids": [
-        "ra-c01",
-        "ra-c02",
-        "ra-c03",
-        "ra-c05",
         "ra-c06"
       ]
     },
     {
       "kind": "effect",
-      "description": "Commanding wind and gathering forest mist; basis: documented natural forces and animals in forest rå care",
+      "description": "Physical wind in forest expresses documented control of natural forces",
+      "claim_ids": [
+        "ra-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Forest keeper type, guarded woodland",
       "claim_ids": [
         "ra-c01",
-        "ra-c02",
-        "ra-c03",
-        "ra-c05",
-        "ra-c06"
+        "ra-c03"
       ]
     }
   ],
   "artistic_choices": [
-    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
-    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+    "Scandinavian forest rå identity kept distinct from Egyptian Ra.",
+    "Wind selected as editorial concrete rendering of documented natural-force domain, no invented hollow back or animal tail.",
+    "Wool dress, age, sunset, color and tight foreshortening editorial; giant size not claimed.",
+    "Visible moss, rope-like cords and small twigs on mantle/dress are editorial woodland costume texture, not fused plant anatomy or additional source attributes."
   ],
   "old_url": "/assets/art/ra-regeneration-139-mythic-presence.webp",
   "old_webp_sha256": "920a87610830d9f1b31b6604f940ea6519fb5c30473add18ef64c831c8fa8181",
@@ -51,21 +52,38 @@
   "old_native_sha256": null,
   "historical_native_sha256": "d6edb3eab5009c2b81447b0a2a0bad2e726264375ffb472245df6dc60cbd0e4e",
   "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/ra.png",
-  "native_sha256": "e44367119fe45874b76954844d0051a7a3174fb14901dd0b77838f8a6826bc90",
-  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-726a010b-4f0a-4d94-a3d5-1e152852d72f.png",
+  "native_sha256": "f0a83c22caefebfce21106ebe370b600c74092007feef80496b7306eb5156d22",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-784e-76a1-b1ae-5d5cc188cac8/exec-da7e3883-63ab-4389-8ca8-bd67c39a93ff.png",
   "visual_review": {
-    "verdict": "pass",
     "reviewer": "codex",
-    "notes": "Viewed native PNG: ordinary female human-form Scandinavian forest Rå with modest clothes, one head/two-arm humanoid silhouette under cloak and coherent legs under long gown, wind in hair/branches and deer in misty Nordic forest. Natural forces/animals grounded in ra-c02; no Egyptian imagery, falcon, solar disk or invented anatomy/text.",
-    "native_sha256": "e44367119fe45874b76954844d0051a7a3174fb14901dd0b77838f8a6826bc90",
-    "reviewed_at": "2026-10-06T08:18:04.883Z"
+    "verdict": "pass",
+    "notes": "Native PNG inspected: one Scandinavian female human-form forest spirit, one head two arms, one close five-finger commanding palm and lower second hand. Opaque dark textured dress/mantle, no tail, hollow back, wings, solar disk or Egyptian imagery. Stern downward gaze, advancing knee/cloth perspective, wind-driven loose needles, hair and nearby boughs create physical forest-command moment and imposing thumbnail. Moss, cords and surface twigs lie on clothing as editorial woodland costume rather than new anatomy. Natural low amber sun, no emitted rays, symbols, glow, lettering or watermark. All seven Uji Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "f0a83c22caefebfce21106ebe370b600c74092007feef80496b7306eb5156d22",
+    "reviewed_at": "2026-10-08T04:17:24.695628+00:00"
   },
+  "worker_agent": "lane_1055_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/ra-attempt-01.png",
+      "receipt_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/ra-attempt-01.json",
+      "native_sha256": "e44367119fe45874b76954844d0051a7a3174fb14901dd0b77838f8a6826bc90",
+      "reason": "This slug is the Scandinavian Rå, not the Egyptian sun god; the image reads as an ordinary woman in a forest."
+    }
+  ],
+  "batch": "nama-besar",
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "e44367119fe45874b76954844d0051a7a3174fb14901dd0b77838f8a6826bc90",
-    "notes": "This slug is the Scandinavian Rå, not the Egyptian sun god; the image reads as an ordinary woman in a forest."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "f0a83c22caefebfce21106ebe370b600c74092007feef80496b7306eb5156d22",
+    "notes": "The Scandinavian skogsrå in bark-dark robes halts the intruder with a raised palm amid wind-driven pine; a forest keeper, no Egyptian imagery."
   },
-  "correction_notes": "This slug is the Scandinavian Rå, not the Egyptian sun god; the image reads as an ordinary woman in a forest."
+  "reviewed_at": "2026-10-08T04:30:26.950Z"
 }

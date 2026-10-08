@@ -1,47 +1,85 @@
 {
   "slug": "min",
-  "prompt": "MIN, ancient Egyptian deity: ONE black-skinned adult human male with a raised ceremonial FLAIL (min-c02), standing majestically in fully opaque layered linen robe completely covering chest and pelvis, NO phallic imagery, no nudity. One head two arms, flail held high in one hand; other hand relaxed. Skin rich dark ebony symbolizes fertile soil min-c10. Low camera among lush LETTUCE and harvest crops (min-c07/c09), vast fertile Nile strip meets towering eastern desert cliffs (min-c04/c11), tiny ancient caravan at horizon. Strong winds lift robe edge, blazing natural desert sunrise and dust create imposing grandeur, no magical rays. Use case: stylized-concept. Original square premium painterly Mythics illustration, monumental low camera angle, powerful clear silhouette, rich tactile textures, dramatic cinematic contrast, respectful ancient sacred depiction. No text, writing, watermark, logo, border, nudity, gore, movie/game/anime copying, extra heads, extra limbs or unsupported wings.",
-  "depicted_variant": "Fully draped black-skinned Min with raised flail; explicit no-nudity adaptation.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of MIN, ancient Egyptian god with black skin representing the fertile Nile soil, guardian of eastern-desert travellers.\nANATOMY: exactly one adult human male head, two human arms, black ebony skin; his RIGHT arm is raised high gripping a huge ceremonial flail with a bronze handle and separated dark leather lashes. Fully opaque heavy ivory linen wraps cover entire torso and pelvis, no exposed genital anatomy. No crown or wings. [min-c02, min-c10]\nMOMENT: advance abruptly toward the viewer out of a steep desert pass, raise the flail overhead in commanding protection, shoulders twist forward with one clenched left hand across his completely clothed chest. Flail lashes sweep diagonally across the upper foreground from physical movement. Fixed forceful gaze looks down into the camera, not a neutral standing pose.\nPOWER: no documented elemental attack; protection conveyed by authoritative raised flail and confrontational presence only. Dust is ordinary desert wind, not emitted power. [min-c11]\nSCALE & CAMERA: extreme low viewpoint directly below the chest, close half-body composition; head, shoulders, forearm and large flail fill the entire frame, decisive foreshortening. No literal giant anatomy.\nLIGHT & WEATHER: single blazing low desert sun from behind his shoulder makes narrow amber rim light and strong deep facial shadows; ochre windblown dust.\nSURFACE: weathered dark human skin, coarse heavy linen, worn bronze handle and old leather lashes.\nSETTING: eastern Egyptian desert rocky pass, a few lettuce leaves in the lowest corner as an unobtrusive documented cult plant. [min-c04, min-c07, min-c11]\nMOOD: awe-inspiring sacred guardian; unmistakably commanding and overwhelming, never an ordinary farmer or a placid man in a field.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity, phallic imagery or explicit gore; no generic glow aura, neon outline or energy ribbons; no new supernatural powers.",
+  "depicted_variant": "Fully draped black-skinned human Min advancing with a raised right-hand flail as desert guardian.",
   "basis_claim_ids": [
     "min-c01",
     "min-c02",
     "min-c04",
     "min-c07",
-    "min-c09",
     "min-c10",
     "min-c11"
   ],
   "visual_requirements": [
-    "Raised flail — min-c02.",
-    "Black skin symbolizes fertile Nile soil — min-c10.",
-    "Opaque robe intentionally omits phallic nudity; desert and harvest setting — min-c04/c09/c11."
+    {
+      "kind": "anatomy",
+      "description": "Male human form, raised right arm holding flail, fully opaque no-nudity adaptation.",
+      "claim_ids": [
+        "min-c02"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Black skin representing fertile Nile soil.",
+      "claim_ids": [
+        "min-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Eastern desert pass and subtle lettuce cult reference.",
+      "claim_ids": [
+        "min-c04",
+        "min-c07",
+        "min-c11"
+      ]
+    }
   ],
-  "aura": "Desert wind and sunlit fertility fields, no unsupported supernatural attack.",
+  "aura": "Raised flail and imposing protective gesture rooted in min-c02/c11, natural desert sunlight only.",
   "artistic_choices": [
-    "Research includes phallic iconography; no-nudity policy requires fully opaque drapery and omission of explicit anatomy.",
-    "Face, simple crown, robe and monumental scale are editorial presentation."
+    "No elemental attack is documented; dust is environmental wind, strength comes from tight framing and movement.",
+    "Opaque linen omits documented explicit phallic iconography under no-nudity constraint.",
+    "Flail material, face, cloth, close camera and desert sunrise are editorial; no literal giant height."
   ],
   "visual_review": {
-    "notes": "Viewed native: dark-skinned man fully covered chest-to-feet by opaque linen, raised flail, two arms, no phallic anatomy; lettuce and grain foreground, desert cliffs and tiny caravan. No-nudity adaptation explicit. Strong sunrise/scale without invented powers, no text or watermark.",
     "reviewer": "codex",
     "verdict": "pass",
-    "native_sha256": "0ac5f3365464cdb2f0e5ed5f54bb0aa85b42c8928525e0d6bc0fa52ab10c7bfb",
-    "reviewed_at": "2026-10-06T07:56:27.009991+00:00"
+    "notes": "Native PNG inspected: black-skinned human man with one head two arms, raised right flail arm, left clenched hand against fully opaque linen torso. Dominant close foreshortened flail lashes, downward commanding gaze, protected eastern desert pass and environmental dust, lettuce corner. No explicit anatomy, invented elemental attack, text or watermark. Sacred guardian reads imposing at thumbnail and physical advance/raised flail supplies action. All seven Uji Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "2f00d6e4969f30e2f327ededbf00e117e14fc9381769c37139ed23e5a761cef8",
+    "reviewed_at": "2026-10-08T03:57:50.495851+00:00"
   },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-371c-7680-935d-9da18174a957/exec-0e4ead57-f654-4ed5-8286-40359732e1fa.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/min.png",
-  "native_sha256": "0ac5f3365464cdb2f0e5ed5f54bb0aa85b42c8928525e0d6bc0fa52ab10c7bfb",
-  "status": "needs-correction",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-784e-76a1-b1ae-5d5cc188cac8/exec-f4872375-f32b-4955-9a66-53fa8f1b22ed.png",
+  "original_file": "data/artwork-generated/batch-1055/originals/min.png",
+  "native_sha256": "2f00d6e4969f30e2f327ededbf00e117e14fc9381769c37139ed23e5a761cef8",
+  "status": "reviewed",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
   "review_path": "data/gemini/reviews/batch-077.review.json",
-  "reviewed_at": "2026-10-06T07:56:27.009991+00:00",
+  "reviewed_at": "2026-10-08T04:30:26.950Z",
+  "worker_agent": "lane_1055_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1055,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T03:57:50.495851+00:00",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1055/rejected/min-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1055/rejected/min-attempt-01.json",
+      "native_sha256": "0ac5f3365464cdb2f0e5ed5f54bb0aa85b42c8928525e0d6bc0fa52ab10c7bfb",
+      "reason": "Ordinary man with a flail in a field."
+    }
+  ],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "0ac5f3365464cdb2f0e5ed5f54bb0aa85b42c8928525e0d6bc0fa52ab10c7bfb",
-    "notes": "Ordinary man with a flail in a field."
-  },
-  "correction_notes": "Ordinary man with a flail in a field."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "2f00d6e4969f30e2f327ededbf00e117e14fc9381769c37139ed23e5a761cef8",
+    "notes": "Black-skinned Min raises the flail in a desert pass, wrapped in opaque linen, lettuce at the corner; dominant low-angle figure."
+  }
 }

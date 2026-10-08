@@ -1,44 +1,72 @@
 {
   "slug": "tefnut",
-  "depicted_variant": "Seated lioness-headed goddess with human female body",
+  "depicted_variant": "Lioness-headed human goddess striding toward viewer in a Nubian storm, opened jaws and reaching hand dominating frame.",
   "basis_claim_ids": [
     "tefnut-c05",
-    "tefnut-c11"
+    "tefnut-c11",
+    "tefnut-c01",
+    "tefnut-c07",
+    "tefnut-c09"
   ],
   "visual_requirements": [
-    "Natural lioness head, no mane",
-    "Human female torso arms hands legs feet",
-    "Seated divine figure, modest opaque dress"
+    {
+      "kind": "anatomy",
+      "description": "Lion-headed female goddess, human arms and opaque clothing",
+      "claim_ids": [
+        "tefnut-c05",
+        "tefnut-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Physical rain evokes moisture domain, fierce lioness aspect supplies threat",
+      "claim_ids": [
+        "tefnut-c01",
+        "tefnut-c07",
+        "tefnut-c09"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Nubian desert departure setting",
+      "claim_ids": [
+        "tefnut-c07"
+      ]
+    }
   ],
-  "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+  "aura": "Moisture and near-earth atmosphere are documented domains; show heavy physical rain and wind-swept mist in her surroundings, NOT an invented water weapon or rays. Threat comes from documented fierce lioness aspect. [tefnut-c01,c07,c09]",
   "artistic_choices": "Specific rocks, desert composition and tawny coat shade are editorial choices.",
-  "prompt": "Square premium painterly mythology encyclopedia illustration of TEFNUT, select the explicitly documented Egyptian LIONESS-HEADED WOMAN form, not an ordinary lioness. One seated regal adult goddess with the complete head of a tawny lioness (no mane), natural lioness ears and muzzle, and an entirely HUMAN female body, exactly two human arms/hands and two human legs/feet. Her torso and legs fully modestly clothed in opaque pleated linen; human hands rest on the carved stone chair arms. Seated full figure from ears to human sandaled feet within frame, frontal three-quarter view. Quiet commanding deity presence, ancient Egyptian temple courtyard with tall sandstone columns, distant river under humid morning sky; costume, simple broad gold collar and chair are declared editorial staging. Authority through composed face, regal posture and monument scale, natural soft dawn light, rich oil painting detail. No lion paws on body, lion torso, tail, wings, horns, giant solar crown, aura, glowing eyes, magic water projection, colored mist, symbols, text, watermark, border. Identity must immediately read lion-headed goddess, not zoo lion and not a woman wearing a lion mask.",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-5881-7d63-b307-87e88927511b/exec-938b2a45-408d-4b25-9dda-17e7591897c5.png",
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of TEFNUT, Egyptian moisture goddess in her documented lion-headed female form.\nANATOMY: Exactly ONE unmistakable LIONESS HEAD on ONE human female body, TWO human arms with human hands, TWO human legs, no mane, no animal forelegs or tail. Opaque heavy linen dress covering body and chest, antique gold neck collar editorial. Lion face occupies upper half of square, wet whiskers and clearly opened leonine jaws. [tefnut-c05,c11]\nMOMENT: Advance with fierce commanding stare and open lioness mouth; extend one human hand toward the viewer as she steps through dense rain and spray. Torso leans forward and wet linen trails in the motion. Divine confrontation, not an ordinary wildlife lion in rain.\nPOWER: Moisture and near-earth atmosphere are documented domains; show heavy physical rain and wind-swept mist in her surroundings, NOT an invented water weapon or rays. Threat comes from documented fierce lioness aspect. [tefnut-c01,c07,c09]\nSCALE & CAMERA: extreme low angle; extreme close upward view, the leonine head and approaching human hand fill frame; ordinary anatomical proportions, no invented giant scale.\nLIGHT & WEATHER: ONE golden oblique dusk light catches droplets and rims lion muzzle; deep walnut shadows, driving natural rain.\nSURFACE: wet lioness fur, amber eyes without glow, coarse soaked linen, rough gold collar.\nSETTING: Nubian desert crags dark under rainstorm, reflecting her desert departure story; weather is editorial atmosphere related to her moisture domain. [tefnut-c07,c01]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-1f9e2d0b-9a15-486b-b630-32d57a910302.png",
   "visual_review": {
+    "reviewer": "codex",
     "verdict": "pass",
-    "reviewer": "assess_changes",
-    "notes": "Viewed native: lioness head seamlessly on human clothed seated female body, two human hands and sandaled feet; no tail or other invented animal anatomy, natural dawn light.",
-    "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec"
+    "notes": "Native inspected: one wet lioness head on female human body with two human arms, forward hand and roaring jaws dominate frame; opaque linen and desert crags under physical rain. No ordinary quadruped lion, no invented weapon or emitted magic, no text. Collar panels are abstract ornament, not legible writing. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+    "reviewed_at": "2026-10-08T04:14:06.459585+00:00"
   },
   "worker": "root",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-077.review.json",
   "reviewed_at": "2026-10-05",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut-mythic-presence.png",
-  "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/tefnut.png",
+  "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "notes": "Inspected native: seated woman with a lioness head, no mane, human hands and sandaled feet. Seated lion-headed goddess follows the cited variant; temple and linen are editorial. No invented animal appendages.",
-    "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec",
-    "reviewed_at": "2026-10-05T15:37:43.572018+00:00"
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+    "notes": "Lioness-headed Tefnut roars and reaches toward the viewer in driving rain over Nubian crags; fierce goddess, not a lioness."
   },
   "independent_visual_review": {
+    "reviewer": "codex",
     "verdict": "pass",
-    "reviewer": "assess_changes",
-    "notes": "Viewed native: lioness head seamlessly on human clothed seated female body, two human hands and sandaled feet; no tail or other invented animal anatomy, natural dawn light.",
-    "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec"
+    "notes": "Native inspected: one wet lioness head on female human body with two human arms, forward hand and roaring jaws dominate frame; opaque linen and desert crags under physical rain. No ordinary quadruped lion, no invented weapon or emitted magic, no text. Collar panels are abstract ornament, not legible writing. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+    "reviewed_at": "2026-10-08T04:14:06.459585+00:00"
   },
   "presentation_revision_history": [
     {
@@ -83,28 +111,143 @@
         "native_sha256": "522b6c0bfe0f3403508b00a99300ea1b04c7f68f9d89f5a86dce9174b6120f12",
         "reviewed_at": "2026-10-05T13:08:38.334487+00:00"
       }
+    },
+    {
+      "slug": "tefnut",
+      "depicted_variant": "Seated lioness-headed goddess with human female body",
+      "basis_claim_ids": [
+        "tefnut-c05",
+        "tefnut-c11"
+      ],
+      "visual_requirements": [
+        "Natural lioness head, no mane",
+        "Human female torso arms hands legs feet",
+        "Seated divine figure, modest opaque dress"
+      ],
+      "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+      "artistic_choices": "Specific rocks, desert composition and tawny coat shade are editorial choices.",
+      "prompt": "Square premium painterly mythology encyclopedia illustration of TEFNUT, select the explicitly documented Egyptian LIONESS-HEADED WOMAN form, not an ordinary lioness. One seated regal adult goddess with the complete head of a tawny lioness (no mane), natural lioness ears and muzzle, and an entirely HUMAN female body, exactly two human arms/hands and two human legs/feet. Her torso and legs fully modestly clothed in opaque pleated linen; human hands rest on the carved stone chair arms. Seated full figure from ears to human sandaled feet within frame, frontal three-quarter view. Quiet commanding deity presence, ancient Egyptian temple courtyard with tall sandstone columns, distant river under humid morning sky; costume, simple broad gold collar and chair are declared editorial staging. Authority through composed face, regal posture and monument scale, natural soft dawn light, rich oil painting detail. No lion paws on body, lion torso, tail, wings, horns, giant solar crown, aura, glowing eyes, magic water projection, colored mist, symbols, text, watermark, border. Identity must immediately read lion-headed goddess, not zoo lion and not a woman wearing a lion mask.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10c88-5881-7d63-b307-87e88927511b/exec-938b2a45-408d-4b25-9dda-17e7591897c5.png",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "assess_changes",
+        "notes": "Viewed native: lioness head seamlessly on human clothed seated female body, two human hands and sandaled feet; no tail or other invented animal anatomy, natural dawn light.",
+        "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec"
+      },
+      "worker": "root",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-077.review.json",
+      "reviewed_at": "2026-10-05",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut-mythic-presence.png",
+      "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Inspected native: seated woman with a lioness head, no mane, human hands and sandaled feet. Seated lion-headed goddess follows the cited variant; temple and linen are editorial. No invented animal appendages.",
+        "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec",
+        "reviewed_at": "2026-10-05T15:37:43.572018+00:00"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "assess_changes",
+        "notes": "Viewed native: lioness head seamlessly on human clothed seated female body, two human hands and sandaled feet; no tail or other invented animal anatomy, natural dawn light.",
+        "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec"
+      },
+      "presentation_revision_history": [
+        {
+          "slug": "tefnut",
+          "depicted_variant": "Fierce lioness in Nubian desert narrative.",
+          "basis_claim_ids": [
+            "tefnut-c05",
+            "tefnut-c07"
+          ],
+          "visual_requirements": [
+            "One natural adult lioness",
+            "No mane, wings, horn or human hybrid",
+            "Nubian desert landscape"
+          ],
+          "aura": "Fierce gaze, muscular stance, low camera and dry natural light.",
+          "artistic_choices": "Specific rocks, desert composition and tawny coat shade are editorial choices.",
+          "prompt": "Create one richly detailed painterly realistic mythology artwork, portrait 2:3 without text, depicting Egyptian Tefnut in the documented tale's FIERCE LIONESS form in the Nubian desert. One adult natural lioness, full quadruped body, FOUR legs, natural tail, tawny fur, NO male mane, NO horns, NO wings, NO human face/body. Powerful alert stance on sunlit desert rock, intent fierce gaze toward viewer. Arid rocky Nubian desert in background, atmospheric distant ridges. Divine presence solely via expression, low-angle framing and natural dusty sunlight; no energy aura, floating symbols, halo, luminous mist or generic magic. Avoid inventing a solar crown or jewelry. Single coherent lioness narrative form, not mixed goddess variants.",
+          "generated_file": "/home/asadin/.codex/generated_images/01a10bb1-8e46-7c61-8c86-34349121a53c/exec-fbc3cfb1-5977-4bbe-b66b-28bb650c6118.png",
+          "visual_review": {
+            "verdict": "pass",
+            "reviewer": "root",
+            "notes": "Native inspected: fierce natural adult lioness, four legs and one tail, no mane or added anatomy, dry Nubian desert landscape and natural sunlight. Selected lioness tale form."
+          },
+          "worker": "root",
+          "tool": "OpenAI built-in image_gen",
+          "status": "reviewed",
+          "review_path": "data/gemini/reviews/batch-077.review.json",
+          "reviewed_at": "2026-10-05",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut.png",
+          "native_sha256": "522b6c0bfe0f3403508b00a99300ea1b04c7f68f9d89f5a86dce9174b6120f12",
+          "root_visual_review": {
+            "verdict": "pass",
+            "reviewer": "worker-1",
+            "notes": "Independent native/source c05/c07 inspection: one natural adult lioness with four legs and tail, no male mane or human body, fierce alert gaze. Arid Nubian-inspired rocks and natural daylight, no added horn/wings or emitted aura.",
+            "native_sha256": "522b6c0bfe0f3403508b00a99300ea1b04c7f68f9d89f5a86dce9174b6120f12",
+            "reviewed_at": "2026-10-05T13:08:38.334487+00:00"
+          },
+          "independent_visual_review": {
+            "verdict": "pass",
+            "reviewer": "worker-1",
+            "notes": "Independent native/source c05/c07 inspection: one natural adult lioness with four legs and tail, no male mane or human body, fierce alert gaze. Arid Nubian-inspired rocks and natural daylight, no added horn/wings or emitted aura.",
+            "native_sha256": "522b6c0bfe0f3403508b00a99300ea1b04c7f68f9d89f5a86dce9174b6120f12",
+            "reviewed_at": "2026-10-05T13:08:38.334487+00:00"
+          }
+        }
+      ],
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/tefnut.json",
+        "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec",
+        "old_url": "/assets/art/tefnut-verified.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut.png",
+        "old_webp_sha256": "fafd52bb410aaad4df81c61510ea29488ac8661ced56ae1b4f89eb9df65f67ff",
+        "old_native_sha256": "522b6c0bfe0f3403508b00a99300ea1b04c7f68f9d89f5a86dce9174b6120f12",
+        "rationale": "Previous image looked like an ordinary lioness; accepted research explicitly supports the more identifiable lion-headed woman deity form.",
+        "basis_claim_ids": [
+          "tefnut-c05",
+          "tefnut-c11"
+        ]
+      },
+      "url": "/assets/art/tefnut-mythic-presence.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "409325959a9cc131034758918e8cdb517e7ee2e18156dfb619bc15dd3fc4862e",
+      "revision_generator": "assess_changes",
+      "artistic_changes": [
+        "Linen dress, broad collar, sandals, sandstone throne and river courtyard are editorial staging"
+      ]
     }
   ],
   "presentation_revision": {
-    "ledger": "data/artwork-presentation-revision-1000.json",
-    "receipt_path": "data/artwork-generated/presentation-revision-1000/tefnut.json",
-    "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec",
-    "old_url": "/assets/art/tefnut-verified.webp",
-    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut.png",
-    "old_webp_sha256": "fafd52bb410aaad4df81c61510ea29488ac8661ced56ae1b4f89eb9df65f67ff",
-    "old_native_sha256": "522b6c0bfe0f3403508b00a99300ea1b04c7f68f9d89f5a86dce9174b6120f12",
-    "rationale": "Previous image looked like an ordinary lioness; accepted research explicitly supports the more identifiable lion-headed woman deity form.",
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/tefnut.json",
+    "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+    "old_url": "/assets/art/tefnut-mythic-presence.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut-mythic-presence.png",
+    "old_webp_sha256": "409325959a9cc131034758918e8cdb517e7ee2e18156dfb619bc15dd3fc4862e",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
     "basis_claim_ids": [
       "tefnut-c05",
-      "tefnut-c11"
+      "tefnut-c11",
+      "tefnut-c01",
+      "tefnut-c07",
+      "tefnut-c09"
     ]
   },
-  "url": "/assets/art/tefnut-mythic-presence.webp",
+  "url": "/assets/art/tefnut-presentation-revision-nama-besar.webp",
   "width": 1254,
   "height": 1254,
-  "sha256": "409325959a9cc131034758918e8cdb517e7ee2e18156dfb619bc15dd3fc4862e",
-  "revision_generator": "assess_changes",
+  "sha256": "851838756b612c45602c7f3e9f20b5ef13f6a075d66ade78eee0443405905477",
+  "revision_generator": "codex",
   "artistic_changes": [
-    "Linen dress, broad collar, sandals, sandstone throne and river courtyard are editorial staging"
+    "Lion-headed woman variant replaces the rejected ordinary wildlife lioness.",
+    "Rain, dress, collar and dusk are editorial; no solar disk borrowed from other goddesses.",
+    "No emitted water attack or invented giant size."
   ]
 }

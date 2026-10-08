@@ -3,6 +3,8 @@
  * Prepare missing catalogue bases for a selected artwork batch from its current accepted research.
  * Dry-run: node scripts/prepare-reviewed-artwork-records.mjs data/artwork-batch-1000.json
  * Apply:   node scripts/prepare-reviewed-artwork-records.mjs data/artwork-batch-1000.json --apply
+ *          --allow-skipped  apply the ready records even when some items are skipped (for example research that
+ *                           fell below its tier target after selection); the skipped items are still listed.
  * Existing records are retained verbatim. Unknown taxonomy is skipped, never inferred.
  */
 import { readFile, writeFile, rename } from 'node:fs/promises';
@@ -113,7 +115,8 @@ export function prepareReviewedArtworkRecords({ selection, creatures, cultures, 
 async function main() {
   const args = process.argv.slice(2);
   const apply = args.includes('--apply');
-  const paths = args.filter(arg => arg !== '--apply');
+  const allowSkipped = args.includes('--allow-skipped');
+  const paths = args.filter(arg => arg !== '--apply' && arg !== '--allow-skipped');
   if (paths.length !== 1 || paths[0].startsWith('--')) throw new Error('Usage: prepare-reviewed-artwork-records.mjs <selection.json> [--apply]');
   const read = async path => JSON.parse(await readFile(resolve(ROOT, path), 'utf8'));
   const selection = JSON.parse(await readFile(resolve(process.cwd(), paths[0]), 'utf8'));
@@ -124,7 +127,7 @@ async function main() {
     read('assets/art/verified-manifest.json'), read('data/artwork-exclusions.json'), computeFillStatus(creatures),
   ]);
   const result = prepareReviewedArtworkRecords({ selection, creatures, cultures, categories, regions, manifest, exclusions, fill });
-  if (apply && result.skipped.length) throw new Error(`Apply refused: ${JSON.stringify(result.skipped)}`);
+  if (apply && result.skipped.length && !allowSkipped) throw new Error(`Apply refused (pass --allow-skipped to apply the ready records anyway): ${JSON.stringify(result.skipped)}`);
   if (apply && result.additions.length) {
     const path = resolve(ROOT, 'data/creatures.json');
     if (await readFile(path, 'utf8') !== original) throw new Error('Catalogue changed during preparation; rerun.');

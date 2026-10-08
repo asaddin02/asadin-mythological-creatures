@@ -1,45 +1,83 @@
 {
   "slug": "janus",
-  "prompt": "JANUS BIFRONS, Roman deity of beginnings/endings/gateways: ONE fully clothed adult human BODY, TWO FACES on a SINGLE shared head looking in OPPOSITE directions, left profile bearded, right profile clean-shaven (janus-c08), not two separate bodies, no third/front face. Exactly TWO arms: one holds PORTER'S STAFF and other a SET OF KEYS (c04). Pose sideways so the double-headed/faced silhouette reads distinctly; massive Roman stone gateway rises behind, dawn light one side and twilight other as editorial time-domain symbolism c02. Tiny Roman road/city below, opaque layered toga, solemn regal guardian, no skulls, wings or magic portal beam. Use case: stylized-concept. Original square premium monumental painterly Mythics encyclopedia portrait. Extremely low viewpoint, clear strong silhouette, tiny architectural references for scale, cinematic contrast and rich detail. Respectful sacred imagery, no text, watermark, logo, border, nudity, gore, copied media, unsupported heads/limbs/effects.",
-  "depicted_variant": "Janus bifrons with one bearded and one clean-shaven opposed face, keys and porter staff.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of JANUS BIFRONS, Roman god of entrances, beginnings and ends.\nANATOMY: ONE shared human head on ONE neck and ONE opaque dark toga-clothed body, with EXACTLY TWO opposing faces: a clear full bearded profile looks LEFT and a clear full clean-shaven profile looks RIGHT. TWO noses pointing away from one another, TWO visible eyes total, TWO mouths, both clearly visible at equal size; no forward face. This is one cranial mass, not two heads or two men. Exactly TWO arms: left holds a long porter staff, right lifts a great iron key-ring. [janus-c03, janus-c04, janus-c08]\nMOMENT: Thrust the key ring close toward the viewer as he strides across the threshold; both faces scrutinize the opposite passages, staff braced forcefully on the ground. Two profiles occupy the entire upper half and remain equally large and crisp.\nPOWER: No documented emission or magical attack; authority through explicit impossible bifrons anatomy and gatekeeper attributes. [janus-c03, janus-c04]\nSCALE & CAMERA: extreme low angle, tight chest-up framing of a single sacred being; immense key ring foreshortened in the foreground; head near top edge, no small distant figure.\nLIGHT & WEATHER: one low amber torch source illuminates both opposed profiles and worn bronze; deep walnut black recesses, ordinary threshold dust raised by his stride.\nSURFACE: weathered bronze keys, heavy folded woven wool, deeply textured beard and Roman masonry.\nSETTING: a protected Roman gateway, narrow view of stone lintel and open door leaves behind. [janus-c11]\nMOOD: awe-inspiring inhuman sacred sentinel, severe and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no third face, extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Janus bifrons with both opposed faces equally visible, keys thrust forward at gateway.",
   "basis_claim_ids": [
-    "janus-c02",
     "janus-c03",
     "janus-c04",
     "janus-c08",
     "janus-c11"
   ],
   "visual_requirements": [
-    "Exactly TWO FACES looking opposite ways, one bearded one clean-shaven — janus-c08.",
-    "Single body two arms, not two whole heads.",
-    "Porter staff and keys — janus-c04; doorway domain — janus-c11."
+    {
+      "kind": "anatomy",
+      "description": "One bifrons head with two opposite visible faces, one bearded one clean-shaven.",
+      "claim_ids": [
+        "janus-c03",
+        "janus-c08"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Porter's staff and key ring.",
+      "claim_ids": [
+        "janus-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Roman protected gateway.",
+      "claim_ids": [
+        "janus-c11"
+      ]
+    }
   ],
-  "aura": "Monumental ancient doorway with dawn/dusk natural light, no physical power effect specified.",
+  "aura": "Awe from documented two-faced anatomy and gatekeeper staff/keys (janus-c03, janus-c04), no physical magic effect.",
   "artistic_choices": [
-    "Garment, ornament, colors, apparent scale and environmental staging are editorial.",
-    "Chosen variant and cited domain effects only; no invented attacks."
+    "Tight low-angle active key presentation and dark wool clothing are editorial staging.",
+    "Torch light and dust are ordinary environmental presentation, not supernatural powers.",
+    "No physical emission documented or added.",
+    "Metal leaf circlet generated as ordinary classical ornament, not a claimed power or special iconographic requirement."
   ],
   "visual_review": {
-    "notes": "Viewed native: exactly two opposed profiles on joined head mass, left bearded and right clean-shaven, single robed torso with two arms holding porter staff and keys. Monumental Roman gate with dawn/dusk natural light, no third face, additional body, wings or beams. No text or watermark.",
     "reviewer": "codex",
     "verdict": "pass",
-    "native_sha256": "f618d298ea55ceeb3cb85c104321be7b93ce9a865cc3c2095ddfbbf7529d846f",
-    "reviewed_at": "2026-10-06T09:01:18.493519+00:00"
+    "notes": "Native inspected: both opposed profiles large and visible on bifrons head, one bearded left and clean-shaven right, one robed torso with two arms. Keys extend toward viewer and staff readable. Imposing low-angle gatekeeper action, no third face, supernatural emission, text/watermark. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "2e0a90601e2480e1916cfdd07d08ef84741807ebd116a15777a924abf0da9e1a",
+    "reviewed_at": "2026-10-08T03:59:00.764363+00:00"
   },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-371c-7680-935d-9da18174a957/exec-be21979e-8508-4453-acfc-f93b7ab559e7.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/janus.png",
-  "native_sha256": "f618d298ea55ceeb3cb85c104321be7b93ce9a865cc3c2095ddfbbf7529d846f",
-  "status": "needs-correction",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-9949-75d3-9b67-7f8980960be5/exec-669797f4-5d6f-4eed-bdbc-da3df3e79e43.png",
+  "original_file": "data/artwork-generated/batch-1055/originals/janus.png",
+  "native_sha256": "2e0a90601e2480e1916cfdd07d08ef84741807ebd116a15777a924abf0da9e1a",
+  "status": "reviewed",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
   "review_path": "data/gemini/reviews/batch-046.review.json",
-  "reviewed_at": "2026-10-06T09:01:18.493519+00:00",
+  "reviewed_at": "2026-10-08T04:30:26.950Z",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1055/rejected/janus-attempt-01.png",
+      "native_sha256": "f618d298ea55ceeb3cb85c104321be7b93ce9a865cc3c2095ddfbbf7529d846f",
+      "reason": "Only one face is visible; the documented two opposed faces are missing.",
+      "receipt_file": "data/artwork-generated/batch-1055/rejected/janus-attempt-01.json"
+    }
+  ],
+  "worker_agent": "lane_1055_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1055,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T03:59:00.764363+00:00",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "f618d298ea55ceeb3cb85c104321be7b93ce9a865cc3c2095ddfbbf7529d846f",
-    "notes": "Only one face is visible; the documented two opposed faces are missing."
-  },
-  "correction_notes": "Only one face is visible; the documented two opposed faces are missing."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "2e0a90601e2480e1916cfdd07d08ef84741807ebd116a15777a924abf0da9e1a",
+    "notes": "Janus bifrons shows both opposed faces, bearded and clean-shaven, keys and staff thrust forward at the gate; exactly the documented form."
+  }
 }

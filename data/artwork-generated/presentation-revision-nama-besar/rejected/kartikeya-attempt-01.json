@@ -1,0 +1,68 @@
+{
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/kartikeya-attempt-01.png",
+  "native_sha256": "f4eb82be8c4129d23d7da91e2ddbd01e6148621512a5607deacf3230f3f77e60",
+  "prompt": "Square premium original respectful painterly Hindu mythology illustration of KARTIKEYA, ONE-HEADED variant kartikeya-c08. One noble YOUNG MAN fully clothed in modest richly layered traditional ceremonial garments, ONE head TWO arms TWO legs, holding ONE VEL SPEAR with broad leaf-shaped spearhead c07, beside ONE proud beautiful PEACOCK c06. No six-head variant mixed, no wings on deity, horns, extra arms, exposed torso or modern comic armor. Benevolent yet formidable divine army commander c09, commanding upright pose and resolute serene expression. Monumental low-angle foreground, peacock fan clearly recognizable at side, mountain hill terrace and tiny distant landscape, glorious strong natural sunlight and shadow contrasting rich blue/gold materials. No invented lightning/fire laser spear or magical envelope. Fine naturalistic painterly face hands fabrics feathers. No text script symbols logos watermark border gore nudity or game/movie/anime/comic references.",
+  "reason": "A young man standing on a hill with a peacock; a major war god needs a sense of his power and authority.",
+  "receipt_snapshot": {
+    "revision": "nama-besar",
+    "slug": "kartikeya",
+    "worker": "codex",
+    "tool": "OpenAI built-in image_gen",
+    "status": "needs-correction",
+    "generated_at": "2026-10-06T08:12:21.650Z",
+    "prompt": "Square premium original respectful painterly Hindu mythology illustration of KARTIKEYA, ONE-HEADED variant kartikeya-c08. One noble YOUNG MAN fully clothed in modest richly layered traditional ceremonial garments, ONE head TWO arms TWO legs, holding ONE VEL SPEAR with broad leaf-shaped spearhead c07, beside ONE proud beautiful PEACOCK c06. No six-head variant mixed, no wings on deity, horns, extra arms, exposed torso or modern comic armor. Benevolent yet formidable divine army commander c09, commanding upright pose and resolute serene expression. Monumental low-angle foreground, peacock fan clearly recognizable at side, mountain hill terrace and tiny distant landscape, glorious strong natural sunlight and shadow contrasting rich blue/gold materials. No invented lightning/fire laser spear or magical envelope. Fine naturalistic painterly face hands fabrics feathers. No text script symbols logos watermark border gore nudity or game/movie/anime/comic references.",
+    "depicted_variant": "One-headed young Hindu war god with vel spear and peacock.",
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "aura": "Majestic divine military authority; natural dramatic light without unsupported spear beams.",
+    "review_path": "data/gemini/reviews/batch-072.review.json",
+    "basis_claim_ids": [
+      "kartikeya-c06",
+      "kartikeya-c08",
+      "kartikeya-c07"
+    ],
+    "visual_requirements": [
+      {
+        "kind": "anatomy",
+        "description": "Young man with peacock, selecting one-head variant.",
+        "claim_ids": [
+          "kartikeya-c06",
+          "kartikeya-c08"
+        ]
+      },
+      {
+        "kind": "anatomy",
+        "description": "Vel spear associated with Parvati's gift.",
+        "claim_ids": [
+          "kartikeya-c07"
+        ]
+      }
+    ],
+    "artistic_choices": [
+      "Full ceremonial martial garments and hill landscape editorial respectful staging; ordinary two arms in one-head rendering.",
+      "Research documents military command but no emitted spear light or fire; natural illumination conveys grandeur."
+    ],
+    "old_url": "/assets/art/kartikeya-verified.webp",
+    "old_webp_sha256": "01d0b6227bffeedd5222e4064d27034f8029b8a2300255c980257ed503abf2dd",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kartikeya.png",
+    "old_native_sha256": null,
+    "historical_native_sha256": "531c5f59ccd51d20062141b0aae13d447061e274035ef83899971c308e0f3466",
+    "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/kartikeya.png",
+    "native_sha256": "f4eb82be8c4129d23d7da91e2ddbd01e6148621512a5607deacf3230f3f77e60",
+    "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-74f8329b-7792-4aca-b799-60afb274b4b9.png",
+    "visual_review": {
+      "verdict": "pass",
+      "reviewer": "codex",
+      "notes": "Native inspected: young one-headed male deity, fully covered torso and legs, two coherent arms holding single vel spear, peacock with readable head and fan; no extra arms/heads, wings or weapon beams. Respectful regal low-angle composition; no text watermark or gore.",
+      "native_sha256": "f4eb82be8c4129d23d7da91e2ddbd01e6148621512a5607deacf3230f3f77e60",
+      "reviewed_at": "2026-10-06T08:12:21.651Z"
+    },
+    "root_visual_review": {
+      "verdict": "reject",
+      "reviewer": "claude",
+      "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+      "native_sha256": "f4eb82be8c4129d23d7da91e2ddbd01e6148621512a5607deacf3230f3f77e60",
+      "notes": "A young man standing on a hill with a peacock; a major war god needs a sense of his power and authority."
+    },
+    "correction_notes": "A young man standing on a hill with a peacock; a major war god needs a sense of his power and authority."
+  }
+}

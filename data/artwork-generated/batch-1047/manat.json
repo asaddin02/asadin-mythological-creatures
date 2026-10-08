@@ -1,42 +1,34 @@
 {
   "slug": "manat",
-  "prompt": "Use case: historical-scene. ONE square premium painterly naturalistic Mythics mythology encyclopedia illustration; dramatic low camera, monumental presence, small scale references, rich materials and cinematic contrast. Respect living religions. No text, letters, hieroglyphs, cuneiform, logos, border, watermark, gore or nudity. Never copy film/game/anime/comic character designs. Add no extra attributes or anatomy beyond the explicitly specified source-backed variant. Manat represented ANICONICALLY as the presence of fate/time/destiny in a monumental empty pre-Islamic Arabian coastal sanctuary overlooking the RED SEA between Mecca and Medina. A huge plain rough uncarved stone/plinth in deep shadow is an abstract symbol of the documented idol, NOT an asserted historical shape. No humanoid woman, face, horns, animal body or invented anatomy. Long converging natural sunset shadows and intersecting sand paths symbolize fate/destiny/time; tidal shoreline and distant desert hills establish scale. No literal clock, hourglass, magic threads, fate wheel, glyphs or text. Respect historic religious context, no conflation with modern currencies.",
-  "depicted_variant": "Manat represented ANICONICALLY as the presence of fate/time/destiny in a monumental empty pre-Islamic Arabian coastal sanctuary overlooking the RED SEA between Mecca and Medina. A huge plain rough uncarved stone/plinth in deep shadow is an abstract symbol of the documented idol, NOT an asserted historical shape. No humanoid woman, face, horns, animal body or invented anatomy. Long converging natural sunset shadows and intersecting sand paths symbolize fate/destiny/time; tidal shoreline and distant desert hills establish scale. No literal clock, hourglass, magic threads, fate wheel, glyphs or text. Respect historic religious context, no conflation with modern currencies.",
+  "worker": "codex",
+  "worker_agent": "lane_1047",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "tool": "OpenAI built-in image_gen",
+  "image_model": "tidak dilaporkan alat",
+  "status": "tidak-digambar",
+  "batch": 1047,
+  "review_path": "data/gemini/reviews/batch-079.review.json",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "reason": "manat-c01/c02 identitas dewi nasib, waktu dan takdir; c03 lokasi kuil pesisir serta c05 keberadaan idolanya, tanpa bentuk tubuh/idola atau manifestasi kuasa yang terlihat. Batu saja telah ditolak, sedangkan tubuh dewi atau efek manipulasi waktu/takdir akan dikarang.",
   "basis_claim_ids": [
     "manat-c01",
     "manat-c02",
     "manat-c03",
     "manat-c05"
   ],
-  "visual_requirements": [
-    "Aniconic fate/time/destiny presence in Arabian religious context (manat-c01,manat-c02)",
-    "Red Sea coast sanctuary and abstract idol reference (manat-c03,manat-c05)"
-  ],
-  "aura": "Monumental coastal shadows and converging paths as symbolic destiny.",
+  "visual_requirements": [],
   "artistic_choices": [
-    "No body or idol shape is described; plain stone/plinth, architectural plan and converging paths are artistic symbolic choices, not reconstructed artifacts. No supernatural ability beyond documented fate domain is added.",
-    "Camera angle, palette and environmental composition are artistic rendering of accepted research, rather than source quotations."
+    "Tidak ada PNG baru: gambar lama dan receipt penolakan disimpan sebagai riwayat; tubuh atau mekanisme kuasa tidak dikarang."
   ],
-  "visual_review": {
-    "verdict": "pass",
-    "notes": "Viewed native PNG: plain uncarved stone/plinth, deserted coastal sanctuary overlooking sea, natural intersecting path/shadows at sunset. Aniconic choice avoids unsupported body or historical idol-shape assertion. Fate/time shown symbolically; no clock, magic threads, writing or supernatural attacks.",
-    "reviewer": "codex",
-    "native_sha256": "c700db413537c4e05e9aee6eb55381837e73207d08c678eb2de41261f5119ffd"
-  },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-14a78d46-40e2-4638-a7f4-cb1ba4f59100.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/manat.png",
-  "native_sha256": "c700db413537c4e05e9aee6eb55381837e73207d08c678eb2de41261f5119ffd",
-  "worker": "codex",
-  "tool": "OpenAI built-in image_gen",
-  "status": "needs-correction",
-  "review_path": "data/gemini/reviews/batch-079.review.json",
-  "reviewed_at": "2026-10-06T08:38:37.514500+00:00",
-  "root_visual_review": {
-    "verdict": "reject",
-    "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "c700db413537c4e05e9aee6eb55381837e73207d08c678eb2de41261f5119ffd",
-    "notes": "Only a standing stone; the goddess herself is absent."
-  },
-  "correction_notes": "Only a standing stone; the goddess herself is absent."
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1047/rejected/manat-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1047/rejected/manat-attempt-01.json",
+      "native_sha256": "c700db413537c4e05e9aee6eb55381837e73207d08c678eb2de41261f5119ffd",
+      "reason": "Only a standing stone; the goddess herself is absent."
+    }
+  ],
+  "evaluated_at": "2026-10-08T04:06:49.125881+00:00"
 }

@@ -2,20 +2,62 @@
   "slug": "dwarf-folklore",
   "worker": "regen-2",
   "review_path": "data/gemini/reviews/batch-115.review.json",
-  "depicted_variant": "Replace the plain pike fish variant with a documented Germanic dwarf: a short HUMAN-SHAPED supernatural mountain craftsman, clearly small relative to forge tools and cave doorway, working hammer and tongs on hot iron in an underground mountain forge with raw gold and silver seams. Adult stout human anatomy, one head, two arms, two legs, compact stature and weathered face. Beard and plain wool/leather clothes are editorial choices. Source cave-dwelling smith identity, not copyrighted fantasy dwarf costume or video-game runes. No fish anatomy retained.",
+  "depicted_variant": "Short humanlike dwarf visibly fading halfway to invisibility through the Tarnkappe; distant cave workshop visible through vanished face/body half.",
   "visual_requirements": [
-    "Documented variant or episode clearly visible",
-    "Coherent required anatomy",
-    "No generic aura"
+    {
+      "kind": "anatomy",
+      "description": "Short male human-shaped dwarf in opaque Tarnkappe",
+      "claim_ids": [
+        "dwarf-folklore-c01",
+        "dwarf-folklore-c02",
+        "dwarf-folklore-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Visible partial invisibility transition through Tarnkappe",
+      "claim_ids": [
+        "dwarf-folklore-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mountain cave and mined gold",
+      "claim_ids": [
+        "dwarf-folklore-c14"
+      ]
+    }
   ],
   "nonhuman_features": [
-    "Documented variant or episode clearly visible",
-    "Coherent required anatomy",
-    "No generic aura"
+    {
+      "kind": "anatomy",
+      "description": "Short male human-shaped dwarf in opaque Tarnkappe",
+      "claim_ids": [
+        "dwarf-folklore-c01",
+        "dwarf-folklore-c02",
+        "dwarf-folklore-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Visible partial invisibility transition through Tarnkappe",
+      "claim_ids": [
+        "dwarf-folklore-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mountain cave and mined gold",
+      "claim_ids": [
+        "dwarf-folklore-c14"
+      ]
+    }
   ],
   "basis_claim_ids": [
     "dwarf-folklore-c01",
+    "dwarf-folklore-c02",
     "dwarf-folklore-c08",
+    "dwarf-folklore-c07",
     "dwarf-folklore-c14"
   ],
   "additional_sources": [
@@ -27,7 +69,7 @@
       "supports": "Andvari is a dwarf who lives in the waterfall in pike form (í geddu líki)."
     }
   ],
-  "aura": "None; environmental sunlight/moonlight/fire only.",
+  "aura": "The documented Tarnkappe turns him invisible: show an unmistakable PARTIAL DISAPPEARANCE mid-transition, not simply a man wearing a cloak. Rock behind the vanished half remains sharp. No energy particles. [dwarf-folklore-c07]",
   "accuracy_mode": "source-supported",
   "invented_anatomy": [],
   "historical_basis": [
@@ -40,6 +82,28 @@
       "statement": {
         "id": "Kurcaci adalah makhluk gaib berwujud manusia dalam cerita rakyat Jermanik (Germanic), umumnya tinggal di gunung atau batu dan perajin mahir.",
         "en": "A dwarf is a supernatural human-shaped being in Germanic folklore, commonly living in mountains or stones and a skilled craftsman."
+      }
+    },
+    {
+      "id": "dwarf-folklore-c02",
+      "source_id": "dwarf-folklore-s1",
+      "quote": "In early literary sources, only males are explicitly referred to as dwarfs. However, they are described as having sisters and daughters, while male and female dwarfs feature in later saga literature and folklore.",
+      "locator": null,
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam sumber awal hanya lelaki yang disebut kurcaci, tetapi mereka punya saudari dan anak perempuan.",
+        "en": "In early sources only males are called dwarfs, but they have sisters and daughters."
+      }
+    },
+    {
+      "id": "dwarf-folklore-c07",
+      "source_id": "dwarf-folklore-s1",
+      "quote": "In German literature, many dwarfs can make themselves invisible, typically via a \"Tarnkappe\" (cloak of invisibility), which has been suggested to be an ancient attribute of dwarfs. Depending on the story, they may be hostile or friendly to humans.",
+      "locator": null,
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam sastra Jerman (German), banyak kurcaci menjadi tak kasatmata dengan Tarnkappe dan bisa bermusuhan atau bersahabat dengan manusia.",
+        "en": "In German literature many dwarfs turn invisible via a Tarnkappe and may be hostile or friendly to humans."
       }
     },
     {
@@ -69,23 +133,26 @@
     "Natural northern-pike olive markings and underwater lighting",
     "No human face, crown or hybrid features added"
   ],
-  "prompt": "Replace the plain pike fish variant with a documented Germanic dwarf: a short HUMAN-SHAPED supernatural mountain craftsman, clearly small relative to forge tools and cave doorway, working hammer and tongs on hot iron in an underground mountain forge with raw gold and silver seams. Adult stout human anatomy, one head, two arms, two legs, compact stature and weathered face. Beard and plain wool/leather clothes are editorial choices. Source cave-dwelling smith identity, not copyrighted fantasy dwarf costume or video-game runes. No fish anatomy retained. Separate revised illustration for a scholarly mythology catalogue. Detailed naturalistic painterly mythic scene, coherent anatomy, portrait or square composition. Identity must be visible through the cited documented variant/episode; no invented creature anatomy beyond the specified variant. No lettering, watermark, generic neon/aura/energy ribbons/magic smoke or glowing eyes. Clothing, colours and minor environmental staging are editorial choices.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/dwarf-folklore-mythic-presence.png",
+  "prompt": "ONE square original painterly cinematic Mythics illustration of a fierce short German folklore dwarf actively becoming invisible through his hooded Tarnkappe cloak [dwarf-folklore-c01,c02,c07,c08]. Original art, NO writing of any sort, NO signature, NO watermark anywhere, NO branding.\nShow the dwarf FRONT-ON close from head to knees, standing in OPEN SPACE inside a large cavern workshop. Solid left half: one fierce left eye, half human face, half coarse beard, left wool-clothed shoulder and arm lifting the hood, left leg. The right half of the face, hood, beard, torso, arm and leg DISAPPEARS into empty space, revealing the distant cavern workshop behind. A narrow softly fading edge lets the viewer understand that he is vanishing, never a wound or cut. The visible hood's fabric dissolves halfway across his forehead.\nIMPORTANT BACKGROUND: distant cave wall, wooden shelf and forge are MANY METERS behind the dwarf. One horizontal wooden shelf in that BACK wall extends uninterrupted THROUGH THE SPACE OF THE INVISIBLE RIGHT HALF OF HIS TORSO. Empty clean air around him. NO foreground stone pillar, NO rock coating his skin, NO petrification, NO object in front occluding his right half. His vanishing face and hood show the same empty air and distant background as outside the body. No glowing outlines or aura.\nThe Tarnkappe invisibility (c07) must be unmistakable even at thumbnail. The dwarf is not an intact ordinary man leaning against stone. His solid half leans forward with confrontational eye toward viewer. Body is short and human-shaped, no giant scale, horns or pointed ears. Plain dark opaque wool clothing, rough fabric and real skin/beard texture.\nLow-angle dramatic camera; left face and hand large foreground, one warm forge fire far left illuminates solid wool and beard; rich walnut shadow and antique gold accents, no pastel. Mountain cavern of miners and smiths, little mined gold in shelf [dwarf-folklore-c14].\nNo extra heads/limbs; partial invisibility only changes visibility, not anatomy. No gore, nudity, letters, symbols, rune, frame, film/game/anime/comic designs, glow, neon or particles. ABSOLUTELY NO ARTIST SIGNATURE OR WATERMARK.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/dwarf-folklore.png",
   "generated_original": "/home/asadin/.codex/generated_images/01a106cc-bd15-7e31-9419-a9ab799ac67b/exec-21faf7c2-68d3-495d-91aa-9a308e38b64a.png",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "reviewed_at": "2026-10-04T14:04:54.153Z",
   "visual_review": {
+    "reviewer": "codex",
     "verdict": "pass",
-    "reviewer": "inspect_workspace",
-    "notes": "Compact human-shaped dwarf works hammer/tongs at cave forge; coherent human anatomy, smith and mineral context."
+    "notes": "Native inspected: clearly half-visible short humanlike dwarf; lifting Tarnkappe hood, one fierce solid eye/face half, wool and leg fade into uninterrupted distant workshop shelves, empty air and floor on vanished side. No stone pillar, rock skin, wound or severing. Close confronting subject, action and unmistakable c07 invisibility solve prior ordinary-man rejection. No lettering, watermark, aura, extra anatomy or media design. Two preceding attempts self-rejected and retained.",
+    "limitations": [],
+    "native_sha256": "eee92a5613566660fc687fc92db456af04da7441ce2e1de86852e8e1b3db4d48",
+    "reviewed_at": "2026-10-08T04:17:21.678137+00:00"
   },
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "native_sha256": "23eba95fdfc34aa38b4323807cc3b33d0f3188145a932140fe02a1ef5f29f34d",
-    "notes": "Inspected native: short stout human craftsman works hammer and tongs on hot iron in an underground forge with mineral seams. Supported small later-folklore form and smith role replace a fish portrait; physical forge sparks only.",
-    "reviewed_at": "2026-10-05T18:12:41.652204+00:00"
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "eee92a5613566660fc687fc92db456af04da7441ce2e1de86852e8e1b3db4d48",
+    "notes": "The hooded dwarf lifts the Tarnkappe and his right half fades into the workshop behind him; the invisibility is unmistakable."
   },
   "presentation_revision_history": [
     {
@@ -137,26 +204,190 @@
         "notes": "Viewed source-labelled contact image: complete elongated pike with duckbill muzzle, coherent fins and forked tail, no human attributes. Category explicitly selects the named Andvari pike transformation rather than claiming universal dwarf morphology.",
         "reviewed_at": "2026-10-04T21:37:18.732809+07:00"
       }
+    },
+    {
+      "slug": "dwarf-folklore",
+      "worker": "regen-2",
+      "review_path": "data/gemini/reviews/batch-115.review.json",
+      "depicted_variant": "Replace the plain pike fish variant with a documented Germanic dwarf: a short HUMAN-SHAPED supernatural mountain craftsman, clearly small relative to forge tools and cave doorway, working hammer and tongs on hot iron in an underground mountain forge with raw gold and silver seams. Adult stout human anatomy, one head, two arms, two legs, compact stature and weathered face. Beard and plain wool/leather clothes are editorial choices. Source cave-dwelling smith identity, not copyrighted fantasy dwarf costume or video-game runes. No fish anatomy retained.",
+      "visual_requirements": [
+        "Documented variant or episode clearly visible",
+        "Coherent required anatomy",
+        "No generic aura"
+      ],
+      "nonhuman_features": [
+        "Documented variant or episode clearly visible",
+        "Coherent required anatomy",
+        "No generic aura"
+      ],
+      "basis_claim_ids": [
+        "dwarf-folklore-c01",
+        "dwarf-folklore-c08",
+        "dwarf-folklore-c14"
+      ],
+      "additional_sources": [
+        {
+          "url": "https://www.heimskringla.no/wiki/Reginsm%C3%A1l",
+          "title": "Reginsmál, Guðni Jónsson edition",
+          "publisher": "Heimskringla",
+          "type": "primary-text",
+          "supports": "Andvari is a dwarf who lives in the waterfall in pike form (í geddu líki)."
+        }
+      ],
+      "aura": "None; environmental sunlight/moonlight/fire only.",
+      "accuracy_mode": "source-supported",
+      "invented_anatomy": [],
+      "historical_basis": [
+        {
+          "id": "dwarf-folklore-c01",
+          "source_id": "dwarf-folklore-s1",
+          "quote": "is a type of supernatural human-shaped being in Germanic folklore. Accounts of dwarfs vary significantly throughout history. They are commonly, but not exclusively, presented as living in mountains or stones and being skilled craftsmen.",
+          "locator": null,
+          "context": "traditional-belief",
+          "statement": {
+            "id": "Kurcaci adalah makhluk gaib berwujud manusia dalam cerita rakyat Jermanik (Germanic), umumnya tinggal di gunung atau batu dan perajin mahir.",
+            "en": "A dwarf is a supernatural human-shaped being in Germanic folklore, commonly living in mountains or stones and a skilled craftsman."
+          }
+        },
+        {
+          "id": "dwarf-folklore-c08",
+          "source_id": "dwarf-folklore-s1",
+          "quote": "In the early Old Norse sources, dwarfs are typically described vaguely, with no reference to them being particularly small; in the legendary sagas and later folklore, however, they are often described as short.",
+          "locator": null,
+          "context": "traditional-belief",
+          "statement": {
+            "id": "Dalam sumber Old Norse awal, kurcaci tidak disebut kecil; dalam saga legenda dan cerita rakyat kemudian mereka sering digambarkan pendek.",
+            "en": "Early Old Norse sources do not call dwarfs small; legendary sagas and later folklore often describe them as short."
+          }
+        },
+        {
+          "id": "dwarf-folklore-c14",
+          "source_id": "dwarf-folklore-s2",
+          "quote": "Mereka hidup di gua-gua di daerah pegunungan atau di bawah tanah. Mereka mampu beradaptasi di lingkungan bawah tanah dan mampu melihat dengan baik di dalam kegelapan. Di sana mereka menggali barang-barang tambang seperti emas, perak, besi, dan sebagainya. Mereka juga merupakan pembuat senjata dan tukang besi yang mahir.",
+          "locator": null,
+          "context": "traditional-belief",
+          "statement": {
+            "id": "Kurcaci hidup di gua pegunungan atau bawah tanah, melihat baik dalam kegelapan, menambang emas, perak, besi, dan merupakan tukang besi yang mahir.",
+            "en": "Dwarfs live in mountain caves or underground (gua, bawah tanah), see well in darkness (kegelapan), mine gold and silver (emas, perak), and are skilled smiths (tukang besi)."
+          }
+        }
+      ],
+      "artistic_changes": [
+        "Natural northern-pike olive markings and underwater lighting",
+        "No human face, crown or hybrid features added"
+      ],
+      "prompt": "Replace the plain pike fish variant with a documented Germanic dwarf: a short HUMAN-SHAPED supernatural mountain craftsman, clearly small relative to forge tools and cave doorway, working hammer and tongs on hot iron in an underground mountain forge with raw gold and silver seams. Adult stout human anatomy, one head, two arms, two legs, compact stature and weathered face. Beard and plain wool/leather clothes are editorial choices. Source cave-dwelling smith identity, not copyrighted fantasy dwarf costume or video-game runes. No fish anatomy retained. Separate revised illustration for a scholarly mythology catalogue. Detailed naturalistic painterly mythic scene, coherent anatomy, portrait or square composition. Identity must be visible through the cited documented variant/episode; no invented creature anatomy beyond the specified variant. No lettering, watermark, generic neon/aura/energy ribbons/magic smoke or glowing eyes. Clothing, colours and minor environmental staging are editorial choices.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/dwarf-folklore-mythic-presence.png",
+      "generated_original": "/home/asadin/.codex/generated_images/01a106cc-bd15-7e31-9419-a9ab799ac67b/exec-21faf7c2-68d3-495d-91aa-9a308e38b64a.png",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "reviewed_at": "2026-10-04T14:04:54.153Z",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "inspect_workspace",
+        "notes": "Compact human-shaped dwarf works hammer/tongs at cave forge; coherent human anatomy, smith and mineral context."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "23eba95fdfc34aa38b4323807cc3b33d0f3188145a932140fe02a1ef5f29f34d",
+        "notes": "Inspected native: short stout human craftsman works hammer and tongs on hot iron in an underground forge with mineral seams. Supported small later-folklore form and smith role replace a fish portrait; physical forge sparks only.",
+        "reviewed_at": "2026-10-05T18:12:41.652204+00:00"
+      },
+      "presentation_revision_history": [
+        {
+          "slug": "dwarf-folklore",
+          "worker": "regen-2",
+          "review_path": "data/gemini/reviews/batch-115.review.json",
+          "depicted_variant": "Andvari, named dwarf example, in source-attested pike transformation",
+          "visual_requirements": [
+            "One recognizably natural pike fish with long body and broad duckbill snout",
+            "Fish fins and forked tail, zero human limbs",
+            "Waterfall freshwater underwater setting",
+            "Wary mysterious cursed-dwarf transformation aura"
+          ],
+          "nonhuman_features": [
+            "Wholly piscine pike form of named dwarf Andvari"
+          ],
+          "basis_claim_ids": [
+            "dwarf-folklore-c20"
+          ],
+          "additional_sources": [
+            {
+              "url": "https://www.heimskringla.no/wiki/Reginsm%C3%A1l",
+              "title": "Reginsmál, Guðni Jónsson edition",
+              "publisher": "Heimskringla",
+              "type": "primary-text",
+              "supports": "Andvari is a dwarf who lives in the waterfall in pike form (í geddu líki)."
+            }
+          ],
+          "aura": "Wary secretive supernatural freshwater dweller under ancient curse",
+          "accuracy_mode": "source-supported",
+          "invented_anatomy": [],
+          "historical_basis": "Category research explicitly names Andvari pike transformation. Reginsmál primary text independently describes same named dwarf in pike form, so this is one named category example rather than universal dwarf anatomy.",
+          "artistic_changes": [
+            "Natural northern-pike olive markings and underwater lighting",
+            "No human face, crown or hybrid features added"
+          ],
+          "prompt": "Square premium refined painterly mythology encyclopedia illustration for DWARF FOLKLORE category showing ONLY the specific named dwarf ANDVARI in his source-attested PIKE FISH transformation from Reginsmál. One natural northern pike fully underwater below an ancient Icelandic waterfall, entire fish in readable broadside three-quarter view, single elongated olive-green spotted body, one flat duckbill pike snout/head, natural small pike eyes, small pectoral/pelvic fins and dorsal/anal fins near rear, one forked fish tail. Tail and all essential silhouette visible unclipped. No dwarf man, human face or beard, no human limbs, no pike-human hybrid. Wary alert solitary predatory fish, reserved ominous ancient curse aura rather than a cute aquarium fish, dark rock crevice and cool cascading-water shaft behind. Clear freshwater with gold-silver light on natural scales, refined forest olive-green, walnut rock and deep green-blue shadows, textured museum book painterly realism. No treasure props, crowns, magic ring, decorations or novel anatomy; the fish form itself is the transformation. One fish only, no people, text, diagrams, border or watermark. Explicit selected category example Andvari, not general claim that all dwarfs are fish.",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/dwarf-folklore.png",
+          "generated_original": "/home/asadin/.codex/generated_images/01a106cc-bd15-7e31-9419-a9ab799ac67b/exec-21faf7c2-68d3-495d-91aa-9a308e38b64a.png",
+          "tool": "OpenAI built-in image_gen",
+          "status": "reviewed",
+          "reviewed_at": "2026-10-04T14:04:54.153Z",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Individually viewed full image: a single natural northern pike with elongated olive spotted fish body, duckbill snout, one head, pectoral/pelvic fins, rear dorsal and anal fin, and one forked tail. Entire snout-to-tail silhouette stays inside frame; no humanoid features or limbs. Waterfall/rock freshwater habitat and wary predatory posture preserve mysterious cursed-dwarf animal-transformation aura. Category contains explicit named example Andvari (c20); primary Reginsmál validates that example. No implication all dwarfs share fish form, no text or watermark."
+          },
+          "root_visual_review": {
+            "verdict": "pass",
+            "notes": "Viewed source-labelled contact image: complete elongated pike with duckbill muzzle, coherent fins and forked tail, no human attributes. Category explicitly selects the named Andvari pike transformation rather than claiming universal dwarf morphology.",
+            "reviewed_at": "2026-10-04T21:37:18.732809+07:00"
+          }
+        }
+      ],
+      "native_sha256": "23eba95fdfc34aa38b4323807cc3b33d0f3188145a932140fe02a1ef5f29f34d",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/dwarf-folklore.json",
+        "native_sha256": "23eba95fdfc34aa38b4323807cc3b33d0f3188145a932140fe02a1ef5f29f34d",
+        "old_url": "/assets/art/dwarf-folklore-regeneration-139.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/dwarf-folklore.png",
+        "old_webp_sha256": "46c6df6ff23b3900a27a0419761e29e46f09f04c7b8a7cb9f9dc6db2517ef2b9",
+        "old_native_sha256": "ca1991ccddd8f89cb141c6d3c8410589d566dd920c89b3db0c2b6bebc21ee2f9",
+        "rationale": "Replaces passive ordinary animal presentation with the stronger explicitly documented variant/episode recorded in assigned research.",
+        "basis_claim_ids": [
+          "dwarf-folklore-c01",
+          "dwarf-folklore-c08",
+          "dwarf-folklore-c14"
+        ]
+      },
+      "url": "/assets/art/dwarf-folklore-regeneration-139-mythic-presence.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "834847d60ee7eaa5e3d28cc3c9e679b85d17bf06e402336a77bcbed853209120"
     }
   ],
-  "native_sha256": "23eba95fdfc34aa38b4323807cc3b33d0f3188145a932140fe02a1ef5f29f34d",
+  "native_sha256": "eee92a5613566660fc687fc92db456af04da7441ce2e1de86852e8e1b3db4d48",
   "presentation_revision": {
-    "ledger": "data/artwork-presentation-revision-1000.json",
-    "receipt_path": "data/artwork-generated/presentation-revision-1000/dwarf-folklore.json",
-    "native_sha256": "23eba95fdfc34aa38b4323807cc3b33d0f3188145a932140fe02a1ef5f29f34d",
-    "old_url": "/assets/art/dwarf-folklore-regeneration-139.webp",
-    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/dwarf-folklore.png",
-    "old_webp_sha256": "46c6df6ff23b3900a27a0419761e29e46f09f04c7b8a7cb9f9dc6db2517ef2b9",
-    "old_native_sha256": "ca1991ccddd8f89cb141c6d3c8410589d566dd920c89b3db0c2b6bebc21ee2f9",
-    "rationale": "Replaces passive ordinary animal presentation with the stronger explicitly documented variant/episode recorded in assigned research.",
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/dwarf-folklore.json",
+    "native_sha256": "eee92a5613566660fc687fc92db456af04da7441ce2e1de86852e8e1b3db4d48",
+    "old_url": "/assets/art/dwarf-folklore-regeneration-139-mythic-presence.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/dwarf-folklore-mythic-presence.png",
+    "old_webp_sha256": "834847d60ee7eaa5e3d28cc3c9e679b85d17bf06e402336a77bcbed853209120",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
     "basis_claim_ids": [
       "dwarf-folklore-c01",
+      "dwarf-folklore-c02",
       "dwarf-folklore-c08",
+      "dwarf-folklore-c07",
       "dwarf-folklore-c14"
     ]
   },
-  "url": "/assets/art/dwarf-folklore-regeneration-139-mythic-presence.webp",
+  "url": "/assets/art/dwarf-folklore-presentation-revision-nama-besar.webp",
   "width": 1254,
   "height": 1254,
-  "sha256": "834847d60ee7eaa5e3d28cc3c9e679b85d17bf06e402336a77bcbed853209120"
+  "sha256": "81fbb57d63d2def4694d98f46fea6952e25f27135c1133343b7f195788c076e5"
 }

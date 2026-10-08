@@ -1,7 +1,7 @@
 {
   "slug": "anuket",
-  "prompt": "ANUKET, Egyptian goddess of Nile cataracts and Lower Nubia (anuket-c01): ONE regal adult HUMAN woman fully clothed in blue-white opaque linen robes, one head two arms, no animal parts or special crown because accepted research provides no bodily iconography. Majestic composed stance atop a rocky ASWAN cataract ledge, massive whitewater rapids sweep around below, fertile papyrus islands and tiny Elephantine temple distant (c02/c06/c07). Water spray, sunlit mist and huge river scale visibly express documented swift-water and flood domain, silver-blue and gold light, no magic beams or command gesture causing unsupported water streams from hands. Use case: stylized-concept. Original square premium monumental painterly Mythics encyclopedia image. Low viewpoint, powerful clear silhouette, rich tactile textures, cinematic high contrast. Respectful sacred portrayal, no text, watermark, logo, border, nudity, gore, copied films/games/anime, extra heads or limbs.",
-  "depicted_variant": "Editorial human Nile cataract goddess amid swift fertile waters.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of ANUKET, Egyptian protective goddess of the Nile flood and cataracts, the Embracer.\nANATOMY: one adult female goddess in human form with exactly one head and two human arms, arms clearly outstretched to either side echoing the two branches of the Nile, documented pose. Fully opaque weighted deep blue and ivory linen robe covering torso and legs. No invented animal head, wings, feather crown or extra limbs. [anuket-c06]\nMOMENT: emerge directly toward the viewer from the foreground cataract ledge, spreading both arms wide in the documented embracing pose. Strong forward momentum in the heavy wet fabric; one palm is dramatically foreshortened close to camera. Eyes gaze down with unwavering protective authority.\nPOWER: swift Nile floodwater physically surges around the rocky ledge in two turbulent channels beneath her open arms. Thick foaming water and windblown spray fill the lower frame; papyrus plants bend in the current. The waters are domain imagery, not streams emitted from her hands. [anuket-c06, anuket-c07]\nSCALE & CAMERA: extreme low angle at water level, half-body close framing; face, broad arms and saturated robe dominate square, water nearly strikes viewer. Sacred grandeur through framing, no invented literal giant height.\nLIGHT & WEATHER: one low setting sun filtered through real water spray, antique gold rim on face and cloth against dark teal cataract shadows.\nSURFACE: heavy wet textured linen, rough granite, distinct white foam and droplets, papyrus stalks.\nSETTING: the rocky Nile First Cataract at Elephantine/Aswan, seen immediately around her rather than a wide landscape. [anuket-c01, anuket-c02, anuket-c11]\nMOOD: awe-inspiring protective divinity; majestic and overwhelming, never ordinary, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity or explicit gore; no generic glow aura, neon outlines or energy ribbons; no magical water emitted by hands.",
+  "depicted_variant": "Anuket in the attested outstretched-arm embracing pose confronting the viewer amid the Nile flood.",
   "basis_claim_ids": [
     "anuket-c01",
     "anuket-c02",
@@ -10,36 +10,77 @@
     "anuket-c11"
   ],
   "visual_requirements": [
-    "Cataract and swift water effects — anuket-c01/c07.",
-    "Nile flood and papyrus landscape — anuket-c06/c07.",
-    "Conservative human rendering, no undocumented feather crown or animal anatomy."
+    {
+      "kind": "anatomy",
+      "description": "Female goddess with two outstretched human arms following the exact c06 quote; fully opaque linen editorial clothing.",
+      "claim_ids": [
+        "anuket-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Swift physical floodwater in two channels echoing the arms, and current-bent papyrus; no emitted hand jets.",
+      "claim_ids": [
+        "anuket-c06",
+        "anuket-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rocky Nile First Cataract at Elephantine/Aswan.",
+      "claim_ids": [
+        "anuket-c01",
+        "anuket-c02",
+        "anuket-c11"
+      ]
+    }
   ],
-  "aura": "Enormous swift cataract water and inundation grounded in domain.",
+  "aura": "Overwhelming swift Nile flood surrounds the documented embracing arms (anuket-c06/c07), natural sunlight through spray only.",
   "artistic_choices": [
-    "Fabric, color palette, apparent scale and natural cinematic light are editorial presentation.",
-    "Conservative human appearance selected where research does not define detailed anatomy."
+    "Human embodiment follows c06 exact quote about posed outstretched arms; no imported crown, animal anatomy or emblems.",
+    "Water channels echo the documented Nile-tributary interpretation; water is domain staging, not a new attack.",
+    "Apparent monumentality is extreme close framing, not literal height; robe, color, facial features and low sunlight are editorial.",
+    "Gold headband, collar, earrings and bracelets visible in generated PNG are editorial decorative clothing, not claimed sacred iconography."
   ],
   "visual_review": {
-    "notes": "Viewed native: fully robed human woman with one head and two arms on rock, huge foaming cataracts, papyrus-like islands, distant temple and natural gold light. No unclaimed wings, crown anatomy, emitted water beams, text or watermark; monumental river-domain setting.",
     "reviewer": "codex",
     "verdict": "pass",
-    "native_sha256": "faed241a57057625949ca4548de3fdce506c4ebf468d768124473dd8124e2e04",
-    "reviewed_at": "2026-10-06T08:04:36.887248+00:00"
+    "notes": "Native PNG inspected: female goddess dominates in documented two-arm embracing pose, one hand foreshortened toward viewer, one head, opaque blue/ivory robe. Torrent surges around rocky cataract and papyrus, no jets emitted from hands. Close water-level angle and protective gaze remain imposing at thumbnail; advancing drapery and flood supply action. Gold headband, collar and bracelets are decorative editorial costume, no specific unclaimed emblem. No extra limbs, lettering, aura or watermark. All seven Uji Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "624974df38b69573724620746ef80fae2ae06aa4bfba4fc2c44495c85ae1b3f0",
+    "reviewed_at": "2026-10-08T04:01:27.120593+00:00"
   },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-371c-7680-935d-9da18174a957/exec-9fc71fc8-dad9-4207-92e4-cce483f9ebd3.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/anuket.png",
-  "native_sha256": "faed241a57057625949ca4548de3fdce506c4ebf468d768124473dd8124e2e04",
-  "status": "needs-correction",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-784e-76a1-b1ae-5d5cc188cac8/exec-c9ad63f1-b0c4-404f-b150-edcae1e871b5.png",
+  "original_file": "data/artwork-generated/batch-1055/originals/anuket.png",
+  "native_sha256": "624974df38b69573724620746ef80fae2ae06aa4bfba4fc2c44495c85ae1b3f0",
+  "status": "reviewed",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
   "review_path": "data/gemini/reviews/batch-077.review.json",
-  "reviewed_at": "2026-10-06T08:04:36.887248+00:00",
+  "reviewed_at": "2026-10-08T04:30:26.950Z",
+  "worker_agent": "lane_1055_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1055,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T04:01:27.120593+00:00",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1055/rejected/anuket-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1055/rejected/anuket-attempt-01.json",
+      "native_sha256": "faed241a57057625949ca4548de3fdce506c4ebf468d768124473dd8124e2e04",
+      "reason": "Ordinary woman by the cataract."
+    }
+  ],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "faed241a57057625949ca4548de3fdce506c4ebf468d768124473dd8124e2e04",
-    "notes": "Ordinary woman by the cataract."
-  },
-  "correction_notes": "Ordinary woman by the cataract."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "624974df38b69573724620746ef80fae2ae06aa4bfba4fc2c44495c85ae1b3f0",
+    "notes": "Anuket in the outstretched-arms pose rises from the surging cataract flood at water level; the torrent and scale read as divine."
+  }
 }

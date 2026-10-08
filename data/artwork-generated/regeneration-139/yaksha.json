@@ -3,19 +3,40 @@
   "worker": "regen-1",
   "status": "reviewed",
   "tool": "OpenAI built-in image_gen",
-  "prompt": "Use case: scientific-educational. Asset type: ONE square refined painterly mythology encyclopedia illustration for Mythics. Subject: YAKSHA represented by the specifically attested Buddhist Jataka #55 forest-yakkha SILESALOMA / Sticky-Hair, from Chalmers translation. One tall monstrous hairy forest ogre with a disproportionately broad large head, two enormous bowl-like eyes, ONE hooked HAWK BEAK at the center of the face, and exactly TWO thick ivory tusks flanking the beak/mouth. Dense coarse dark shaggy bodily coat covers chest, shoulders, arms and legs; a small bare belly patch has mottled purple blotches. Exactly two arms with two hands, two legs with two feet; palms and soles blue-black. Show open hands partly forward to read dark palms. Simple opaque brown waist wrap for modesty. Fully uncropped head-to-feet silhouette, entire tusks and beak visible, all fingers countable, comfortable margin. Deep ancient Indian forest with palms and mossy rocks establishes tall stature without adding humans. Formidable territorial predatory forest spirit in a poised watchful stance, not attacking. Premium detailed painterly folklore-book illustration, dark forest greens and walnut hair, restrained copper twilight, preserve blue-black palms and purple belly details. No horns, wings, extra heads or limbs, axe, held weapons, costumes from Thai Ramakien, victim, blood, text, watermark or border. One explicitly named yaksha subtype, not generic mixed demon imagery.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/yaksha.png",
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of YAKSHA, a Buddhist guardian nature spirit in its documented ugly OGRE form.\nANATOMY: ONE living male ogre-form guardian with ONE head, TWO eyes, TWO human-shaped arms, TWO legs. Rough heavily furrowed ugly broad face, thick brow, broad nose and square jaw; no added horns, tusks, third eye, wings or extra limbs. Opaque coarse earth-brown tunic and deep red wrap over covered torso. [yaksha-c05]\nMOMENT: Rise forward from the dark wooded entrance guarding hidden treasure, thrust one open palm toward the viewer to forbid intrusion, face staring downward with fierce protective authority. Cloth and nearby leaves shift through direct movement.\nPOWER: Protective guardian presence from documented attendants of Vaisravana and guardians of hidden treasure; no invented force-beam, tree animation or magical strength. [yaksha-c05,c06]\nSCALE & CAMERA: extreme low angle; extreme low, tight waist-up framing; ugly ogre face fills upper half and foreshortened blocking palm fills foreground, no tiny-human giant-size props.\nLIGHT & WEATHER: ONE angled warm sunset shaft rims face and hand through branches; deep walnut forest shadows and natural dust, no glowing eyes.\nSURFACE: rough furrowed skin, coarse woven cloth, weathered mountain roots and a partly visible simple dull-gold treasure vessel.\nSETTING: wooded Himalayan mountain treasure shelter, a keeper in forest/mountain setting rather than a man relaxed on roots. [yaksha-c01,c06]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/yaksha.png",
   "workspace_original": "data/artwork-generated/regeneration-139/originals/yaksha.png",
   "review_path": "data/gemini/reviews/batch-072.review.json",
-  "depicted_variant": "Silesaloma / Sticky-Hair forest-yakkha in Pañcāvudha Jataka #55",
+  "depicted_variant": "Ugly ogre-form beneficent yaksha blocking access to a forest mountain treasure shelter.",
   "visual_requirements": [
-    "One hawk beak and exactly two thick tusks",
-    "Disproportionately large head and bowl-like eyes",
-    "Shaggy coat, purple-mottled belly and blue-black palms"
+    {
+      "kind": "anatomy",
+      "description": "Ugly ogre form from Buddhist stories, ordinary coherent limbs",
+      "claim_ids": [
+        "yaksha-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Fierce but beneficent treasure guard; no emitted attack",
+      "claim_ids": [
+        "yaksha-c05",
+        "yaksha-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Nature spirit forest and Himalayan treasure context",
+      "claim_ids": [
+        "yaksha-c01",
+        "yaksha-c06"
+      ]
+    }
   ],
   "basis_claim_ids": [
-    "yaksha-c03",
-    "yaksha-c05"
+    "yaksha-c05",
+    "yaksha-c06",
+    "yaksha-c01"
   ],
   "additional_sources": [
     {
@@ -25,24 +46,154 @@
       "purpose": "Primary translated tale explicitly identifies this as a yakkha and describes broad head, bowl eyes, two tusks, hawk beak, purple-blotched belly, blue-black hands/feet and shaggy sticky coat."
     }
   ],
-  "aura": "Formidable territorial forest-ogre before reformation",
+  "aura": "Protective guardian presence from documented attendants of Vaisravana and guardians of hidden treasure; no invented force-beam, tree animation or magical strength. [yaksha-c05,c06]",
   "visual_review": {
+    "reviewer": "codex",
     "verdict": "pass",
-    "notes": "Individually inspected full output. Single clearly hooked bird beak centered between exactly two ivory tusks; two bowl-like eyes on broad head. Hairy body with purple mottled belly, two arms/hands, five visible digits per hand, two feet. Both open palms dark blue-black; upper feet dark with soles planted and not asserted visible. Opaque waistcloth, full figure and all primary identifying anatomy in frame. No horns, wings, axe, attacking victim, blood or text."
+    "notes": "Native inspected: one ugly ogre-form guardian, rough exaggerated broad brow/nose/jaw, two ordinary eyes, no horns/tusks/wings/third eye; coherent five-finger blocking palm and second hand, fully covered torso with coarse tunic/red wrap. Forward warning action, fierce downward gaze and close low camera feel formidable at thumbnail; hidden treasure vessel/chest and wooded rock shelter contextualize c05/c06. No emitted power, aura, readable text, signature, frame or gore. Answers former relaxed ordinary-man-on-roots rejection.",
+    "limitations": [],
+    "native_sha256": "07a312006a81e3a0d5575074850d5498291a61a98071d07ff83ad666c74c3ec6",
+    "reviewed_at": "2026-10-08T04:19:58.797681+00:00"
   },
   "nonhuman_features": [
-    "One hawk beak and exactly two thick tusks",
-    "Disproportionately large head and bowl-like eyes",
-    "Shaggy coat, purple-mottled belly and blue-black palms"
+    {
+      "kind": "anatomy",
+      "description": "Ugly ogre form from Buddhist stories, ordinary coherent limbs",
+      "claim_ids": [
+        "yaksha-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Fierce but beneficent treasure guard; no emitted attack",
+      "claim_ids": [
+        "yaksha-c05",
+        "yaksha-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Nature spirit forest and Himalayan treasure context",
+      "claim_ids": [
+        "yaksha-c01",
+        "yaksha-c06"
+      ]
+    }
   ],
   "accuracy_mode": "source-supported",
   "invented_anatomy": [],
-  "historical_basis": "Pañcāvudha Jataka #55 primary translation names Silesaloma a forest yakkha and gives specific nonhuman anatomy. This is one attested Buddhist yaksha subtype rather than a conflated Thai Ramakien guardian.",
+  "historical_basis": [
+    {
+      "id": "yaksha-c01",
+      "source_id": "yaksha-s1",
+      "quote": "are a broad class of nature spirits in Hindu mythology which are associated with water, trees, forests, wilderness, treasure, and fertility.",
+      "locator": "Article text, paragraph 1",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Yaksha merupakan kelompok roh alam dalam mitologi Hindu yang berkaitan dengan air, pepohonan, hutan, harta, dan kesuburan.",
+        "en": "Yakshas are a class of nature spirits in Hindu mythology associated with water, trees, forests, treasure, and fertility."
+      }
+    },
+    {
+      "id": "yaksha-c05",
+      "source_id": "yaksha-s1",
+      "quote": "In Buddhist literature, the yakṣa are the attendants of Vaiśravaṇa, the guardian of the northern quarter, a beneficent god who protects the righteous. The term also refers to the Twelve Heavenly Generals who guard Bhaiṣajyaguru, the Medicine Buddha. The yakshas of many Buddhist stories are ugly ogres, reborn in that form because of sins committed during their past lives as humans.",
+      "locator": "Article text, paragraph 7",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam literatur Buddhis, yaksha menjadi pengiring Vaisravana, penjaga arah utara.",
+        "en": "In Buddhist literature yakshas attend Vaisravana, guardian of the northern quarter."
+      }
+    },
+    {
+      "id": "yaksha-c06",
+      "source_id": "yaksha-s2",
+      "quote": "They are guardians of hidden\r\ntreasure, like the dwarfs and giants of Teutonic legend,\r\nbeing associated with Kuvera, god of wealth, whose abode\r\nis situated among the Himalayan mountains.",
+      "locator": "Article text, paragraph 468",
+      "context": "historical-record",
+      "statement": {
+        "id": "Mackenzie menyebut yaksha sebagai penjaga harta tersembunyi yang berkaitan dengan Kuvera.",
+        "en": "Mackenzie calls yakshas guardians of hidden treasure associated with Kuvera."
+      }
+    }
+  ],
   "artistic_changes": "Stationary pose, forest lighting and modest waistcloth are interpretive; sole color follows prompt but soles are hidden by grounded stance.",
   "reviewed_at": "2026-10-04T16:22:51.774Z",
   "root_visual_review": {
     "verdict": "pass",
-    "notes": "Individually viewed original. One hawk-beaked head with two tusks and bowl-like eyes, shaggy body, purple belly and dark palms. Two arms/two legs, five digits each visible hand, full figure. Strong wild guardian/ogre aura fits individually named Sticky-Hair Yakkha example.",
-    "reviewed_at": "2026-10-04T16:58:31.541238+00:00"
-  }
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "07a312006a81e3a0d5575074850d5498291a61a98071d07ff83ad666c74c3ec6",
+    "notes": "An ugly ogre-form yaksha blocks the treasure cave with a huge palm, gold vessels behind; fierce guardian from a low angle."
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "yaksha",
+      "worker": "regen-1",
+      "status": "reviewed",
+      "tool": "OpenAI built-in image_gen",
+      "prompt": "Use case: scientific-educational. Asset type: ONE square refined painterly mythology encyclopedia illustration for Mythics. Subject: YAKSHA represented by the specifically attested Buddhist Jataka #55 forest-yakkha SILESALOMA / Sticky-Hair, from Chalmers translation. One tall monstrous hairy forest ogre with a disproportionately broad large head, two enormous bowl-like eyes, ONE hooked HAWK BEAK at the center of the face, and exactly TWO thick ivory tusks flanking the beak/mouth. Dense coarse dark shaggy bodily coat covers chest, shoulders, arms and legs; a small bare belly patch has mottled purple blotches. Exactly two arms with two hands, two legs with two feet; palms and soles blue-black. Show open hands partly forward to read dark palms. Simple opaque brown waist wrap for modesty. Fully uncropped head-to-feet silhouette, entire tusks and beak visible, all fingers countable, comfortable margin. Deep ancient Indian forest with palms and mossy rocks establishes tall stature without adding humans. Formidable territorial predatory forest spirit in a poised watchful stance, not attacking. Premium detailed painterly folklore-book illustration, dark forest greens and walnut hair, restrained copper twilight, preserve blue-black palms and purple belly details. No horns, wings, extra heads or limbs, axe, held weapons, costumes from Thai Ramakien, victim, blood, text, watermark or border. One explicitly named yaksha subtype, not generic mixed demon imagery.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/yaksha.png",
+      "workspace_original": "data/artwork-generated/regeneration-139/originals/yaksha.png",
+      "review_path": "data/gemini/reviews/batch-072.review.json",
+      "depicted_variant": "Silesaloma / Sticky-Hair forest-yakkha in Pañcāvudha Jataka #55",
+      "visual_requirements": [
+        "One hawk beak and exactly two thick tusks",
+        "Disproportionately large head and bowl-like eyes",
+        "Shaggy coat, purple-mottled belly and blue-black palms"
+      ],
+      "basis_claim_ids": [
+        "yaksha-c03",
+        "yaksha-c05"
+      ],
+      "additional_sources": [
+        {
+          "url": "https://ancient-buddhist-texts.net/English-Texts/Jataka/055.htm",
+          "title": "Jataka 55: Pañcāvudha, translated by Robert Chalmers",
+          "locator": "Meeting the forest Yakkha Silesaloma",
+          "purpose": "Primary translated tale explicitly identifies this as a yakkha and describes broad head, bowl eyes, two tusks, hawk beak, purple-blotched belly, blue-black hands/feet and shaggy sticky coat."
+        }
+      ],
+      "aura": "Formidable territorial forest-ogre before reformation",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Individually inspected full output. Single clearly hooked bird beak centered between exactly two ivory tusks; two bowl-like eyes on broad head. Hairy body with purple mottled belly, two arms/hands, five visible digits per hand, two feet. Both open palms dark blue-black; upper feet dark with soles planted and not asserted visible. Opaque waistcloth, full figure and all primary identifying anatomy in frame. No horns, wings, axe, attacking victim, blood or text."
+      },
+      "nonhuman_features": [
+        "One hawk beak and exactly two thick tusks",
+        "Disproportionately large head and bowl-like eyes",
+        "Shaggy coat, purple-mottled belly and blue-black palms"
+      ],
+      "accuracy_mode": "source-supported",
+      "invented_anatomy": [],
+      "historical_basis": "Pañcāvudha Jataka #55 primary translation names Silesaloma a forest yakkha and gives specific nonhuman anatomy. This is one attested Buddhist yaksha subtype rather than a conflated Thai Ramakien guardian.",
+      "artistic_changes": "Stationary pose, forest lighting and modest waistcloth are interpretive; sole color follows prompt but soles are hidden by grounded stance.",
+      "reviewed_at": "2026-10-04T16:22:51.774Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Individually viewed original. One hawk-beaked head with two tusks and bowl-like eyes, shaggy body, purple belly and dark palms. Two arms/two legs, five digits each visible hand, full figure. Strong wild guardian/ogre aura fits individually named Sticky-Hair Yakkha example.",
+        "reviewed_at": "2026-10-04T16:58:31.541238+00:00"
+      }
+    }
+  ],
+  "native_sha256": "07a312006a81e3a0d5575074850d5498291a61a98071d07ff83ad666c74c3ec6",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/yaksha.json",
+    "native_sha256": "07a312006a81e3a0d5575074850d5498291a61a98071d07ff83ad666c74c3ec6",
+    "old_url": "/assets/art/yaksha-regeneration-139.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/yaksha.png",
+    "old_webp_sha256": "ed78f5e9c572752772c4615d69097159064a2d7ab7f088652a4ee828a7e42adf",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "yaksha-c05",
+      "yaksha-c06",
+      "yaksha-c01"
+    ]
+  },
+  "url": "/assets/art/yaksha-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "2e04d649044dcb4db355e21cb568db7e0f985057628a415af1929b3398c712f8"
 }

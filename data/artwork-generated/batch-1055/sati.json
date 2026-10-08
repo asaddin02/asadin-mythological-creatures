@@ -1,43 +1,77 @@
 {
   "slug": "sati",
-  "prompt": "SATI, Hindu goddess of marital felicity and longevity, Shakti aspect (sati-c01). ONE majestic adult human woman with normal one-head TWO-arm anatomy, fully opaque crimson and ivory sari, modest gold jewelry, simple cloth veil. She stands serenely on monumental ancient stone temple steps, tiny distant sacred valley beneath, calm devoted dignified gaze and hands composed before her. Powerful sacred authority through low viewpoint, sunlight on rich cloth and towering natural mountain sky, no fire surrounding body, no self-harm scene, no flames emitted, no weapon, no wings or invented multi-arm iconography. Respectful living faith. Use case: stylized-concept. Original square premium monumental painterly Mythics encyclopedia portrait. Extremely low viewpoint, tiny architecture creates vast apparent divine scale, clear silhouette, rich detail, cinematic light/contrast. Respectful sacred depiction, no text, watermark, logo, border, gore, nudity, film/game/anime copying, unsupported body parts.",
-  "depicted_variant": "Respectful living Sati portrait as marital-felicity Shakti aspect; no self-immolation scene.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of SATI, the Hindu goddess of marital felicity and longevity, a sacred aspect of Shakti and the ideal of a virtuous Hindu woman.\nANATOMY: one adult human woman, exactly one head, two human arms, two hands; completely opaque layered crimson and ivory sari covering torso and legs, simple gold jewelry and cloth veil, no extra arms or fantasy anatomy. [sati-c06]\nMOMENT: turn sharply toward the viewer in solemn, unshakable dignity at the sacrificial rite where her husband Shiva was slighted. One palm rises close to the camera as a solemn vow, the other holds the edge of her heavy veil; crimson fabric sweeps diagonally in the wind. Her piercing resolute eyes look down toward the viewer. Capture the dignified moment before the tragic act, with her body completely unharmed. [sati-c03, sati-c06]\nPOWER: no visible supernatural attack is documented. Real ordinary sacrificial fire lights the scene from a brazier behind and below her, never burning or surrounding her body, never emitted from her hands. [sati-c06]\nSCALE & CAMERA: extremely low close viewpoint, foreshortened foreground palm, face and vast sweep of crimson fabric fill almost the entire square; imposing devotional presence through framing, no literal giant-height claim.\nLIGHT & WEATHER: one deep orange ordinary ritual flame off the lower side makes hard golden light on her face against near-black walnut shadows, fine natural smoke behind her.\nSURFACE: coarse opaque woven silk, weighted sari folds, worn gold ornaments, dark stone brazier lip at far lower edge.\nSETTING: the sacrificial rite referred to in the story, minimal dark ritual enclosure, no mountain landscape, no invented divine creatures. [sati-c06]\nMOOD: respectful, awe-inspiring, morally resolute and commanding; living Hindu divinity, never monstrous, decorative or serene passerby.\nHARD CONSTRAINTS: no self-injury shown, no burns, no body entering fire, no distressed suffering pose; no text, lettering, glyphs, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from films, games, anime or comics; no nudity or explicit gore; no generic glow aura, neon outlines or energy ribbons.",
+  "depicted_variant": "Sati as a fully clothed human Hindu woman in resolute ritual prelude, unharmed beside ordinary sacrificial fire.",
   "basis_claim_ids": [
     "sati-c01",
     "sati-c02",
     "sati-c03",
-    "sati-c05"
+    "sati-c05",
+    "sati-c06"
   ],
   "visual_requirements": [
-    "Goddess of marital felicity and Shakti aspect — sati-c01.",
-    "Conservative fully clothed human appearance, no undocumented anatomy."
+    {
+      "kind": "anatomy",
+      "description": "Human Hindu woman grounded in c06 exact quote, one head two arms, fully opaque sari editorial clothing.",
+      "claim_ids": [
+        "sati-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Sacrificial rite from the attested account, ordinary brazier flame used as environmental light; no self-injury or body entering flame.",
+      "claim_ids": [
+        "sati-c06"
+      ]
+    }
   ],
-  "aura": "Natural golden temple light; research supplies no independent visible power effect.",
+  "aura": "Resolute close devotional presence and ordinary sacrificial-fire illumination rooted in the ritual account (sati-c06), no emitted supernatural effect.",
   "artistic_choices": [
-    "Research does not define bodily iconography or visible power effects; use composition/light only.",
-    "Do not depict self-immolation from c06 as an invented elemental attack; chose serene living sacred portrait."
+    "Human woman form comes from c06 exact quote, not inferred multi-arm iconography.",
+    "The raised solemn-vow palm, sharp turn, cloth movement and prelude moment are editorial staging, not an additional sourced deed.",
+    "No independent supernatural effect is documented; actual ritual fire serves only as environmental lighting, not elemental attack.",
+    "Sari, jewelry, veil, dark enclosure and apparent monumentality through close camera are editorial; tragic self-injury is not shown.",
+    "Facial mark, gold ornaments and carved enclosure columns visible in generated PNG are editorial respectful costume/staging, not additional source claims."
   ],
   "visual_review": {
-    "notes": "Viewed native: fully modest sari-draped human woman with two arms and composed hands, temple steps and tiny sacred mountain valley. Serene living goddess; no fire or self-harm scene, unsupported anatomy, magic effects, text or watermark.",
     "reviewer": "codex",
     "verdict": "pass",
-    "native_sha256": "f7e86e7e72b6ccdc4cea9de8ab4ee2272949682ed3a24c77b07d75d302f531da",
-    "reviewed_at": "2026-10-06T08:25:28.215851+00:00"
+    "notes": "Native PNG inspected: dignified human Hindu woman with one head two arms, large five-finger vow palm and other hand holding cloth, fully opaque crimson/ivory sari and veiled head. Close low-angle turn, sweeping heavy cloth and firm downward gaze establish commanding sacred presence at thumbnail. Ordinary fire burns in a separate brazier behind and left; body remains unharmed with no fire-emitting hands or powers. Decorative jewelry, facial mark and ritual columns are editorial staging, no claimed extra sacred anatomy. No text or watermark. All seven Uji Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "182b82fc6449aada0ddb890aa578c0076822f95dd740790ab07efa778edb1c4d",
+    "reviewed_at": "2026-10-08T04:02:42.879910+00:00"
   },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-371c-7680-935d-9da18174a957/exec-86025f2c-801e-4832-ae3c-9e04518a9fe3.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/sati.png",
-  "native_sha256": "f7e86e7e72b6ccdc4cea9de8ab4ee2272949682ed3a24c77b07d75d302f531da",
-  "status": "needs-correction",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-784e-76a1-b1ae-5d5cc188cac8/exec-1fab397b-5993-4584-9488-52d17c3261f7.png",
+  "original_file": "data/artwork-generated/batch-1055/originals/sati.png",
+  "native_sha256": "182b82fc6449aada0ddb890aa578c0076822f95dd740790ab07efa778edb1c4d",
+  "status": "reviewed",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
   "review_path": "data/gemini/reviews/batch-072.review.json",
-  "reviewed_at": "2026-10-06T08:25:28.215851+00:00",
+  "reviewed_at": "2026-10-08T04:30:26.950Z",
+  "worker_agent": "lane_1055_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1055,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T04:02:42.879910+00:00",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1055/rejected/sati-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1055/rejected/sati-attempt-01.json",
+      "native_sha256": "f7e86e7e72b6ccdc4cea9de8ab4ee2272949682ed3a24c77b07d75d302f531da",
+      "reason": "Ordinary woman on temple steps."
+    }
+  ],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "f7e86e7e72b6ccdc4cea9de8ab4ee2272949682ed3a24c77b07d75d302f531da",
-    "notes": "Ordinary woman on temple steps."
-  },
-  "correction_notes": "Ordinary woman on temple steps."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "182b82fc6449aada0ddb890aa578c0076822f95dd740790ab07efa778edb1c4d",
+    "notes": "Sati halts the viewer with a raised palm before the sacrificial fire, fully clothed; commanding sacred presence rather than a bystander."
+  }
 }

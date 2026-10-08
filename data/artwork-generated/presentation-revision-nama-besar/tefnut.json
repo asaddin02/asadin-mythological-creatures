@@ -3,46 +3,50 @@
   "slug": "tefnut",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
-  "status": "needs-correction",
-  "generated_at": "2026-10-06T08:45:34.775Z",
-  "prompt": "Square premium original respectful painterly Egyptian TEFNUT moisture goddess in her explicit NATURAL LIONESS form tefnut-c05,c07: ONE magnificent anatomically correct female LION with one head four legs one tail, NO male mane, human body, serpent body, horns wings crowns disk or extra anatomy. Majestic fierce protective goddess standing on Nubian desert rock, low monumental close camera beneath poised forepaws and dignified alert face. Documented MOISTURE/ATMOSPHERE domain c01,c09: immense towering rain-laden SKY, powerful silvery RAIN flowing around her and darkwet rock, tiny distant desert horizon showing scale. Spectacular cinematic storm-clouds parted by warm natural sunlight, cool rain and amber eyes/fur contrast, rich naturalistic painterly animal anatomy and raindrops. No fire lightningweapon magic rays or other goddess variants, no gore victims nudity text symbols logos watermark border or film/game/anime/comic design.",
-  "depicted_variant": "Natural lioness form of Egyptian moisture goddess Tefnut.",
+  "status": "reviewed",
+  "generated_at": "2026-10-08T04:14:06.459585+00:00",
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of TEFNUT, Egyptian moisture goddess in her documented lion-headed female form.\nANATOMY: Exactly ONE unmistakable LIONESS HEAD on ONE human female body, TWO human arms with human hands, TWO human legs, no mane, no animal forelegs or tail. Opaque heavy linen dress covering body and chest, antique gold neck collar editorial. Lion face occupies upper half of square, wet whiskers and clearly opened leonine jaws. [tefnut-c05,c11]\nMOMENT: Advance with fierce commanding stare and open lioness mouth; extend one human hand toward the viewer as she steps through dense rain and spray. Torso leans forward and wet linen trails in the motion. Divine confrontation, not an ordinary wildlife lion in rain.\nPOWER: Moisture and near-earth atmosphere are documented domains; show heavy physical rain and wind-swept mist in her surroundings, NOT an invented water weapon or rays. Threat comes from documented fierce lioness aspect. [tefnut-c01,c07,c09]\nSCALE & CAMERA: extreme low angle; extreme close upward view, the leonine head and approaching human hand fill frame; ordinary anatomical proportions, no invented giant scale.\nLIGHT & WEATHER: ONE golden oblique dusk light catches droplets and rims lion muzzle; deep walnut shadows, driving natural rain.\nSURFACE: wet lioness fur, amber eyes without glow, coarse soaked linen, rough gold collar.\nSETTING: Nubian desert crags dark under rainstorm, reflecting her desert departure story; weather is editorial atmosphere related to her moisture domain. [tefnut-c07,c01]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
+  "depicted_variant": "Lioness-headed human goddess striding toward viewer in a Nubian storm, opened jaws and reaching hand dominating frame.",
   "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
-  "aura": "Immense moisture-laden sky and rain grounded in moisture/atmosphere domain.",
+  "aura": "Moisture and near-earth atmosphere are documented domains; show heavy physical rain and wind-swept mist in her surroundings, NOT an invented water weapon or rays. Threat comes from documented fierce lioness aspect. [tefnut-c01,c07,c09]",
   "review_path": "data/gemini/reviews/batch-077.review.json",
   "basis_claim_ids": [
     "tefnut-c05",
+    "tefnut-c11",
     "tefnut-c01",
-    "tefnut-c09",
-    "tefnut-c07"
+    "tefnut-c07",
+    "tefnut-c09"
   ],
   "visual_requirements": [
     {
       "kind": "anatomy",
-      "description": "One lioness in selected natural lioness form.",
+      "description": "Lion-headed female goddess, human arms and opaque clothing",
       "claim_ids": [
-        "tefnut-c05"
+        "tefnut-c05",
+        "tefnut-c11"
       ]
     },
     {
       "kind": "effect",
-      "description": "Moisture and near-earth atmosphere.",
+      "description": "Physical rain evokes moisture domain, fierce lioness aspect supplies threat",
       "claim_ids": [
         "tefnut-c01",
+        "tefnut-c07",
         "tefnut-c09"
       ]
     },
     {
       "kind": "setting",
-      "description": "Fierce lioness in Nubian desert tale.",
+      "description": "Nubian desert departure setting",
       "claim_ids": [
         "tefnut-c07"
       ]
     }
   ],
   "artistic_choices": [
-    "Rain and colossal atmosphere are domain staging; natural lioness no human hybrid or male mane.",
-    "No unsupported solar crown, fire attack, lion-serpent form or other gods blended."
+    "Lion-headed woman variant replaces the rejected ordinary wildlife lioness.",
+    "Rain, dress, collar and dusk are editorial; no solar disk borrowed from other goddesses.",
+    "No emitted water attack or invented giant size."
   ],
   "old_url": "/assets/art/tefnut-mythic-presence.webp",
   "old_webp_sha256": "409325959a9cc131034758918e8cdb517e7ee2e18156dfb619bc15dd3fc4862e",
@@ -50,21 +54,38 @@
   "old_native_sha256": null,
   "historical_native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec",
   "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/tefnut.png",
-  "native_sha256": "a4eb42f79786b3f95b42b1c97281ae3c2961af46f76f5f928bcf209de7f24c42",
-  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-bc6573ac-f7e0-4945-9331-7592bcaf17b8.png",
+  "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-1f9e2d0b-9a15-486b-b630-32d57a910302.png",
   "visual_review": {
-    "verdict": "pass",
     "reviewer": "codex",
-    "notes": "Native inspected: one anatomically natural lioness, one head/four coherent legs/tail, no male mane, human hybrid, horns, crown, wings or serpent form. Immense rainfall and moist near-ground atmosphere over Nubian desert rocks, majestic protective natural sunlight. No text/watermark gore or magical attack.",
-    "native_sha256": "a4eb42f79786b3f95b42b1c97281ae3c2961af46f76f5f928bcf209de7f24c42",
-    "reviewed_at": "2026-10-06T08:45:34.776Z"
+    "verdict": "pass",
+    "notes": "Native inspected: one wet lioness head on female human body with two human arms, forward hand and roaring jaws dominate frame; opaque linen and desert crags under physical rain. No ordinary quadruped lion, no invented weapon or emitted magic, no text. Collar panels are abstract ornament, not legible writing. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+    "reviewed_at": "2026-10-08T04:14:06.459585+00:00"
   },
+  "worker_agent": "root_revision",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/tefnut-attempt-01.png",
+      "receipt_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/tefnut-attempt-01.json",
+      "native_sha256": "a4eb42f79786b3f95b42b1c97281ae3c2961af46f76f5f928bcf209de7f24c42",
+      "reason": "Reads as an ordinary lioness in the rain."
+    }
+  ],
+  "batch": "nama-besar",
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "a4eb42f79786b3f95b42b1c97281ae3c2961af46f76f5f928bcf209de7f24c42",
-    "notes": "Reads as an ordinary lioness in the rain."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+    "notes": "Lioness-headed Tefnut roars and reaches toward the viewer in driving rain over Nubian crags; fierce goddess, not a lioness."
   },
-  "correction_notes": "Reads as an ordinary lioness in the rain."
+  "reviewed_at": "2026-10-08T04:30:26.950Z"
 }

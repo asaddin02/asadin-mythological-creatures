@@ -3,45 +3,47 @@
   "slug": "yaksha",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
-  "status": "needs-correction",
-  "generated_at": "2026-10-06T07:59:24.387Z",
-  "prompt": "Edit this nature guardian illustration to depict the HINDU/BUDDHIST/JAIN YAKSHA hidden-treasure guardian tradition respectfully. Keep ordinary one-headed two-armed two-legged humanoid anatomy, forest roots, freshwater stream, hidden treasure, low-angle and dawn. Change the European medieval-looking coat/boots into fully modest simple ANCIENT SOUTH ASIAN flowing robes and sandals; use a robust South Asian human facial rendering. Remove the staff completely; hands relaxed/guardian gesture without held weapon. No crown, horns, wings, elemental magic, inscriptions or letters. Natural sunlight over treasure, no self-emitted glow. Clothing and humanlike rendering are artistic choices, not a claim of sourced historical portrait.",
-  "depicted_variant": "One imposing humanoid nature spirit guarding a treasure recess in an ancient tree-root forest beside freshwater. Choose benevolent hidden-treasure guardian variant: ordinary human masculine anatomy with fully clothed robust body, quiet authoritative expression, no invented horns, wings or fangs. Massive roots and distant smaller trees frame him, antique plain ornaments and modest robes are artistic styling. Rays of real morning sun illuminate water and treasure; no elemental attacks or floating magic coins.",
+  "status": "reviewed",
+  "generated_at": "2026-10-08T04:19:58.797681+00:00",
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of YAKSHA, a Buddhist guardian nature spirit in its documented ugly OGRE form.\nANATOMY: ONE living male ogre-form guardian with ONE head, TWO eyes, TWO human-shaped arms, TWO legs. Rough heavily furrowed ugly broad face, thick brow, broad nose and square jaw; no added horns, tusks, third eye, wings or extra limbs. Opaque coarse earth-brown tunic and deep red wrap over covered torso. [yaksha-c05]\nMOMENT: Rise forward from the dark wooded entrance guarding hidden treasure, thrust one open palm toward the viewer to forbid intrusion, face staring downward with fierce protective authority. Cloth and nearby leaves shift through direct movement.\nPOWER: Protective guardian presence from documented attendants of Vaisravana and guardians of hidden treasure; no invented force-beam, tree animation or magical strength. [yaksha-c05,c06]\nSCALE & CAMERA: extreme low angle; extreme low, tight waist-up framing; ugly ogre face fills upper half and foreshortened blocking palm fills foreground, no tiny-human giant-size props.\nLIGHT & WEATHER: ONE angled warm sunset shaft rims face and hand through branches; deep walnut forest shadows and natural dust, no glowing eyes.\nSURFACE: rough furrowed skin, coarse woven cloth, weathered mountain roots and a partly visible simple dull-gold treasure vessel.\nSETTING: wooded Himalayan mountain treasure shelter, a keeper in forest/mountain setting rather than a man relaxed on roots. [yaksha-c01,c06]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
+  "depicted_variant": "Ugly ogre-form beneficent yaksha blocking access to a forest mountain treasure shelter.",
   "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
-  "aura": "Forest sunlight over water and hidden treasure",
+  "aura": "Protective guardian presence from documented attendants of Vaisravana and guardians of hidden treasure; no invented force-beam, tree animation or magical strength. [yaksha-c05,c06]",
   "review_path": "data/gemini/reviews/batch-072.review.json",
   "basis_claim_ids": [
-    "yaksha-c01",
-    "yaksha-c03",
-    "yaksha-c04",
-    "yaksha-c06"
+    "yaksha-c05",
+    "yaksha-c06",
+    "yaksha-c01"
   ],
   "visual_requirements": [
     {
       "kind": "anatomy",
-      "description": "One imposing humanoid nature spirit guarding a treasure recess in an ancient tree-root forest beside freshwater. Choose benevolent hidden-treasure guardian variant: ordinary human masculine anatomy with fully clothed robust body, quiet authoritative expression, no invented horns, wings or fangs. Massive roots and distant smaller trees frame him, antique plain ornaments and modest robes are artistic styling. Rays of real morning sun illuminate water and treasure; no elemental attacks or floating magic coins.",
+      "description": "Ugly ogre form from Buddhist stories, ordinary coherent limbs",
       "claim_ids": [
-        "yaksha-c01",
-        "yaksha-c03",
-        "yaksha-c04",
-        "yaksha-c06"
+        "yaksha-c05"
       ]
     },
     {
       "kind": "effect",
-      "description": "Forest sunlight over water and hidden treasure; basis: nature and treasure guardian domain, no specific elemental ability",
+      "description": "Fierce but beneficent treasure guard; no emitted attack",
+      "claim_ids": [
+        "yaksha-c05",
+        "yaksha-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Nature spirit forest and Himalayan treasure context",
       "claim_ids": [
         "yaksha-c01",
-        "yaksha-c03",
-        "yaksha-c04",
         "yaksha-c06"
       ]
     }
   ],
   "artistic_choices": [
-    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
-    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented.",
-    "Humanlike anatomical rendering is an artistic representation of an unspecified nature-spirit form; research documents domains and roles rather than a detailed bodily appearance."
+    "Buddhist ogre guardian form chosen from exact c05 quote; protective and dignified, not a villain caricature.",
+    "Face proportions, clothing, dust and treasure vessel editorial, no claim-specific tusks or horns added.",
+    "Guardian hand and close perspective answer passive ordinary man rejection; no invented supernatural strength."
   ],
   "old_url": "/assets/art/yaksha-regeneration-139.webp",
   "old_webp_sha256": "ed78f5e9c572752772c4615d69097159064a2d7ab7f088652a4ee828a7e42adf",
@@ -49,14 +51,15 @@
   "old_native_sha256": null,
   "historical_native_sha256": null,
   "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/yaksha.png",
-  "native_sha256": "4fa05e0f73ed12dd1caa2a37e7e4837a9605bd254fa9e2ab3908e84a1a2bfa90",
-  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-d16f2ff0-0355-4888-8265-fbe28def7e63.png",
+  "native_sha256": "07a312006a81e3a0d5575074850d5498291a61a98071d07ff83ad666c74c3ec6",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-5164-7c31-95b8-92b89dd9af58/exec-b3e2ba21-b874-47e9-bbdf-7100e2ac008e.png",
   "visual_review": {
-    "verdict": "pass",
     "reviewer": "codex",
-    "notes": "Viewed corrected PNG: robust humanlike nature guardian in modest South Asian robes/sandals, two hands and two feet, hidden treasure among tree roots beside water. Removed European costume and unsupported staff. Human portrait details and clothing are artistic representative rendering, not sourced historical anatomy; no additional body features or emitted powers.",
-    "native_sha256": "4fa05e0f73ed12dd1caa2a37e7e4837a9605bd254fa9e2ab3908e84a1a2bfa90",
-    "reviewed_at": "2026-10-06T07:59:24.388Z"
+    "verdict": "pass",
+    "notes": "Native inspected: one ugly ogre-form guardian, rough exaggerated broad brow/nose/jaw, two ordinary eyes, no horns/tusks/wings/third eye; coherent five-finger blocking palm and second hand, fully covered torso with coarse tunic/red wrap. Forward warning action, fierce downward gaze and close low camera feel formidable at thumbnail; hidden treasure vessel/chest and wooded rock shelter contextualize c05/c06. No emitted power, aura, readable text, signature, frame or gore. Answers former relaxed ordinary-man-on-roots rejection.",
+    "limitations": [],
+    "native_sha256": "07a312006a81e3a0d5575074850d5498291a61a98071d07ff83ad666c74c3ec6",
+    "reviewed_at": "2026-10-08T04:19:58.797681+00:00"
   },
   "rejected_attempts": [
     {
@@ -64,15 +67,30 @@
       "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One imposing humanoid nature spirit guarding a treasure recess in an ancient tree-root forest beside freshwater. Choose benevolent hidden-treasure guardian variant: ordinary human masculine anatomy with fully clothed robust body, quiet authoritative expression, no invented horns, wings or fangs. Massive roots and distant smaller trees frame him, antique plain ornaments and modest robes are artistic styling. Rays of real morning sun illuminate water and treasure; no elemental attacks or floating magic coins.",
       "reason": "Unsupported attributes, text-like inscriptions or cultural styling; corrected through a targeted image edit.",
       "original_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/yaksha-1.png",
-      "native_sha256": "22d41aea7fbd6772ca87544ff8770a2a115aaea0e99c1c68a18c8c08a3b20394"
+      "native_sha256": "22d41aea7fbd6772ca87544ff8770a2a115aaea0e99c1c68a18c8c08a3b20394",
+      "receipt_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/yaksha-1.json"
+    },
+    {
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/yaksha-attempt-01.png",
+      "receipt_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/yaksha-attempt-01.json",
+      "native_sha256": "4fa05e0f73ed12dd1caa2a37e7e4837a9605bd254fa9e2ab3908e84a1a2bfa90",
+      "reason": "Reads as an ordinary man sitting on tree roots."
     }
   ],
+  "worker_agent": "lane_1047",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "batch": "nama-besar",
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "4fa05e0f73ed12dd1caa2a37e7e4837a9605bd254fa9e2ab3908e84a1a2bfa90",
-    "notes": "Reads as an ordinary man sitting on tree roots."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "07a312006a81e3a0d5575074850d5498291a61a98071d07ff83ad666c74c3ec6",
+    "notes": "An ugly ogre-form yaksha blocks the treasure cave with a huge palm, gold vessels behind; fierce guardian from a low angle."
   },
-  "correction_notes": "Reads as an ordinary man sitting on tree roots."
+  "reviewed_at": "2026-10-08T04:30:26.950Z"
 }

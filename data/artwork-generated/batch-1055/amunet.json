@@ -1,44 +1,86 @@
 {
   "slug": "amunet",
-  "prompt": "AMUNET, Egyptian primordial goddess and Hidden One: ONE fully clothed adult HUMAN woman with Lower Egypt's distinct RED CROWN, tall red asymmetric deshret outline (amunet-c12), opaque deep red/ivory linen gown, one head TWO arms. Stands protectively at massive Theban stone sanctuary amid deep precreation-like darkness/mist (c05), tiny columns distant, subtle natural dawn edge light reveals regal face. Guardian authority c08, no serpent head or added snake limbs, wings, magic beams or unclaimed flames. Low camera, sacred monumental silhouette. Use case: stylized-concept. Original square premium monumental painterly Mythics encyclopedia image, very low camera, tiny landscape references for scale, clear silhouette, cinematic natural light and rich textures. No text, watermark, logo, border, nudity, gore, copied movies/games/anime or unsupported anatomy/effects.",
-  "depicted_variant": "Amunet as Red-Crowned human primordial goddess.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of AMUNET, Egyptian primordial goddess and protector of the king.\nANATOMY: ONE adult female deity depicted in the documented goddess-with-RED-CROWN relief form, one human head, two eyes, exactly TWO arms; wear tall asymmetric Red Crown of Lower Egypt with high rear spike and a curled front wire, fully visible with a margin at top. Completely opaque heavy ivory linen gown and dark crimson mantle. [amunet-c01, amunet-c12]\nMOMENT: Advance out from deep darkness to intercept the viewer at the threshold, thrust one open protective hand close to the lens, palm large in foreground, other arm sweeping her mantle outward; intense commanding gaze angled down toward viewer. Head and crown fill the upper half, guardian action fills the lower half.\nPOWER: No documented physical emission; darkness is ordinary low-key staging of her primordial/Hidden One associations, no dark energy emitted. Authority through crown and protective stance. [amunet-c04, amunet-c05, amunet-c08]\nSCALE & CAMERA: extreme low angle, very tight chest-up crop with foreshortened large near hand; she occupies ninety percent of frame, no giant literal body or tiny scale humans.\nLIGHT & WEATHER: one narrow hard amber shaft of light falls on the crown edge, severe eyes and near hand; the surrounding sanctuary falls into near-black shadow, ordinary dust visible in that shaft.\nSURFACE: rough ivory woven linen, creased red cloth, weathered red crown, plain worn stone.\nSETTING: Thebes sanctuary threshold, only blank UNCARVED jambs and plain stone visible; absolutely no inscriptions, carved hieroglyphs or patterned symbols. [amunet-c02, amunet-c12]\nMOOD: awe-inspiring sacred guardian emerging from darkness, imposing and overwhelming, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no extra heads, limbs or fingers, wings or snakes; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no invented magical objects, staff or elemental effect.",
+  "depicted_variant": "Red-Crowned Amunet in a confronting protective close threshold gesture.",
   "basis_claim_ids": [
     "amunet-c01",
+    "amunet-c12",
     "amunet-c04",
     "amunet-c05",
     "amunet-c08",
-    "amunet-c12"
+    "amunet-c02"
   ],
   "visual_requirements": [
-    "Human goddess with RED CROWN — amunet-c12.",
-    "Primeval existence-before-creation atmosphere — amunet-c05.",
-    "No unsupported snake head or wings."
+    {
+      "kind": "anatomy",
+      "description": "Female goddess Red-Crown relief form; Red Crown large and fully visible.",
+      "claim_ids": [
+        "amunet-c12"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No magical emission; protective threshold gesture and ordinary shadow only.",
+      "claim_ids": [
+        "amunet-c08",
+        "amunet-c04",
+        "amunet-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Thebes sanctuary threshold with plain blank jambs.",
+      "claim_ids": [
+        "amunet-c02",
+        "amunet-c12"
+      ]
+    }
   ],
-  "aura": "Vast dark primordial atmosphere, no documented visible power effect; natural compositional light.",
+  "aura": "Documented protector authority (amunet-c08) and Red Crown (amunet-c12), with ordinary shadow associated editorially with primordial/Hidden One claims (c04/c05).",
   "artistic_choices": [
-    "Accepted research does not specify a visible supernatural attack; compositional twilight and scale provide grandeur."
+    "Close low camera and protective hand action convey authority without claiming gigantic physical size.",
+    "Heavy ivory gown, crimson mantle and shadowed plain sanctuary are editorial staging of relief form.",
+    "No physical power emission is documented or added."
   ],
   "visual_review": {
-    "notes": "Viewed native: fully robed human woman with distinct asymmetric Red Crown, two arms, Theban-like huge stone facade and misty twilight. No serpent hybrid, added wings or emitted magic; protection/precreation atmosphere through stance and composition. No readable text caption or watermark.",
     "reviewer": "codex",
     "verdict": "pass",
-    "native_sha256": "9527e0d643f05d819ef4120d45847cbd4687f381fb31b1b1893808c0c238d832",
-    "reviewed_at": "2026-10-06T08:46:08.100595+00:00"
+    "notes": "Native inspected: large Red-Crowned goddess dominates threshold, confrontational downward gaze and five-finger protective hand projected toward lens, other hand draws mantle. Two arms, opaque linen, fully visible tall red crown, plain stone jambs with no inscriptions. Ordinary light/shadow only; no invented aura, text or watermark. Seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "a1b8e83e2fd6f5b76eb0493b01650cdc4e44e60267eccf4817a70e212c35afc2",
+    "reviewed_at": "2026-10-08T04:03:53.919796+00:00"
   },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-371c-7680-935d-9da18174a957/exec-846780ee-20ec-4044-8980-c2b2030fdb20.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/amunet.png",
-  "native_sha256": "9527e0d643f05d819ef4120d45847cbd4687f381fb31b1b1893808c0c238d832",
-  "status": "needs-correction",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-9949-75d3-9b67-7f8980960be5/exec-d70ca385-2969-4f47-af0c-e50e5515313c.png",
+  "original_file": "data/artwork-generated/batch-1055/originals/amunet.png",
+  "native_sha256": "a1b8e83e2fd6f5b76eb0493b01650cdc4e44e60267eccf4817a70e212c35afc2",
+  "status": "reviewed",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
   "review_path": "data/gemini/reviews/batch-077.review.json",
-  "reviewed_at": "2026-10-06T08:46:08.100595+00:00",
+  "reviewed_at": "2026-10-08T04:30:26.950Z",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1055/rejected/amunet-attempt-01.png",
+      "native_sha256": "9527e0d643f05d819ef4120d45847cbd4687f381fb31b1b1893808c0c238d832",
+      "reason": "Ordinary woman with a red crown at human scale.",
+      "receipt_file": "data/artwork-generated/batch-1055/rejected/amunet-attempt-01.json"
+    }
+  ],
+  "worker_agent": "lane_1055_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1055,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T04:03:53.919796+00:00",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "9527e0d643f05d819ef4120d45847cbd4687f381fb31b1b1893808c0c238d832",
-    "notes": "Ordinary woman with a red crown at human scale."
-  },
-  "correction_notes": "Ordinary woman with a red crown at human scale."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "a1b8e83e2fd6f5b76eb0493b01650cdc4e44e60267eccf4817a70e212c35afc2",
+    "notes": "Red-crowned Amunet thrusts a protective hand at the viewer from the sanctuary threshold; the crown is large and fully visible."
+  }
 }

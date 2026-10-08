@@ -1,46 +1,135 @@
 {
   "slug": "hathor",
-  "prompt": "Use case: stylized-concept. Square premium naturalistic painterly mythology encyclopedia illustration of HATHOR in her documented COW FORM emerging from a papyrus thicket. One full-bodied ordinary cow with two natural horns; a SOLID METAL SUN DISK rests between the horns as a non-emitting iconographic emblem, supported by an ancient metal-plaque depiction. Four bovine legs, calm cow head and muzzle, ordinary adult-cow scale relative to papyrus. Nile floodbank, lush green papyrus stems, warm natural dawn sunlight, majestic benevolent presence through steady posture and calm eyes. Egyptian bank setting and exact metal finish are editorial staging. No woman body, no added human hands, no wings, no extra horns, no giant inflation, no emitting glowing sun orb, no aura envelope, energy ribbons, neon outline or luminous mist. Reverent dignified depiction, no calves, no characters, no text or watermark.",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10bb1-8e46-7c61-8c86-34349121a53c/exec-e93f3382-4d79-48ea-a22f-f1b1ecb043e6.png",
-  "depicted_variant": "Documented cow form emerging from papyrus, with non-emitting solar disk between horns following metal-plaque iconography.",
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of HATHOR, the ancient Egyptian goddess in her documented heavenly cow form.\nANATOMY: One living female bovine, exactly one bovine head, two horns, two eyes and four legs; a HUGE METAL SUN DISK visibly nestled between the two horns, nearly as wide as her face. This is the sacred cow with stars above, emerging from papyrus. No human torso, no wings, no extra anatomy. [hathor-c10,hathor-c11,hathor-c15]\nMOMENT: Thrust her head forward and down toward the viewer as she drives bodily through towering papyrus, one front hoof landing at the very bottom foreground, reeds bending and dark water splashing through direct contact. Forceful, awe-inspiring arrival of a goddess, steady authoritative stare into the viewer. Not grazing, not a peaceful farm animal.\nPOWER: No invented emitted magic or fire attack. Divinity is expressed through her documented disk and star-filled heavenly iconography; splashes and moving reeds come only from her physical advance. [hathor-c10,hathor-c11,hathor-c15]\nSCALE & CAMERA: Extreme low camera at hoof level, wide-angle close framing; the head and horns occupy the upper TWO THIRDS of the square. Forehead almost brushes the viewer. Her deep chest and the receding four legs complete a coherent body; no tiny-human scale props or invented giant anatomy. Build overwhelming monumental presence through perspective, not added biological size.\nLIGHT & WEATHER: ONE dominant golden backlight precisely behind the metal sun disk silhouettes the horns and rims her face; deep walnut shadows, suspended spray and a dark night sky showing crisp stars overhead. Disk is metal in backlight, not an energy weapon.\nSURFACE: Dense dark russet hide, wet coarse hair, fine rough horn texture, ancient gold disk; avoid black-and-white dairy spotting. Rich painterly physical material, not plastic.\nSETTING: Tangled papyrus thicket with shallow dark water; stars overhead. [hathor-c10,hathor-c15]\nMOOD: Benevolent but overwhelming divine authority, awe-inspiring and imposing; never cute, placid, decorative, or ordinary livestock. Sacred devotional art, original composition.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glowing aura, neon outline or energy ribbons. No human spectators, no farm fence, no pastoral daylight.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-2d398fa3-4a32-4a27-986a-dc5648fcd5b4.png",
+  "depicted_variant": "Sacred cow advancing through papyrus, face and solar disk dominating the low-angle frame.",
   "basis_claim_ids": [
-    "hathor-c02",
+    "hathor-c10",
     "hathor-c11",
     "hathor-c15"
   ],
   "visual_requirements": [
-    "One ordinary cow emerging from papyrus",
-    "Two cow horns with solid solar disk between them",
-    "Ordinary scale, calm presence and natural light; no woman hybrid or aura glow"
+    {
+      "kind": "anatomy",
+      "description": "One living cow with two horns surrounding a broad metal sun disk.",
+      "claim_ids": [
+        "hathor-c11"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Cow advances out of papyrus, stars overhead.",
+      "claim_ids": [
+        "hathor-c10",
+        "hathor-c15"
+      ]
+    }
   ],
-  "aura": "Calm direct gaze, poised Nile-bank emergence and naturally reflected dawn light.",
+  "aura": "Overwhelming perspective and documented solar disk and stars (hathor-c10,c11); physical splash from motion only.",
   "artistic_choices": [
     "Cow coat pattern, papyrus arrangement, gold material finish, support headband and distant temple landscape are editorial staging, not asserted fixed iconography."
   ],
   "visual_review": {
+    "reviewer": "codex",
     "verdict": "pass",
-    "reviewer": "root",
-    "notes": "Inspected native image: single ordinary-scale cow emerging from papyrus with two horns and solid gold solar disk between them. Natural reflected sun on metal, gentle alert eyes; no luminous emission, human hybrid or invented giant scale."
+    "notes": "Native inspected: sacred cow head fills frame beneath a huge textured metal solar disk and stars, forceful hoof advancing through water and papyrus. Two horns, one head, coherent bovine limbs partly occluded in physical perspective; no human hybrid. Awe readable at thumbnail, no generic aura or invented emitted attack, no text or watermark. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
+    "reviewed_at": "2026-10-08T03:56:51.211289+00:00"
   },
   "worker": "root",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-040.review.json",
   "reviewed_at": "2026-10-05",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/hathor.png",
-  "native_sha256": "d54f5f00d073b176f9a170cf63c9b724215cf843b8af8bcf606ac5dd8ebe2630",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/hathor.png",
+  "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "worker-2",
-    "notes": "Independent actual native PNG inspection: ordinary-scale four-legged cow emerging from papyrus; two horns frame a solid metallic solar disk. Natural metal reflections, no emitted halo or woman hybrid. Fits selected Hathor cow/papyrus/plaque claims c02,c11,c15; support headband is already disclosed editorial staging.",
-    "native_sha256": "d54f5f00d073b176f9a170cf63c9b724215cf843b8af8bcf606ac5dd8ebe2630",
-    "reviewed_at": "2026-10-05T11:19:25.895839+00:00"
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
+    "notes": "Hathor as a sacred cow advances through papyrus water beneath a vast sun disk and stars; divine, no longer a dairy cow."
   },
   "independent_visual_review": {
+    "reviewer": "codex",
     "verdict": "pass",
-    "reviewer": "worker-2",
-    "notes": "Independent actual native PNG inspection: ordinary-scale four-legged cow emerging from papyrus; two horns frame a solid metallic solar disk. Natural metal reflections, no emitted halo or woman hybrid. Fits selected Hathor cow/papyrus/plaque claims c02,c11,c15; support headband is already disclosed editorial staging.",
-    "native_sha256": "d54f5f00d073b176f9a170cf63c9b724215cf843b8af8bcf606ac5dd8ebe2630",
-    "reviewed_at": "2026-10-05T11:19:25.895839+00:00"
-  }
+    "notes": "Native inspected: sacred cow head fills frame beneath a huge textured metal solar disk and stars, forceful hoof advancing through water and papyrus. Two horns, one head, coherent bovine limbs partly occluded in physical perspective; no human hybrid. Awe readable at thumbnail, no generic aura or invented emitted attack, no text or watermark. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
+    "reviewed_at": "2026-10-08T03:56:51.211289+00:00"
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "hathor",
+      "prompt": "Use case: stylized-concept. Square premium naturalistic painterly mythology encyclopedia illustration of HATHOR in her documented COW FORM emerging from a papyrus thicket. One full-bodied ordinary cow with two natural horns; a SOLID METAL SUN DISK rests between the horns as a non-emitting iconographic emblem, supported by an ancient metal-plaque depiction. Four bovine legs, calm cow head and muzzle, ordinary adult-cow scale relative to papyrus. Nile floodbank, lush green papyrus stems, warm natural dawn sunlight, majestic benevolent presence through steady posture and calm eyes. Egyptian bank setting and exact metal finish are editorial staging. No woman body, no added human hands, no wings, no extra horns, no giant inflation, no emitting glowing sun orb, no aura envelope, energy ribbons, neon outline or luminous mist. Reverent dignified depiction, no calves, no characters, no text or watermark.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb1-8e46-7c61-8c86-34349121a53c/exec-e93f3382-4d79-48ea-a22f-f1b1ecb043e6.png",
+      "depicted_variant": "Documented cow form emerging from papyrus, with non-emitting solar disk between horns following metal-plaque iconography.",
+      "basis_claim_ids": [
+        "hathor-c02",
+        "hathor-c11",
+        "hathor-c15"
+      ],
+      "visual_requirements": [
+        "One ordinary cow emerging from papyrus",
+        "Two cow horns with solid solar disk between them",
+        "Ordinary scale, calm presence and natural light; no woman hybrid or aura glow"
+      ],
+      "aura": "Calm direct gaze, poised Nile-bank emergence and naturally reflected dawn light.",
+      "artistic_choices": [
+        "Cow coat pattern, papyrus arrangement, gold material finish, support headband and distant temple landscape are editorial staging, not asserted fixed iconography."
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Inspected native image: single ordinary-scale cow emerging from papyrus with two horns and solid gold solar disk between them. Natural reflected sun on metal, gentle alert eyes; no luminous emission, human hybrid or invented giant scale."
+      },
+      "worker": "root",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-040.review.json",
+      "reviewed_at": "2026-10-05",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/hathor.png",
+      "native_sha256": "d54f5f00d073b176f9a170cf63c9b724215cf843b8af8bcf606ac5dd8ebe2630",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-2",
+        "notes": "Independent actual native PNG inspection: ordinary-scale four-legged cow emerging from papyrus; two horns frame a solid metallic solar disk. Natural metal reflections, no emitted halo or woman hybrid. Fits selected Hathor cow/papyrus/plaque claims c02,c11,c15; support headband is already disclosed editorial staging.",
+        "native_sha256": "d54f5f00d073b176f9a170cf63c9b724215cf843b8af8bcf606ac5dd8ebe2630",
+        "reviewed_at": "2026-10-05T11:19:25.895839+00:00"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-2",
+        "notes": "Independent actual native PNG inspection: ordinary-scale four-legged cow emerging from papyrus; two horns frame a solid metallic solar disk. Natural metal reflections, no emitted halo or woman hybrid. Fits selected Hathor cow/papyrus/plaque claims c02,c11,c15; support headband is already disclosed editorial staging.",
+        "native_sha256": "d54f5f00d073b176f9a170cf63c9b724215cf843b8af8bcf606ac5dd8ebe2630",
+        "reviewed_at": "2026-10-05T11:19:25.895839+00:00"
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/hathor.json",
+    "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
+    "old_url": "/assets/art/hathor-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/hathor.png",
+    "old_webp_sha256": "3b2de6d0789a37d2f3923c3ff451eafdfad96e6f2cf30ee5acc3ccea5889ec2a",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "hathor-c10",
+      "hathor-c11",
+      "hathor-c15"
+    ]
+  },
+  "url": "/assets/art/hathor-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "95cfb34dcd7d10ec14721698bf5a696dde4bf4fac377e073ba97af47953fd856",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Tight low-angle foreshortening creates monumentality without claiming giant body size.",
+    "Night, dark russet hide and single gold backlight are editorial choices; no emitted solar attack.",
+    "Physical movement of papyrus and water comes from bodily contact, not invented magic."
+  ]
 }

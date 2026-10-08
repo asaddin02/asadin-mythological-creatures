@@ -3,44 +3,45 @@
   "slug": "incubus",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
-  "status": "needs-correction",
-  "generated_at": "2026-10-06T08:13:31.972Z",
-  "prompt": "Creature identity: incubus. Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One ominous MALE DEMON in HUMAN FORM, fully clothed dark modest antique robes, standing alone at an unoccupied sleeping chamber threshold at night. Extremely imposing shadowed human masculine face, one head two arms two legs, no invented horns, wings or hooves. Use low angle, crushing doorway perspective, long natural candle shadows and dreamlike soft-focus distant corridor to suggest nightmare and sleep-paralysis tradition. No woman, no sexual contact, no bed occupant, no nudity or erotic pose. Do not copy modern handsome-seducer designs. No energy beams/flames. Plain uninscribed walls, clothing and objects: no hieroglyphs, cuneiform, letters or pictographic writing. No solar-disk crown, horns or additional attributes unless explicitly specified above.",
-  "depicted_variant": "One ominous MALE DEMON in HUMAN FORM, fully clothed dark modest antique robes, standing alone at an unoccupied sleeping chamber threshold at night. Extremely imposing shadowed human masculine face, one head two arms two legs, no invented horns, wings or hooves. Use low angle, crushing doorway perspective, long natural candle shadows and dreamlike soft-focus distant corridor to suggest nightmare and sleep-paralysis tradition. No woman, no sexual contact, no bed occupant, no nudity or erotic pose. Do not copy modern handsome-seducer designs. No energy beams/flames.",
+  "status": "reviewed",
+  "generated_at": "2026-10-08T04:08:56.704086+00:00",
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of INCUBUS, a male dream-intruding demon taking the documented BAT form.\nANATOMY: ONE realistic living BAT with ONE bat head, TWO eyes, TWO membranous wings connected to forelimbs, TWO hind feet. Natural bat muzzle and ears; no horns, human torso, extra arms or oversized monster teeth. [incubus-c10]\nMOMENT: Bank into the viewer through a narrow open bedroom window at night, wings bent asymmetrically in strong flight foreshortening and small natural bat mouth open. The bat dominates nearly entire square. No person or sleeping victim shown.\nPOWER: Explicit documented transformation into a bat to enter a bedroom; physical flight and nocturnal menace only. NO supernatural ray, smoke body or emitted magic. [incubus-c10]\nSCALE & CAMERA: extreme low angle; extreme close upward perspective at window threshold; face and wings fill frame, wing near viewer huge through proximity, NOT gigantic anatomical size.\nLIGHT & WEATHER: ONE cold moonbeam from the open window cuts across brown-black fur and membranes; walnut interior shadow, thin airborne dust, no second magical source.\nSURFACE: real damp coarse bat fur, fine veined leathery wings, rough timber and coarse linen.\nSETTING: nocturnal bedroom seen only as a narrow strip of window jamb and empty dark bed edge, no victim, no sexual scene. [incubus-c10]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
+  "depicted_variant": "Bat incarnation entering a nocturnal bedroom, face and folded flight membranes confronting the viewer.",
   "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
-  "aura": "Nightmare atmosphere through shadow and perspective",
+  "aura": "Explicit documented transformation into a bat to enter a bedroom; physical flight and nocturnal menace only. NO supernatural ray, smoke body or emitted magic. [incubus-c10]",
   "review_path": "data/gemini/reviews/batch-128.review.json",
   "basis_claim_ids": [
-    "incubus-c01",
-    "incubus-c04",
-    "incubus-c06",
-    "incubus-c10"
+    "incubus-c10",
+    "incubus-c04"
   ],
   "visual_requirements": [
     {
       "kind": "anatomy",
-      "description": "One ominous MALE DEMON in HUMAN FORM, fully clothed dark modest antique robes, standing alone at an unoccupied sleeping chamber threshold at night. Extremely imposing shadowed human masculine face, one head two arms two legs, no invented horns, wings or hooves. Use low angle, crushing doorway perspective, long natural candle shadows and dreamlike soft-focus distant corridor to suggest nightmare and sleep-paralysis tradition. No woman, no sexual contact, no bed occupant, no nudity or erotic pose. Do not copy modern handsome-seducer designs. No energy beams/flames.",
+      "description": "One anatomically coherent bat incarnation",
       "claim_ids": [
-        "incubus-c01",
-        "incubus-c04",
-        "incubus-c06",
         "incubus-c10"
       ]
     },
     {
       "kind": "effect",
-      "description": "Nightmare atmosphere through shadow and perspective; basis: dream visitation, sleep paralysis and documented human form",
+      "description": "Bat transformation and physical entry flight",
       "claim_ids": [
-        "incubus-c01",
-        "incubus-c04",
-        "incubus-c06",
         "incubus-c10"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Bedroom at night",
+      "claim_ids": [
+        "incubus-c10",
+        "incubus-c04"
       ]
     }
   ],
   "artistic_choices": [
-    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
-    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+    "Bat variant chosen to answer ordinary robed man rejection without inventing horns or wings on a human.",
+    "No people, nudity, sexual activity or assault; flight through window is the selected nonsexual moment.",
+    "Natural brown bat, close framing, moonlight and linen are editorial; no invented giant animal size."
   ],
   "old_url": "/assets/art/incubus-verified.webp",
   "old_webp_sha256": "fc62190fdc7a4880c1d02dbb6e378e9d46b367f6f790cc16b83901d608d92a66",
@@ -48,21 +49,38 @@
   "old_native_sha256": null,
   "historical_native_sha256": null,
   "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/incubus.png",
-  "native_sha256": "f135d78408383f4df0fc60c6da017c44c7851e6a62af6568c0648eeb7fb6d4fd",
-  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-f2a850b9-0927-43b6-9535-2f225325471e.png",
+  "native_sha256": "cebd86d6053784474e7df54395ce6acae4a0207f9825c696f4ba5b17040e00c4",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-784e-76a1-b1ae-5d5cc188cac8/exec-6bcfac3f-91f2-4484-bc66-9ec1ce7e0716.png",
   "visual_review": {
-    "verdict": "pass",
     "reviewer": "codex",
-    "notes": "Viewed native PNG: one ordinary human-form male in completely modest dark robes, two arms/hands and clothed two legs, menacing low-angle unoccupied bedroom threshold. No invented horns/wings/hooves, no sexual contact/nudity. Nightmare identity conveyed by candle shadows and dreamlike corridor; no elemental emission/text.",
-    "native_sha256": "f135d78408383f4df0fc60c6da017c44c7851e6a62af6568c0648eeb7fb6d4fd",
-    "reviewed_at": "2026-10-06T08:13:31.972Z"
+    "verdict": "pass",
+    "notes": "Native PNG inspected: one coherent bat incarnation with one head, two eyes, two membranous forelimb wings and two hind feet, natural ears and opened small-toothed bat mouth. Wings bank asymmetrically through empty bedroom window directly toward viewer; the foreshortened membrane fills foreground and bat dominates thumbnail. Moonlight, dust, rough timber and empty bed edge; no people, sexual content, horns, human torso, emitted magic, lettering or watermark. Physical flight into bedroom uses documented c10 variant and answers ordinary man rejection. All seven Uji Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "cebd86d6053784474e7df54395ce6acae4a0207f9825c696f4ba5b17040e00c4",
+    "reviewed_at": "2026-10-08T04:08:56.704086+00:00"
   },
+  "worker_agent": "lane_1055_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/incubus-attempt-01.png",
+      "receipt_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/incubus-attempt-01.json",
+      "native_sha256": "f135d78408383f4df0fc60c6da017c44c7851e6a62af6568c0648eeb7fb6d4fd",
+      "reason": "Reads as an ordinary man in robes at a doorway; no supernatural presence."
+    }
+  ],
+  "batch": "nama-besar",
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "f135d78408383f4df0fc60c6da017c44c7851e6a62af6568c0648eeb7fb6d4fd",
-    "notes": "Reads as an ordinary man in robes at a doorway; no supernatural presence."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "cebd86d6053784474e7df54395ce6acae4a0207f9825c696f4ba5b17040e00c4",
+    "notes": "A coherent bat with spread membranes and open fanged mouth enters the moonlit bedroom window toward the viewer; menacing night entry."
   },
-  "correction_notes": "Reads as an ordinary man in robes at a doorway; no supernatural presence."
+  "reviewed_at": "2026-10-08T04:30:26.950Z"
 }

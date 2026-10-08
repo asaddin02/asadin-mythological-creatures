@@ -1,45 +1,84 @@
 {
   "slug": "themis",
-  "prompt": "THEMIS, Greek Titan goddess of divine law and justice: ONE fully clothed mature HUMAN woman with one head TWO arms, UNBLINDFOLDED wise calm eyes. One hand holds clear BALANCED SCALES, other carries a CORNUCOPIA of fruits and grain (themis-c09). NO SWORD. Tall opaque ivory-gold Greek draperies, standing on colossal DELPHI oracle terrace (c06/c13), tiny ancient temple below mountain valley, monumental low viewpoint, enormous natural gold sky and deep blue shadows. Calm supreme lawgiver silhouette, tactile metal scale and woven robes. No magical law beam, wings or invented anatomy. Use case: stylized-concept. Original square premium monumental painterly Mythics encyclopedia portrait, very low angle, rich tactile detail, powerful clear silhouette, tiny references for scale, dramatic cinematic light. No text, writing, watermark, border, logo, nudity, gore, copied movies/games/anime or unsupported body parts/effects.",
-  "depicted_variant": "Unblindfolded human Themis with scales and cornucopia.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of THEMIS, Greek Titan goddess of divine law, order and justice.\nANATOMY: ONE adult female deity, one human head, two eyes open and UNBLINDFOLDED, exactly TWO arms, fully opaque thick antique ivory Greek drapery and a dark walnut mantle. Her RIGHT hand grips the handle of ONE large suspended BALANCED SCALE with TWO clearly separate bronze pans hanging on chains from its horizontal beam. Her LEFT arm carries ONE abundant CORNUCOPIA horn of fruit and grain, huge spiraling horn mouth facing the lens. No sword. [themis-c01, themis-c02, themis-c09]\nMOMENT: Raise the balanced scales overhead to summon an assembly and step down toward the viewer; mouth slightly open in authoritative address, stern eyes cast down directly toward the lens. The full scale beam and both hanging pans are clearly readable above her commanding face, cornucopia projects toward foreground. [themis-c07]\nPOWER: no documented physical emission; summoning authority is a vocal physical gesture, not magic projections. Awe through documented sacred scales and cornucopia.\nSCALE & CAMERA: extreme low camera from the bottom of Delphi stone steps, very close waist-up composition; figure, scales and cornucopia fill ninety percent, no tiny distant goddess. Full scale beam/pans and horn remain inside frame.\nLIGHT & WEATHER: one slanting hard warm sunbeam illuminates bronze, cheeks and ripe fruit, deep walnut and charcoal shadows; ordinary wind moves heavy mantle.\nSURFACE: hammered bronze scales with taut real chains, rough woven opaque wool and linen, ridged real horn, dusty stone steps.\nSETTING: Delphi oracle stone steps with shadowed plain marble doorway fragments and dark mountain glimpse; all stone surfaces blank and uninscribed. [themis-c06]\nMOOD: awe-inspiring divine lawgiver issuing a command, severe and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, glyphs, inscriptions, logo, border, frame or watermark; no blindfold or sword; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons; no floating magical symbols or invented power.",
+  "depicted_variant": "Unblindfolded Themis lifting clearly balanced scales and projecting cornucopia during a commanding summons.",
   "basis_claim_ids": [
     "themis-c01",
     "themis-c02",
-    "themis-c06",
     "themis-c09",
-    "themis-c13"
+    "themis-c07",
+    "themis-c06"
   ],
   "visual_requirements": [
-    "Human goddess with CORNUCOPIA and SCALES — themis-c09.",
-    "No blindfold or sword imported from modern Lady Justice.",
-    "Oracle/justice presence — themis-c06/c13."
+    {
+      "kind": "anatomy",
+      "description": "Female law personification with readable scales and cornucopia; no blindfold or sword.",
+      "claim_ids": [
+        "themis-c02",
+        "themis-c09"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No physical magic emission; raised scales and addressing posture stage summoning assemblies.",
+      "claim_ids": [
+        "themis-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Delphi oracle steps staged with blank marble architecture.",
+      "claim_ids": [
+        "themis-c06"
+      ]
+    }
   ],
-  "aura": "No physical visible power effect documented; natural monumental Delphi light and balanced pose.",
+  "aura": "Lawgiver authority from documented scales/cornucopia (themis-c09) and summoning assemblies (themis-c07), no invented emission.",
   "artistic_choices": [
-    "Divine law and prophecy do not specify an emission effect, so use composition and natural light.",
-    "No modern blindfold/sword imported; cloth, appearance and Delphi terrace are editorial staging."
+    "Close low camera and verbal summoning gesture stage divine authority without claiming gigantic anatomy.",
+    "Clothing, face, bronze construction and Delphi stair architecture are editorial.",
+    "No visible power effect documented; ordinary sunlight/wind only.",
+    "Ordinary metal leaf circlet and woven-garment fittings are editorial classical ornament, not special claimed iconography."
   ],
   "visual_review": {
-    "notes": "Viewed native: fully draped adult human woman with two arms, eyes unblindfolded, balanced scales and cornucopia. No sword or modern blindfold imported; majestic Delphi-like terrace and mountain valley under natural sunlight. Normal anatomy, no magic beam, text or watermark.",
     "reviewer": "codex",
     "verdict": "pass",
-    "native_sha256": "25894e9856355ca72aa00a5eea56e19d0148b87458dff9c94a646a45a7f5c9a2",
-    "reviewed_at": "2026-10-06T09:13:09.398675+00:00"
+    "notes": "Native inspected: Themis fills frame from a steep low viewpoint, steps forward with raised balanced scale, lips parted in address, large cornucopia held in other arm. Two arms, one head, both scales pans and fruit horn readable, no blindfold/sword. Opaque Greek robes, natural sunlight and blank Delphi stone/mountain setting. No supernatural emission, text or watermark; seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "974e8ff97ced47888d17304997b5592ce5a4c1a382b19e57e8677d09beb79b93",
+    "reviewed_at": "2026-10-08T04:05:40.086303+00:00"
   },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-371c-7680-935d-9da18174a957/exec-fbd486f0-ce41-4e91-9caa-8826a30844ff.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/themis.png",
-  "native_sha256": "25894e9856355ca72aa00a5eea56e19d0148b87458dff9c94a646a45a7f5c9a2",
-  "status": "needs-correction",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-9949-75d3-9b67-7f8980960be5/exec-34aeda70-4b3e-431b-bc1f-abc7b321363d.png",
+  "original_file": "data/artwork-generated/batch-1055/originals/themis.png",
+  "native_sha256": "974e8ff97ced47888d17304997b5592ce5a4c1a382b19e57e8677d09beb79b93",
+  "status": "reviewed",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
   "review_path": "data/gemini/reviews/batch-044.review.json",
-  "reviewed_at": "2026-10-06T09:13:09.398675+00:00",
+  "reviewed_at": "2026-10-08T04:30:26.950Z",
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1055/rejected/themis-attempt-01.png",
+      "native_sha256": "25894e9856355ca72aa00a5eea56e19d0148b87458dff9c94a646a45a7f5c9a2",
+      "reason": "Ordinary woman with scales and cornucopia at human scale.",
+      "receipt_file": "data/artwork-generated/batch-1055/rejected/themis-attempt-01.json"
+    }
+  ],
+  "worker_agent": "lane_1055_b",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1055,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T04:05:40.086303+00:00",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "25894e9856355ca72aa00a5eea56e19d0148b87458dff9c94a646a45a7f5c9a2",
-    "notes": "Ordinary woman with scales and cornucopia at human scale."
-  },
-  "correction_notes": "Ordinary woman with scales and cornucopia at human scale."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "974e8ff97ced47888d17304997b5592ce5a4c1a382b19e57e8677d09beb79b93",
+    "notes": "Themis raises balanced scales and bears a cornucopia on the Delphi steps from a steep low angle; unblindfolded, no sword."
+  }
 }

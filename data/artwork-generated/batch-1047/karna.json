@@ -1,7 +1,7 @@
 {
   "slug": "karna",
-  "prompt": "Use case: historical-scene. ONE square premium painterly naturalistic Mythics mythology encyclopedia illustration; dramatic low camera, monumental presence, small scale references, rich materials and cinematic contrast. Respect living religions. No text, letters, hieroglyphs, cuneiform, logos, border, watermark, gore or nudity. Never copy film/game/anime/comic character designs. Add no extra attributes or anatomy beyond the explicitly specified source-backed variant. One monumental ordinary HUMAN male warrior Karna, Hindu Mahabharata hero, with distinct GOLDEN EARRINGS (documented Surya-linked earrings), fully modest ancient South Asian robe and practical uninscribed armor, two arms and two legs, no extra anatomy. Stand resolute over a tiny distant battlefield in natural bright dawn, kingly poised quiet strength. No held bow, sword or other unsupported specific weapon; no Kavacha claim, no emitted solar flame, halo or magical body armor. Association with solar parent is relationship evidence, not proof of self-emitted solar powers. Clothing/armor appearance and human portrait features are editorial rendering, no modern comic/anime design.",
-  "depicted_variant": "One monumental ordinary HUMAN male warrior Karna, Hindu Mahabharata hero, with distinct GOLDEN EARRINGS (documented Surya-linked earrings), fully modest ancient South Asian robe and practical uninscribed armor, two arms and two legs, no extra anatomy. Stand resolute over a tiny distant battlefield in natural bright dawn, kingly poised quiet strength. No held bow, sword or other unsupported specific weapon; no Kavacha claim, no emitted solar flame, halo or magical body armor. Association with solar parent is relationship evidence, not proof of self-emitted solar powers. Clothing/armor appearance and human portrait features are editorial rendering, no modern comic/anime design.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of KARNA, the heroic warrior and king of Anga from the Mahabharata, with the documented golden earrings of Surya.\nANATOMY: one human male warrior, one head, two eyes, exactly TWO ordinary arms and TWO legs, wearing fully opaque layered ancient South Asian battle clothing and plain practical protective armor. A pair of large clearly GOLDEN EARRINGS, one at each ear, no glowing magic jewelry. [karna-c03,karna-c04,karna-c05]\nMOMENT: charging forward into battle toward the viewer, head lowered with fierce focused downward gaze, one clenched fist driving forward, the other arm thrown backward, strong upper body twisting with momentum; no passive pose. [karna-c04]\nPOWER: no documented supernatural attack or specific weapon; immense heroic presence through fierce action, armor texture, dust and close camera only. Son of the sun god does not imply emitted solar power. [karna-c01,karna-c04]\nSCALE & CAMERA: extreme low-angle close three-quarter portrait, shoulders and face fill most of square, golden earrings both clearly visible at thumbnail, foreground fist foreshortened; ordinary human bodily size, no tiny people.\nLIGHT & WEATHER: one harsh warm sunrise sidelight, deep shadow, airborne natural battle dust; dramatic but no halo, aura or flames.\nSURFACE: weathered plain bronze protective plates, rough cloth, worn gold earrings, sweat and gritty dust.\nSETTING: smoky-dusty battlefield of the Kurukshetra war, no visible combatants needed. [karna-c04]\nMOOD: noble, awe-inspiring, dangerous battlefield resolve, respectful epic hero; never calm ordinary soldier or monster.\nHARD CONSTRAINTS: no bow, sword, invented magical armor, solar disk, sunfire or magic powers; no readable patterns, text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no film/game/anime/comic design; no nudity or gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Human epic warrior charging into Kurukshetra combat with two conspicuous golden earrings, no supernatural attack.",
   "basis_claim_ids": [
     "karna-c01",
     "karna-c03",
@@ -9,34 +9,77 @@
     "karna-c05"
   ],
   "visual_requirements": [
-    "Human Mahabharata warrior/king with coherent ordinary anatomy (karna-c01,karna-c03,karna-c04)",
-    "Golden earrings distinguished without invented solar powers (karna-c05)"
+    {
+      "kind": "anatomy",
+      "description": "Human male warrior/king with pair of clearly golden earrings explicitly documented in c05, ordinary human anatomy and opaque attire.",
+      "claim_ids": [
+        "karna-c03",
+        "karna-c04",
+        "karna-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Active battlefield charge, physical motion and environmental dust; no source-supported supernatural emitted effect.",
+      "claim_ids": [
+        "karna-c01",
+        "karna-c04"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Kurukshetra battlefield from c04, no unsupported specific weapon.",
+      "claim_ids": [
+        "karna-c04"
+      ]
+    }
   ],
-  "aura": "Strong natural dawn and kingly battlefield presence; no emitted magical effect.",
+  "aura": "Heroic fierce battlefield action (karna-c04), source-backed golden earrings (karna-c05), close foreshortening and natural dawn/dust; Surya parentage (karna-c01) is not represented as emitted solar power.",
   "artistic_choices": [
-    "Research records no specific bodily appearance or power; standard human warrior rendering, clothes and armor materials are artistic choices. Golden earrings are source-backed; no magical armor or solar attack is claimed.",
-    "Camera angle, palette and environmental composition are artistic rendering of accepted research, rather than source quotations."
+    "Forward charge with bare clenched fists is editorial battle staging, not an invented documented unarmed technique or named weapon.",
+    "Armor is plain ordinary protective clothing, no Kavacha claim, magical invulnerability or emitted solar effect; exact design and geometric motifs editorial.",
+    "Human size preserved; head/shoulders and foreground fist dominate through close perspective rather than giant body.",
+    "Battle dust, flags and dawn are contextual scenery, not a divine force."
   ],
   "visual_review": {
-    "verdict": "pass",
-    "notes": "Viewed native PNG: one human warrior with two arms/two legs, pair of clearly golden earrings, modest robe/armor and distant battlefield. No held specific weapon, emitted sunfire, halo or magic armor claimed. Decorative solar medallion and clothing are editorial styling linked to solar-parent association; no text/gore.",
     "reviewer": "codex",
-    "native_sha256": "40333a42a7964e355021d56e3c2144498e2b0f2ac3862982c5e4e6a080e3cb6e"
+    "verdict": "pass",
+    "notes": "Native inspected: one human hero with two arms, foreground clenched fist and back clenched fist, covered torso, coherent lower clothing, two clear large golden earrings. Forceful charge, wind/dust and fierce direct gaze dominate thumbnail, resolving passive ordinary soldier issue. No held unsupported weapon, solar attack, aura, text, watermark or gore.",
+    "limitations": [],
+    "native_sha256": "c5bcf90f11d962a5c242a1e66c68ff12603e690a0a4d5534495f1876a5327255",
+    "reviewed_at": "2026-10-08T04:06:48.584589+00:00"
   },
-  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-6127a3ec-a60a-4b1d-88dc-7c1aa75aedee.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/karna.png",
-  "native_sha256": "40333a42a7964e355021d56e3c2144498e2b0f2ac3862982c5e4e6a080e3cb6e",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-5164-7c31-95b8-92b89dd9af58/exec-7e7fe73a-61fb-4b13-9ef3-5f8e74b0d2db.png",
+  "original_file": "data/artwork-generated/batch-1047/originals/karna.png",
+  "native_sha256": "c5bcf90f11d962a5c242a1e66c68ff12603e690a0a4d5534495f1876a5327255",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
-  "status": "needs-correction",
+  "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-072.review.json",
-  "reviewed_at": "2026-10-06T08:38:37.399016+00:00",
+  "worker_agent": "lane_1047",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1047,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T04:06:48.584589+00:00",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1047/rejected/karna-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1047/rejected/karna-attempt-01.json",
+      "native_sha256": "40333a42a7964e355021d56e3c2144498e2b0f2ac3862982c5e4e6a080e3cb6e",
+      "reason": "A human hero shown as an ordinary warrior."
+    }
+  ],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "40333a42a7964e355021d56e3c2144498e2b0f2ac3862982c5e4e6a080e3cb6e",
-    "notes": "A human hero shown as an ordinary warrior."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "c5bcf90f11d962a5c242a1e66c68ff12603e690a0a4d5534495f1876a5327255",
+    "notes": "Karna charges with fist toward the viewer, two large golden earrings clear, battlefield dust and banners; forceful, no unsupported weapon."
   },
-  "correction_notes": "A human hero shown as an ordinary warrior."
+  "reviewed_at": "2026-10-08T04:30:26.950Z"
 }

@@ -1,0 +1,50 @@
+{
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of MUT, Egyptian divine mother and protector of king and state.\nANATOMY: ONE adult human woman deity, one head, two eyes, exactly two arms; fully opaque heavy ivory linen robes and dark red mantle. Wear a huge clearly readable DOUBLE CROWN: tall WHITE round-tipped hedjet rising inside the RED deshret base with a thin curled front projection. Do not fuse animal forms. [mut-c01, mut-c08, mut-c12]\nMOMENT: Lean forward over the blazing bronze brazier and sweep her open palm down above its rim, face tilted down to confront the viewer, eyes severe, lips parted in command. Other hand grips the far rim. The brazier and her face occupy most of the image; active blaze throws real sparks toward foreground.\nPOWER: a ferocious but contained brazier fire from documented flaming brazier, no victim or gore; physical rising flame and sparks only. No fire out of her hands, eyes or crown. [mut-c13]\nSCALE & CAMERA: extreme low angle from just below the brazier rim, close framing WITH 10 PERCENT CLEAR SPACE ABOVE THE COMPLETE ROUND WHITE CROWN TIP; the double crown is as wide as her shoulders and her commanding face is large. Divine grandeur through perspective, no tiny human scale comparison or invented giant anatomy.\nLIGHT & WEATHER: ONLY the roaring brazier provides amber key light and hard rim illumination; deep black-walnut shadows, real soot and smoke rising from its coals.\nSURFACE: hammered old bronze brazier, charred coals, dense woven linen, aged crown lacquer.\nSETTING: dark Theban triad sanctuary setting, PLAIN UNCARVED columns: absolutely no hieroglyphs, no engraved marks or patterned writing anywhere. [mut-c07]\nMOOD: awe-inspiring sacred mother/protector with ruthless authority, dangerous and imposing, never cute, calm or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore, burning people or visible victims; no generic glow aura, neon outline or energy ribbons. Additional critical requirement: ALL architecture and brazier surfaces are blank rough uncarved material with absolutely no glyphs or inscriptions; keep both parts of double crown completely inside frame.",
+  "basis_claim_ids": [
+    "mut-c01",
+    "mut-c08",
+    "mut-c12",
+    "mut-c13",
+    "mut-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Human woman Mut wearing clearly visible double Red-and-White crown.",
+      "claim_ids": [
+        "mut-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Fire, sparks and smoke remain physically in/from flaming brazier, without victims.",
+      "claim_ids": [
+        "mut-c13"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Theban triad sanctuary editorial staging.",
+      "claim_ids": [
+        "mut-c07"
+      ]
+    }
+  ],
+  "depicted_variant": "Human double-crowned Mut commanding a blazing brazier in a close low-angle protective-authority scene.",
+  "aura": "Documented double crown (mut-c08), protector authority (mut-c12) and physical flaming brazier (mut-c13) create imposing presence.",
+  "artistic_choices": [
+    "Low close framing and forceful open-palm gesture stage documented protective authority without inventing an emission.",
+    "Opaque robes, brazier construction and dark sanctuary architectural detail are editorial.",
+    "Omit victims/gore and any hand-emitted magic; fire remains in its documented brazier."
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-9949-75d3-9b67-7f8980960be5/exec-29450a7f-eee8-4c7b-8e40-8ef8140abd37.png",
+  "notes": "Native inspected: imposing close crowned female Mut leaning forward over blazing brazier with commanding open palm and rim-gripping other hand, two arms. Full white-red double crown visible, opaque robes. Fire originates from coals only, plain columns have no lettering. No victims, invented emission, extra anatomy, watermark. All Sangar checks pass.",
+  "new_rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1055/rejected/mut-attempt-01.png",
+      "native_sha256": "ea9685b3d267f24d5c15b3f12937273af96fcccfc87b0a353a1979fd644f395a",
+      "reason": "Rejected by Codex native inspection: visible rows of hieroglyphs on columns violate no lettering and white crown apex cropped.",
+      "receipt_file": "data/artwork-generated/batch-1055/rejected/mut-attempt-01.json"
+    }
+  ]
+}

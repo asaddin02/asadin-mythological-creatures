@@ -17,7 +17,7 @@
   "require_root_visual_review": true,
   "screening_complete": true,
   "target": 67,
-  "complete": 57,
+  "complete": 65,
   "catalogue_slugs": [
     "a",
     "aamon",
@@ -19268,7 +19268,7 @@
       "slug": "hathor",
       "canonical_name": "Hathor",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "fill_status": "lengkap-bergambar",
       "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
       "old_artwork": {
@@ -19653,15 +19653,74 @@
         ]
       },
       "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/hathor.json",
-      "native_sha256": "a0884386dabd230f17426d7bc59110bde00bd204b52e0d95e58a7a0797326eec",
-      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/hathor.png"
+      "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/hathor.png",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of HATHOR, the ancient Egyptian goddess in her documented heavenly cow form.\nANATOMY: One living female bovine, exactly one bovine head, two horns, two eyes and four legs; a HUGE METAL SUN DISK visibly nestled between the two horns, nearly as wide as her face. This is the sacred cow with stars above, emerging from papyrus. No human torso, no wings, no extra anatomy. [hathor-c10,hathor-c11,hathor-c15]\nMOMENT: Thrust her head forward and down toward the viewer as she drives bodily through towering papyrus, one front hoof landing at the very bottom foreground, reeds bending and dark water splashing through direct contact. Forceful, awe-inspiring arrival of a goddess, steady authoritative stare into the viewer. Not grazing, not a peaceful farm animal.\nPOWER: No invented emitted magic or fire attack. Divinity is expressed through her documented disk and star-filled heavenly iconography; splashes and moving reeds come only from her physical advance. [hathor-c10,hathor-c11,hathor-c15]\nSCALE & CAMERA: Extreme low camera at hoof level, wide-angle close framing; the head and horns occupy the upper TWO THIRDS of the square. Forehead almost brushes the viewer. Her deep chest and the receding four legs complete a coherent body; no tiny-human scale props or invented giant anatomy. Build overwhelming monumental presence through perspective, not added biological size.\nLIGHT & WEATHER: ONE dominant golden backlight precisely behind the metal sun disk silhouettes the horns and rims her face; deep walnut shadows, suspended spray and a dark night sky showing crisp stars overhead. Disk is metal in backlight, not an energy weapon.\nSURFACE: Dense dark russet hide, wet coarse hair, fine rough horn texture, ancient gold disk; avoid black-and-white dairy spotting. Rich painterly physical material, not plastic.\nSETTING: Tangled papyrus thicket with shallow dark water; stars overhead. [hathor-c10,hathor-c15]\nMOOD: Benevolent but overwhelming divine authority, awe-inspiring and imposing; never cute, placid, decorative, or ordinary livestock. Sacred devotional art, original composition.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glowing aura, neon outline or energy ribbons. No human spectators, no farm fence, no pastoral daylight.",
+      "depicted_variant": "Sacred cow advancing through papyrus, face and solar disk dominating the low-angle frame.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One living cow with two horns surrounding a broad metal sun disk.",
+          "claim_ids": [
+            "hathor-c11"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Cow advances out of papyrus, stars overhead.",
+          "claim_ids": [
+            "hathor-c10",
+            "hathor-c15"
+          ]
+        }
+      ],
+      "aura": "Overwhelming perspective and documented solar disk and stars (hathor-c10,c11); physical splash from motion only.",
+      "basis_claim_ids": [
+        "hathor-c10",
+        "hathor-c11",
+        "hathor-c15"
+      ],
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native inspected: sacred cow head fills frame beneath a huge textured metal solar disk and stars, forceful hoof advancing through water and papyrus. Two horns, one head, coherent bovine limbs partly occluded in physical perspective; no human hybrid. Awe readable at thumbnail, no generic aura or invented emitted attack, no text or watermark. All seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
+        "reviewed_at": "2026-10-08T03:56:51.211289+00:00"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
+        "notes": "Hathor as a sacred cow advances through papyrus water beneath a vast sun disk and stars; divine, no longer a dairy cow."
+      },
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/hathor.json",
+        "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
+        "old_url": "/assets/art/hathor-verified.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/hathor.png",
+        "old_webp_sha256": "3b2de6d0789a37d2f3923c3ff451eafdfad96e6f2cf30ee5acc3ccea5889ec2a",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "hathor-c10",
+          "hathor-c11",
+          "hathor-c15"
+        ]
+      },
+      "url": "/assets/art/hathor-presentation-revision-nama-besar.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "95cfb34dcd7d10ec14721698bf5a696dde4bf4fac377e073ba97af47953fd856"
     },
     {
       "index": 3,
       "slug": "set-deity",
       "canonical_name": "Set",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "tidak-digambar",
       "fill_status": "lengkap-bergambar",
       "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
       "old_artwork": {
@@ -20110,7 +20169,8 @@
       },
       "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/set-deity.json",
       "native_sha256": "ab6a10892144c9c5d5e8211dfbcb79fcdf98263def1addf5fa551cc1e25f373f",
-      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/set-deity.png"
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/set-deity.png",
+      "reason": "Set-c15 menyebut hewan Set tidak teridentifikasi tetapi tidak mendokumentasikan susunan kepala/tubuh/atribut. Semua kutipan klaim saat ini tidak memberikan wujud yang boleh digambar. Lanskap badai sudah ditolak karena sosok absen; menggambar kepala hewan ikonik tanpa klaim akan mengarang anatomi. Memilih §6.5(b); perlu Claude menambah riset wujud."
     },
     {
       "index": 4,
@@ -21653,7 +21713,7 @@
       "slug": "elf",
       "canonical_name": "Elf",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "tidak-digambar",
       "fill_status": "lengkap-bergambar",
       "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
       "old_artwork": {
@@ -22046,7 +22106,8 @@
       },
       "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/elf.json",
       "native_sha256": "6c211be02e4cf2f41472d509de718afaf178675635b48ead7fac145175538c08",
-      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/elf.png"
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/elf.png",
+      "reason": "Klaim elf-c01/c02/c03/c07 menyebut figur ilahi kecil dan perajin Volund, tetapi tidak memberikan ciri wujud gaib atau anatomi yang membedakannya dari manusia; elf-c16 justru menolak asumsi telinga lancip asli. Kuasa penyakit c11 tidak memberi bentuk manifestasi yang boleh diilustrasikan. Perajin biasa sebelumnya ditolak. Memilih §6.5(b), tidak mengarang ciri atau mekanisme kekuatan."
     },
     {
       "index": 8,
@@ -27406,7 +27467,7 @@
       "slug": "kartikeya",
       "canonical_name": "Kartikeya",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "fill_status": "lengkap-bergambar",
       "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
       "old_artwork": {
@@ -27562,6 +27623,38 @@
               "kartikeya-c14",
               "kartikeya-c15"
             ]
+          },
+          {
+            "id": "Britannica 1911 menyebut Kartikeya sebagai dewa perang dalam mitologi Hindu dan mencatat berbagai legenda kelahirannya. Satu legenda menyebutnya tidak beribu dan dihasilkan oleh Siva sendiri, disusui enam bidadari Sungai Gangga, dan diberi enam wajah agar dapat menyusu dari masing-masing sekaligus. Cerita lain menyebut enam bayi lahir dari keenam bidadari itu, lalu Parvati, istri Siva, memeluk mereka begitu erat hingga menyatu tetapi tetap berenam wajah dan berdua belas lengan. Britannica juga mencatat bahwa ia menjadi penakluk para raksasa dan pemimpin pasukan para dewa, digambarkan menunggang merak, dan di India selatan dikenal sebagai Subramanya.",
+            "en": "The 1911 Britannica calls Kartikeya the god of war in Hindu mythology and records several legends of his birth. One legend says he had no mother, was produced by Siva alone, was suckled by six nymphs of the Ganges, and was given six faces so that he could feed from each at once. Another story says six babes were born of the six nymphs and Parvati, wife of Siva, embraced them so closely that they became one while keeping six faces and twelve arms. Britannica also records that he became the victor of giants and leader of the armies of the gods, is shown riding a peacock, and is known in southern India as Subramanya.",
+            "claim_ids": [
+              "kartikeya-c16",
+              "kartikeya-c17",
+              "kartikeya-c18",
+              "kartikeya-c19"
+            ]
+          },
+          {
+            "id": "Museum Bihar menulis bahwa menurut Shiva Purana Kartikeya dianggap putra sulung Shiva, sedangkan Wikipedia mencatat bahwa Ganesha Purana, Shiva Purana, dan Skanda Purana menyatakan Ganesha lebih tua. Museum itu juga menggambarkan arca Kartikeya yang duduk di atas merak dengan kalung berhias kuku harimau dan jimat. Dalam Ramayana Valmiki ia digambarkan sebagai anak Rudra dan Parvati dengan kelahiran yang dibantu Agni dan Ganga. Menurut Shiva Purana, asura Tarakasura memperoleh anugerah dari Brahma bahwa hanya putra Shiva yang dapat membunuhnya.",
+            "en": "The Bihar Museum writes that according to the Shiva Purana Kartikeya is considered the eldest son of Shiva, whereas Wikipedia notes that several Shavite puranas, among them the Ganesha Purana, Shiva Purana, and Skanda Purana, hold Ganesha to be the elder. The museum also describes a Kartikeya sculpture seated on a peacock and wearing a necklace with a tiger's nail and an amulet. In Valmiki's Ramayana he is described as the child of Rudra and Parvati, with his birth aided by Agni and Ganga. According to the Shiva Purana, the asura Tarakasura received a boon from Brahma that only a son of Shiva could slay him.",
+            "claim_ids": [
+              "kartikeya-c20",
+              "kartikeya-c21",
+              "kartikeya-c22",
+              "kartikeya-c23",
+              "kartikeya-c24"
+            ]
+          },
+          {
+            "id": "Dalam pertempuran melawan Surapadma, Surapadma lari ke laut dan menjelma pohon mangga besar; Kartikeya membelahnya dengan vel, dan kedua belahannya menjadi merak dan ayam jantan yang kemudian menjadi wahana dan panjinya. Dalam kisah buah pengetahuan, ia mengelilingi dunia dengan merak, tetapi Ganesha mengelilingi orang tuanya dan memenangkan buah itu; Kartikeya yang merasa dicurangi meninggalkan Kailasha dan menetap di Bukit Palani sebagai pertapa. Teks Tamil kuno Tolkappiyam dari abad kedua SM menyebut Ceyon (\"si merah\") dan Murukan (\"si pemuda\") sebagai dewa daerah perbukitan. Thaipusam dirayakan untuk memperingati kemenangan Murugan atas para asura.",
+            "en": "In the battle against Surapadma, Surapadma flees to the sea as a large mango tree; Kartikeya splits it with the vel, and the halves become a peacock and a rooster that later serve as his mount and his pennant. In the story of the fruit of knowledge he circles the world on his peacock, but Ganesha circles his parents and wins the fruit; Kartikeya, feeling cheated, leaves Kailasha and settles in the Palani Hills as a hermit. The Tolkappiyam, a Tamil text from the second century BCE, names Ceyon (\"the red one\") and Murukan (\"the youth\") in connection with the god of the hills. Thaipusam is celebrated to commemorate Murugan's victory over the asuras.",
+            "claim_ids": [
+              "kartikeya-c25",
+              "kartikeya-c26",
+              "kartikeya-c27",
+              "kartikeya-c28",
+              "kartikeya-c29"
+            ]
           }
         ],
         "cultural_context": null,
@@ -27580,9 +27673,98 @@
         "did_you_know": null,
         "abilities": [],
         "weaknesses": [],
-        "variants": [],
-        "stories": [],
-        "places": [],
+        "variants": [
+          {
+            "name": "Murugan",
+            "tradition": {
+              "id": "Tamil",
+              "en": "Tamil"
+            },
+            "description": {
+              "id": "Dalam sastra Sangam Tamil Murugan disebut sebagai dewa pelindung wilayah Kurinji, dan Tolkappiyam menyebut Ceyon dan Murukan sebagai dewa daerah perbukitan.",
+              "en": "In Tamil Sangam literature Muruga is a tutelary deity of the Kurinji region, and the Tolkappiyam mentions Ceyon and Murukan as the god of the hilly regions."
+            },
+            "claim_ids": [
+              "kartikeya-c05",
+              "kartikeya-c28"
+            ]
+          }
+        ],
+        "stories": [
+          {
+            "title": {
+              "id": "Kelahiran Kartikeya",
+              "en": "The birth of Kartikeya"
+            },
+            "role": {
+              "id": "Kartikeya lahir menurut beberapa legenda yang berbeda.",
+              "en": "Kartikeya is born according to several different legends."
+            },
+            "summary": {
+              "id": "Britannica 1911 mencatat satu legenda tentang enam bidadari Sungai Gangga yang menyusuinya dan satu cerita tentang enam bayi yang disatukan Parvati; Wikipedia memuat pula versi dengan Agni dan Svaha serta versi Ramayana dengan Rudra dan Parvati.",
+              "en": "The 1911 Britannica records a legend of six nymphs of the Ganges who suckled him and a story of six babes joined by Parvati; Wikipedia also gives a version with Agni and Svaha and a Ramayana version with Rudra and Parvati."
+            },
+            "claim_ids": [
+              "kartikeya-c17",
+              "kartikeya-c18",
+              "kartikeya-c11",
+              "kartikeya-c12",
+              "kartikeya-c23"
+            ]
+          },
+          {
+            "title": {
+              "id": "Pertempuran melawan Surapadma",
+              "en": "The battle against Surapadma"
+            },
+            "role": {
+              "id": "Kartikeya adalah panglima pasukan para dewa yang menewaskan Surapadma.",
+              "en": "Kartikeya is the commander of the gods' army who kills Surapadma."
+            },
+            "summary": {
+              "id": "Surapadma menjelma pohon mangga di laut; Kartikeya membelahnya dengan vel, dan belahannya menjadi merak serta ayam jantan.",
+              "en": "Surapadma takes the form of a mango tree in the sea; Kartikeya splits it with the vel and the halves become a peacock and a rooster."
+            },
+            "claim_ids": [
+              "kartikeya-c09",
+              "kartikeya-c25"
+            ]
+          },
+          {
+            "title": {
+              "id": "Buah pengetahuan dan Bukit Palani",
+              "en": "The fruit of knowledge and the Palani Hills"
+            },
+            "role": {
+              "id": "Kartikeya kalah dalam adu mengelilingi dunia dan meninggalkan Kailasha.",
+              "en": "Kartikeya loses the race around the world and leaves Kailasha."
+            },
+            "summary": {
+              "id": "Ganesha mengelilingi orang tuanya dan memenangkan buah pengetahuan; Kartikeya yang merasa dicurangi menetap di Bukit Palani sebagai pertapa.",
+              "en": "Ganesha circles his parents and wins the fruit of knowledge; Kartikeya, feeling cheated, settles in the Palani Hills as a hermit."
+            },
+            "claim_ids": [
+              "kartikeya-c26",
+              "kartikeya-c27"
+            ]
+          }
+        ],
+        "places": [
+          {
+            "name": {
+              "id": "Bukit Palani",
+              "en": "Palani Hills"
+            },
+            "type": "mountain",
+            "description": {
+              "id": "Tempat Kartikeya menetap sebagai pertapa dalam kisah buah pengetahuan.",
+              "en": "Where Kartikeya settles as a hermit in the story of the fruit of knowledge."
+            },
+            "claim_ids": [
+              "kartikeya-c27"
+            ]
+          }
+        ],
         "timeline": [],
         "relations": [
           {
@@ -27605,6 +27787,39 @@
             },
             "claim_ids": [
               "kartikeya-c03"
+            ]
+          },
+          {
+            "target_name": "Tarakasura",
+            "relation_type": "enemy",
+            "note": {
+              "id": "Asura yang hanya dapat dibunuh oleh putra Shiva.",
+              "en": "An asura who could only be slain by a son of Shiva."
+            },
+            "claim_ids": [
+              "kartikeya-c24"
+            ]
+          },
+          {
+            "target_name": "Surapadma",
+            "relation_type": "enemy",
+            "note": {
+              "id": "Asura yang dikalahkan Kartikeya dalam pertempuran terakhir.",
+              "en": "An asura whom Kartikeya defeats in the final battle."
+            },
+            "claim_ids": [
+              "kartikeya-c25"
+            ]
+          },
+          {
+            "target_name": "Agni",
+            "relation_type": "parent",
+            "note": {
+              "id": "Ayah dalam versi Vana Parva Mahabharata.",
+              "en": "Father in the Vana Parva version of the Mahabharata."
+            },
+            "claim_ids": [
+              "kartikeya-c12"
             ]
           }
         ],
@@ -27645,6 +27860,17 @@
             "language": "en",
             "type": "folklore-collection",
             "accessed": "2026-10-02"
+          },
+          {
+            "id": "kartikeya-s4",
+            "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Kartikeya",
+            "title": "1911 Encyclopædia Britannica/Kartikeya",
+            "author": null,
+            "publisher": "Encyclopaedia Britannica 1911; Wikisource",
+            "published": null,
+            "language": "en",
+            "type": "encyclopedia",
+            "accessed": "2026-10-07"
           }
         ],
         "claims": [
@@ -27706,7 +27932,7 @@
           {
             "id": "kartikeya-c06",
             "source_id": "kartikeya-s1",
-            "quote": "The iconography of Kartikeya varies significantly. He is typically represented as an ever-youthful man, riding or near an Peacock (named Paravani), and sometimes with an emblem of a rooster on his banner. He wields a spear called the vel, supposedly given to him by his mother Parvati.",
+            "quote": "He is typically represented as an ever-youthful man, riding or near an Peacock (named Paravani), and sometimes with an emblem of a rooster on his banner.",
             "locator": "Article text, paragraph 3",
             "context": "religious-tradition",
             "statement": {
@@ -27717,7 +27943,7 @@
           {
             "id": "kartikeya-c07",
             "source_id": "kartikeya-s1",
-            "quote": "The iconography of Kartikeya varies significantly. He is typically represented as an ever-youthful man, riding or near an Peacock (named Paravani), and sometimes with an emblem of a rooster on his banner. He wields a spear called the vel, supposedly given to him by his mother Parvati.",
+            "quote": "He wields a spear called the vel, supposedly given to him by his mother Parvati.",
             "locator": "Article text, paragraph 3",
             "context": "religious-tradition",
             "statement": {
@@ -27812,6 +28038,160 @@
               "id": "Mackenzie merangkum versi yang menghubungkan Kartikeya dengan Agni dan Gangga.",
               "en": "Mackenzie summarises a version connecting Kartikeya with Agni and the Ganges."
             }
+          },
+          {
+            "id": "kartikeya-c16",
+            "source_id": "kartikeya-s4",
+            "quote": "KARTIKEYA, in Hindu mythology, the god of war. Of his birth there are various legends.",
+            "locator": "Article text, opening lines",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Britannica 1911 menyebut Kartikeya sebagai dewa perang dalam mitologi Hindu dan mencatat bahwa ada berbagai legenda tentang kelahirannya.",
+              "en": "The 1911 Britannica calls Kartikeya the god of war in Hindu mythology and notes that there are various legends of his birth."
+            }
+          },
+          {
+            "id": "kartikeya-c17",
+            "source_id": "kartikeya-s4",
+            "quote": "One relates that he had no mother but was produced by Siva alone, and was suckled by six nymphs of the Ganges, being miraculously endowed with six faces that he might simultaneously obtain nourishment from each.",
+            "locator": "Article text",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut satu legenda dalam Britannica 1911, Kartikeya tidak beribu dan dihasilkan oleh Siva sendiri, disusui enam bidadari Sungai Gangga, dan secara ajaib diberi enam wajah agar dapat menyusu dari masing-masing sekaligus.",
+              "en": "One legend in the 1911 Britannica says he had no mother but was produced by Siva alone, was suckled by six nymphs of the Ganges, and was miraculously given six faces so he could take nourishment from each at once."
+            }
+          },
+          {
+            "id": "kartikeya-c18",
+            "source_id": "kartikeya-s4",
+            "quote": "Another story is that six babes, miraculously conceived, were born of the six nymphs, and that Parvati, the wife of Siva, in her great affection for them, embraced the infants so closely that they became one, but preserved six faces, twelve arms, feet, eyes, &c.",
+            "locator": "Article text",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut cerita lain dalam Britannica 1911, enam bayi yang dikandung secara ajaib lahir dari keenam bidadari itu, dan Parvati, istri Siva, memeluk mereka begitu erat hingga menyatu, tetapi tetap berenam wajah, berdua belas lengan, serta berkaki dan bermata sebanyak itu.",
+              "en": "Another story in the 1911 Britannica says six miraculously conceived babes were born of the six nymphs and that Parvati, wife of Siva, embraced them so closely that they became one while keeping six faces, twelve arms, and feet and eyes to match."
+            }
+          },
+          {
+            "id": "kartikeya-c19",
+            "source_id": "kartikeya-s4",
+            "quote": "Kartikeya became the victor of giants and the leader of the armies of the gods. He is represented as riding a peacock. In southern India he is known as Subramanya.",
+            "locator": "Article text, closing lines",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Britannica 1911 mencatat bahwa Kartikeya menjadi penakluk para raksasa dan pemimpin pasukan para dewa, digambarkan menunggang merak, dan di India selatan dikenal sebagai Subramanya.",
+              "en": "The 1911 Britannica records that Kartikeya became the victor of giants and leader of the armies of the gods, is represented riding a peacock, and is known in southern India as Subramanya."
+            }
+          },
+          {
+            "id": "kartikeya-c20",
+            "source_id": "kartikeya-s2",
+            "quote": "According to Shiva-Purana, he is considered the eldest son of Shiva. He is also the god of war and the commander of the gods.",
+            "locator": "Object description",
+            "context": "historical-record",
+            "statement": {
+              "id": "Museum Bihar menulis bahwa menurut Shiva Purana ia dianggap putra sulung Shiva, dan ia juga dewa perang serta panglima para dewa.",
+              "en": "The Bihar Museum text says that according to the Shiva Purana he is considered the eldest son of Shiva, and that he is also the god of war and commander of the gods."
+            }
+          },
+          {
+            "id": "kartikeya-c21",
+            "source_id": "kartikeya-s1",
+            "quote": "Indian religious literature describes Kartikeya and Ganesha as sons of Shiva and Parvati. Shavite puranas such as Ganesha Purana, Shiva Purana and Skanda Purana state that Ganesha is the elder of the two.",
+            "locator": "Section on family",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Wikipedia mencatat bahwa Purana Saiwa seperti Ganesha Purana, Shiva Purana, dan Skanda Purana menyatakan bahwa Ganesha adalah yang lebih tua di antara kedua putra Shiva dan Parvati.",
+              "en": "Wikipedia notes that Shavite puranas such as the Ganesha Purana, Shiva Purana, and Skanda Purana state that Ganesha is the elder of the two sons of Shiva and Parvati."
+            }
+          },
+          {
+            "id": "kartikeya-c22",
+            "source_id": "kartikeya-s2",
+            "quote": "Kartikey is seated on the peacock, wearing a necklace with a Tigher's nail and amulet.",
+            "locator": "Object description",
+            "context": "historical-record",
+            "statement": {
+              "id": "Museum Bihar menggambarkan arca itu duduk di atas merak dengan kalung berhias kuku harimau dan jimat.",
+              "en": "The Bihar Museum describes the sculpture as seated on the peacock and wearing a necklace with a tiger's nail and an amulet."
+            }
+          },
+          {
+            "id": "kartikeya-c23",
+            "source_id": "kartikeya-s1",
+            "quote": "In Valmiki's Ramayana (seventh to fourth century BCE), he is described as the child of deities Rudra and Parvati, with his birth aided by Agni and Ganga.",
+            "locator": "Section on birth legends",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Dalam Ramayana Valmiki (abad ketujuh hingga keempat SM), ia digambarkan sebagai anak Rudra dan Parvati, dengan kelahiran yang dibantu Agni dan Ganga.",
+              "en": "In Valmiki's Ramayana (seventh to fourth century BCE), he is described as the child of Rudra and Parvati, with his birth aided by Agni and Ganga."
+            }
+          },
+          {
+            "id": "kartikeya-c24",
+            "source_id": "kartikeya-s1",
+            "quote": "According to Shiva Purana, asura Tarakasura performed tapas to propitiate the creator god Brahma. Brahma granted him two boons: one, that none shall be his equal in all of the three worlds, and two, that only a son of Shiva could slay him.",
+            "locator": "Section on birth legends",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Menurut Shiva Purana, asura Tarakasura bertapa kepada Brahma dan memperoleh dua anugerah: tak seorang pun setara dengannya di tiga dunia, dan hanya putra Shiva yang dapat membunuhnya.",
+              "en": "According to the Shiva Purana, the asura Tarakasura performed tapas to Brahma and received two boons: none would be his equal in the three worlds, and only a son of Shiva could slay him."
+            }
+          },
+          {
+            "id": "kartikeya-c25",
+            "source_id": "kartikeya-s1",
+            "quote": "When Kartikeya threw his vel, Surapadma escaped to the sea and took the form of a large mango tree, which spread across the three worlds. Kartikeya used his vel to split the tree in half, with each half transforming into a peacock and a rooster, respectively. After Surapadma was killed, Kartikeya took the peacock as his vahana and the rooster as his pennant.",
+            "locator": "Section on the war against the asuras",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Ketika Kartikeya melempar vel, Surapadma lari ke laut dan menjelma pohon mangga besar; Kartikeya membelahnya dengan vel, dan kedua belahannya menjadi merak dan ayam jantan. Setelah Surapadma tewas, ia menjadikan merak sebagai wahana dan ayam jantan sebagai panjinya.",
+              "en": "When Kartikeya threw his vel, Surapadma escaped to the sea as a large mango tree; Kartikeya split it with the vel and the halves became a peacock and a rooster. After Surapadma was killed, he took the peacock as his vahana and the rooster as his pennant."
+            }
+          },
+          {
+            "id": "kartikeya-c26",
+            "source_id": "kartikeya-s1",
+            "quote": "Accepting the challenge, Kartikeya started his journey around the globe atop his peacock mount. However, Ganesha surmised that the world was no more than his parents Shiva and Shakti combined, circumambulated them, and won the fruit.",
+            "locator": "Section on the fruit of knowledge",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Dalam kisah buah pengetahuan, Kartikeya mengelilingi dunia dengan merak, tetapi Ganesha, yang menganggap dunia tidak lebih dari orang tuanya Shiva dan Shakti, mengelilingi mereka dan memenangkan buah itu.",
+              "en": "In the story of the fruit of knowledge, Kartikeya sets off around the globe on his peacock, but Ganesha, reasoning that the world is no more than his parents Shiva and Shakti combined, circles them and wins the fruit."
+            }
+          },
+          {
+            "id": "kartikeya-c27",
+            "source_id": "kartikeya-s1",
+            "quote": "When Kartikeya returned, he was furious to learn that his efforts had been in vain, and felt cheated. He discarded all his material belongings and left Kailasha to take up abode in the Palani Hills as a hermit.",
+            "locator": "Section on the fruit of knowledge",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Ketika Kartikeya kembali, ia murka karena jerih payahnya sia-sia dan merasa dicurangi; ia membuang semua harta bendanya, meninggalkan Kailasha, dan menetap di Bukit Palani sebagai pertapa.",
+              "en": "When Kartikeya returned he was furious that his efforts had been in vain and felt cheated; he discarded all his belongings, left Kailasha, and took up abode in the Palani Hills as a hermit."
+            }
+          },
+          {
+            "id": "kartikeya-c28",
+            "source_id": "kartikeya-s1",
+            "quote": "Ancient Tamil text Tolkappiyam from the second century BCE mentions Ceyon (\"the red one\"), and Murukan (\"the youth\"), identified with Murugan, as the god of the hilly regions.",
+            "locator": "Section on Tamil literature",
+            "context": "historical-record",
+            "statement": {
+              "id": "Teks Tamil kuno Tolkappiyam dari abad kedua SM menyebut Ceyon (\"si merah\") dan Murukan (\"si pemuda\"), yang diidentifikasi dengan Murugan, sebagai dewa daerah perbukitan.",
+              "en": "The ancient Tamil text Tolkappiyam, from the second century BCE, mentions Ceyon (\"the red one\") and Murukan (\"the youth\"), identified with Murugan, as the god of the hilly regions."
+            }
+          },
+          {
+            "id": "kartikeya-c29",
+            "source_id": "kartikeya-s1",
+            "quote": "Thaipusam is celebrated on the full moon day in the Tamil month of Thai on the confluence of star Pusam. The festival is celebrated to commemorate the victory of Murugan over the asuras, and includes ritualistic practices of Kavadi Aattam.",
+            "locator": "Section on festivals",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Thaipusam dirayakan pada hari bulan purnama di bulan Thai dalam penanggalan Tamil, untuk memperingati kemenangan Murugan atas para asura, dan mencakup praktik ritual Kavadi Aattam.",
+              "en": "Thaipusam is celebrated on the full moon day of the Tamil month of Thai to commemorate Murugan's victory over the asuras, and includes the ritual practice of Kavadi Aattam."
+            }
           }
         ],
         "conflicts": [
@@ -27838,6 +28218,41 @@
                 "claim_ids": [
                   "kartikeya-c12"
                 ]
+              },
+              {
+                "summary": {
+                  "id": "Rudra dan Parvati, dengan kelahiran dibantu Agni dan Ganga (Ramayana Valmiki).",
+                  "en": "Rudra and Parvati, with his birth aided by Agni and Ganga (Valmiki's Ramayana)."
+                },
+                "claim_ids": [
+                  "kartikeya-c23"
+                ]
+              }
+            ]
+          },
+          {
+            "topic": {
+              "id": "Putra tertua Shiva",
+              "en": "Eldest son of Shiva"
+            },
+            "positions": [
+              {
+                "summary": {
+                  "id": "Museum Bihar menyebut Kartikeya putra sulung Shiva menurut Shiva Purana.",
+                  "en": "The Bihar Museum calls Kartikeya the eldest son of Shiva according to the Shiva Purana."
+                },
+                "claim_ids": [
+                  "kartikeya-c20"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Wikipedia mencatat bahwa Purana Saiwa menyatakan Ganesha lebih tua.",
+                  "en": "Wikipedia notes that Shavite puranas state that Ganesha is the elder."
+                },
+                "claim_ids": [
+                  "kartikeya-c21"
+                ]
               }
             ]
           }
@@ -27854,8 +28269,90 @@
         ]
       },
       "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/kartikeya.json",
-      "native_sha256": "f4eb82be8c4129d23d7da91e2ddbd01e6148621512a5607deacf3230f3f77e60",
-      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/kartikeya.png"
+      "native_sha256": "f65cb103d9526e88c2dff61d1fc37360616d185e4469ae9dc886b9c84e69121f",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/kartikeya.png",
+      "research_refreshed": {
+        "at": "2026-10-08T04:32:23.400Z",
+        "by": "claude",
+        "reason": "Accepted research changed after selection (enrichment); every basis claim keeps its id, source and statement.",
+        "claims_before": 15,
+        "claims_after": 29
+      },
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of KARTIKEYA, the revered Hindu war god and commander of the gods.\nANATOMY: One youthful male deity, ONE head, TWO eyes, TWO arms, TWO legs. Fully opaque red-gold woven battle garments, modest covered torso. One large broad leaf-bladed VEL spear in his right hand. A living blue peacock Paravani close at his left flank, feathers distinct. [kartikeya-c06,c07,c08,c14]\nMOMENT: Stride into battle toward the viewer with a commanding downward gaze; drive the vel diagonally forward into the extreme near foreground. Cloak and peacock feathers swept backwards by the advance, no gore. This is a commander leading an assault, not a youth posing on a hill.\nPOWER: No invented elemental attack or emitted magic. Authority from documented war command and the real spear; boot dislodges dry grit. [kartikeya-c09,c07]\nSCALE & CAMERA: extreme low angle; waist-to-head deity fills nearly the whole frame with foreshortened spear blade huge at lower foreground; perspective builds divine presence without invented giant body size. Peacock head visible beside him, not extra human limbs.\nLIGHT & WEATHER: ONE strong golden sunset rim light behind the vel blade, low-key walnut shadows on face; dusty air catches this same light.\nSURFACE: rough red-gold woven cloth, scratched ancient gold spear, detailed peacock feathers, skin real and warm.\nSETTING: Kurinji hill country, dark crags immediately behind his commanding figure. [kartikeya-c05]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
+      "depicted_variant": "One-headed youthful commander striding forward with vel spear and blue peacock in tight low-angle battle framing.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One-head young man with vel spear and living peacock",
+          "claim_ids": [
+            "kartikeya-c06",
+            "kartikeya-c07",
+            "kartikeya-c08",
+            "kartikeya-c14"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Documented military command and spear action; physical dust only",
+          "claim_ids": [
+            "kartikeya-c09",
+            "kartikeya-c07"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Kurinji hill country",
+          "claim_ids": [
+            "kartikeya-c05"
+          ]
+        }
+      ],
+      "aura": "No invented elemental attack or emitted magic. Authority from documented war command and the real spear; boot dislodges dry grit. [kartikeya-c09,c07]",
+      "basis_claim_ids": [
+        "kartikeya-c06",
+        "kartikeya-c07",
+        "kartikeya-c08",
+        "kartikeya-c14",
+        "kartikeya-c09",
+        "kartikeya-c05"
+      ],
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native inspected: advancing youthful war commander, spear blade strongly foreshortened toward viewer, coherent single head and two arms, blue peacock distinct at flank, Kurinji crags. Full opaque costume and dust through stride, no elemental attack or emitted aura, no text. Rear military silhouettes follow army-command claim c09, distant perspective does not assert giant size. All seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "f65cb103d9526e88c2dff61d1fc37360616d185e4469ae9dc886b9c84e69121f",
+        "reviewed_at": "2026-10-08T04:06:41.748788+00:00"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "f65cb103d9526e88c2dff61d1fc37360616d185e4469ae9dc886b9c84e69121f",
+        "notes": "One-headed young Kartikeya strides with the vel spear foreshortened toward the viewer, peacock at his flank, army behind; a war god with authority."
+      },
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/kartikeya.json",
+        "native_sha256": "f65cb103d9526e88c2dff61d1fc37360616d185e4469ae9dc886b9c84e69121f",
+        "old_url": "/assets/art/kartikeya-verified.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kartikeya.png",
+        "old_webp_sha256": "01d0b6227bffeedd5222e4064d27034f8029b8a2300255c980257ed503abf2dd",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "kartikeya-c06",
+          "kartikeya-c07",
+          "kartikeya-c08",
+          "kartikeya-c14",
+          "kartikeya-c09",
+          "kartikeya-c05"
+        ]
+      },
+      "url": "/assets/art/kartikeya-presentation-revision-nama-besar.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "546b327ae0de20387e8588cb5cf8f0805768155d4527c23432b297ca10de974e"
     },
     {
       "index": 20,
@@ -30770,7 +31267,7 @@
       "slug": "dwarf-folklore",
       "canonical_name": "Dwarf (folklore)",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "fill_status": "lengkap-bergambar",
       "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
       "old_artwork": {
@@ -31469,8 +31966,79 @@
         ]
       },
       "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/dwarf-folklore.json",
-      "native_sha256": "5f032a6b57d85bb86375d3c0c250cb40035635012c18ac63d0b2b543063f4567",
-      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/dwarf-folklore.png"
+      "native_sha256": "eee92a5613566660fc687fc92db456af04da7441ce2e1de86852e8e1b3db4d48",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/dwarf-folklore.png",
+      "prompt": "ONE square original painterly cinematic Mythics illustration of a fierce short German folklore dwarf actively becoming invisible through his hooded Tarnkappe cloak [dwarf-folklore-c01,c02,c07,c08]. Original art, NO writing of any sort, NO signature, NO watermark anywhere, NO branding.\nShow the dwarf FRONT-ON close from head to knees, standing in OPEN SPACE inside a large cavern workshop. Solid left half: one fierce left eye, half human face, half coarse beard, left wool-clothed shoulder and arm lifting the hood, left leg. The right half of the face, hood, beard, torso, arm and leg DISAPPEARS into empty space, revealing the distant cavern workshop behind. A narrow softly fading edge lets the viewer understand that he is vanishing, never a wound or cut. The visible hood's fabric dissolves halfway across his forehead.\nIMPORTANT BACKGROUND: distant cave wall, wooden shelf and forge are MANY METERS behind the dwarf. One horizontal wooden shelf in that BACK wall extends uninterrupted THROUGH THE SPACE OF THE INVISIBLE RIGHT HALF OF HIS TORSO. Empty clean air around him. NO foreground stone pillar, NO rock coating his skin, NO petrification, NO object in front occluding his right half. His vanishing face and hood show the same empty air and distant background as outside the body. No glowing outlines or aura.\nThe Tarnkappe invisibility (c07) must be unmistakable even at thumbnail. The dwarf is not an intact ordinary man leaning against stone. His solid half leans forward with confrontational eye toward viewer. Body is short and human-shaped, no giant scale, horns or pointed ears. Plain dark opaque wool clothing, rough fabric and real skin/beard texture.\nLow-angle dramatic camera; left face and hand large foreground, one warm forge fire far left illuminates solid wool and beard; rich walnut shadow and antique gold accents, no pastel. Mountain cavern of miners and smiths, little mined gold in shelf [dwarf-folklore-c14].\nNo extra heads/limbs; partial invisibility only changes visibility, not anatomy. No gore, nudity, letters, symbols, rune, frame, film/game/anime/comic designs, glow, neon or particles. ABSOLUTELY NO ARTIST SIGNATURE OR WATERMARK.",
+      "depicted_variant": "Short humanlike dwarf visibly fading halfway to invisibility through the Tarnkappe; distant cave workshop visible through vanished face/body half.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Short male human-shaped dwarf in opaque Tarnkappe",
+          "claim_ids": [
+            "dwarf-folklore-c01",
+            "dwarf-folklore-c02",
+            "dwarf-folklore-c08"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Visible partial invisibility transition through Tarnkappe",
+          "claim_ids": [
+            "dwarf-folklore-c07"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Mountain cave and mined gold",
+          "claim_ids": [
+            "dwarf-folklore-c14"
+          ]
+        }
+      ],
+      "aura": "The documented Tarnkappe turns him invisible: show an unmistakable PARTIAL DISAPPEARANCE mid-transition, not simply a man wearing a cloak. Rock behind the vanished half remains sharp. No energy particles. [dwarf-folklore-c07]",
+      "basis_claim_ids": [
+        "dwarf-folklore-c01",
+        "dwarf-folklore-c02",
+        "dwarf-folklore-c08",
+        "dwarf-folklore-c07",
+        "dwarf-folklore-c14"
+      ],
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native inspected: clearly half-visible short humanlike dwarf; lifting Tarnkappe hood, one fierce solid eye/face half, wool and leg fade into uninterrupted distant workshop shelves, empty air and floor on vanished side. No stone pillar, rock skin, wound or severing. Close confronting subject, action and unmistakable c07 invisibility solve prior ordinary-man rejection. No lettering, watermark, aura, extra anatomy or media design. Two preceding attempts self-rejected and retained.",
+        "limitations": [],
+        "native_sha256": "eee92a5613566660fc687fc92db456af04da7441ce2e1de86852e8e1b3db4d48",
+        "reviewed_at": "2026-10-08T04:17:21.678137+00:00"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "eee92a5613566660fc687fc92db456af04da7441ce2e1de86852e8e1b3db4d48",
+        "notes": "The hooded dwarf lifts the Tarnkappe and his right half fades into the workshop behind him; the invisibility is unmistakable."
+      },
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/dwarf-folklore.json",
+        "native_sha256": "eee92a5613566660fc687fc92db456af04da7441ce2e1de86852e8e1b3db4d48",
+        "old_url": "/assets/art/dwarf-folklore-regeneration-139-mythic-presence.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/dwarf-folklore-mythic-presence.png",
+        "old_webp_sha256": "834847d60ee7eaa5e3d28cc3c9e679b85d17bf06e402336a77bcbed853209120",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "dwarf-folklore-c01",
+          "dwarf-folklore-c02",
+          "dwarf-folklore-c08",
+          "dwarf-folklore-c07",
+          "dwarf-folklore-c14"
+        ]
+      },
+      "url": "/assets/art/dwarf-folklore-presentation-revision-nama-besar.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "81fbb57d63d2def4694d98f46fea6952e25f27135c1133343b7f195788c076e5"
     },
     {
       "index": 27,
@@ -31970,7 +32538,7 @@
       "slug": "tefnut",
       "canonical_name": "Tefnut",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "fill_status": "lengkap-bergambar",
       "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
       "old_artwork": {
@@ -32032,7 +32600,7 @@
         "slug": "tefnut",
         "task": "new",
         "tier": "rich",
-        "researched_at": "2026-10-02",
+        "researched_at": "2026-10-07",
         "identity": {
           "canonical_name": "Tefnut",
           "native_name": null,
@@ -32116,18 +32684,70 @@
               "tefnut-c14",
               "tefnut-c15"
             ]
+          },
+          {
+            "id": "Tefnut adalah padanan perempuan dewa udara Shu. Fungsi mitologisnya kurang jelas dibanding Shu, tetapi para Egiptolog mengaitkannya dengan kelembapan berdasarkan satu bagian Pyramid Texts tempat ia menghasilkan air. Budge menyebutnya saudari kembar Shu yang melambangkan kelembapan atau salah satu aspek panas matahari, dan World History Encyclopedia menyebutnya ibu Geb dan Nut, yang lahir agar manusia punya tempat tinggal. Ia juga salah satu dewi yang dapat berfungsi sebagai Mata Ra yang berapi.",
+            "en": "Tefnut is the feminine counterpart of the air god Shu. Her mythological role is less clear than his, but Egyptologists link her with moisture on the strength of a Pyramid Texts passage in which she produces water. Budge calls her the twin sister of Shu who typified moisture or an aspect of the sun's heat, and World History Encyclopedia calls her the mother of Geb and Nut, born so that humans would have somewhere to live. She is also one of the goddesses who could act as the fiery Eye of Ra.",
+            "claim_ids": [
+              "tefnut-c16",
+              "tefnut-c17",
+              "tefnut-c32",
+              "tefnut-c29",
+              "tefnut-c18"
+            ]
+          },
+          {
+            "id": "Nama Tefnut tidak punya etimologi yang pasti, tetapi mungkin meniru bunyi meludah, sebab dalam sejumlah versi mitos penciptaan Atum meludahkannya. Pyramid Text 527 menyatakan bahwa Atum bersin di Heliopolis dan lahirlah Shu dan Tefnut, sedangkan Teks Peti Mati menyebut Shu dibersinkan dari hidung Atum dan Tefnut diludahkan seperti air liur. Dalam legenda penciptaan terjemahan Budge, dewa yang berbicara mengatakan bahwa ia belum mengeluarkan Shu dan belum meludahkan Tefnut. Budge juga menulis bahwa Temu memindahkan daya magis hidupnya kepada Shu dan Tefnut dengan memeluk mereka. Dalam sebuah mantra terjemahan Budge, mata kiri seseorang disamakan dengan Tefnut dan mata kanannya dengan Shu, yang disebut anak-anak Ra.",
+            "en": "The name Tefnut has no certain etymology but may imitate the sound of spitting, since in several versions of the creation myth Atum spits her out. Pyramid Text 527 says that Atum sneezed in Heliopolis and Shu and Tefnut were born, while the Coffin Texts speak of Shu being sneezed out of the nose of Atum and Tefnut being spat out like saliva. In a creation legend translated by Budge, the god who speaks says that he had not yet emitted Shu or spat out Tefnut. Budge also writes that Temu gave Shu and Tefnut the magical force of his life through an embrace. In a spell translated by Budge, the left eye of the person addressed is likened to Tefnut and his right eye to Shu, who are called the children of Ra.",
+            "claim_ids": [
+              "tefnut-c19",
+              "tefnut-c21",
+              "tefnut-c22",
+              "tefnut-c34",
+              "tefnut-c36",
+              "tefnut-c35"
+            ]
+          },
+          {
+            "id": "Tefnut berwujud singa: ia tampil sebagai manusia berkepala singa betina ketika menjadi bagian dari Ennead Agung Heliopolis, sering pula sebagai singa betina, dan dapat digambarkan sepenuhnya sebagai manusia. Ia juga berperan sebagai nyonya api yang dihiasi nyala api sebagai lambang perlindungan terhadap musuh. Pada masa Dinasti ke-18 dan ke-19, terutama pada Periode Amarna, ia digambarkan berwujud manusia dengan penutup kepala datar rendah yang dihiasi tanaman bertunas. Heliopolis dan Leontopolis adalah pusat pemujaannya, dan di Leontopolis ia dipuja bersama Shu sebagai sepasang singa. Dalam sebuah pasal Kitab Orang Mati, Tefnut disebut bersama Ra dan Shu sebagai salah satu Jiwa Annu.",
+            "en": "Tefnut is leonine: she appears as a lioness-headed human as part of the Great Ennead of Heliopolis, often as a lioness, and can also be shown fully human. She also takes the role of mistress of the flame, adorned with a flame as protection against enemies. In the 18th and 19th Dynasties, especially in the Amarna Period, she was shown in human form with a low flat headdress topped with sprouting plants. Heliopolis and Leontopolis were her cult centres, and at Leontopolis she was worshiped together with Shu as a pair of lions. In a Book of the Dead chapter, Tefnut is named with Ra and Shu as one of the Souls of Annu.",
+            "claim_ids": [
+              "tefnut-c23",
+              "tefnut-c24",
+              "tefnut-c37",
+              "tefnut-c25",
+              "tefnut-c26",
+              "tefnut-c33"
+            ]
           }
         ],
         "cultural_context": {
-          "id": "Temu, Shu, dan Tefnut membentuk tiga serangkai dalam teks penciptaan yang dikutip Budge.",
-          "en": "Temu, Shu and Tefnut form a trinity in the creation text cited by Budge.",
+          "id": "Temu, Shu, dan Tefnut membentuk tiga serangkai dalam teks penciptaan yang dikutip Budge. Di Karnak, Tefnut diseru dalam doa untuk kesehatan dan kesejahteraan firaun.",
+          "en": "Temu, Shu and Tefnut form a trinity in the creation text cited by Budge. At Karnak, prayers for the pharaoh's health and wellbeing invoked Tefnut.",
           "claim_ids": [
-            "tefnut-c15"
+            "tefnut-c15",
+            "tefnut-c27"
           ]
         },
-        "etymology": null,
+        "etymology": {
+          "original_form": "Tefnut",
+          "language": "Ancient Egyptian",
+          "literal_meaning": {
+            "id": "Belum ada etimologi yang pasti; mungkin tiruan bunyi meludah",
+            "en": "No certain etymology; possibly an onomatopoeia of the sound of spitting"
+          },
+          "claim_ids": [
+            "tefnut-c19"
+          ]
+        },
         "story_mode": null,
-        "did_you_know": null,
+        "did_you_know": {
+          "id": "Nama Tefnut mungkin meniru bunyi meludah, dan dalam teks-teks akhir namanya ditulis sebagai gambar mulut yang meludah.",
+          "en": "The name Tefnut may imitate the sound of spitting, and in late texts it was written as a mouth spitting.",
+          "claim_ids": [
+            "tefnut-c19"
+          ]
+        },
         "abilities": [],
         "weaknesses": [],
         "variants": [],
@@ -32148,10 +32768,103 @@
             "claim_ids": [
               "tefnut-c07"
             ]
+          },
+          {
+            "title": {
+              "id": "Hilangnya Shu dan Tefnut",
+              "en": "The loss of Shu and Tefnut"
+            },
+            "role": {
+              "id": "Tefnut sebagai anak Atum yang pergi bersama Shu dan dicari dengan Mata Ra.",
+              "en": "Tefnut as the child of Atum who went away with Shu and was sought with the Eye of Ra."
+            },
+            "summary": {
+              "id": "Shu dan Tefnut diutus menciptakan dunia dan pergi begitu lama sampai Atum merindukan mereka. Atum mengirim Mata Ra untuk mencari mereka, dan ketika mata itu kembali bersama mereka, air mata kebahagiaan Atum menciptakan manusia.",
+              "en": "Shu and Tefnut were sent to create the world and stayed away so long that Atum missed them. Atum sent the Eye of Ra to find them, and when the eye returned with them, Atum's tears of happiness created human beings."
+            },
+            "claim_ids": [
+              "tefnut-c30"
+            ]
           }
         ],
-        "places": [],
-        "timeline": [],
+        "places": [
+          {
+            "name": {
+              "id": "Heliopolis",
+              "en": "Heliopolis"
+            },
+            "type": "city",
+            "description": {
+              "id": "Salah satu pusat pemujaan utama Tefnut; di sana ia menjadi anggota Ennead kota itu.",
+              "en": "One of the primary cult centres of Tefnut, where she was a member of the city's Ennead."
+            },
+            "claim_ids": [
+              "tefnut-c25",
+              "tefnut-c01"
+            ]
+          },
+          {
+            "name": {
+              "id": "Leontopolis",
+              "en": "Leontopolis"
+            },
+            "type": "city",
+            "description": {
+              "id": "Pusat pemujaan utama Tefnut di Delta Nil, tempat ia dipuja bersama Shu sebagai sepasang singa.",
+              "en": "A primary cult centre of Tefnut in the Nile Delta, where she was worshiped with Shu as a pair of lions."
+            },
+            "claim_ids": [
+              "tefnut-c25",
+              "tefnut-c26"
+            ]
+          },
+          {
+            "name": {
+              "id": "Karnak",
+              "en": "Karnak"
+            },
+            "type": "temple",
+            "description": {
+              "id": "Di Karnak, Tefnut menjadi bagian dari Ennead dan diseru dalam doa untuk kesehatan dan kesejahteraan firaun.",
+              "en": "At Karnak, Tefnut formed part of the Ennead and was invoked in prayers for the health and wellbeing of the pharaoh."
+            },
+            "claim_ids": [
+              "tefnut-c27"
+            ]
+          },
+          {
+            "name": {
+              "id": "Nubia",
+              "en": "Nubia"
+            },
+            "type": "region",
+            "description": {
+              "id": "Tempat Tefnut melarikan diri sebagai singa betina ganas dalam kisah kepergiannya.",
+              "en": "The place Tefnut fled to as a fierce lioness in the tale of her departure."
+            },
+            "claim_ids": [
+              "tefnut-c07",
+              "tefnut-c28"
+            ]
+          }
+        ],
+        "timeline": [
+          {
+            "period": "18th and 19th Dynasties, particularly the Amarna Period",
+            "title": {
+              "id": "Tefnut berwujud manusia dengan tanaman bertunas",
+              "en": "Tefnut shown human with sprouting plants"
+            },
+            "description": {
+              "id": "Tefnut digambarkan berwujud manusia dengan penutup kepala datar rendah yang dihiasi tanaman bertunas.",
+              "en": "Tefnut was depicted in human form with a low flat headdress topped with sprouting plants."
+            },
+            "earliest_attestation": false,
+            "claim_ids": [
+              "tefnut-c37"
+            ]
+          }
+        ],
         "relations": [
           {
             "target_name": "Shu",
@@ -32173,6 +32886,138 @@
             },
             "claim_ids": [
               "tefnut-c04"
+            ]
+          },
+          {
+            "target_name": "Atum",
+            "relation_type": "parent",
+            "note": {
+              "id": "Tefnut berasal dari Atum, pencipta; Atum disebut sebagai orang tuanya.",
+              "en": "Tefnut comes from Atum, the creator; Atum is named as her parent."
+            },
+            "claim_ids": [
+              "tefnut-c02"
+            ]
+          },
+          {
+            "target_name": "Geb",
+            "relation_type": "child",
+            "note": {
+              "id": "Geb adalah putra Tefnut dan Shu.",
+              "en": "Geb is the son of Tefnut and Shu."
+            },
+            "claim_ids": [
+              "tefnut-c04"
+            ]
+          },
+          {
+            "target_name": "Ra",
+            "relation_type": "associated",
+            "note": {
+              "id": "Tefnut juga salah satu dewi yang dapat berfungsi sebagai Mata Ra yang berapi.",
+              "en": "Tefnut was also one of the goddesses who could function as the fiery Eye of Ra."
+            },
+            "claim_ids": [
+              "tefnut-c18"
+            ]
+          },
+          {
+            "target_name": "Thoth",
+            "relation_type": "associated",
+            "note": {
+              "id": "Setelah Tefnut melarikan diri ke Nubia, ia baru kembali ketika menerima gelar \"terhormat\" dari Thoth.",
+              "en": "After escaping to Nubia, Tefnut returned only after receiving the title \"honorable\" from Thoth."
+            },
+            "claim_ids": [
+              "tefnut-c28"
+            ]
+          },
+          {
+            "target_name": "Bastet",
+            "relation_type": "counterpart",
+            "note": {
+              "id": "Karena berwujud singa betina dan putri Ra, Tefnut kadang disamakan dengan Bastet.",
+              "en": "Because she is Ra's daughter and takes lioness form, Tefnut is sometimes identified with Bastet."
+            },
+            "claim_ids": [
+              "tefnut-c08"
+            ]
+          },
+          {
+            "target_name": "Sekhmet",
+            "relation_type": "counterpart",
+            "note": {
+              "id": "Karena berwujud singa betina dan putri Ra, Tefnut kadang disamakan dengan Sekhmet.",
+              "en": "Because she is Ra's daughter and takes lioness form, Tefnut is sometimes identified with Sekhmet."
+            },
+            "claim_ids": [
+              "tefnut-c08"
+            ]
+          },
+          {
+            "target_name": "Hathor",
+            "relation_type": "counterpart",
+            "note": {
+              "id": "Tefnut kadang disamakan dengan Hathor, yang dalam sumber yang sama dikaitkan dengan Sekhmet.",
+              "en": "Tefnut is sometimes identified with Hathor, who in the same source is linked to Sekhmet."
+            },
+            "claim_ids": [
+              "tefnut-c08"
+            ]
+          },
+          {
+            "target_name": "Osiris",
+            "relation_type": "relative",
+            "note": {
+              "id": "Osiris adalah cucu Tefnut.",
+              "en": "Osiris is a grandchild of Tefnut."
+            },
+            "claim_ids": [
+              "tefnut-c20"
+            ]
+          },
+          {
+            "target_name": "Isis",
+            "relation_type": "relative",
+            "note": {
+              "id": "Isis adalah cucu Tefnut.",
+              "en": "Isis is a grandchild of Tefnut."
+            },
+            "claim_ids": [
+              "tefnut-c20"
+            ]
+          },
+          {
+            "target_name": "Set",
+            "relation_type": "relative",
+            "note": {
+              "id": "Set adalah cucu Tefnut.",
+              "en": "Set is a grandchild of Tefnut."
+            },
+            "claim_ids": [
+              "tefnut-c20"
+            ]
+          },
+          {
+            "target_name": "Nephthys",
+            "relation_type": "relative",
+            "note": {
+              "id": "Nephthys adalah cucu Tefnut.",
+              "en": "Nephthys is a grandchild of Tefnut."
+            },
+            "claim_ids": [
+              "tefnut-c20"
+            ]
+          },
+          {
+            "target_name": "Ruty",
+            "relation_type": "associated",
+            "note": {
+              "id": "Menurut World History Encyclopedia, dewa kembar singa Ruty pada mulanya dikaitkan dengan Shu dan Tefnut sebagai dewa langit.",
+              "en": "According to World History Encyclopedia, the twin lion gods Ruty were originally associated with Shu and Tefnut as sky deities."
+            },
+            "claim_ids": [
+              "tefnut-c31"
             ]
           }
         ],
@@ -32213,6 +33058,39 @@
             "language": "en",
             "type": "primary-text",
             "accessed": "2026-10-02"
+          },
+          {
+            "id": "tefnut-s4",
+            "url": "https://en.wikipedia.org/wiki/Tefnut",
+            "title": "Tefnut",
+            "author": null,
+            "publisher": "Wikipedia",
+            "published": null,
+            "language": "en",
+            "type": "wikipedia",
+            "accessed": "2026-10-07"
+          },
+          {
+            "id": "tefnut-s5",
+            "url": "https://www.gutenberg.org/cache/epub/9411/pg9411-images.html",
+            "title": "Legends of the Gods: The Egyptian Texts, edited with Translations",
+            "author": "E. A. Wallis Budge",
+            "publisher": "Project Gutenberg",
+            "published": "1912",
+            "language": "en",
+            "type": "primary-text",
+            "accessed": "2026-10-07"
+          },
+          {
+            "id": "tefnut-s6",
+            "url": "https://en.wikisource.org/wiki/Egyptian_Literature/The_Book_of_the_Dead/Of_Coming_Forth_from_Heaven",
+            "title": "The Book of the Dead: Of Coming Forth from Heaven (Egyptian Literature, 1901)",
+            "author": null,
+            "publisher": "Wikisource",
+            "published": "1901",
+            "language": "en",
+            "type": "primary-text",
+            "accessed": "2026-10-07"
           }
         ],
         "claims": [
@@ -32380,9 +33258,322 @@
               "id": "Temu, Shu, dan Tefnut membentuk tiga serangkai dalam teks penciptaan yang dikutip Budge.",
               "en": "Temu, Shu and Tefnut form a trinity in the creation text cited by Budge."
             }
+          },
+          {
+            "id": "tefnut-c16",
+            "source_id": "tefnut-s4",
+            "quote": "is a deity in Ancient Egyptian religion, the feminine counterpart of the air god Shu.",
+            "locator": "Article text, paragraph 1",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Tefnut adalah dewa dalam agama Mesir kuno, padanan perempuan dewa udara Shu.",
+              "en": "Tefnut is a deity in Ancient Egyptian religion, the feminine counterpart of the air god Shu."
+            }
+          },
+          {
+            "id": "tefnut-c17",
+            "source_id": "tefnut-s4",
+            "quote": "Her mythological function is less clear than that of Shu, but Egyptologists have suggested she is connected with moisture, based on a passage in the Pyramid Texts in which she produces water, and on parallelism with Shu's connection with dry air.",
+            "locator": "Article text, paragraph 1",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Fungsi mitologis Tefnut kurang jelas dibanding Shu, tetapi para Egiptolog mengusulkan bahwa ia berkaitan dengan kelembapan, berdasarkan satu bagian Pyramid Texts tempat ia menghasilkan air dan berdasarkan kesejajaran dengan kaitan Shu pada udara kering.",
+              "en": "Her mythological function is less clear than that of Shu, but Egyptologists have suggested she is connected with moisture, based on a Pyramid Texts passage in which she produces water and on parallelism with Shu's connection with dry air."
+            }
+          },
+          {
+            "id": "tefnut-c18",
+            "source_id": "tefnut-s4",
+            "quote": "She was also one of the goddesses who could function as the fiery Eye of Ra.",
+            "locator": "Article text, paragraph 1",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Tefnut juga salah satu dewi yang dapat berfungsi sebagai Mata Ra yang berapi.",
+              "en": "Tefnut was also one of the goddesses who could function as the fiery Eye of Ra."
+            }
+          },
+          {
+            "id": "tefnut-c19",
+            "source_id": "tefnut-s4",
+            "quote": "The name Tefnut has no certain etymology but it may be an onomatopoeia of the sound of spitting, as Atum spits her out in some versions of the creation myth. Additionally, her name was written as a mouth spitting in late texts.",
+            "locator": "Etymology",
+            "context": "etymology",
+            "statement": {
+              "id": "Nama Tefnut tidak memiliki etimologi yang pasti, tetapi mungkin tiruan bunyi meludah, karena dalam beberapa versi mitos penciptaan Atum meludahkannya; selain itu, dalam teks-teks akhir namanya ditulis sebagai mulut yang meludah.",
+              "en": "The name Tefnut has no certain etymology but may be an onomatopoeia of the sound of spitting, as Atum spits her out in some versions of the creation myth; in addition, her name was written as a mouth spitting in late texts."
+            }
+          },
+          {
+            "id": "tefnut-c20",
+            "source_id": "tefnut-s4",
+            "quote": "Tefnut's grandchildren were Osiris, Isis, Set, Nephthys, and, in some versions, Horus the Elder.",
+            "locator": "Mythological origins",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Cucu-cucu Tefnut adalah Osiris, Isis, Set, Nephthys, dan, dalam sebagian versi, Horus yang Tua.",
+              "en": "Tefnut's grandchildren were Osiris, Isis, Set, Nephthys and, in some versions, Horus the Elder."
+            }
+          },
+          {
+            "id": "tefnut-c21",
+            "source_id": "tefnut-s4",
+            "quote": "Pyramid Text 527 says, \"Atum was creative in that he proceeded to sneeze while in Heliopolis. And brother and sister were born - that is Shu and Tefnut.\"",
+            "locator": "Mythological origins",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Pyramid Text 527 menyatakan bahwa Atum bersifat kreatif karena ia bersin di Heliopolis, lalu kakak-beradik itu lahir, yaitu Shu dan Tefnut.",
+              "en": "Pyramid Text 527 says that Atum was creative in that he sneezed in Heliopolis, and that brother and sister were born, that is Shu and Tefnut."
+            }
+          },
+          {
+            "id": "tefnut-c22",
+            "source_id": "tefnut-s4",
+            "quote": "The Coffin Texts contain references to Shu being sneezed out by Atum from his nose, and Tefnut being spat out like saliva.",
+            "locator": "Mythological origins",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Teks Peti Mati memuat rujukan bahwa Shu dibersinkan oleh Atum dari hidungnya, dan Tefnut diludahkan seperti air liur.",
+              "en": "The Coffin Texts contain references to Shu being sneezed out by Atum from his nose and Tefnut being spat out like saliva."
+            }
+          },
+          {
+            "id": "tefnut-c23",
+            "source_id": "tefnut-s4",
+            "quote": "Tefnut is a leonine deity, and appears as human with a lioness head when depicted as part of the Great Ennead of Heliopolis. The other frequent depiction is as a lioness, but Tefnut can also be depicted as fully human.",
+            "locator": "Iconography",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Tefnut adalah dewi berwujud singa: ia tampil sebagai manusia berkepala singa betina ketika digambarkan sebagai bagian dari Ennead Agung Heliopolis. Penggambaran lain yang sering adalah sebagai singa betina, tetapi ia juga dapat digambarkan sepenuhnya sebagai manusia.",
+              "en": "Tefnut is a leonine deity and appears as a human with a lioness head when depicted as part of the Great Ennead of Heliopolis. The other frequent depiction is as a lioness, but she can also be depicted as fully human."
+            }
+          },
+          {
+            "id": "tefnut-c24",
+            "source_id": "tefnut-s4",
+            "quote": "She even assumes the role of the mistress of the flame, where she is adorned with a flame to represent protection against enemies.",
+            "locator": "Iconography",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Tefnut bahkan berperan sebagai nyonya api, dihiasi nyala api sebagai lambang perlindungan terhadap musuh.",
+              "en": "Tefnut even assumes the role of the mistress of the flame, adorned with a flame to represent protection against enemies."
+            }
+          },
+          {
+            "id": "tefnut-c25",
+            "source_id": "tefnut-s4",
+            "quote": "Heliopolis and Leontopolis (now ell el-Muqdam) were the primary cult centres.",
+            "locator": "Cult centres",
+            "context": "historical-record",
+            "statement": {
+              "id": "Heliopolis dan Leontopolis adalah pusat pemujaan utama Tefnut.",
+              "en": "Heliopolis and Leontopolis were the primary cult centres of Tefnut."
+            }
+          },
+          {
+            "id": "tefnut-c26",
+            "source_id": "tefnut-s4",
+            "quote": "She was worshiped with Shu as a pair of lions in Leontopolis in the Nile Delta.",
+            "locator": "Cult centres",
+            "context": "historical-record",
+            "statement": {
+              "id": "Tefnut dipuja bersama Shu sebagai sepasang singa di Leontopolis, di Delta Nil.",
+              "en": "Tefnut was worshiped with Shu as a pair of lions in Leontopolis in the Nile Delta."
+            }
+          },
+          {
+            "id": "tefnut-c27",
+            "source_id": "tefnut-s4",
+            "quote": "At Karnak, Tefnut formed part of the Ennead and was invoked in prayers for the health and wellbeing of the pharaoh.",
+            "locator": "Cult centres",
+            "context": "historical-record",
+            "statement": {
+              "id": "Di Karnak, Tefnut menjadi bagian dari Ennead dan diseru dalam doa untuk kesehatan dan kesejahteraan firaun.",
+              "en": "At Karnak, Tefnut formed part of the Ennead and was invoked in prayers for the health and wellbeing of the pharaoh."
+            }
+          },
+          {
+            "id": "tefnut-c28",
+            "source_id": "tefnut-s4",
+            "quote": "As a lioness she could display a wrathful aspect and is said to have escaped to Nubia in a rage, jealous of her grandchildren's higher worship. Only after receiving the title \"honorable\" from Thoth, did she return.",
+            "locator": "Mythology",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Sebagai singa betina, Tefnut dapat menunjukkan sisi murka dan dikatakan melarikan diri ke Nubia dalam kemarahan karena cemburu pada pemujaan yang lebih tinggi bagi cucu-cucunya; ia baru kembali setelah menerima gelar \"terhormat\" dari Thoth.",
+              "en": "As a lioness Tefnut could display a wrathful aspect and is said to have escaped to Nubia in a rage, jealous of her grandchildren's higher worship; she returned only after receiving the title \"honorable\" from Thoth."
+            }
+          },
+          {
+            "id": "tefnut-c29",
+            "source_id": "tefnut-s2",
+            "quote": "Tefnut is the mother of Geb (earth) and Nut (sky) who were born so human beings could have somewhere to live.",
+            "locator": "Tefnut entry",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Menurut World History Encyclopedia, Tefnut adalah ibu Geb (bumi) dan Nut (langit), yang lahir agar manusia punya tempat tinggal.",
+              "en": "According to World History Encyclopedia, Tefnut is the mother of Geb (earth) and Nut (sky), who were born so human beings could have somewhere to live."
+            }
+          },
+          {
+            "id": "tefnut-c30",
+            "source_id": "tefnut-s2",
+            "quote": "Shu - The primordial god of the air whose name means \"Emptiness\". He was born at the beginning of creation of Atum (Ra) and sent to create the world with his sister Tefnut (goddess of moisture). The two were gone so long that Atum came to miss them and sent his eye (the Eye of Ra) in search of them. When the eye returned with them, Atum was so happy he cried and his tears created human beings.",
+            "locator": "Shu entry",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Menurut World History Encyclopedia, Shu, dewa udara, dilahirkan Atum (Ra) pada awal penciptaan dan diutus menciptakan dunia bersama saudarinya Tefnut, dewi kelembapan. Keduanya pergi begitu lama sampai Atum merindukan mereka dan mengirim matanya (Mata Ra) untuk mencari; ketika mata itu kembali bersama mereka, Atum begitu bahagia hingga menangis, dan air matanya menciptakan manusia.",
+              "en": "According to World History Encyclopedia, Shu, the god of the air, was born of Atum (Ra) at the beginning of creation and sent to create the world with his sister Tefnut, goddess of moisture. The two were gone so long that Atum came to miss them and sent his eye (the Eye of Ra) to find them; when the eye returned with them Atum was so happy he cried, and his tears created human beings."
+            }
+          },
+          {
+            "id": "tefnut-c31",
+            "source_id": "tefnut-s2",
+            "quote": "Ruty - The twin lion gods who represented the eastern and western horizons. The name means \"Pair of Lions\". They were originally associated with Shu and Tefnut as sky deities and eventually became linked with Ra and the solar barge.",
+            "locator": "Ruty entry",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Menurut World History Encyclopedia, Ruty, dewa kembar berwujud singa yang mewakili cakrawala timur dan barat, pada mulanya dikaitkan dengan Shu dan Tefnut sebagai dewa langit, lalu akhirnya dikaitkan dengan Ra dan perahu matahari.",
+              "en": "According to World History Encyclopedia, Ruty, the twin lion gods who represented the eastern and western horizons, were originally associated with Shu and Tefnut as sky deities and eventually became linked with Ra and the solar barge."
+            }
+          },
+          {
+            "id": "tefnut-c32",
+            "source_id": "tefnut-s3",
+            "quote": "TEFNUT was the twin-sister of Shu; as a power of nature she typified moisture or some aspect of the sun's heat",
+            "locator": "Egyptian Ideas of the Future Life, the gods of the Heliopolitan company",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Budge menulis bahwa Tefnut adalah saudari kembar Shu dan sebagai kekuatan alam ia melambangkan kelembapan atau salah satu aspek panas matahari.",
+              "en": "Budge writes that Tefnut was the twin sister of Shu and, as a power of nature, typified moisture or some aspect of the sun's heat."
+            }
+          },
+          {
+            "id": "tefnut-c33",
+            "source_id": "tefnut-s6",
+            "quote": "I know the Souls of Annu, namely, Rā, Shu, and Tefnut.",
+            "locator": "Chapter text",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Dalam sebuah pasal Kitab Orang Mati, sang penutur menyatakan bahwa ia mengenal Jiwa-jiwa Annu, yaitu Ra, Shu, dan Tefnut.",
+              "en": "In a Book of the Dead chapter, the speaker declares that he knows the Souls of Annu, namely Ra, Shu and Tefnut."
+            }
+          },
+          {
+            "id": "tefnut-c34",
+            "source_id": "tefnut-s5",
+            "quote": "I was [then] one by myself, for I had not emitted from myself the god Shu, and I had not spit out from myself the goddess Tefnut; and there existed no other who could work with me.",
+            "locator": "The Legend of the God Neb-er-tcher, and the History of Creation",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Dalam legenda penciptaan terjemahan Budge, dewa yang berbicara mengatakan bahwa pada waktu itu ia sendirian karena belum mengeluarkan Shu dari dirinya dan belum meludahkan Tefnut, dan tidak ada yang lain yang dapat bekerja bersamanya.",
+              "en": "In the creation legend translated by Budge, the god who speaks says that he was then alone, for he had not yet emitted Shu from himself nor spit out Tefnut, and no other existed who could work with him."
+            }
+          },
+          {
+            "id": "tefnut-c35",
+            "source_id": "tefnut-s5",
+            "quote": "Thy right eye is like Shu, and thy left eye like Tefnut, who are the children of Ra.",
+            "locator": "The Legend of the Death and Resurrection of Horus, and other magical texts: the narrative of Isis",
+            "context": "religious-tradition",
+            "statement": {
+              "id": "Dalam sebuah mantra terjemahan Budge, yang dituju diberi tahu bahwa mata kanannya seperti Shu dan mata kirinya seperti Tefnut, yang adalah anak-anak Ra.",
+              "en": "In a spell translated by Budge, the person addressed is told that his right eye is like Shu and his left eye like Tefnut, who are the children of Ra."
+            }
+          },
+          {
+            "id": "tefnut-c36",
+            "source_id": "tefnut-s5",
+            "quote": "Thus Temu transferred the magical power of his life to Shu and Tefnut by embracing them",
+            "locator": "The Legend of Khensu Nefer-hetep and the Princess of Bekhten, Budge's commentary",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Budge menulis bahwa Temu memindahkan daya magis hidupnya kepada Shu dan Tefnut dengan memeluk mereka.",
+              "en": "Budge writes that Temu transferred the magical power of his life to Shu and Tefnut by embracing them."
+            }
+          },
+          {
+            "id": "tefnut-c37",
+            "source_id": "tefnut-s4",
+            "quote": "During the 18th and 19th Dynasties, particularly during the Amarna Period, Tefnut was depicted in human form wearing a low flat headdress, topped with sprouting plants.",
+            "locator": "Iconography",
+            "context": "historical-record",
+            "statement": {
+              "id": "Pada masa Dinasti ke-18 dan ke-19, terutama pada Periode Amarna, Tefnut digambarkan berwujud manusia dengan penutup kepala datar rendah yang dihiasi tanaman bertunas.",
+              "en": "During the 18th and 19th Dynasties, particularly during the Amarna Period, Tefnut was depicted in human form wearing a low flat headdress topped with sprouting plants."
+            }
           }
         ],
-        "conflicts": [],
+        "conflicts": [
+          {
+            "topic": {
+              "id": "Cara Tefnut dilahirkan",
+              "en": "How Tefnut came into being"
+            },
+            "positions": [
+              {
+                "summary": {
+                  "id": "Menurut sumber pertama entri ini, Tefnut lahir dari tindakan Atum yang memuaskan dirinya sendiri.",
+                  "en": "According to this entry's first source, Tefnut was born of Atum's act of self-pleasuring."
+                },
+                "claim_ids": [
+                  "tefnut-c02"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Pyramid Text 527 menyatakan bahwa Atum bersin di Heliopolis dan lahirlah Shu dan Tefnut.",
+                  "en": "Pyramid Text 527 says that Atum sneezed in Heliopolis and Shu and Tefnut were born."
+                },
+                "claim_ids": [
+                  "tefnut-c21"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Teks Peti Mati menyebut Tefnut diludahkan seperti air liur.",
+                  "en": "The Coffin Texts speak of Tefnut being spat out like saliva."
+                },
+                "claim_ids": [
+                  "tefnut-c22"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "World History Encyclopedia menyebut Atum menciptakan Shu dan Tefnut entah dengan bersatu dengan bayangannya atau dengan meludah.",
+                  "en": "World History Encyclopedia says Atum created Shu and Tefnut either by mating with his shadow or by spitting."
+                },
+                "claim_ids": [
+                  "tefnut-c12"
+                ]
+              }
+            ]
+          },
+          {
+            "topic": {
+              "id": "Mengapa Tefnut pergi ke Nubia",
+              "en": "Why Tefnut went to Nubia"
+            },
+            "positions": [
+              {
+                "summary": {
+                  "id": "Menurut sumber pertama entri ini, Tefnut yang bosan di istana pergi dari rumah ke gurun Nubia sebelum menjadi istri Shu, lalu dibawa pulang oleh Shu dan Thoth.",
+                  "en": "According to this entry's first source, Tefnut, bored in the palace, ran away to the Nubian desert before becoming Shu's wife and was brought back by Shu and Thoth."
+                },
+                "claim_ids": [
+                  "tefnut-c07"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Sumber lain menyebut Tefnut melarikan diri ke Nubia dalam kemarahan karena cemburu pada pemujaan yang lebih tinggi bagi cucu-cucunya, dan kembali setelah menerima gelar \"terhormat\" dari Thoth.",
+                  "en": "Another source says Tefnut escaped to Nubia in a rage, jealous of her grandchildren's higher worship, and returned after receiving the title \"honorable\" from Thoth."
+                },
+                "claim_ids": [
+                  "tefnut-c28"
+                ]
+              }
+            ]
+          }
+        ],
         "gaps": [
           {
             "field": "images",
@@ -32390,13 +33581,92 @@
           },
           {
             "field": "optional_sections",
-            "searched": "Bacaan yang dikutip belum cukup untuk memastikan bagian opsional yang dibiarkan null atau []; bagian tersebut tidak diisi melalui dugaan."
+            "searched": "Habitat, sifat, watak, era, negara, dan penggambaran modern dibiarkan kosong: tidak ada kutipan dari sumber yang dibuka (Wikipedia en dan ja, World History Encyclopedia, Budge di Gutenberg, Wikisource) yang menyatakannya langsung. Britannica dan UCL Digital Egypt menolak unduhan otomatis (403)."
           }
         ]
       },
       "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/tefnut.json",
-      "native_sha256": "a4eb42f79786b3f95b42b1c97281ae3c2961af46f76f5f928bcf209de7f24c42",
-      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/tefnut.png"
+      "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/tefnut.png",
+      "research_refreshed": {
+        "at": "2026-10-08T04:32:23.400Z",
+        "by": "claude",
+        "reason": "Accepted research changed after selection (enrichment); every basis claim keeps its id, source and statement.",
+        "claims_before": 15,
+        "claims_after": 37
+      },
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of TEFNUT, Egyptian moisture goddess in her documented lion-headed female form.\nANATOMY: Exactly ONE unmistakable LIONESS HEAD on ONE human female body, TWO human arms with human hands, TWO human legs, no mane, no animal forelegs or tail. Opaque heavy linen dress covering body and chest, antique gold neck collar editorial. Lion face occupies upper half of square, wet whiskers and clearly opened leonine jaws. [tefnut-c05,c11]\nMOMENT: Advance with fierce commanding stare and open lioness mouth; extend one human hand toward the viewer as she steps through dense rain and spray. Torso leans forward and wet linen trails in the motion. Divine confrontation, not an ordinary wildlife lion in rain.\nPOWER: Moisture and near-earth atmosphere are documented domains; show heavy physical rain and wind-swept mist in her surroundings, NOT an invented water weapon or rays. Threat comes from documented fierce lioness aspect. [tefnut-c01,c07,c09]\nSCALE & CAMERA: extreme low angle; extreme close upward view, the leonine head and approaching human hand fill frame; ordinary anatomical proportions, no invented giant scale.\nLIGHT & WEATHER: ONE golden oblique dusk light catches droplets and rims lion muzzle; deep walnut shadows, driving natural rain.\nSURFACE: wet lioness fur, amber eyes without glow, coarse soaked linen, rough gold collar.\nSETTING: Nubian desert crags dark under rainstorm, reflecting her desert departure story; weather is editorial atmosphere related to her moisture domain. [tefnut-c07,c01]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
+      "depicted_variant": "Lioness-headed human goddess striding toward viewer in a Nubian storm, opened jaws and reaching hand dominating frame.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Lion-headed female goddess, human arms and opaque clothing",
+          "claim_ids": [
+            "tefnut-c05",
+            "tefnut-c11"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Physical rain evokes moisture domain, fierce lioness aspect supplies threat",
+          "claim_ids": [
+            "tefnut-c01",
+            "tefnut-c07",
+            "tefnut-c09"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Nubian desert departure setting",
+          "claim_ids": [
+            "tefnut-c07"
+          ]
+        }
+      ],
+      "aura": "Moisture and near-earth atmosphere are documented domains; show heavy physical rain and wind-swept mist in her surroundings, NOT an invented water weapon or rays. Threat comes from documented fierce lioness aspect. [tefnut-c01,c07,c09]",
+      "basis_claim_ids": [
+        "tefnut-c05",
+        "tefnut-c11",
+        "tefnut-c01",
+        "tefnut-c07",
+        "tefnut-c09"
+      ],
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native inspected: one wet lioness head on female human body with two human arms, forward hand and roaring jaws dominate frame; opaque linen and desert crags under physical rain. No ordinary quadruped lion, no invented weapon or emitted magic, no text. Collar panels are abstract ornament, not legible writing. All seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+        "reviewed_at": "2026-10-08T04:14:06.459585+00:00"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+        "notes": "Lioness-headed Tefnut roars and reaches toward the viewer in driving rain over Nubian crags; fierce goddess, not a lioness."
+      },
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/tefnut.json",
+        "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+        "old_url": "/assets/art/tefnut-mythic-presence.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut-mythic-presence.png",
+        "old_webp_sha256": "409325959a9cc131034758918e8cdb517e7ee2e18156dfb619bc15dd3fc4862e",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "tefnut-c05",
+          "tefnut-c11",
+          "tefnut-c01",
+          "tefnut-c07",
+          "tefnut-c09"
+        ]
+      },
+      "url": "/assets/art/tefnut-presentation-revision-nama-besar.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "851838756b612c45602c7f3e9f20b5ef13f6a075d66ade78eee0443405905477"
     },
     {
       "index": 29,
@@ -32851,7 +34121,7 @@
       "slug": "ahriman",
       "canonical_name": "Ahriman",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "fill_status": "lengkap-bergambar",
       "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
       "old_artwork": {
@@ -33259,8 +34529,79 @@
         ]
       },
       "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/ahriman.json",
-      "native_sha256": "e29bdda228aeb7933573b175abd2bc77aded6e3939dc2234fcc3c1139794bedc",
-      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/ahriman.png"
+      "native_sha256": "a950ba53a892a157bd0def3fb38276a148ccb59040a139110b47e1067cc22b27",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/ahriman.png",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of AHRIMAN / Angra Mainyu, destructive spirit in the documented SNAKE form.\nANATOMY: ONE coherent living serpent with ONE snake head, TWO eyes, ONE continuous coiled body, NO arms or legs, NO wings or horns. Large mouth opens naturally with a snake forked tongue; no exaggerated invented teeth. [ahriman-c06]\nMOMENT: Lunge upward from dark coils almost into the viewer, head thrust forward, neck forming a strong S-curve. Knock a brittle dead twig aside through actual contact, tiny bark fragments falling. Direct menacing eyes toward viewer.\nPOWER: Destructive darkness and death/disease are documented; visualize an already withered environment and swallowing darkness, not an invented poison cloud or emitted flame. [ahriman-c01,c07,c08]\nSCALE & CAMERA: extreme low angle; macro extreme close perspective; head huge by proximity occupying over half the square, coils recede into abyss, NO humans or giant-body scale props.\nLIGHT & WEATHER: ONE narrow warm side-light from an unseen natural opening rims scales; near-black abyss dominates remaining frame, dry dust from broken twig.\nSURFACE: rough black-brown scales with muted bronze highlights, dry dead stems, gritty dark rock.\nSETTING: an abyss of endless northern darkness, dead stalks in the foreground are editorial embodiment of destructive death/disease opposition. [ahriman-c05,c08]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
+      "depicted_variant": "Single snake incarnation lunging from the northern dark abyss through dead vegetation.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Single coherent snake form, one head and no limbs",
+          "claim_ids": [
+            "ahriman-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Destructive dark and lifeless surrounding vegetation, no emitted attack",
+          "claim_ids": [
+            "ahriman-c01",
+            "ahriman-c07",
+            "ahriman-c08"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Abyss of endless northern darkness",
+          "claim_ids": [
+            "ahriman-c05"
+          ]
+        }
+      ],
+      "aura": "Destructive darkness and death/disease are documented; visualize an already withered environment and swallowing darkness, not an invented poison cloud or emitted flame. [ahriman-c01,c07,c08]",
+      "basis_claim_ids": [
+        "ahriman-c06",
+        "ahriman-c01",
+        "ahriman-c07",
+        "ahriman-c08",
+        "ahriman-c05"
+      ],
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native PNG inspected: one coherent snake form, single head with two eyes, forked tongue, natural snake mouth/fangs, no limbs, horns or wings. Extreme close head lunges through dead stems with bark debris from physical contact; coils recede into near-black abyss. Warm natural opening light, rough scales and lifeless vegetation, no emitted venom, disease cloud, magic or writing. Strong dangerous head silhouette at thumbnail; documented snake variant answers rejected ordinary young man. All seven Uji Sangar checks yes.",
+        "limitations": [],
+        "native_sha256": "a950ba53a892a157bd0def3fb38276a148ccb59040a139110b47e1067cc22b27",
+        "reviewed_at": "2026-10-08T04:07:29.650032+00:00"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "a950ba53a892a157bd0def3fb38276a148ccb59040a139110b47e1067cc22b27",
+        "notes": "A single giant snake lunges from the dark abyss through dead vegetation; one head, forked tongue, destructive darkness dominates."
+      },
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/ahriman.json",
+        "native_sha256": "a950ba53a892a157bd0def3fb38276a148ccb59040a139110b47e1067cc22b27",
+        "old_url": "/assets/art/ahriman-mythic-presence.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/ahriman.png",
+        "old_webp_sha256": "fcce1203fb818fd3e160f6f78b0d5819db8fe284e8d9879637d46755cbe313cc",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "ahriman-c06",
+          "ahriman-c01",
+          "ahriman-c07",
+          "ahriman-c08",
+          "ahriman-c05"
+        ]
+      },
+      "url": "/assets/art/ahriman-presentation-revision-nama-besar.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "535b59da829890774851bd05120e6284b4a883d862326f5f6adf29013819d805"
     },
     {
       "index": 31,
@@ -36667,7 +38008,7 @@
       "slug": "yaksha",
       "canonical_name": "Yaksha",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "fill_status": "lengkap-bergambar",
       "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
       "old_artwork": {
@@ -36929,8 +38270,75 @@
         ]
       },
       "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/yaksha.json",
-      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/yaksha.png",
-      "native_sha256": "4fa05e0f73ed12dd1caa2a37e7e4837a9605bd254fa9e2ab3908e84a1a2bfa90"
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/yaksha.png",
+      "native_sha256": "07a312006a81e3a0d5575074850d5498291a61a98071d07ff83ad666c74c3ec6",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of YAKSHA, a Buddhist guardian nature spirit in its documented ugly OGRE form.\nANATOMY: ONE living male ogre-form guardian with ONE head, TWO eyes, TWO human-shaped arms, TWO legs. Rough heavily furrowed ugly broad face, thick brow, broad nose and square jaw; no added horns, tusks, third eye, wings or extra limbs. Opaque coarse earth-brown tunic and deep red wrap over covered torso. [yaksha-c05]\nMOMENT: Rise forward from the dark wooded entrance guarding hidden treasure, thrust one open palm toward the viewer to forbid intrusion, face staring downward with fierce protective authority. Cloth and nearby leaves shift through direct movement.\nPOWER: Protective guardian presence from documented attendants of Vaisravana and guardians of hidden treasure; no invented force-beam, tree animation or magical strength. [yaksha-c05,c06]\nSCALE & CAMERA: extreme low angle; extreme low, tight waist-up framing; ugly ogre face fills upper half and foreshortened blocking palm fills foreground, no tiny-human giant-size props.\nLIGHT & WEATHER: ONE angled warm sunset shaft rims face and hand through branches; deep walnut forest shadows and natural dust, no glowing eyes.\nSURFACE: rough furrowed skin, coarse woven cloth, weathered mountain roots and a partly visible simple dull-gold treasure vessel.\nSETTING: wooded Himalayan mountain treasure shelter, a keeper in forest/mountain setting rather than a man relaxed on roots. [yaksha-c01,c06]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
+      "depicted_variant": "Ugly ogre-form beneficent yaksha blocking access to a forest mountain treasure shelter.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Ugly ogre form from Buddhist stories, ordinary coherent limbs",
+          "claim_ids": [
+            "yaksha-c05"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Fierce but beneficent treasure guard; no emitted attack",
+          "claim_ids": [
+            "yaksha-c05",
+            "yaksha-c06"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Nature spirit forest and Himalayan treasure context",
+          "claim_ids": [
+            "yaksha-c01",
+            "yaksha-c06"
+          ]
+        }
+      ],
+      "aura": "Protective guardian presence from documented attendants of Vaisravana and guardians of hidden treasure; no invented force-beam, tree animation or magical strength. [yaksha-c05,c06]",
+      "basis_claim_ids": [
+        "yaksha-c05",
+        "yaksha-c06",
+        "yaksha-c01"
+      ],
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native inspected: one ugly ogre-form guardian, rough exaggerated broad brow/nose/jaw, two ordinary eyes, no horns/tusks/wings/third eye; coherent five-finger blocking palm and second hand, fully covered torso with coarse tunic/red wrap. Forward warning action, fierce downward gaze and close low camera feel formidable at thumbnail; hidden treasure vessel/chest and wooded rock shelter contextualize c05/c06. No emitted power, aura, readable text, signature, frame or gore. Answers former relaxed ordinary-man-on-roots rejection.",
+        "limitations": [],
+        "native_sha256": "07a312006a81e3a0d5575074850d5498291a61a98071d07ff83ad666c74c3ec6",
+        "reviewed_at": "2026-10-08T04:19:58.797681+00:00"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "07a312006a81e3a0d5575074850d5498291a61a98071d07ff83ad666c74c3ec6",
+        "notes": "An ugly ogre-form yaksha blocks the treasure cave with a huge palm, gold vessels behind; fierce guardian from a low angle."
+      },
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/yaksha.json",
+        "native_sha256": "07a312006a81e3a0d5575074850d5498291a61a98071d07ff83ad666c74c3ec6",
+        "old_url": "/assets/art/yaksha-regeneration-139.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/yaksha.png",
+        "old_webp_sha256": "ed78f5e9c572752772c4615d69097159064a2d7ab7f088652a4ee828a7e42adf",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "yaksha-c05",
+          "yaksha-c06",
+          "yaksha-c01"
+        ]
+      },
+      "url": "/assets/art/yaksha-presentation-revision-nama-besar.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2e04d649044dcb4db355e21cb568db7e0f985057628a415af1929b3398c712f8"
     },
     {
       "index": 39,
@@ -40716,7 +42124,7 @@
       "slug": "incubus",
       "canonical_name": "Incubus",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "fill_status": "lengkap-bergambar",
       "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
       "old_artwork": {
@@ -41092,8 +42500,72 @@
         ]
       },
       "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/incubus.json",
-      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/incubus.png",
-      "native_sha256": "f135d78408383f4df0fc60c6da017c44c7851e6a62af6568c0648eeb7fb6d4fd"
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/incubus.png",
+      "native_sha256": "cebd86d6053784474e7df54395ce6acae4a0207f9825c696f4ba5b17040e00c4",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of INCUBUS, a male dream-intruding demon taking the documented BAT form.\nANATOMY: ONE realistic living BAT with ONE bat head, TWO eyes, TWO membranous wings connected to forelimbs, TWO hind feet. Natural bat muzzle and ears; no horns, human torso, extra arms or oversized monster teeth. [incubus-c10]\nMOMENT: Bank into the viewer through a narrow open bedroom window at night, wings bent asymmetrically in strong flight foreshortening and small natural bat mouth open. The bat dominates nearly entire square. No person or sleeping victim shown.\nPOWER: Explicit documented transformation into a bat to enter a bedroom; physical flight and nocturnal menace only. NO supernatural ray, smoke body or emitted magic. [incubus-c10]\nSCALE & CAMERA: extreme low angle; extreme close upward perspective at window threshold; face and wings fill frame, wing near viewer huge through proximity, NOT gigantic anatomical size.\nLIGHT & WEATHER: ONE cold moonbeam from the open window cuts across brown-black fur and membranes; walnut interior shadow, thin airborne dust, no second magical source.\nSURFACE: real damp coarse bat fur, fine veined leathery wings, rough timber and coarse linen.\nSETTING: nocturnal bedroom seen only as a narrow strip of window jamb and empty dark bed edge, no victim, no sexual scene. [incubus-c10]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
+      "depicted_variant": "Bat incarnation entering a nocturnal bedroom, face and folded flight membranes confronting the viewer.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One anatomically coherent bat incarnation",
+          "claim_ids": [
+            "incubus-c10"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Bat transformation and physical entry flight",
+          "claim_ids": [
+            "incubus-c10"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Bedroom at night",
+          "claim_ids": [
+            "incubus-c10",
+            "incubus-c04"
+          ]
+        }
+      ],
+      "aura": "Explicit documented transformation into a bat to enter a bedroom; physical flight and nocturnal menace only. NO supernatural ray, smoke body or emitted magic. [incubus-c10]",
+      "basis_claim_ids": [
+        "incubus-c10",
+        "incubus-c04"
+      ],
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native PNG inspected: one coherent bat incarnation with one head, two eyes, two membranous forelimb wings and two hind feet, natural ears and opened small-toothed bat mouth. Wings bank asymmetrically through empty bedroom window directly toward viewer; the foreshortened membrane fills foreground and bat dominates thumbnail. Moonlight, dust, rough timber and empty bed edge; no people, sexual content, horns, human torso, emitted magic, lettering or watermark. Physical flight into bedroom uses documented c10 variant and answers ordinary man rejection. All seven Uji Sangar checks yes.",
+        "limitations": [],
+        "native_sha256": "cebd86d6053784474e7df54395ce6acae4a0207f9825c696f4ba5b17040e00c4",
+        "reviewed_at": "2026-10-08T04:08:56.704086+00:00"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "cebd86d6053784474e7df54395ce6acae4a0207f9825c696f4ba5b17040e00c4",
+        "notes": "A coherent bat with spread membranes and open fanged mouth enters the moonlit bedroom window toward the viewer; menacing night entry."
+      },
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/incubus.json",
+        "native_sha256": "cebd86d6053784474e7df54395ce6acae4a0207f9825c696f4ba5b17040e00c4",
+        "old_url": "/assets/art/incubus-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a10610-63b9-72e0-b40c-ea8572d6e4c9/exec-5fdcd44b-dad4-46e1-a706-e4b2857fcb81.png",
+        "old_webp_sha256": "fc62190fdc7a4880c1d02dbb6e378e9d46b367f6f790cc16b83901d608d92a66",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "incubus-c10",
+          "incubus-c04"
+        ]
+      },
+      "url": "/assets/art/incubus-presentation-revision-nama-besar.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fbaf15576597d0a896e5da75577668d80a432bf718e848af096df7f19f39283e"
     },
     {
       "index": 48,
@@ -43887,7 +45359,7 @@
       "slug": "ra",
       "canonical_name": "Rå (Scandinavian spirit)",
       "worker": "codex",
-      "status": "awaiting-independent-review",
+      "status": "complete",
       "fill_status": "lengkap-bergambar",
       "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
       "old_artwork": {
@@ -44274,8 +45746,76 @@
         ]
       },
       "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/ra.json",
-      "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/ra.png",
-      "native_sha256": "e44367119fe45874b76954844d0051a7a3174fb14901dd0b77838f8a6826bc90"
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/ra.png",
+      "native_sha256": "f0a83c22caefebfce21106ebe370b600c74092007feef80496b7306eb5156d22",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of RÅ, the Scandinavian and Sami keeper spirit of the forest, NOT the Egyptian sun god.\nANATOMY: ONE female human-form forest rå, ONE head, TWO eyes, TWO arms, TWO legs; fully opaque dark wool long dress and mantle, no crown, solar disk, horns, wings, extra eyes, hollow back or tail. Weathered stern woman face close to viewer. [ra-c06]\nMOMENT: Stride out between forest trunks directly toward viewer with one hand thrust palm-first toward intruder; commanding downward gaze. A powerful wind gust whips her mantle and pushes branches and needles outward around her advancing body.\nPOWER: Documented mastery of natural forces and animals of her guarded place: physical forest wind bows the branches, rushes needles and bends undergrowth; no emitted rays, no glowing eyes, no floating runes. [ra-c02]\nSCALE & CAMERA: extreme low angle; waist-up close view with huge foreshortened palm and imposing face, figure fills most of square; perspective only, no unsupported giant body size.\nLIGHT & WEATHER: ONE low amber sunset shaft from behind trees rims hand and wet cloak, dark walnut-green shadows; flying needles, damp natural mist, no glowing colored haze.\nSURFACE: coarse wet wool, weathered skin, pine bark, mud, dense dark needles.\nSETTING: a guarded Scandinavian forest, skogsrå type explicitly selected; trees and vegetation visible close behind. [ra-c01,c03]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
+      "depicted_variant": "Female human-form skogsrå confronting an intruder while a forest gust bends branches and drives needles around her.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One female human-form skogsrå",
+          "claim_ids": [
+            "ra-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Physical wind in forest expresses documented control of natural forces",
+          "claim_ids": [
+            "ra-c02"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Forest keeper type, guarded woodland",
+          "claim_ids": [
+            "ra-c01",
+            "ra-c03"
+          ]
+        }
+      ],
+      "aura": "Documented mastery of natural forces and animals of her guarded place: physical forest wind bows the branches, rushes needles and bends undergrowth; no emitted rays, no glowing eyes, no floating runes. [ra-c02]",
+      "basis_claim_ids": [
+        "ra-c06",
+        "ra-c02",
+        "ra-c01",
+        "ra-c03"
+      ],
+      "visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native PNG inspected: one Scandinavian female human-form forest spirit, one head two arms, one close five-finger commanding palm and lower second hand. Opaque dark textured dress/mantle, no tail, hollow back, wings, solar disk or Egyptian imagery. Stern downward gaze, advancing knee/cloth perspective, wind-driven loose needles, hair and nearby boughs create physical forest-command moment and imposing thumbnail. Moss, cords and surface twigs lie on clothing as editorial woodland costume rather than new anatomy. Natural low amber sun, no emitted rays, symbols, glow, lettering or watermark. All seven Uji Sangar checks yes.",
+        "limitations": [],
+        "native_sha256": "f0a83c22caefebfce21106ebe370b600c74092007feef80496b7306eb5156d22",
+        "reviewed_at": "2026-10-08T04:17:24.695628+00:00"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "f0a83c22caefebfce21106ebe370b600c74092007feef80496b7306eb5156d22",
+        "notes": "The Scandinavian skogsrå in bark-dark robes halts the intruder with a raised palm amid wind-driven pine; a forest keeper, no Egyptian imagery."
+      },
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/ra.json",
+        "native_sha256": "f0a83c22caefebfce21106ebe370b600c74092007feef80496b7306eb5156d22",
+        "old_url": "/assets/art/ra-regeneration-139-mythic-presence.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/ra-mythic-presence.png",
+        "old_webp_sha256": "920a87610830d9f1b31b6604f940ea6519fb5c30473add18ef64c831c8fa8181",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "ra-c06",
+          "ra-c02",
+          "ra-c01",
+          "ra-c03"
+        ]
+      },
+      "url": "/assets/art/ra-presentation-revision-nama-besar.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "222cb55c5e5e7b47fb1b1d28ec889cd3d8564e60b2ab59757d9e616f740a51e1"
     },
     {
       "index": 57,

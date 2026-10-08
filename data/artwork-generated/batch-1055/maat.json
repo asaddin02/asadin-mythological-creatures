@@ -1,7 +1,7 @@
 {
   "slug": "maat",
-  "prompt": "MAAT, Egyptian truth/order goddess: ONE fully clothed young adult HUMAN woman, NORMAL HUMAN ANATOMY, NO WINGS ANYWHERE. Exactly one head, two HUMAN ARMS with hands, two legs, no feathers attached to body. A SINGLE ostrich FEATHER worn upright in plain headband is chosen explicit feather variant maat-c09, not winged variant. Fully opaque white linen gown. Two hands hold a great balanced judgment scale, one pan carries a loose feather, other a sealed vessel representing soul, no gore (maat-c06/c07). Towering night-sky temple terrace, immense orderly stars overhead (maat-c02), tiny Nile buildings below, golden natural temple light and sapphire heavens, benevolent majestic guardian. LOW CAMERA, monumental scale, original square premium painterly artwork. NO wings, birds, extra body parts, text, glyphs, watermark, logo, border, nudity or gore.",
-  "depicted_variant": "Wingless young Maat with ostrich feather and judgment scale.",
+  "prompt": "ONE original square premium painterly cinematic Mythics illustration of MAAT, Egyptian goddess personifying truth, cosmic order and justice.\nANATOMY: one young adult human woman, one head, two human arms and hands, two legs, wingless selected variant. One large single ostrich feather upright in her headband; completely opaque ivory linen gown. A huge balanced judgment scale directly before her, one pan containing a feather and the other a closed opaque vessel symbolizing the heart, no actual organ. [maat-c09, maat-c06, maat-c07]\nMOMENT: lean forward and lower the immense balanced scale toward the viewer as she judges a soul; fingers hold the upright scale shaft securely, the other hand extends in an authoritative verdict. Severe compassionate concentrated gaze looks directly downward at the viewer. Her face, feather and scales occupy nearly the whole square.\nPOWER: behind her, the stars form vast orderly celestial arcs, visualizing her documented regulation of stars, with no emitted beams or generic glow. [maat-c02] The massive scales weigh the soul in the Duat. [maat-c06, maat-c07]\nSCALE & CAMERA: extreme worm's-eye viewpoint directly below the balance; close framing with foreshortened hands and scale pans projecting into the foreground; apparent monumental sacred presence, no claim of literal giant height.\nLIGHT & WEATHER: a single warm low lamp outside the frame casts hard antique gold light up onto the scales and face, deep walnut shadows, faint natural dust.\nSURFACE: weighted rough-woven linen, tarnished heavy bronze scales, distinct individual ostrich feather barbs, human skin.\nSETTING: dark Duat judgment space beneath the ordered stars, bare rock ground, no invented creatures or additional people. [maat-c06, maat-c02]\nMOOD: awe-inspiring and imposing guardian of justice; judgment feels unavoidable, never a decorative portrait or an ordinary passerby.\nHARD CONSTRAINTS: no text, lettering, hieroglyphs, logo, border, frame or watermark; exactly one head and two human arms; no wings; no extra limbs or fingers; no design borrowed from any film, game, anime or comic; no nudity or explicit gore; no generic glow aura, neon outline or energy ribbons.",
+  "depicted_variant": "Wingless feather-bearing young Maat delivering judgment through a foreground bronze balance.",
   "basis_claim_ids": [
     "maat-c01",
     "maat-c02",
@@ -10,21 +10,49 @@
     "maat-c09"
   ],
   "visual_requirements": [
-    "Young human woman wearing ostrich feather, wingless selected alternative — maat-c09.",
-    "Feather for judgment in Duat — maat-c06/c07.",
-    "Ordered stars — maat-c02."
+    {
+      "kind": "anatomy",
+      "description": "Young human woman wearing one ostrich feather; wingless selected alternative, fully opaque linen editorial clothing.",
+      "claim_ids": [
+        "maat-c09"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Large balance with feather and opaque symbolic heart vessel.",
+      "claim_ids": [
+        "maat-c06",
+        "maat-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Ordered stars behind her representing regulation of stars, no new attack.",
+      "claim_ids": [
+        "maat-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Duat judgment space.",
+      "claim_ids": [
+        "maat-c06"
+      ]
+    }
   ],
-  "aura": "Ordered vast star field and balanced judgment imagery grounded in cosmic order.",
+  "aura": "Inevitable judgment through the huge scales and ordered stars (maat-c06/c07/c02), no luminous body aura.",
   "artistic_choices": [
-    "Cloth, colors, apparent scale, architecture and natural cinematic light are editorial choices.",
-    "Only selected documented variant is represented; no blending of alternate anatomy."
+    "Monumental presence is close low-angle framing and foreshortening, not literal giant anatomy.",
+    "Bronze scales, opaque symbolic heart vessel, dark bare Duat staging, linen and lamp illumination are editorial.",
+    "Stars visualize cosmic order, not emitted magic."
   ],
   "visual_review": {
-    "notes": "Viewed replacement native: young wingless human woman, one head and two normal arms, single ostrich-feather head ornament, judgment scale with feather and sealed vessel. Deep ordered star sky and temple lights. Wing anatomy error removed; rejected first PNG preserved. Pictorial temple relief ornament, no readable caption or watermark.",
     "reviewer": "codex",
     "verdict": "pass",
-    "native_sha256": "c16f8f900e83bf95b48db1689df3b05d83d9edb298bee75f2d9b95070f9c6958",
-    "reviewed_at": "2026-10-06T08:11:49.586971+00:00"
+    "notes": "Native PNG inspected: dominant wingless young goddess, one head two human arms, explicit single head feather, both scale pans clear with feather and sealed vessel; central lower disc is balance stand base. Foreshortened reaching verdict hand and frontal scale provide judgment action and imposing thumbnail silhouette. Ordered star arcs, warm lamp light, textured bronze and opaque linen, no emitted beams or extra anatomy, no lettering or watermark. All seven Uji Sangar checks yes.",
+    "limitations": [],
+    "native_sha256": "c16f9d351be7a2867fbaf466df79f837024e4429dc86bdf2b58ede156b62dc2a",
+    "reviewed_at": "2026-10-08T03:56:05.301341+00:00"
   },
   "rejected_attempts": [
     {
@@ -32,22 +60,37 @@
       "receipt_file": "data/artwork-generated/batch-1055/rejected/maat-attempt-01.json",
       "native_sha256": "17c7c8aaf684cd5b21f7069247d23cf75f3233c889bce7caf1f1272b3668291b",
       "reason": "Separate shoulder wings did not match c09 exact arm-wing anatomy. Selected wingless feather variant instead."
+    },
+    {
+      "original_file": "data/artwork-generated/batch-1055/rejected/maat-attempt-02.png",
+      "receipt_file": "data/artwork-generated/batch-1055/rejected/maat-attempt-02.json",
+      "native_sha256": "c16f8f900e83bf95b48db1689df3b05d83d9edb298bee75f2d9b95070f9c6958",
+      "reason": "Ordinary woman with scales at human scale."
     }
   ],
-  "generated_file": "/home/asadin/.codex/generated_images/01a11024-371c-7680-935d-9da18174a957/exec-f4875c52-0359-424c-b139-f0d450629b1b.png",
-  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/maat.png",
-  "native_sha256": "c16f8f900e83bf95b48db1689df3b05d83d9edb298bee75f2d9b95070f9c6958",
-  "status": "needs-correction",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a4-784e-76a1-b1ae-5d5cc188cac8/exec-5d889c6b-fcbb-416f-9408-a92752529169.png",
+  "original_file": "data/artwork-generated/batch-1055/originals/maat.png",
+  "native_sha256": "c16f9d351be7a2867fbaf466df79f837024e4429dc86bdf2b58ede156b62dc2a",
+  "status": "reviewed",
   "worker": "codex",
   "tool": "OpenAI built-in image_gen",
   "review_path": "data/gemini/reviews/batch-077.review.json",
-  "reviewed_at": "2026-10-06T08:11:49.586971+00:00",
+  "reviewed_at": "2026-10-08T04:30:26.950Z",
+  "worker_agent": "lane_1055_a",
+  "subagent_model": "gpt-6.1-sol",
+  "subagent_reasoning_effort": "high",
+  "image_model": "tidak dilaporkan alat",
+  "batch": 1055,
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "generated_at": "2026-10-08T03:56:05.301341+00:00",
+  "width": 1254,
+  "height": 1254,
+  "generation_failures": [],
   "root_visual_review": {
-    "verdict": "reject",
+    "verdict": "pass",
     "reviewer": "claude",
-    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
-    "native_sha256": "c16f8f900e83bf95b48db1689df3b05d83d9edb298bee75f2d9b95070f9c6958",
-    "notes": "Ordinary woman with scales at human scale."
-  },
-  "correction_notes": "Ordinary woman with scales at human scale."
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "c16f9d351be7a2867fbaf466df79f837024e4429dc86bdf2b58ede156b62dc2a",
+    "notes": "Maat with ostrich feather behind a huge foreground balance holding feather and sealed vessel, ordered stars above; imposing judgment scene."
+  }
 }

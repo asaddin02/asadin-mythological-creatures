@@ -78174,29 +78174,55 @@
         "tefnut-c14"
       ],
       "previous_worker": "worker-1",
-      "url": "/assets/art/tefnut-mythic-presence.webp",
-      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut-mythic-presence.png",
-      "prompt": "Square premium painterly mythology encyclopedia illustration of TEFNUT, select the explicitly documented Egyptian LIONESS-HEADED WOMAN form, not an ordinary lioness. One seated regal adult goddess with the complete head of a tawny lioness (no mane), natural lioness ears and muzzle, and an entirely HUMAN female body, exactly two human arms/hands and two human legs/feet. Her torso and legs fully modestly clothed in opaque pleated linen; human hands rest on the carved stone chair arms. Seated full figure from ears to human sandaled feet within frame, frontal three-quarter view. Quiet commanding deity presence, ancient Egyptian temple courtyard with tall sandstone columns, distant river under humid morning sky; costume, simple broad gold collar and chair are declared editorial staging. Authority through composed face, regal posture and monument scale, natural soft dawn light, rich oil painting detail. No lion paws on body, lion torso, tail, wings, horns, giant solar crown, aura, glowing eyes, magic water projection, colored mist, symbols, text, watermark, border. Identity must immediately read lion-headed goddess, not zoo lion and not a woman wearing a lion mask.",
-      "depicted_variant": "Seated lioness-headed goddess with human female body",
+      "url": "/assets/art/tefnut-presentation-revision-nama-besar.webp",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/tefnut.png",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of TEFNUT, Egyptian moisture goddess in her documented lion-headed female form.\nANATOMY: Exactly ONE unmistakable LIONESS HEAD on ONE human female body, TWO human arms with human hands, TWO human legs, no mane, no animal forelegs or tail. Opaque heavy linen dress covering body and chest, antique gold neck collar editorial. Lion face occupies upper half of square, wet whiskers and clearly opened leonine jaws. [tefnut-c05,c11]\nMOMENT: Advance with fierce commanding stare and open lioness mouth; extend one human hand toward the viewer as she steps through dense rain and spray. Torso leans forward and wet linen trails in the motion. Divine confrontation, not an ordinary wildlife lion in rain.\nPOWER: Moisture and near-earth atmosphere are documented domains; show heavy physical rain and wind-swept mist in her surroundings, NOT an invented water weapon or rays. Threat comes from documented fierce lioness aspect. [tefnut-c01,c07,c09]\nSCALE & CAMERA: extreme low angle; extreme close upward view, the leonine head and approaching human hand fill frame; ordinary anatomical proportions, no invented giant scale.\nLIGHT & WEATHER: ONE golden oblique dusk light catches droplets and rims lion muzzle; deep walnut shadows, driving natural rain.\nSURFACE: wet lioness fur, amber eyes without glow, coarse soaked linen, rough gold collar.\nSETTING: Nubian desert crags dark under rainstorm, reflecting her desert departure story; weather is editorial atmosphere related to her moisture domain. [tefnut-c07,c01]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
+      "depicted_variant": "Lioness-headed human goddess striding toward viewer in a Nubian storm, opened jaws and reaching hand dominating frame.",
       "visual_requirements": [
-        "Natural lioness head, no mane",
-        "Human female torso arms hands legs feet",
-        "Seated divine figure, modest opaque dress"
+        {
+          "kind": "anatomy",
+          "description": "Lion-headed female goddess, human arms and opaque clothing",
+          "claim_ids": [
+            "tefnut-c05",
+            "tefnut-c11"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Physical rain evokes moisture domain, fierce lioness aspect supplies threat",
+          "claim_ids": [
+            "tefnut-c01",
+            "tefnut-c07",
+            "tefnut-c09"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Nubian desert departure setting",
+          "claim_ids": [
+            "tefnut-c07"
+          ]
+        }
       ],
       "basis_claim_ids": [
         "tefnut-c05",
-        "tefnut-c11"
+        "tefnut-c11",
+        "tefnut-c01",
+        "tefnut-c07",
+        "tefnut-c09"
       ],
-      "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+      "aura": "Moisture and near-earth atmosphere are documented domains; show heavy physical rain and wind-swept mist in her surroundings, NOT an invented water weapon or rays. Threat comes from documented fierce lioness aspect. [tefnut-c01,c07,c09]",
       "visual_review": {
+        "reviewer": "codex",
         "verdict": "pass",
-        "reviewer": "assess_changes",
-        "notes": "Viewed native: lioness head seamlessly on human clothed seated female body, two human hands and sandaled feet; no tail or other invented animal anatomy, natural dawn light.",
-        "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec"
+        "notes": "Native inspected: one wet lioness head on female human body with two human arms, forward hand and roaring jaws dominate frame; opaque linen and desert crags under physical rain. No ordinary quadruped lion, no invented weapon or emitted magic, no text. Collar panels are abstract ornament, not legible writing. All seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+        "reviewed_at": "2026-10-08T04:14:06.459585+00:00"
       },
       "width": 1254,
       "height": 1254,
-      "sha256": "409325959a9cc131034758918e8cdb517e7ee2e18156dfb619bc15dd3fc4862e",
+      "sha256": "851838756b612c45602c7f3e9f20b5ef13f6a075d66ade78eee0443405905477",
       "presentation_revision_history": [
         {
           "index": 137,
@@ -78602,35 +78628,881 @@
           "width": 1024,
           "height": 1536,
           "sha256": "fafd52bb410aaad4df81c61510ea29488ac8661ced56ae1b4f89eb9df65f67ff"
+        },
+        {
+          "index": 137,
+          "slug": "tefnut",
+          "canonical_name": "Tefnut",
+          "worker": "root",
+          "status": "complete",
+          "requires_catalogue_record": true,
+          "review_path": "data/gemini/reviews/batch-077.review.json",
+          "research": {
+            "schema": "mythics-entry/1",
+            "batch_id": "batch-077",
+            "slug": "tefnut",
+            "task": "new",
+            "tier": "rich",
+            "researched_at": "2026-10-02",
+            "identity": {
+              "canonical_name": "Tefnut",
+              "native_name": null,
+              "display_name": {
+                "id": "Tefnut",
+                "en": "Tefnut"
+              },
+              "wikidata_qid": null,
+              "claim_ids": [
+                "tefnut-c01"
+              ]
+            },
+            "alternate_names": [],
+            "jenis": {
+              "value": "dewa",
+              "claim_ids": [
+                "tefnut-c01"
+              ]
+            },
+            "classification": {
+              "value": "deity",
+              "claim_ids": [
+                "tefnut-c01"
+              ]
+            },
+            "culture": {
+              "value": "egyptian-mythology",
+              "suggested_new": null,
+              "claim_ids": [
+                "tefnut-c01"
+              ]
+            },
+            "region": {
+              "value": "africa",
+              "claim_ids": [
+                "tefnut-c01"
+              ]
+            },
+            "countries": null,
+            "era": null,
+            "habitats": [],
+            "disposition": null,
+            "traits": [],
+            "short_description": {
+              "id": "Tefnut adalah dewi kelembapan Mesir dan anggota Ennead Heliopolis.",
+              "en": "Tefnut is an Egyptian moisture goddess belonging to the Heliopolitan Ennead.",
+              "claim_ids": [
+                "tefnut-c01"
+              ]
+            },
+            "long_description": [
+              {
+                "id": "Tefnut adalah dewi kelembapan Mesir dan anggota Ennead Heliopolis. Atum disebut sebagai orang tuanya. Shu adalah saudara laki-laki sekaligus pasangannya.",
+                "en": "Tefnut is an Egyptian moisture goddess belonging to the Heliopolitan Ennead. Atum is named as her parent. Shu is her brother and consort.",
+                "claim_ids": [
+                  "tefnut-c01",
+                  "tefnut-c02",
+                  "tefnut-c03"
+                ]
+              },
+              {
+                "id": "Geb dan Nut adalah anak-anaknya bersama Shu. Ia berupa singa betina atau dewi berkepala singa. Ia membantu Shu menopang langit dan menjaga kestabilan dunia. Dalam satu kisah ia pergi dari Mesir ke gurun Nubia sebagai singa betina ganas. Ia dapat diidentifikasi dengan Bastet, Sekhmet, dan Hathor.",
+                "en": "Geb and Nut are her children with Shu. She takes the form of a lioness or lion-headed goddess. She helps Shu support the sky and maintain the world’s stability. In one tale she leaves Egypt for the Nubian desert as a fierce lioness. She can be identified with Bastet, Sekhmet and Hathor.",
+                "claim_ids": [
+                  "tefnut-c04",
+                  "tefnut-c05",
+                  "tefnut-c06",
+                  "tefnut-c07",
+                  "tefnut-c08"
+                ]
+              },
+              {
+                "id": "Sumber ini menggambarkan Tefnut sebagai dewi atmosfer dekat bumi. Namanya dikaitkan dengan bunyi meludah dalam penafsiran yang dikutip sumber. Seni juga menggambarkannya sebagai ular berkepala singa. Satu versi penciptaan melahirkan Shu dan Tefnut lewat ludah Atum. Budge menghubungkan Tefnut sebagai dewi orang mati dengan minuman bagi almarhum. Dalam uraian Budge, Tefnut adalah mata kiri Temu, dibandingkan dengan bulan. Temu, Shu, dan Tefnut membentuk tiga serangkai dalam teks penciptaan yang dikutip Budge.",
+                "en": "This source describes Tefnut as goddess of the atmosphere near the earth. Her name is associated with the sound of spitting in the interpretation cited by this source. Art also depicts her as a lion-headed serpent. One creation version produces Shu and Tefnut through Atum’s spitting. Budge connects Tefnut as a goddess of the dead with drink for the deceased. In Budge’s account Tefnut is Temu’s left eye, compared with the moon. Temu, Shu and Tefnut form a trinity in the creation text cited by Budge.",
+                "claim_ids": [
+                  "tefnut-c09",
+                  "tefnut-c10",
+                  "tefnut-c11",
+                  "tefnut-c12",
+                  "tefnut-c13",
+                  "tefnut-c14",
+                  "tefnut-c15"
+                ]
+              }
+            ],
+            "cultural_context": {
+              "id": "Temu, Shu, dan Tefnut membentuk tiga serangkai dalam teks penciptaan yang dikutip Budge.",
+              "en": "Temu, Shu and Tefnut form a trinity in the creation text cited by Budge.",
+              "claim_ids": [
+                "tefnut-c15"
+              ]
+            },
+            "etymology": null,
+            "story_mode": null,
+            "did_you_know": null,
+            "abilities": [],
+            "weaknesses": [],
+            "variants": [],
+            "stories": [
+              {
+                "title": {
+                  "id": "Kepergian Tefnut ke Nubia",
+                  "en": "Tefnut’s departure for Nubia"
+                },
+                "role": {
+                  "id": "Dalam satu kisah ia pergi dari Mesir ke gurun Nubia sebagai singa betina ganas.",
+                  "en": "In one tale she leaves Egypt for the Nubian desert as a fierce lioness."
+                },
+                "summary": {
+                  "id": "Dalam satu kisah ia pergi dari Mesir ke gurun Nubia sebagai singa betina ganas.",
+                  "en": "In one tale she leaves Egypt for the Nubian desert as a fierce lioness."
+                },
+                "claim_ids": [
+                  "tefnut-c07"
+                ]
+              }
+            ],
+            "places": [],
+            "timeline": [],
+            "relations": [
+              {
+                "target_name": "Shu",
+                "relation_type": "spouse",
+                "note": {
+                  "id": "Shu adalah saudara laki-laki sekaligus pasangannya.",
+                  "en": "Shu is her brother and consort."
+                },
+                "claim_ids": [
+                  "tefnut-c03"
+                ]
+              },
+              {
+                "target_name": "Nut",
+                "relation_type": "child",
+                "note": {
+                  "id": "Geb dan Nut adalah anak-anaknya bersama Shu.",
+                  "en": "Geb and Nut are her children with Shu."
+                },
+                "claim_ids": [
+                  "tefnut-c04"
+                ]
+              }
+            ],
+            "modern_depictions": [],
+            "tradition_vs_modern": null,
+            "learning_questions": [],
+            "images": [],
+            "sources": [
+              {
+                "id": "tefnut-s1",
+                "url": "https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%95%E3%83%8C%E3%83%88",
+                "title": "テフヌト",
+                "author": null,
+                "publisher": "Wikipedia",
+                "published": null,
+                "language": "ja",
+                "type": "wikipedia",
+                "accessed": "2026-10-02"
+              },
+              {
+                "id": "tefnut-s2",
+                "url": "https://www.worldhistory.org/article/885/egyptian-gods---the-complete-list/",
+                "title": "Egyptian Gods - The Complete List - World History Encyclopedia",
+                "author": null,
+                "publisher": "World History Encyclopedia",
+                "published": null,
+                "language": "en",
+                "type": "encyclopedia",
+                "accessed": "2026-10-02"
+              },
+              {
+                "id": "tefnut-s3",
+                "url": "https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
+                "title": "Egyptian Ideas of the Future Life",
+                "author": null,
+                "publisher": "Project Gutenberg",
+                "published": null,
+                "language": "en",
+                "type": "primary-text",
+                "accessed": "2026-10-02"
+              }
+            ],
+            "claims": [
+              {
+                "id": "tefnut-c01",
+                "source_id": "tefnut-s1",
+                "quote": "テフヌト（Tefnut）は、エジプト神話における湿気の女神。ヘリオポリス九柱神に数えられる。テフヌト、テフヌウト、テフェネト、テフヌートなどとも表記され、ギリシア語ではトフェニスと呼ばれる。",
+                "locator": "Article text, paragraph 1",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Tefnut adalah dewi kelembapan Mesir dan anggota Ennead Heliopolis.",
+                  "en": "Tefnut is an Egyptian moisture goddess belonging to the Heliopolitan Ennead."
+                }
+              },
+              {
+                "id": "tefnut-c02",
+                "source_id": "tefnut-s1",
+                "quote": "創造神アトゥムを親に持ち、アトゥムの自慰によって生まれた（ラーと習合されたため、ラーともされる）。",
+                "locator": "Article text, paragraph 2",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Atum disebut sebagai orang tuanya.",
+                  "en": "Atum is named as her parent."
+                }
+              },
+              {
+                "id": "tefnut-c03",
+                "source_id": "tefnut-s1",
+                "quote": "配偶神は兄でもある大気の神シュー。彼との間に大地の神ゲブと天空の女神ヌトを成した。雌ライオンもしくは",
+                "locator": "Article text, paragraph 2",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Shu adalah saudara laki-laki sekaligus pasangannya.",
+                  "en": "Shu is her brother and consort."
+                }
+              },
+              {
+                "id": "tefnut-c04",
+                "source_id": "tefnut-s1",
+                "quote": "配偶神は兄でもある大気の神シュー。彼との間に大地の神ゲブと天空の女神ヌトを成した。雌ライオンもしくは",
+                "locator": "Article text, paragraph 2",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Geb dan Nut adalah anak-anaknya bersama Shu.",
+                  "en": "Geb and Nut are her children with Shu."
+                }
+              },
+              {
+                "id": "tefnut-c05",
+                "source_id": "tefnut-s1",
+                "quote": "雌ライオンもしくは、ライオンの頭を持った女神として描かれる。シューの妻としての伝承ばかりでテフヌト単独での伝承は、ほとんど見られない。",
+                "locator": "Article text, paragraph 2",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Ia berupa singa betina atau dewi berkepala singa.",
+                  "en": "She takes the form of a lioness or lion-headed goddess."
+                }
+              },
+              {
+                "id": "tefnut-c06",
+                "source_id": "tefnut-s1",
+                "quote": "テフヌトは天空を押し上げる夫を助け、一心同体の存在として世界の安定のために働く。 他の神々との習合",
+                "locator": "Article text, paragraph 2",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Ia membantu Shu menopang langit dan menjaga kestabilan dunia.",
+                  "en": "She helps Shu support the sky and maintain the world’s stability."
+                }
+              },
+              {
+                "id": "tefnut-c07",
+                "source_id": "tefnut-s1",
+                "quote": "テフヌトは、シューの妻となる前に家出をしたという神話があり、宮殿で退屈していたテフヌトは父親（ここでは太陽神ラーとされる）に何も告げず、南のヌビア砂漠へ家出してしまう。獰猛な雌ライオンとなって気ままに駆け回っていたテフヌトに父親は、息子シューと知恵の神トートに依頼し、ようやく連れ戻すことに成功した、という内容である。",
+                "locator": "Article text, paragraph 3",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Dalam satu kisah ia pergi dari Mesir ke gurun Nubia sebagai singa betina ganas.",
+                  "en": "In one tale she leaves Egypt for the Nubian desert as a fierce lioness."
+                }
+              },
+              {
+                "id": "tefnut-c08",
+                "source_id": "tefnut-s1",
+                "quote": "太陽神ラーの娘であること、雌ライオンの姿を持つことから、エジプトの女神バステトとセクメト、セクメトと同一視された女神ハトホルと同一視されることがある。",
+                "locator": "Article text, paragraph 4",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Ia dapat diidentifikasi dengan Bastet, Sekhmet, dan Hathor.",
+                  "en": "She can be identified with Bastet, Sekhmet and Hathor."
+                }
+              },
+              {
+                "id": "tefnut-c09",
+                "source_id": "tefnut-s2",
+                "quote": "She is goddess of the atmosphere of the lower world, the earth, just as Shu is god of the upper atmosphere above the earth.",
+                "locator": "Article text, paragraph 199",
+                "context": "scholarly-interpretation",
+                "statement": {
+                  "id": "Sumber ini menggambarkan Tefnut sebagai dewi atmosfer dekat bumi.",
+                  "en": "This source describes Tefnut as goddess of the atmosphere near the earth."
+                }
+              },
+              {
+                "id": "tefnut-c10",
+                "source_id": "tefnut-s2",
+                "quote": "her name represents the sound of spitting",
+                "locator": "Article text, paragraph 199",
+                "context": "scholarly-interpretation",
+                "statement": {
+                  "id": "Namanya dikaitkan dengan bunyi meludah dalam penafsiran yang dikutip sumber.",
+                  "en": "Her name is associated with the sound of spitting in the interpretation cited by this source."
+                }
+              },
+              {
+                "id": "tefnut-c11",
+                "source_id": "tefnut-s2",
+                "quote": "She is most often depicted as a woman seated with a lion's head or a serpent with a lion's head.",
+                "locator": "Article text, paragraph 199",
+                "context": "scholarly-interpretation",
+                "statement": {
+                  "id": "Seni juga menggambarkannya sebagai ular berkepala singa.",
+                  "en": "Art also depicts her as a lion-headed serpent."
+                }
+              },
+              {
+                "id": "tefnut-c12",
+                "source_id": "tefnut-s2",
+                "quote": "Shu and Tefnut were the first two gods Atum created either by mating with his shadow or by spitting.",
+                "locator": "Article text, paragraph 199",
+                "context": "scholarly-interpretation",
+                "statement": {
+                  "id": "Satu versi penciptaan melahirkan Shu dan Tefnut lewat ludah Atum.",
+                  "en": "One creation version produces Shu and Tefnut through Atum’s spitting."
+                }
+              },
+              {
+                "id": "tefnut-c13",
+                "source_id": "tefnut-s3",
+                "quote": "as a god of the dead she seems to have been, in some way, connected with the supply of drink to the deceased.",
+                "locator": "Article text, paragraph 121",
+                "context": "historical-record",
+                "statement": {
+                  "id": "Budge menghubungkan Tefnut sebagai dewi orang mati dengan minuman bagi almarhum.",
+                  "en": "Budge connects Tefnut as a goddess of the dead with drink for the deceased."
+                }
+              },
+              {
+                "id": "tefnut-c14",
+                "source_id": "tefnut-s3",
+                "quote": "she was the left, i.e., Shu represented an aspect of the Sun, and Tefnut of the Moon.",
+                "locator": "Article text, paragraph 121",
+                "context": "historical-record",
+                "statement": {
+                  "id": "Dalam uraian Budge, Tefnut adalah mata kiri Temu, dibandingkan dengan bulan.",
+                  "en": "In Budge’s account Tefnut is Temu’s left eye, compared with the moon."
+                }
+              },
+              {
+                "id": "tefnut-c15",
+                "source_id": "tefnut-s3",
+                "quote": "The gods Temu, Shu, and Tefnut thus formed a trinity",
+                "locator": "Article text, paragraph 121",
+                "context": "historical-record",
+                "statement": {
+                  "id": "Temu, Shu, dan Tefnut membentuk tiga serangkai dalam teks penciptaan yang dikutip Budge.",
+                  "en": "Temu, Shu and Tefnut form a trinity in the creation text cited by Budge."
+                }
+              }
+            ],
+            "conflicts": [],
+            "gaps": [
+              {
+                "field": "images",
+                "searched": "Ilustrasi dalam artikel tidak dipakai tanpa pemeriksaan berkas Commons, kecocokan subjek, dan lisensinya; belum ada gambar yang terverifikasi untuk entri ini."
+              },
+              {
+                "field": "optional_sections",
+                "searched": "Bacaan yang dikutip belum cukup untuk memastikan bagian opsional yang dibiarkan null atau []; bagian tersebut tidak diisi melalui dugaan."
+              }
+            ]
+          },
+          "selection_visual_claim_ids": [
+            "tefnut-c05",
+            "tefnut-c11",
+            "tefnut-c14"
+          ],
+          "previous_worker": "worker-1",
+          "url": "/assets/art/tefnut-mythic-presence.webp",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut-mythic-presence.png",
+          "prompt": "Square premium painterly mythology encyclopedia illustration of TEFNUT, select the explicitly documented Egyptian LIONESS-HEADED WOMAN form, not an ordinary lioness. One seated regal adult goddess with the complete head of a tawny lioness (no mane), natural lioness ears and muzzle, and an entirely HUMAN female body, exactly two human arms/hands and two human legs/feet. Her torso and legs fully modestly clothed in opaque pleated linen; human hands rest on the carved stone chair arms. Seated full figure from ears to human sandaled feet within frame, frontal three-quarter view. Quiet commanding deity presence, ancient Egyptian temple courtyard with tall sandstone columns, distant river under humid morning sky; costume, simple broad gold collar and chair are declared editorial staging. Authority through composed face, regal posture and monument scale, natural soft dawn light, rich oil painting detail. No lion paws on body, lion torso, tail, wings, horns, giant solar crown, aura, glowing eyes, magic water projection, colored mist, symbols, text, watermark, border. Identity must immediately read lion-headed goddess, not zoo lion and not a woman wearing a lion mask.",
+          "depicted_variant": "Seated lioness-headed goddess with human female body",
+          "visual_requirements": [
+            "Natural lioness head, no mane",
+            "Human female torso arms hands legs feet",
+            "Seated divine figure, modest opaque dress"
+          ],
+          "basis_claim_ids": [
+            "tefnut-c05",
+            "tefnut-c11"
+          ],
+          "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+          "visual_review": {
+            "verdict": "pass",
+            "reviewer": "assess_changes",
+            "notes": "Viewed native: lioness head seamlessly on human clothed seated female body, two human hands and sandaled feet; no tail or other invented animal anatomy, natural dawn light.",
+            "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec"
+          },
+          "width": 1254,
+          "height": 1254,
+          "sha256": "409325959a9cc131034758918e8cdb517e7ee2e18156dfb619bc15dd3fc4862e",
+          "presentation_revision_history": [
+            {
+              "index": 137,
+              "slug": "tefnut",
+              "canonical_name": "Tefnut",
+              "worker": "root",
+              "status": "complete",
+              "requires_catalogue_record": true,
+              "review_path": "data/gemini/reviews/batch-077.review.json",
+              "research": {
+                "schema": "mythics-entry/1",
+                "batch_id": "batch-077",
+                "slug": "tefnut",
+                "task": "new",
+                "tier": "rich",
+                "researched_at": "2026-10-02",
+                "identity": {
+                  "canonical_name": "Tefnut",
+                  "native_name": null,
+                  "display_name": {
+                    "id": "Tefnut",
+                    "en": "Tefnut"
+                  },
+                  "wikidata_qid": null,
+                  "claim_ids": [
+                    "tefnut-c01"
+                  ]
+                },
+                "alternate_names": [],
+                "jenis": {
+                  "value": "dewa",
+                  "claim_ids": [
+                    "tefnut-c01"
+                  ]
+                },
+                "classification": {
+                  "value": "deity",
+                  "claim_ids": [
+                    "tefnut-c01"
+                  ]
+                },
+                "culture": {
+                  "value": "egyptian-mythology",
+                  "suggested_new": null,
+                  "claim_ids": [
+                    "tefnut-c01"
+                  ]
+                },
+                "region": {
+                  "value": "africa",
+                  "claim_ids": [
+                    "tefnut-c01"
+                  ]
+                },
+                "countries": null,
+                "era": null,
+                "habitats": [],
+                "disposition": null,
+                "traits": [],
+                "short_description": {
+                  "id": "Tefnut adalah dewi kelembapan Mesir dan anggota Ennead Heliopolis.",
+                  "en": "Tefnut is an Egyptian moisture goddess belonging to the Heliopolitan Ennead.",
+                  "claim_ids": [
+                    "tefnut-c01"
+                  ]
+                },
+                "long_description": [
+                  {
+                    "id": "Tefnut adalah dewi kelembapan Mesir dan anggota Ennead Heliopolis. Atum disebut sebagai orang tuanya. Shu adalah saudara laki-laki sekaligus pasangannya.",
+                    "en": "Tefnut is an Egyptian moisture goddess belonging to the Heliopolitan Ennead. Atum is named as her parent. Shu is her brother and consort.",
+                    "claim_ids": [
+                      "tefnut-c01",
+                      "tefnut-c02",
+                      "tefnut-c03"
+                    ]
+                  },
+                  {
+                    "id": "Geb dan Nut adalah anak-anaknya bersama Shu. Ia berupa singa betina atau dewi berkepala singa. Ia membantu Shu menopang langit dan menjaga kestabilan dunia. Dalam satu kisah ia pergi dari Mesir ke gurun Nubia sebagai singa betina ganas. Ia dapat diidentifikasi dengan Bastet, Sekhmet, dan Hathor.",
+                    "en": "Geb and Nut are her children with Shu. She takes the form of a lioness or lion-headed goddess. She helps Shu support the sky and maintain the world’s stability. In one tale she leaves Egypt for the Nubian desert as a fierce lioness. She can be identified with Bastet, Sekhmet and Hathor.",
+                    "claim_ids": [
+                      "tefnut-c04",
+                      "tefnut-c05",
+                      "tefnut-c06",
+                      "tefnut-c07",
+                      "tefnut-c08"
+                    ]
+                  },
+                  {
+                    "id": "Sumber ini menggambarkan Tefnut sebagai dewi atmosfer dekat bumi. Namanya dikaitkan dengan bunyi meludah dalam penafsiran yang dikutip sumber. Seni juga menggambarkannya sebagai ular berkepala singa. Satu versi penciptaan melahirkan Shu dan Tefnut lewat ludah Atum. Budge menghubungkan Tefnut sebagai dewi orang mati dengan minuman bagi almarhum. Dalam uraian Budge, Tefnut adalah mata kiri Temu, dibandingkan dengan bulan. Temu, Shu, dan Tefnut membentuk tiga serangkai dalam teks penciptaan yang dikutip Budge.",
+                    "en": "This source describes Tefnut as goddess of the atmosphere near the earth. Her name is associated with the sound of spitting in the interpretation cited by this source. Art also depicts her as a lion-headed serpent. One creation version produces Shu and Tefnut through Atum’s spitting. Budge connects Tefnut as a goddess of the dead with drink for the deceased. In Budge’s account Tefnut is Temu’s left eye, compared with the moon. Temu, Shu and Tefnut form a trinity in the creation text cited by Budge.",
+                    "claim_ids": [
+                      "tefnut-c09",
+                      "tefnut-c10",
+                      "tefnut-c11",
+                      "tefnut-c12",
+                      "tefnut-c13",
+                      "tefnut-c14",
+                      "tefnut-c15"
+                    ]
+                  }
+                ],
+                "cultural_context": {
+                  "id": "Temu, Shu, dan Tefnut membentuk tiga serangkai dalam teks penciptaan yang dikutip Budge.",
+                  "en": "Temu, Shu and Tefnut form a trinity in the creation text cited by Budge.",
+                  "claim_ids": [
+                    "tefnut-c15"
+                  ]
+                },
+                "etymology": null,
+                "story_mode": null,
+                "did_you_know": null,
+                "abilities": [],
+                "weaknesses": [],
+                "variants": [],
+                "stories": [
+                  {
+                    "title": {
+                      "id": "Kepergian Tefnut ke Nubia",
+                      "en": "Tefnut’s departure for Nubia"
+                    },
+                    "role": {
+                      "id": "Dalam satu kisah ia pergi dari Mesir ke gurun Nubia sebagai singa betina ganas.",
+                      "en": "In one tale she leaves Egypt for the Nubian desert as a fierce lioness."
+                    },
+                    "summary": {
+                      "id": "Dalam satu kisah ia pergi dari Mesir ke gurun Nubia sebagai singa betina ganas.",
+                      "en": "In one tale she leaves Egypt for the Nubian desert as a fierce lioness."
+                    },
+                    "claim_ids": [
+                      "tefnut-c07"
+                    ]
+                  }
+                ],
+                "places": [],
+                "timeline": [],
+                "relations": [
+                  {
+                    "target_name": "Shu",
+                    "relation_type": "spouse",
+                    "note": {
+                      "id": "Shu adalah saudara laki-laki sekaligus pasangannya.",
+                      "en": "Shu is her brother and consort."
+                    },
+                    "claim_ids": [
+                      "tefnut-c03"
+                    ]
+                  },
+                  {
+                    "target_name": "Nut",
+                    "relation_type": "child",
+                    "note": {
+                      "id": "Geb dan Nut adalah anak-anaknya bersama Shu.",
+                      "en": "Geb and Nut are her children with Shu."
+                    },
+                    "claim_ids": [
+                      "tefnut-c04"
+                    ]
+                  }
+                ],
+                "modern_depictions": [],
+                "tradition_vs_modern": null,
+                "learning_questions": [],
+                "images": [],
+                "sources": [
+                  {
+                    "id": "tefnut-s1",
+                    "url": "https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%95%E3%83%8C%E3%83%88",
+                    "title": "テフヌト",
+                    "author": null,
+                    "publisher": "Wikipedia",
+                    "published": null,
+                    "language": "ja",
+                    "type": "wikipedia",
+                    "accessed": "2026-10-02"
+                  },
+                  {
+                    "id": "tefnut-s2",
+                    "url": "https://www.worldhistory.org/article/885/egyptian-gods---the-complete-list/",
+                    "title": "Egyptian Gods - The Complete List - World History Encyclopedia",
+                    "author": null,
+                    "publisher": "World History Encyclopedia",
+                    "published": null,
+                    "language": "en",
+                    "type": "encyclopedia",
+                    "accessed": "2026-10-02"
+                  },
+                  {
+                    "id": "tefnut-s3",
+                    "url": "https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
+                    "title": "Egyptian Ideas of the Future Life",
+                    "author": null,
+                    "publisher": "Project Gutenberg",
+                    "published": null,
+                    "language": "en",
+                    "type": "primary-text",
+                    "accessed": "2026-10-02"
+                  }
+                ],
+                "claims": [
+                  {
+                    "id": "tefnut-c01",
+                    "source_id": "tefnut-s1",
+                    "quote": "テフヌト（Tefnut）は、エジプト神話における湿気の女神。ヘリオポリス九柱神に数えられる。テフヌト、テフヌウト、テフェネト、テフヌートなどとも表記され、ギリシア語ではトフェニスと呼ばれる。",
+                    "locator": "Article text, paragraph 1",
+                    "context": "religious-tradition",
+                    "statement": {
+                      "id": "Tefnut adalah dewi kelembapan Mesir dan anggota Ennead Heliopolis.",
+                      "en": "Tefnut is an Egyptian moisture goddess belonging to the Heliopolitan Ennead."
+                    }
+                  },
+                  {
+                    "id": "tefnut-c02",
+                    "source_id": "tefnut-s1",
+                    "quote": "創造神アトゥムを親に持ち、アトゥムの自慰によって生まれた（ラーと習合されたため、ラーともされる）。",
+                    "locator": "Article text, paragraph 2",
+                    "context": "religious-tradition",
+                    "statement": {
+                      "id": "Atum disebut sebagai orang tuanya.",
+                      "en": "Atum is named as her parent."
+                    }
+                  },
+                  {
+                    "id": "tefnut-c03",
+                    "source_id": "tefnut-s1",
+                    "quote": "配偶神は兄でもある大気の神シュー。彼との間に大地の神ゲブと天空の女神ヌトを成した。雌ライオンもしくは",
+                    "locator": "Article text, paragraph 2",
+                    "context": "religious-tradition",
+                    "statement": {
+                      "id": "Shu adalah saudara laki-laki sekaligus pasangannya.",
+                      "en": "Shu is her brother and consort."
+                    }
+                  },
+                  {
+                    "id": "tefnut-c04",
+                    "source_id": "tefnut-s1",
+                    "quote": "配偶神は兄でもある大気の神シュー。彼との間に大地の神ゲブと天空の女神ヌトを成した。雌ライオンもしくは",
+                    "locator": "Article text, paragraph 2",
+                    "context": "religious-tradition",
+                    "statement": {
+                      "id": "Geb dan Nut adalah anak-anaknya bersama Shu.",
+                      "en": "Geb and Nut are her children with Shu."
+                    }
+                  },
+                  {
+                    "id": "tefnut-c05",
+                    "source_id": "tefnut-s1",
+                    "quote": "雌ライオンもしくは、ライオンの頭を持った女神として描かれる。シューの妻としての伝承ばかりでテフヌト単独での伝承は、ほとんど見られない。",
+                    "locator": "Article text, paragraph 2",
+                    "context": "religious-tradition",
+                    "statement": {
+                      "id": "Ia berupa singa betina atau dewi berkepala singa.",
+                      "en": "She takes the form of a lioness or lion-headed goddess."
+                    }
+                  },
+                  {
+                    "id": "tefnut-c06",
+                    "source_id": "tefnut-s1",
+                    "quote": "テフヌトは天空を押し上げる夫を助け、一心同体の存在として世界の安定のために働く。 他の神々との習合",
+                    "locator": "Article text, paragraph 2",
+                    "context": "religious-tradition",
+                    "statement": {
+                      "id": "Ia membantu Shu menopang langit dan menjaga kestabilan dunia.",
+                      "en": "She helps Shu support the sky and maintain the world’s stability."
+                    }
+                  },
+                  {
+                    "id": "tefnut-c07",
+                    "source_id": "tefnut-s1",
+                    "quote": "テフヌトは、シューの妻となる前に家出をしたという神話があり、宮殿で退屈していたテフヌトは父親（ここでは太陽神ラーとされる）に何も告げず、南のヌビア砂漠へ家出してしまう。獰猛な雌ライオンとなって気ままに駆け回っていたテフヌトに父親は、息子シューと知恵の神トートに依頼し、ようやく連れ戻すことに成功した、という内容である。",
+                    "locator": "Article text, paragraph 3",
+                    "context": "religious-tradition",
+                    "statement": {
+                      "id": "Dalam satu kisah ia pergi dari Mesir ke gurun Nubia sebagai singa betina ganas.",
+                      "en": "In one tale she leaves Egypt for the Nubian desert as a fierce lioness."
+                    }
+                  },
+                  {
+                    "id": "tefnut-c08",
+                    "source_id": "tefnut-s1",
+                    "quote": "太陽神ラーの娘であること、雌ライオンの姿を持つことから、エジプトの女神バステトとセクメト、セクメトと同一視された女神ハトホルと同一視されることがある。",
+                    "locator": "Article text, paragraph 4",
+                    "context": "religious-tradition",
+                    "statement": {
+                      "id": "Ia dapat diidentifikasi dengan Bastet, Sekhmet, dan Hathor.",
+                      "en": "She can be identified with Bastet, Sekhmet and Hathor."
+                    }
+                  },
+                  {
+                    "id": "tefnut-c09",
+                    "source_id": "tefnut-s2",
+                    "quote": "She is goddess of the atmosphere of the lower world, the earth, just as Shu is god of the upper atmosphere above the earth.",
+                    "locator": "Article text, paragraph 199",
+                    "context": "scholarly-interpretation",
+                    "statement": {
+                      "id": "Sumber ini menggambarkan Tefnut sebagai dewi atmosfer dekat bumi.",
+                      "en": "This source describes Tefnut as goddess of the atmosphere near the earth."
+                    }
+                  },
+                  {
+                    "id": "tefnut-c10",
+                    "source_id": "tefnut-s2",
+                    "quote": "her name represents the sound of spitting",
+                    "locator": "Article text, paragraph 199",
+                    "context": "scholarly-interpretation",
+                    "statement": {
+                      "id": "Namanya dikaitkan dengan bunyi meludah dalam penafsiran yang dikutip sumber.",
+                      "en": "Her name is associated with the sound of spitting in the interpretation cited by this source."
+                    }
+                  },
+                  {
+                    "id": "tefnut-c11",
+                    "source_id": "tefnut-s2",
+                    "quote": "She is most often depicted as a woman seated with a lion's head or a serpent with a lion's head.",
+                    "locator": "Article text, paragraph 199",
+                    "context": "scholarly-interpretation",
+                    "statement": {
+                      "id": "Seni juga menggambarkannya sebagai ular berkepala singa.",
+                      "en": "Art also depicts her as a lion-headed serpent."
+                    }
+                  },
+                  {
+                    "id": "tefnut-c12",
+                    "source_id": "tefnut-s2",
+                    "quote": "Shu and Tefnut were the first two gods Atum created either by mating with his shadow or by spitting.",
+                    "locator": "Article text, paragraph 199",
+                    "context": "scholarly-interpretation",
+                    "statement": {
+                      "id": "Satu versi penciptaan melahirkan Shu dan Tefnut lewat ludah Atum.",
+                      "en": "One creation version produces Shu and Tefnut through Atum’s spitting."
+                    }
+                  },
+                  {
+                    "id": "tefnut-c13",
+                    "source_id": "tefnut-s3",
+                    "quote": "as a god of the dead she seems to have been, in some way, connected with the supply of drink to the deceased.",
+                    "locator": "Article text, paragraph 121",
+                    "context": "historical-record",
+                    "statement": {
+                      "id": "Budge menghubungkan Tefnut sebagai dewi orang mati dengan minuman bagi almarhum.",
+                      "en": "Budge connects Tefnut as a goddess of the dead with drink for the deceased."
+                    }
+                  },
+                  {
+                    "id": "tefnut-c14",
+                    "source_id": "tefnut-s3",
+                    "quote": "she was the left, i.e., Shu represented an aspect of the Sun, and Tefnut of the Moon.",
+                    "locator": "Article text, paragraph 121",
+                    "context": "historical-record",
+                    "statement": {
+                      "id": "Dalam uraian Budge, Tefnut adalah mata kiri Temu, dibandingkan dengan bulan.",
+                      "en": "In Budge’s account Tefnut is Temu’s left eye, compared with the moon."
+                    }
+                  },
+                  {
+                    "id": "tefnut-c15",
+                    "source_id": "tefnut-s3",
+                    "quote": "The gods Temu, Shu, and Tefnut thus formed a trinity",
+                    "locator": "Article text, paragraph 121",
+                    "context": "historical-record",
+                    "statement": {
+                      "id": "Temu, Shu, dan Tefnut membentuk tiga serangkai dalam teks penciptaan yang dikutip Budge.",
+                      "en": "Temu, Shu and Tefnut form a trinity in the creation text cited by Budge."
+                    }
+                  }
+                ],
+                "conflicts": [],
+                "gaps": [
+                  {
+                    "field": "images",
+                    "searched": "Ilustrasi dalam artikel tidak dipakai tanpa pemeriksaan berkas Commons, kecocokan subjek, dan lisensinya; belum ada gambar yang terverifikasi untuk entri ini."
+                  },
+                  {
+                    "field": "optional_sections",
+                    "searched": "Bacaan yang dikutip belum cukup untuk memastikan bagian opsional yang dibiarkan null atau []; bagian tersebut tidak diisi melalui dugaan."
+                  }
+                ]
+              },
+              "selection_visual_claim_ids": [
+                "tefnut-c05",
+                "tefnut-c11",
+                "tefnut-c14"
+              ],
+              "previous_worker": "worker-1",
+              "url": "/assets/art/tefnut-verified.webp",
+              "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut.png",
+              "prompt": "Create one richly detailed painterly realistic mythology artwork, portrait 2:3 without text, depicting Egyptian Tefnut in the documented tale's FIERCE LIONESS form in the Nubian desert. One adult natural lioness, full quadruped body, FOUR legs, natural tail, tawny fur, NO male mane, NO horns, NO wings, NO human face/body. Powerful alert stance on sunlit desert rock, intent fierce gaze toward viewer. Arid rocky Nubian desert in background, atmospheric distant ridges. Divine presence solely via expression, low-angle framing and natural dusty sunlight; no energy aura, floating symbols, halo, luminous mist or generic magic. Avoid inventing a solar crown or jewelry. Single coherent lioness narrative form, not mixed goddess variants.",
+              "depicted_variant": "Fierce lioness in Nubian desert narrative.",
+              "visual_requirements": [
+                "One natural adult lioness",
+                "No mane, wings, horn or human hybrid",
+                "Nubian desert landscape"
+              ],
+              "basis_claim_ids": [
+                "tefnut-c05",
+                "tefnut-c07"
+              ],
+              "aura": "Fierce gaze, muscular stance, low camera and dry natural light.",
+              "visual_review": {
+                "verdict": "pass",
+                "reviewer": "root",
+                "notes": "Native inspected: fierce natural adult lioness, four legs and one tail, no mane or added anatomy, dry Nubian desert landscape and natural sunlight. Selected lioness tale form."
+              },
+              "width": 1024,
+              "height": 1536,
+              "sha256": "fafd52bb410aaad4df81c61510ea29488ac8661ced56ae1b4f89eb9df65f67ff"
+            }
+          ],
+          "root_visual_review": {
+            "verdict": "pass",
+            "reviewer": "root",
+            "notes": "Inspected native: seated woman with a lioness head, no mane, human hands and sandaled feet. Seated lion-headed goddess follows the cited variant; temple and linen are editorial. No invented animal appendages.",
+            "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec",
+            "reviewed_at": "2026-10-05T15:37:43.572018+00:00"
+          },
+          "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec",
+          "presentation_revision": {
+            "ledger": "data/artwork-presentation-revision-1000.json",
+            "receipt_path": "data/artwork-generated/presentation-revision-1000/tefnut.json",
+            "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec",
+            "old_url": "/assets/art/tefnut-verified.webp",
+            "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut.png",
+            "old_webp_sha256": "fafd52bb410aaad4df81c61510ea29488ac8661ced56ae1b4f89eb9df65f67ff",
+            "old_native_sha256": "522b6c0bfe0f3403508b00a99300ea1b04c7f68f9d89f5a86dce9174b6120f12",
+            "rationale": "Previous image looked like an ordinary lioness; accepted research explicitly supports the more identifiable lion-headed woman deity form.",
+            "basis_claim_ids": [
+              "tefnut-c05",
+              "tefnut-c11"
+            ]
+          },
+          "independent_visual_review": {
+            "verdict": "pass",
+            "reviewer": "assess_changes",
+            "notes": "Viewed native: lioness head seamlessly on human clothed seated female body, two human hands and sandaled feet; no tail or other invented animal anatomy, natural dawn light.",
+            "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec"
+          }
         }
       ],
       "root_visual_review": {
         "verdict": "pass",
-        "reviewer": "root",
-        "notes": "Inspected native: seated woman with a lioness head, no mane, human hands and sandaled feet. Seated lion-headed goddess follows the cited variant; temple and linen are editorial. No invented animal appendages.",
-        "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec",
-        "reviewed_at": "2026-10-05T15:37:43.572018+00:00"
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+        "notes": "Lioness-headed Tefnut roars and reaches toward the viewer in driving rain over Nubian crags; fierce goddess, not a lioness."
       },
-      "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec",
+      "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
       "presentation_revision": {
-        "ledger": "data/artwork-presentation-revision-1000.json",
-        "receipt_path": "data/artwork-generated/presentation-revision-1000/tefnut.json",
-        "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec",
-        "old_url": "/assets/art/tefnut-verified.webp",
-        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut.png",
-        "old_webp_sha256": "fafd52bb410aaad4df81c61510ea29488ac8661ced56ae1b4f89eb9df65f67ff",
-        "old_native_sha256": "522b6c0bfe0f3403508b00a99300ea1b04c7f68f9d89f5a86dce9174b6120f12",
-        "rationale": "Previous image looked like an ordinary lioness; accepted research explicitly supports the more identifiable lion-headed woman deity form.",
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/tefnut.json",
+        "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+        "old_url": "/assets/art/tefnut-mythic-presence.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/tefnut-mythic-presence.png",
+        "old_webp_sha256": "409325959a9cc131034758918e8cdb517e7ee2e18156dfb619bc15dd3fc4862e",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
         "basis_claim_ids": [
           "tefnut-c05",
-          "tefnut-c11"
+          "tefnut-c11",
+          "tefnut-c01",
+          "tefnut-c07",
+          "tefnut-c09"
         ]
       },
       "independent_visual_review": {
+        "reviewer": "codex",
         "verdict": "pass",
-        "reviewer": "assess_changes",
-        "notes": "Viewed native: lioness head seamlessly on human clothed seated female body, two human hands and sandaled feet; no tail or other invented animal anatomy, natural dawn light.",
-        "native_sha256": "022ad89e657a02d44bd4a7ec35205758170ede13fba22d5427c1cbfe9b7512ec"
+        "notes": "Native inspected: one wet lioness head on female human body with two human arms, forward hand and roaring jaws dominate frame; opaque linen and desert crags under physical rain. No ordinary quadruped lion, no invented weapon or emitted magic, no text. Collar panels are abstract ornament, not legible writing. All seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "a08ff74398f8e65ad08793838618e1408dc5761e4e6b390449e05d514ee46caa",
+        "reviewed_at": "2026-10-08T04:14:06.459585+00:00"
       }
     },
     {
@@ -91932,29 +92804,460 @@
         "hathor-c11"
       ],
       "previous_worker": "worker-2",
-      "url": "/assets/art/hathor-verified.webp",
-      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/hathor.png",
-      "prompt": "Use case: stylized-concept. Square premium naturalistic painterly mythology encyclopedia illustration of HATHOR in her documented COW FORM emerging from a papyrus thicket. One full-bodied ordinary cow with two natural horns; a SOLID METAL SUN DISK rests between the horns as a non-emitting iconographic emblem, supported by an ancient metal-plaque depiction. Four bovine legs, calm cow head and muzzle, ordinary adult-cow scale relative to papyrus. Nile floodbank, lush green papyrus stems, warm natural dawn sunlight, majestic benevolent presence through steady posture and calm eyes. Egyptian bank setting and exact metal finish are editorial staging. No woman body, no added human hands, no wings, no extra horns, no giant inflation, no emitting glowing sun orb, no aura envelope, energy ribbons, neon outline or luminous mist. Reverent dignified depiction, no calves, no characters, no text or watermark.",
-      "depicted_variant": "Documented cow form emerging from papyrus, with non-emitting solar disk between horns following metal-plaque iconography.",
+      "url": "/assets/art/hathor-presentation-revision-nama-besar.webp",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/hathor.png",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of HATHOR, the ancient Egyptian goddess in her documented heavenly cow form.\nANATOMY: One living female bovine, exactly one bovine head, two horns, two eyes and four legs; a HUGE METAL SUN DISK visibly nestled between the two horns, nearly as wide as her face. This is the sacred cow with stars above, emerging from papyrus. No human torso, no wings, no extra anatomy. [hathor-c10,hathor-c11,hathor-c15]\nMOMENT: Thrust her head forward and down toward the viewer as she drives bodily through towering papyrus, one front hoof landing at the very bottom foreground, reeds bending and dark water splashing through direct contact. Forceful, awe-inspiring arrival of a goddess, steady authoritative stare into the viewer. Not grazing, not a peaceful farm animal.\nPOWER: No invented emitted magic or fire attack. Divinity is expressed through her documented disk and star-filled heavenly iconography; splashes and moving reeds come only from her physical advance. [hathor-c10,hathor-c11,hathor-c15]\nSCALE & CAMERA: Extreme low camera at hoof level, wide-angle close framing; the head and horns occupy the upper TWO THIRDS of the square. Forehead almost brushes the viewer. Her deep chest and the receding four legs complete a coherent body; no tiny-human scale props or invented giant anatomy. Build overwhelming monumental presence through perspective, not added biological size.\nLIGHT & WEATHER: ONE dominant golden backlight precisely behind the metal sun disk silhouettes the horns and rims her face; deep walnut shadows, suspended spray and a dark night sky showing crisp stars overhead. Disk is metal in backlight, not an energy weapon.\nSURFACE: Dense dark russet hide, wet coarse hair, fine rough horn texture, ancient gold disk; avoid black-and-white dairy spotting. Rich painterly physical material, not plastic.\nSETTING: Tangled papyrus thicket with shallow dark water; stars overhead. [hathor-c10,hathor-c15]\nMOOD: Benevolent but overwhelming divine authority, awe-inspiring and imposing; never cute, placid, decorative, or ordinary livestock. Sacred devotional art, original composition.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; no design borrowed from film, game, anime or comic; no nudity or explicit gore; no generic glowing aura, neon outline or energy ribbons. No human spectators, no farm fence, no pastoral daylight.",
+      "depicted_variant": "Sacred cow advancing through papyrus, face and solar disk dominating the low-angle frame.",
       "visual_requirements": [
-        "One ordinary cow emerging from papyrus",
-        "Two cow horns with solid solar disk between them",
-        "Ordinary scale, calm presence and natural light; no woman hybrid or aura glow"
+        {
+          "kind": "anatomy",
+          "description": "One living cow with two horns surrounding a broad metal sun disk.",
+          "claim_ids": [
+            "hathor-c11"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Cow advances out of papyrus, stars overhead.",
+          "claim_ids": [
+            "hathor-c10",
+            "hathor-c15"
+          ]
+        }
       ],
       "basis_claim_ids": [
-        "hathor-c02",
+        "hathor-c10",
         "hathor-c11",
         "hathor-c15"
       ],
-      "aura": "Calm direct gaze, poised Nile-bank emergence and naturally reflected dawn light.",
+      "aura": "Overwhelming perspective and documented solar disk and stars (hathor-c10,c11); physical splash from motion only.",
       "visual_review": {
+        "reviewer": "codex",
         "verdict": "pass",
-        "reviewer": "root",
-        "notes": "Inspected native image: single ordinary-scale cow emerging from papyrus with two horns and solid gold solar disk between them. Natural reflected sun on metal, gentle alert eyes; no luminous emission, human hybrid or invented giant scale."
+        "notes": "Native inspected: sacred cow head fills frame beneath a huge textured metal solar disk and stars, forceful hoof advancing through water and papyrus. Two horns, one head, coherent bovine limbs partly occluded in physical perspective; no human hybrid. Awe readable at thumbnail, no generic aura or invented emitted attack, no text or watermark. All seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
+        "reviewed_at": "2026-10-08T03:56:51.211289+00:00"
       },
       "width": 1254,
       "height": 1254,
-      "sha256": "3b2de6d0789a37d2f3923c3ff451eafdfad96e6f2cf30ee5acc3ccea5889ec2a"
+      "sha256": "95cfb34dcd7d10ec14721698bf5a696dde4bf4fac377e073ba97af47953fd856",
+      "presentation_revision_history": [
+        {
+          "index": 168,
+          "slug": "hathor",
+          "canonical_name": "Hathor",
+          "worker": "root",
+          "status": "complete",
+          "requires_catalogue_record": true,
+          "review_path": "data/gemini/reviews/batch-040.review.json",
+          "research": {
+            "schema": "mythics-entry/1",
+            "batch_id": "batch-040",
+            "slug": "hathor",
+            "task": "new",
+            "tier": "rich",
+            "researched_at": "2026-09-30",
+            "identity": {
+              "canonical_name": "Hathor",
+              "native_name": null,
+              "display_name": {
+                "id": "Hathor",
+                "en": "Hathor"
+              },
+              "wikidata_qid": null,
+              "claim_ids": [
+                "hathor-c01"
+              ]
+            },
+            "alternate_names": [],
+            "jenis": {
+              "value": "dewa",
+              "claim_ids": [
+                "hathor-c01"
+              ]
+            },
+            "classification": {
+              "value": "deity",
+              "claim_ids": [
+                "hathor-c01"
+              ]
+            },
+            "culture": {
+              "value": "egyptian-mythology",
+              "suggested_new": null,
+              "claim_ids": [
+                "hathor-c01"
+              ]
+            },
+            "region": {
+              "value": "africa",
+              "claim_ids": [
+                "hathor-c01"
+              ]
+            },
+            "countries": null,
+            "era": null,
+            "habitats": [],
+            "disposition": null,
+            "traits": [],
+            "short_description": {
+              "id": "Hathor adalah dewi Mesir kuno yang berkaitan dengan cinta dan sukacita, sering digambarkan sebagai sapi atau perempuan berciri sapi.",
+              "en": "Hathor is an ancient Egyptian goddess of love and joy, often shown as a cow or a woman with bovine features.",
+              "claim_ids": [
+                "hathor-c01",
+                "hathor-c02",
+                "hathor-c05"
+              ]
+            },
+            "long_description": [
+              {
+                "id": "Hathor berkaitan dengan cinta, perayaan, dan kesehatan perempuan. Ia kerap digambarkan sebagai sapi atau perempuan berciri sapi. Nama Hathor diterangkan sebagai 'Wilayah Horus' atau 'Kuil Horus'. Dalam pemujaannya, sistrum dikaitkan dengan pengusiran kejahatan.",
+                "en": "Hathor is associated with love, celebration, and women's health. She is often shown as a cow or a woman with bovine features. Her name is explained as 'Domain of Horus' or 'Temple of Horus'. In her cult, the sistrum is associated with driving away evil.",
+                "claim_ids": [
+                  "hathor-c02",
+                  "hathor-c03",
+                  "hathor-c04",
+                  "hathor-c05",
+                  "hathor-c06"
+                ]
+              },
+              {
+                "id": "Satu kisah Mesir menceritakan Hathor mengamuk dalam wujud Sekhmet. Setelah ia mabuk dan tertidur, ia bangun sebagai Hathor yang baik hati. Pusat pemujaannya berada di Dendera, tetapi penghormatannya tersebar di Mesir.",
+                "en": "An Egyptian story describes Hathor raging as Sekhmet. After becoming drunk and falling asleep, she wakes as benevolent Hathor. Her cult center was Dendera, while her worship spread across Egypt.",
+                "claim_ids": [
+                  "hathor-c07",
+                  "hathor-c08",
+                  "hathor-c09"
+                ]
+              },
+              {
+                "id": "Plak logam dari Deir el-Bahari menampilkan sapi bercakram matahari di antara tanduknya, bentuk umum Hathor. Sumber museum lain menyebutnya pelindung dan ibu susuan Horus bayi serta mengaitkannya dengan ritual papirus, sistrum, dan menat. Pada masa awal, Hathor juga dipuja sebagai sapi, terkadang dengan bintang di atasnya; karya lain memperlihatkannya muncul dari rumpun papirus.",
+                "en": "A metal plaque from Deir el-Bahari shows a cow with a sun disk between its horns, a common Hathor form. Another museum source names her protector and nurse of infant Horus and connects her to papyrus ritual, sistrum, and menat. Early worship also pictured Hathor as a cow, sometimes with stars above her; another work shows her emerging from a papyrus thicket.",
+                "claim_ids": [
+                  "hathor-c11",
+                  "hathor-c12",
+                  "hathor-c13",
+                  "hathor-c14",
+                  "hathor-c10",
+                  "hathor-c15"
+                ]
+              }
+            ],
+            "cultural_context": null,
+            "etymology": null,
+            "story_mode": null,
+            "did_you_know": null,
+            "abilities": [],
+            "weaknesses": [],
+            "variants": [],
+            "stories": [],
+            "places": [],
+            "timeline": [],
+            "relations": [
+              {
+                "target_name": "Horus",
+                "relation_type": "associated",
+                "note": {
+                  "id": "Hathor melindungi dan menyusui Horus bayi.",
+                  "en": "Hathor protected and nursed infant Horus."
+                },
+                "claim_ids": [
+                  "hathor-c13"
+                ]
+              },
+              {
+                "target_name": "Sekhmet",
+                "relation_type": "associated",
+                "note": {
+                  "id": "Dalam satu kisah, Hathor mengamuk sebagai Sekhmet.",
+                  "en": "In one story, Hathor raged as Sekhmet."
+                },
+                "claim_ids": [
+                  "hathor-c07",
+                  "hathor-c08"
+                ]
+              }
+            ],
+            "modern_depictions": [],
+            "tradition_vs_modern": null,
+            "learning_questions": [],
+            "images": [],
+            "sources": [
+              {
+                "id": "hathor-s1",
+                "url": "https://www.worldhistory.org/Hathor/",
+                "title": "Hathor",
+                "author": "Joshua J. Mark",
+                "publisher": "World History Encyclopedia",
+                "published": "2009-09-02",
+                "language": "en",
+                "type": "encyclopedia",
+                "accessed": "2026-09-30"
+              },
+              {
+                "id": "hathor-s2",
+                "url": "https://www.metmuseum.org/art/collection/search/549406",
+                "title": "Cow plaque",
+                "author": null,
+                "publisher": "The Metropolitan Museum of Art",
+                "published": null,
+                "language": "en",
+                "type": "museum-or-archive",
+                "accessed": "2026-09-30"
+              },
+              {
+                "id": "hathor-s3",
+                "url": "https://www.metmuseum.org/pt/essays/papyrus-in-ancient-egypt",
+                "title": "Papyrus in Ancient Egypt",
+                "author": "Janice Kamrin",
+                "publisher": "The Metropolitan Museum of Art",
+                "published": "2015-03",
+                "language": "en",
+                "type": "museum-or-archive",
+                "accessed": "2026-09-30"
+              }
+            ],
+            "claims": [
+              {
+                "id": "hathor-c01",
+                "source_id": "hathor-s1",
+                "quote": "Hathor is an ancient Egyptian goddess",
+                "locator": "Introduction",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Hathor adalah dewi Mesir kuno.",
+                  "en": "Hathor is an ancient Egyptian goddess."
+                }
+              },
+              {
+                "id": "hathor-c02",
+                "source_id": "hathor-s1",
+                "quote": "She is usually depicted as a woman with the head of a cow, ears of a cow, or simply in cow form.",
+                "locator": "Introduction",
+                "context": "scholarly-interpretation",
+                "statement": {
+                  "id": "Hathor dapat digambarkan sebagai sapi atau perempuan dengan kepala maupun telinga sapi.",
+                  "en": "Hathor may be depicted as a cow or a woman with a cow head or ears."
+                }
+              },
+              {
+                "id": "hathor-c03",
+                "source_id": "hathor-s1",
+                "quote": "Her name means \"Domain of Horus\" or \"Temple of Horus\"",
+                "locator": "Introduction",
+                "context": "etymology",
+                "statement": {
+                  "id": "Nama Hathor diterangkan sebagai 'Wilayah Horus' atau 'Kuil Horus'.",
+                  "en": "Hathor's name is explained as 'Domain of Horus' or 'Temple of Horus'."
+                }
+              },
+              {
+                "id": "hathor-c04",
+                "source_id": "hathor-s1",
+                "quote": "The sistrum is her instrument which she used to drive evil from the land and inspire goodness.",
+                "locator": "Introduction",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Sistrum adalah alat musik Hathor yang dalam kisah dipakai untuk mengusir kejahatan.",
+                  "en": "The sistrum is Hathor's instrument, used in the story to drive away evil."
+                }
+              },
+              {
+                "id": "hathor-c05",
+                "source_id": "hathor-s1",
+                "quote": "She is the patron goddess of joy, celebration, and love",
+                "locator": "Introduction",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Hathor menaungi sukacita, perayaan, dan cinta.",
+                  "en": "Hathor is a patron goddess of joy, celebration, and love."
+                }
+              },
+              {
+                "id": "hathor-c06",
+                "source_id": "hathor-s1",
+                "quote": "She was always, from the earliest times, associated with women and women's health in body and in mind.",
+                "locator": "Introduction",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Hathor berkaitan dengan perempuan dan kesehatan fisik maupun batin mereka.",
+                  "en": "Hathor was associated with women and their physical and mental health."
+                }
+              },
+              {
+                "id": "hathor-c07",
+                "source_id": "hathor-s1",
+                "quote": "Hathor descends on the world in a fury of destruction, killing everyone she finds and toppling their cities, crushing their homes and tearing up fields and gardens and so transforms into the goddess Sekhmet.",
+                "locator": "Mythical Origins",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Dalam kisah Sapi Surgawi, amarah Hathor berubah menjadi wujud Sekhmet yang merusak.",
+                  "en": "In the Heavenly Cow story, Hathor's destructive fury becomes Sekhmet."
+                }
+              },
+              {
+                "id": "hathor-c08",
+                "source_id": "hathor-s1",
+                "quote": "She becomes drunk, falls asleep, and wakes up as Hathor the benevolent.",
+                "locator": "Mythical Origins",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Setelah mabuk dan tertidur, ia bangun kembali sebagai Hathor yang baik hati.",
+                  "en": "After becoming drunk and sleeping, she wakes as benevolent Hathor."
+                }
+              },
+              {
+                "id": "hathor-c09",
+                "source_id": "hathor-s1",
+                "quote": "Hathor's cult center was at Dendera, Egypt, but she was widely regarded and worshipped throughout Egypt.",
+                "locator": "Worship of Hathor",
+                "context": "historical-record",
+                "statement": {
+                  "id": "Pusat pemujaan Hathor berada di Dendera, tetapi ia dipuja di seluruh Mesir.",
+                  "en": "Hathor's cult center was at Dendera, but she was worshipped across Egypt."
+                }
+              },
+              {
+                "id": "hathor-c10",
+                "source_id": "hathor-s1",
+                "quote": "Hathor was, in early times, worshipped in the form of a cow or as a cow with stars above her.",
+                "locator": "Worship of Hathor",
+                "context": "historical-record",
+                "statement": {
+                  "id": "Pada masa awal Hathor dipuja dalam bentuk sapi atau sapi dengan bintang di atasnya.",
+                  "en": "Early Hathor worship used a cow form, sometimes with stars above her."
+                }
+              },
+              {
+                "id": "hathor-c11",
+                "source_id": "hathor-s2",
+                "quote": "This metal plaque depicts a cow with a sundisk between its horns, which is a common representation of the goddess Hathor.",
+                "locator": "Object description",
+                "context": "scholarly-interpretation",
+                "statement": {
+                  "id": "Sebuah plak logam menampilkan Hathor sebagai sapi bertanduk dengan cakram matahari.",
+                  "en": "A metal plaque depicts Hathor as a cow with a sun disk between its horns."
+                }
+              },
+              {
+                "id": "hathor-c12",
+                "source_id": "hathor-s2",
+                "quote": "The piece was excavated at Deir el-Bahari, close to a shrine for this goddess.",
+                "locator": "Object description",
+                "context": "historical-record",
+                "statement": {
+                  "id": "Plak itu ditemukan dekat tempat pemujaan Hathor di Deir el-Bahari.",
+                  "en": "The plaque was excavated near a Hathor shrine at Deir el-Bahari."
+                }
+              },
+              {
+                "id": "hathor-c13",
+                "source_id": "hathor-s3",
+                "quote": "Horus was protected and nursed while a baby by the goddess Hathor, who was worshipped in the ritual of the Shaking of the Papyrus.",
+                "locator": "Essay",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Hathor disebut menyusui dan melindungi Horus bayi serta dipuja dalam ritual Mengguncang Papirus.",
+                  "en": "Hathor was said to protect and nurse infant Horus and was worshipped in the Shaking of the Papyrus ritual."
+                }
+              },
+              {
+                "id": "hathor-c14",
+                "source_id": "hathor-s3",
+                "quote": "Hathor’s primary cult instruments, the sistrum (68.44) and the menat (11.215.450), were rattled to produce a comparable rustling sound and evoke this mythical environment.",
+                "locator": "Essay",
+                "context": "historical-record",
+                "statement": {
+                  "id": "Sistrum dan menat dipakai dalam ritual Hathor untuk meniru bunyi papirus bergesek.",
+                  "en": "Sistrum and menat were rattled in Hathor's cult to evoke rustling papyrus."
+                }
+              },
+              {
+                "id": "hathor-c15",
+                "source_id": "hathor-s3",
+                "quote": "this goddess is shown in the form of a cow emerging from the papyrus thicket",
+                "locator": "Essay",
+                "context": "scholarly-interpretation",
+                "statement": {
+                  "id": "Hathor juga digambarkan sebagai sapi yang keluar dari rumpun papirus.",
+                  "en": "Hathor is also shown as a cow emerging from a papyrus thicket."
+                }
+              }
+            ],
+            "conflicts": [],
+            "gaps": [
+              {
+                "field": "claims",
+                "searched": "15 kutipan langsung dari 3 sumber; belum mencapai target 15 klaim rich."
+              },
+              {
+                "field": "images",
+                "searched": "Belum memverifikasi berkas Wikimedia Commons dan lisensinya."
+              }
+            ]
+          },
+          "selection_visual_claim_ids": [
+            "hathor-c02",
+            "hathor-c11"
+          ],
+          "previous_worker": "worker-2",
+          "url": "/assets/art/hathor-verified.webp",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/hathor.png",
+          "prompt": "Use case: stylized-concept. Square premium naturalistic painterly mythology encyclopedia illustration of HATHOR in her documented COW FORM emerging from a papyrus thicket. One full-bodied ordinary cow with two natural horns; a SOLID METAL SUN DISK rests between the horns as a non-emitting iconographic emblem, supported by an ancient metal-plaque depiction. Four bovine legs, calm cow head and muzzle, ordinary adult-cow scale relative to papyrus. Nile floodbank, lush green papyrus stems, warm natural dawn sunlight, majestic benevolent presence through steady posture and calm eyes. Egyptian bank setting and exact metal finish are editorial staging. No woman body, no added human hands, no wings, no extra horns, no giant inflation, no emitting glowing sun orb, no aura envelope, energy ribbons, neon outline or luminous mist. Reverent dignified depiction, no calves, no characters, no text or watermark.",
+          "depicted_variant": "Documented cow form emerging from papyrus, with non-emitting solar disk between horns following metal-plaque iconography.",
+          "visual_requirements": [
+            "One ordinary cow emerging from papyrus",
+            "Two cow horns with solid solar disk between them",
+            "Ordinary scale, calm presence and natural light; no woman hybrid or aura glow"
+          ],
+          "basis_claim_ids": [
+            "hathor-c02",
+            "hathor-c11",
+            "hathor-c15"
+          ],
+          "aura": "Calm direct gaze, poised Nile-bank emergence and naturally reflected dawn light.",
+          "visual_review": {
+            "verdict": "pass",
+            "reviewer": "root",
+            "notes": "Inspected native image: single ordinary-scale cow emerging from papyrus with two horns and solid gold solar disk between them. Natural reflected sun on metal, gentle alert eyes; no luminous emission, human hybrid or invented giant scale."
+          },
+          "width": 1254,
+          "height": 1254,
+          "sha256": "3b2de6d0789a37d2f3923c3ff451eafdfad96e6f2cf30ee5acc3ccea5889ec2a"
+        }
+      ],
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
+        "notes": "Hathor as a sacred cow advances through papyrus water beneath a vast sun disk and stars; divine, no longer a dairy cow."
+      },
+      "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/hathor.json",
+        "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
+        "old_url": "/assets/art/hathor-verified.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/hathor.png",
+        "old_webp_sha256": "3b2de6d0789a37d2f3923c3ff451eafdfad96e6f2cf30ee5acc3ccea5889ec2a",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "hathor-c10",
+          "hathor-c11",
+          "hathor-c15"
+        ]
+      },
+      "independent_visual_review": {
+        "reviewer": "codex",
+        "verdict": "pass",
+        "notes": "Native inspected: sacred cow head fills frame beneath a huge textured metal solar disk and stars, forceful hoof advancing through water and papyrus. Two horns, one head, coherent bovine limbs partly occluded in physical perspective; no human hybrid. Awe readable at thumbnail, no generic aura or invented emitted attack, no text or watermark. All seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "8c73a4f7b23d91c25d02a3b3b50dd4b3d6b67b0c48ea300952a64b2738ddcf34",
+        "reviewed_at": "2026-10-08T03:56:51.211289+00:00"
+      }
     },
     {
       "index": 169,
@@ -100894,30 +102197,530 @@
         "kartikeya-c06",
         "kartikeya-c08"
       ],
-      "url": "/assets/art/kartikeya-verified.webp",
-      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kartikeya.png",
-      "prompt": "Create one square premium painterly naturalistic Hindu mythology illustration no lettering. KARTIKEYA select documented ONE-HEADED ever-youthful MAN iconography, standing NEAR his PEACOCK Paravani, carrying a VEL SPEAR. One young ADULT natural human male with ONE head, ordinary two arms/two legs, mature serene face, fully opaque tasteful silk tunic/dhoti and restrained gold ornaments editorial costume. Holds a long physical vel spear with leaf-shaped metal blade upright; peaceful alert stance, not combat. One ordinary natural-size blue peacock stands beside his feet with elegant tail train, clearly near him, not a giant rideable mount. Quiet stone garden temple courtyard in natural morning sun with rich painterly naturalism. No sixheaded variant, child/birthscene, extra arms, red god colour from other sculpture variant, horns/wings on man, halo/glow aura, neon or colored magical fog.",
-      "depicted_variant": "One-headed youthful man with peacock and vel spear",
+      "url": "/assets/art/kartikeya-presentation-revision-nama-besar.webp",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/kartikeya.png",
+      "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of KARTIKEYA, the revered Hindu war god and commander of the gods.\nANATOMY: One youthful male deity, ONE head, TWO eyes, TWO arms, TWO legs. Fully opaque red-gold woven battle garments, modest covered torso. One large broad leaf-bladed VEL spear in his right hand. A living blue peacock Paravani close at his left flank, feathers distinct. [kartikeya-c06,c07,c08,c14]\nMOMENT: Stride into battle toward the viewer with a commanding downward gaze; drive the vel diagonally forward into the extreme near foreground. Cloak and peacock feathers swept backwards by the advance, no gore. This is a commander leading an assault, not a youth posing on a hill.\nPOWER: No invented elemental attack or emitted magic. Authority from documented war command and the real spear; boot dislodges dry grit. [kartikeya-c09,c07]\nSCALE & CAMERA: extreme low angle; waist-to-head deity fills nearly the whole frame with foreshortened spear blade huge at lower foreground; perspective builds divine presence without invented giant body size. Peacock head visible beside him, not extra human limbs.\nLIGHT & WEATHER: ONE strong golden sunset rim light behind the vel blade, low-key walnut shadows on face; dusty air catches this same light.\nSURFACE: rough red-gold woven cloth, scratched ancient gold spear, detailed peacock feathers, skin real and warm.\nSETTING: Kurinji hill country, dark crags immediately behind his commanding figure. [kartikeya-c05]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
+      "depicted_variant": "One-headed youthful commander striding forward with vel spear and blue peacock in tight low-angle battle framing.",
       "visual_requirements": [
-        "One adult human head",
-        "Two human arms and legs",
-        "One peacock nearby",
-        "Vel spear"
+        {
+          "kind": "anatomy",
+          "description": "One-head young man with vel spear and living peacock",
+          "claim_ids": [
+            "kartikeya-c06",
+            "kartikeya-c07",
+            "kartikeya-c08",
+            "kartikeya-c14"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Documented military command and spear action; physical dust only",
+          "claim_ids": [
+            "kartikeya-c09",
+            "kartikeya-c07"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Kurinji hill country",
+          "claim_ids": [
+            "kartikeya-c05"
+          ]
+        }
       ],
       "basis_claim_ids": [
         "kartikeya-c06",
         "kartikeya-c07",
-        "kartikeya-c08"
+        "kartikeya-c08",
+        "kartikeya-c14",
+        "kartikeya-c09",
+        "kartikeya-c05"
       ],
-      "aura": "Presence through expression, posture, framing and natural scene light.",
+      "aura": "No invented elemental attack or emitted magic. Authority from documented war command and the real spear; boot dislodges dry grit. [kartikeya-c09,c07]",
       "visual_review": {
+        "reviewer": "codex",
         "verdict": "pass",
-        "reviewer": "recover_session",
-        "notes": "Inspected native: one youthful adult human man with one head, two arms/two legs, leaf-shaped physical vel spear upright, one normal-size peacock beside feet. No six-head variant, extra arms, combat or glow."
+        "notes": "Native inspected: advancing youthful war commander, spear blade strongly foreshortened toward viewer, coherent single head and two arms, blue peacock distinct at flank, Kurinji crags. Full opaque costume and dust through stride, no elemental attack or emitted aura, no text. Rear military silhouettes follow army-command claim c09, distant perspective does not assert giant size. All seven Sangar checks pass.",
+        "limitations": [],
+        "native_sha256": "f65cb103d9526e88c2dff61d1fc37360616d185e4469ae9dc886b9c84e69121f",
+        "reviewed_at": "2026-10-08T04:06:41.748788+00:00"
       },
       "width": 1254,
       "height": 1254,
-      "sha256": "01d0b6227bffeedd5222e4064d27034f8029b8a2300255c980257ed503abf2dd"
+      "sha256": "546b327ae0de20387e8588cb5cf8f0805768155d4527c23432b297ca10de974e",
+      "presentation_revision_history": [
+        {
+          "index": 186,
+          "slug": "kartikeya",
+          "canonical_name": "Kartikeya",
+          "worker": "worker-2",
+          "status": "complete",
+          "requires_catalogue_record": true,
+          "review_path": "data/gemini/reviews/batch-072.review.json",
+          "research": {
+            "schema": "mythics-entry/1",
+            "batch_id": "batch-072",
+            "slug": "kartikeya",
+            "task": "new",
+            "tier": "rich",
+            "researched_at": "2026-10-02",
+            "identity": {
+              "canonical_name": "Kartikeya",
+              "native_name": null,
+              "display_name": {
+                "id": "Kartikeya",
+                "en": "Kartikeya"
+              },
+              "wikidata_qid": "Q380817",
+              "claim_ids": [
+                "kartikeya-c01"
+              ]
+            },
+            "alternate_names": [
+              {
+                "name": "Skanda",
+                "language": "sa",
+                "name_type": "alias",
+                "claim_ids": [
+                  "kartikeya-c02"
+                ]
+              },
+              {
+                "name": "Subrahmanya",
+                "language": "sa",
+                "name_type": "alias",
+                "claim_ids": [
+                  "kartikeya-c02"
+                ]
+              },
+              {
+                "name": "Shanmukha",
+                "language": "sa",
+                "name_type": "epithet",
+                "claim_ids": [
+                  "kartikeya-c02"
+                ]
+              },
+              {
+                "name": "Muruga",
+                "language": "ta",
+                "name_type": "regional",
+                "claim_ids": [
+                  "kartikeya-c02"
+                ]
+              }
+            ],
+            "jenis": {
+              "value": "dewa",
+              "claim_ids": [
+                "kartikeya-c01"
+              ]
+            },
+            "classification": {
+              "value": "deity",
+              "claim_ids": [
+                "kartikeya-c01"
+              ]
+            },
+            "culture": {
+              "value": "tradition-hindu",
+              "suggested_new": null,
+              "claim_ids": [
+                "kartikeya-c01"
+              ]
+            },
+            "region": {
+              "value": "south-asia",
+              "claim_ids": [
+                "kartikeya-c01"
+              ]
+            },
+            "countries": null,
+            "era": null,
+            "habitats": [],
+            "disposition": null,
+            "traits": [],
+            "short_description": {
+              "id": "Kartikeya adalah dewa perang Hindu yang umumnya disebut putra Shiva dan Parvati.",
+              "en": "Kartikeya is a Hindu war god generally described as the son of Shiva and Parvati.",
+              "claim_ids": [
+                "kartikeya-c01"
+              ]
+            },
+            "long_description": [
+              {
+                "id": "Kartikeya adalah dewa perang Hindu yang umumnya disebut putra Shiva dan Parvati. Ia juga dikenal sebagai Skanda, Subrahmanya, Shanmukha, dan Muruga.",
+                "en": "Kartikeya is a Hindu war god generally described as the son of Shiva and Parvati. He is also known as Skanda, Subrahmanya, Shanmukha, and Muruga.",
+                "claim_ids": [
+                  "kartikeya-c01",
+                  "kartikeya-c02"
+                ]
+              },
+              {
+                "id": "Ganesha disebut saudaranya. Kaumaram adalah aliran Hindu yang terutama memuja Kartikeya. Artikel mengaitkan Muruga dalam sastra Sangam Tamil dengan wilayah Kurinji. Ia lazim digambarkan sebagai pemuda dengan merak bernama Paravani. Ia membawa tombak vel yang dikaitkan dengan pemberian Parvati. Sebagian gambar menunjukkan satu kepala, sebagian lainnya enam. Ia memimpin pasukan deva melawan asura termasuk Tarakasura dan Surapadma. Nama Kartikeya berarti milik para Krittika, pengasuhnya dalam cerita kelahiran. Salah satu cerita menyebut Parvati menyatukan enam bayi menjadi Kartikeya berkepala enam. Versi Vana Parva Mahabharata menyebutnya putra Agni dan Svaha. Pemujaan Kartikeya juga terdapat di Sri Lanka, Malaysia, Singapura, dan Indonesia. Museum Bihar membahas patung Kartikeya batu pasir merah dari masa Gupta akhir dengan tombak dan merak. Mackenzie merangkum versi yang menghubungkan Kartikeya dengan Agni dan Gangga.",
+                "en": "Ganesha is described as his brother. Kaumaram is a Hindu denomination that primarily venerates Kartikeya. The article connects Muruga in Tamil Sangam literature with the Kurinji region. He is commonly depicted as a young man with a peacock named Paravani. He carries the vel spear associated with Parvati's gift. Some images show one head, while others show six. He leads the devas' army against asuras including Tarakasura and Surapadma. Kartikeya means of the Krittikas, his nurses in the birth narrative. One account says Parvati merges six babies into six headed Kartikeya. The Vana Parva version of the Mahabharata describes him as the son of Agni and Svaha. Kartikeya worship also occurs in Sri Lanka, Malaysia, Singapore, and Indonesia. The Bihar Museum discusses a red sandstone Kartikeya sculpture of the Later Gupta period with spear and peacock. Mackenzie summarises a version connecting Kartikeya with Agni and the Ganges.",
+                "claim_ids": [
+                  "kartikeya-c03",
+                  "kartikeya-c04",
+                  "kartikeya-c05",
+                  "kartikeya-c06",
+                  "kartikeya-c07",
+                  "kartikeya-c08",
+                  "kartikeya-c09",
+                  "kartikeya-c10",
+                  "kartikeya-c11",
+                  "kartikeya-c12",
+                  "kartikeya-c13",
+                  "kartikeya-c14",
+                  "kartikeya-c15"
+                ]
+              }
+            ],
+            "cultural_context": null,
+            "etymology": {
+              "original_form": "Kartikeya",
+              "language": "sa",
+              "literal_meaning": {
+                "id": "milik para Krittika",
+                "en": "of the Krittikas"
+              },
+              "claim_ids": [
+                "kartikeya-c10"
+              ]
+            },
+            "story_mode": null,
+            "did_you_know": null,
+            "abilities": [],
+            "weaknesses": [],
+            "variants": [],
+            "stories": [],
+            "places": [],
+            "timeline": [],
+            "relations": [
+              {
+                "target_name": "Shiva",
+                "relation_type": "parent",
+                "note": {
+                  "id": "Ayah dalam versi umum.",
+                  "en": "Father in the common version."
+                },
+                "claim_ids": [
+                  "kartikeya-c01"
+                ]
+              },
+              {
+                "target_name": "Ganesha",
+                "relation_type": "sibling",
+                "note": {
+                  "id": "Saudara Kartikeya.",
+                  "en": "Kartikeya's brother."
+                },
+                "claim_ids": [
+                  "kartikeya-c03"
+                ]
+              }
+            ],
+            "modern_depictions": [],
+            "tradition_vs_modern": null,
+            "learning_questions": [],
+            "images": [],
+            "sources": [
+              {
+                "id": "kartikeya-s1",
+                "url": "https://en.wikipedia.org/wiki/Kartikeya",
+                "title": "Kartikeya",
+                "author": null,
+                "publisher": "Wikipedia",
+                "published": null,
+                "language": "en",
+                "type": "wikipedia",
+                "accessed": "2026-10-02"
+              },
+              {
+                "id": "kartikeya-s2",
+                "url": "https://www.biharmuseum.org/kartikeya/",
+                "title": "Bihar Museum - <!-- -->Kartikeya",
+                "author": null,
+                "publisher": "Bihar Museum",
+                "published": null,
+                "language": "en",
+                "type": "museum-or-archive",
+                "accessed": "2026-10-02"
+              },
+              {
+                "id": "kartikeya-s3",
+                "url": "https://www.gutenberg.org/cache/epub/47228/pg47228-images.html",
+                "title": "The Project Gutenberg eBook of Indian Myth and Legend, by Donald A. Mackenzie.",
+                "author": "Donald A. Mackenzie",
+                "publisher": "The Gresham Publishing Company; Project Gutenberg",
+                "published": null,
+                "language": "en",
+                "type": "folklore-collection",
+                "accessed": "2026-10-02"
+              }
+            ],
+            "claims": [
+              {
+                "id": "kartikeya-c01",
+                "source_id": "kartikeya-s1",
+                "quote": "Kartikeya (IAST: Kārttikeya), also known as Skanda, Subrahmanya, Shanmukha or Muruga, is the Hindu god of war. He is generally described as the son of the deities Shiva and Parvati and the brother of Ganesha.",
+                "locator": "Article text, paragraph 1",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Kartikeya adalah dewa perang Hindu yang umumnya disebut putra Shiva dan Parvati.",
+                  "en": "Kartikeya is a Hindu war god generally described as the son of Shiva and Parvati."
+                }
+              },
+              {
+                "id": "kartikeya-c02",
+                "source_id": "kartikeya-s1",
+                "quote": "Kartikeya (IAST: Kārttikeya), also known as Skanda, Subrahmanya, Shanmukha or Muruga, is the Hindu god of war. He is generally described as the son of the deities Shiva and Parvati and the brother of Ganesha.",
+                "locator": "Article text, paragraph 1",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Ia juga dikenal sebagai Skanda, Subrahmanya, Shanmukha, dan Muruga.",
+                  "en": "He is also known as Skanda, Subrahmanya, Shanmukha, and Muruga."
+                }
+              },
+              {
+                "id": "kartikeya-c03",
+                "source_id": "kartikeya-s1",
+                "quote": "Kartikeya (IAST: Kārttikeya), also known as Skanda, Subrahmanya, Shanmukha or Muruga, is the Hindu god of war. He is generally described as the son of the deities Shiva and Parvati and the brother of Ganesha.",
+                "locator": "Article text, paragraph 1",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Ganesha disebut saudaranya.",
+                  "en": "Ganesha is described as his brother."
+                }
+              },
+              {
+                "id": "kartikeya-c04",
+                "source_id": "kartikeya-s1",
+                "quote": "Kaumaram is the Hindu denomination that primarily venerates Kartikeya.",
+                "locator": "Article text, paragraph 2",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Kaumaram adalah aliran Hindu yang terutama memuja Kartikeya.",
+                  "en": "Kaumaram is a Hindu denomination that primarily venerates Kartikeya."
+                }
+              },
+              {
+                "id": "kartikeya-c05",
+                "source_id": "kartikeya-s1",
+                "quote": "Muruga is a tutelary deity mentioned in Tamil Sangam literature, of the Kurinji region.",
+                "locator": "Article text, paragraph 2",
+                "context": "historical-record",
+                "statement": {
+                  "id": "Artikel mengaitkan Muruga dalam sastra Sangam Tamil dengan wilayah Kurinji.",
+                  "en": "The article connects Muruga in Tamil Sangam literature with the Kurinji region."
+                }
+              },
+              {
+                "id": "kartikeya-c06",
+                "source_id": "kartikeya-s1",
+                "quote": "The iconography of Kartikeya varies significantly. He is typically represented as an ever-youthful man, riding or near an Peacock (named Paravani), and sometimes with an emblem of a rooster on his banner. He wields a spear called the vel, supposedly given to him by his mother Parvati.",
+                "locator": "Article text, paragraph 3",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Ia lazim digambarkan sebagai pemuda dengan merak bernama Paravani.",
+                  "en": "He is commonly depicted as a young man with a peacock named Paravani."
+                }
+              },
+              {
+                "id": "kartikeya-c07",
+                "source_id": "kartikeya-s1",
+                "quote": "The iconography of Kartikeya varies significantly. He is typically represented as an ever-youthful man, riding or near an Peacock (named Paravani), and sometimes with an emblem of a rooster on his banner. He wields a spear called the vel, supposedly given to him by his mother Parvati.",
+                "locator": "Article text, paragraph 3",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Ia membawa tombak vel yang dikaitkan dengan pemberian Parvati.",
+                  "en": "He carries the vel spear associated with Parvati's gift."
+                }
+              },
+              {
+                "id": "kartikeya-c08",
+                "source_id": "kartikeya-s1",
+                "quote": "While most icons represent him with only one head, some have six heads, a reflection of legends surrounding his birth wherein he was fused from six boys or borne of six conceptions.",
+                "locator": "Article text, paragraph 3",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Sebagian gambar menunjukkan satu kepala, sebagian lainnya enam.",
+                  "en": "Some images show one head, while others show six."
+                }
+              },
+              {
+                "id": "kartikeya-c09",
+                "source_id": "kartikeya-s1",
+                "quote": "He is described to have aged quickly from childhood, becoming a warrior, leading the army of the devas and credited with destroying asuras including Tarakasura and Surapadma.",
+                "locator": "Article text, paragraph 3",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Ia memimpin pasukan deva melawan asura termasuk Tarakasura dan Surapadma.",
+                  "en": "He leads the devas' army against asuras including Tarakasura and Surapadma."
+                }
+              },
+              {
+                "id": "kartikeya-c10",
+                "source_id": "kartikeya-s1",
+                "quote": "Kartikeya means \"of the Krittikas\" in Sanskrit.",
+                "locator": "Article text, paragraph 5",
+                "context": "etymology",
+                "statement": {
+                  "id": "Nama Kartikeya berarti milik para Krittika, pengasuhnya dalam cerita kelahiran.",
+                  "en": "Kartikeya means of the Krittikas, his nurses in the birth narrative."
+                }
+              },
+              {
+                "id": "kartikeya-c11",
+                "source_id": "kartikeya-s1",
+                "quote": "The epithet \"Kartikeya\" is linked to the circumstances surrounding the deity's birth. According to the Skanda Purana, six divine sparks emerged from Shiva, forming six separate baby boys. These boys were raised by handmaidens known as the Krittikas. Later, Parvati fused them into one, creating the six-headed Kartikeya. Kartikeya means \"of the Krittikas\" in Sanskrit.",
+                "locator": "Article text, paragraph 5",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Salah satu cerita menyebut Parvati menyatukan enam bayi menjadi Kartikeya berkepala enam.",
+                  "en": "One account says Parvati merges six babies into six headed Kartikeya."
+                }
+              },
+              {
+                "id": "kartikeya-c12",
+                "source_id": "kartikeya-s1",
+                "quote": "An alternate account of Kartikeya's parentage is narrated in the Vana Parva of the Mahabharata, where he is described as the son of Agni and Svaha.",
+                "locator": "Article text, paragraph 12",
+                "context": "historical-record",
+                "statement": {
+                  "id": "Versi Vana Parva Mahabharata menyebutnya putra Agni dan Svaha.",
+                  "en": "The Vana Parva version of the Mahabharata describes him as the son of Agni and Svaha."
+                }
+              },
+              {
+                "id": "kartikeya-c13",
+                "source_id": "kartikeya-s1",
+                "quote": "He is also worshipped in Sri Lanka, Southeast Asia (notably in Malaysia, Singapore, Thailand and Indonesia), other countries with significant populations of Tamil origin (including Fiji, Mauritius, South Africa and Canada), Caribbean countries (including Trinidad and Tobago, Guyana and Suriname), and countries with significant Indian migrant populations (including the United States and A",
+                "locator": "Article text, paragraph 4",
+                "context": "religious-tradition",
+                "statement": {
+                  "id": "Pemujaan Kartikeya juga terdapat di Sri Lanka, Malaysia, Singapura, dan Indonesia.",
+                  "en": "Kartikeya worship also occurs in Sri Lanka, Malaysia, Singapore, and Indonesia."
+                }
+              },
+              {
+                "id": "kartikeya-c14",
+                "source_id": "kartikeya-s2",
+                "quote": "Kartikeya- This statue, from the Later Gupta period, is made of red sandstone. ... He is a red god seated on a blue peacock, and his weapon, a spear, is engraved on the left of the sculpture.",
+                "locator": "Article text, paragraph 1",
+                "context": "historical-record",
+                "statement": {
+                  "id": "Museum Bihar membahas patung Kartikeya batu pasir merah dari masa Gupta akhir dengan tombak dan merak.",
+                  "en": "The Bihar Museum discusses a red sandstone Kartikeya sculpture of the Later Gupta period with spear and peacock."
+                }
+              },
+              {
+                "id": "kartikeya-c15",
+                "source_id": "kartikeya-s3",
+                "quote": "Another son of Shiva and Parvati is Kartikeya, the\r\nCelestial general and slayer of demons. He is also\r\nregarded as the son of Agni and the Ganges.",
+                "locator": "Article text, paragraph 830",
+                "context": "historical-record",
+                "statement": {
+                  "id": "Mackenzie merangkum versi yang menghubungkan Kartikeya dengan Agni dan Gangga.",
+                  "en": "Mackenzie summarises a version connecting Kartikeya with Agni and the Ganges."
+                }
+              }
+            ],
+            "conflicts": [
+              {
+                "topic": {
+                  "id": "Orang tua dalam versi berbeda",
+                  "en": "Parents in different versions"
+                },
+                "positions": [
+                  {
+                    "summary": {
+                      "id": "Shiva dan Parvati.",
+                      "en": "Shiva and Parvati."
+                    },
+                    "claim_ids": [
+                      "kartikeya-c01"
+                    ]
+                  },
+                  {
+                    "summary": {
+                      "id": "Agni dan Svaha.",
+                      "en": "Agni and Svaha."
+                    },
+                    "claim_ids": [
+                      "kartikeya-c12"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "gaps": [
+              {
+                "field": "images",
+                "searched": "Ilustrasi dalam artikel tidak dipakai tanpa pemeriksaan berkas Commons, kecocokan subjek, dan lisensinya; belum ada gambar yang terverifikasi untuk entri ini."
+              },
+              {
+                "field": "optional_sections",
+                "searched": "Bacaan yang dikutip belum cukup untuk memastikan bagian opsional yang dibiarkan null atau []; bagian tersebut tidak diisi melalui dugaan."
+              }
+            ]
+          },
+          "selection_visual_claim_ids": [
+            "kartikeya-c06",
+            "kartikeya-c08"
+          ],
+          "url": "/assets/art/kartikeya-verified.webp",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kartikeya.png",
+          "prompt": "Create one square premium painterly naturalistic Hindu mythology illustration no lettering. KARTIKEYA select documented ONE-HEADED ever-youthful MAN iconography, standing NEAR his PEACOCK Paravani, carrying a VEL SPEAR. One young ADULT natural human male with ONE head, ordinary two arms/two legs, mature serene face, fully opaque tasteful silk tunic/dhoti and restrained gold ornaments editorial costume. Holds a long physical vel spear with leaf-shaped metal blade upright; peaceful alert stance, not combat. One ordinary natural-size blue peacock stands beside his feet with elegant tail train, clearly near him, not a giant rideable mount. Quiet stone garden temple courtyard in natural morning sun with rich painterly naturalism. No sixheaded variant, child/birthscene, extra arms, red god colour from other sculpture variant, horns/wings on man, halo/glow aura, neon or colored magical fog.",
+          "depicted_variant": "One-headed youthful man with peacock and vel spear",
+          "visual_requirements": [
+            "One adult human head",
+            "Two human arms and legs",
+            "One peacock nearby",
+            "Vel spear"
+          ],
+          "basis_claim_ids": [
+            "kartikeya-c06",
+            "kartikeya-c07",
+            "kartikeya-c08"
+          ],
+          "aura": "Presence through expression, posture, framing and natural scene light.",
+          "visual_review": {
+            "verdict": "pass",
+            "reviewer": "recover_session",
+            "notes": "Inspected native: one youthful adult human man with one head, two arms/two legs, leaf-shaped physical vel spear upright, one normal-size peacock beside feet. No six-head variant, extra arms, combat or glow."
+          },
+          "width": 1254,
+          "height": 1254,
+          "sha256": "01d0b6227bffeedd5222e4064d27034f8029b8a2300255c980257ed503abf2dd"
+        }
+      ],
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-08T04:30:26.950Z",
+        "native_sha256": "f65cb103d9526e88c2dff61d1fc37360616d185e4469ae9dc886b9c84e69121f",
+        "notes": "One-headed young Kartikeya strides with the vel spear foreshortened toward the viewer, peacock at his flank, army behind; a war god with authority."
+      },
+      "native_sha256": "f65cb103d9526e88c2dff61d1fc37360616d185e4469ae9dc886b9c84e69121f",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/kartikeya.json",
+        "native_sha256": "f65cb103d9526e88c2dff61d1fc37360616d185e4469ae9dc886b9c84e69121f",
+        "old_url": "/assets/art/kartikeya-verified.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kartikeya.png",
+        "old_webp_sha256": "01d0b6227bffeedd5222e4064d27034f8029b8a2300255c980257ed503abf2dd",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "kartikeya-c06",
+          "kartikeya-c07",
+          "kartikeya-c08",
+          "kartikeya-c14",
+          "kartikeya-c09",
+          "kartikeya-c05"
+        ]
+      }
     },
     {
       "index": 187,

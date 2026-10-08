@@ -3,38 +3,137 @@
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "slug": "kartikeya",
-  "prompt": "Create one square premium painterly naturalistic Hindu mythology illustration no lettering. KARTIKEYA select documented ONE-HEADED ever-youthful MAN iconography, standing NEAR his PEACOCK Paravani, carrying a VEL SPEAR. One young ADULT natural human male with ONE head, ordinary two arms/two legs, mature serene face, fully opaque tasteful silk tunic/dhoti and restrained gold ornaments editorial costume. Holds a long physical vel spear with leaf-shaped metal blade upright; peaceful alert stance, not combat. One ordinary natural-size blue peacock stands beside his feet with elegant tail train, clearly near him, not a giant rideable mount. Quiet stone garden temple courtyard in natural morning sun with rich painterly naturalism. No sixheaded variant, child/birthscene, extra arms, red god colour from other sculpture variant, horns/wings on man, halo/glow aura, neon or colored magical fog.",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10bb6-3cac-7261-911d-bbee01b4baaf/exec-6571785d-8188-43fc-a562-92adbeb0b3d1.png",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kartikeya.png",
-  "depicted_variant": "One-headed youthful man with peacock and vel spear",
+  "prompt": "ONE original square 1024x1024 premium painterly cinematic Mythics illustration of KARTIKEYA, the revered Hindu war god and commander of the gods.\nANATOMY: One youthful male deity, ONE head, TWO eyes, TWO arms, TWO legs. Fully opaque red-gold woven battle garments, modest covered torso. One large broad leaf-bladed VEL spear in his right hand. A living blue peacock Paravani close at his left flank, feathers distinct. [kartikeya-c06,c07,c08,c14]\nMOMENT: Stride into battle toward the viewer with a commanding downward gaze; drive the vel diagonally forward into the extreme near foreground. Cloak and peacock feathers swept backwards by the advance, no gore. This is a commander leading an assault, not a youth posing on a hill.\nPOWER: No invented elemental attack or emitted magic. Authority from documented war command and the real spear; boot dislodges dry grit. [kartikeya-c09,c07]\nSCALE & CAMERA: extreme low angle; waist-to-head deity fills nearly the whole frame with foreshortened spear blade huge at lower foreground; perspective builds divine presence without invented giant body size. Peacock head visible beside him, not extra human limbs.\nLIGHT & WEATHER: ONE strong golden sunset rim light behind the vel blade, low-key walnut shadows on face; dusty air catches this same light.\nSURFACE: rough red-gold woven cloth, scratched ancient gold spear, detailed peacock feathers, skin real and warm.\nSETTING: Kurinji hill country, dark crags immediately behind his commanding figure. [kartikeya-c05]\nMOOD: awe-inspiring or menacing as appropriate to the documented tradition, imposing and intense, never cute, placid or decorative.\nHARD CONSTRAINTS: no text, lettering, logo, border, frame or watermark; no extra heads, limbs or fingers; original design, no film/game/anime/comic references; no nudity or explicit gore; no generic glowing aura, neon outline, magical symbols or energy ribbons.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a119a2-df15-7532-8113-75ed0ae9fea9/exec-9daa1210-99ab-4e9a-992d-3315fd5540c2.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/kartikeya.png",
+  "depicted_variant": "One-headed youthful commander striding forward with vel spear and blue peacock in tight low-angle battle framing.",
   "basis_claim_ids": [
     "kartikeya-c06",
     "kartikeya-c07",
-    "kartikeya-c08"
+    "kartikeya-c08",
+    "kartikeya-c14",
+    "kartikeya-c09",
+    "kartikeya-c05"
   ],
   "visual_requirements": [
-    "One adult human head",
-    "Two human arms and legs",
-    "One peacock nearby",
-    "Vel spear"
+    {
+      "kind": "anatomy",
+      "description": "One-head young man with vel spear and living peacock",
+      "claim_ids": [
+        "kartikeya-c06",
+        "kartikeya-c07",
+        "kartikeya-c08",
+        "kartikeya-c14"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Documented military command and spear action; physical dust only",
+      "claim_ids": [
+        "kartikeya-c09",
+        "kartikeya-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Kurinji hill country",
+      "claim_ids": [
+        "kartikeya-c05"
+      ]
+    }
   ],
-  "aura": "Presence through expression, posture, framing and natural scene light.",
+  "aura": "No invented elemental attack or emitted magic. Authority from documented war command and the real spear; boot dislodges dry grit. [kartikeya-c09,c07]",
   "visual_review": {
+    "reviewer": "codex",
     "verdict": "pass",
-    "reviewer": "recover_session",
-    "notes": "Inspected native: one youthful adult human man with one head, two arms/two legs, leaf-shaped physical vel spear upright, one normal-size peacock beside feet. No six-head variant, extra arms, combat or glow."
+    "notes": "Native inspected: advancing youthful war commander, spear blade strongly foreshortened toward viewer, coherent single head and two arms, blue peacock distinct at flank, Kurinji crags. Full opaque costume and dust through stride, no elemental attack or emitted aura, no text. Rear military silhouettes follow army-command claim c09, distant perspective does not assert giant size. All seven Sangar checks pass.",
+    "limitations": [],
+    "native_sha256": "f65cb103d9526e88c2dff61d1fc37360616d185e4469ae9dc886b9c84e69121f",
+    "reviewed_at": "2026-10-08T04:06:41.748788+00:00"
   },
   "reviewed_at": "2026-10-05T14:51:57.671212+00:00",
   "artistic_choices": [
     "Silk dhoti, restrained gold ornaments, leaf-shaped blade and temple courtyard are editorial staging"
   ],
   "review_path": "data/gemini/reviews/batch-072.review.json",
-  "native_sha256": "531c5f59ccd51d20062141b0aae13d447061e274035ef83899971c308e0f3466",
+  "native_sha256": "f65cb103d9526e88c2dff61d1fc37360616d185e4469ae9dc886b9c84e69121f",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "native_sha256": "531c5f59ccd51d20062141b0aae13d447061e274035ef83899971c308e0f3466",
-    "notes": "Viewed native: one-headed youthful adult man carrying upright leaf-shaped vel spear, with one natural-size peacock near his feet. c06/c07/c08 chosen single-headed variant, no six-head blend or glowing effects."
-  }
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-08T04:30:26.950Z",
+    "native_sha256": "f65cb103d9526e88c2dff61d1fc37360616d185e4469ae9dc886b9c84e69121f",
+    "notes": "One-headed young Kartikeya strides with the vel spear foreshortened toward the viewer, peacock at his flank, army behind; a war god with authority."
+  },
+  "presentation_revision_history": [
+    {
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "slug": "kartikeya",
+      "prompt": "Create one square premium painterly naturalistic Hindu mythology illustration no lettering. KARTIKEYA select documented ONE-HEADED ever-youthful MAN iconography, standing NEAR his PEACOCK Paravani, carrying a VEL SPEAR. One young ADULT natural human male with ONE head, ordinary two arms/two legs, mature serene face, fully opaque tasteful silk tunic/dhoti and restrained gold ornaments editorial costume. Holds a long physical vel spear with leaf-shaped metal blade upright; peaceful alert stance, not combat. One ordinary natural-size blue peacock stands beside his feet with elegant tail train, clearly near him, not a giant rideable mount. Quiet stone garden temple courtyard in natural morning sun with rich painterly naturalism. No sixheaded variant, child/birthscene, extra arms, red god colour from other sculpture variant, horns/wings on man, halo/glow aura, neon or colored magical fog.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb6-3cac-7261-911d-bbee01b4baaf/exec-6571785d-8188-43fc-a562-92adbeb0b3d1.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kartikeya.png",
+      "depicted_variant": "One-headed youthful man with peacock and vel spear",
+      "basis_claim_ids": [
+        "kartikeya-c06",
+        "kartikeya-c07",
+        "kartikeya-c08"
+      ],
+      "visual_requirements": [
+        "One adult human head",
+        "Two human arms and legs",
+        "One peacock nearby",
+        "Vel spear"
+      ],
+      "aura": "Presence through expression, posture, framing and natural scene light.",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "recover_session",
+        "notes": "Inspected native: one youthful adult human man with one head, two arms/two legs, leaf-shaped physical vel spear upright, one normal-size peacock beside feet. No six-head variant, extra arms, combat or glow."
+      },
+      "reviewed_at": "2026-10-05T14:51:57.671212+00:00",
+      "artistic_choices": [
+        "Silk dhoti, restrained gold ornaments, leaf-shaped blade and temple courtyard are editorial staging"
+      ],
+      "review_path": "data/gemini/reviews/batch-072.review.json",
+      "native_sha256": "531c5f59ccd51d20062141b0aae13d447061e274035ef83899971c308e0f3466",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "native_sha256": "531c5f59ccd51d20062141b0aae13d447061e274035ef83899971c308e0f3466",
+        "notes": "Viewed native: one-headed youthful adult man carrying upright leaf-shaped vel spear, with one natural-size peacock near his feet. c06/c07/c08 chosen single-headed variant, no six-head blend or glowing effects."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/kartikeya.json",
+    "native_sha256": "f65cb103d9526e88c2dff61d1fc37360616d185e4469ae9dc886b9c84e69121f",
+    "old_url": "/assets/art/kartikeya-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kartikeya.png",
+    "old_webp_sha256": "01d0b6227bffeedd5222e4064d27034f8029b8a2300255c980257ed503abf2dd",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "kartikeya-c06",
+      "kartikeya-c07",
+      "kartikeya-c08",
+      "kartikeya-c14",
+      "kartikeya-c09",
+      "kartikeya-c05"
+    ]
+  },
+  "url": "/assets/art/kartikeya-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "546b327ae0de20387e8588cb5cf8f0805768155d4527c23432b297ca10de974e",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Single head variant chosen from c08; two ordinary arms, no unsupported multiple-arm configuration.",
+    "Red-gold opaque clothing, dusty sunset and tight foreshortening are editorial staging.",
+    "No magic attack invented; physical weapon motion expresses documented military authority.",
+    "Gold crown and jewelry are editorial headwear/costume, not a claim-specific iconographic assertion.",
+    "Distant army silhouettes illustrate command c09; their background placement and foreground foreshortening do not assert giant biological size."
+  ]
 }
