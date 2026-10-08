@@ -1,9 +1,10 @@
 {
   "batch_id": "batch-143",
-  "checked_at": "2026-10-06T14:51:10.805Z",
+  "checked_at": "2026-10-08T06:53:59.625Z",
   "files": [
     "batch-143.md",
-    "batch-143-fix-1.md"
+    "batch-143-fix-1.md",
+    "batch-143-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2100,11 +2101,12 @@
     },
     {
       "slug": "piasa",
-      "file": "batch-143.md",
+      "file": "batch-143-fix-2.md",
+      "entry_sha256": "4e6d2d77b0fd93183b86baff8ab99fda8b170f613ec497b09a73d3b5f91ae689",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 2,
+        "claims": 18,
+        "sources": 3,
         "images": 0
       },
       "issues": [],
@@ -2188,10 +2190,109 @@
           "quote": "El piasa es una criatura ficticia inventada en el siglo XIX y hecha pasar por una supuesta criatura legendaria propia de la mitología de los nativos norteamericanos",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "piasa-c09",
+          "source_id": "piasa-s3",
+          "host": "www.museum.state.il.us",
+          "statement": "Marquette wrote that on one of the rocks they saw two painted monsters which at first made them afraid, and upon which the boldest savages dare not rest their eyes for long.",
+          "statement_id": "Marquette menulis bahwa di salah satu tebing mereka melihat dua monster lukisan yang pada mulanya membuat rombongan takut, dan yang oleh orang-orang paling berani pun tidak berani ditatap lama.",
+          "quote": "We saw upon one of them two painted monsters which at first made Us afraid, and upon Which the boldest savages dare not Long rest their eyes.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "piasa-c10",
+          "source_id": "piasa-s3",
+          "host": "www.museum.state.il.us",
+          "statement": "In Marquette's account the two painted monsters are as large as a calf, with deer-like horns, red eyes, a tiger's beard, a face somewhat like a man's, a scaly body, and a tail that winds all around the body.",
+          "statement_id": "Dalam catatan Marquette, kedua lukisan itu sebesar anak sapi, bertanduk seperti rusa, bermata merah, berjanggut seperti harimau, berwajah agak mirip manusia, bertubuh bersisik, dengan ekor yang melilit seluruh tubuh.",
+          "quote": "They are as large As a calf; they have Horns on their heads Like those of a deer, a horrible look, red eyes, a beard Like a tiger's, a face somewhat like a man's, a body Covered with scales, and so Long A tail that it winds all around the Body",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "piasa-c11",
+          "source_id": "piasa-s3",
+          "host": "www.museum.state.il.us",
+          "statement": "In 1836 John Russell published an article entitled \"The Bird That Devours Men\" and called the monster the Piasa Bird for the first time; the Illinois State Museum says much of the legend he related he created himself.",
+          "statement_id": "Pada 1836 John Russell menerbitkan artikel \"The Bird That Devours Men\" dan untuk pertama kali menyebut monster itu Piasa Bird; Illinois State Museum menyatakan sebagian besar legenda yang ia ceritakan ia karang sendiri.",
+          "quote": "In 1836 John Russell of Bluffdale, Ill., published an article entitled \"The Bird That Devours Men,\" and called the monster the Piasa Bird for the first time. Russell related a legend, much of which he created, which persists as the explanation of the pictograph.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "piasa-c12",
+          "source_id": "piasa-s3",
+          "host": "www.museum.state.il.us",
+          "statement": "According to Russell, the Piasa Bird was a huge flying monster that lived on the cliffs, destroyed Indian villages, consumed its captives, and resisted efforts to destroy it; Chief Ouatoga, in a dream inspired by the Great Spirit, conceived a plan to kill it.",
+          "statement_id": "Menurut tulisan Russell, Burung Piasa adalah monster terbang besar yang hidup di tebing, menghancurkan desa-desa Indian, memakan tawanannya, dan melawan upaya membunuhnya; Kepala Suku Ouatoga, dalam mimpi yang diilhami Roh Agung, menyusun rencana untuk membunuhnya.",
+          "quote": "The Piasa Bird, Russell wrote, was a huge flying monster which lived on the cliffs, destroyed Indian villages, consumed its captives, and resisted efforts to destroy it. Chief Ouatoga, however, during a dream inspired by the Great Spirit, conceived a plan to kill the terrible bird.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "piasa-c13",
+          "source_id": "piasa-s3",
+          "host": "www.museum.state.il.us",
+          "statement": "In that tale, using himself as bait and 20 of his bravest warriors to launch poisoned arrows, Ouatoga's plan succeeded and the Piasa Bird fell into the Mississippi and drowned.",
+          "statement_id": "Dalam kisah itu, dengan dirinya sebagai umpan dan 20 prajurit terberaninya melepaskan panah beracun, rencana Ouatoga berhasil dan Burung Piasa jatuh ke Mississippi lalu tenggelam.",
+          "quote": "Using himself as bait and 20 of his bravest warriors to launch poisoned arrows, Ouatoga's plan succeeded and the Piasa Bird fell into the Mississippi and drowned.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "piasa-c14",
+          "source_id": "piasa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Russell claimed this creature attacked and devoured people in nearby Indian villages shortly after the corpses of a war gave it a taste for human flesh.",
+          "statement_id": "Russell mengklaim makhluk itu menyerang dan memakan orang di desa-desa Indian terdekat setelah mayat-mayat sebuah perang memberinya selera akan daging manusia.",
+          "quote": "Russell claimed that this creature attacked and devoured people in nearby Indian villages shortly after the corpses of a war gave it a taste for human flesh.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "piasa-c15",
+          "source_id": "piasa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Armstrong's version, one bellowed like a bull and the other roared like a panther; at first they did not bring humans into harm's way aside from the terrible noises, but then the birds interceded in the tribal wars on the side of the \"Mestchegamies\", causing the Miami to be routed.",
+          "statement_id": "Dalam versi Armstrong, satu burung menggeram seperti banteng dan yang lain mengaum seperti panter; semula mereka tidak mencelakai manusia selain lewat suara mengerikan, tetapi kemudian mereka ikut campur dalam perang suku di pihak \"Mestchegamies\" sehingga Miami terpukul mundur.",
+          "quote": "One bellowed like a bull, the other roared like a panther, but aside from the terrible noises they issued, originally did not bring humans into harm's way. However, the birds interceded in the tribal wars on the side of the \"Mestchegamies\" causing the Miami to be routed.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "piasa-c16",
+          "source_id": "piasa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Douay and Hennepin add that according to native lore a tribal war occurred at this pictograph location in which many Miami warriors were drowned in the pursuit by the Matsigamea (Mitchigamea), and that since then the natives use smoke or offer tobacco to the pictorial beasts to appease the Manitou.",
+          "statement_id": "Douay dan Hennepin menambahkan bahwa menurut kisah pribumi, di lokasi lukisan itu pernah terjadi perang suku ketika banyak prajurit Miami tenggelam dalam pengejaran oleh Matsigamea (Mitchigamea), dan sejak itu orang pribumi memakai asap atau mempersembahkan tembakau kepada lukisan binatang itu untuk menenangkan Manitou.",
+          "quote": "Both Douay and Hennepin add that according to native lore, a tribal war occurred at this pictograph location in which many Miami warriors were drowned in the pursuit by the Matsigamea (Mitchigamea), and that the natives since then use smoke or make offerings of tobacco to the pictorial beasts, to appease the Manitou.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "piasa-c17",
+          "source_id": "piasa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Linguist Albert S. Gatschet (1899) described Lenapízha as \"an awe-inspiring animal of the dragon species, and of enormous dimensions\".",
+          "statement_id": "Ahli bahasa Albert S. Gatschet (1899) menggambarkan Lenapízha sebagai \"hewan yang menggentarkan dari jenis naga, dan berukuran sangat besar\".",
+          "quote": "But linguist Albert S. Gatschet (1899) further described Lenapízha as \"an awe-inspiring animal of the dragon species, and of enormous dimensions\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "piasa-c18",
+          "source_id": "piasa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Costa goes as far as to say that the Piasa depicted in the rock art (underwater panther) and another \"Piasa\" at least have in common the habit of attacking river travelers.",
+          "statement_id": "Costa berpendapat bahwa Piasa pada seni cadas (macan air) dan Piasa lain setidaknya sama-sama punya kebiasaan menyerang pelancong sungai.",
+          "quote": "Costa goes as far as to say that the Piasa depicted in the rock art (underwater panther) and the Piasa ... do at least have the habit of attacking river travelers in common.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7f13f437e2dc21666dbd68ecebc9e39f71958077f0b6531235e398de852be0f4"
+      "images": []
     },
     {
       "slug": "q-uq-umatz",
@@ -2680,11 +2781,12 @@
     },
     {
       "slug": "altamaha-ha",
-      "file": "batch-143.md",
+      "file": "batch-143-fix-2.md",
+      "entry_sha256": "52a37ae5ced91f3ba985cc010885ef48e73b802b113f923473a38f8bd315252e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 2,
+        "claims": 21,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -2768,10 +2870,139 @@
           "quote": "奥尔塔马霍河水怪的第一次正式目击可以追溯至1700年，更早之前的信息来自印第安人，他们认为奥尔塔马霍河生存着一只类似巨蛇的生物。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "altamaha-ha-c09",
+          "source_id": "altamaha-ha-s3",
+          "host": "www.exploresouthernhistory.com",
+          "statement": "Believers describe an animal 30 feet long with flippers like a seal.",
+          "statement_id": "Para penganutnya menggambarkan hewan sepanjang 30 kaki dengan sirip seperti anjing laut.",
+          "quote": "Believers, however, tell of a 30-foot long animal with flippers like a seal.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "altamaha-ha-c10",
+          "source_id": "altamaha-ha-s3",
+          "host": "www.exploresouthernhistory.com",
+          "statement": "The primary eyewitness was Captain Delano of the schooner Eagle, who saw a monster off St. Simons Island below the mouth of the Altamaha.",
+          "statement_id": "Saksi utama adalah Kapten Delano dari kapal layar Eagle, yang melihat monster di lepas St. Simons Island, di bawah muara Altamaha.",
+          "quote": "The primary eyewitness was a Captain Delano of the schooner Eagle, who saw a monster off St. Simons Island below the mouth of the Altamaha",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "altamaha-ha-c11",
+          "source_id": "altamaha-ha-s3",
+          "host": "www.exploresouthernhistory.com",
+          "statement": "The witness described the animal as about 70 feet long, its circumference about that of a sugar hogshead, moving with its head (shaped like an alligator's) about 8 feet out of the water.",
+          "statement_id": "Saksi itu menggambarkan hewan yang dilihatnya sekitar 70 kaki panjangnya, lingkarnya seukuran hogshead gula, bergerak dengan kepala (berbentuk seperti kepala aligator) terangkat sekitar 8 kaki dari air.",
+          "quote": "describing the animal he saw as being about 70 feet long, and its circumference about that of a sugar hogshead, moving with its head (shaped like an Alligator's) about 8 feet out of the water.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "altamaha-ha-c12",
+          "source_id": "altamaha-ha-s3",
+          "host": "www.exploresouthernhistory.com",
+          "statement": "Five men on the schooner also saw it, and a number of planters from St. Simons Island told the correspondent they had seen something strange as well.",
+          "statement_id": "Lima orang di kapal layar itu juga melihatnya, dan sejumlah pemilik perkebunan dari St. Simons Island berkata kepada koresponden bahwa mereka juga melihat sesuatu yang aneh.",
+          "quote": "Five men on the schooner also saw it and a number of planters from St. Simons Island told the correspondent that they had seen something strange as well.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "altamaha-ha-c13",
+          "source_id": "altamaha-ha-s3",
+          "host": "www.exploresouthernhistory.com",
+          "statement": "A correspondent of the Savannah Georgian newspaper reported multiple sightings of a sea monster on the Georgia coast in a dispatch datelined in Darien on April 18, 1830.",
+          "statement_id": "Seorang koresponden surat kabar Savannah Georgian melaporkan beberapa penampakan monster laut di pesisir Georgia dalam kiriman berita bertanggal Darien, 18 April 1830.",
+          "quote": "a correspondent of the Savannah Georgian newspaper reported multiple sightings of a sea monster on the Georgia coast in a dispatch datelined in Darien on April 18, 1830.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "altamaha-ha-c14",
+          "source_id": "altamaha-ha-s3",
+          "host": "www.exploresouthernhistory.com",
+          "statement": "The witnesses said it had two big humps about five feet apart and left behind a wake like that of a speedboat.",
+          "statement_id": "Para saksi mengatakan ia punya dua punuk besar yang berjarak sekitar lima kaki dan meninggalkan riak seperti perahu cepat.",
+          "quote": "They said it had two big humps about five feet apart and left behind a wake like that of a speedboat.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "altamaha-ha-c15",
+          "source_id": "altamaha-ha-s3",
+          "host": "www.exploresouthernhistory.com",
+          "statement": "A witness said it left behind a billow of water so big that boats bumped about. One of the men with him ran for a rifle, but it was gone before he could get off a shot.",
+          "statement_id": "Seorang saksi mengatakan makhluk itu meninggalkan gulungan air yang begitu besar sampai perahu terombang-ambing. Salah satu rekannya berlari mengambil senapan, tetapi makhluk itu sudah hilang sebelum sempat ditembak.",
+          "quote": "He said it left behind a billow of water so big that it caused boats to bump about. One of the men with him ran for a rifle, but it was gone before he could get off a shot.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "altamaha-ha-c16",
+          "source_id": "altamaha-ha-s3",
+          "host": "www.exploresouthernhistory.com",
+          "statement": "Tradition holds that the Tama Indians who lived up the Altamaha had legends of a giant snake-like creature living in the river, but the author notes that no documentation has been found to verify the claim.",
+          "statement_id": "Menurut tradisi, orang Tama yang tinggal di hulu Altamaha punya legenda makhluk raksasa mirip ular yang hidup di sungai itu, tetapi penulis mencatat bahwa belum ditemukan dokumentasi yang membuktikan klaim ini.",
+          "quote": "Tradition holds that the Tama Indians who lived up the Altamaha had legends of a giant snake-like creature that lived in the river. No documentation has been found to verify the claim",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "altamaha-ha-c17",
+          "source_id": "altamaha-ha-s3",
+          "host": "www.exploresouthernhistory.com",
+          "statement": "Some say what is seen is nothing but floating logs, masses of vegetation or known marine creatures.",
+          "statement_id": "Sebagian orang berpendapat yang terlihat hanyalah kayu apung, gumpalan tumbuhan, atau hewan laut yang sudah dikenal.",
+          "quote": "Some, of course, say it is nothing but floating logs, masses of vegetation or known marine creatures.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "altamaha-ha-c18",
+          "source_id": "altamaha-ha-s4",
+          "host": "www.legendsofamerica.com",
+          "statement": "Reports indicate it is 20-30 feet long, though some have seen smaller or larger creatures.",
+          "statement_id": "Laporan menyebut panjangnya 20-30 kaki, meskipun ada yang melihat makhluk lebih kecil atau lebih besar.",
+          "quote": "Reports indicate it is 20-30 feet long, though some have seen smaller or larger creatures",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "altamaha-ha-c19",
+          "source_id": "altamaha-ha-s4",
+          "host": "www.legendsofamerica.com",
+          "statement": "This cryptid is described as having a sturgeon-like body with a bony ridge on top, front flippers and no back limbs, swimming like a dolphin and having a crocodile-like snout.",
+          "statement_id": "Kriptid ini digambarkan bertubuh mirip ikan sturgeon dengan punggung bergerigi tulang, bersirip depan tanpa tungkai belakang, berenang seperti lumba-lumba, dan bermoncong mirip buaya.",
+          "quote": "This strange cryptid is described as having a sturgeon-like body, including a bony ridge on its top. With front flippers and no back limbs, it swims like a dolphin and has a crocodile-like snout",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "altamaha-ha-c20",
+          "source_id": "altamaha-ha-s4",
+          "host": "www.legendsofamerica.com",
+          "statement": "In the summer of 1980, two men reportedly saw Altamaha-ha stranded on a mud bank near Cathead Creek; they reported the animal lying halfway in the water, thrashing and trying to free itself from the bank.",
+          "statement_id": "Pada musim panas 1980, dua pria dilaporkan melihat Altamaha-ha terdampar di gundukan lumpur dekat Cathead Creek; menurut mereka hewan itu setengah terendam dalam air, menggelepar dan berusaha melepaskan diri dari tepian.",
+          "quote": "In the summer of 1980, two men reportedly saw Altamaha-ha stranded on a mud bank near Cathead Creek. They reported that the animal was lying halfway in the water, thrashing and trying to free itself from the bank.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "altamaha-ha-c21",
+          "source_id": "altamaha-ha-s4",
+          "host": "www.legendsofamerica.com",
+          "statement": "Though no physical evidence has been found, the tales date back centuries, with the Indians describing a giant snake-like creature that hissed and bellowed.",
+          "statement_id": "Meskipun belum ditemukan bukti fisik, kisahnya berusia berabad-abad, dengan orang Indian menggambarkan makhluk raksasa mirip ular yang mendesis dan menggeram.",
+          "quote": "Though no physical evidence of the Altamaha-ha has been found, the tales date back centuries, with the Indians describing a giant snake-like creature that hissed and bellowed.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7a81e16867af25173013d507b8cd9d6cebfeef2205183f5d453e625399a58b21"
+      "images": []
     },
     {
       "slug": "beast-of-exmoor",

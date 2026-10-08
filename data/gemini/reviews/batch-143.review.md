@@ -1,6 +1,6 @@
 # Review batch-143
 
-Diperiksa 2026-10-06T14:51:10.805Z. Berkas: batch-143.md, batch-143-fix-1.md.
+Diperiksa 2026-10-08T06:53:59.625Z. Berkas: batch-143.md, batch-143-fix-1.md, batch-143-fix-2.md.
 
 ## curupira — lulus-otomatis
 
@@ -330,7 +330,7 @@ Klaim 10 (exact 9, loose 1), sumber 2, gambar 0.
 
 ## piasa — lulus-otomatis
 
-Klaim 8 (exact 8), sumber 2, gambar 0.
+Klaim 18 (exact 18), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -342,6 +342,16 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 | piasa-c06 | exact | en.wikipedia.org | The wall bearing the original paintings at Alton was probably destroyed around the 1850s. | The wall where the original paintings existed at Alton was probably destroyed ca. 1850s. |
 | piasa-c07 | exact | en.wikipedia.org | The mural was restored with replicas several times in the 20th century. | The mural has been restored with replicas a number of times in the 20th century |
 | piasa-c08 | exact | es.wikipedia.org | Another source calls the piasa a 19th-century invention passed off as a legendary creature of Native North American mythology. | El piasa es una criatura ficticia inventada en el siglo XIX y hecha pasar por una supuesta criatura legendaria propia de la mitología de los nativos norteamericanos |
+| piasa-c09 | exact | www.museum.state.il.us | Marquette wrote that on one of the rocks they saw two painted monsters which at first made them afraid, and upon which the boldest savages dare not rest their eyes for long. | We saw upon one of them two painted monsters which at first made Us afraid, and upon Which the boldest savages dare not Long rest their eyes. |
+| piasa-c10 | exact | www.museum.state.il.us | In Marquette's account the two painted monsters are as large as a calf, with deer-like horns, red eyes, a tiger's beard, a face somewhat like a man's, a scaly body, and a tail that winds all around the body. | They are as large As a calf; they have Horns on their heads Like those of a deer, a horrible look, red eyes, a beard Like a tiger's, a face somewhat like a man's, a body Covered with scales, and so Long A tail that it winds all around the Body |
+| piasa-c11 | exact | www.museum.state.il.us | In 1836 John Russell published an article entitled "The Bird That Devours Men" and called the monster the Piasa Bird for the first time; the Illinois State Museum says much of the legend he related he created himself. | In 1836 John Russell of Bluffdale, Ill., published an article entitled "The Bird That Devours Men," and called the monster the Piasa Bird for the first time. Russell related a legend, much of which he created, which persists as the explanation of the pictograph. |
+| piasa-c12 | exact | www.museum.state.il.us | According to Russell, the Piasa Bird was a huge flying monster that lived on the cliffs, destroyed Indian villages, consumed its captives, and resisted efforts to destroy it; Chief Ouatoga, in a dream inspired by the Great Spirit, conceived a plan to kill it. | The Piasa Bird, Russell wrote, was a huge flying monster which lived on the cliffs, destroyed Indian villages, consumed its captives, and resisted efforts to destroy it. Chief Ouatoga, however, during a dream inspired by the Great Spirit, conceived a plan to kill the terrible bird. |
+| piasa-c13 | exact | www.museum.state.il.us | In that tale, using himself as bait and 20 of his bravest warriors to launch poisoned arrows, Ouatoga's plan succeeded and the Piasa Bird fell into the Mississippi and drowned. | Using himself as bait and 20 of his bravest warriors to launch poisoned arrows, Ouatoga's plan succeeded and the Piasa Bird fell into the Mississippi and drowned. |
+| piasa-c14 | exact | en.wikipedia.org | Russell claimed this creature attacked and devoured people in nearby Indian villages shortly after the corpses of a war gave it a taste for human flesh. | Russell claimed that this creature attacked and devoured people in nearby Indian villages shortly after the corpses of a war gave it a taste for human flesh. |
+| piasa-c15 | exact | en.wikipedia.org | In Armstrong's version, one bellowed like a bull and the other roared like a panther; at first they did not bring humans into harm's way aside from the terrible noises, but then the birds interceded in the tribal wars on the side of the "Mestchegamies", causing the Miami to be routed. | One bellowed like a bull, the other roared like a panther, but aside from the terrible noises they issued, originally did not bring humans into harm's way. However, the birds interceded in the tribal wars on the side of the "Mestchegamies" causing the Miami to be routed. |
+| piasa-c16 | exact | en.wikipedia.org | Douay and Hennepin add that according to native lore a tribal war occurred at this pictograph location in which many Miami warriors were drowned in the pursuit by the Matsigamea (Mitchigamea), and that since then the natives use smoke or offer tobacco to the pictorial beasts to appease the Manitou. | Both Douay and Hennepin add that according to native lore, a tribal war occurred at this pictograph location in which many Miami warriors were drowned in the pursuit by the Matsigamea (Mitchigamea), and that the natives since then use smoke or make offerings of tobacco to the pictorial beasts, to appease the Manitou. |
+| piasa-c17 | exact | en.wikipedia.org | Linguist Albert S. Gatschet (1899) described Lenapízha as "an awe-inspiring animal of the dragon species, and of enormous dimensions". | But linguist Albert S. Gatschet (1899) further described Lenapízha as "an awe-inspiring animal of the dragon species, and of enormous dimensions" |
+| piasa-c18 | exact | en.wikipedia.org | Costa goes as far as to say that the Piasa depicted in the rock art (underwater panther) and another "Piasa" at least have in common the habit of attacking river travelers. | Costa goes as far as to say that the Piasa depicted in the rock art (underwater panther) and the Piasa ... do at least have the habit of attacking river travelers in common. |
 
 
 ## q-uq-umatz — lulus-otomatis
@@ -427,7 +437,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## altamaha-ha — lulus-otomatis
 
-Klaim 8 (exact 8), sumber 2, gambar 0.
+Klaim 21 (exact 21), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -439,6 +449,19 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 | altamaha-ha-c06 | exact | en.wikipedia.org | Performance artist Zardulu later claimed to have made the remains from a stuffed shark and papier-mâché. | Performance artist Zardulu later claimed responsibility for the remains, which were created out of a stuffed shark and papier-mâché. |
 | altamaha-ha-c07 | exact | en.wikipedia.org | In the video game South of Midnight, Altamaha-ha is a boss Hazel meets in a dark swamp. | In the videogame South of Midnight, Altamaha-ha is featured as a boss that Hazel encounters in a dark swamp. |
 | altamaha-ha-c08 | exact | zh.wikipedia.org | The first formal sighting dates to 1700; older information comes from Native Americans who believed a giant serpent-like creature lived in the Altamaha River. | 奥尔塔马霍河水怪的第一次正式目击可以追溯至1700年，更早之前的信息来自印第安人，他们认为奥尔塔马霍河生存着一只类似巨蛇的生物。 |
+| altamaha-ha-c09 | exact | www.exploresouthernhistory.com | Believers describe an animal 30 feet long with flippers like a seal. | Believers, however, tell of a 30-foot long animal with flippers like a seal. |
+| altamaha-ha-c10 | exact | www.exploresouthernhistory.com | The primary eyewitness was Captain Delano of the schooner Eagle, who saw a monster off St. Simons Island below the mouth of the Altamaha. | The primary eyewitness was a Captain Delano of the schooner Eagle, who saw a monster off St. Simons Island below the mouth of the Altamaha |
+| altamaha-ha-c11 | exact | www.exploresouthernhistory.com | The witness described the animal as about 70 feet long, its circumference about that of a sugar hogshead, moving with its head (shaped like an alligator's) about 8 feet out of the water. | describing the animal he saw as being about 70 feet long, and its circumference about that of a sugar hogshead, moving with its head (shaped like an Alligator's) about 8 feet out of the water. |
+| altamaha-ha-c12 | exact | www.exploresouthernhistory.com | Five men on the schooner also saw it, and a number of planters from St. Simons Island told the correspondent they had seen something strange as well. | Five men on the schooner also saw it and a number of planters from St. Simons Island told the correspondent that they had seen something strange as well. |
+| altamaha-ha-c13 | exact | www.exploresouthernhistory.com | A correspondent of the Savannah Georgian newspaper reported multiple sightings of a sea monster on the Georgia coast in a dispatch datelined in Darien on April 18, 1830. | a correspondent of the Savannah Georgian newspaper reported multiple sightings of a sea monster on the Georgia coast in a dispatch datelined in Darien on April 18, 1830. |
+| altamaha-ha-c14 | exact | www.exploresouthernhistory.com | The witnesses said it had two big humps about five feet apart and left behind a wake like that of a speedboat. | They said it had two big humps about five feet apart and left behind a wake like that of a speedboat. |
+| altamaha-ha-c15 | exact | www.exploresouthernhistory.com | A witness said it left behind a billow of water so big that boats bumped about. One of the men with him ran for a rifle, but it was gone before he could get off a shot. | He said it left behind a billow of water so big that it caused boats to bump about. One of the men with him ran for a rifle, but it was gone before he could get off a shot. |
+| altamaha-ha-c16 | exact | www.exploresouthernhistory.com | Tradition holds that the Tama Indians who lived up the Altamaha had legends of a giant snake-like creature living in the river, but the author notes that no documentation has been found to verify the claim. | Tradition holds that the Tama Indians who lived up the Altamaha had legends of a giant snake-like creature that lived in the river. No documentation has been found to verify the claim |
+| altamaha-ha-c17 | exact | www.exploresouthernhistory.com | Some say what is seen is nothing but floating logs, masses of vegetation or known marine creatures. | Some, of course, say it is nothing but floating logs, masses of vegetation or known marine creatures. |
+| altamaha-ha-c18 | exact | www.legendsofamerica.com | Reports indicate it is 20-30 feet long, though some have seen smaller or larger creatures. | Reports indicate it is 20-30 feet long, though some have seen smaller or larger creatures |
+| altamaha-ha-c19 | exact | www.legendsofamerica.com | This cryptid is described as having a sturgeon-like body with a bony ridge on top, front flippers and no back limbs, swimming like a dolphin and having a crocodile-like snout. | This strange cryptid is described as having a sturgeon-like body, including a bony ridge on its top. With front flippers and no back limbs, it swims like a dolphin and has a crocodile-like snout |
+| altamaha-ha-c20 | exact | www.legendsofamerica.com | In the summer of 1980, two men reportedly saw Altamaha-ha stranded on a mud bank near Cathead Creek; they reported the animal lying halfway in the water, thrashing and trying to free itself from the bank. | In the summer of 1980, two men reportedly saw Altamaha-ha stranded on a mud bank near Cathead Creek. They reported that the animal was lying halfway in the water, thrashing and trying to free itself from the bank. |
+| altamaha-ha-c21 | exact | www.legendsofamerica.com | Though no physical evidence has been found, the tales date back centuries, with the Indians describing a giant snake-like creature that hissed and bellowed. | Though no physical evidence of the Altamaha-ha has been found, the tales date back centuries, with the Indians describing a giant snake-like creature that hissed and bellowed. |
 
 
 ## beast-of-exmoor — lulus-otomatis

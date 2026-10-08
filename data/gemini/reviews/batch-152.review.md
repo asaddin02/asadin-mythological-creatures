@@ -1,6 +1,6 @@
 # Review batch-152
 
-Diperiksa 2026-10-06T19:39:24.280Z. Berkas: batch-152.md, batch-152-fix-1.md, batch-152-fix-2.md.
+Diperiksa 2026-10-08T06:54:13.890Z. Berkas: batch-152.md, batch-152-fix-1.md, batch-152-fix-2.md, batch-152-fix-3.md.
 
 ## will-o-the-wisp — lulus-otomatis
 
@@ -53,7 +53,7 @@ Klaim 17 (exact 13, loose 4), sumber 3, gambar 0.
 
 ## baphomet — lulus-otomatis
 
-Klaim 7 (exact 6, loose 1), sumber 2, gambar 0.
+Klaim 19 (exact 18, loose 1), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -64,6 +64,18 @@ Klaim 7 (exact 6, loose 1), sumber 2, gambar 0.
 | baphomet-c05 | exact | en.wikipedia.org | Baphomet is a symbol of occultism representing the reconciliation of opposites and esoteric knowledge. | This Baphomet is a recurring symbol of occultism, widely adapted to represent the reconciliation of opposites, esoteric knowledge, and the summation of the universe. |
 | baphomet-c06 | loose | id.wikipedia.org | Bafomet comes from Medieval Latin Baphometh or Bafometz, revived in the 19th century as a figure of occultism and Satanism. | Bafomet (pengucapan bahasa Inggris: [ˈbæfɵmɛt], dari Bahasa Latin Abad Pertengahan Baphometh, baffometi, Bafometz) adalah suatu sosok imajinasi dewa berbentuk rusa pagan (yaitu sebuah produk cerita rakyat mengenai kaum pagan) yang dihidupkan kembali pada abad ke-19 sebagai figur okultisme dan setanisme. |
 | baphomet-c07 | exact | id.wikipedia.org | The name appeared in 19th-century English debates regarding the suppression of the Knights Templar. | Nama ini muncul pertama kali dalam pengertian bahasa percakapan Inggris popular pada abad ke-19 dalam perdebatan dan spekulasi mengenai alasan-alasan penindasan terhadap Kesatria Kenisah. |
+| baphomet-c08 | exact | www.gutenberg.org | In the Templar trial testimony summarised by Lea, the object is sometimes called the Saviour, sometimes Bafomet or Maguineth (corruptions of Mahomet), and is worshipped as Allah. | Sometimes it is called the Saviour, and sometimes Bafomet or Maguineth—corruptions of Mahomet—and is worshipped as Allah. |
+| baphomet-c09 | exact | www.gutenberg.org | According to the testimony, sometimes it is God, creating all things and causing the trees to bloom and the grass to germinate, and sometimes a friend of God who can approach him and intercede for the suppliant. | Sometimes it is God, creating all things, causing the trees to bloom and the grass to germinate, and then again it is a friend of God who can approach him and intercede for the suppliant. |
+| baphomet-c10 | exact | www.gutenberg.org | According to the testimony, sometimes it gives responses, and sometimes it is accompanied or replaced by the devil in the form of a black or gray cat or raven, who occasionally answers the questions addressed to him. | Sometimes it gives responses, and sometimes it is accompanied or replaced by the devil in the form of a black or gray cat or raven, who occasionally answers the questions addressed to him |
+| baphomet-c11 | exact | www.gutenberg.org | Some witnesses saw its neck and shoulders covered with gold; one declared it was a demon (Maufé) on which no one could look without trembling. | Some witnesses saw its neck and shoulders covered with gold; one declared that it was a demon (Maufé) on which no one could look without trembling |
+| baphomet-c12 | exact | www.gutenberg.org | Lea concludes there is absolutely no external evidence against the Order; the proof rests entirely on confessions extracted by the alternative of pardon or burning, by torture, by the threat of torture, or by the indirect torture of prison. | Thus there is absolutely no external evidence against the Order, and the proof rests entirely upon confessions extracted by the alternative of pardon or burning, by torture, by the threat of torture, or by the indirect torture of prison |
+| baphomet-c13 | exact | www.gutenberg.org | Waite summarises that, according to Éliphas Lévi, the hypothetical idol Baphomet was a symbolical figure representing the First Matter of the Magnum Opus, which is the Astral Light, and further signified the god Pan. | That the hypothetical idol Baphomet was a symbolical figure representing the First Matter of the Magnum Opus, which is the Astral Light; (b) That it signified further the god Pan, which may be identified with “the Christ of dissident sacerdotalism” |
+| baphomet-c14 | exact | www.gutenberg.org | According to Waite's summary, Lévi also says the Baphometic head is "a beautiful allegory which attributes to thought alone the first and creative cause", and finally "nothing more than an innocent and even a pious hieroglyph". | (c) That the Baphometic head is “a beautiful allegory which attributes to thought alone the first and creative cause”; and finally, (d) That it is “nothing more than an innocent and even a pious hieroglyph.” |
+| baphomet-c15 | exact | www.gutenberg.org | Lévi states that the Templars rendered divine honours to the monstrous idol Baphomet. | they rendered divine honours to the monstrous idol Baphomet |
+| baphomet-c16 | exact | en.wikipedia.org | The indictment published by the court of Rome states they worshipped the idol as a god and saviour, saying this head could save them, bestowed on the order all its wealth, and made the trees flower and the plants of the earth sprout forth. | they worshipped the idol as a god, as their saviour, saying that this head could save them, that it bestowed on the order all its wealth, made the trees flower, and the plants of the earth to sprout forth. |
+| baphomet-c17 | exact | en.wikipedia.org | Lévi writes that here we confront the phantom of all terrors, the dragon of all theogonies, the Ahriman of the Persians, the Typhon of the Egyptians, the Python of the Greeks, the old serpent of the Hebrews, the fantastic monster, the nightmare. | Yes, we confront here that phantom of all terrors, the dragon of all theogonies, the Ahriman of the Persians, the Typhon of the Egyptians, the Python of the Greeks, the old serpent of the Hebrews, the fantastic monster, the nightmare |
+| baphomet-c18 | exact | en.wikipedia.org | Lévi writes that the adorers of this sign do not consider it a representation of the devil as he does; for them it is that of the god Pan. | But the adorers of this sign do not consider, as do we, that it is a representation of the devil; on the contrary, for them it is that of the god Pan |
+| baphomet-c19 | exact | en.wikipedia.org | Crowley writes that "The Devil" of The Book of Thoth has BAPHOMET as his emblem, the Androgyne who is the hieroglyph of arcane perfection, and is therefore Life and Love, Light, and Liberty as the attribute of the Capricornus goat. | He is "The Devil" of The Book of Thoth, and His emblem is BAPHOMET, the Androgyne who is the hieroglyph of arcane perfection ... He is therefore Life, and Love. But moreover his letter is ayin, the Eye, so that he is Light; and his Zodiacal image is Capricornus, that leaping goat whose attribute is Liberty. |
 
 
 ## abnoba — lulus-otomatis
@@ -277,7 +289,10 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## merfolk — lulus-otomatis
 
-Klaim 7 (exact 5, loose 2), sumber 2, gambar 0.
+Klaim 18 (exact 16, loose 2), sumber 7, gambar 0.
+
+**warn**
+- `long_description[2]` Tidak muncul di kutipan mana pun: Utara, North. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -288,6 +303,17 @@ Klaim 7 (exact 5, loose 2), sumber 2, gambar 0.
 | merfolk-c05 | exact | tl.wikipedia.org | Merfolk in the Philippines are known collectively as Taga-Dagat or Bantay Tubig. | Ang mga merfolk, na kilala bilang kolektibong Taga-Dagat o minsan ay Bantay Tubig, ay mga nilalang-tubig sa mitolohiyang Pilipino. |
 | merfolk-c06 | exact | tl.wikipedia.org | The most famous persona of merfolk is the Sirena with a human female upper body and fish tail. | Ang pinakakilalang katauhan ng merfolk ay ang Sirena, isang nilalang na kahawig ng sirena na may pang-itaas na bahagi ng katawan ng babaeng tao at buntot ng isda. |
 | merfolk-c07 | exact | tl.wikipedia.org | Sireno is the male counterpart of Sirena. | Ang Sireno ang lalaking katumbas ng Sirena, bagama’t hindi ito gaanong lumalabas sa mga kuwento. |
+| merfolk-c08 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | The "merry-maids" of the Cornish fishermen and sailors possess the well-recognised features of the mermaid. | The "merry-maids" of the Cornish fishermen and sailors possess the well-recognised features of the mermaid. |
+| merfolk-c09 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | According to the collector, these creatures are usually associated with some catastrophe, but are now and then spoken of as benefactors of man. | Usually those creatures are associated with some catastrophe; but they are now and then spoken of as the benefactors of man. |
+| merfolk-c10 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | The collector learned of more than one family who have received mysterious powers from the sea-nymphs. | From them I learned of more than one family who have received mysterious powers from the sea-nymphs |
+| merfolk-c11 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | According to a local, the harbour was once deep water under the care of a merry-maid; when a man with a gun shot at her she dived, re-appeared, raised her right arm, and vowed that the harbour should be desolate. | it was once deep water for the largest vessel, and under the care of a merry-maid ... but one day, as she was sporting on the surface, a fellow with a gun shot at her. "She dived for a moment; but re-appearing, raised her right arm, and vowed that henceforth the harbour should be desolate." |
+| merfolk-c12 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | The speaker said the sand could not be kept out and the harbour made deep enough for a frigate unless the parsons can find a way to take up the merry-maid's curse. | could keep the sand out, or make the harbour deep enough to swim a frigate, unless the parsons can find out the way to take up the merry-maid's curse. |
+| merfolk-c13 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | There is a popular fancy of a lady showing herself at the rock before a storm, and she is said to have been heard singing most plaintively before a wreck. | There exists the popular fancy of a lady showing herself here previous to a storm ... She is said to have been heard singing most plaintively before a wreck |
+| merfolk-c14 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | Young men are said to have swum off to the rock, lured by the songs they heard, but they never returned. | Young men are said to have swam off to the rock, lured by the songs which they heard, but they have never returned. |
+| merfolk-c15 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | The town of Seaton is said to have been overwhelmed with sand at an early period, the catastrophe brought about by the curse of a mermaid who had suffered some injury from the sailors of this port. | The town of Seaton is said to have been overwhelmed with sand at an early period, the catastrophe having been brought about, ... by the curse of a mermaid, who had suffered some injury from the sailors who belonged to this port. |
+| merfolk-c16 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | The Mermen, Mermaids, and Necks are linked with the sea, lakes, and rivers; Catholic and Protestant clergy tried in vain to excite an aversion to them, and they are regarded as possessing considerable power over man and nature. | the Mermen, Mermaids, and Necks, the sea, lakes, and rivers; the River-man (Strömkarl) the small waterfalls. Both the Catholic and Protestant clergy have endeavoured to excite an aversion to these beings, but in vain. They are regarded as possessing considerable power over man and nature |
+| merfolk-c17 | exact | en.wikipedia.org | During the Kamakura Period, marine ningyo were frequently reported washing ashore and were taken as ominous signs usually prefiguring bloody battles. | During the Kamakura Period, ningyo of the marine sort were frequently reported as washing ashore, and these were taken to be ominous signs usually prefiguring bloody battles. |
+| merfolk-c18 | exact | en.wikipedia.org | Their eyes have the power to weep, but what they bring forth is pearls. | Their eyes have the power to weep, but what they bring forth is pearls. |
 
 
 ## zitiron — lulus-otomatis
@@ -359,7 +385,7 @@ Klaim 14 (exact 14), sumber 3, gambar 0.
 
 ## xeglun — lulus-otomatis
 
-Klaim 6 (exact 5, loose 1), sumber 3, gambar 0.
+Klaim 12 (exact 11, loose 1), sumber 4, gambar 0.
 
 **warn**
 - `claims (xeglun-c06)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
@@ -372,6 +398,12 @@ Klaim 6 (exact 5, loose 1), sumber 3, gambar 0.
 | xeglun-c04 | loose | fr.wikipedia.org | The Milky Way was believed created through the pursuit of Xeglun by Xargi. | La Voie lactée aurait été créée par la poursuite de Xeglun par Xargi (en). |
 | xeglun-c05 | exact | pt.wikipedia.org | Xeglun was the celestial elk referenced in regional mythological accounts. | Xeglun era o alce celestial na mitologia chinesa. |
 | xeglun-c06 | exact | pt.wikipedia.org | Belief holds that the cause of the Milky Way was Mangi's pursuit of this creature. | Acredita-se que a causa da criação da Via Láctea foi a perseguição de Mangi a esta criatura. |
+| xeglun-c07 | exact | talkingstories.uoregon.edu | Among the Evenk, the Big Dipper is seen as a hunter or hunters pursuing an "elk" called Kheglen or Keglun (another spelling of Xeglun). | Similarly, the Big Dipper is seen as a hunter or hunters pursuing an “elk,” called Kheglen or Keglun |
+| xeglun-c08 | exact | talkingstories.uoregon.edu | In one variant, Kheglen is male and steals the sun from the sky, causing perpetual darkness; he is pursued across the horizon from east to west by the hero Main, who travels on winged skis. | In another variant, Kheglen is male and steals the sun from the sky, causing perpetual darkness. He is pursued across the horizon from east to west by the hero Main, who travels on winged skis. |
+| xeglun-c09 | exact | talkingstories.uoregon.edu | At midnight, Main shoots Kheglen with an arrow and takes back the sun, restoring daylight to the people. | At midnight, Main shoots Kheglen with an arrow and takes back the sun, restoring daylight to the people. |
+| xeglun-c10 | exact | talkingstories.uoregon.edu | In the oldest version of the myth, the hunter is the ancestral bear-man Mangi, who overtakes Kheglen, kills him, and gorges himself; the Milky Way is the track made by Mangi's skis, Ursa Major is Kheglen's legs, and Orion is his thigh joint. | In the oldest version of the myth, the hunter is the ancestral bear-man Mangi, who overtakes Kheglen, kills him, and proceeds to gorge himself. In this variant, the Milky Way is the track made by Mangi’s skis, Ursa Major is Kheglen’s legs, and Orion is his thigh joint. |
+| xeglun-c11 | exact | talkingstories.uoregon.edu | The myth was also associated with spring religious rites performed to ensure renewal of the resources people depended on and future hunting success; the rites lasted several days and involved acting out the myth. | The myth was also associated with spring religious rites, which were performed to ensure renewal of the resources people depended on, as well as future hunting success. Rites lasted several days, and involved acting out the myth. |
+| xeglun-c12 | exact | talkingstories.uoregon.edu | The authors interpret the Kheglen myth as referencing seasonal transitions: the theft of the sun occurs at the autumnal equinox, and the killing of Kheglen and restoration of the sun at the vernal equinox. | The Kheglen myth references seasonal transitions: the theft of the sun occurs at the autumnal equinox, and the killing of Kheglen and restoration of the sun occur at the vernal equinox |
 
 
 ## beast — skip
