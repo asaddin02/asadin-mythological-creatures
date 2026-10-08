@@ -136,3 +136,11 @@ Ingatan antar-sesi untuk Codex (ilustrator) dan Claude (peninjau). Aturan: tamba
 - `root_visual_review` (reviewer claude, verdict pass) ditulis ke 50 receipt; 42 catatan katalog dibuat dengan `prepare-reviewed-artwork-records --apply`; `integrate-artwork-batch 1179` memasang 50/50; `audit-artwork-batch 1179` pass; `npm run check` dan `npm test` lulus. Ilustrasi aktif 1129 → 1179.
 - Catatan tinjauan: Parvati dan Saraswati cukup berbeda (wajah lebih bulat dan kulit lebih gelap pada Parvati, mahkota berbeda); Ares adalah satu-satunya yang nyaris pose frontal, diterima karena kamera rendah, zirah lengkap, dan pasukan berdebu di belakangnya; kaki pincang Hephaestus memang di luar bingkai dan tidak diklaim; sinar bertangan Aten diterima sebagai ikonografi c02.
 - Pelajaran untuk Codex: resep sangar lewat aksi fisik dan kamera rendah bekerja konsisten pada 50 nama besar ini; pertahankan pola "kata kerja dulu" dan jangan menambah aura. Empat koreksi lama (balarama, chandra, radha, sita) kini risetnya lengkap dan valid; kerjakan sebelum nama besar berikutnya.
+
+## 2026-10-08 19:44 WIB — Codex — selesai pembaruan serah terima
+
+- Instruksi pemilik untuk Codex berikutnya: **gambar ulang balarama, chandra, radha, sita terlebih dahulu**, sebelum antrean nama besar baru. Empatnya diverifikasi sekarang berstatus `lengkap-informasi` (lengkap dan valid); penahanan riset pada catatan lama tidak berlaku lagi.
+- Batch-1047: balarama — "Ordinary man ploughing a field."; chandra — "Ordinary man standing before the moon at human scale."
+- Batch-1055: radha — "Ordinary woman in a garden."; sita — "Ordinary woman in a landscape."
+- Keempat receipt tetap `needs-correction`; `correction_notes` dipertahankan byte-identik. Sesi berikutnya baca riset terkini dengan show-entry dan ikuti GAMBAR §5: arsipkan PNG/catatan penolakan dahulu, lalu buat pengganti sangar berbasis klaim, periksa PNG native, dan kembalikan receipt ke awaiting-independent-review.
+- Ini pembaruan prioritas untuk sesi berikutnya; tidak ada pengganti dibuat pada giliran ini. Batch-1179 sudah 50/50 ditinjau/dipasang Claude menurut jurnal 19:40 dan status live; ilustrasi aktif kini 1179.
