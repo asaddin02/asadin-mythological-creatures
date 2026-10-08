@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-055",
-  "checked_at": "2026-10-07T09:21:04.569Z",
+  "checked_at": "2026-10-08T15:07:41.363Z",
   "files": [
     "batch-055.md",
     "batch-055-fix-1.md",
@@ -9,7 +9,8 @@
     "batch-055-fix-4.md",
     "batch-055-fix-5.md",
     "batch-055-fix-6.md",
-    "batch-055-fix-7.md"
+    "batch-055-fix-7.md",
+    "batch-055-fix-8.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -226,10 +227,11 @@
     },
     {
       "slug": "kyokotsu",
-      "file": "batch-055-fix-1.md",
+      "file": "batch-055-fix-8.md",
+      "entry_sha256": "45e0e3c1e7ab7a1fc28d3926656b304dde8d3533204e392b4c2b03f951d4993b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 13,
         "sources": 2,
         "images": 0
       },
@@ -294,10 +296,79 @@
           "quote": "A kyōkotsu lies at the bottom of its well until it is disturbed, then it rises up to curse anyone unfortunate enough to be using the well.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "kyokotsu-c07",
+          "source_id": "kyokotsu-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Sekien’s text calls the kyōkotsu (狂骨) white bones in a well (井中の白骨) and suggests that the saying \"kyōkotsu\" for something extreme comes from the intensity of its grudge.",
+          "statement_id": "Teks Sekien menyebut kyōkotsu (狂骨) sebagai tulang putih di dalam sumur (井中の白骨), dan menduga ungkapan \"kyōkotsu\" untuk hal yang berlebihan berasal dari dendamnya yang hebat.",
+          "quote": "狂骨は井中の白骨なり 世の諺に 甚しき事をきやうこつといふも このうらみのはなはなだしきよりいふならん",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kyokotsu-c08",
+          "source_id": "kyokotsu-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Because the name \"狂骨\" is not found in folk tradition, it is interpreted as Sekien’s wordplay invention from local dialect and the word 髐骨 (kyōkotsu), \"white bones stripped of flesh\".",
+          "statement_id": "Karena nama \"狂骨\" tidak ditemukan dalam tradisi lisan, ia ditafsirkan sebagai ciptaan permainan kata Sekien dari dialek setempat dan kata 髐骨 (kyōkotsu), \"tulang putih tanpa daging\".",
+          "quote": "しかし伝承では「狂骨」の名は確認されていないため、実際には逆にそうした方言や、肉の落ちた白骨を意味する言葉の「髐骨（きょうこつ）」などから石燕が言葉遊びで「狂骨」という妖怪を創作したものと解釈されている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kyokotsu-c09",
+          "source_id": "kyokotsu-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In Tsukui District, Kanagawa Prefecture (神奈川県津久井郡), there is indeed a dialect word \"kyōkotsunai\" (キョーコツナイ) meaning noisy or outlandish.",
+          "statement_id": "Di Distrik Tsukui, Prefektur Kanagawa (神奈川県津久井郡), memang ada dialek \"kyōkotsunai\" (キョーコツナイ) yang berarti gaduh atau ganjil.",
+          "quote": "神奈川県津久井郡には確かに、けたたましい様子や素っ頓狂な様子を意味する「キョーコツナイ」という方言がある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kyokotsu-c10",
+          "source_id": "kyokotsu-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Yōkai literature from the Heisei (平成) era on describes it as a skeleton thrown into a well that became a ghost through strong resentment, or a person who died falling into a well; it appears to reveal where it was dumped and curses those who use the well.",
+          "statement_id": "Literatur yōkai sejak era Heisei (平成) menyebutnya kerangka yang dibuang ke sumur lalu menjadi roh orang mati karena dendam kuat, atau orang yang mati jatuh ke sumur; ia muncul untuk memberi tahu tempat ia dibuang dan mengutuk pemakai sumur.",
+          "quote": "平成以降の妖怪関連の文献では、井戸に捨てられた骸骨が強い怨念により死霊化したもの、または井戸に落ちて死んだ人間が化けたものであり、井戸から現れることによって自分の捨てられた場所を知らせる、井戸を使った者に祟るなどと述べられており",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kyokotsu-c11",
+          "source_id": "kyokotsu-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Some point out that the kyōkotsu depicts only the appearance of a skeleton (骸骨という外見のみ) and is not a kind of spirit.",
+          "statement_id": "Ada pula pendapat bahwa kyōkotsu hanya menggambarkan rupa kerangka (骸骨という外見のみ) dan bukan sejenis roh.",
+          "quote": "しかし実際には、白骨や骸骨に関連する妖怪は、恐ろしい外見とは裏腹に実態のともなっていないものが多いことから、この狂骨もまた骸骨という外見のみが描かれたものであり、霊の類ではないとの指摘もある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kyokotsu-c12",
+          "source_id": "kyokotsu-s2",
+          "host": "yokai.com",
+          "statement": "It is wrapped in a ragged shroud, with only its bleached skull and tangled hair emerging.",
+          "statement_id": "Ia terbungkus kain kafan compang-camping, hanya tengkorak putih dan rambut kusutnya yang menyembul.",
+          "quote": "It is wrapped in a ragged shroud, with only its bleached skull and tangled hair emerging from its tattered clothes.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kyokotsu-c13",
+          "source_id": "kyokotsu-s2",
+          "host": "yokai.com",
+          "statement": "The bones may come from a murder or suicide victim, or someone who died after accidentally falling into a well.",
+          "statement_id": "Tulangnya bisa berasal dari korban pembunuhan atau bunuh diri, atau orang yang mati karena tak sengaja jatuh ke sumur.",
+          "quote": "The bones may come from a murder or a suicide victim, or someone who died after accidentally falling into a well.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a16e2cc48856b6ed09ebe7c8e72cf368b13839f460ff33c374857ea60ddf0492"
+      "images": []
     },
     {
       "slug": "makuragaeshi",
@@ -5287,10 +5358,11 @@
     },
     {
       "slug": "enko",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-8.md",
+      "entry_sha256": "a2449416e3e6840e76a4be543c1cc0233cba14bb2dfeea0dce735fa493180a14",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 13,
         "sources": 2,
         "images": 0
       },
@@ -5320,9 +5392,9 @@
           "id": "enko-c03",
           "source_id": "enko-s1",
           "host": "ja.wikipedia.org",
-          "statement": "It is said to dislike metal and inhabit sea or river water.",
-          "statement_id": "Ia konon tidak menyukai logam dan menghuni laut atau sungai.",
-          "quote": "一般的にいう河童と異なるのは、姿が毛むくじゃらで猿に似ている点である。金属を嫌う性質があり、海又は川に住み、泳いでいる人間を襲い、肛門から手を入れて生き胆を抜き取るとされている。",
+          "statement": "It is said to hate metal (金属を嫌う), live in the sea or rivers, attack swimmers, and pull out their living liver through the anus.",
+          "statement_id": "Ia dikatakan membenci logam (金属を嫌う), tinggal di laut atau sungai, menyerang orang yang berenang, dan mencabut hati hidup mereka lewat dubur.",
+          "quote": "金属を嫌う性質があり、海又は川に住み、泳いでいる人間を襲い、肛門から手を入れて生き胆を抜き取るとされている。",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -5355,17 +5427,87 @@
           "quote": "They are also skilled at transforming and can disguise themselves as human women, dolls, and other forms.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "enko-c07",
+          "source_id": "enko-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The word 猿猴 originally covered 猿 (gibbon, テナガザル) and 猴 (macaque, マカク), that is, monkeys in general.",
+          "statement_id": "Kata 猿猴 pada asalnya sebutan umum untuk 猿 (owa, テナガザル) dan 猴 (makaka, マカク), yaitu monyet.",
+          "quote": "本来、猿猴とは、猿（テナガザル）と猴（マカク）の総称で、サルのことである。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "enko-c08",
+          "source_id": "enko-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the Tosa Kinsei Yōkai Shiryō (土佐近世妖怪資料), the enkō is like a child of about 3, with long clawed limbs and a body slimy like a catfish (ナマズ).",
+          "statement_id": "Menurut Tosa Kinsei Yōkai Shiryō (土佐近世妖怪資料), enkō seperti anak sekitar 3 tahun, berlengan dan bertungkai panjang dengan cakar, dan tubuhnya licin seperti ikan lele (ナマズ).",
+          "quote": "『土佐近世妖怪資料』によると、3歳ほどの子供のようで、手足は長く爪があり、体はナマズのようにぬめっているという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "enko-c09",
+          "source_id": "enko-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The enkō said to have been caught alive in Tosa Province (now Kōchi, 高知県) in 1863 had a red face and feet like a human’s.",
+          "statement_id": "Enkō yang konon ditangkap hidup-hidup di Provinsi Tosa (kini Kōchi, 高知県) pada 1863 berwajah merah dengan kaki mirip manusia.",
+          "quote": "文久3年（1863年）に土佐国（現・高知県）で生け捕りになったとされる猿猴は、顔は赤く、足は人に似ていたという。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "enko-c10",
+          "source_id": "enko-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "A man who had tied his horse by a river twisted the arm of an enkō pulling at the horse’s leg, but the arm never ran out, so he ended up twisting it all night.",
+          "statement_id": "Seorang lelaki yang menambatkan kuda di tepi sungai memelintir lengan enkō yang menarik kaki kudanya, tetapi lengan itu tak habis-habis dipelintir sehingga ia memelintirnya semalaman.",
+          "quote": "ある男が川辺に馬を繋いでいたところ、猿猴が馬の脚を引いて悪戯をするので、懲らしめようと猿猴の腕を捻り上げたが、捻っても捻ってもきりがなく、一晩中捻り続ける羽目になったという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "enko-c11",
+          "source_id": "enko-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In Ōshima, Hagi, and Abu District, Yamaguchi Prefecture (山口県), a kappa-like yōkai called takiwaro (タキワロ) lives 3 years in the mountains and 3 in the river and then becomes an enkō.",
+          "statement_id": "Di Ōshima, Hagi, dan Distrik Abu, Prefektur Yamaguchi (山口県), ada yōkai mirip kappa bernama takiwaro (タキワロ) yang tinggal 3 tahun di gunung dan 3 tahun di sungai lalu menjadi enkō.",
+          "quote": "山口県萩市大島や阿武郡では河童に類するタキワロという妖怪がおり、これが山に3年、川に3年住んで猿猴になるという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "enko-c12",
+          "source_id": "enko-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The enkō gave its name to the Enkō River (猿猴川) in Minami-ku, Hiroshima (広島市南区), and the \"Enkōgawa Kappa Matsuri\" (猿猴川河童まつり) is held nearby.",
+          "statement_id": "Enkō menjadi asal nama Sungai Enkō (猿猴川) di Minami-ku, Hiroshima (広島市南区), dan di sekitarnya diadakan festival \"Enkōgawa Kappa Matsuri\" (猿猴川河童まつり).",
+          "quote": "広島市南区を流れる猿猴川の名前の由来となっている。付近では伝承にちなみ「猿猴川河童まつり」が開催されている。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "enko-c13",
+          "source_id": "enko-s2",
+          "host": "yokai.com",
+          "statement": "Enkō strongly revile metal objects and so run from farming implements; they dislike cows and horses and often attack them when they enter rivers.",
+          "statement_id": "Enkō sangat jijik pada benda logam sehingga lari dari alat tani; mereka tidak suka sapi dan kuda dan sering menyerangnya bila hewan itu masuk sungai.",
+          "quote": "Enkō have a strong revulsion towards metal objects and thus will run from farming implements. They dislike cows and horses, and frequently attack them if they enter rivers.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "71ae8729f8cc43cfdc4e0a27b35a971cb008693b527f52bdc1f116ac9d5851c4"
+      "images": []
     },
     {
       "slug": "gangi-kozo",
-      "file": "batch-055.md",
+      "file": "batch-055-fix-8.md",
+      "entry_sha256": "0eb187f861193a1629916d35981c816b53cea25ec5469d162df0a07d056cc5f7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 11,
         "sources": 2,
         "images": 0
       },
@@ -5430,10 +5572,59 @@
           "quote": "Gangi kozō normally stay away from people, but occasionally encounter fishermen along the rivers they inhabit.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "gangi-kozo-c07",
+          "source_id": "gangi-kozo-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Yamaguchi Prefecture (山口県) folk vocabulary has a mountain yōkai, takiwaro (タキワロ), that becomes an enko (kappa) on entering the sea; since \"taki\" means cliff (崖), gangi-kozō is guessed to be a kind of takiwaro.",
+          "statement_id": "Kosakata rakyat Prefektur Yamaguchi (山口県) mengenal yōkai gunung takiwaro (タキワロ) yang menjadi enko (kappa) bila masuk laut; karena \"taki\" berarti tebing (崖), gangi-kozō diduga sejenis takiwaro.",
+          "quote": "山口県の民俗語彙には「タキワロ」という山の妖怪があり、これが海に入るとエンコ（河童）になるといわれ、「タキ」とは「崖」を指すことから、岸涯小僧はこのタキワロの類との推察もある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gangi-kozo-c08",
+          "source_id": "gangi-kozo-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "According to Mizuki Shigeru (水木しげる), the name is also written 雁木小僧 because its open mouth resembles gear teeth (雁木); it has okappa-like hair, webbed hands and feet, and eats fish head first.",
+          "statement_id": "Menurut buku Mizuki Shigeru (水木しげる), namanya juga ditulis 雁木小僧 karena mulutnya yang terbuka mirip gigi roda (雁木); ia berambut seperti potongan okappa, bertangan dan berkaki selaput, dan memakan ikan mulai dari kepalanya.",
+          "quote": "水木しげるの著書によれば、口を開けた姿が歯車の雁木に似ているところから「雁木小僧」とも表記し、おかっぱ頭のような髪、手足に水掻きを持ち、魚を捕えて頭から食べるとある。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "gangi-kozo-c09",
+          "source_id": "gangi-kozo-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "A fishmonger who met a gangi-kozō on the bank is said to have thrown it one of his cheapest, biggest fish and fled.",
+          "statement_id": "Penjual ikan yang bertemu gangi-kozō di tepi sungai konon melemparkan satu ikan yang paling murah dan besar lalu melarikan diri.",
+          "quote": "魚を捕えて頭から食べるとある。岸辺で岸涯小僧に遭遇した魚屋は、最も安くて大きな魚を1匹投げて逃げ出したとされている。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "gangi-kozo-c10",
+          "source_id": "gangi-kozo-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The name gangi-kozō is not found in classics or folk tradition other than the Konjaku Hyakki Shūi (今昔百鬼拾遺); some literature classes it as a picture-only yōkai without tradition, and some call it Sekien’s creation.",
+          "statement_id": "Nama gangi-kozō tidak ditemukan dalam karya klasik atau tradisi rakyat selain Konjaku Hyakki Shūi (今昔百鬼拾遺); sebagian literatur menggolongkannya yōkai lukisan tanpa tradisi, dan ada yang menyebutnya ciptaan Sekien.",
+          "quote": "実際には、『今昔百鬼拾遺』以外の古典や民間伝承に岸涯小僧の名は確認されておらず、文献によっては伝承を伴わない、絵画のみの妖怪として分類されており、石燕の創作物との指摘もある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gangi-kozo-c11",
+          "source_id": "gangi-kozo-s2",
+          "host": "yokai.com",
+          "statement": "Gangi kozō are described as hairy, monkey-like water spirits that live along riverbanks and hunt fish.",
+          "statement_id": "Gangi kozō digambarkan sebagai roh air berbulu mirip monyet yang tinggal di tepi sungai dan berburu ikan.",
+          "quote": "Gangi kozō are hairy, monkey-like water spirits which inhabit rivers. They live along the riverbanks, where they hunt fish.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "40c7548100c37963a0cd0083c530d56614a8ec43cb20cd3dc7e73efb36cb53f7"
+      "images": []
     },
     {
       "slug": "gotoku-neko",

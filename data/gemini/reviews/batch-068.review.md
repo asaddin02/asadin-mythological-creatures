@@ -1,6 +1,6 @@
 # Review batch-068
 
-Diperiksa 2026-10-08T10:03:08.337Z. Berkas: batch-068.md, batch-068-fix-1.md, batch-068-fix-2.md, batch-068-fix-3.md, batch-068-fix-4.md, batch-068-fix-5.md, batch-068-fix-6.md, batch-068-fix-7.md.
+Diperiksa 2026-10-08T15:09:39.689Z. Berkas: batch-068.md, batch-068-fix-1.md, batch-068-fix-2.md, batch-068-fix-3.md, batch-068-fix-4.md, batch-068-fix-5.md, batch-068-fix-6.md, batch-068-fix-7.md, batch-068-fix-8.md.
 
 ## sky-fox-mythology — lulus-otomatis
 
@@ -247,16 +247,22 @@ Klaim 16 (exact 16), sumber 3, gambar 0.
 
 ## tam-kung — lulus-otomatis
 
-Klaim 6 (loose 2, exact 4), sumber 2, gambar 0.
+Klaim 12 (loose 2, exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tam-kung-c01 | loose | en.wikipedia.org | Tam Kung is a sea deity worshipped in Hong Kong and Macau. | Tam Kung (Chinese: 譚公; lit. 'Lord Tam') or Tam Tai Sin (譚大仙) is a sea deity worshiped in Hong Kong and Macau. |
-| tam-kung-c02 | exact | en.wikipedia.org | Legend credits him with forecasting weather and healing from childhood. | In Chinese folk legends, Tam Kung was one of gods who could forecast the weather. He was born in Huizhou Prefecture. It was said that he could cure patients in his childhood. Tam Kung became an immortal in heaven at the age of twenty in the Nine-dragon Mountain in Huizhou. He was officially deified during the Qing dynasty. |
-| tam-kung-c03 | exact | en.wikipedia.org | The tale says he becomes immortal at twenty on Nine-dragon Mountain. | In Chinese folk legends, Tam Kung was one of gods who could forecast the weather. He was born in Huizhou Prefecture. It was said that he could cure patients in his childhood. Tam Kung became an immortal in heaven at the age of twenty in the Nine-dragon Mountain in Huizhou. He was officially deified during the Qing dynasty. |
+| tam-kung-c02 | exact | en.wikipedia.org | Legend credits him with forecasting weather and healing from childhood. | In Chinese folk legends, Tam Kung was one of gods who could forecast the weather. He was born in Huizhou Prefecture. It was said that he could cure patients in his childhood. |
+| tam-kung-c03 | exact | en.wikipedia.org | The tale says he becomes immortal at twenty on Nine-dragon Mountain. | Tam Kung became an immortal in heaven at the age of twenty in the Nine-dragon Mountain in Huizhou. |
 | tam-kung-c04 | loose | en.wikipedia.org | Residents funded construction of the Shau Kei Wan temple in 1905. | The Tam Kung Sin Shing Temple (譚公仙聖廟) is located along Tam Kung Temple Road, at the northern end of Shau Kei Wan Main Street East, in A Kung Ngam, Shau Kei Wan. It was originally a small shrine. Local people raised money to construct it in 1905 and reconstructed it many times afterwards. |
 | tam-kung-c05 | exact | en.wikipedia.org | The Chinese Temples Committee has managed the temple since 1928. | The temple has been managed by the Chinese Temples Committee since 1928. The temple is a former Grade I historic building. It is a Grade III historic building since April 2013. |
 | tam-kung-c06 | exact | www.ctc.org.hk | The Temples Committee describes Tam Kung as youthful and credits him with commanding wind and rain. | Tam Kung was originally a native of Huizhou (惠州) in Guangdong Province (廣東省) during Yuan Dynasty (元朝). He is usually portrayed as being young and having a fresh face. When he was 13 years old, he had already possessed supernatural powers to command the wind and rain, cure sickness, and forecast weather. His ability made him a popular deity. |
+| tam-kung-c07 | exact | en.wikipedia.org | He was officially deified during the Qing dynasty, and people whose ancestral home is Huizhou or Chaoshan in Guangdong province worship him most devoutly. | He was officially deified during the Qing dynasty. People whose ancestral home are in Huizhou or Chaoshan of Guangdong province worship Tam Kung most sincerely. |
+| tam-kung-c08 | exact | en.wikipedia.org | A big rock in front of the Shau Kei Wan temple is believed to be Tam Kung’s magic stamp. | There is a big rock in front of the temple and is believed to be Tam Kung's magic stamp. |
+| tam-kung-c09 | exact | en.wikipedia.org | On Tam Kung’s birthday (8th day of the 4th month of the Chinese calendar), a celebration is held with a "kung fu" show, a parade and a dragon dance. | On the birthday of Tam Kung (8th day of the 4th month in Chinese calendar), they will have a celebration and play a so-called "kung fu" show which is a major part of the celebration. A parade and dragon dance are also held on this occasion. |
+| tam-kung-c10 | exact | en.wikipedia.org | According to a story, Tam Kung appeared to a young boy in a dream and guided him to the present Happy Valley site, regarded as chosen by the deity itself. | According to a story, Tam Kung appeared to a young boy in a dream and guided him to the present site, which was regarded as selected by the deity for the new location of the temple. |
+| tam-kung-c11 | exact | en.wikipedia.org | In Victoria, British Columbia, Canada, there is also a Tam Kung temple, erected in 1876. | In Victoria, BC, Canada, there is also a temple to the deity, Tam Kung. The temple was erected in 1876. |
+| tam-kung-c12 | exact | www.ctc.org.hk | In the past, stonecutters from Huizhou came to Hong Kong and brought their belief in Tam Kung from their hometown. | In the past, stonecutters from Huizhou came to Hong Kong and brought their belief in Tam Kung from hometown. |
 
 
 ## teng-mythology — lulus-otomatis
@@ -302,7 +308,7 @@ Klaim 6 (exact 6), sumber 4, gambar 0.
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | yuqiang-c01 | exact | en.wikipedia.org | Yuqiang is a deity of the north sea and wind in Chinese mythology. | Yuqiang (Chinese: 禺强, alternatively Yujiang 禺疆 or Yujing 禺京), in Chinese mythology is one of the descendants of Huang Di, the "Yellow Emperor". Yuqiang was also the god of the north sea and a wind god. His father was Yuhao, another sea god. |
-| yuqiang-c02 | exact | en.wikipedia.org | Accounts identify him as a Yellow Emperor descendant and Yuhao's son. | Yuqiang (Chinese: 禺强, alternatively Yujiang 禺疆 or Yujing 禺京), in Chinese mythology is one of the descendants of Huang Di, the "Yellow Emperor". Yuqiang was also the god of the north sea and a wind god. His father was Yuhao, another sea god. |
+| yuqiang-c02 | exact | en.wikipedia.org | Yuqiang was also the god of the north sea and a wind god; his father was Yuhao, another sea god. | Yuqiang was also the god of the north sea and a wind god. His father was Yuhao, another sea god. |
 | yuqiang-c03 | exact | en.wikipedia.org | Some Shanhaijing accounts give him a bird body and human face, with serpents supporting his feet in travel. | Some accounts (Shanhaijing chapters 8 and 17) describe Yuqiang as having the body of a bird and the face of a human being, with a serpent mount for each foot that facilitated his travels. |
 | yuqiang-c04 | exact | zh.wikisource.org | This classical text says 禺彊 (Yuqiang) of the north has a human face and bird body, wears two green snakes (青蛇) as earrings and treads on two green snakes. | 有青獸焉，狀如虎，名曰羅羅。 ... 北方禺彊，人面鳥身，珥兩青蛇。踐兩青蛇。 |
 | yuqiang-c05 | exact | zh.wikisource.org | Another classical text says that on an islet in the North Sea (北海) there is a god with a human face and bird body, with two green snakes (青蛇) at his ears and two red snakes (赤蛇) under his feet, named 禺彊 (Yuqiang); the preceding sentence mentions the Daner country (儋耳之國) of the Ren (任) surname, descended from Yuhao (禺號). | 有儋耳之國，任姓，禺號子，食榖。北海之渚中，有神，人面鳥身，珥兩青蛇，踐兩赤蛇，名曰禺彊。 |

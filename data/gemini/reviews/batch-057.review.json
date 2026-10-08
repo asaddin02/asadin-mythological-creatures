@@ -1,13 +1,14 @@
 {
   "batch_id": "batch-057",
-  "checked_at": "2026-10-07T07:38:53.787Z",
+  "checked_at": "2026-10-08T15:22:19.448Z",
   "files": [
     "batch-057.md",
     "batch-057-fix-1.md",
     "batch-057-fix-2.md",
     "batch-057-fix-3.md",
     "batch-057-fix-4.md",
-    "batch-057-fix-5.md"
+    "batch-057-fix-5.md",
+    "batch-057-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -93,10 +94,11 @@
     },
     {
       "slug": "yamaoroshi",
-      "file": "batch-057-fix-1.md",
+      "file": "batch-057-fix-6.md",
+      "entry_sha256": "46aa6c9f90d6748b33b42dda88849c9dc5c70f751e501ff6c1a62954326a28dc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 10,
         "sources": 2,
         "images": 0
       },
@@ -146,9 +148,9 @@
           "id": "yamaoroshi-c05",
           "source_id": "yamaoroshi-s2",
           "host": "yokai.com",
-          "statement": "A later account gives the neglected grater a body and spiny head.",
-          "statement_id": "Kisah belakangan memberi parutan yang ditelantarkan tubuh dan kepala berduri.",
-          "quote": "It sprouts a body, and the dull slicers on the grater stick out like wild spines from its head.",
+          "statement": "The yama oroshi is a metal grater that was improperly cared for and has grown too dull to grate anything.",
+          "statement_id": "Yama oroshi adalah parutan logam yang tidak dirawat dengan baik hingga terlalu tumpul untuk memarut (grown too dull).",
+          "quote": "The yama oroshi is a metal grater which has been improperly cared for and has grown too dull to grate anything.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -161,10 +163,49 @@
           "quote": "First, the Japanese word for grater is oroshi, which is found in this tsukumogami’s name.",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "yamaoroshi-c07",
+          "source_id": "yamaoroshi-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Sekien’s text mentions the beast 豪猪 (porcupine), called \"yama oyaji\" (山おやじ), with bristles all over its body, and suggests this yōkai is so named because its name and form are alike.",
+          "statement_id": "Teks Sekien menyebut binatang 豪猪 (landak) yang disebut \"yama oyaji\" (山おやじ) dengan bulu tegak di sekujur tubuh, dan menduga yōkai ini dinamai demikian karena nama dan rupanya mirip.",
+          "quote": "豪猪といへる獣あり 山おやじと云ひてそう身の毛はりめぐらし 此妖怪も名とかたちの似たるゆへにかく言ふならんと 夢心におもひぬ",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yamaoroshi-c08",
+          "source_id": "yamaoroshi-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "It is drawn as a humanoid yōkai with a head like a grater (おろし器), lined with countless grater-like spikes.",
+          "statement_id": "Ia digambar sebagai yōkai berbentuk manusia dengan kepala seperti parutan (おろし器), dengan tonjolan tak terhitung seperti parutan logam di kepalanya.",
+          "quote": "おろし器のような頭部をした人型の妖怪として描かれ、頭にはおろし金のようなの無数の突起が並んでいる。『百器徒然袋』での解説文には、",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yamaoroshi-c09",
+          "source_id": "yamaoroshi-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The picture also shows a daikon (大根), a shell ladle, a mortar (すり鉢) and other kitchen tools.",
+          "statement_id": "Dalam gambarnya juga tampak lobak daikon (大根), sendok kerang, lumpang (すり鉢), dan perkakas dapur lain.",
+          "quote": "画面内には大根のほか、貝杓子、すり鉢など、台所道具が描かれている。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yamaoroshi-c10",
+          "source_id": "yamaoroshi-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Yōkai literature from the Heisei (平成) era on interprets it as a grater tsukumogami (付喪神), or a yōkai that raises oroshi (颪), wind blowing down from the mountains.",
+          "statement_id": "Literatur yōkai sejak era Heisei (平成) menafsirkannya sebagai tsukumogami parutan (付喪神), atau yōkai yang menimbulkan oroshi (颪), angin yang bertiup turun dari gunung.",
+          "quote": "平成以後の妖怪に関する文献には、おろし器の付喪神（器物が変化した妖怪）、颪（吹き下ろす風）を起こす妖怪なのではないかといった解釈もある。",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "279fe1d7a2fff1face2fd548afb59420560c353e89e366cbcbb8babdcb075241"
+      "images": []
     },
     {
       "slug": "yamato-no-okuni-tama-no-kami",
@@ -2397,20 +2438,15 @@
     },
     {
       "slug": "cikap-kamuy",
-      "file": "batch-057.md",
+      "file": "batch-057-fix-6.md",
+      "entry_sha256": "4f561a9efa0db2860854a9196cfa03e27c9fbd856400aa2a22d5d6e2b1b79385",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cikap-kamuy-c01",
@@ -2471,10 +2507,79 @@
           "quote": "In some areas, his tears were said to be gold and silver.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "cikap-kamuy-c07",
+          "source_id": "cikap-kamuy-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The name Cikap-kamuy (チカㇷ゚カムイ) means \"god of birds\" (鳥の神), and his form is held to be a great Blakiston’s fish owl (シマフクロウ).",
+          "statement_id": "Nama Cikap-kamuy (チカㇷ゚カムイ) berarti \"dewa burung\" (鳥の神), dan wujudnya dianggap burung hantu ikan Blakiston (シマフクロウ) yang agung.",
+          "quote": "チカㇷ゚カムイは「鳥の神」の意である。その姿は偉大なシマフクロウとされている。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "cikap-kamuy-c08",
+          "source_id": "cikap-kamuy-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "He is also called Kotan-kor-kamuy (コタンコㇿカムイ), \"the god who owns the village\" (村を所有する神).",
+          "statement_id": "Ia juga disebut Kotan-kor-kamuy (コタンコㇿカムイ), \"dewa pemilik desa\" (村を所有する神).",
+          "quote": "シマフクロウと大地のカムイである。コタンコㇿカムイ（村を所有する神）ともいう。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cikap-kamuy-c09",
+          "source_id": "cikap-kamuy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When famine struck, Cikap-Kamuy wished to send a message to heaven asking its cause, and asked Crow to be his messenger.",
+          "statement_id": "Ketika kelaparan melanda, Cikap-Kamuy ingin mengirim pesan ke langit untuk menanyakan sebabnya dan meminta Gagak menjadi utusannya.",
+          "quote": "Cikap-Kamuy wished to send a message to heaven inquiring about the cause of the famine, and he asked Crow to be his messenger.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cikap-kamuy-c10",
+          "source_id": "cikap-kamuy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "On the third day Crow fell asleep, and Cikap-Kamuy grew angry and killed him.",
+          "statement_id": "Pada hari ketiga Gagak tertidur, dan Cikap-Kamuy marah lalu membunuhnya.",
+          "quote": "On the third day, Crow fell asleep, and Cikap-Kamuy grew angry and killed him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cikap-kamuy-c11",
+          "source_id": "cikap-kamuy-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The third messenger, the dipper (カワガラス), listened respectfully for 6 days until Cikap-Kamuy finished his message.",
+          "statement_id": "Utusan ketiga, burung kepudang air (カワガラス), mendengarkan dengan hormat selama 6 hari hingga Cikap-Kamuy selesai menyampaikan pesannya.",
+          "quote": "3羽目の使者はカワガラスで、チカㇷ゚カムイが言伝をすべて伝え終わるまでの6日間、うやうやしく聞いていた。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cikap-kamuy-c12",
+          "source_id": "cikap-kamuy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because the kamuy of fish and game were angry, Cikap-Kamuy taught humans the proper rituals after killing a fish or deer; once these were performed, the kamuy were appeased and the famine ended.",
+          "statement_id": "Karena dewa ikan dan hewan buruan marah, Cikap-Kamuy mengajari manusia ritual yang benar setelah membunuh ikan atau rusa; setelah ritual itu dijalankan, para kamuy reda dan kelaparan berakhir.",
+          "quote": "Accordingly, Cikap-Kamuy went to the humans and taught them the proper rituals to be enacted after killing a fish or a deer. Once the humans began performing these rituals, the kamuy were appeased, and the famine ceased.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cikap-kamuy-c13",
+          "source_id": "cikap-kamuy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because of this myth, the Ainu considered the hondo crow and the mountain jay birds of ill omen, while the dipper was a sign of good fortune.",
+          "statement_id": "Karena mitos ini, orang Ainu menganggap gagak hondo dan burung jay gunung pembawa pertanda buruk, sedangkan kepudang air (dipper) pertanda keberuntungan.",
+          "quote": "The Ainu considered the hondo crow and the mountain jay birds of ill omen as a result of this myth. The dipper, in contrast, was a sign of good fortune.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8db98869635a1169b697bbdc297cb18ec3ab902c40a1db3095aa561ba8af52d9"
+      "images": []
     },
     {
       "slug": "eritate-goromo",
@@ -2628,20 +2733,15 @@
     },
     {
       "slug": "futsunomitama",
-      "file": "batch-057.md",
+      "file": "batch-057-fix-6.md",
+      "entry_sha256": "2fc7b7acf1308d9381329af1bf9cb6481394066f191861fb2351e52b74138a2c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "futsunomitama-c01",
@@ -2682,10 +2782,49 @@
           "quote": "神武東征の折り、ナガスネヒコ誅伐に失敗し、熊野山中で危機に陥った時、高倉下が神武天皇の下に持参した剣が布都御魂で、その剣の霊力は軍勢を毒気から覚醒させ、活力を得てのちの戦争に勝利し、大和の征服に大いに役立ったとされる。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "futsunomitama-c05",
+          "source_id": "futsunomitama-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The Encyclopedia of Shinto calls Futsunomitama the personification of a divine sword, with the other names Sajifutsu no kami and Mikafutsu no kami.",
+          "statement_id": "Encyclopedia of Shinto menyebut Futsunomitama sebagai personifikasi pedang ilahi, dengan nama lain Sajifutsu no kami dan Mikafutsu no kami.",
+          "quote": "(Kojiki)(Nihongi) Other names: Sajifutsu no kami, Mikafutsu no kami (Kojiki) The personification of a divine sword.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "futsunomitama-c06",
+          "source_id": "futsunomitama-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "During Emperor Jinmu’s eastern campaign, Amaterasu ordered Takemikazuchi to help the beleaguered Jinmu, and Takemikazuchi miraculously sent his sword Futsu no mitama to appear in Takakuraji’s warehouse in Kumano.",
+          "statement_id": "Saat kampanye Kaisar Jinmu ke timur, Amaterasu memerintahkan Takemikazuchi membantu Jinmu yang terdesak; Takemikazuchi lalu secara ajaib mengirim pedangnya, Futsu no mitama, ke gudang Takakuraji di Kumano.",
+          "quote": "At the time of Emperor Jinmu's campaign to the east, Amaterasu ordered Takemikazuchi to assist the beleaguered Jinmu, whereupon Takemikazuchi miraculously sent his divine sword Futsu no mitama to appear in the warehouse of Takakuraji in Kumano.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "futsunomitama-c07",
+          "source_id": "futsunomitama-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "In the Sendai kuji hongi, Futsu no mitama is called \"Futsunushi no kami’s sword of spirit\", given by Jinmu to Umashimaji as a prize for killing Nagasunehiko and submitting to the imperial forces.",
+          "statement_id": "Dalam Sendai kuji hongi, Futsu no mitama disebut \"pedang roh Futsunushi no kami\" yang diberikan Jinmu kepada Umashimaji sebagai hadiah karena membunuh Nagasunehiko dan tunduk kepada pasukan kekaisaran.",
+          "quote": "In Sendai kuji hongi, Futsu no mitama is called \"Futsunushi no kami's sword of spirit,\" presented by Jinmu to Umashimaji as a prize for killing Nagasunehiko and submitting to the imperial forces.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "futsunomitama-c08",
+          "source_id": "futsunomitama-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "It is believed to represent a divine sword worshipped by the martial Mononobe clan, and is enshrined as the central deity (saijin) of Isonokami Jingū and other shrines.",
+          "statement_id": "Ia dipercaya mewakili pedang ilahi yang dipuja klan prajurit Mononobe, dan dipuja sebagai dewa utama (saijin) di Isonokami Jingū dan kuil lain.",
+          "quote": "It is believed to represent a divine sword worshiped by the martial clan Mononobe, who were instrumental in the early pacification of Japan, and is enshrined as the central deity (saijin) of Isonokami Jingū and other shrines.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ac899c57f8e1d8f86ebef06ca0cfd5af7dd746c68e021f9baba1aa975f2883fa"
+      "images": []
     },
     {
       "slug": "gnophkeh",
@@ -2709,20 +2848,15 @@
     },
     {
       "slug": "golden-kite",
-      "file": "batch-057.md",
+      "file": "batch-057-fix-6.md",
+      "entry_sha256": "b2051d1376d6305a2f380a21475cf1538fe96dcabc3dbd7117fe52dce311cb42",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "golden-kite-c01",
@@ -2763,27 +2897,61 @@
           "quote": "また、平安時代から存続する賀茂神社においては、金鵄および八咫烏ともに、賀茂建角身命の化身とされており、この二つを合わせて「金鵄八咫烏」と呼び祀っている。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "golden-kite-c05",
+          "source_id": "golden-kite-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Suddenly the sky darkened and hail fell; a spirit kite (靈鵄) perched on the tip of Emperor Jinmu’s bow and shone with a golden light like lightning (流電) that dazzled the enemy, so the imperial army won.",
+          "statement_id": "Tiba-tiba cuaca menjadi gelap dan turun hujan es; seekor elang gaib (靈鵄) hinggap di ujung busur Kaisar Jinmu dan memancarkan cahaya keemasan seperti kilat (流電) yang menyilaukan musuh, sehingga pasukan kaisar menang.",
+          "quote": "忽然天氣變得陰暗且下起冰雹，神武天皇的弓弭停了一隻靈鵄，發出的金色光輝狀如流電，使敵軍迷眩，故天皇軍獲得勝利。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "golden-kite-c06",
+          "source_id": "golden-kite-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The spirit kite was called \"kinshi\" (金鵄), and the battlefield of the victory was named \"Tobi no mura\" (鵄邑), later corrupted to \"Tomi\" (鳥見).",
+          "statement_id": "Elang gaib itu disebut \"kinshi\" (金鵄), dan medan kemenangan itu dinamai \"Tobi no mura\" (鵄邑), yang kemudian berubah menjadi \"Tomi\" (鳥見).",
+          "quote": "此靈鵄被稱為「金鵄」，而獲勝戰場名為「鵄邑」，後訛傳成「鳥見」。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "golden-kite-c07",
+          "source_id": "golden-kite-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The great brocade banner (大錦旛) set up in the front court of the Shishinden at an emperor’s enthronement is embroidered with the golden kite.",
+          "statement_id": "Panji brokat besar (大錦旛) yang dipasang di halaman depan Shishinden saat penobatan kaisar dibordir dengan gambar kinshi.",
+          "quote": "另外，大錦旛（一種靈鵄形大錦旛，天皇登基時豎立在紫宸殿前庭）上繡有金鵄圖案。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "golden-kite-c08",
+          "source_id": "golden-kite-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The Japanese cigarette brand \"Golden Bat\" (ゴールデンバット) was renamed \"Kinshi\" (金鵄) from 1940 to 1949 because of the wartime movement against enemy-language words in World War II.",
+          "statement_id": "Rokok Jepang \"Golden Bat\" (ゴールデンバット) sempat berganti nama menjadi \"Kinshi\" (金鵄) dari 1940 sampai 1949 karena gerakan menolak kata-kata bahasa musuh pada Perang Dunia II.",
+          "quote": "此外，日本國產香菸「Golden Bat（日语：ゴールデンバット）」（ゴールデンバット）受到第二次世界大戰的反敌性语运动影響，曾於昭和15年（1940年）至昭和24年（1949年）間改名為「金鵄」。",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "87104fb8dc6bb1ed3b151055998f7c5910289dce6ea81c57b7ef6948bcac5818"
+      "images": []
     },
     {
       "slug": "gozuryu",
-      "file": "batch-057.md",
+      "file": "batch-057-fix-6.md",
+      "entry_sha256": "34bec7563397401b3d73f15b8bf3ffa625a1c1f099a8e8c512185a3b4b15354f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gozuryu-c01",
@@ -2824,10 +2992,29 @@
           "quote": "五頭竜はしぶしぶ湖に帰ったが、翌日に心を改め、人間を守ることを弁天様に誓ったという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "gozuryu-c05",
+          "source_id": "gozuryu-s2",
+          "host": "www.kanagawa-kankou.or.jp",
+          "statement": "According to the Enoshima Engi (江嶋縁起), said to have been copied in the Muromachi period, in the 13th year of Emperor Kinmei (552) a heavenly maiden (天女), a boy and the wind and thunder gods rained stones from the sky and blew sand from the sea, creating Enoshima.",
+          "statement_id": "Menurut Enoshima Engi (江嶋縁起) yang konon disalin pada zaman Muromachi, pada tahun ke-13 Kaisar Kinmei (552) seorang bidadari (天女), seorang anak, dan dewa angin serta petir menurunkan batu dari langit dan menyemburkan pasir dari laut sehingga Enoshima lahir.",
+          "quote": "室町時代に書き写されたという『江嶋縁起』によれば、「欽明天皇１３年（５５２）、天女と童子そして風神雷神等の神々が空から石を降らせ、海から砂を吹き出させて江の島を誕生させた。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gozuryu-c06",
+          "source_id": "gozuryu-s2",
+          "host": "www.kanagawa-kankou.or.jp",
+          "statement": "The maiden descended to the golden cave of the island and became Benzaiten (弁才天); the five-headed dragon (五頭龍), living in a nearby marsh and doing evil, was captivated and fell in love with her, and on her counsel became a god protecting people from disaster.",
+          "statement_id": "Bidadari itu turun ke gua emas di pulau dan menjadi Benzaiten (弁才天); naga berkepala lima (五頭龍) yang tinggal di rawa dekat situ dan terus berbuat jahat terpikat dan jatuh cinta padanya, lalu atas nasihatnya menjadi dewa yang melindungi orang dari bencana.",
+          "quote": "天女は島の金窟に降り弁才天となる。 近くの沼に棲んで悪行を重ねていた五頭龍が天女に魅せられて恋をし、天女に諭されて人々を災難から守る神となった",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d6cc9d8d23d5f4fd0d2a1a1ec97e388a4ec94def462fc7aa7b373c90b50d656f"
+      "images": []
     },
     {
       "slug": "haradashi",
@@ -2906,20 +3093,15 @@
     },
     {
       "slug": "hua-she",
-      "file": "batch-057.md",
+      "file": "batch-057-fix-6.md",
+      "entry_sha256": "c9f5120ce98efc1895deaeba151bf96fed571f457d2ccf7212d34cca8b7d868d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hua-she-c01",
@@ -2960,27 +3142,51 @@
           "quote": "化蛇も、ほかの鳥獣と同様に『山海経』の本文や注に基づいて絵が描かれているのだが、大きく分けて二種類の図柄にわかれている。一つは蛇に翼の生えたもの（図参照）であるが、もう一方の明の時代の例には本文にさらに即した形状（人面の獣に翼が生え、長い尾がある）の絵もあり、そちらも後の時代まで化蛇の図として描き継がれている。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "hua-she-c05",
+          "source_id": "hua-she-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Zhongshan Jing (中山經) chapter of the Shanhaijing (山海經) mentions Mount Yang (陽山), rocky and bare of plants; the Yang River (陽水) flows north into the Yi River (伊水), and in it are many huà-shé (化蛇).",
+          "statement_id": "Bab Zhongshan Jing (中山經) dalam Shanhaijing (山海經) menyebut Gunung Yang (陽山) yang berbatu dan tanpa tumbuhan; Sungai Yang (陽水) mengalir ke utara menuju Sungai Yi (伊水), dan di dalamnya banyak huà-shé (化蛇).",
+          "quote": "又西三百里，曰陽山，多石，無草木。陽水出焉，而北流注于伊水。其中多化蛇",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hua-she-c06",
+          "source_id": "hua-she-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The original text: it has a human face and a dhole-like body (豺身), bird wings and a snake-like gait, its voice is like a shout, and when it is seen its town suffers a great flood (大水).",
+          "statement_id": "Teks aslinya: rupanya berwajah manusia dan bertubuh serigala hutan (豺身), bersayap burung dan bergerak seperti ular, suaranya seperti bentakan, dan bila ia terlihat, kotanya dilanda banjir besar (大水).",
+          "quote": "其中多化蛇，其狀如人面而豺身，鳥翼而蛇行，其音如叱呼，見則其邑大水。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hua-she-c07",
+          "source_id": "hua-she-s3",
+          "host": "zh.wikipedia.org",
+          "statement": "Chinese Wikipedia says the huà-shé resembles another snake monster, the dansheng (擔生), and that its appearance brings a great flood (大水災) to nearby towns.",
+          "statement_id": "Wikipedia bahasa Tionghoa menyebut huà-shé mirip dengan siluman ular lain, dansheng (擔生), dan kemunculannya menimbulkan banjir besar (大水災) di kota sekitarnya.",
+          "quote": "而且，化蛇與另一種蛇怪擔生相似，當化蛇出現時，將會在附近城邑引起大水災。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "df86a52261d45f3802815dc21c1ad37ba33e7bd2c595f9be8430dbe58f1cae21"
+      "images": []
     },
     {
       "slug": "huri-kamuy",
-      "file": "batch-057-fix-3.md",
+      "file": "batch-057-fix-6.md",
+      "entry_sha256": "b9079bbc7d1434b489be055c40543afdf7101a4dd3f2c675969cb58333dd5676",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "huri-kamuy-c01",
@@ -3041,10 +3247,49 @@
           "quote": "The eradication was done with the use of two special ipetam swords in the lore of § Abashiri (and Bihoro).",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "huri-kamuy-c07",
+          "source_id": "huri-kamuy-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Depending on the region it is called hureu (フレウ), fūri (フウリ) or huri kamuy (フリカムイ); in the Chikabumi (近文) dialect it is called hurin or hurin tono.",
+          "statement_id": "Menurut daerahnya ia disebut hureu (フレウ), fūri (フウリ), atau huri kamuy (フリカムイ); dalam dialek Chikabumi (近文) disebut hurin atau hurin tono.",
+          "quote": "地方によってフレウ、フウリ、フリカムイと称す。近文の方言ではフーリン(hurin)、フーリントノ(hurin tono)と呼ばれる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huri-kamuy-c08",
+          "source_id": "huri-kamuy-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The place name Kunnui (国縫, from kunne, \"dark, black\") is said to come from the huri kamuy (フリカムイ), because when it flew overhead its shadow left the area dark for days.",
+          "statement_id": "Konon nama tempat Kunnui (国縫, dari kunne, \"gelap, hitam\") berasal dari huri kamuy (フリカムイ), karena saat ia terbang di atas, bayangannya membuat daerah itu gelap berhari-hari.",
+          "quote": "そして、この国縫/訓縫（クンネ、「暗い、黒い」の意）の地名の由来になったためだとも伝わる。すなわち、フリカムイが上空にを飛んで影がさしかかり、被害地は何日も暗くなったためだ。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huri-kamuy-c09",
+          "source_id": "huri-kamuy-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "However, this is merely a place-name legend (地名説話); the name more plausibly comes from \"black\" rocks or water.",
+          "statement_id": "Namun ini hanya legenda nama tempat (地名説話); nama itu lebih masuk akal berasal dari batu atau air yang \"hitam\".",
+          "quote": "ただこれは俗説（地名説話）すぎなく、むしろ「黒い」岩・水などに由来する命名だと考えるのが道理であるという。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "huri-kamuy-c10",
+          "source_id": "huri-kamuy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Sumunkur tale, the goddess Kamuy Kakkemat shooed away the bird, which seemed to be struggling with flames, and found it had been pinning a boy and a girl underfoot.",
+          "statement_id": "Dalam kisah Sumunkur, dewi Kamuy Kakkemat mengusir burung yang tampak bergulat dengan nyala api, dan ternyata burung itu sedang menindih seorang anak laki-laki dan perempuan di bawah kakinya.",
+          "quote": "The bird was struggling with what appeared to be flames, but when the goddess shooed the bird away, it turned out the bird had been pinning down a boy and a girl underfoot.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "987a046b71c935b1e204ec255b0da01a5388f0e5f08dcca3238b963f62193e12"
+      "images": []
     },
     {
       "slug": "isotakeru",
@@ -3259,20 +3504,15 @@
     },
     {
       "slug": "izuna-gongen",
-      "file": "batch-057.md",
+      "file": "batch-057-fix-6.md",
+      "entry_sha256": "cb400b006dfec7d122a9d050100866a954ebf02a8818ef2e23047dde669a12ad",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "izuna-gongen-c01",
@@ -3313,10 +3553,79 @@
           "quote": "本地仏は不動明王、荼枳尼天とされることが多いが、信州飯縄山では地蔵菩薩とされる。大日如来とされる場合もある。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "izuna-gongen-c05",
+          "source_id": "izuna-gongen-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "A kami worshipped by practitioners of Izuna shugen, also called Izuna Myōjin, enshrined in the Izuna Shrine on the summit of Mt. Izuna, Kamiminochi District, Nagano Prefecture.",
+          "statement_id": "Kami yang dipuja para pengamal shugen Izuna, juga disebut Izuna Myōjin, dan dipuja di Kuil Izuna di puncak Gunung Izuna, Distrik Kamiminochi, Prefektur Nagano.",
+          "quote": "A kami worshiped by practitioners of the Izuna shugen cult. Also called Izuna Myōjin, this kami is enshrined in the Izuna Shrine at the summit of Mt. Izuna in the district of Kamiminochi, Nagano Prefecture.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "izuna-gongen-c06",
+          "source_id": "izuna-gongen-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Iconographically, Izuna Gongen is usually depicted resembling a tengu and riding a white fox, similar to the depiction of Akiba Gongen (Sanshaku Gongen).",
+          "statement_id": "Secara ikonografi, Izuna Gongen biasanya digambarkan menyerupai tengu dan menunggang rubah putih, mirip penggambaran Akiba Gongen (Sanshaku Gongen).",
+          "quote": "Iconographically, Izuna Gongen is usually depicted in a form resembling that of a tengu (a mythical winged demon with long nose believed to live deep in the mountains), and riding upon a white fox, a depiction resembling that of the deity Akiba Gongen (Sanshaku Gongen).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "izuna-gongen-c07",
+          "source_id": "izuna-gongen-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "From early on the Izuna cult merged with the cult of the Buddhist deity Dakini, and from the medieval period it adopted a magical technique using foxes as spirit familiars.",
+          "statement_id": "Sejak awal pemujaan Izuna bercampur dengan pemujaan dewa Buddha Dakini, dan sejak abad pertengahan diadopsi teknik magis yang memakai rubah sebagai roh pembantu (spirit familiars).",
+          "quote": "The Izuna cult also underwent combination from an early period with the cult of the Buddhist deity Dakini (Sk. Dakini), and a kind of magical technique was adopted from the medieval period involving the use of foxes as spirit familiars.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "izuna-gongen-c08",
+          "source_id": "izuna-gongen-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Practices of controlling fox spirit familiars (kitsune tsukai) later came to be called izuna tsukai.",
+          "statement_id": "Praktik mengendalikan rubah sebagai roh pembantu (kitsune tsukai) kemudian disebut izuna tsukai.",
+          "quote": "Such practices involving on the control of spirit familiars of foxes (kitsune tsukai) later came to be called izuna tsukai.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "izuna-gongen-c09",
+          "source_id": "izuna-gongen-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The Izuna cult also became associated with the martial arts; Takeda Shingen and Uesugi Kenshin are known for their strong devotion to Izuna Gongen as a martial tutelary.",
+          "statement_id": "Pemujaan Izuna juga dikaitkan dengan seni bela diri; Takeda Shingen dan Uesugi Kenshin dikenal sangat berbakti kepada Izuna Gongen sebagai dewa pelindung perang.",
+          "quote": "The Izuna cult came to be associated with military arts as well, and Takeda Shingen and Uesugi Kenshin are known to have shown strong devotion to Izuna Gongen as a martial tutelary.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "izuna-gongen-c10",
+          "source_id": "izuna-gongen-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Besides Mt. Izuna in Nagano, Izuna Gongen is enshrined at Yakuōin on Mt. Takao (Hachiōji, Tokyo), Hinagadake in Gifu, and Mt. Izuna in Sendai.",
+          "statement_id": "Selain di Gunung Izuna, Nagano, Izuna Gongen juga dipuja di Yakuōin di Gunung Takao (Hachiōji, Tokyo), Hinagadake di Gifu, dan Gunung Izuna di Sendai.",
+          "quote": "In addition to Mt. Izuna in Nagano, Izuna Gongen can be found enshrined at Yakuōin on Mt. Takao (in Hachiōji, Tokyo), Hinagadake in Gifu, and Mt. Izuna in Sendai.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "izuna-gongen-c11",
+          "source_id": "izuna-gongen-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The Izuna Gongen of Sendai is called Izuna Saburō and is well known as one of the \"three tengu of Japan\".",
+          "statement_id": "Izuna Gongen di Sendai bernama Izuna Saburō dan terkenal sebagai salah satu \"tiga tengu Jepang\".",
+          "quote": "The Izuna Gongen of Sendai goes by the name Izuna Saburō, and is particularly well known as one of the \"three tengū of Japan.\"",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "722a78204b7c1f0fbb4201893aaa8a51c2cbe94323f5e9f24f7d0f56d1cdd1aa"
+      "images": []
     },
     {
       "slug": "izunome",
@@ -3490,20 +3799,15 @@
     },
     {
       "slug": "jivajivaka",
-      "file": "batch-057.md",
+      "file": "batch-057-fix-6.md",
+      "entry_sha256": "fab3404a59f5193f577c1a45426815035e39346a66bc1573f419057b0e9406fb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jivajivaka-c01",
@@ -3544,27 +3848,71 @@
           "quote": "このことがあってから、浄土の共命鳥は「他を滅ぼす道は己を滅ぼす道、他を生かす道こそ己の生かされる道」と鳴き続けているという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "jivajivaka-c05",
+          "source_id": "jivajivaka-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The gongming bird (共命之鸟, Sanskrit Jīvajīvaka), also called tongming niao (同命鸟), mingming niao (命命鸟) or qipo qipo (耆婆耆婆), is a two-headed bird recorded in Buddhist sutras.",
+          "statement_id": "Burung gongming (共命之鸟, Sanskerta Jīvajīvaka), juga disebut tongming niao (同命鸟), mingming niao (命命鸟), atau qipo qipo (耆婆耆婆), adalah burung berkepala dua yang tercatat dalam sutra Buddha.",
+          "quote": "共命之鸟（梵語：जीवजीवक，羅馬化：Jīvajīvaka），又名同命鸟、命命鸟、耆婆耆婆，是佛经中记载的双头鸟。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jivajivaka-c06",
+          "source_id": "jivajivaka-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "In a parable of the Fo benxing ji jing (佛本行集经), a two-headed bird lived in the Snow Mountains (雪山): the head named Garuda (迦嘍嗏) ate delicious fruit, while the head Upagaruda (優波迦嘍嗏) got only rotten fruit.",
+          "statement_id": "Dalam perumpamaan Fo benxing ji jing (佛本行集经), di Pegunungan Salju (雪山) hidup burung berkepala dua: kepala bernama Garuda (迦嘍嗏) makan buah lezat, sedangkan kepala Upagaruda (優波迦嘍嗏) hanya mendapat buah busuk.",
+          "quote": "在过去雪山中有一只长着两个头的鸟，一个头叫“迦嘍嗏”，能吃到美味的果实；而另一个头叫“優波迦嘍嗏”，只能吃到烂果实。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jivajivaka-c07",
+          "source_id": "jivajivaka-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The Amitabha Sutra says that land always has wondrous birds of many colours, including white cranes, peacocks, parrots, śāri, kalaviṅka (迦陵频伽) and the gongming bird, which six times day and night produce harmonious sounds.",
+          "statement_id": "Sutra Amitabha menyebut negeri itu selalu memiliki burung-burung ajaib beraneka warna, termasuk bangau putih, merak, nuri, śāri, kalaviṅka (迦陵频伽), dan burung gongming, yang siang malam enam kali mengeluarkan suara merdu.",
+          "quote": "彼国常有种种奇妙杂色之鸟。白鶴、孔雀、鹦鹉、舍利、迦陵频伽、共命之鸟，是诸众鸟。昼夜六时。出和雅音。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jivajivaka-c08",
+          "source_id": "jivajivaka-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The gongming bird’s heads are one male and one female sharing a single body; having no fixed image, some paintings show it as a two-headed phoenix (双头凤凰) or a two-headed eagle (双头鹰).",
+          "statement_id": "Kedua kepala burung gongming terdiri atas satu jantan dan satu betina yang berbagi satu tubuh; karena tidak punya rupa baku, sebagian lukisan menggambarkannya sebagai feniks berkepala dua (双头凤凰) atau elang berkepala dua (双头鹰).",
+          "quote": "共命鸟的头部分为一雄一雌，共用一个身体。由于没有固定形象，在有些画作中共命鸟却是双头凤凰或者双头鹰。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jivajivaka-c09",
+          "source_id": "jivajivaka-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "In the Guan Wuliangshou jing bian mural on the south wall of Yulin Cave 25, Anxi (安西榆林窟), the gongming bird appears as a celestial musician playing the pipa, human above and bird below.",
+          "statement_id": "Dalam lukisan dinding Guan Wuliangshou jing bian di dinding selatan Gua 25 Yulin, Anxi (安西榆林窟), burung gongming tampil sebagai pemusik surgawi yang memetik pipa, bertubuh atas manusia dan bertubuh bawah burung.",
+          "quote": "在安西榆林窟第25窟南壁壁画《观无量寿经变》中，共命鸟是上半身是人、下半身是鸟的弹奏琵琶伎乐天形象。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2ecddb58baa29b5c0662ef069b557ae4799cd29647b03da02e38d4452513bf3a"
+      "images": []
     },
     {
       "slug": "juzenji",
-      "file": "batch-057.md",
+      "file": "batch-057-fix-6.md",
+      "entry_sha256": "a3db35b35795424306bd6ad5d9400d28ee00451484141ffcdafa4f12a1b073af",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "juzenji-c01",
@@ -3625,10 +3973,49 @@
           "quote": "He came to be identified with Ninigi no Mikoto, the grandson of Amaterasu Ōmikami.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "juzenji-c07",
+          "source_id": "juzenji-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Jūzenji is held to be a deity in the form of a young monk or a child (童子形), and in medieval Japan (中世日本) was especially feared and worshipped as a deity of powerful miracles.",
+          "statement_id": "Jūzenji dianggap dewa berwujud biksu muda atau anak (童子形), dan pada abad pertengahan Jepang (中世日本) sangat ditakuti dan dipuja sebagai dewa yang manjur.",
+          "quote": "日吉社の神、日吉山王七社権現の一つであった。若僧形または童子形の神とされ、霊験あらたかな神として中世日本で特に恐れられ信仰を集めた。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "juzenji-c08",
+          "source_id": "juzenji-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "He was removed during the separation of Shinto and Buddhism at the Meiji Restoration (明治維新), so he is no longer worshipped at the modern Hiyoshi Taisha (日吉大社) and hardly any trace remains.",
+          "statement_id": "Ia disingkirkan saat pemisahan Shinto dan Buddha pada Restorasi Meiji (明治維新), sehingga tidak lagi dipuja di Hiyoshi Taisha (日吉大社) modern dan jejaknya hampir tidak terlihat.",
+          "quote": "明治維新の神仏分離の際に排除されており、近現代の日吉社（現日吉大社）では祀られておらず、その痕跡もほぼ見られない。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "juzenji-c09",
+          "source_id": "juzenji-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "According to Satō Masato (佐藤眞人), the earliest record of the Jūzenji shrine is in the Sō Sainen ganmon (僧西念願文), showing it was already worshipped by 1140.",
+          "statement_id": "Menurut penelitian Satō Masato (佐藤眞人), catatan tertua tentang kuil Jūzenji ada dalam Sō Sainen ganmon (僧西念願文), yang menunjukkan ia sudah dipuja pada 1140.",
+          "quote": "佐藤眞人の研究によると、十禅師社の史料上の初見は『僧西念願文』の「奉誦大般若経目錄」で、この記述から保延6年（1140年）にはすでに祀られていたことが分かる。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "juzenji-c10",
+          "source_id": "juzenji-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Jūzenji worship became established when the Tendai monk Jien (慈円, 1155–1225) founded the Shin-raihaikō rite in 1224; it grew from the late Heian period and flourished into the early Kamakura period.",
+          "statement_id": "Pemujaan Jūzenji mapan setelah biksu Tendai Jien (慈円, 1155–1225) mendirikan upacara Shin-raihaikō pada 1224; pemujaan ini berkembang sejak akhir Heian dan berjaya hingga awal Kamakura.",
+          "quote": "十禅師信仰は、天台宗の僧慈円（1155年 - 1225年）が元仁元年（1224年）に新礼拝講を創始したことで確立され、平安末期から盛んになり、鎌倉初期にかけて隆盛した。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7724722d1425b3a3c13129a05ca7f13dd14754153a4e4e3c5ee3006cac69be33"
+      "images": []
     },
     {
       "slug": "kage-onna",
@@ -3782,20 +4169,15 @@
     },
     {
       "slug": "kanayago-kami",
-      "file": "batch-057-fix-3.md",
+      "file": "batch-057-fix-6.md",
+      "entry_sha256": "e902c68587fbf3611bf5dfd0a8035c4ff539a786a1ebccc44a09a3b38923d1af",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kanayago-kami-c01",
@@ -3836,10 +4218,69 @@
           "quote": "各地で金屋子神は自ら村下（むらげ：鍛冶の技師長）となり、鍛冶の指導を行ったとされる。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "kanayago-kami-c05",
+          "source_id": "kanayago-kami-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "By the late 1700s, faith in the deity had spread widely among ironworking communities in the Chūgoku region (now Hiroshima, Okayama, Shimane, Tottori and Yamaguchi).",
+          "statement_id": "Pada akhir abad ke-18, kepercayaan kepada dewa ini sudah menyebar luas di antara komunitas pembuat besi di wilayah Chūgoku (kini Hiroshima, Okayama, Shimane, Tottori, dan Yamaguchi).",
+          "quote": "By the late 1700s, faith in the deity had spread widely among ironworking communities in the Chūgoku region (now Hiroshima, Okayama, Shimane, Tottori, and Yamaguchi Prefectures).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kanayago-kami-c06",
+          "source_id": "kanayago-kami-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "According to the eighteenth-century Tetsuzan hisho, Kanayago descended from the heavenly realm of the kami to Harima Province (now Hyogo Prefecture).",
+          "statement_id": "Menurut Tetsuzan hisho dari abad ke-18, Kanayago turun dari alam langit para kami ke Provinsi Harima (kini Prefektur Hyogo).",
+          "quote": "According to an eighteenth-century text called Tetsuzan hisho (Secret records of the Iron Mountains), Kanayago descended to Harima Province (now Hyogo Prefecture) from the heavenly realm of the kami.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kanayago-kami-c07",
+          "source_id": "kanayago-kami-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "Riding a white heron, she searched for a suitable residence and alighted on a katsura tree in the mountains about 35 kilometres southwest of today’s Wakou Museum.",
+          "statement_id": "Dengan menunggang bangau putih, ia mencari tempat tinggal yang cocok lalu hinggap di pohon katsura di pegunungan sekitar 35 kilometer barat daya Museum Wakou sekarang.",
+          "quote": "Riding on the back of a white heron, she searched the region for a suitable residence and alighted on a katsura tree in the mountains roughly 35 kilometers southwest of where Wakou Museum now stands.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kanayago-kami-c08",
+          "source_id": "kanayago-kami-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "Once the shrine was complete, she taught Abe Masashige to make iron by the tatara method; the shrine now stands in the Hirose district of Yasugi.",
+          "statement_id": "Setelah kuil selesai dibangun, ia mengajari Abe Masashige membuat besi dengan metode tatara; kuil itu kini berada di distrik Hirose, Yasugi.",
+          "quote": "when it was complete, she taught him how to make iron using the tatara method. The shrine now stands in the Hirose district of Yasugi.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kanayago-kami-c09",
+          "source_id": "kanayago-kami-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "Kanayago is often described as a particularly finicky deity, unhappy with her own appearance and jealous of other women; so women were often forbidden to approach the furnace during smelting lest they anger her.",
+          "statement_id": "Kanayago sering digambarkan sebagai dewi yang sangat rewel, tidak puas dengan rupanya sendiri, dan cemburu pada perempuan lain; karena itu perempuan sering dilarang mendekati tungku saat peleburan agar ia tidak marah.",
+          "quote": "Kanayago is frequently described as a particularly finicky deity who is unhappy with her own appearance and jealous of other women. In fact, women were often prohibited from approaching the furnace during the smelting operation to avoid angering Kanayago.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kanayago-kami-c10",
+          "source_id": "kanayago-kami-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "She is sometimes depicted riding a fox.",
+          "statement_id": "Ia kadang digambarkan menunggang rubah (riding a fox).",
+          "quote": "She is sometimes depicted riding a fox.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d87ec51ee48d388045fb86ecc4fa3925b973371481e00e20b819cdc1ce76ee9b"
+      "images": []
     },
     {
       "slug": "katakurokushin",
@@ -3918,20 +4359,15 @@
     },
     {
       "slug": "kayanarumi-no-kami",
-      "file": "batch-057-fix-3.md",
+      "file": "batch-057-fix-6.md",
+      "entry_sha256": "9bc46e2dca23bc14cb4072c20b179154619678147933b4bc910b21167d41fa12",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kayanarumi-no-kami-c01",
@@ -3972,10 +4408,39 @@
           "quote": "『日本三代実録』によると貞観元（859）年正月二七日に大和国の賀夜奈流美神を従五位下から正四位下にしたとされる。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "kayanarumi-no-kami-c05",
+          "source_id": "kayanarumi-no-kami-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Asuka-ni-imasu-jinja (飛鳥坐神社) is a shrine in Kannabi, Asuka, Takaichi District, Nara Prefecture (奈良県高市郡明日香村).",
+          "statement_id": "Asuka-ni-imasu-jinja (飛鳥坐神社) adalah kuil di Kannabi, Asuka, Distrik Takaichi, Prefektur Nara (奈良県高市郡明日香村).",
+          "quote": "飛鳥坐神社（あすかにいますじんじゃ/あすかにますじんじゃ）は、奈良県高市郡明日香村大字飛鳥字神奈備にある神社。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kayanarumi-no-kami-c06",
+          "source_id": "kayanarumi-no-kami-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The shrine now worships four deities: Yae-Kotoshironushi (八重事代主神), Ōmononushi (大物主神), Asuka Kannabi Mikkame (飛鳥神奈備三日女神, the spirit of Kayanarumi, 賀夜奈流美乃御魂) and Takamimusubi (高皇産靈神).",
+          "statement_id": "Kuil itu kini memuja empat dewa: Yae-Kotoshironushi (八重事代主神), Ōmononushi (大物主神), Asuka Kannabi Mikkame (飛鳥神奈備三日女神, yakni roh Kayanarumi, 賀夜奈流美乃御魂), dan Takamimusubi (高皇産靈神).",
+          "quote": "現在の祭神は次の4柱。 八重事代主神 大物主神 飛鳥神奈備三日女神（賀夜奈流美乃御魂） 高皇産靈神",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kayanarumi-no-kami-c07",
+          "source_id": "kayanarumi-no-kami-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the Gogun Jinja-ki (五郡神社記), the shrine’s four deities are Ōnamuchi (大己貴命), Asuka Mikkame (飛鳥三日女神), Ajisukitakahiko (味鋤高彦神) and Kotoshironushi (事代主神).",
+          "statement_id": "Menurut Gogun Jinja-ki (五郡神社記), keempat dewa kuil itu adalah Ōnamuchi (大己貴命), Asuka Mikkame (飛鳥三日女神), Ajisukitakahiko (味鋤高彦神), dan Kotoshironushi (事代主神).",
+          "quote": "『五郡神社記』 - 大己貴命、飛鳥三日女神、味鋤高彦神、事代主神",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "bf245ff39d463ad27c8c0fd627b97c61c34371f41f351e926553bd748de8fe89"
+      "images": []
     },
     {
       "slug": "kazenbo",
@@ -4129,20 +4594,15 @@
     },
     {
       "slug": "konohanachiruhime",
-      "file": "batch-057-fix-3.md",
+      "file": "batch-057-fix-6.md",
+      "entry_sha256": "73a5c94de8a1741e4571f719d9f535a385493c92a14017b64a13102bbd8e32b0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "konohanachiruhime-c01",
@@ -4183,10 +4643,59 @@
           "quote": "大山津見神の娘の一人で、須佐之男命が大山津見神の孫の櫛名田比売命を娶って産んだ神八島士奴美神との間に、布波能母遅久奴須奴神を産んでいる。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "konohanachiruhime-c05",
+          "source_id": "konohanachiruhime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "She appears in Susanoo’s (須佐之男命) genealogy as a daughter of Ōyamatsumi (大山津見神) who bore Fuhanomojikunusunu (布波能母遅久奴須奴神) to Yashimajinumi (八島士奴美神).",
+          "statement_id": "Ia muncul dalam silsilah Susanoo (須佐之男命) sebagai putri Ōyamatsumi (大山津見神) yang melahirkan Fuhanomojikunusunu (布波能母遅久奴須奴神) dari Yashimajinumi (八島士奴美神).",
+          "quote": "須佐之男命の系譜中に見える。大山津見神の娘で、八島士奴美神との間に布波能母遅久奴須奴神を生む。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "konohanachiruhime-c06",
+          "source_id": "konohanachiruhime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "One view, based on the idea that the cherry (桜) is a sacred tree hosting the grain spirit whose blooming and falling foretold the harvest, reads her name as showing that she inherits the mountain god Ōyamatsumi’s power as an agricultural deity.",
+          "statement_id": "Satu pendapat, berdasarkan pandangan bahwa sakura (桜) adalah pohon suci tempat roh padi bersemayam dan mekar-gugurnya dipakai meramal panen, menafsirkan namanya sebagai tanda ia mewarisi daya dewa gunung Ōyamatsumi sebagai dewa pertanian.",
+          "quote": "桜を穀霊の依り代となる神木と捉え、その咲き散りによって年穀の豊凶を占う木とされてきたとする説に基づいて、この神名を、山の神（大山津見神）の農耕神としての霊能を受け継いでいることを示すものと捉える説がある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "konohanachiruhime-c07",
+          "source_id": "konohanachiruhime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "Another view denies any link with the cherry, since no cherry element is found in the myths of Konohanachiruhime or Konohanasakuyabime (木花之佐久夜毘売).",
+          "statement_id": "Pendapat lain menolak kaitannya dengan sakura, karena unsur sakura tidak ditemukan dalam isi mitos Konohanachiruhime maupun Konohanasakuyabime (木花之佐久夜毘売).",
+          "quote": "一方、木花知流比売や木花之佐久夜毘売の神話の内容に桜の要素は見いだせないとして、桜との関係を否定する説もある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "konohanachiruhime-c08",
+          "source_id": "konohanachiruhime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "One view holds that her marriage to Yashimajinumi symbolises that the line of the earthly deities (国つ神) does not inherit the legitimate right to rule, and that \"falling\" (散る) in her name carries that negative sense.",
+          "statement_id": "Ada pandangan bahwa pernikahannya dengan Yashimajinumi melambangkan bahwa garis dewa bumi (国つ神) tidak mewarisi hak sah memerintah dunia, dan kata \"gugur\" (散る) dalam namanya mengandung makna negatif itu.",
+          "quote": "八島士奴美神と木花知流比売との結婚は、国つ神の系譜が天下を支配する正統を継承しないことを象徴するもので、散るという神名にはそうした否定的な意味が込められているとする見方がある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "konohanachiruhime-c09",
+          "source_id": "konohanachiruhime-s2",
+          "host": "kojiki.kokugakuin.ac.jp",
+          "statement": "This goddess does not appear in the Nihon shoki (日本書紀); the Awaga Daimyōjin Genki (粟鹿大明神元記), a genealogy of the Awaga shrine deities said to have been submitted in 708, names her 木花知利比売.",
+          "statement_id": "Dewi ini tidak muncul dalam Nihon shoki (日本書紀); Awaga Daimyōjin Genki (粟鹿大明神元記), silsilah dewa kuil Awaga yang konon diajukan pada 708, menyebutnya 木花知利比売.",
+          "quote": "この神は『日本書紀』には見られない。『粟鹿大明神元記』（和銅元年（708）の上申とされる粟鹿神社の祭神の系図）には「木花知利比売」と見える。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "efc0e0ecd0db09a1d08f9dc8bf251559d099fa7fad112cb2797e840718d1bc4d"
+      "images": []
     }
   ]
 }

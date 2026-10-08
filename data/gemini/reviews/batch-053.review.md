@@ -1,6 +1,6 @@
 # Review batch-053
 
-Diperiksa 2026-10-07T09:21:02.961Z. Berkas: batch-053.md, batch-053-fix-1.md, batch-053-fix-2.md, batch-053-fix-3.md, batch-053-fix-4.md, batch-053-fix-5.md, batch-053-fix-6.md, batch-053-fix-7.md.
+Diperiksa 2026-10-08T15:05:01.602Z. Berkas: batch-053.md, batch-053-fix-1.md, batch-053-fix-2.md, batch-053-fix-3.md, batch-053-fix-4.md, batch-053-fix-5.md, batch-053-fix-6.md, batch-053-fix-7.md, batch-053-fix-8.md.
 
 ## shiranui-optical-phenomenon — lulus-otomatis
 
@@ -640,16 +640,25 @@ Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
 
 ## chochinbi — lulus-otomatis
 
-Klaim 6 (exact 5, loose 1), sumber 2, gambar 0.
+Klaim 15 (exact 14, loose 1), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | chochinbi-c01 | exact | en.wikipedia.org | Chōchinbi is a ghost-light type in Japanese legends. | Chōchinbi (提灯火) is a type of onibi, told in legends in each area of Japan. |
 | chochinbi-c02 | exact | en.wikipedia.org | It appears over footpaths between rice fields. | It is said to appear in footpaths between rice fields, floating about one metre (3.3 ft) above the ground, disappearing when humans get close to it. |
-| chochinbi-c03 | exact | en.wikipedia.org | The light is said to disappear when people approach. | It is said to appear in footpaths between rice fields, floating about one metre (3.3 ft) above the ground, disappearing when humans get close to it. |
+| chochinbi-c03 | exact | en.wikipedia.org | The light is said to disappear when people approach. | disappearing when humans get close to it |
 | chochinbi-c04 | exact | en.wikipedia.org | A Tokushima account describes many lights lined up together. | In the Tokushima Prefecture in Shikoku, witnesses are said to have observed several tens of paper lantern fires appearing at once and lining up like light bulbs. |
 | chochinbi-c05 | loose | yokai.com | Its name comes from a resemblance to a carried paper lantern. | They appear at about the same brightness and height as a handheld paper lantern, or chōchin , which they are named after. |
 | chochinbi-c06 | exact | yokai.com | One account treats its presence as a sign of nearby yōkai. | The presence of chōchinbi signals that other yōkai may be close by. |
+| chochinbi-c07 | exact | en.wikipedia.org | Its name comes from the presumption that it is some kind of monster lighting paper lanterns; it is also said to be the work of kitsune (foxes). | Its name comes from how it is presumed to be some kind of monster lighting up paper lanterns; it is also said to be the work of kitsune. |
+| chochinbi-c08 | exact | en.wikipedia.org | In Miyoshi District, Tokushima Prefecture, chōchinbi are called tanukibi (狸火, "tanuki fire") and are considered fires lit by tanuki. | In Miyoshi District, Tokushima Prefecture, these chōchinbi are called "tanukibi" (狸火 , lit "tanuki fire"), and as according to their name, they are considered to be a fire lit by tanuki. |
+| chochinbi-c09 | exact | en.wikipedia.org | In Matsudzuka, Katsuraginoshimo District, Yamato Province (now Kashihara, Nara Prefecture), these mysterious fires are called koemonbi (小右衛門火). | In Matsudzuka, Katsuraginoshimo District, Yamato Province (now Kashihara, Nara Prefecture), these mysterious fires are called koemonbi (小右衛門火 ). |
+| chochinbi-c10 | exact | en.wikipedia.org | The koemonbi appears mainly on rainy evenings on the river bank, as a mysterious fire about as big as a paper lantern. | Mainly on rainy evenings, on the river bank, a mysterious fire about as big as a paper lantern would appear |
+| chochinbi-c11 | exact | en.wikipedia.org | In the tale, when Koemon struck the fire with his rod, it split into several hundred pieces and surrounded him. | When Koemon struck it with his rod, the fire split apart into several hundred pieces and surrounded him. |
+| chochinbi-c12 | exact | en.wikipedia.org | Koemon escaped and returned home, but that night he fell into a fever and died before he could even seek medical care. | Koemon was surprised and was able to escape and return, but that night he fell into a fever, and without any chance to even seek medical care, he lost his life. |
+| chochinbi-c13 | exact | yokai.com | Chōchinbi often appear in long rows of dozens, one after another, resembling a string of lanterns. | They often appear in long rows of dozens of chōchinbi one after another, resembling a string of lanterns. |
+| chochinbi-c14 | exact | yokai.com | Chōchinbi is more or less identical to other magical fireballs; its distinguishing feature is that other spirits use it as a light source. | While chōchinbi is more or less identical to other types of magical fireballs, its distinguishing feature is that it is used as a light source by other spirits. |
+| chochinbi-c15 | exact | yokai.com | In many places, chōchinbi is said to be the work of tanuki. | In many places, chōchinbi is said to be the work of tanuki. |
 
 
 ## fengli — lulus-otomatis
@@ -767,7 +776,7 @@ Klaim 11 (exact 11), sumber 3, gambar 0.
 
 ## himegami — lulus-otomatis
 
-Klaim 6 (loose 4, exact 2), sumber 2, gambar 0.
+Klaim 12 (loose 4, exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -777,6 +786,12 @@ Klaim 6 (loose 4, exact 2), sumber 2, gambar 0.
 | himegami-c04 | loose | en.wikipedia.org | Such a relationship may involve deities worshiped in the same shrine. | Himegami (比売神) is a general term for female deity (kami) in Shinto whose individual identity may be known or who may be known simply as the wife, daughter, or other important relation to a male kami enshrined in the same shrine. |
 | himegami-c05 | exact | www.kasugataisha.or.jp | The shrine lists Himegami in its fourth main hall. | Third Hall Amenokoyane-no-mikoto Fourth Hall Himegami Date of establishment: |
 | himegami-c06 | exact | www.kasugataisha.or.jp | The shrine’s narrative associates Himegami with Hiraoka Jinja. | Amenokoyane-no-mikoto, supposedly an ancestor of the Fujiwara Clan, and Himegami, both from Hiraoka Jinja Shrine (Osaka Pref.). |
+| himegami-c07 | exact | ja.wikipedia.org | When a shrine lists its deities, it is written next to the main deity (主祭神) as 比売神 (比売大神), 比咩神 or 姫大神. | 神社の祭神を示すときに、主祭神と並んで比売神（比売大神）、比咩神、姫大神などと書かれる。 |
+| himegami-c08 | exact | ja.wikipedia.org | Himegami is not the name of a particular deity (特定の神の名前ではなく) but refers to the wife, daughter or a closely related goddess of a shrine’s main deity. | これは特定の神の名前ではなく、神社の主祭神の妻や娘、あるいは関係の深い女神を指すものである。 |
+| himegami-c09 | exact | ja.wikipedia.org | Hachiman shrines worship Hime Ōkami (比売大神); at the head shrine Usa Jingū (宇佐神宮), Ōita, and at Iwashimizu Hachimangū (石清水八幡宮), Kyoto, she is worshipped as the three Munakata goddesses (宗像三女神). | 八幡社では比売大神を祀る。総本宮である宇佐神宮（大分県宇佐市）や宇佐から勧請した石清水八幡宮（京都府八幡市）などでは、宗像三女神を祭神として祀る。 |
+| himegami-c10 | exact | ja.wikipedia.org | However, there are various views (諸説) on the identity of Hime Ōkami at Hachiman shrines, and it differs from region to region. | 宗像三女神を祭神として祀る。しかし、八幡社の比売大神の正体については諸説があり地域によっても異なる。 |
+| himegami-c11 | exact | ja.wikipedia.org | The Himegami worshipped at Kasuga Taisha (春日大社) is Amenomitsutamateruhime (天美津玉照比売命), wife of Amenokoyane (天児屋命); some shrines also regard Amaterasu (大日孁貴尊) as their Himegami. | 春日大社に祀られる比売神は天児屋命（あめのこやねのみこと）の妻の天美津玉照比売命（あめのみつたまてるひめのみこと）である。大日孁貴尊（アマテラス）を比売神としている神社もある。 |
+| himegami-c12 | exact | ja.wikipedia.org | Shrines with Himegami as their main deity are found throughout Japan (日本各地); those simply called "Hime-jinja" (比売神社) are often subsidiary shrines (摂末社) of other shrines. | 比売神を主祭神としており、日本各地にある。単純に「比売神社」と呼ばれるものは他の神社の摂末社であることが多い。 |
 
 
 ## hyosube — lulus-otomatis
@@ -821,7 +836,7 @@ Klaim 10 (loose 1, exact 9), sumber 4, gambar 0.
 
 ## kasuga-gongen — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 15 (exact 15), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -831,6 +846,15 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | kasuga-gongen-c04 | exact | www.mlit.go.jp | The deer around Nara are regarded as the deity’s messengers. | The deer that can be seen around Nara are considered to be the divine messengers of the Kasuga Deity. |
 | kasuga-gongen-c05 | exact | www.kasugataisha.or.jp | The shrine’s historical account records a hall for four deities in 768. | a shrine hall for four deities was created on November 9th in the year of 768 |
 | kasuga-gongen-c06 | exact | www.kasugataisha.or.jp | Its origin narrative connects the first deity with protecting the capital. | to the top of Mt. Mikasa in Kasuga, Nara, in order to protect the capital Heijo-kyo. |
+| kasuga-gongen-c07 | exact | ja.wikipedia.org | Kasuga-no-kami (春日神) is a Shinto deity (神道の神) also called Kasuga Myōjin (春日明神) or Kasuga Gongen (春日権現). | 春日神（かすがのかみ）は、神道の神である。春日明神または春日権現とも称される。 |
+| kasuga-gongen-c08 | exact | ja.wikipedia.org | Shrines that worship this deity are usually named Kasuga-jinja (春日神社), and there are about 1000 of them throughout Japan (日本全国). | 神社の祭神を示すときに主祭神と並んで春日大神などと書かれる。春日神を祀る神社は春日神社などという社名になっており、日本全国に約1000社ある。 |
+| kasuga-gongen-c09 | exact | ja.wikipedia.org | Takemikazuchi (武甕槌命, from Kashima Jingū) and Futsunushi (経津主命, from Katori Jingū) are regarded as guardian deities of the Fujiwara clan (藤原氏), while Amenokoyane (天児屋根命) and Himegami (比売神) are regarded as its ancestral deities. | 武甕槌命（鹿島神宮）と経津主命（香取神宮）は藤原氏（中臣氏）の守護神とされ、天児屋根命と比売神は藤原氏の祖神とされる。 |
+| kasuga-gongen-c10 | exact | ja.wikipedia.org | Of the four deities of Kasuga Taisha (春日大社の四柱の神), Takemikazuchi (武甕槌命) was at first the most prominent. | 春日大社の四柱の神のうち、当初、特に存在感が高かったのは武甕槌命であるとされる。 |
+| kasuga-gongen-c11 | exact | ja.wikipedia.org | It has been pointed out that at least until the late 11th century, when the Ōkagami (大鏡) was compiled, "Kasuga-no-kami" was still regarded as identical with Takemikazuchi (武甕槌命). | このため、少なくとも、大鏡の成立した11世紀後半までは、「春日神」を「武甕槌命（武甕槌神）」と同一とみなす考えがあったという指摘がある。 |
+| kasuga-gongen-c12 | exact | en.wikipedia.org | Under the honji suijaku doctrine, the four kami of Kasuga Taisha are understood as local manifestations of Buddhist deities. | The narrative is grounded in the honji suijaku doctrine, whereby the four Shinto kami enshrined at Kasuga Taisha are understood as local manifestations of Buddhist deities |
+| kasuga-gongen-c13 | exact | en.wikipedia.org | The scroll’s tales open with an oracle of the Kasuga deity in 937, in which it calls itself Jihi Mangyō Bosatsu, "the compassionate bodhisattva of myriad deeds". | Its fifty-eight tales open with an oracle delivered by the Kasuga deity in 937, in which it identifies itself as Jihi Mangyō Bosatsu ("the compassionate bodhisattva of myriad deeds") |
+| kasuga-gongen-c14 | exact | en.wikipedia.org | Kasuga Gongen Genki E (春日権現験記絵) is a set of painted handscrolls (emakimono) made by members of the Fujiwara clan in the early 14th century, in the Kamakura period. | Kasuga Gongen Genki E (春日権現験記絵 ) is a set of painted handscrolls (emakimono) that was produced in the early 14th century, during the Kamakura period of Japan, by members of the Fujiwara clan. |
+| kasuga-gongen-c15 | exact | en.wikipedia.org | The term "Gongen" means avatar or deity. | The term “Gongen” means avatar or deity |
 
 
 ## kikurihime — lulus-otomatis

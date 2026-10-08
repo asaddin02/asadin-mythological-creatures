@@ -1,6 +1,6 @@
 # Review batch-056
 
-Diperiksa 2026-10-07T07:37:11.932Z. Berkas: batch-056.md, batch-056-fix-1.md, batch-056-fix-2.md, batch-056-fix-3.md, batch-056-fix-4.md, batch-056-fix-5.md, batch-056-fix-6.md.
+Diperiksa 2026-10-08T15:09:25.565Z. Berkas: batch-056.md, batch-056-fix-1.md, batch-056-fix-2.md, batch-056-fix-3.md, batch-056-fix-4.md, batch-056-fix-5.md, batch-056-fix-6.md, batch-056-fix-7.md.
 
 ## ichikishimahime — lulus-otomatis
 
@@ -129,7 +129,7 @@ Klaim 9 (exact 9), sumber 3, gambar 0.
 
 ## kamuoichihime — lulus-otomatis
 
-Klaim 8 (loose 4, exact 4), sumber 2, gambar 0.
+Klaim 11 (loose 4, exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -141,6 +141,9 @@ Klaim 8 (loose 4, exact 4), sumber 2, gambar 0.
 | kamuoichihime-c06 | exact | kojiki.kokugakuin.ac.jp | In the name, "Kami" is regarded as an honorific. "Ōichi" is explained by several theories: a place name, a grand market ruled by a mountain deity, or ichi in the sense of "solemn" (itsu), referring to a shrine maiden or goddess. | 「神」は美称とされる。「大市」は地名とする説や、立派な市場の意で、その支配神たる山の神とする説、イチを「厳」の意のイチ・イツで巫女や女神を指すものとする説がある。 |
 | kamuoichihime-c07 | exact | kojiki.kokugakuin.ac.jp | The Engishiki shrine register lists Ōichi Shrine in Ano District, Ise Province, which enshrines Ōichihime no mikoto, but whether it is directly related to this goddess is unknown. | 『延喜式』神名帳・伊勢国安濃郡に「大市神社」（三重県津市安濃町妙法寺）があり、「大市比売命」を祭るが、直接関係があるかは未詳である。 |
 | kamuoichihime-c08 | exact | kojiki.kokugakuin.ac.jp | One theory links "Ōichi" with flat land along a river, so that she is seen as a deity of rice-field cultivation and as the daughter of Ōyamatsumi, who has the character of a water source. | 「大市」を各地の地名と関連づけて、それが市場ではなく「大内」「大河内」の意で、河川に沿った平地のことであることから、水田の耕作にまつわる神とし、水源としての性格を持つ大山津見神と、その流れを引いて水田の耕作が営まれる川沿いの平地の神であるこの神が親子の関係となり |
+| kamuoichihime-c09 | exact | kojiki.kokugakuin.ac.jp | The genealogies of Susanoo (須佐之男命) and Ōkuninushi (大国主神) in the Izumo myths of the Kojiki are said to have originally been one continuous record. | 『古事記』の出雲神話中に記された須佐之男命の系譜と大国主神の系譜は、もとは一つに連続した記事だったといわれる。 |
+| kamuoichihime-c10 | exact | kojiki.kokugakuin.ac.jp | Many deities in that genealogy appear in no other text and their deeds are not told in the Kojiki, so their significance and relationships are hard to establish. | 系譜中の神々の多くは他文献に見えず、『古事記』でも事跡が語られないため、それぞれの意義や関係性が明らかにしがたい。 |
+| kamuoichihime-c11 | exact | kojiki.kokugakuin.ac.jp | One view holds that the core meaning of the genealogy lies in Ōtoshi (大年神), deity of the ripening rice, being linked to her as her child. | さらに、稲の稔りの神である大年神がその子神として結ばれている所に、その系譜の本義が認められるとする説がある。 |
 
 
 ## kanbari-nyudo — lulus-otomatis
@@ -739,9 +742,9 @@ Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q757964-c01 | exact | ja.wikipedia.org | According to Japanese Wikipedia, Chaofeng is a dragon offspring in Li Dongyang’s account in the Huailutang ji (懐麓堂集), depicted as a phoenix-like bird. | 嘲風（ちょうふう、Chaofeng）は、李東陽が著した『懐麓堂集』の説による竜生九子の一つ。姿は鳳凰に似て鳥の化身である。険しいところを好み、遠くを眺める事を好むともされることから、建物の屋根の軒に置かれる。 |
-| wd-q757964-c02 | exact | ja.wikipedia.org | According to Japanese Wikipedia, it is said to favor steep places and distant views. | 嘲風（ちょうふう、Chaofeng）は、李東陽が著した『懐麓堂集』の説による竜生九子の一つ。姿は鳳凰に似て鳥の化身である。険しいところを好み、遠くを眺める事を好むともされることから、建物の屋根の軒に置かれる。 |
-| wd-q757964-c03 | exact | ja.wikipedia.org | According to Japanese Wikipedia, this preference explains its placement on the eaves of roofs. | 嘲風（ちょうふう、Chaofeng）は、李東陽が著した『懐麓堂集』の説による竜生九子の一つ。姿は鳳凰に似て鳥の化身である。険しいところを好み、遠くを眺める事を好むともされることから、建物の屋根の軒に置かれる。 |
+| wd-q757964-c01 | exact | ja.wikipedia.org | According to Japanese Wikipedia, Chaofeng is a dragon offspring in Li Dongyang’s account in the Huailutang ji (懐麓堂集), depicted as a phoenix-like bird. | 嘲風（ちょうふう、Chaofeng）は、李東陽が著した『懐麓堂集』の説による竜生九子の一つ。姿は鳳凰に似て鳥の化身である。 |
+| wd-q757964-c02 | exact | ja.wikipedia.org | According to Japanese Wikipedia, it is said to favor steep places and distant views. | 険しいところを好み、遠くを眺める事を好むともされることから、建物の屋根の軒に置かれる。 |
+| wd-q757964-c03 | exact | ja.wikipedia.org | According to Japanese Wikipedia, this preference explains its placement on the eaves of roofs. | 険しいところを好み、遠くを眺める事を好むともされることから、建物の屋根の軒に置かれる。 |
 | wd-q757964-c04 | exact | zh.wikisource.org | In the Shuo Lüe (說略, by Gu Qiyuan, Ming), the list of the dragon's nine sons that "did not become dragons, each with its own fondness" includes 嘲風, which likes danger (好險) and is at palace corners (在殿角). The text adds that in the Hongzhi (弘治) period the emperor (泰陵) had a eunuch ask Li Dongyang (李東陽) for the names of the nine sons; Li could not give them all, asked Liu Ji (劉績), and obtained the account from an old register whose origin was also unknown. | 龍生九子，不成龍，各有所好。囚牛，好音樂，以飾胡琴。睚眦，好殺，以飾刀柄。嘲風，好險，在殿角。蒲牢，好鳴，取為鐘紐。狻猊，好座，取為佛座。霸下，好負重，為碑座。狴犴，好訟，為獄門。屓屭，好文，在碑兩傍。蚩吻，好吞，在殿脊。弘治間，泰陵令中官問龍生九子名目於李少師東陽，李不能悉，詢於吏部劉員外績，乃得其說，於故冊面上所錄，然亦不知所從出，因據以復。 |
 | wd-q757964-c05 | exact | zh.wikisource.org | The author of the Shuo Lüe recalls seeing the theory in the Duilei zonggui (對類總龜) when he was eleven or twelve, but after examining records he concluded that it was not canonical (不經). Of the names he discusses, he found none in records described as a dragon's son; 囚牛, 嘲風 (Chaofeng) and 霸下 he left as "to be examined" (俟考). | 余憶十一、二時，曾見其說於《對類總龜》中，近因歴考傳記，乃知其說為不經。 ... 已上都不見有龍子之說，囚牛、嘲風、霸下，俟考。 |
 | wd-q757964-c06 | exact | zh.wikisource.org | In the Yŏrha ilgi (熱河日記): the Duilei zonggui (對類總龜) names one of the dragon's sons 嘲風, which likes danger (好險) and stands at palace corners, and another, 蚩吻, which likes swallowing; the Bowuzhi yipian (博物志逸篇) instead says that 螭吻 (Chiwen), which likes to look out, stands at the palace corner. The author says the accounts differ, asks how the dragon sons' names and natures can be known, and says old theories of this kind are mostly embellishment. | 對類總龜謂龍產九子。一名嘲風。好險。立殿角。一名蚩吻。好呑。立殿脊。博物志逸篇云。螭吻。形似獸。性好望。故立殿角。 ... 諸說亦各不同。龍子名號及性情。何以知之。古說傅會多此類。 |

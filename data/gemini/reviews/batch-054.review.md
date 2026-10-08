@@ -1,10 +1,10 @@
 # Review batch-054
 
-Diperiksa 2026-10-07T09:23:12.821Z. Berkas: batch-054.md, batch-054-fix-1.md, batch-054-fix-2.md, batch-054-fix-3.md, batch-054-fix-4.md, batch-054-fix-5.md, batch-054-fix-6.md.
+Diperiksa 2026-10-08T15:01:21.827Z. Berkas: batch-054.md, batch-054-fix-1.md, batch-054-fix-2.md, batch-054-fix-3.md, batch-054-fix-4.md, batch-054-fix-5.md, batch-054-fix-6.md, batch-054-fix-7.md.
 
 ## kumanokusubi — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -13,7 +13,12 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | kumanokusubi-c03 | exact | en.wikipedia.org | His birth belongs to a contest between Amaterasu and Susanoo. | He was born out of a kami-making competition between Amaterasu and Susanoo. |
 | kumanokusubi-c04 | exact | en.wikipedia.org | One version describes five male kami arising from chewed beads. | In many versions, Susanoo took Amaterasu's beads and crushed them within his mouth, which created five male kami. |
 | kumanokusubi-c05 | exact | www.kokugakuin.ac.jp | The Kojiki connects his emergence with the jeweled cord on Amaterasu’s right wrist. | Then he asked for the jeweled [cord] adorning her right wrist, and [she] handed it over [to him]. He chewed it up and spat the bits out in a misty spray from which a deity named Kumanokusubi no mikoto 熊野久湏毗命 came into existence (15). |
-| kumanokusubi-c06 | exact | www.kokugakuin.ac.jp | The birth narrative describes the chewed material being spat out as a misty spray. | Then he asked for the jeweled [cord] adorning her right wrist, and [she] handed it over [to him]. He chewed it up and spat the bits out in a misty spray from which a deity named Kumanokusubi no mikoto 熊野久湏毗命 came into existence (15). |
+| kumanokusubi-c06 | exact | www.kokugakuin.ac.jp | The birth narrative describes the chewed material being spat out as a misty spray. | He chewed it up and spat the bits out in a misty spray from which a deity named Kumanokusubi no mikoto 熊野久湏毗命 came into existence (15). |
+| kumanokusubi-c07 | exact | www.kokugakuin.ac.jp | The element kusubi in the name has the same meaning as kushibi (奇霊), "mysterious spirit". | Kusubi has the same meaning as kushibi 奇霊 (“mysterious spirit”). |
+| kumanokusubi-c08 | exact | www.kokugakuin.ac.jp | Read as a common noun, kumano may mean a hidden-away place, that is, the place where a deity dwells. | Conversely, if taken as a common noun, it may mean a hidden-away place, i.e., the place where a deity dwells. |
+| kumanokusubi-c09 | exact | www.kokugakuin.ac.jp | The main text and second variant of the sixth section of the Age of Deities chapter of the Nihon shoki write the name as 熊野櫲樟日命. | The main text and second variant of the sixth section of the Age of Deities chapter of Nihon shoki transcribe Kumano kusubi no mikoto as 熊野櫲樟日命. |
+| kumanokusubi-c10 | exact | www.kokugakuin.ac.jp | The first and third variants of the Nihon shoki give a different name, Kumano oshihomi no mikoto (熊野忍蹈命). | The first and third variants give a different name, Kumano oshihomi no mikoto 熊野忍蹈命. |
+| kumanokusubi-c11 | exact | www.kokugakuin.ac.jp | After the five deities came into being, Amaterasu declared to Susanoo that the five male children were her progeny, because they arose from her possessions. | Five deities in total. Thereupon, Amaterasu declared (16) to Susanoo: “The things that were the source (17) of the five male children born second were my possessions. Because these children came into existence from these things, they naturally are my progeny. |
 
 
 ## kussie — lulus-otomatis
@@ -387,7 +392,7 @@ Klaim 13 (loose 1, exact 12), sumber 2, gambar 0.
 
 ## toyokumono-no-mikoto — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -397,6 +402,13 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | toyokumono-no-mikoto-c04 | exact | ja.wikipedia.org | The Nihon Shoki gives the deity third place in its opening account. | 『古事記』において神世七代の第二代の神とされ、『日本書紀』では天地開闢に登場する神世七代の第三代の神とされる。また神世七代の最後の独神である。 |
 | toyokumono-no-mikoto-c05 | exact | kojiki.kokugakuin.ac.jp | The Kojiki describes Toyokumono as a solitary deity. | Next was Toyokumono no kami 豊雲野神 (2). These two deities also came into existence as solitary deities and hid their bodies. |
 | toyokumono-no-mikoto-c06 | exact | kojiki.kokugakuin.ac.jp | That account says the deity hid its body. | Next was Toyokumono no kami 豊雲野神 (2). These two deities also came into existence as solitary deities and hid their bodies. |
+| toyokumono-no-mikoto-c07 | exact | ja.wikipedia.org | The name is read as "luxuriant (toyo) cloud (kumo)", and the deity is regarded as a deification of clouds (雲を神格化). | 「豊かな（＝トヨ）雲（＝クモ、ノ）」の意であり、雲を神格化した存在とされる。 |
+| toyokumono-no-mikoto-c08 | exact | ja.wikipedia.org | Because the original Kojiki text marks an accent on "雲", the name is thought to mean "a luxuriant plain covered by clouds" (豊かな野で、雲の覆う野). | 『古事記』原文にはアクセントの注記があり、「雲」は音を上げて発音するため、神名は「豊雲、野」ではない。従って名義は「豊かな野で、雲の覆う野」と考えられる。 |
+| toyokumono-no-mikoto-c09 | exact | kojiki.kokugakuin.ac.jp | Commentators largely agree that the element toyo (豊, "luxuriant") is laudatory. | Commentators largely agree that the element toyo 豊 (“luxuriant”) is laudatory. |
+| toyokumono-no-mikoto-c10 | exact | ja.wikipedia.org | The main text of the Nihon shoki says Toyokumunu (豊斟渟尊) came into being third, after Kuninotokotachi (国常立尊) and Kunisatsuchi (国狭槌尊), and states that these three deities are male (男神). | 『日本書紀』本文では、天地開闢の後、国常立尊、国狭槌尊の次の三番目に豊斟渟尊が化生したとしており、これらの三柱の神は男神であると記している。 |
+| toyokumono-no-mikoto-c11 | exact | ja.wikipedia.org | Neither the Kojiki nor the Nihon shoki mentions Toyokumono (豊雲野神) again in the myths after this point. | 『古事記』・『日本書紀』とも、これ以降、豊雲野神が神話に登場することはない。 |
+| toyokumono-no-mikoto-c12 | exact | ja.wikipedia.org | Many of the names in the first Nihon shoki variant contain "豊", so that deity is considered the same as Toyokumono (豊雲野神) and Toyokumunu (豊斟渟尊). | 「豊」がつく名前が多く、豊雲野神・豊斟渟尊と同一神格と考えられている。 |
+| toyokumono-no-mikoto-c13 | exact | ja.wikipedia.org | The first Nihon shoki variant names the third deity, after 国常立尊 and 国狭槌尊, as Toyokuninushi (豊国主尊, とよくにぬしのみこと). | 第一の一書では、国常立尊・国狭槌尊の次の三番目に化生した神を豊国主尊（とよくにぬしのみこと）とし |
 
 
 ## tsurubebi — lulus-otomatis
@@ -550,7 +562,7 @@ Klaim 15 (loose 4, exact 11), sumber 3, gambar 0.
 
 ## ame-no-torifune — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -560,11 +572,17 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | ame-no-torifune-c04 | exact | ja.wikipedia.org | The Kojiki sends the deity as Takemikazuchi’s companion in the land-transfer mission. | 『古事記』の葦原中国平定の段では、天鳥船神が建御雷神の副使として葦原中国に派遣され、事代主神の意見をきくために使者として遣わされた。 |
 | ame-no-torifune-c05 | exact | ja.wikipedia.org | The deity also serves as messenger to Kotoshironushi. | 『古事記』の葦原中国平定の段では、天鳥船神が建御雷神の副使として葦原中国に派遣され、事代主神の意見をきくために使者として遣わされた。 |
 | ame-no-torifune-c06 | exact | kojiki.kokugakuin.ac.jp | An academic commentary interprets the deity as a personification of ships. | The names of this deity indicate that it is a deification of ships. |
+| ame-no-torifune-c07 | exact | kojiki.kokugakuin.ac.jp | The name Tori no iwakusufune conveys a ship (fune) that sails as fast as a bird (tori) and is made of camphor wood (kusu) as hard as a rock (iwa). | Tori no iwakusufune conveys the sense of a ship (fune) that sails as fast as a bird (tori) and is made of camphor wood (kusu) as hard as a rock (iwa). |
+| ame-no-torifune-c08 | exact | kojiki.kokugakuin.ac.jp | According to the commentary, seeing heaven and sea as a continuum presumably led the ancients to associate birds flying in the sky with ships sailing on the sea. | Thinking of heaven and sea as a continuum presumably led the ancients to associate birds flying in the sky with ships sailing on the sea. |
+| ame-no-torifune-c09 | exact | kojiki.kokugakuin.ac.jp | The second Nihon shoki variant states that Izanaki and Izanami gave birth to the boat Tori no iwakusufune (鳥磐櫲樟船) after the leech-child and Susanoo, then put the leech-child in the boat and set it adrift. | The second variant of the same section states that Izanaki and Izanami gave birth to the boat Tori no iwakusufune 鳥磐櫲樟船 after bearing the leechchild and Susanoo no mikoto, whereupon they put the leech-child in the boat and set it adrift. |
+| ame-no-torifune-c10 | exact | ja.wikipedia.org | In the same part of the Nihon shoki (日本書紀), Ame no torifune (天鳥船神) does not appear; the messenger to Kotoshironushi (事代主神) is another figure named Inasehagi (稲背脛). | しかし『日本書紀』の同段では天鳥船神は登場せず、事代主神に派遣されたのも稲背脛という別の者になっている。 |
+| ame-no-torifune-c11 | exact | ja.wikipedia.org | Depending on the source, the land-transfer (国譲り) envoys are two of Takemikazuchi (建御雷神), Futsunushi (経津主神), Tori no iwakusufune (鳥之石楠船神), Inasehagi (稲背脛) and Amenohinadori (天夷鳥命); apart from Takemikazuchi, all are thought to be other names of one and the same deity. | 国譲りの使者は各史料によって建御雷神、経津主神、鳥之石楠船神、稲背脛、天夷鳥命のいずれかから二柱が伴って派遣されるが、建御雷神を除くこれらは皆同一神の別名を伝えたものと考えられる。 |
+| ame-no-torifune-c12 | exact | ja.wikipedia.org | The deity is the main deity (主祭神) of Iwafune-jinja (石船神社) in Shirosato, Ibaraki (茨城県), and is worshipped at Torifune-jinja (鳥船神社), a shrine within the grounds of Tokorozawa Shinmeisha (所澤神明社) in Tokorozawa, Saitama (埼玉県所沢市). | 石船神社（茨城県東茨城郡城里町岩船） - 主祭神 鳥船神社（埼玉県所沢市宮本町） - 祭神 所澤神明社の境内社。 |
 
 
 ## amenotokotachi — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -574,6 +592,13 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | amenotokotachi-c04 | exact | kojiki.kokugakuin.ac.jp | That narrative says the deity hid its body. | Next Ame no tokotachi no kami 天之常立神 (9) [appeared]. These two deities also came into existence as solitary deities and hid their bodies. |
 | amenotokotachi-c05 | exact | ja.wikipedia.org | The deity appears in a Nihon Shoki variant rather than its main account. | 『日本書紀』正伝には現れず、『古事記』および『日本書紀』の異伝（一書）にのみ登場する。 |
 | amenotokotachi-c06 | exact | ja.wikipedia.org | That variant places the deity before Umashiashikabihikoji and Kuninotokotachi. | 神代紀第一段第六の一書では天常立尊と表記され、可美葦牙彦舅尊（うましあしかびひこぢ）・国之常立神（くにのとこたちのかみ）に先立って最初に登場する。 |
+| amenotokotachi-c07 | exact | ja.wikipedia.org | The deity is regarded as symbolizing the permanence of heaven (天の永久性) and the atmosphere (大気). | 国之常立神（くにのとこたちのかみ）に先立って最初に登場する。 天の永久性、大気を象徴する神とされる。 |
+| amenotokotachi-c08 | exact | kojiki.kokugakuin.ac.jp | Because it is mentioned only in the sixth variant of the first section of the Nihon shoki, Ame no tokotachi has been hypothesized to be a late invention devised as a counterpart to Kuni no tokotachi. | By contrast, Ame no tokotachi is mentioned only in the sixth variant of the first section. Ame no tokotachi has thus been hypothesized to be a late invention, devised as a counterpart to Kuni no tokotachi. |
+| amenotokotachi-c09 | exact | kojiki.kokugakuin.ac.jp | The element toko, written with the graph 常, has been taken to mean "floor" (床), that is "foundation" or "base"; the graph 常, however, usually means "eternal". | The morpheme toko transcribed here by the graph 常 has been thought to mean toko in the sense of “floor” (床), that is “foundation” or “base.” The graph 常, however, usually carries the meaning “eternal.” |
+| amenotokotachi-c10 | exact | kojiki.kokugakuin.ac.jp | The following element, tachi (立), means "to appear". | The following element tachi 立 means “to appear.” |
+| amenotokotachi-c11 | exact | kojiki.kokugakuin.ac.jp | The Kojiki classes the first five deities as the "set-apart heavenly deities". | The five deities named above are the set-apart heavenly deities (10). |
+| amenotokotachi-c12 | exact | ja.wikipedia.org | The deity is the main deity (主祭神) of Komagata-jinja (駒形神社) in Ōshū, Iwate (岩手県奥州市), and of Kamochi-jinja (金持神社) in Hino, Tottori (鳥取県日野郡). | 駒形神社（岩手県奥州市水沢中上野町） - 主祭神 金持神社（鳥取県日野郡日野町金持） - 主祭神 |
+| amenotokotachi-c13 | exact | ja.wikipedia.org | The deity is the main deity (主祭神) of Kamiari-jinja (神在神社) in Itoshima, Fukuoka (福岡県糸島市), and at Izumo Taisha (出雲大社) in Shimane (島根県) it is enshrined in the guest seat (御客座) of the main hall (本殿). | 神在神社（福岡県糸島市神在） - 主祭神 出雲大社（島根県出雲市大社町杵築東） - 本殿御客座 |
 
 
 ## arikura-no-baba — lulus-otomatis
@@ -773,7 +798,7 @@ Klaim 15 (exact 10, loose 5), sumber 2, gambar 0.
 
 ## kameosa — lulus-otomatis
 
-Klaim 6 (exact 5, loose 1), sumber 2, gambar 0.
+Klaim 13 (exact 12, loose 1), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -783,6 +808,13 @@ Klaim 6 (exact 5, loose 1), sumber 2, gambar 0.
 | kameosa-c04 | exact | yokai.com | A later account interprets it as an old jar transformed into a tsukumogami. | Kameosa are old earthenware jugs used to hold water or sake that have changed into tsukumogami—objects that have been around for so long that they develop a spirit. |
 | kameosa-c05 | exact | yokai.com | That account extends its endless contents to water or sake. | They can serve up an endless supply of water or sake—whatever they hold. |
 | kameosa-c06 | loose | yokai.com | A modern reference describes the figure as Sekien’s invention. | Kameosa was invented by Toriyama Sekien for his fourth and final yōkai encyclopedia, Hyakki tsurezure bukuro —a book full of tsukumogami based on puns. |
+| kameosa-c07 | exact | ja.wikipedia.org | Sekien’s text says the kameosa (瓶長) does not run out however much is ladled (酌どもつきず) and does not change however much is drunk, and that in a dream he thought it a jar announcing auspicious things (めでたきこと) in advance. | わざわひは吉事のふくするところと言へば 酌どもつきず 飲めどもかはらぬめでたきことをかねて知らする瓶長にやと 夢のうちにおもひぬ |
+| kameosa-c08 | exact | ja.wikipedia.org | Some yōkai literature from the Shōwa and Heisei (昭和・平成) eras onward interprets it as a tsukumogami (付喪神), a water jar that gained a soul over the years, with the ability to control water at will. | 昭和・平成以降の妖怪関連の文献では、水瓶が歳月を経た末に魂を持った付喪神（器物が変化した妖怪）で、水を自在に操る能力を持つとの解釈もある。 |
+| kameosa-c09 | exact | ja.wikipedia.org | The words of celebration (祝言) in its caption are thought to relate to the kameosa being the last yōkai in the main part of the Hyakki Tsurezure Bukuro (百器徒然袋). | また、解説文に祝言が述べられているのは、「瓶長」が『百器徒然袋』本編最後の妖怪であることに関連しているとも考えられている。 |
+| kameosa-c10 | exact | ja.wikipedia.org | Because no folk tradition of a yōkai named kameosa exists, it is regarded as an invented yōkai (創作妖怪); one view holds that it was based on Kameosa (亀長), the artist’s name of Sekien’s pupil Koikawa Harumachi (恋川春町). | 瓶長という名の妖怪の伝承は存在しないことから創作妖怪とされ、石燕の門人・恋川春町の絵師としての雅号・亀長（かめおさ）から創作されたものとの説もある。 |
+| kameosa-c11 | exact | ja.wikipedia.org | Harumachi (春町) loved sake so much that he wrote kyōka under the name Sake no Ue no Furachi (酒上不埒), and the kameosa picture also resembles a drunk leaning on a wall and vomiting, so one interpretation holds it was made as a kind of humour. | また、春町が酒上不埒（さけのうえのふらち）の名で狂歌を作るほどの酒好きで、瓶長もまた壁にもたれた酔っ払いが嘔吐している様子にもみえることから、一種のユーモアで作られたとの解釈もある。 |
+| kameosa-c12 | exact | yokai.com | According to that modern reference, kameosa are a bit mischievous like all tsukumogami and may wander around the house, but do nothing harmful to humans. | They are a bit mischievous like all tsukumogami, although while they may wander around the house a little bit, they don’t do anything harmful to humans. |
+| kameosa-c13 | exact | yokai.com | That reference calls kameosa spirits of good fortune and bounty that are extremely lucky to have around the house. | Despite their strange appearance, kameosa are spirits of good fortune and bounty. They are extremely lucky yōkai to have around the house. |
 
 
 ## kamikiri-haircutting — lulus-otomatis

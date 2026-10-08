@@ -1,6 +1,6 @@
 # Review batch-055
 
-Diperiksa 2026-10-07T09:21:04.569Z. Berkas: batch-055.md, batch-055-fix-1.md, batch-055-fix-2.md, batch-055-fix-3.md, batch-055-fix-4.md, batch-055-fix-5.md, batch-055-fix-6.md, batch-055-fix-7.md.
+Diperiksa 2026-10-08T15:07:41.363Z. Berkas: batch-055.md, batch-055-fix-1.md, batch-055-fix-2.md, batch-055-fix-3.md, batch-055-fix-4.md, batch-055-fix-5.md, batch-055-fix-6.md, batch-055-fix-7.md, batch-055-fix-8.md.
 
 ## koromodako — lulus-otomatis
 
@@ -38,7 +38,7 @@ Klaim 12 (exact 12), sumber 3, gambar 0.
 
 ## kyokotsu — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -48,6 +48,13 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | kyokotsu-c04 | exact | ja.wikipedia.org | Sekien’s description mentions intense resentment without identifying its precise nature. | この解説においては、狂骨は井戸から現れることと、凄まじい怨みを持っていることが語られているが、それ以上の説明はなく、具体的にどのような妖怪を描いたものかは判明していない。 |
 | kyokotsu-c05 | exact | yokai.com | A later account has it arise from bones discarded in a well. | Kyōkotsu are formed from bones which were improperly disposed of by being discarded down a well. |
 | kyokotsu-c06 | exact | yokai.com | That account has it curse those who disturb its well. | A kyōkotsu lies at the bottom of its well until it is disturbed, then it rises up to curse anyone unfortunate enough to be using the well. |
+| kyokotsu-c07 | exact | ja.wikipedia.org | Sekien’s text calls the kyōkotsu (狂骨) white bones in a well (井中の白骨) and suggests that the saying "kyōkotsu" for something extreme comes from the intensity of its grudge. | 狂骨は井中の白骨なり 世の諺に 甚しき事をきやうこつといふも このうらみのはなはなだしきよりいふならん |
+| kyokotsu-c08 | exact | ja.wikipedia.org | Because the name "狂骨" is not found in folk tradition, it is interpreted as Sekien’s wordplay invention from local dialect and the word 髐骨 (kyōkotsu), "white bones stripped of flesh". | しかし伝承では「狂骨」の名は確認されていないため、実際には逆にそうした方言や、肉の落ちた白骨を意味する言葉の「髐骨（きょうこつ）」などから石燕が言葉遊びで「狂骨」という妖怪を創作したものと解釈されている。 |
+| kyokotsu-c09 | exact | ja.wikipedia.org | In Tsukui District, Kanagawa Prefecture (神奈川県津久井郡), there is indeed a dialect word "kyōkotsunai" (キョーコツナイ) meaning noisy or outlandish. | 神奈川県津久井郡には確かに、けたたましい様子や素っ頓狂な様子を意味する「キョーコツナイ」という方言がある。 |
+| kyokotsu-c10 | exact | ja.wikipedia.org | Yōkai literature from the Heisei (平成) era on describes it as a skeleton thrown into a well that became a ghost through strong resentment, or a person who died falling into a well; it appears to reveal where it was dumped and curses those who use the well. | 平成以降の妖怪関連の文献では、井戸に捨てられた骸骨が強い怨念により死霊化したもの、または井戸に落ちて死んだ人間が化けたものであり、井戸から現れることによって自分の捨てられた場所を知らせる、井戸を使った者に祟るなどと述べられており |
+| kyokotsu-c11 | exact | ja.wikipedia.org | Some point out that the kyōkotsu depicts only the appearance of a skeleton (骸骨という外見のみ) and is not a kind of spirit. | しかし実際には、白骨や骸骨に関連する妖怪は、恐ろしい外見とは裏腹に実態のともなっていないものが多いことから、この狂骨もまた骸骨という外見のみが描かれたものであり、霊の類ではないとの指摘もある。 |
+| kyokotsu-c12 | exact | yokai.com | It is wrapped in a ragged shroud, with only its bleached skull and tangled hair emerging. | It is wrapped in a ragged shroud, with only its bleached skull and tangled hair emerging from its tattered clothes. |
+| kyokotsu-c13 | exact | yokai.com | The bones may come from a murder or suicide victim, or someone who died after accidentally falling into a well. | The bones may come from a murder or a suicide victim, or someone who died after accidentally falling into a well. |
 
 
 ## makuragaeshi — lulus-otomatis
@@ -787,21 +794,28 @@ Klaim 10 (exact 10), sumber 2, gambar 0.
 
 ## enko — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | enko-c01 | exact | ja.wikipedia.org | Enkō is a kappa-related creature of Hiroshima, Chūgoku and Shikoku. | 猿猴（えんこう）は広島県及び中国・四国地方に古くから伝わる伝説上の生き物。河童の一種。 |
 | enko-c02 | exact | ja.wikipedia.org | Its hairy form resembles a monkey. | 一般的にいう河童と異なるのは、姿が毛むくじゃらで猿に似ている点である。金属を嫌う性質があり、海又は川に住み、泳いでいる人間を襲い、肛門から手を入れて生き胆を抜き取るとされている。 |
-| enko-c03 | exact | ja.wikipedia.org | It is said to dislike metal and inhabit sea or river water. | 一般的にいう河童と異なるのは、姿が毛むくじゃらで猿に似ている点である。金属を嫌う性質があり、海又は川に住み、泳いでいる人間を襲い、肛門から手を入れて生き胆を抜き取るとされている。 |
+| enko-c03 | exact | ja.wikipedia.org | It is said to hate metal (金属を嫌う), live in the sea or rivers, attack swimmers, and pull out their living liver through the anus. | 金属を嫌う性質があり、海又は川に住み、泳いでいる人間を襲い、肛門から手を入れて生き胆を抜き取るとされている。 |
 | enko-c04 | exact | yokai.com | A description gives it elastic limbs. | Their long limbs are flexible and elastic, and if you pull on one arm it will stretch while the other arm shrinks. |
 | enko-c05 | exact | yokai.com | It has sharp claws on its fingers. | Their fingers are tipped with sharp claws. |
 | enko-c06 | exact | yokai.com | Stories give it disguises as women and dolls. | They are also skilled at transforming and can disguise themselves as human women, dolls, and other forms. |
+| enko-c07 | exact | ja.wikipedia.org | The word 猿猴 originally covered 猿 (gibbon, テナガザル) and 猴 (macaque, マカク), that is, monkeys in general. | 本来、猿猴とは、猿（テナガザル）と猴（マカク）の総称で、サルのことである。 |
+| enko-c08 | exact | ja.wikipedia.org | According to the Tosa Kinsei Yōkai Shiryō (土佐近世妖怪資料), the enkō is like a child of about 3, with long clawed limbs and a body slimy like a catfish (ナマズ). | 『土佐近世妖怪資料』によると、3歳ほどの子供のようで、手足は長く爪があり、体はナマズのようにぬめっているという。 |
+| enko-c09 | exact | ja.wikipedia.org | The enkō said to have been caught alive in Tosa Province (now Kōchi, 高知県) in 1863 had a red face and feet like a human’s. | 文久3年（1863年）に土佐国（現・高知県）で生け捕りになったとされる猿猴は、顔は赤く、足は人に似ていたという。 |
+| enko-c10 | exact | ja.wikipedia.org | A man who had tied his horse by a river twisted the arm of an enkō pulling at the horse’s leg, but the arm never ran out, so he ended up twisting it all night. | ある男が川辺に馬を繋いでいたところ、猿猴が馬の脚を引いて悪戯をするので、懲らしめようと猿猴の腕を捻り上げたが、捻っても捻ってもきりがなく、一晩中捻り続ける羽目になったという。 |
+| enko-c11 | exact | ja.wikipedia.org | In Ōshima, Hagi, and Abu District, Yamaguchi Prefecture (山口県), a kappa-like yōkai called takiwaro (タキワロ) lives 3 years in the mountains and 3 in the river and then becomes an enkō. | 山口県萩市大島や阿武郡では河童に類するタキワロという妖怪がおり、これが山に3年、川に3年住んで猿猴になるという。 |
+| enko-c12 | exact | ja.wikipedia.org | The enkō gave its name to the Enkō River (猿猴川) in Minami-ku, Hiroshima (広島市南区), and the "Enkōgawa Kappa Matsuri" (猿猴川河童まつり) is held nearby. | 広島市南区を流れる猿猴川の名前の由来となっている。付近では伝承にちなみ「猿猴川河童まつり」が開催されている。 |
+| enko-c13 | exact | yokai.com | Enkō strongly revile metal objects and so run from farming implements; they dislike cows and horses and often attack them when they enter rivers. | Enkō have a strong revulsion towards metal objects and thus will run from farming implements. They dislike cows and horses, and frequently attack them if they enter rivers. |
 
 
 ## gangi-kozo — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -811,6 +825,11 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | gangi-kozo-c04 | exact | yokai.com | A later description gives it webbed hands and toes. | Their most notable features are their webbed hands and toes, and their long teeth which are sharp and jagged like files. |
 | gangi-kozo-c05 | exact | yokai.com | A theory interprets it as a transitional form of kappa. | Some folklorists believe that the gangi kozō is a kind of takiwaro, and thus is merely a transitional form of a kappa. |
 | gangi-kozo-c06 | exact | yokai.com | That account has it generally avoiding people but sometimes meeting fishermen. | Gangi kozō normally stay away from people, but occasionally encounter fishermen along the rivers they inhabit. |
+| gangi-kozo-c07 | exact | ja.wikipedia.org | Yamaguchi Prefecture (山口県) folk vocabulary has a mountain yōkai, takiwaro (タキワロ), that becomes an enko (kappa) on entering the sea; since "taki" means cliff (崖), gangi-kozō is guessed to be a kind of takiwaro. | 山口県の民俗語彙には「タキワロ」という山の妖怪があり、これが海に入るとエンコ（河童）になるといわれ、「タキ」とは「崖」を指すことから、岸涯小僧はこのタキワロの類との推察もある。 |
+| gangi-kozo-c08 | exact | ja.wikipedia.org | According to Mizuki Shigeru (水木しげる), the name is also written 雁木小僧 because its open mouth resembles gear teeth (雁木); it has okappa-like hair, webbed hands and feet, and eats fish head first. | 水木しげるの著書によれば、口を開けた姿が歯車の雁木に似ているところから「雁木小僧」とも表記し、おかっぱ頭のような髪、手足に水掻きを持ち、魚を捕えて頭から食べるとある。 |
+| gangi-kozo-c09 | exact | ja.wikipedia.org | A fishmonger who met a gangi-kozō on the bank is said to have thrown it one of his cheapest, biggest fish and fled. | 魚を捕えて頭から食べるとある。岸辺で岸涯小僧に遭遇した魚屋は、最も安くて大きな魚を1匹投げて逃げ出したとされている。 |
+| gangi-kozo-c10 | exact | ja.wikipedia.org | The name gangi-kozō is not found in classics or folk tradition other than the Konjaku Hyakki Shūi (今昔百鬼拾遺); some literature classes it as a picture-only yōkai without tradition, and some call it Sekien’s creation. | 実際には、『今昔百鬼拾遺』以外の古典や民間伝承に岸涯小僧の名は確認されておらず、文献によっては伝承を伴わない、絵画のみの妖怪として分類されており、石燕の創作物との指摘もある。 |
+| gangi-kozo-c11 | exact | yokai.com | Gangi kozō are described as hairy, monkey-like water spirits that live along riverbanks and hunt fish. | Gangi kozō are hairy, monkey-like water spirits which inhabit rivers. They live along the riverbanks, where they hunt fish. |
 
 
 ## gotoku-neko — lulus-otomatis

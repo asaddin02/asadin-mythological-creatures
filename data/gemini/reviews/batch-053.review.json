@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-053",
-  "checked_at": "2026-10-07T09:21:02.961Z",
+  "checked_at": "2026-10-08T15:05:01.602Z",
   "files": [
     "batch-053.md",
     "batch-053-fix-1.md",
@@ -9,7 +9,8 @@
     "batch-053-fix-4.md",
     "batch-053-fix-5.md",
     "batch-053-fix-6.md",
-    "batch-053-fix-7.md"
+    "batch-053-fix-7.md",
+    "batch-053-fix-8.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -4041,10 +4042,11 @@
     },
     {
       "slug": "chochinbi",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-8.md",
+      "entry_sha256": "c6901195784e7c1355c82683d45ca20cda7e6bd36a55ed5335c2164939328939",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 15,
         "sources": 2,
         "images": 0
       },
@@ -4076,7 +4078,7 @@
           "host": "en.wikipedia.org",
           "statement": "The light is said to disappear when people approach.",
           "statement_id": "Cahaya itu konon menghilang ketika orang mendekat.",
-          "quote": "It is said to appear in footpaths between rice fields, floating about one metre (3.3 ft) above the ground, disappearing when humans get close to it.",
+          "quote": "disappearing when humans get close to it",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -4109,10 +4111,99 @@
           "quote": "The presence of chōchinbi signals that other yōkai may be close by.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "chochinbi-c07",
+          "source_id": "chochinbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its name comes from the presumption that it is some kind of monster lighting paper lanterns; it is also said to be the work of kitsune (foxes).",
+          "statement_id": "Namanya muncul dari dugaan bahwa ia semacam monster yang menyalakan lentera kertas; ia juga dikatakan ulah kitsune (rubah).",
+          "quote": "Its name comes from how it is presumed to be some kind of monster lighting up paper lanterns; it is also said to be the work of kitsune.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chochinbi-c08",
+          "source_id": "chochinbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Miyoshi District, Tokushima Prefecture, chōchinbi are called tanukibi (狸火, \"tanuki fire\") and are considered fires lit by tanuki.",
+          "statement_id": "Di Distrik Miyoshi, Prefektur Tokushima, chōchinbi disebut tanukibi (狸火, \"api tanuki\") dan dianggap api yang dinyalakan tanuki.",
+          "quote": "In Miyoshi District, Tokushima Prefecture, these chōchinbi are called \"tanukibi\" (狸火 , lit \"tanuki fire\"), and as according to their name, they are considered to be a fire lit by tanuki.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chochinbi-c09",
+          "source_id": "chochinbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Matsudzuka, Katsuraginoshimo District, Yamato Province (now Kashihara, Nara Prefecture), these mysterious fires are called koemonbi (小右衛門火).",
+          "statement_id": "Di Matsudzuka, Distrik Katsuraginoshimo, Provinsi Yamato (kini Kashihara, Prefektur Nara), api misterius ini disebut koemonbi (小右衛門火).",
+          "quote": "In Matsudzuka, Katsuraginoshimo District, Yamato Province (now Kashihara, Nara Prefecture), these mysterious fires are called koemonbi (小右衛門火 ).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chochinbi-c10",
+          "source_id": "chochinbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The koemonbi appears mainly on rainy evenings on the river bank, as a mysterious fire about as big as a paper lantern.",
+          "statement_id": "Koemonbi terutama muncul pada malam hujan di tepi sungai, sebagai api misterius sebesar lentera kertas (paper lantern).",
+          "quote": "Mainly on rainy evenings, on the river bank, a mysterious fire about as big as a paper lantern would appear",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chochinbi-c11",
+          "source_id": "chochinbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the tale, when Koemon struck the fire with his rod, it split into several hundred pieces and surrounded him.",
+          "statement_id": "Dalam kisahnya, ketika Koemon memukul api itu dengan tongkat, api itu pecah menjadi beberapa ratus bagian dan mengepungnya.",
+          "quote": "When Koemon struck it with his rod, the fire split apart into several hundred pieces and surrounded him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chochinbi-c12",
+          "source_id": "chochinbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Koemon escaped and returned home, but that night he fell into a fever and died before he could even seek medical care.",
+          "statement_id": "Koemon berhasil lolos dan pulang, tetapi malam itu ia demam dan meninggal sebelum sempat berobat.",
+          "quote": "Koemon was surprised and was able to escape and return, but that night he fell into a fever, and without any chance to even seek medical care, he lost his life.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chochinbi-c13",
+          "source_id": "chochinbi-s2",
+          "host": "yokai.com",
+          "statement": "Chōchinbi often appear in long rows of dozens, one after another, resembling a string of lanterns.",
+          "statement_id": "Chōchinbi sering muncul dalam barisan panjang berisi puluhan cahaya, mirip untaian lentera.",
+          "quote": "They often appear in long rows of dozens of chōchinbi one after another, resembling a string of lanterns.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chochinbi-c14",
+          "source_id": "chochinbi-s2",
+          "host": "yokai.com",
+          "statement": "Chōchinbi is more or less identical to other magical fireballs; its distinguishing feature is that other spirits use it as a light source.",
+          "statement_id": "Chōchinbi hampir sama dengan bola api gaib lain; cirinya yang khas ialah dipakai sebagai sumber cahaya oleh roh-roh lain (used as a light source by other spirits).",
+          "quote": "While chōchinbi is more or less identical to other types of magical fireballs, its distinguishing feature is that it is used as a light source by other spirits.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chochinbi-c15",
+          "source_id": "chochinbi-s2",
+          "host": "yokai.com",
+          "statement": "In many places, chōchinbi is said to be the work of tanuki.",
+          "statement_id": "Di banyak tempat, chōchinbi dikatakan ulah tanuki.",
+          "quote": "In many places, chōchinbi is said to be the work of tanuki.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "914405965810d701207a424ce917ccd0ab3e65153909c3ea2082a41fc9753814"
+      "images": []
     },
     {
       "slug": "fengli",
@@ -4803,11 +4894,12 @@
     },
     {
       "slug": "himegami",
-      "file": "batch-053-fix-2.md",
+      "file": "batch-053-fix-8.md",
+      "entry_sha256": "6456ef29fc20936e3101e54530dab6bc75efbd5f9acb539a2edbffe64ed562cb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
       "issues": [],
@@ -4871,10 +4963,69 @@
           "quote": "Amenokoyane-no-mikoto, supposedly an ancestor of the Fujiwara Clan, and Himegami, both from Hiraoka Jinja Shrine (Osaka Pref.).",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "himegami-c07",
+          "source_id": "himegami-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "When a shrine lists its deities, it is written next to the main deity (主祭神) as 比売神 (比売大神), 比咩神 or 姫大神.",
+          "statement_id": "Dalam daftar dewa sebuah kuil, ia ditulis di samping dewa utama (主祭神) sebagai 比売神 (比売大神), 比咩神, atau 姫大神.",
+          "quote": "神社の祭神を示すときに、主祭神と並んで比売神（比売大神）、比咩神、姫大神などと書かれる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "himegami-c08",
+          "source_id": "himegami-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Himegami is not the name of a particular deity (特定の神の名前ではなく) but refers to the wife, daughter or a closely related goddess of a shrine’s main deity.",
+          "statement_id": "Himegami bukan nama dewa tertentu (特定の神の名前ではなく), melainkan sebutan bagi istri, putri, atau dewi yang dekat hubungannya dengan dewa utama kuil.",
+          "quote": "これは特定の神の名前ではなく、神社の主祭神の妻や娘、あるいは関係の深い女神を指すものである。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "himegami-c09",
+          "source_id": "himegami-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Hachiman shrines worship Hime Ōkami (比売大神); at the head shrine Usa Jingū (宇佐神宮), Ōita, and at Iwashimizu Hachimangū (石清水八幡宮), Kyoto, she is worshipped as the three Munakata goddesses (宗像三女神).",
+          "statement_id": "Kuil Hachiman memuja Hime Ōkami (比売大神); di Usa Jingū (宇佐神宮), Ōita, sebagai kuil induknya, dan di Iwashimizu Hachimangū (石清水八幡宮), Kyoto, ia dipuja sebagai tiga dewi Munakata (宗像三女神).",
+          "quote": "八幡社では比売大神を祀る。総本宮である宇佐神宮（大分県宇佐市）や宇佐から勧請した石清水八幡宮（京都府八幡市）などでは、宗像三女神を祭神として祀る。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "himegami-c10",
+          "source_id": "himegami-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "However, there are various views (諸説) on the identity of Hime Ōkami at Hachiman shrines, and it differs from region to region.",
+          "statement_id": "Namun, ada berbagai pendapat (諸説) tentang identitas Hime Ōkami di kuil Hachiman, dan identitas itu berbeda menurut daerah.",
+          "quote": "宗像三女神を祭神として祀る。しかし、八幡社の比売大神の正体については諸説があり地域によっても異なる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "himegami-c11",
+          "source_id": "himegami-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "The Himegami worshipped at Kasuga Taisha (春日大社) is Amenomitsutamateruhime (天美津玉照比売命), wife of Amenokoyane (天児屋命); some shrines also regard Amaterasu (大日孁貴尊) as their Himegami.",
+          "statement_id": "Himegami yang dipuja di Kasuga Taisha (春日大社) ialah Amenomitsutamateruhime (天美津玉照比売命), istri Amenokoyane (天児屋命); ada pula kuil yang menganggap Amaterasu (大日孁貴尊) sebagai Himegami.",
+          "quote": "春日大社に祀られる比売神は天児屋命（あめのこやねのみこと）の妻の天美津玉照比売命（あめのみつたまてるひめのみこと）である。大日孁貴尊（アマテラス）を比売神としている神社もある。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "himegami-c12",
+          "source_id": "himegami-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Shrines with Himegami as their main deity are found throughout Japan (日本各地); those simply called \"Hime-jinja\" (比売神社) are often subsidiary shrines (摂末社) of other shrines.",
+          "statement_id": "Kuil yang menjadikan Himegami dewa utama terdapat di berbagai tempat di Jepang (日本各地); yang hanya bernama \"Hime-jinja\" (比売神社) sering kali kuil cabang (摂末社) dari kuil lain.",
+          "quote": "比売神を主祭神としており、日本各地にある。単純に「比売神社」と呼ばれるものは他の神社の摂末社であることが多い。",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6d48873dc072cc59697c79a8b94b8310c93fab1ab0618db52b7be27d9bc24cdb"
+      "images": []
     },
     {
       "slug": "hyosube",
@@ -5148,11 +5299,12 @@
     },
     {
       "slug": "kasuga-gongen",
-      "file": "batch-053-fix-2.md",
+      "file": "batch-053-fix-8.md",
+      "entry_sha256": "5312b0cd20ec71ac575e5596df8fad986f6249a840d931e24e3ae9b686174515",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 15,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -5216,10 +5368,99 @@
           "quote": "to the top of Mt. Mikasa in Kasuga, Nara, in order to protect the capital Heijo-kyo.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "kasuga-gongen-c07",
+          "source_id": "kasuga-gongen-s4",
+          "host": "ja.wikipedia.org",
+          "statement": "Kasuga-no-kami (春日神) is a Shinto deity (神道の神) also called Kasuga Myōjin (春日明神) or Kasuga Gongen (春日権現).",
+          "statement_id": "Kasuga-no-kami (春日神) adalah dewa Shinto (神道の神) yang juga disebut Kasuga Myōjin (春日明神) atau Kasuga Gongen (春日権現).",
+          "quote": "春日神（かすがのかみ）は、神道の神である。春日明神または春日権現とも称される。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kasuga-gongen-c08",
+          "source_id": "kasuga-gongen-s4",
+          "host": "ja.wikipedia.org",
+          "statement": "Shrines that worship this deity are usually named Kasuga-jinja (春日神社), and there are about 1000 of them throughout Japan (日本全国).",
+          "statement_id": "Kuil yang memuja dewa ini biasanya bernama Kasuga-jinja (春日神社), dan jumlahnya sekitar 1000 di seluruh Jepang (日本全国).",
+          "quote": "神社の祭神を示すときに主祭神と並んで春日大神などと書かれる。春日神を祀る神社は春日神社などという社名になっており、日本全国に約1000社ある。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kasuga-gongen-c09",
+          "source_id": "kasuga-gongen-s4",
+          "host": "ja.wikipedia.org",
+          "statement": "Takemikazuchi (武甕槌命, from Kashima Jingū) and Futsunushi (経津主命, from Katori Jingū) are regarded as guardian deities of the Fujiwara clan (藤原氏), while Amenokoyane (天児屋根命) and Himegami (比売神) are regarded as its ancestral deities.",
+          "statement_id": "Takemikazuchi (武甕槌命, dari Kashima Jingū) dan Futsunushi (経津主命, dari Katori Jingū) dianggap dewa pelindung klan Fujiwara (藤原氏), sedangkan Amenokoyane (天児屋根命) dan Himegami (比売神) dianggap leluhurnya.",
+          "quote": "武甕槌命（鹿島神宮）と経津主命（香取神宮）は藤原氏（中臣氏）の守護神とされ、天児屋根命と比売神は藤原氏の祖神とされる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kasuga-gongen-c10",
+          "source_id": "kasuga-gongen-s4",
+          "host": "ja.wikipedia.org",
+          "statement": "Of the four deities of Kasuga Taisha (春日大社の四柱の神), Takemikazuchi (武甕槌命) was at first the most prominent.",
+          "statement_id": "Di antara empat dewa Kasuga Taisha (春日大社の四柱の神), yang pada awalnya paling menonjol adalah Takemikazuchi (武甕槌命).",
+          "quote": "春日大社の四柱の神のうち、当初、特に存在感が高かったのは武甕槌命であるとされる。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kasuga-gongen-c11",
+          "source_id": "kasuga-gongen-s4",
+          "host": "ja.wikipedia.org",
+          "statement": "It has been pointed out that at least until the late 11th century, when the Ōkagami (大鏡) was compiled, \"Kasuga-no-kami\" was still regarded as identical with Takemikazuchi (武甕槌命).",
+          "statement_id": "Ada pendapat bahwa setidaknya sampai paruh akhir abad ke-11, ketika Ōkagami (大鏡) disusun, \"Kasuga-no-kami\" masih dianggap sama dengan Takemikazuchi (武甕槌命).",
+          "quote": "このため、少なくとも、大鏡の成立した11世紀後半までは、「春日神」を「武甕槌命（武甕槌神）」と同一とみなす考えがあったという指摘がある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kasuga-gongen-c12",
+          "source_id": "kasuga-gongen-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Under the honji suijaku doctrine, the four kami of Kasuga Taisha are understood as local manifestations of Buddhist deities.",
+          "statement_id": "Menurut ajaran honji suijaku, keempat kami di Kasuga Taisha dipahami sebagai perwujudan setempat dari dewa-dewa Buddha (local manifestations of Buddhist deities).",
+          "quote": "The narrative is grounded in the honji suijaku doctrine, whereby the four Shinto kami enshrined at Kasuga Taisha are understood as local manifestations of Buddhist deities",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kasuga-gongen-c13",
+          "source_id": "kasuga-gongen-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The scroll’s tales open with an oracle of the Kasuga deity in 937, in which it calls itself Jihi Mangyō Bosatsu, \"the compassionate bodhisattva of myriad deeds\".",
+          "statement_id": "Kisah-kisah gulungan itu dibuka dengan orakel dewa Kasuga tahun 937, ketika ia menyebut dirinya Jihi Mangyō Bosatsu, \"bodhisattva welas asih dengan perbuatan tak terhitung\".",
+          "quote": "Its fifty-eight tales open with an oracle delivered by the Kasuga deity in 937, in which it identifies itself as Jihi Mangyō Bosatsu (\"the compassionate bodhisattva of myriad deeds\")",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kasuga-gongen-c14",
+          "source_id": "kasuga-gongen-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Kasuga Gongen Genki E (春日権現験記絵) is a set of painted handscrolls (emakimono) made by members of the Fujiwara clan in the early 14th century, in the Kamakura period.",
+          "statement_id": "Kasuga Gongen Genki E (春日権現験記絵) adalah rangkaian gulungan bergambar (emakimono) yang dibuat anggota klan Fujiwara pada awal abad ke-14, zaman Kamakura.",
+          "quote": "Kasuga Gongen Genki E (春日権現験記絵 ) is a set of painted handscrolls (emakimono) that was produced in the early 14th century, during the Kamakura period of Japan, by members of the Fujiwara clan.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kasuga-gongen-c15",
+          "source_id": "kasuga-gongen-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The term \"Gongen\" means avatar or deity.",
+          "statement_id": "Istilah \"Gongen\" berarti avatar atau dewa (avatar or deity).",
+          "quote": "The term “Gongen” means avatar or deity",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e6e3b03475b9f43887938d34bbbcfa6e5fe6fc34615fb680f60cc7718ffca676"
+      "images": []
     },
     {
       "slug": "kikurihime",

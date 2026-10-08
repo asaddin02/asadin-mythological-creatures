@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-068",
-  "checked_at": "2026-10-08T10:03:08.337Z",
+  "checked_at": "2026-10-08T15:09:39.689Z",
   "files": [
     "batch-068.md",
     "batch-068-fix-1.md",
@@ -9,7 +9,8 @@
     "batch-068-fix-4.md",
     "batch-068-fix-5.md",
     "batch-068-fix-6.md",
-    "batch-068-fix-7.md"
+    "batch-068-fix-7.md",
+    "batch-068-fix-8.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -1666,10 +1667,11 @@
     },
     {
       "slug": "tam-kung",
-      "file": "batch-068-fix-1.md",
+      "file": "batch-068-fix-8.md",
+      "entry_sha256": "47624ceca9779e9734539fc68de4ade861b637e55a56b5d6bc73cf5426830671",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 12,
         "sources": 2,
         "images": 0
       },
@@ -1691,7 +1693,7 @@
           "host": "en.wikipedia.org",
           "statement": "Legend credits him with forecasting weather and healing from childhood.",
           "statement_id": "Legenda memberinya kemampuan meramalkan cuaca dan menyembuhkan sejak kecil.",
-          "quote": "In Chinese folk legends, Tam Kung was one of gods who could forecast the weather. He was born in Huizhou Prefecture. It was said that he could cure patients in his childhood. Tam Kung became an immortal in heaven at the age of twenty in the Nine-dragon Mountain in Huizhou. He was officially deified during the Qing dynasty.",
+          "quote": "In Chinese folk legends, Tam Kung was one of gods who could forecast the weather. He was born in Huizhou Prefecture. It was said that he could cure patients in his childhood.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -1701,7 +1703,7 @@
           "host": "en.wikipedia.org",
           "statement": "The tale says he becomes immortal at twenty on Nine-dragon Mountain.",
           "statement_id": "Kisah menyebut ia menjadi makhluk abadi pada usia dua puluh di Gunung Sembilan Naga.",
-          "quote": "In Chinese folk legends, Tam Kung was one of gods who could forecast the weather. He was born in Huizhou Prefecture. It was said that he could cure patients in his childhood. Tam Kung became an immortal in heaven at the age of twenty in the Nine-dragon Mountain in Huizhou. He was officially deified during the Qing dynasty.",
+          "quote": "Tam Kung became an immortal in heaven at the age of twenty in the Nine-dragon Mountain in Huizhou.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -1734,10 +1736,69 @@
           "quote": "Tam Kung was originally a native of Huizhou (惠州) in Guangdong Province (廣東省) during Yuan Dynasty (元朝). He is usually portrayed as being young and having a fresh face. When he was 13 years old, he had already possessed supernatural powers to command the wind and rain, cure sickness, and forecast weather. His ability made him a popular deity.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tam-kung-c07",
+          "source_id": "tam-kung-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He was officially deified during the Qing dynasty, and people whose ancestral home is Huizhou or Chaoshan in Guangdong province worship him most devoutly.",
+          "statement_id": "Ia diangkat resmi menjadi dewa pada masa Dinasti Qing, dan orang yang berasal dari Huizhou atau Chaoshan, Provinsi Guangdong, paling tekun memujanya.",
+          "quote": "He was officially deified during the Qing dynasty. People whose ancestral home are in Huizhou or Chaoshan of Guangdong province worship Tam Kung most sincerely.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tam-kung-c08",
+          "source_id": "tam-kung-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A big rock in front of the Shau Kei Wan temple is believed to be Tam Kung’s magic stamp.",
+          "statement_id": "Batu besar di depan kuil Shau Kei Wan dipercaya sebagai cap sakti (magic stamp) Tam Kung.",
+          "quote": "There is a big rock in front of the temple and is believed to be Tam Kung's magic stamp.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tam-kung-c09",
+          "source_id": "tam-kung-s1",
+          "host": "en.wikipedia.org",
+          "statement": "On Tam Kung’s birthday (8th day of the 4th month of the Chinese calendar), a celebration is held with a \"kung fu\" show, a parade and a dragon dance.",
+          "statement_id": "Pada hari lahir Tam Kung (hari ke-8 bulan ke-4 kalender Tionghoa) diadakan perayaan dengan pertunjukan \"kung fu\", pawai, dan tari naga.",
+          "quote": "On the birthday of Tam Kung (8th day of the 4th month in Chinese calendar), they will have a celebration and play a so-called \"kung fu\" show which is a major part of the celebration. A parade and dragon dance are also held on this occasion.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tam-kung-c10",
+          "source_id": "tam-kung-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to a story, Tam Kung appeared to a young boy in a dream and guided him to the present Happy Valley site, regarded as chosen by the deity itself.",
+          "statement_id": "Menurut kisah, Tam Kung menampakkan diri dalam mimpi seorang anak laki-laki dan menuntunnya ke lokasi kuil Happy Valley yang sekarang, yang dianggap dipilih sendiri oleh dewa itu.",
+          "quote": "According to a story, Tam Kung appeared to a young boy in a dream and guided him to the present site, which was regarded as selected by the deity for the new location of the temple.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tam-kung-c11",
+          "source_id": "tam-kung-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Victoria, British Columbia, Canada, there is also a Tam Kung temple, erected in 1876.",
+          "statement_id": "Di Victoria, British Columbia, Kanada, juga ada kuil Tam Kung yang didirikan pada 1876.",
+          "quote": "In Victoria, BC, Canada, there is also a temple to the deity, Tam Kung. The temple was erected in 1876.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tam-kung-c12",
+          "source_id": "tam-kung-s2",
+          "host": "www.ctc.org.hk",
+          "statement": "In the past, stonecutters from Huizhou came to Hong Kong and brought their belief in Tam Kung from their hometown.",
+          "statement_id": "Dahulu para pemotong batu dari Huizhou datang ke Hong Kong dan membawa kepercayaan kepada Tam Kung dari kampung halamannya.",
+          "quote": "In the past, stonecutters from Huizhou came to Hong Kong and brought their belief in Tam Kung from hometown.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "29db1f9f0235ef2fc2e38f88328713f49e306d3e2de2811c53aecb2e295f54f2"
+      "images": []
     },
     {
       "slug": "teng-mythology",
@@ -1971,8 +2032,8 @@
     },
     {
       "slug": "yuqiang",
-      "file": "batch-068-fix-3.md",
-      "entry_sha256": "c1958761d23673ea1a4b1e2aad6f56ee25d520790fefca8bcd49eed2ea31f475",
+      "file": "batch-068-fix-8.md",
+      "entry_sha256": "34e97a0bf01322fd4301e77350a48591027480e257f1e34b450898208a85f4cf",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
@@ -1995,9 +2056,9 @@
           "id": "yuqiang-c02",
           "source_id": "yuqiang-s1",
           "host": "en.wikipedia.org",
-          "statement": "Accounts identify him as a Yellow Emperor descendant and Yuhao's son.",
-          "statement_id": "Kisah menghubungkannya sebagai keturunan Kaisar Kuning dan anak Yuhao.",
-          "quote": "Yuqiang (Chinese: 禺强, alternatively Yujiang 禺疆 or Yujing 禺京), in Chinese mythology is one of the descendants of Huang Di, the \"Yellow Emperor\". Yuqiang was also the god of the north sea and a wind god. His father was Yuhao, another sea god.",
+          "statement": "Yuqiang was also the god of the north sea and a wind god; his father was Yuhao, another sea god.",
+          "statement_id": "Yuqiang juga dewa laut utara dan dewa angin; ayahnya Yuhao, dewa laut lain.",
+          "quote": "Yuqiang was also the god of the north sea and a wind god. His father was Yuhao, another sea god.",
           "context": "religious-tradition",
           "status": "exact"
         },

@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-059",
-  "checked_at": "2026-10-07T07:39:06.614Z",
+  "checked_at": "2026-10-08T15:37:33.923Z",
   "files": [
     "batch-059.md",
     "batch-059-fix-1.md",
     "batch-059-fix-2.md",
     "batch-059-fix-3.md",
-    "batch-059-fix-4.md"
+    "batch-059-fix-4.md",
+    "batch-059-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -623,20 +624,15 @@
     },
     {
       "slug": "wd-q10329896",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "6a99c9ca7b18d7f4c1a56c4e5c3bdac68cf3e57652331f0bc156bd5bcf103708",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q10329896-c01",
@@ -667,27 +663,51 @@
           "quote": "郭璞は「山海経図讃」で「鳧徯朱厭、見則有兵」と戦乱の起こるきざしとされる鳥獣として朱厭の名をピックアップしている。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q10329896-c04",
+          "source_id": "wd-q10329896-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Xishan Jing (西山經) text: on Mount Xiaoci (小次之山), with much white jade above and red copper below, there is a beast like an ape (猿) with a white head and red feet named Zhuyan (朱厭); when it is seen, there is great war (大兵).",
+          "statement_id": "Teks Xishan Jing (西山經): di Gunung Xiaoci (小次之山), yang di atasnya banyak giok putih dan di bawahnya banyak tembaga merah, ada binatang seperti kera (猿) berkepala putih dan berkaki merah bernama Zhuyan (朱厭); bila ia terlihat, terjadi perang besar (大兵).",
+          "quote": "又西四百里，曰小次之山，其上多白玉，其下多赤銅。有獸焉，其狀如猿，而白首赤足，名曰朱厭，見則大兵",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10329896-c05",
+          "source_id": "wd-q10329896-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The same text says the bird Fuxi (鳧徯), like a rooster with a human face and named after its own call, is also an omen of war (見則有兵).",
+          "statement_id": "Teks yang sama menyebut burung Fuxi (鳧徯), mirip ayam jantan berwajah manusia, yang namanya berasal dari suaranya, juga menjadi pertanda perang (見則有兵).",
+          "quote": "其獸多㸲牛、羬羊、白豪〈豪，貆豬也。〉。有鳥焉，其狀如雄雞而人面，名曰鳧徯，其鳴自叫也，見則有兵。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10329896-c06",
+          "source_id": "wd-q10329896-s3",
+          "host": "zh.wikipedia.org",
+          "statement": "Chinese Wikipedia calls Zhuyan a monster (妖怪) of ancient Chinese legend, a white-headed, red-footed ape whose appearance is followed by war (战争).",
+          "statement_id": "Wikipedia bahasa Tionghoa menyebut Zhuyan siluman (妖怪) dalam legenda Tiongkok kuno, berupa kera berkepala putih dan berkaki merah yang kemunculannya diikuti perang (战争).",
+          "quote": "朱厭，是中國古代傳說中的一隻妖怪，为白头红脚的猿猴，一出现就会發生战争。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "af2ee2f9ff4948e4e32ccc7c4529294ee75f9c73f0a1555b7606a58b594b04ad"
+      "images": []
     },
     {
       "slug": "wd-q10542923",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "2599220290eff9f1db780afa93a011146e6d51289dc49cba2eefb83a8959d203",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q10542923-c01",
@@ -728,27 +748,51 @@
           "quote": "『鏡花縁』 跂踵国が旅の途中に舞台として登場する。跂踵人はぶあつい足をしており、爪先だけでたって歩くとされる。主人公たちの一行は結局この歩き方を遠くから見ただけで上陸はしなかった。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q10542923-c05",
+          "source_id": "wd-q10542923-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Haiwai Beijing (海外北經) text: the Qizhong country (跂踵國) lies south (or east) of Juying (拘癭); its people’s two feet are propped (兩足皆支), or in another version they are big with big feet; it is also called Fanzhong (反踵) or Dazhong (大踵).",
+          "statement_id": "Teks Haiwai Beijing (海外北經): negeri Qizhong (跂踵國) terletak di selatan (atau timur) Juying (拘癭); kedua kaki penduduknya menopang (兩足皆支), atau menurut versi lain mereka bertubuh besar dengan kaki yang juga besar; nama lainnya Fanzhong (反踵) atau Dazhong (大踵).",
+          "quote": "跂踵國在拘 癭一作「纓」 南一作「東」， 其為人兩足皆支一作「其為人大，兩足亦大」。一曰 反一作「大」踵。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10542923-c06",
+          "source_id": "wd-q10542923-s3",
+          "host": "zh.wikipedia.org",
+          "statement": "The name Qizhong (跂踵) can refer to a bird or to a country, the Qizhong country (跂踵国); both appear in the Shanhaijing (山海经).",
+          "statement_id": "Nama Qizhong (跂踵) dapat merujuk pada seekor burung atau pada sebuah negeri, negeri Qizhong (跂踵国); keduanya muncul dalam Shanhaijing (山海经).",
+          "quote": "跂踵可以指一种鸟，也可以指一个国家：跂踵国。跂踵和跂踵国都是在《山海经》中出现的。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10542923-c07",
+          "source_id": "wd-q10542923-s3",
+          "host": "zh.wikipedia.org",
+          "statement": "The Qizhong country lies east of the Juying country (拘瘿国), and its people are tall and big with very large feet.",
+          "statement_id": "Negeri Qizhong terletak di timur negeri Juying (拘瘿国), dan penduduknya bertubuh tinggi besar dengan kaki yang sangat besar.",
+          "quote": "跂踵国则是在拘瘿国的东面的一个国家，那里的人都身材高大，两只脚也非常大。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2ac61760764b91ba7ccb9e5202c404799b791bf4eb53ec52c27ef69419018a56"
+      "images": []
     },
     {
       "slug": "wd-q10565813",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "1a8157090a56e1c8908b0c36c20f501aba9d9b1fa5e2201e8cade1509e2f00d2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q10565813-c01",
@@ -769,27 +813,61 @@
           "quote": "猿に似た姿をしているが体色は黄色く、赤い目と赤い嘴を持つという。 この怪物が現れた国は、大恐慌に見舞われるとされる。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q10565813-c03",
+          "source_id": "wd-q10565813-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Zhongshan Jing (中山經) text: on Mount Feng (豐山) there is a beast like an ape (猨) with red eyes, a red beak and a yellow body, named Yonghe (雍和); when it is seen, the country suffers great fear (大恐).",
+          "statement_id": "Teks Zhongshan Jing (中山經): di Gunung Feng (豐山) ada binatang seperti kera (猨) bermata merah, berparuh merah, dan bertubuh kuning bernama Yonghe (雍和); bila ia terlihat, negeri dilanda ketakutan besar (大恐).",
+          "quote": "又東南三百里，曰豐山。有獸焉，其狀如猨，赤目，赤喙、黃身，名曰雍和，見則國有大恐。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10565813-c04",
+          "source_id": "wd-q10565813-s2",
+          "host": "zh.wikisource.org",
+          "statement": "On the same mountain dwells the god Gengfu (耕父), who often roams the Qingling pool and shines as he comes and goes; when he is seen, his country falls (為敗).",
+          "statement_id": "Di gunung yang sama tinggal dewa Gengfu (耕父), yang sering bermain di kolam Qingling dan bercahaya saat keluar masuk; bila ia terlihat, negerinya runtuh (為敗).",
+          "quote": "見則國有大恐。神耕父處之，常遊清泠之淵，出入有光，見則其國為敗。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10565813-c05",
+          "source_id": "wd-q10565813-s3",
+          "host": "zh.wikipedia.org",
+          "statement": "Chinese Wikipedia calls Yonghe a legendary ape with red eyes and mouth and yellow fur, whose appearance is followed by a great famine (大灾荒).",
+          "statement_id": "Wikipedia bahasa Tionghoa menyebut Yonghe kera legenda bermata dan bermulut merah dengan bulu kuning, yang kemunculannya diikuti bencana kelaparan besar (大灾荒).",
+          "quote": "雍和是指一隻传说中的猿，红眼红嘴，黄毛，一出现就会有大灾荒。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10565813-c06",
+          "source_id": "wd-q10565813-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Mount Feng also has nine bells that ring when frost comes, with much gold above and gu, zuo, niu and jiang trees below.",
+          "statement_id": "Gunung Feng juga memiliki sembilan lonceng yang berbunyi bila embun beku datang, dengan banyak emas di atasnya dan pohon gu, zuo, niu, serta jiang di bawahnya.",
+          "quote": "見則其國為敗。有九鍾焉，是知霜鳴。其上多金，其下多榖柞杻橿。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "924992982a76debef76d9718d9c38b92beb0a17702ff545c4badb4171438064d"
+      "images": []
     },
     {
       "slug": "wd-q10566254",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "a78f3e7e5465615866c6ec2fb355b509b4d6c5a2934c367b2ca59a790d20007b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q10566254-c01",
@@ -830,27 +908,61 @@
           "quote": "頭部の離れた体を見ると、体が冷たくなっていた上に呼吸も微かになっていたので、布団をかけたところ、やがて戻ってきた首が布団に遮られて胴に戻ることができず、呼吸を荒らげて苦しみだし、布団を取り去ると首が胴に戻って落ち着いたという。また、銅の盆で胴体を覆った人もいたが、その際には首が胴に戻れず、とうとう死んでしまったという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q10566254-c05",
+          "source_id": "wd-q10566254-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Youyang Zazu (酉陽雜俎) records that in the valleys of Lingnan (嶺南) there are often people whose heads fly, hence the name feitou liaozi (飛頭獠子); a day before the head flies, a ring-like mark like a red thread appears on the neck, and the wife and children then keep watch.",
+          "statement_id": "Youyang Zazu (酉陽雜俎) mencatat bahwa di lembah-lembah Lingnan (嶺南) sering ada orang yang kepalanya terbang, sehingga muncul sebutan feitou liaozi (飛頭獠子); sehari sebelum kepalanya terbang, lehernya berbekas melingkar seperti benang merah, dan istri serta anaknya lalu menjaganya.",
+          "quote": "嶺南溪洞中往往有飛頭者，故有飛頭獠子之號。頭將飛一日前，頸有痕匝，項如紅縷，妻子遂看守之。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10566254-c06",
+          "source_id": "wd-q10566254-s2",
+          "host": "zh.wikisource.org",
+          "statement": "At night the person looks ill, the head suddenly sprouts wings and leaves the body to look for crabs and worms in the riverbank mud, then flies back near dawn; the person wakes as if from a dream with a full stomach.",
+          "statement_id": "Pada malam hari orang itu tampak seperti sakit, kepalanya tiba-tiba bersayap dan lepas dari tubuh, mencari kepiting dan cacing di lumpur tepi sungai untuk dimakan, lalu terbang kembali menjelang fajar; ia bangun seperti dari mimpi dengan perut kenyang.",
+          "quote": "其人及夜狀如病，頭忽生翼，脫身而去，乃於岸泥尋蟹蚓之類食，將曉飛還，如夢覺，其腹實矣。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10566254-c07",
+          "source_id": "wd-q10566254-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Quoting the Yu shi zhiguai (於氏誌怪), the text mentions the \"luomin\" (落民) of the south whose heads can fly; their worship is called chongluo (蟲落), hence the name luomin.",
+          "statement_id": "Mengutip Yu shi zhiguai (於氏誌怪), teks itu menyebut \"luomin\" (落民) di selatan yang kepalanya dapat terbang; pemujaan mereka bernama chongluo (蟲落), sehingga mereka disebut luomin.",
+          "quote": "《於氏誌怪》：南方落民，其頭能飛。其俗所祠，名曰蟲落，因號落民。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10566254-c08",
+          "source_id": "wd-q10566254-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Quoting Wang Zinian’s Shiyi ji (拾遺), in the time of Emperor Wu of Han there was a people who could detach their bodies: the head flew to the Southern Sea, the left hand to the Eastern Sea and the right hand to the western marsh.",
+          "statement_id": "Mengutip Shiyi ji (拾遺) karya Wang Zinian, pada masa Han Wudi ada bangsa yang dapat melepaskan bagian tubuhnya: kepala terbang ke Laut Selatan, tangan kiri ke Laut Timur, dan tangan kanan ke rawa barat.",
+          "quote": "《王子年拾遺》言：漢武時，因墀國使南方，有解形之民，能先使頭飛南海，左手飛東海，右手飛西澤。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "31884416aed9c32e0026d2b45d76802a13421b024a229e726f07ab33299f83af"
+      "images": []
     },
     {
       "slug": "wd-q10913525",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "d63e51296002e483088ad8b2db4ff60c91f0f078472c2327677378d6760f088c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q10913525-c01",
@@ -881,27 +993,51 @@
           "quote": "老いた奉公人が言うには、あれは古籠火というもので、古びた灯籠がしばらく火を入れてもらえないと、ひとりでに火が灯るのだという。ただし、この話の出典である『東北怪談の旅』は、山田によって創作された本来存在しない妖怪伝承が多数収録されていることで有名である。 また、この話は、水木しげるの著作における古籠火（ころうび）の解説でも引用されている。",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "wd-q10913525-c04",
+          "source_id": "wd-q10913525-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Chinese Wikipedia calls the korōka (古籠火) a yōkai in Toriyama Sekien’s (鳥山石燕) Hyakki Tsurezure Bukuro, a stone lantern (石燈籠) that lights itself with a ghost fire (鬼火).",
+          "statement_id": "Wikipedia bahasa Tionghoa menyebut korōka (古籠火) yōkai dalam Hyakki Tsurezure Bukuro karya Toriyama Sekien (鳥山石燕), berupa lentera batu (石燈籠) yang menyala sendiri dengan api hantu (鬼火).",
+          "quote": "古籠火（ころうか）是鳥山石燕的『百器徒然袋』中的妖怪，是會自燃的石燈籠，其火為鬼火。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10913525-c05",
+          "source_id": "wd-q10913525-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "In the Yamagata tale written by Yamada Norio, the Edo samurai Tamura Seiichirō (田村誠一郎) was transferred to an old house; one evening while dining with his family, the garden suddenly lit up.",
+          "statement_id": "Dalam kisah Yamagata yang ditulis Yamada Norio, samurai Edo Tamura Seiichirō (田村誠一郎) pindah tugas ke rumah tua; suatu malam saat makan bersama keluarganya, halaman tiba-tiba terang benderang.",
+          "quote": "江戶的武士田村誠一郎受命調職，並從搬到了作為新的住處的古舊房屋。某日田村在家與家人在吃晚飯的時候，庭院突然亮光一片。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10913525-c06",
+          "source_id": "wd-q10913525-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "An old servant later told him it was a korōka: an old stone lantern that lit itself because a ghost fire (鬼火) had entered it.",
+          "statement_id": "Seorang pelayan tua kemudian memberitahunya bahwa itu korōka: lentera batu tua yang menyala sendiri karena dirasuki api hantu (鬼火).",
+          "quote": "後來有老的奉公人告訴他，這個其實是古籠火，古老的石燈籠由於為鬼火侵襲而發生了自燃。",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b0b0befa9a38e3413e74d5b84c777f16a35f84d267317fd080d7591cadbd867c"
+      "images": []
     },
     {
       "slug": "wd-q10917486",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "982133ab99e449cf4eda66fec161a44c6f9f5783ac1c8317662036e5b53af947",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q10917486-c01",
@@ -942,27 +1078,41 @@
           "quote": "この怪異に遭遇した際には決して慌てることなく、心を平静に保ち、丹田に力を込めて蚊帳をまくっていくと、36枚目の蚊帳をまくったときに外に出られるという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q10917486-c05",
+          "source_id": "wd-q10917486-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The kayatsuri-tanuki (吊蚊帐狸) is a legendary yōkai of Maichūjima, Mishima village, Mima District, Tokushima Prefecture (now Mima city, 美馬市).",
+          "statement_id": "Kayatsuri-tanuki (吊蚊帐狸) adalah yōkai legenda dari Maichūjima, Desa Mishima, Distrik Mima, Prefektur Tokushima (kini Kota Mima, 美馬市).",
+          "quote": "吊蚊帐狸（かやつりたぬき、かやつりだぬき），是德島县美馬郡三島村舞中島（現・美馬市）传说中的妖怪。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10917486-c06",
+          "source_id": "wd-q10917486-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "On a road at midnight, a person suddenly feels as if a mosquito net were hanging there (吊着蚊帐), hazy, and can move neither forward nor back.",
+          "statement_id": "Di jalan tengah malam, orang tiba-tiba merasa ada kelambu tergantung (吊着蚊帐), samar-samar, sehingga tidak bisa maju atau mundur.",
+          "quote": "在半夜的路上，突然使人觉得吊着蚊帐，朦朦胧胧，不能前进与后退。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1c447d97a0d2cd185ed523ff196a860f1f65157bc9f60a7f3481edf4920eb9ce"
+      "images": []
     },
     {
       "slug": "wd-q10918482",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "7864d40543e6f26d76073c1c3b0eae9283d5e932114d9c023cecbbe5b29f48eb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q10918482-c01",
@@ -1003,10 +1153,39 @@
           "quote": "しかし、一般に「君」は琉球の祭祀をつかさどる祝女（ノロ）を意味し、「手摩」は祈祷の際に手をすり合わせることを意味すること、また君手摩を行事として記載する別の史料もあることから、君手摩は神名ではなく、宗教儀式名であると解釈する説もある。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q10918482-c05",
+          "source_id": "wd-q10918482-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "According to the Chūzan Seikan (中山世鑑) and Chūzan Seifu (中山世譜), the goddess dwells in the dragon palace (龍宮), the depths of the sea, beyond the sea or underground; she guards the sea and sun and descends to the human world when the Ryukyu (琉球) kingdom’s survival is at stake.",
+          "statement_id": "Menurut Chūzan Seikan (中山世鑑) dan Chūzan Seifu (中山世譜), dewi ini tinggal di istana naga (龍宮), yakni dasar laut, seberang laut, atau bawah tanah; ia pelindung laut dan matahari yang turun ke dunia manusia saat Kerajaan Ryukyu (琉球) di ambang hidup atau mati.",
+          "quote": "根據《中山世鑑》和《中山世譜》的說法，此神住在龍宮（大海的深淵、海的彼岸、地下），是大海和太陽的守護神，在琉球國家存亡之機降臨人間。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10918482-c06",
+          "source_id": "wd-q10918482-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The element \"kimi\" (君) means noro, a priestess (祝女), and \"tezuri\" (手摩) refers to the priestess pressing her palms together in prayer.",
+          "statement_id": "Unsur \"kimi\" (君) berarti noro atau pendeta perempuan (祝女), dan \"tezuri\" (手摩) berarti menangkupkan kedua tangan saat pendeta itu berdoa.",
+          "quote": "「君」是「祝女」的意思，「手摩」指的是祝女祈禱之際雙手合掌的意思。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q10918482-c07",
+          "source_id": "wd-q10918482-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Religious power used this belief against secular rulers; the priestesses once used it to make King Shō Sen’i (尚宣威王) abdicate and put Shō Shin (尚真) on the throne.",
+          "statement_id": "Kekuatan keagamaan memakai kepercayaan ini untuk melawan penguasa duniawi; para pendeta perempuan pernah memakainya untuk memaksa Raja Shō Sen’i (尚宣威王) turun takhta dan mengangkat Shō Shin (尚真).",
+          "quote": "宗教勢力通過此信仰同世俗統治勢力對抗。祝女曾通過君手摩信仰讓尚宣威王退位，令尚真即位。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "31e8142df1370fd1929232b2c2abdf0eec4884422ceb1b5addc3116a0bfbe0d6"
+      "images": []
     },
     {
       "slug": "wd-q10931176",
@@ -1385,20 +1564,15 @@
     },
     {
       "slug": "wd-q11173930",
-      "file": "batch-059-fix-1.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "c12a442a5fadb824d2e7770881ee116f976ce5b4db2561d434497bcb96dcead9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11173930-c01",
@@ -1439,27 +1613,51 @@
           "quote": "あくまで『山海経』じたいの文にしたがうならば、人の手を持つ鳥には属すが、人面鳥には属さない。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11173930-c05",
+          "source_id": "wd-q11173930-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Nanshan Jing (南山經) text: there is a bird like an owl (鴟) with human hands (人手) — the commentary explains its feet are like human hands — its voice is like a female quail (痺), and its name is Zhu (鴸).",
+          "statement_id": "Teks Nanshan Jing (南山經): ada burung seperti burung hantu (鴟) dengan tangan manusia (人手) — komentarnya menjelaskan kakinya seperti tangan manusia — suaranya seperti puyuh betina (痺), dan namanya Zhu (鴸).",
+          "quote": "有鳥焉，其狀如鴟而人手。〈其腳如人手，鴟音處脂反〉其音如痺，〈未詳〉其名曰鴸",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11173930-c06",
+          "source_id": "wd-q11173930-s3",
+          "host": "zh.wikipedia.org",
+          "statement": "According to legend, the zhu bird is the transformed Danzhu (丹朱), son of Yao (堯): after Yao gave the realm to Shun (舜), Danzhu rose with the Sanmiao people, was defeated, and out of shame drowned himself in the Southern Sea (南海) and became the zhu bird.",
+          "statement_id": "Menurut legenda, burung zhu adalah jelmaan Danzhu (丹朱), putra Yao (堯): setelah Yao menyerahkan dunia kepada Shun (舜), Danzhu bersama orang Sanmiao memberontak, dikalahkan, lalu karena malu menceburkan diri ke Laut Selatan (南海) dan berubah menjadi burung zhu.",
+          "quote": "傳說是堯的兒子丹朱所化成的動物。堯把天下讓給舜後，丹朱和三苗國人聯合起兵反對，堯便派兵打敗了他們，丹朱因為感到羞愧，自投南海淹死而化作鴸鳥。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11173930-c07",
+          "source_id": "wd-q11173930-s3",
+          "host": "zh.wikipedia.org",
+          "statement": "Legend also says Danzhu’s descendants founded the Danzhu country (丹朱國) in the Southern Sea, whose people have human faces and bird wings.",
+          "statement_id": "Legenda juga menyebut keturunan Danzhu mendirikan negeri Danzhu (丹朱國) di Laut Selatan, yang penduduknya berwajah manusia dan bersayap burung.",
+          "quote": "傳說丹朱的子孫在南海建立了一個丹朱國，這裏的人長相很奇特，長著人的臉，鳥的翅膀。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c040d7923e036c79c6979754d889019891b3fcf459efc0efb481cc446e97de65"
+      "images": []
     },
     {
       "slug": "wd-q11244093",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "d709090aec5d73b6a3ee845dbe509d287145d1ef4183832ff798a44ebcf1391d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11244093-c01",
@@ -1500,27 +1698,41 @@
           "quote": "五行思想においては、白は西を意味するため、白竜を白虎と同様、西方を守護する神聖な竜とする異説がある。",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11244093-c05",
+          "source_id": "wd-q11244093-s2",
+          "host": "ko.wikipedia.org",
+          "statement": "In Taoism, the white dragon personified as a deity is named the White Dragon King of the Western Sea, Ao Run (西海白龍王敖潤).",
+          "statement_id": "Dalam Taoisme, naga putih yang dipersonifikasikan sebagai dewa bernama Raja Naga Putih Laut Barat, Ao Run (西海白龍王敖潤).",
+          "quote": "도교에서 백룡을 인격신화한 이름은 서해백룡왕오윤(西海白龍王敖潤)이다.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11244093-c06",
+          "source_id": "wd-q11244093-s2",
+          "host": "ko.wikipedia.org",
+          "statement": "In Korea the white dragon appears in legends more often than other dragons, apparently because white waterspouts at sea (용오름) were thought to be white dragons.",
+          "statement_id": "Di Korea, naga putih lebih sering muncul dalam legenda dibanding naga lain; ini tampaknya karena puting beliung air putih di laut (용오름) dianggap naga putih.",
+          "quote": "한국에는 유독 백룡이 다른 용에 비해 전설에 많이 전해지는 편이다. 이것은 바다의 흰색 물기둥인 용오름을 백룡으로 생각한 소산으로 보인다.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8452054de59edb5650e20a19e8e7ba02d26a8cf8b98418e22dbac3a0a3107f1e"
+      "images": []
     },
     {
       "slug": "wd-q11255764",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "71cb60e22fc6a45835269287dc77f801a551abc7c21c9cf8b8f855e7cd66d226",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11255764-c01",
@@ -1561,17 +1773,47 @@
           "quote": "徳島の郷土史家・笠井新也による『阿波の狸の話』（1927/昭和2年）には、この石碑が現存するとあるものの、その後に妖怪研究家・村上健司が現地調査で土地の人々から取材したところによれば、衝立狸を封じたという石碑は近年まで高須に実在していたが、昭和40年代に心無い者による盗難に遭ってしまったため、現存していないという。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11255764-c05",
+          "source_id": "wd-q11255764-s2",
+          "host": "ko.wikipedia.org",
+          "statement": "It is said to appear at a lonely place called Takasu (다카스), on the way from Waki (와키) village to the neighbouring Shin village (신 마을).",
+          "statement_id": "Ia konon muncul di tempat sepi bernama Takasu (다카스), di jalan dari desa Waki (와키) ke desa tetangga, desa Shin (신 마을).",
+          "quote": "와키 마을에서 옆 마을인 신 마을로 향하는 도중에 있는 다카스라고 하는 적적한 장소에 나타난다고 한다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11255764-c06",
+          "source_id": "wd-q11255764-s2",
+          "host": "ko.wikipedia.org",
+          "statement": "The yōkai researcher Tada Katsumi (다다 가쓰미) regards it as a kind of nurikabe (누이카베), a yōkai that blocks travellers.",
+          "statement_id": "Peneliti yōkai Tada Katsumi (다다 가쓰미) menganggapnya sejenis nurikabe (누이카베), yōkai yang menghalangi orang berjalan.",
+          "quote": "요괴연구가 다다 가쓰미는 이것을, 길을 가는 사람을 못가게 막는 요괴, 누이카베의 일종이라고 여겨지고 있다.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11255764-c07",
+          "source_id": "wd-q11255764-s2",
+          "host": "ko.wikipedia.org",
+          "statement": "In the past many people feared it, so almost nobody passed that road at night any more.",
+          "statement_id": "Dahulu banyak orang takut padanya, sehingga hampir tidak ada lagi yang melewati jalan itu pada malam hari.",
+          "quote": "옛날에 많은 사람들이 이것을 무서워하여, 이 길을 밤에 지나가는 사람은 대부분 없어졌다.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "48498c67d7c93804d0f4a8f4f72b8b0eff4a7ade2c91a209b07fa80d6c46b565"
+      "images": []
     },
     {
       "slug": "wd-q11267633",
-      "file": "batch-059-fix-2.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "8a8039e348e765eebcbe8b62da45879f555d932d6efb54dbba667ba347496779",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 7,
         "sources": 2,
         "images": 0
       },
@@ -1636,27 +1878,31 @@
           "quote": "However, those who hear a sagari’s whinnying and screaming may be stricken with a terrible fever.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11267633-c07",
+          "source_id": "wd-q11267633-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "It takes the form of a horse’s head only (馬の首), appearing hanging from an old hackberry tree (エノキ) by the road, and is said to frighten people walking dark roads at night with its cries.",
+          "statement_id": "Ia berwujud kepala kuda saja (馬の首) yang muncul tergantung dari pohon hackberry (エノキ) tua di tepi jalan, dan konon menakut-nakuti orang yang berjalan di jalan gelap pada malam hari dengan suaranya.",
+          "quote": "馬の首だけの姿をしており、路傍の古いエノキの木からぶら下がった状態で現れる。鳴き声をあげたりして、暗い夜道を歩いている人などを脅かすともいう。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c16bdc8c669b144457ed1a31e2ebf9e5202c7f96bfcbeb41092cb390a734cc82"
+      "images": []
     },
     {
       "slug": "wd-q11275142",
-      "file": "batch-059-fix-2.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "73c793de69ff8218adf87a5d9734e81189e6021708b9a8b0c5d284f23cd1f056",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11275142-c01",
@@ -1687,27 +1933,51 @@
           "quote": "漫画家・水木しげるは、伝承地方に古い神楽などが残されていることを理由として、数ある妖怪の中でも、かなり古いものに属すると推測している。一つ目という以外、姿が良く分かっていない。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11275142-c04",
+          "source_id": "wd-q11275142-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Nouma (野馬, のうま) is a yōkai of the Hinuki area, Ōchi District, Shimane Prefecture (島根縣邑智郡日貫), in the Iwami (石見) region.",
+          "statement_id": "Nouma (野馬, のうま) adalah yōkai dari daerah Hinuki, Distrik Ōchi, Prefektur Shimane (島根縣邑智郡日貫), di wilayah Iwami (石見).",
+          "quote": "野馬（日語：のうま）相傳是日本島根縣邑智郡日貫地方、石見地方的妖怪。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11275142-c05",
+          "source_id": "wd-q11275142-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The nouma is said to be a one-eyed (獨目) yōkai that suddenly appears and attacks people walking alone at night.",
+          "statement_id": "Nouma konon yōkai bermata satu (獨目) yang tiba-tiba muncul dan menyerang orang yang berjalan sendirian pada malam hari.",
+          "quote": "據說野馬是獨目妖怪，夜晚見到人類獨自一人行走，會突然現身襲擊之。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11275142-c06",
+          "source_id": "wd-q11275142-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The Ainu (阿伊努) also tell of a similar one-eyed man-eating monster; in their tale, two brothers staying in a seaside hut were attacked by a huge one-eyed monster and the elder was eaten.",
+          "statement_id": "Orang Ainu (阿伊努) juga mengenal yōkai pemakan manusia bermata satu yang serupa; dalam kisahnya, dua bersaudara yang menginap di pondok tepi laut diserang monster raksasa bermata satu dan sang kakak dimakan.",
+          "quote": "此外，日本原住民阿伊努人也有類似的獨目食人妖怪。傳說有一對兄弟夜宿在海邊的小屋，突然遇到一個單眼的巨大怪物襲擊，哥哥不幸被怪物吃下。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "db0a7d1ccf3ada885ff0d2c7379de2212ce6941b5d98ed35439e4a381c857e50"
+      "images": []
     },
     {
       "slug": "wd-q11282679",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "96a101f32b8eb51b70e1d5aab6c2c82e52ab9ad0e13836fce0d323e6cee09b20",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11282679-c01",
@@ -1748,10 +2018,29 @@
           "quote": "民俗学者・日野巌による『日本妖怪変化語彙』にはアカガンターワラバーの名で、赤い髪の童子の妖怪の記述がある。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11282679-c05",
+          "source_id": "wd-q11282679-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Akagantā (赤髮童子, \"red-haired child\") is a yōkai of Ryukyu (琉球) legend, now Okinawa Prefecture.",
+          "statement_id": "Akagantā (赤髮童子, \"anak berambut merah\") adalah yōkai dalam legenda Ryukyu (琉球), kini Prefektur Okinawa.",
+          "quote": "赤髮童子（沖繩語：アカガンター）是琉球（今日本沖繩縣）傳說中的妖怪。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11282679-c06",
+          "source_id": "wd-q11282679-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "It looks like a red-haired baby in red clothes (紅色衣服); it often haunts old houses and at night runs about beside the pillows of sleepers.",
+          "statement_id": "Rupanya bayi berambut merah yang memakai pakaian merah (紅色衣服); ia sering muncul di rumah tua dan pada malam hari berlari-lari di samping bantal orang yang tidur.",
+          "quote": "其外形是穿著紅色衣服的紅髮嬰兒。常常出沒於老屋，夜間會在睡著的人枕邊跑動",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "b1d8452185a107bee2e7af14544482af902a13e969ee9e99b0966ac18c5c249d"
+      "images": []
     },
     {
       "slug": "wd-q11321489",
@@ -1850,20 +2139,15 @@
     },
     {
       "slug": "wd-q11353466",
-      "file": "batch-059-fix-3.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "bb68e98c95a46c24d21fe00d2e9b73e17f6da6fe7c06c0b559506353fc7a81e9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11353466-c01",
@@ -1904,27 +2188,61 @@
           "quote": "島根町（現・松江市）では、浜地区の境の山から海岸の島にまたがって七尋女房が現れ、長い髪を垂らし、黒い歯をむき出し、道を行く人に笑いかけたという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11353466-c05",
+          "source_id": "wd-q11353466-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Nanahiro-nyōbō, also called nanahiro-onna (七尋女) or shichijō-onna (七丈女), is a giant female yōkai of eastern Shimane and central-western Tottori (島根縣東部與鳥取縣中西部).",
+          "statement_id": "Nanahiro-nyōbō, juga disebut nanahiro-onna (七尋女) atau shichijō-onna (七丈女), adalah yōkai perempuan raksasa dari Shimane timur dan Tottori tengah-barat (島根縣東部與鳥取縣中西部).",
+          "quote": "七尋女房，又稱七尋女、七丈女，是流傳於島根縣東部與鳥取縣中西部，一種巨大的女性妖怪。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11353466-c06",
+          "source_id": "wd-q11353466-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "In a legend from Oda Nobunaga’s time, a man slashed the nanahiro-nyōbō’s face, and, wounded, she turned into a huge rock; the local Nakata family (中田氏) is said to descend from that man.",
+          "statement_id": "Dalam legenda zaman Oda Nobunaga, seorang lelaki menebas wajah nanahiro-nyōbō, dan ia yang terluka berubah menjadi batu besar; keluarga Nakata (中田氏) setempat konon keturunan lelaki itu.",
+          "quote": "織田信長時代有一個著名的傳說，稱一名男子騎馬行於山道時，被不知從哪來的石頭砸中。 ... 男人一刀斬傷七尋女房的臉，負傷的七尋女房變為一塊巨石。據傳當地的中田氏便是那名男子的後代",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11353466-c07",
+          "source_id": "wd-q11353466-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "In Yasugi (安來市), the nanahiro-nyōbō is told of as a beautiful woman who went begging in clothes seven hiro long; a mound there called Otogozen-zuka (乙御前塚) is linked with her.",
+          "statement_id": "Di Yasugi (安來市), nanahiro-nyōbō dikisahkan sebagai perempuan cantik yang berkeliling mengemis dengan pakaian sepanjang tujuh hiro; gundukan tanah bernama Otogozen-zuka (乙御前塚) di sana dikaitkan dengannya.",
+          "quote": "在安來市，傳說七尋女房是個美人，身穿七尋長的衣服四處乞討。據說當地有一個名為「乙御前塚」的土丘，與七尋女房有關。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11353466-c08",
+          "source_id": "wd-q11353466-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "In Akasaki, Tōhaku District (now Kotoura, 琴浦町), she is told of as a blue-haired, white-faced female yōkai who pounds rice while singing with a sorrowful look.",
+          "statement_id": "Di Akasaki, Distrik Tōhaku (kini Kotoura, 琴浦町), ia dikisahkan sebagai yōkai perempuan berambut biru dan berwajah putih yang menumbuk padi sambil menyanyi dengan wajah sedih.",
+          "quote": "在東伯郡赤碕町(今琴浦町)，傳說七尋女房是個青髮白臉的女妖怪，會一邊搗米一邊因吟唱歌謠，神色淒苦。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "501c37440c8b7ed34cb9865e6dfcd9dc92ee93040dcf5cca76e56a7e3427a7bb"
+      "images": []
     },
     {
       "slug": "wd-q11376261",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "39a69787fd58e1633a0327106841770908ef6501f9af3acb177cae13ad3bd1f0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11376261-c01",
@@ -1955,27 +2273,51 @@
           "quote": "山城国小椋（現・京都府宇治市小倉町）で、ある農夫が体調を崩した末、半年後に左足に腫物ができた。この腫物は人の顔のようで目と口があり、ひどい痛みを伴った。試しにその口に酒を入れてみると酔ったように赤くなり、さらに餅や飯を入れると、物を食べるように口を動かして飲み込んだ。食べ物を与えると痛みがひいたものの、食べ物を与えないと耐え難い痛みに襲われた。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11376261-c04",
+          "source_id": "wd-q11376261-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Jinmensō (人面疮) is a legendary supernatural disease, a sore with a human face, recorded in the Otogi Bōko (御伽婢子).",
+          "statement_id": "Jinmensō (人面疮) adalah penyakit gaib legenda berupa luka yang berwajah manusia, tercatat dalam Otogi Bōko (御伽婢子).",
+          "quote": "人面疮，是传说中的一种妖怪病，像个有人脸的疮口，记载于《御伽婢子》。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11376261-c05",
+          "source_id": "wd-q11376261-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "According to a legend recorded in the Cibei sanmei shuichan (慈悲三昧水懺), National Teacher Wuda (悟達國師) also had a jinmensō on his left knee.",
+          "statement_id": "Menurut legenda yang tercatat dalam Cibei sanmei shuichan (慈悲三昧水懺), Guru Negara Wuda (悟達國師) juga pernah terkena jinmensō di lutut kirinya.",
+          "quote": "传说悟達國師的左腿膝蓋也得过人面瘡，记载于《慈悲三昧水懺》。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11376261-c06",
+          "source_id": "wd-q11376261-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The Ming-era text Bili zacun (碧里杂存) also records the jinmensō and says it can be cured with beimu (贝母).",
+          "statement_id": "Teks zaman Ming, Bili zacun (碧里杂存), juga mencatat jinmensō dan menyebut bahwa ia dapat diobati dengan beimu (贝母).",
+          "quote": "明代文献《碧里杂存》也有关于人面疮的记载，并描述用贝母可以治疗。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7cba0a22edc40941013dcf88c05cb00379657dc0de3c78b8560e86499643359a"
+      "images": []
     },
     {
       "slug": "wd-q11410474",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "bd59efed8d9c044c6b2f8f27e1308a27c5a55fa039ea976f6e93197338a8c583",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11410474-c01",
@@ -2006,27 +2348,51 @@
           "quote": "滅多に現れない鳥で、多くても一年に数回、少ない時は数年間も現れなかったという。虎や狼などの猛獣を追い払ったり災害を防いだりしてくれるので、人々は双睛が巣を作ってくれることを願い、家の前を綺麗にしていたという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11410474-c04",
+          "source_id": "wd-q11410474-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "In the 70th year of Yao’s (尧) reign, a country called Zhizhi (秪支国) presented a bird named chongming niao (重明鸟), also called the shuangjing bird (双睛鸟).",
+          "statement_id": "Pada tahun ke-70 pemerintahan Yao (尧), negeri bernama Zhizhi (秪支国) mempersembahkan seekor burung bernama chongming niao (重明鸟), disebut juga burung shuangjing (双睛鸟).",
+          "quote": "在尧在位70年时，在他晚年的时候，有个叫秪支国的国家献上一只鸟，名叫重明鸟，又叫双睛鸟。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11410474-c05",
+          "source_id": "wd-q11410474-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "According to the Shiyi ji, when the bird had not come, people carved wood or cast metal in its shape and set it at their doors, so that goblins and evil beings (魑魅) withdrew of themselves.",
+          "statement_id": "Menurut Shiyi ji, ketika burung itu belum datang, orang membuat patung kayu atau logam berbentuk burung ini dan menaruhnya di pintu, sehingga siluman dan makhluk jahat (魑魅) mundur dengan sendirinya.",
+          "quote": "其未至之时，国人或刻木，或铸金，为此鸟之状。置于门户之间，则魑魅丑类，自然退伏。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11410474-c06",
+          "source_id": "wd-q11410474-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The custom of carving wood, casting metal or painting a chicken on the window every New Year’s Day (元日) is said to be a remnant of this bird’s image.",
+          "statement_id": "Kebiasaan orang setiap Tahun Baru (元日) mengukir kayu, menuang logam, atau menggambar ayam di jendela disebut sebagai sisa citra burung ini.",
+          "quote": "自然退伏。今人每岁元日，或刻木铸金，或图画为鸡于牖上，此其遗象也。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a3d31c5b7dd51c257c0afd460abbf09ad49046f4dab8e21a098562f0e227565e"
+      "images": []
     },
     {
       "slug": "wd-q11417222",
-      "file": "batch-059-fix-2.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "f94baee0a7b30594fef433cb4a50c66b8ac1e58a3fc5383cb3621ab0056514ef",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11417222-c01",
@@ -2067,27 +2433,41 @@
           "quote": "妖怪譚の郷里探訪家、村上健司は、この和尚魚や亀入道は、海亀を妖怪視したものと推測している。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11417222-c05",
+          "source_id": "wd-q11417222-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The Ming-era Sancai Tuhui (三才圖會) describes it with a monk-like head (和尚頭), the shape of a softshell turtle (鱉) and a red body.",
+          "statement_id": "Sancai Tuhui (三才圖會) dari zaman Ming menggambarkannya berkepala seperti biksu (和尚頭), berbentuk penyu cangkang lunak (鱉), dan bertubuh merah.",
+          "quote": "明代《三才圖會》描述為「和尚頭鱉型外觀身紅色」。 傳到日本的《和漢三才图会》，寺島良安將和尚魚譯為即日本西海的海坊主。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11417222-c06",
+          "source_id": "wd-q11417222-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "In Kaibara Ekiken’s Yamato Honzō (大和本草) of 1709, besides the name oshō-uo, the name bōzu-uo (坊主魚; bōzu means monk) was added, without much detail.",
+          "statement_id": "Dalam Yamato Honzō (大和本草) karya Kaibara Ekiken tahun 1709, selain nama oshō-uo, ditambahkan nama bōzu-uo (坊主魚; bōzu berarti biksu), tanpa uraian rinci.",
+          "quote": "1709年貝原益軒的著作《大和本草》裡，除了原本和尚魚之名，增寫了坊主魚（坊主為日本和尚之意），但沒有過多詳細描述。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "53afc11b3edc08c601d7c77c9ba86bf403980d084acd6cd412c44a781812861e"
+      "images": []
     },
     {
       "slug": "wd-q11420315",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "b9c04f4ebae8b4a150bc1ba3d09f573bdc00753e2f5f43197004e4fae89fe6b6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11420315-c01",
@@ -2128,25 +2508,45 @@
           "quote": "新潟の岩船郡関谷に住む庄屋が旅の途中、雪で足止めを食らい、とある町で宿をとることになった。 暇つぶしに好きな碁を楽しもうかと、同じ宿にいた老人と碁を打っていると、なぜか碁の腕前がめきめきと上達した。 この老人が碁老人という名の囲碁の精だったという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11420315-c05",
+          "source_id": "wd-q11420315-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Igo no sei (囲碁の精) are spirits of the game of go recorded in Edo-period books; the yōkai researcher Tada Katsumi (多田克己) regards them as tsukumogami (付喪神).",
+          "statement_id": "Igo no sei (囲碁の精) adalah roh permainan go yang tercatat dalam buku-buku zaman Edo; peneliti yōkai Tada Katsumi (多田克己) menganggapnya tsukumogami (付喪神).",
+          "quote": "圍棋精（囲碁の精，いごのせい）是江戶時代的古書中記載的圍棋之精靈。妖怪研究家・多田克己認為其為付喪神。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11420315-c06",
+          "source_id": "wd-q11420315-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "While Sakuan was walking at Enshō-ji (圓照寺) in Kashiwagi village (now Shinjuku, Tokyo), two people with black and white (黑、白) skin spoke to him.",
+          "statement_id": "Saat Sakuan berjalan di Enshō-ji (圓照寺), Desa Kashiwagi (kini Shinjuku, Tokyo), dua orang berkulit hitam dan putih (黑、白) menyapanya.",
+          "quote": "昨庵在附近柏木村的圓照寺（現・東京都新宿區）散步時，有膚色分別為黑、白的2人組來向他搭話。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5ef2aa82abe8a5832b95c9b35bd053d4b6cc661bb38e9241694c137962b050ae"
+      "images": []
     },
     {
       "slug": "wd-q11433719",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "e9f7630d958581e5e60280c8471ef817c3f3d89b8d9e33b365f7b842984c34d3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "claims[6] (wd-q11433719-c07)",
+          "message": "Panjang quote 28 karakter; aturannya 30–400."
         }
       ],
       "claims": [
@@ -2189,27 +2589,51 @@
           "quote": "長野県別所 木挽きを仕事とする長太郎という者の仕事場に、毎晩のように大坊主が現れて「相撲をとろう」とせがんでいた。長太郎が相撲をとるふりをして、坊主の腰に斧を叩きつけたところ、大坊主は逃げていった。その話を聞いた仕事仲間が次の日に大坊主の血痕を辿って行くと、その先は大明神岳の頂上の石宝倉に続いていたという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11433719-c05",
+          "source_id": "wd-q11433719-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Ōbōzu (大坊主) is a giant monk-shaped yōkai recorded in folklore materials and documents across Japan; it is nearly synonymous with ōnyūdō (大入道).",
+          "statement_id": "Ōbōzu (大坊主) adalah yōkai berwujud biksu raksasa yang tercatat dalam bahan folklor dan dokumen di berbagai tempat di Jepang; maknanya hampir sama dengan ōnyūdō (大入道).",
+          "quote": "大坊主（おおぼうず）是日本各地的民俗資料、文献等記載的巨大和尚外形的妖怪。幾乎和大入道同義。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11433719-c06",
+          "source_id": "wd-q11433719-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Ōbōzu traditions exist in Etchū (now Toyama), Nagano, Shizuoka, Inaba (now Tottori) and Satsuma (now western Kagoshima).",
+          "statement_id": "Tradisi ōbōzu ada di Etchū (kini Toyama), Nagano, Shizuoka, Inaba (kini Tottori), dan Satsuma (kini Kagoshima barat).",
+          "quote": "在越中國（現・富山縣）、長野縣、靜岡縣、因幡國（現・鳥取縣）、薩州（現・鹿兒島縣西部）皆有大坊主的傳承。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11433719-c07",
+          "source_id": "wd-q11433719-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Taiwan also has a similar tall, monk-shaped ghost called heshang gui (和尚鬼).",
+          "statement_id": "Taiwan juga mengenal hantu serupa yang bertubuh tinggi besar dan berwujud biksu, bernama heshang gui (和尚鬼).",
+          "quote": "台灣亦有類似大坊主，身材高大，和尚外形的鬼，名為和尚鬼。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9322d09ce8007f44f109abba9b766387000034beccec9fa9aa56d9c21a5b9a2a"
+      "images": []
     },
     {
       "slug": "wd-q11437730",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "59e2a724edaf7e691b661716b721eb7526e4c25faca1049fdd84cf3dcd0c0b2c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11437730-c01",
@@ -2240,27 +2664,51 @@
           "quote": "煙管一杯に煙草を詰め込んでやれば何事も起きないのだが、この煙管が非常に大きく、40匁入りの袋で10袋分も入れないと一杯にならないため、この土地の船頭は船が多少破損したとしても、その場所に舟を泊めることだけは避けたと言われている。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11437730-c04",
+          "source_id": "wd-q11437730-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Ōgiseru (大煙管) is a shape-changing tanuki told of around Mōda, Sanshō village, Miyoshi District, Tokushima (now Higashimiyoshi, 東三好町).",
+          "statement_id": "Ōgiseru (大煙管) adalah tanuki pengubah wujud yang diceritakan di sekitar Desa Mōda, Desa Sanshō, Distrik Miyoshi, Tokushima (kini Higashimiyoshi, 東三好町).",
+          "quote": "大煙管（おおぎせる），指的是在德島縣三好郡三庄村大字毛田村（現在的東三好町）一帶流傳的化狸。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11437730-c05",
+          "source_id": "wd-q11437730-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "On the Yoshino River there is a dangerous spot called Aoishi-se (青石瀨); if a damaged boat or raft moors there, at night a pipe suddenly appears saying \"give me tobacco\".",
+          "statement_id": "Di tepi Sungai Yoshino ada tempat berbahaya bernama Aoishi-se (青石瀨); bila perahu atau rakit rusak berlabuh sementara di sana, pada malam hari tiba-tiba muncul pipa yang berkata \"beri aku tembakau\".",
+          "quote": "吉野川沿岸有一處名為青石瀨的險要之處，有時這裡會有破損的舟船或木筏臨時在此停泊，但是一旦這麼做，在夜裡便會突然竄出說著「給我菸草」的煙管。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11437730-c06",
+          "source_id": "wd-q11437730-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Nothing happens if the pipe is filled with tobacco, but it is so huge that even ten bags holding 40 sen worth each are needed to fill it.",
+          "statement_id": "Bila pipa itu diisi penuh tembakau tidak terjadi apa-apa, tetapi pipanya begitu besar sehingga butuh sepuluh kantong tembakau berisi 40 sen untuk mengisinya.",
+          "quote": "雖然只要把煙管塞滿菸草的話就什麼事也不會發生，但由於煙管非常巨大，即便是能放入40錢的袋子，若不放個十袋也裝不滿。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "604bcf601ebbc9de09d19ed8378903d26859ecb54314c46718ff017fb077484a"
+      "images": []
     },
     {
       "slug": "wd-q11532738",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "8bc5c69b2432d3f3c0aa41f8234f0317127a9cb597b8201c16490c4ca84ffb81",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11532738-c01",
@@ -2301,27 +2749,41 @@
           "quote": "その向こうには5人の侍が寝ていたが、苦しい唸り声が何度か聞こえたので、驚いた若侍たちが灯りを灯して駆けつけると、寝ていた侍たちは何かに押し潰されたように圧死していた。あの怪しい板は忽然と消えており、外へ逃げた気配もなかった。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11532738-c05",
+          "source_id": "wd-q11532738-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The name itaoni comes from the works of yōkai manga artist Mizuki Shigeru (水木茂); the original text calls it ita no oni (板の鬼).",
+          "statement_id": "Nama itaoni berasal dari karya komikus yōkai Mizuki Shigeru (水木茂); teks aslinya menyebutnya ita no oni (板の鬼).",
+          "quote": "這個名稱是出自妖怪漫畫家水木茂的著作，在原書中記載的是板之鬼（板の鬼，いたのおに）。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11532738-c06",
+          "source_id": "wd-q11532738-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Those who heard the story concluded, since the board avoided the young samurai ready to strike and attacked the sleeping samurai without swords, that a man must never let go of his sword.",
+          "statement_id": "Orang yang mendengar kisah ini menyimpulkan, karena papan itu menghindari samurai muda yang siap menebas dan menyerang samurai yang tidur tanpa pedang, bahwa lelaki tidak boleh melepaskan pedangnya kapan pun.",
+          "quote": "聽聞這件事的人們，從板子避開了準備斬殺自己的年輕武士，卻襲擊了沒有持刀的熟睡武士這點認為，男子者無論何時都不能放開手中的刀，並引以為戒。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "bfa68ed13a71bc2f7f7b07092e53b69860ac847e9cd6eb6255fde089d47ffa12"
+      "images": []
     },
     {
       "slug": "wd-q11558956",
-      "file": "batch-059-fix-3.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "5b058bdf2e95762659d29384f4d544c6148dc04fefac8ddf5cbc43978ff6f04e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11558956-c01",
@@ -2362,10 +2824,29 @@
           "quote": "土地の古老に訪ねたところ、「それは海月が風に乗ってさまようのだろう」と言ったという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11558956-c05",
+          "source_id": "wd-q11558956-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Kurage no hinotama (海月の火の玉), also called kuragebi (くらげ火), is one of the yōkai of Ishikawa Prefecture (石川縣).",
+          "statement_id": "Kurage no hinotama (海月の火の玉), disebut juga kuragebi (くらげ火), adalah salah satu yōkai Prefektur Ishikawa (石川縣).",
+          "quote": "海月火玉（日語：海月の火の玉／くらげのひのたま），又稱水母火球、水母火（日語：くらげ火／くらげび），是日本石川縣的妖怪之一。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11558956-c06",
+          "source_id": "wd-q11558956-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "It is a kind of ghost fire (鬼火) said to fly about the seashore; its name appears in the Edo-period ghost-story collection Sanshū Kidan (三州怪談).",
+          "statement_id": "Ia sejenis api hantu (鬼火) yang konon beterbangan di tepi laut; namanya muncul dalam kumpulan kisah hantu zaman Edo, Sanshū Kidan (三州怪談).",
+          "quote": "它是一種鬼火，據說會在海邊飛來飛去。名字見於江戶時代的怪談集《三州怪談》。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "57e20b1c95355bd88a16b0b6e9136151b09ef5af89f4bf84ca8ec12231b49309"
+      "images": []
     },
     {
       "slug": "wd-q11571386",
@@ -2444,20 +2925,15 @@
     },
     {
       "slug": "wd-q11578835",
-      "file": "batch-059-fix-3.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "08d627295aa65a27cb0641678e6653316db5f877565be152e4ce419b4aa15b6a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11578835-c01",
@@ -2498,27 +2974,41 @@
           "quote": "安心した竹助は、帰り道にも弁当をわけてあげようと告げ、そろそろ出発しようと荷物を手に取ろうとすると、それより先に獣が荷物を背負い、竹助の前を歩き始めた。お陰で竹助は苦もなく山道を歩ききることができた。 目的地近くの池谷村（十日町市池谷）が見えてくると、獣は荷物を降ろして山へと駆け去った。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11578835-c05",
+          "source_id": "wd-q11578835-s2",
+          "host": "yokai.com",
+          "statement": "Despite their size and strength, ijū are shy and gentle yōkai that mostly hide deep in the mountains away from people.",
+          "statement_id": "Meski besar dan kuat, ijū adalah yōkai yang pemalu dan lembut yang kebanyakan bersembunyi di pegunungan jauh dari manusia.",
+          "quote": "Despite their size and strength, ijū are surprisingly shy and gentle yōkai. They mostly stay hidden away, deep in the mountains away from people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11578835-c06",
+          "source_id": "wd-q11578835-s2",
+          "host": "yokai.com",
+          "statement": "In the tale of the weaver girl of Tōkamachi, after the ijū she used to feed sat in concentration and left, her period miraculously ended that night so she could finish her weaving order.",
+          "statement_id": "Dalam kisah gadis penenun dari Tōkamachi, setelah ijū yang biasa diberinya makan duduk berkonsentrasi lalu pergi, haid gadis itu berhenti secara ajaib malam itu sehingga ia dapat menyelesaikan pesanan kainnya.",
+          "quote": "Another tale tells of a girl from Tōkamachi with such skill at the loom that wholesalers would request her weaving by name. ... the ijū sat down and seemed to concentrate or to medidate for a time. Then, it stood up and ran back into the mountains. That night, the girl’s period miraculously ended.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c097fc26ca1586f25a8fac0764803418fb51c46565c4036335bed054819eed21"
+      "images": []
     },
     {
       "slug": "wd-q11579484",
-      "file": "batch-059-fix-3.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "f9017b8aaa308641e93ae2657f853866e87a67c89c6036c99ab6eed167bef4d0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11579484-c01",
@@ -2559,10 +3049,39 @@
           "quote": "広島県安芸郡倉橋町（現・呉市） カワウソが脚に継ぎ木をして2メートルもの大きさに化けて人を脅かすといい、これに出遭ったときは地上1メートルあたりを殴ると良いという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11579484-c05",
+          "source_id": "wd-q11579484-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "It is told of in Shizuoka, Osaka, Wakayama, Hiroshima and Kumamoto, with the Osaka tradition best known.",
+          "statement_id": "Ia diceritakan di Shizuoka, Osaka, Wakayama, Hiroshima, dan Kumamoto, dan tradisi Osaka-lah yang paling terkenal.",
+          "quote": "流傳在靜岡縣、大阪府、和歌山縣、廣島縣、熊本縣，其中以大阪的傳承較知名。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11579484-c06",
+          "source_id": "wd-q11579484-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "In southern Osaka people are said to meet it on the streets at night, but there are no more detailed stories.",
+          "statement_id": "Di Osaka selatan, orang konon bertemu dengannya di jalan pada malam hari, tetapi tidak ada kisah yang lebih rinci.",
+          "quote": "在大阪府南部，傳說人們會在夜間的街頭遭遇到它，卻無更具體的故事。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11579484-c07",
+          "source_id": "wd-q11579484-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "One view likens it to the mikoshi-nyūdō (見越入道), but unlike it, it does not grow in front of those who meet it; another view treats it as a kind of nopperabō (野箆坊).",
+          "statement_id": "Satu pendapat menganggapnya mirip mikoshi-nyūdō (見越入道), tetapi berbeda karena tidak membesar di depan orang yang bertemu dengannya; pendapat lain menganggapnya sejenis nopperabō (野箆坊).",
+          "quote": "一說認為它類似見越入道，但與見越入道不同的是，它不會在遇到的人面前變大，也有它是野箆坊的一種之說。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "36e9de5e960d972eb550203b64cfd28edd64b62d0c4bbd609a2d683cbc6cf153"
+      "images": []
     },
     {
       "slug": "wd-q11587956",
@@ -2866,20 +3385,15 @@
     },
     {
       "slug": "wd-q11635443",
-      "file": "batch-059-fix-3.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "eef18ce9bfc6663ecf020b470ed8273a5d4b1488105b53c391a7930ddf9e3152",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11635443-c01",
@@ -2920,27 +3434,41 @@
           "quote": "愛媛県の赤坊主 南宇和郡城辺町の海で、ある老人が漁を終えて帰ろうとしたところ、海岸に灯りが見えた。老人が灯りへ近づくと、そこには赤坊主が灯りで照らしていた。老人は慌てて逃げ出したが、赤坊主は特に危害を加えることもなく、沖へ歩き去っていったという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11635443-c05",
+          "source_id": "wd-q11635443-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Uesugi Kenshin (上杉謙信), who became a monk at Rinsen-ji (林泉寺) in his youth, is said to have ordered his bravest retainer, Kojima Yatarō (\"Oni Kojima\"), to destroy it.",
+          "statement_id": "Konon Uesugi Kenshin (上杉謙信), yang di masa muda menjadi biksu di Rinsen-ji (林泉寺), memerintahkan prajuritnya yang paling berani, Kojima Yatarō (\"Oni Kojima\"), untuk membasminya.",
+          "quote": "據說年少時於林泉寺出家的上杉謙信命令旗下最勇猛的兒島彌太郎（通稱「鬼兒島」）前往消滅之。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11635443-c06",
+          "source_id": "wd-q11635443-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Its true nature was unknown, but it was taken as a good omen for the house; the yōkai researcher Tada Katsumi (多田克己) regards it as similar to the zashiki-warashi (座敷童子) of the Tōhoku region.",
+          "statement_id": "Wujud aslinya tidak diketahui, tetapi ia dianggap pertanda baik bagi rumah itu; peneliti yōkai Tada Katsumi (多田克己) menganggapnya mirip zashiki-warashi (座敷童子) dari wilayah Tōhoku.",
+          "quote": "雖然無法得失其真面目，但是被當作家中即將發生吉事的祥兆。。妖怪研究家・多田克己認為這是和東北地方流傳的座敷童子類似的妖怪。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "de06bf921217ed1694c31b6bb24f696c49ebc3bb6dd3d04febc9f9b2780a28fd"
+      "images": []
     },
     {
       "slug": "wd-q11642626",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "6282416805bbea6cf02ac7d8539ce8a29b1a44df3c72b35c5fb6b24620237f24",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11642626-c01",
@@ -2981,27 +3509,41 @@
           "quote": "あるとき2人の仲を妬んだ者が、夫に「お前の妻はいつも浮気をして遊び歩いている」と嘘を言った。夫は生き恥を晒すことを苦とし、識名川に身を投げた。やがて帰ってきた妻はそれを知り、自分も身を投げた。以来、識名坂から識名川へと、2つの遺念火が現れるようになったという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11642626-c05",
+          "source_id": "wd-q11642626-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "In Okinawa inen (遺念) means a ghost of the dead; inenbi often appear in pairs and some regard them as lovers who eloped or died together (殉情).",
+          "statement_id": "Kata inen (遺念) di Okinawa berarti arwah orang mati; inenbi sering muncul berpasangan dan sebagian orang menganggapnya pasangan kekasih yang kawin lari atau mati bersama (殉情).",
+          "quote": "遺念在沖繩有亡靈的意思。傳說遺念火經常以一對的方式出現，有人認為是私奔或殉情的情侣。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11642626-c06",
+          "source_id": "wd-q11642626-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "In Naha (那霸市), the inenbi is also called toji-machā-bī (トジ・マチャー・ビー); toji means housewife.",
+          "statement_id": "Di Naha (那霸市), inenbi juga disebut toji-machā-bī (トジ・マチャー・ビー); toji berarti ibu rumah tangga.",
+          "quote": "在那霸市，遺念火也被稱為トジ・マチャー・ビー（トジ有家庭主婦的意思）",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "468d38804a7761edf61a0f5fe4b50b3c8c24010939b2b175d2384f216f523aeb"
+      "images": []
     },
     {
       "slug": "wd-q11644370",
-      "file": "batch-059-fix-3.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "f4e682cef86c873abe12fd6f7d039b4c577886ab753beb0aaaee603e1b84f087",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11644370-c01",
@@ -3042,10 +3584,29 @@
           "quote": "その後、劉は酒が大嫌いになったが、次第に痩せ衰え、また貧乏になった。 はたして酒虫は本当に病気の元だったのか。実は福の神だったのではないか（芥川は第3の考えとして、酒は劉の人生そのものであり、劉から酒を取り除くのは死なすも同然だという解釈を挙げている）。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11644370-c05",
+          "source_id": "wd-q11644370-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The Liaozhai text: Liu (刘氏) of Changshan (长山) was fat and fond of drink; every time he drank alone he emptied a whole jar (一瓮). He owned 300 mu of fields near the city, half planted with millet (黍), and his family was so rich that drinking was no burden.",
+          "statement_id": "Teks Liaozhai: Liu (刘氏) dari Changshan (长山) bertubuh gemuk dan gemar minum; setiap minum sendirian ia menghabiskan satu tempayan (一瓮). Ia punya 300 mu sawah dekat kota yang separuhnya ditanami jewawut (黍), dan keluarganya kaya sehingga minumnya tidak menjadi beban.",
+          "quote": "长山刘氏，体肥嗜饮。每独酌，辄尽一瓮。负郭田三百亩，辄半种黍；而家豪富，不以饮为累也。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11644370-c06",
+          "source_id": "wd-q11644370-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "The author’s comment (异史氏) asks: drinking a whole shi a day did not harm his wealth, while not drinking at all only made him poorer; are eating and drinking then fated?",
+          "statement_id": "Komentar penulis (异史氏) bertanya: minum satu shi sehari tidak merugikan kekayaannya, sedangkan tidak minum sedikit pun malah membuatnya makin miskin, apakah makan dan minum memang sudah ditakdirkan?",
+          "quote": "异史氏曰：“日尽一石，无损其富；不饮一斗，适以益贫：岂饮啄固有数乎？",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "cf1605af337c4473a169d30f3cc775ed1ce3021ca6d05cfd97134d31e6f1a6d2"
+      "images": []
     },
     {
       "slug": "wd-q11647082",
@@ -3069,20 +3630,15 @@
     },
     {
       "slug": "wd-q11651537",
-      "file": "batch-059-fix-3.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "2286ec27688bd57b2369ed00c9eb505e09173d5299794a2d4f816f934ad887ba",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11651537-c01",
@@ -3123,27 +3679,41 @@
           "quote": "石燕は沓頬とおなじ見開きに長冠を描いており、この2体は中国のことわざ「瓜田に履（くつ）を入れず李下に冠（かんむり）を正さず」および、『徒然草』に冠（65段）と沓（66段）が登場することをモチーフにして創作されていると考えられている。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11651537-c05",
+          "source_id": "wd-q11651537-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Osakōburi (長冠) is a Japanese yōkai formed when a long-used court crown (冠) is inhabited by a soul.",
+          "statement_id": "Osakōburi (長冠) adalah yōkai Jepang yang terbentuk ketika mahkota resmi (冠) yang lama dipakai dirasuki jiwa.",
+          "quote": "長冠（おさこうぶり）是日本的妖怪，其是长期使用的日本的冠被魂所寄，而幻化的妖怪。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11651537-c06",
+          "source_id": "wd-q11651537-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "Because in old Japan the crown was an important sign of taking up or leaving office, it was said that evil yōkai possessed crowns to protect themselves.",
+          "statement_id": "Karena pada masa lalu mahkota menjadi tanda penting pengangkatan dan pengunduran pejabat, ada anggapan bahwa yōkai jahat merasuki mahkota untuk melindungi diri.",
+          "quote": "由于在旧时的日本，冠是任官辞官的重要标志，因此有邪恶的妖怪附身于冠以求自保的说法。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "57b79be6a9a10857640c694dd60825f22df9d5a75e585e44e8b8bf5b12f02255"
+      "images": []
     },
     {
       "slug": "wd-q11659013",
-      "file": "batch-059.md",
+      "file": "batch-059-fix-5.md",
+      "entry_sha256": "491bb35e06dfdf10d30d0056d89b9eec3f405bbd137219ad9094d751ae02864c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wd-q11659013-c01",
@@ -3184,10 +3754,39 @@
           "quote": "民俗学者・柳田國男の著書『遠野物語拾遺』では、油取りは紺の脚絆と手差しを身に着けた者で、これが現れると戦争が始まるとの記述が見られる。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "wd-q11659013-c05",
+          "source_id": "wd-q11659013-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "A legend in Kanuma, Tochigi Prefecture (栃木縣鹿沼市), tells of a creature that appears at dusk and abducts children who linger outside instead of going home.",
+          "statement_id": "Legenda di Kanuma, Prefektur Tochigi (栃木縣鹿沼市), menyebut makhluk yang muncul saat senja dan menculik anak yang berkeliaran dan tidak pulang.",
+          "quote": "流傳於栃木縣鹿沼市的傳說，黃昏時分會出現，擄走在外流連不返家的孩子的怪物。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11659013-c06",
+          "source_id": "wd-q11659013-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "According to a legend of Hirano-chō, Kobe, Hyōgo Prefecture (兵庫縣神戶市平野町), the kakushin-baba (隱身婆) hides in alley corners or dead ends waiting to abduct children playing hide-and-seek at dusk.",
+          "statement_id": "Menurut legenda di Hirano-chō, Kobe, Prefektur Hyōgo (兵庫縣神戶市平野町), kakushin-baba (隱身婆) bersembunyi di sudut gang atau jalan buntu menunggu anak yang bermain petak umpet saat senja untuk menculiknya.",
+          "quote": "依據流傳在兵庫縣神戶市平野町的傳說，隱身婆躲在胡同角落或死巷裡，專門等待傍晚玩捉迷藏的孩子，伺機下手擄走。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q11659013-c07",
+          "source_id": "wd-q11659013-s2",
+          "host": "zh.wikipedia.org",
+          "statement": "In Wakayama Prefecture (和歌山縣) there is a yōkai that abducts children still out at dusk and takes their livers for medicine.",
+          "statement_id": "Di Prefektur Wakayama (和歌山縣) ada yōkai yang menculik anak yang belum pulang saat senja dan mengambil hatinya untuk obat.",
+          "quote": "和歌山縣流傳的妖怪，擄走黃昏時分還在外不返家的孩子，取肝作為藥材。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "93c0f8292f01d9d6033654847d17fb584222ce2c63a0ee0a829bc2efb60f6bdd"
+      "images": []
     },
     {
       "slug": "wd-q11665816",
