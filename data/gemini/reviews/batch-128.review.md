@@ -1,6 +1,6 @@
 # Review batch-128
 
-Diperiksa 2026-10-06T14:11:59.820Z. Berkas: batch-128.md, batch-128-fix-1.md, batch-128-fix-2.md.
+Diperiksa 2026-10-08T10:03:11.652Z. Berkas: batch-128.md, batch-128-fix-1.md, batch-128-fix-2.md, batch-128-fix-3.md.
 
 ## succubus — lulus-otomatis
 
@@ -404,7 +404,7 @@ Klaim 8 (exact 8), sumber 3, gambar 0.
 
 ## amphiptere — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 3, gambar 0.
+Klaim 14 (exact 14), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -414,11 +414,19 @@ Klaim 6 (exact 6), sumber 3, gambar 0.
 | amphiptere-c04 | exact | de.wikipedia.org | According to the German article, in heraldry the amphitere is a snake with bird wings, later also shown with bat wings. | In der Heraldik ist die Amphitere eine Schlange mit Vogelflügeln. Später wird sie auch mit Fledermausflügeln dargestellt. |
 | amphiptere-c05 | exact | de.wikipedia.org | Amphitere legends are also known from Wales and Ireland, where they are often bringers of luck, unlike the destructive lindworms. | Legenden von Amphiteren sind auch aus Wales und Irland bekannt. In den Erzählungen gelten die Fabelwesen oft als Glücksbringer, anders als die ähnlichen Lindwürmer, die destruktiv sind. |
 | amphiptere-c06 | exact | ja.wikipedia.org | According to the Japanese article, the amphiptere is shown as a winged snake like the French guivre (vouivre), and such monsters were often painted on arms to threaten enemies in battle. | アンピプテラは翼の生えた蛇として表現され、フランスのギーヴル（ヴイーヴル）に似ている。アンピテプラやヴイーブルといった怪物は、戦場で敵に脅威を与え威嚇する意味もあって紋章にしばしば描かれていた。 |
+| amphiptere-c07 | exact | archive.org | The woods around a castle in Glamorgan had the reputation of being frequented by winged serpents, the terror of old and young alike. | The woods around Penllyne Castle, Glamorgan, had the repu- tation of being frequented by winged serpents, and these were the terror of old and young alike. |
+| amphiptere-c08 | exact | archive.org | An aged inhabitant of Penllyne said that in his boyhood the winged serpents were described as very beautiful. | An aged inhabitant of Penllyne, who died a few years ago, said that in his boyhood the winged serpents were described as very beautiful. |
+| amphiptere-c09 | exact | archive.org | When angry, the winged serpents flew over people's heads with bright outspread wings, sometimes with eyes like the feathers in a peacock's tail. | flew over people's heads, with outspread wings bright, and sometimes with eyes, too, like the feathers in a peacock's tail. |
+| amphiptere-c10 | exact | archive.org | The speaker's father and uncles had killed some of them because they were "as bad as foxes for poultry". | father and uncles had killed some of them, for they were " as bad as foxes for poultry. |
+| amphiptere-c11 | exact | archive.org | An old woman often heard people talking about the ravages of the winged serpents around Penmark Place, Glamorgan. | An old woman, whose parents in her early childhood took her to visit Penmark Place, Glamorgan, said she often heard the people talking about the ravages of the winged serpents in that neighbourhood. |
+| amphiptere-c12 | exact | archive.org | In one account men shot a winged serpent, which fell wounded, then rose and attacked the speaker's uncle, beating him with its wings. | Then they shot at it, and the creature fell wounded, only to rise and attack my uncle, beating him about her head with its wings. |
+| amphiptere-c13 | exact | archive.org | A fierce fight ensued between the men and the winged serpent, which was at last killed. | She said a fierce fight ensued between the men and the serpent, which was at last killed. |
+| amphiptere-c14 | exact | archive.org | The old people said that wherever winged serpents were to be seen, buried money or something of value was sure to be near at hand. | wherever winged serpents were to be seen, there ** was sure to be buried money or something of value " near at hand. |
 
 
 ## biscione — lulus-otomatis
 
-Klaim 8 (exact 8), sumber 3, gambar 0.
+Klaim 17 (exact 17), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -430,6 +438,15 @@ Klaim 8 (exact 8), sumber 3, gambar 0.
 | biscione-c06 | exact | en.wikipedia.org | The logo of the car maker Alfa Romeo, founded in Milan in 1910 and nicknamed the Casa del Biscione, shows the flag of Milan and the biscione. | The logo of automobile manufacturer Alfa Romeo (also known as the Casa del Biscione, Italian for "House of the Biscione" or "Biscione['s] marque"), established in Milan in 1910, features the flag of Milan and the biscione as the city's symbol. |
 | biscione-c07 | exact | de.wikipedia.org | According to the German article, besides many Italian towns the biscione appears in the arms of Dachau, Pružany, Dłutów and Sanok. | Neben zahlreichen italienischen Gemeinden findet sich der Biscione auch in den Stadtwappen von Dachau, Pružany, Dłutów und Sanok. |
 | biscione-c08 | exact | es.wikipedia.org | By a tradition recorded by Galvano Fiamma, Ottone Visconti won the viper emblem by defeating in a duel a Saracen who bore it, devouring a man, on shield and helm. | Según una tradición recogida por Galvano Fiamma, Ottone Visconti habría conquistado la insignia de la víbora tras vencer en duelo a un sarraceno que la llevaba como arma, representada devorando a un hombre tanto en el escudo como sobre el yelmo. |
+| biscione-c09 | exact | expo-animal-et-imaginaires.edel.univ-poitiers.fr | In the Boniface legend, while he was away on crusade against the Muslims, a "serpent of marvellous size" terrorised Lombardy and killed his son. | Dans ses Mémoires datant de la fin du XVe siècle, Olivier de La Marche décrit l'aventure de Boniface, comte de Pavie marié à l'héritière de Milan. Alors qu'il était parti en croisade contre les Musulmans, un « serpent de merveilleuse grandeur » terrorisa la Lombardie et tua son fils. |
+| biscione-c10 | exact | expo-animal-et-imaginaires.edel.univ-poitiers.fr | Boniface returned and found the beast carrying a child in its jaws; after a fierce fight in which the serpent's severed head rejoined itself, the knight finally killed it. | Une fois revenu, Boniface retrouva cette « beste » qui emportait alors un enfant dans sa gueule. Après un combat acharné au cours duquel la tête du serpent se renouait une fois coupée, le chevalier finit par tuer l'animal. |
+| biscione-c11 | exact | expo-animal-et-imaginaires.edel.univ-poitiers.fr | In this legend, the knight's children took the emblem of a serpent with a child in its mouth in memory of the fight. | C'est en la mémoire de ce combat que ses enfants prirent l'emblème d'un serpent avec un enfant dans sa gueule. |
+| biscione-c12 | exact | expo-animal-et-imaginaires.edel.univ-poitiers.fr | In another legend, Othon, viscount of Milan, fought at the siege of Jerusalem a formidable Saracen giant named Volux, who wore on his helmet a crest of a serpent devouring a child to frighten his enemies. | Othon, vicomte de Milan, aurait, pendant le siège de Jérusalem, combattu un redoutable Sarrasin, un géant nommé Volux. Ce dernier portait sur son casque un cimier représentant un serpent dévorant un enfant, afin d'effrayer ses ennemis. |
+| biscione-c13 | exact | expo-animal-et-imaginaires.edel.univ-poitiers.fr | In a third tale, the knight Azo, tired of war, took off his helmet to lie down; while he slept a serpent slid inside, and when he put it back on unawares the serpent fell down along his cheek without trying to bite him. | Un jour, le chevalier Azo, fatigué de la guerre, voulant se reposer, ôta son casque pour s'allonger sur le sol. Mais alors qu'il dort, un serpent se glisse à l'intérieur. Sans se rendre compte de la présence de l'animal, il remet son casque sur sa tête et le serpent retombe le long de sa joue sans chercher à le mordre. |
+| biscione-c14 | exact | expo-animal-et-imaginaires.edel.univ-poitiers.fr | The exhibition author concludes the serpent of Milan was shown as a real animal, an imaginary animal or an emblematic animal, and in all three cases its negative and dangerous aspect remains present. | Le serpent de Milan a donc été représenté de manières différentes, soit en animal réel, en animal imaginaire ou en animal emblématique. Dans les trois cas, son aspect négatif et dangereux reste toujours présent. |
+| biscione-c15 | exact | it.wikipedia.org | Tarantasio, the dragon of Lake Gerundo, was believed to devour children, destroy boats and foul the air with its pestilential breath, causing a strange disease called yellow fever. | Tarantasio è il nome di un drago leggendario che terrorizzava gli abitanti dell'antico e ipotetico lago Gerundo (poi prosciugato, secondo la leggenda), nella zona di Lodi, in Lombardia. Si riteneva che questo animale mitologico divorasse i bambini, distruggesse le imbarcazioni e ammorbasse l'aria con il suo fiato pestilenziale, causando una strana malattia denominata febbre gialla. |
+| biscione-c16 | exact | it.wikipedia.org | Tarantasio is a legendary dragon that terrorised the inhabitants of the ancient, hypothetical Lake Gerundo in the Lodi area of Lombardy. | Tarantasio è il nome di un drago leggendario che terrorizzava gli abitanti dell'antico e ipotetico lago Gerundo (poi prosciugato, secondo la leggenda), nella zona di Lodi, in Lombardia. |
+| biscione-c17 | exact | it.wikipedia.org | One tradition has the founder of the Visconti slay the dragon and adopt the defeated creature, the biscione with a child in its mouth, as his emblem. | La più suggestiva riguarda l'uccisione del drago da parte del capostipite dei Visconti, il quale avrebbe poi adottato come simbolo la creatura sconfitta, ovvero il biscione con il bambino in bocca. |
 
 
 ## sea-monk — lulus-otomatis

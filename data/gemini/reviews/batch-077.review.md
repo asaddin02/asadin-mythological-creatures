@@ -1,6 +1,6 @@
 # Review batch-077
 
-Diperiksa 2026-10-07T09:36:21.734Z. Berkas: batch-077.md, batch-077-fix-1.md, batch-077-fix-2.md.
+Diperiksa 2026-10-08T10:03:09.034Z. Berkas: batch-077.md, batch-077-fix-1.md, batch-077-fix-2.md, batch-077-fix-3.md.
 
 ## ptah — lulus-otomatis
 
@@ -264,7 +264,7 @@ Klaim 15 (exact 15), sumber 3, gambar 0.
 
 ## apophis — lulus-otomatis
 
-Klaim 15 (exact 15), sumber 3, gambar 0.
+Klaim 25 (exact 25), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -280,9 +280,19 @@ Klaim 15 (exact 15), sumber 3, gambar 0.
 | apophis-c10 | exact | en.wikipedia.org | Priestly prayers and rituals aim to ensure Ra’s victory each night. | Ra's victory each night was thought to be ensured by the prayers of the Egyptian priests and worshippers at temples. The Egyptians practiced a number of rituals and superstitions that were thought to ward off Apophis and to aid Ra in continuing his journey across the sky. |
 | apophis-c11 | exact | www.worldhistory.org | The justified dead help Ra confront Apep. | Gods and the justified dead would help Ra fend the serprent off. |
 | apophis-c12 | exact | www.worldhistory.org | The temple ritual Overthrowing of Apophis aims to protect the solar barque. | The ritual known as Overthrowing of Apophis was performed in temples to help the gods and departed souls protect the barge and ensure the coming of day. |
-| apophis-c13 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | In Budge’s account, Ra attacks Apep with fiery darts. | the fiery darts which he discharged into the body of =Apep scorched and burnt him up |
-| apophis-c14 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Apep’s attendants are also destroyed by fire. | the fiends that were in attendance upon this terrible foe were also destroyed by fire |
-| apophis-c15 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Budge reads that struggle as an image of the daily conflict between light and darkness. | it represented originally the fight which was supposed to go on daily between light and darkness. |
+| apophis-c13 | exact | www.gutenberg.org | In Budge’s account, Ra attacks Apep with fiery darts. | the fiery darts which he discharged into the body of =Apep scorched and burnt him up |
+| apophis-c14 | exact | www.gutenberg.org | Apep’s attendants are also destroyed by fire. | the fiends that were in attendance upon this terrible foe were also destroyed by fire |
+| apophis-c15 | exact | www.gutenberg.org | Budge reads that struggle as an image of the daily conflict between light and darkness. | it represented originally the fight which was supposed to go on daily between light and darkness. |
+| apophis-c16 | exact | www.worldhistory.org | As the solar barge sailed through the darkness, Apophis attacked it, seeking to kill Ra and prevent sunrise. | As it sailed through the darkness, it was attacked by Apophis who sought to kill Ra and prevent sunrise. |
+| apophis-c17 | exact | www.worldhistory.org | Apophis became the sun god's enemy because the sun was the first sign of the created world and symbolized divine order, light and life; if he could swallow the sun god, he could return the world to a unity of darkness. | Apophis became the enemy of the sun god because the sun was the first sign of the created world and symbolized divine order, light, life, and if he could swallow the sun god, he could return the world to a unity of darkness. |
+| apophis-c18 | exact | www.worldhistory.org | Apophis is associated with earthquakes, thunder, darkness, storms and death, and is sometimes linked to the god Set. | Apophis is associated with earthquakes, thunder, darkness, storms, and death, and is sometimes linked to the god Set |
+| apophis-c19 | exact | www.worldhistory.org | However many times Apophis was defeated and killed, he always rose again and attacked the sun god's boat; the most powerful gods and goddesses defeated the serpent in the course of every night. | No matter how many times Apophis was defeated and killed, he always rose again to life and attacked the sun god's boat. The most powerful gods and goddesses would defeat the serpent in the course of every night |
+| apophis-c20 | exact | www.worldhistory.org | In the Book of Gates, goddesses capture Apophis and restrain him in nets held down by monkeys, the sons of Horus and the earth god Geb, and he is chopped into pieces; the next night the serpent is whole again. | capture Apophis and restrain him in nets held down by monkeys, the sons of Horus, and the great earth god Geb, where he is then chopped into pieces; the next night, though, the serpent is whole again |
+| apophis-c21 | exact | www.worldhistory.org | Cloudy days or storms were signs that Apophis was gaining ground, and solar eclipses were times of terror for the Egyptians, interpreted as a sign of Ra's demise. | Cloudy days or storms were signs that Apophis was gaining ground, and solar eclipses were particular times of terror for the Egyptians, as they were interpreted as a sign of Ra's demise. |
+| apophis-c22 | exact | www.worldhistory.org | According to the article, Apophis represented everything the Egyptians feared: darkness, oblivion and the loss of one's identity. | Apophis, then, represented everything the Egyptians feared: darkness, oblivion, and the loss of one's identity. |
+| apophis-c23 | exact | en.wikipedia.org | His terrifying roar was thought to make the underworld rumble. | It was thought that his terrifying roar would cause the underworld to rumble. |
+| apophis-c24 | exact | en.wikipedia.org | Priests would build an effigy of Apophis thought to contain all the evil and darkness in Egypt and burn it to protect everyone from Apophis' evil for another year. | priests would build an effigy of Apophis that was thought to contain all of the evil and darkness in Egypt, and burn it to protect everyone from Apophis' evil for another year. |
+| apophis-c25 | exact | en.wikipedia.org | Because Apophis was thought to live in the underworld, he was sometimes called an Eater of Souls, so the dead also needed protection and were sometimes buried with spells that could destroy Apophis. | As Apophis was thought to live in the underworld, he was sometimes thought of as an Eater of Souls. Thus the dead also needed protection, so they were sometimes buried with spells that could destroy Apophis |
 
 
 ## khonsu — lulus-otomatis
@@ -540,7 +550,7 @@ Klaim 15 (exact 14, loose 1), sumber 4, gambar 0.
 
 ## tefnut — lulus-otomatis
 
-Klaim 37 (exact 37), sumber 6, gambar 0.
+Klaim 49 (exact 49), sumber 8, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -581,6 +591,18 @@ Klaim 37 (exact 37), sumber 6, gambar 0.
 | tefnut-c35 | exact | www.gutenberg.org | In a spell translated by Budge, the person addressed is told that his right eye is like Shu and his left eye like Tefnut, who are the children of Ra. | Thy right eye is like Shu, and thy left eye like Tefnut, who are the children of Ra. |
 | tefnut-c36 | exact | www.gutenberg.org | Budge writes that Temu transferred the magical power of his life to Shu and Tefnut by embracing them. | Thus Temu transferred the magical power of his life to Shu and Tefnut by embracing them |
 | tefnut-c37 | exact | en.wikipedia.org | During the 18th and 19th Dynasties, particularly during the Amarna Period, Tefnut was depicted in human form wearing a low flat headdress topped with sprouting plants. | During the 18th and 19th Dynasties, particularly during the Amarna Period, Tefnut was depicted in human form wearing a low flat headdress, topped with sprouting plants. |
+| tefnut-c38 | exact | en.wikipedia.org | The eye's violent aspect defends Ra against the agents of disorder that threaten his rule. | The eye's violent aspect defends Ra against the agents of disorder that threaten his rule. |
+| tefnut-c39 | exact | en.wikipedia.org | The disastrous fury and rampages of the eye goddess, and the gods' efforts to appease her, are a prominent motif in Egyptian mythology. | The disastrous fury and rampages of the eye goddess and the efforts of the gods to appease her are a prominent motif in Egyptian mythology. |
+| tefnut-c40 | exact | en.wikipedia.org | In the Distant Goddess myth, with the solar eye gone Ra is vulnerable to his enemies and loses a large part of his power; the eye's absence and Ra's weakened state may refer to solar eclipses. | With the solar eye gone, Ra is vulnerable to his enemies and bereft of a large part of his power. The eye's absence and Ra's weakened state may be a mythological reference to solar eclipses. |
+| tefnut-c41 | exact | en.wikipedia.org | Meanwhile the eye wanders in a distant land (Nubia, Libya or Punt) in the form of a wild feline, as dangerous and uncontrolled as the forces of chaos she is meant to subdue. | Meanwhile, the eye wanders in a distant land—Nubia, Libya, or Punt. She takes the form of a wild feline, as dangerous and uncontrolled as the forces of chaos that she is meant to subdue. |
+| tefnut-c42 | exact | en.wikipedia.org | In some accounts it is Shu who searches for Tefnut, who in this case represents the eye rather than an independent deity. | In other accounts, it is Shu who searches for Tefnut, who in this case represents the eye rather than an independent deity. |
+| tefnut-c43 | exact | en.wikipedia.org | When the goddess is at last placated, the retrieving god escorts her back to Egypt; her return marks the beginning of the inundation and the new year. | When the goddess is at last placated, the retrieving god escorts her back to Egypt. Her return marks the beginning of the inundation and the new year. |
+| tefnut-c44 | exact | en.wikipedia.org | Tefnut and Shu once argued and Tefnut left Egypt for Nubia; Shu soon missed her, but she changed into a cat that destroyed any man or god that approached, until Thoth, disguised, eventually convinced her to return. | Tefnut and Shu once argued, and Tefnut left Egypt for Nubia (which was always more temperate). It was said that Shu quickly decided that he missed her, but she changed into a cat that destroyed any man or god that approached. Thoth, disguised, eventually succeeded in convincing her to return. |
+| tefnut-c45 | exact | en.wikipedia.org | In the earlier Pyramid Texts she is said to produce pure waters. | In the earlier Pyramid Texts she is said to produce pure waters from her vagina. |
+| tefnut-c46 | exact | en.wikipedia.org | At Heliopolis, Tefnut was one of the members of that city's great Ennead and is mentioned in connection with the purification of the wabet priest in the temple rite. | At Heliopolis, Tefnut was one of the members of that city's great Ennead, and is referred to in relation to the purification of the wabet (priest) as part of the temple rite. |
+| tefnut-c47 | exact | www.gutenberg.org | According to Budge, originally these gods personified air and dryness and liquids respectively; with their creation the materials for building the atmosphere and sky came into being. | Originally these gods were the personifications of air and dryness, and liquids respectively; thus with their creation the materials for the construction of the atmosphere and sky came into being. |
+| tefnut-c48 | exact | www.gutenberg.org | In the creation legend translated by Budge, Shu and Tefnut rejoiced and brought the creator his Eye (the Sun); afterwards he wept, and men and women sprang into being from the tears that came from his Eye. | Then Shu and Tefnut rejoiced ... and they brought to me my Eye (i.e., the Sun). Now after these things I gathered together my members, and I wept over them, and men and women sprang into being from the tears which came forth from my Eye. |
+| tefnut-c49 | exact | www.worldhistory.org | According to World History Encyclopedia, Atum (Ra) sent his children Shu and Tefnut out to create the world; when they returned he shed tears of joy that became human beings, who had nowhere to live, so Shu and Tefnut gave birth to Geb (earth) and Nut (sky). | Atum (Ra) sent his children Shu and Tefnut out to create the world. When they returned, he was so happy he shed tears of joy which became human beings. These creatures had nowhere to live and so Shu and Tefnut mated to give birth to Geb (earth) and Nut (sky). |
 
 
 ## ammit — lulus-otomatis

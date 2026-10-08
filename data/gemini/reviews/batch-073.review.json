@@ -1,13 +1,14 @@
 {
   "batch_id": "batch-073",
-  "checked_at": "2026-10-07T09:31:01.636Z",
+  "checked_at": "2026-10-08T10:19:36.691Z",
   "files": [
     "batch-073.md",
     "batch-073-fix-1.md",
     "batch-073-fix-2.md",
     "batch-073-fix-3.md",
     "batch-073-fix-4.md",
-    "batch-073-fix-5.md"
+    "batch-073-fix-5.md",
+    "batch-073-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2003,11 +2004,12 @@
     },
     {
       "slug": "vahana",
-      "file": "batch-073.md",
+      "file": "batch-073-fix-6.md",
+      "entry_sha256": "17782754011f83b574ca28a0f062a9789d19d9e87cf51d51e7f6bf3f0f1e480d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 19,
+        "sources": 3,
         "images": 0
       },
       "issues": [],
@@ -2070,13 +2072,140 @@
           "statement_id": "Dalam retelling Mackenzie, gajah putih Airavata menjadi tunggangan Indra.",
           "quote": "Indra was attended by a dog, as befitted a deity of[Pg 18]\r\nprimitive huntsmen. After the early Aryan period, he\r\nshowed less favour for his bays and chariot, and seated\r\nhimself upon a great white elephant, “the handsome and\r\never victorious”, named Airavata; it “was furnished with\r\nfour tusks” and “resembled the mountain of Kailasa with\r\nits summits”.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260929185200id_/https://www.gutenberg.org/cache/epub/47228/pg47228-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
+        },
+        {
+          "id": "vahana-c07",
+          "source_id": "vahana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The vahana symbolically doubles as the deity's power, and also represents the devotee's mind, which the deity controls and guides.",
+          "statement_id": "Wahana secara simbolis menjadi kembaran kuasa sang dewa, dan juga melambangkan pikiran pemuja yang dikendalikan dan dibimbing sang dewa.",
+          "quote": "The vahana symbolically doubles as a deity's power. The vahana also represents the devotee's mind, which the deity controls and guides.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "vahana-c08",
+          "source_id": "vahana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A vahana may act independently, yet it is functionally emblematic of, or viewed as an extension of, its \"rider\".",
+          "statement_id": "Wahana dapat bertindak mandiri, tetapi secara fungsional dianggap lambang atau perpanjangan dari \"penunggangnya\".",
+          "quote": "though the vāhana may act independently, they are still functionally emblematic of or even viewed as an extension of their",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "vahana-c09",
+          "source_id": "vahana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Mahabharata episode quoted in the article, Garuda goes for the pot of amrita; the Devas, Indra, even the Sun and Moon line up against him, but he defeats them all.",
+          "statement_id": "Dalam kisah Mahabharata yang dikutip artikel ini, Garuda merebut kendi amrita: para Dewa, Indra, bahkan Matahari dan Bulan melawannya, tetapi ia mengalahkan mereka semua.",
+          "quote": "Garuḍa approached the pot of nectar, and Viśvakarmā who attacked him first was felled to the ground. The dust storm raised by the waving of Garuḍa’s wings blinded everybody. The Devas and Indra, nay, even the sun and the Moon lined up against Garuḍa, but he defeated them all",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vahana-c10",
+          "source_id": "vahana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "At his request, Vishnu granted that Garuda become his vehicle and be rendered immortal without tasting amrita.",
+          "statement_id": "Atas permintaannya, Wisnu mengabulkan agar Garuda menjadi wahananya dan abadi tanpa mencicipi amrita.",
+          "quote": "Garuḍa requested Viṣṇu that he should be made his (Viṣṇu's) vehicle and rendered immortal without his tasting amṛta. Both the boons were granted.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vahana-c11",
+          "source_id": "vahana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A giant mouse terrorized the child Ganesha's friends; Ganesha trapped it with his lasso and made it his mount.",
+          "statement_id": "Seekor tikus raksasa meneror teman-teman Ganesha yang masih kecil; Ganesha menjeratnya dengan laso dan menjadikannya tunggangan.",
+          "quote": "While Ganesha was still a child, a giant mouse began to terrorize his friends. Ganesha trapped the creature with his lasso (pasha) and made him his mount.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vahana-c12",
+          "source_id": "vahana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The peacock Paravani, Kartikeya's mount, was originally the demon Surapadma, and the rooster on his banner was originally the demon Krichi.",
+          "statement_id": "Merak wahana Kartikeya, Paravani, dahulu adalah iblis Surapadma, dan ayam jantan pada panjinya dahulu adalah iblis Krichi.",
+          "quote": "This peacock was originally a demon named Surapadma, while his banner's rooster was originally a demon named Krichi.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vahana-c13",
+          "source_id": "vahana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A statue of Nandi guards the entrance of virtually every Shiva temple, perpetually facing the inner shrine.",
+          "statement_id": "Patung Nandi menjaga pintu masuk hampir setiap kuil Siwa, menghadap ke bilik suci.",
+          "quote": "Since then a statue of Nandi has guarded the entrance of virtually every Shiva temple, perpetually facing the inner shrine.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vahana-c14",
+          "source_id": "vahana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Goddess Durga defeated the demon Mahishasura without the help of her vahana, a lion given to her by her father Himalaya.",
+          "statement_id": "Dewi Durga mengalahkan iblis Mahishasura tanpa bantuan wahananya, singa pemberian ayahnya Himalaya.",
+          "quote": "Goddess Durga defeated the demon Mahishasura without the help of her vahana, lion given to her by her father Himalaya.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vahana-c15",
+          "source_id": "vahana-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Garuda, Vishnu's vehicle, is the enemy of all snakes, which are symbolic of death and the underworld.",
+          "statement_id": "Garuda, wahana Wisnu, dikenal sebagai musuh semua ular, yang melambangkan kematian dan dunia bawah.",
+          "quote": "The latter name is in reference to his role as the enemy of all snakes which are symbolic of death and the underworld.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "vahana-c16",
+          "source_id": "vahana-s3",
+          "host": "www.worldhistory.org",
+          "statement": "In the Mahabharata Garuda eats evil men; once he swallowed a brahmana and his wife but had to spit them out because the priest burned his throat.",
+          "statement_id": "Dalam Mahabharata, Garuda memakan orang jahat; ia pernah menelan seorang brahmana dan istrinya, tetapi terpaksa memuntahkan mereka karena kerongkongannya terbakar.",
+          "quote": "In the Mahabharata Garuda eats evil men. In one episode he swallowed a brahmana and his wife but the priest burned Garuda's throat so much that he was compelled to spit the couple out.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vahana-c17",
+          "source_id": "vahana-s3",
+          "host": "www.worldhistory.org",
+          "statement": "In the Bhagavata Purana Garuda attacks the many-headed snake Kaliya, hitting him with his wings so hard that Kaliya hides in a pool of the Kalindi River.",
+          "statement_id": "Dalam Bhagavata Purana, Garuda menyerang ular berkepala banyak Kaliya dan memukulnya dengan sayap hingga Kaliya bersembunyi di kolam Sungai Kalindi.",
+          "quote": "In the Bhagavata Purana a legend is told where Garuda fights the fearsome many-headed snake Kaliya. ... Garuda attacked Kaliya, hitting him so hard with his wings that Kaliya hid in a pool of the Kalindi River.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vahana-c18",
+          "source_id": "vahana-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Indra soon found out and, unconvinced by Garuda's motive that he needed the amrta as a ransom to free his mother from Kadru, fought the giant bird in an epic battle; Indra lost his thunderbolt but eventually retrieved the amrta.",
+          "statement_id": "Indra segera mengetahuinya dan, tidak yakin dengan alasan Garuda bahwa amrita itu diperlukan sebagai tebusan untuk membebaskan ibunya dari cengkeraman Kadru, melawan burung raksasa itu dalam pertempuran besar; Indra kehilangan petirnya, tetapi akhirnya berhasil merebut kembali amrita.",
+          "quote": "Indra soon found out and, unconvinced by Garuda's motive that he needed the amrta as a ransom to free his mother from the clutches of Kadru, fought the giant bird in an epic battle. Mighty Indra lost his famous thunderbolt in the clash but eventually managed to retrieve the amrta.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vahana-c19",
+          "source_id": "vahana-s3",
+          "host": "www.worldhistory.org",
+          "statement": "As king of the birds, Garuda threatened the Ocean that he would attack it incessantly if the sparrow's eggs were not given back; the Ocean relented and returned the eggs.",
+          "statement_id": "Sebagai raja burung, Garuda mengancam Samudra akan menyerangnya terus-menerus bila telur burung gereja itu tidak dikembalikan; Samudra mengalah dan mengembalikan telur-telur itu.",
+          "quote": "Garuda who, as king of the birds, felt sympathy and threatened the Ocean that if the eggs were not given back then Garuda himself would incessantly attack the Ocean. Ocean relented and returned the eggs to the ever grateful sparrow.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8f9911bd06c0871756bb25ba568b8aca59f535666aa4f6d427d952297b1d183a"
+      "images": []
     },
     {
       "slug": "indrajit",
@@ -2889,12 +3018,12 @@
     },
     {
       "slug": "gana",
-      "file": "batch-073-fix-5.md",
-      "entry_sha256": "87e4c22f501e7481ed5b6a9d1faf7483059ac4749d4eee582b327e5d06610950",
+      "file": "batch-073-fix-6.md",
+      "entry_sha256": "ecbc9e5f482fc9f97a2e191d1a2d8d6aadb997097c68145ca2e74aa70df9e65a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 4,
+        "claims": 23,
+        "sources": 8,
         "images": 0
       },
       "issues": [],
@@ -3053,6 +3182,86 @@
           "statement_id": "Glosarium Wisdom Library menyebut gana sebagai pasukan yang umumnya muncul dalam golongan, sembilan golongan disebut dalam Purana, yang terikat pada Shiva dan berada di bawah komando Ganesha, bermukim di Ganaparvata yang diidentifikasi dengan Kailasa.",
           "quote": "Gaṇas are troops who generally appear in classes. Nine such classes are mentioned in the Purāṇas: ... These are attached to Lord Śiva and serve under the command of Gaṇeśa, dwelling on Gaṇaparvata identified with Kailāsa—a peak of the Himālaya mountain.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gana-c17",
+          "source_id": "gana-s5",
+          "host": "www.wisdomlib.org",
+          "statement": "In the Shiva Purana Shiva's Ganas call themselves \"the excellent Ganas of Shiva\", his doorkeepers, who have come at Shiva's bidding to throw Ganesha out.",
+          "statement_id": "Dalam Shiva Purana para Gana Siwa menyebut diri \"Gana Siwa yang terkemuka\", penjaga pintunya, yang datang atas perintah Siwa untuk mengusir Ganesha.",
+          "quote": "We are the excellent Gaṇas of Śiva. We are his doorkeepers. We have come here to throw you out at the bidding of lord Śiva.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gana-c18",
+          "source_id": "gana-s6",
+          "host": "www.wisdomlib.org",
+          "statement": "Thousands of Shiva's Ganas flee in all directions like deer on seeing a lion, and Ganesha returns to the doorway and stands there.",
+          "statement_id": "Ribuan Gana Siwa lari ke segala arah seperti rusa melihat singa, lalu Ganesha kembali ke pintu dan berdiri di sana.",
+          "quote": "Just as deer flee to any direction on seeing a lion, the Gaṇas, who were thousands in number fled in that manner. Then Gaṇeśa returned to doorway and stood there.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gana-c19",
+          "source_id": "gana-s6",
+          "host": "www.wisdomlib.org",
+          "statement": "Shiva says the boy at his door has destroyed many of his attendants and forcefully defeated his Ganas.",
+          "statement_id": "Siwa berkata bahwa anak penjaga pintu itu telah menghancurkan banyak pengiringnya dan mengalahkan para Gananya dengan kekuatan.",
+          "quote": "He has destroyed many of my Pārṣadas. He has forcefully defeated my Gaṇas.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gana-c20",
+          "source_id": "gana-s6",
+          "host": "www.wisdomlib.org",
+          "statement": "Shiva issues directives to Indra and other gods, to the Ganas led by the six-faced Kumara, and to goblins, ghosts and spirits; at his bidding they all desire to kill Ganesha.",
+          "statement_id": "Siwa memerintahkan Indra dan dewa-dewa lain, para Gana yang dipimpin Kumara berwajah enam, serta goblin, hantu, dan roh; atas perintah Siwa mereka semua ingin membunuh Ganesha.",
+          "quote": "He issued directives to Indra and other gods, to the Gaṇas led by the six-faced Kumāra and to goblins, ghosts and spirits. ... At the bidding of Śiva they all desired to kill Gaṇeśa.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gana-c21",
+          "source_id": "gana-s7",
+          "host": "www.wisdomlib.org",
+          "statement": "To destroy Daksha's sacrifice Shiva sends crores of valorous Ganas, equal to the fire of dissolution.",
+          "statement_id": "Untuk menghancurkan yajna Daksha, Siwa mengirim berkoti-koti Gana yang gagah berani, setara dengan api peleburan.",
+          "quote": "To add lustre to the campaign, Śiva sent crores of Gaṇas, very valorous and equal to the fire of dissolution.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gana-c22",
+          "source_id": "gana-s7",
+          "host": "www.wisdomlib.org",
+          "statement": "At Shiva's bidding Virabhadra advances followed by crores and crores, thousands and thousands, hundreds and hundreds of Ganas.",
+          "statement_id": "Atas perintah Siwa, Virabhadra berangkat diikuti berkoti-koti, beribu-ribu, dan beratus-ratus Gana.",
+          "quote": "Thus at the bidding of Śiva, the heroic Vīrabhadra went ahead followed by crores and crores, thousands and thousands, hundreds and hundreds of Gaṇas.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gana-c23",
+          "source_id": "gana-s8",
+          "host": "www.wisdomlib.org",
+          "statement": "The guardians of the quarters including Indra fight fiercely with Virabhadra's Ganas; Indra fights Nandin and Kubera fights Kushmandapati.",
+          "statement_id": "Para penjaga penjuru termasuk Indra bertarung sengit dengan para Gana Virabhadra; Indra melawan Nandin dan Kubera melawan Kushmandapati.",
+          "quote": "The guardians of the quarters including Indra roared like lions and fought forcefully with the Gaṇas of Vīrabhadra. 6. A noisy terrible fight ensued between the Gaṇas and the guardians of the quarters, both roaring like lions. 7. Indra fought with Nandin; the fire-god with Aśman and the powerful Kubera fought with Kūṣmāṇḍapati.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gana-c24",
+          "source_id": "gana-s8",
+          "host": "www.wisdomlib.org",
+          "statement": "A great voice makes Vishnu realize that the great Ganas are invincible, and he thinks of vanishing from the scene.",
+          "statement_id": "Sebuah suara agung menyadarkan Wisnu bahwa para Gana yang agung tak terkalahkan, sehingga ia berpikir untuk menghilang dari medan itu.",
+          "quote": "Viṣṇu was enlightened by the great voice that the great Gaṇas were invincible. He therefore thought of vanishing from the scene.",
+          "context": "religious-tradition",
           "status": "exact"
         }
       ],
@@ -3453,12 +3662,12 @@
     },
     {
       "slug": "apasmara",
-      "file": "batch-073-fix-5.md",
-      "entry_sha256": "ca6653135352685debfeb1b72d34ef7682ab2fa9b7c479de4054debcdc437241",
+      "file": "batch-073-fix-6.md",
+      "entry_sha256": "7dfee3e6a424ef38f058b72cf3db7ac5c1cdb2f249beedfbeac631fbf009ec26",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 17,
-        "sources": 4,
+        "claims": 23,
+        "sources": 8,
         "images": 0
       },
       "issues": [],
@@ -3630,6 +3839,66 @@
           "statement": "On the Nataraja sculpture at the temple of Lokeshvara, according to a study quoted by Wisdom Library, Apasmara wears a dhoti, his face is lifted up to the left of Shiva, and he has a small horn.",
           "statement_id": "Pada arca Nataraja di pura Lokeshvara, menurut kajian yang dikutip Wisdom Library, Apasmara berpakaian dhoti, wajahnya terangkat di sebelah kiri Shiva, dan ia bertanduk kecil.",
           "quote": "Apasmāra is clad with a dhotī with kacce clearly traceable. His face is to the left of Śiva, lifted up, and he has a small horn.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c18",
+          "source_id": "apasmara-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In the Thillai legend the sages gathered all their spiritual strength and invoked the powerful demon Muyalakan, a symbol of complete arrogance and ignorance; Shiva stepped on his back to immobilise him.",
+          "statement_id": "Menurut legenda Thillai, para resi mengerahkan seluruh kekuatan rohani mereka dan memanggil iblis perkasa Muyalakan, lambang kesombongan dan ketidaktahuan; Siwa menginjak punggungnya untuk melumpuhkannya.",
+          "quote": "The sages gathered all their spiritual strength and invoked the powerful demon Muyalakan — a symbol of complete arrogance and ignorance. ... Shiva smiled gently, stepped on the demon's back to immobilise him",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c19",
+          "source_id": "apasmara-s5",
+          "host": "en.wikipedia.org",
+          "statement": "After Muyalakan was immobilised, Shiva performed the Ananda Thandavam and disclosed his true form; the sages surrendered, realizing that rituals cannot control the gods.",
+          "statement_id": "Setelah Muyalakan dilumpuhkan, Siwa menarikan Ananda Thandavam dan menyingkapkan wujud sejatinya; para resi menyerah karena sadar bahwa ritual tidak dapat mengendalikan para dewa.",
+          "quote": "and performed the Ánanda Thandavam (the dance of eternal bliss), thus disclosing his true form. The sages surrendered, realizing that rituals cannot control the gods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c20",
+          "source_id": "apasmara-s6",
+          "host": "en.wikipedia.org",
+          "statement": "In the Skanda Purana the sages' black-magic sacrifice produces a serpent, a lion, an elephant (or tiger) and a dwarf that all attack Shiva; Shiva overpowers them, then dances on the dwarf and takes the form of Nataraja, the Cosmic Dancer.",
+          "statement_id": "Dalam Skanda Purana, kurban sihir hitam para resi menghasilkan ular, singa, gajah (atau harimau), dan seorang kerdil yang semuanya menyerang Siwa; Siwa mengalahkan mereka, lalu menari di atas si kerdil dan mengambil wujud Nataraja.",
+          "quote": "they perform a black magic sacrifice, which produces a serpent, a lion, an elephant (or tiger), and a dwarf, all of which attack Shiva, who overpowers them. ... Shiva then dances on the dwarf and takes the form of Nataraja, the Cosmic Dancer.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c21",
+          "source_id": "apasmara-s7",
+          "host": "www.worldhistory.org",
+          "statement": "World History Encyclopedia: Shiva stamps on the dwarf figure Apasmara Purusha, who represents illusion and leads men away from the truth.",
+          "statement_id": "World History Encyclopedia: Siwa menginjak sosok kerdil Apasmara Purusha, yang melambangkan ilusi dan menyesatkan manusia dari kebenaran.",
+          "quote": "He also stamps one foot on the dwarf figure Apasmara Purusha who represents illusion and who leads men away from the truth.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c22",
+          "source_id": "apasmara-s8",
+          "host": "southasia.ucla.edu",
+          "statement": "According to Coomaraswamy, Nataraja's lower left hand points down to the demon Muyalaka, who holds a cobra and is crushed by Shiva's right foot.",
+          "statement_id": "Menurut Coomaraswamy, tangan kiri bawah Nataraja menunjuk ke iblis Muyalaka yang memegang kobra, dan iblis itu diinjak oleh kaki kanan Siwa.",
+          "quote": "The upper left hand holds a flame, the lower left hand points down to the demon Muyalaka, who is shown holding a cobra. The demon is being crushed by Shiva’s right foot;",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "apasmara-c23",
+          "source_id": "apasmara-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Apasmara is a \"necessary evil\" in the cosmic balance between spiritual knowledge and ignorance, and cannot be eradicated without disrupting the cosmic order.",
+          "statement_id": "Apasmara adalah \"kejahatan yang diperlukan\" dalam keseimbangan kosmis antara pengetahuan rohani dan ketidaktahuan, dan tidak dapat dihapus tanpa mengganggu tatanan kosmis.",
+          "quote": "This \"necessary evil\" of Apasmara is part of the cosmic balance between spiritual knowledge and the inherent ignorance in one's sense of self, and cannot be eradicated without disrupting the cosmic order.",
           "context": "scholarly-interpretation",
           "status": "exact"
         }

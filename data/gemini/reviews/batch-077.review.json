@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-077",
-  "checked_at": "2026-10-07T09:36:21.734Z",
+  "checked_at": "2026-10-08T10:03:09.034Z",
   "files": [
     "batch-077.md",
     "batch-077-fix-1.md",
-    "batch-077-fix-2.md"
+    "batch-077-fix-2.md",
+    "batch-077-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2036,11 +2037,12 @@
     },
     {
       "slug": "apophis",
-      "file": "batch-077-fix-1.md",
+      "file": "batch-077-fix-3.md",
+      "entry_sha256": "c73f18eaea2b9f4941f10cef7b914e6770085ed8d78d0caf2e2c9c1381238941",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 3,
+        "claims": 25,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -2173,9 +2175,7 @@
           "statement_id": "Dalam uraian Budge, Ra menyerang Apep dengan anak panah api.",
           "quote": "the fiery darts which he discharged into the body of =Apep scorched and burnt him up",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260221025711id_/https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "apophis-c14",
@@ -2185,9 +2185,7 @@
           "statement_id": "Pengikut Apep juga dibinasakan oleh api.",
           "quote": "the fiends that were in attendance upon this terrible foe were also destroyed by fire",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260221025711id_/https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "apophis-c15",
@@ -2197,13 +2195,110 @@
           "statement_id": "Budge membaca pertarungan itu sebagai gambaran perselisihan harian terang dan gelap.",
           "quote": "it represented originally the fight which was supposed to go on daily between light and darkness.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260221025711id_/https://www.gutenberg.org/cache/epub/11277/pg11277-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
+        },
+        {
+          "id": "apophis-c16",
+          "source_id": "apophis-s4",
+          "host": "www.worldhistory.org",
+          "statement": "As the solar barge sailed through the darkness, Apophis attacked it, seeking to kill Ra and prevent sunrise.",
+          "statement_id": "Saat bahtera matahari berlayar menembus kegelapan, Apophis menyerangnya dengan tujuan membunuh Ra dan mencegah matahari terbit.",
+          "quote": "As it sailed through the darkness, it was attacked by Apophis who sought to kill Ra and prevent sunrise.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apophis-c17",
+          "source_id": "apophis-s4",
+          "host": "www.worldhistory.org",
+          "statement": "Apophis became the sun god's enemy because the sun was the first sign of the created world and symbolized divine order, light and life; if he could swallow the sun god, he could return the world to a unity of darkness.",
+          "statement_id": "Apophis menjadi musuh dewa matahari karena matahari adalah tanda pertama dunia yang tercipta dan melambangkan tatanan ilahi, terang, dan kehidupan; jika ia dapat menelan dewa matahari, ia dapat mengembalikan dunia pada kesatuan kegelapan.",
+          "quote": "Apophis became the enemy of the sun god because the sun was the first sign of the created world and symbolized divine order, light, life, and if he could swallow the sun god, he could return the world to a unity of darkness.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apophis-c18",
+          "source_id": "apophis-s4",
+          "host": "www.worldhistory.org",
+          "statement": "Apophis is associated with earthquakes, thunder, darkness, storms and death, and is sometimes linked to the god Set.",
+          "statement_id": "Apophis dikaitkan dengan gempa bumi, guntur, kegelapan, badai, dan kematian, dan kadang dihubungkan dengan dewa Set.",
+          "quote": "Apophis is associated with earthquakes, thunder, darkness, storms, and death, and is sometimes linked to the god Set",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apophis-c19",
+          "source_id": "apophis-s4",
+          "host": "www.worldhistory.org",
+          "statement": "However many times Apophis was defeated and killed, he always rose again and attacked the sun god's boat; the most powerful gods and goddesses defeated the serpent in the course of every night.",
+          "statement_id": "Betapapun sering Apophis dikalahkan dan dibunuh, ia selalu hidup kembali dan menyerang perahu dewa matahari; dewa dan dewi paling perkasa mengalahkan ular itu sepanjang setiap malam.",
+          "quote": "No matter how many times Apophis was defeated and killed, he always rose again to life and attacked the sun god's boat. The most powerful gods and goddesses would defeat the serpent in the course of every night",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apophis-c20",
+          "source_id": "apophis-s4",
+          "host": "www.worldhistory.org",
+          "statement": "In the Book of Gates, goddesses capture Apophis and restrain him in nets held down by monkeys, the sons of Horus and the earth god Geb, and he is chopped into pieces; the next night the serpent is whole again.",
+          "statement_id": "Dalam Kitab Gerbang, para dewi menangkap Apophis dan menahannya dalam jaring yang ditindih monyet, putra-putra Horus, dan dewa bumi Geb, lalu ia dipotong-potong; malam berikutnya ular itu utuh kembali.",
+          "quote": "capture Apophis and restrain him in nets held down by monkeys, the sons of Horus, and the great earth god Geb, where he is then chopped into pieces; the next night, though, the serpent is whole again",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apophis-c21",
+          "source_id": "apophis-s4",
+          "host": "www.worldhistory.org",
+          "statement": "Cloudy days or storms were signs that Apophis was gaining ground, and solar eclipses were times of terror for the Egyptians, interpreted as a sign of Ra's demise.",
+          "statement_id": "Hari berawan atau badai dianggap tanda Apophis menang angin, dan gerhana matahari menjadi saat teror bagi orang Mesir karena ditafsirkan sebagai tanda kematian Ra.",
+          "quote": "Cloudy days or storms were signs that Apophis was gaining ground, and solar eclipses were particular times of terror for the Egyptians, as they were interpreted as a sign of Ra's demise.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apophis-c22",
+          "source_id": "apophis-s4",
+          "host": "www.worldhistory.org",
+          "statement": "According to the article, Apophis represented everything the Egyptians feared: darkness, oblivion and the loss of one's identity.",
+          "statement_id": "Menurut artikel ini, Apophis mewakili segala yang ditakuti orang Mesir: kegelapan, kelupaan, dan hilangnya jati diri.",
+          "quote": "Apophis, then, represented everything the Egyptians feared: darkness, oblivion, and the loss of one's identity.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "apophis-c23",
+          "source_id": "apophis-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His terrifying roar was thought to make the underworld rumble.",
+          "statement_id": "Auman Apophis yang mengerikan dipercaya membuat dunia bawah bergemuruh.",
+          "quote": "It was thought that his terrifying roar would cause the underworld to rumble.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "apophis-c24",
+          "source_id": "apophis-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Priests would build an effigy of Apophis thought to contain all the evil and darkness in Egypt and burn it to protect everyone from Apophis' evil for another year.",
+          "statement_id": "Para pendeta membuat patung Apophis yang dipercaya memuat seluruh kejahatan dan kegelapan di Mesir, lalu membakarnya untuk melindungi semua orang dari kejahatan Apophis selama setahun lagi.",
+          "quote": "priests would build an effigy of Apophis that was thought to contain all of the evil and darkness in Egypt, and burn it to protect everyone from Apophis' evil for another year.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "apophis-c25",
+          "source_id": "apophis-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because Apophis was thought to live in the underworld, he was sometimes called an Eater of Souls, so the dead also needed protection and were sometimes buried with spells that could destroy Apophis.",
+          "statement_id": "Karena Apophis dianggap hidup di dunia bawah, ia kadang disebut Pemakan Jiwa, sehingga orang mati juga perlu perlindungan dan kadang dikuburkan bersama mantra yang dapat membinasakan Apophis.",
+          "quote": "As Apophis was thought to live in the underworld, he was sometimes thought of as an Eater of Souls. Thus the dead also needed protection, so they were sometimes buried with spells that could destroy Apophis",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "80278c2b0619c4872841e9b68c6fc0f09a7793e83710857198b03b6092746c44"
+      "images": []
     },
     {
       "slug": "khonsu",
@@ -4052,12 +4147,12 @@
     },
     {
       "slug": "tefnut",
-      "file": "batch-077-fix-2.md",
-      "entry_sha256": "fdacd7b28e8d8086a2cf9ab79355296fc36b4a7300906c13537c24666b32753c",
+      "file": "batch-077-fix-3.md",
+      "entry_sha256": "10c476fb7bebd441b81d837c468c23aef9542a541af85c2724f0644dda05a3fb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 37,
-        "sources": 6,
+        "claims": 49,
+        "sources": 8,
         "images": 0
       },
       "issues": [],
@@ -4430,6 +4525,126 @@
           "statement_id": "Pada masa Dinasti ke-18 dan ke-19, terutama pada Periode Amarna, Tefnut digambarkan berwujud manusia dengan penutup kepala datar rendah yang dihiasi tanaman bertunas.",
           "quote": "During the 18th and 19th Dynasties, particularly during the Amarna Period, Tefnut was depicted in human form wearing a low flat headdress, topped with sprouting plants.",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c38",
+          "source_id": "tefnut-s7",
+          "host": "en.wikipedia.org",
+          "statement": "The eye's violent aspect defends Ra against the agents of disorder that threaten his rule.",
+          "statement_id": "Sisi buas Mata Ra membela Ra dari para pelaku kekacauan yang mengancam kekuasaannya.",
+          "quote": "The eye's violent aspect defends Ra against the agents of disorder that threaten his rule.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c39",
+          "source_id": "tefnut-s7",
+          "host": "en.wikipedia.org",
+          "statement": "The disastrous fury and rampages of the eye goddess, and the gods' efforts to appease her, are a prominent motif in Egyptian mythology.",
+          "statement_id": "Kemurkaan dan amukan dewi Mata yang membawa bencana, serta upaya para dewa menenangkannya, adalah motif menonjol dalam mitologi Mesir.",
+          "quote": "The disastrous fury and rampages of the eye goddess and the efforts of the gods to appease her are a prominent motif in Egyptian mythology.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c40",
+          "source_id": "tefnut-s7",
+          "host": "en.wikipedia.org",
+          "statement": "In the Distant Goddess myth, with the solar eye gone Ra is vulnerable to his enemies and loses a large part of his power; the eye's absence and Ra's weakened state may refer to solar eclipses.",
+          "statement_id": "Dalam mitos Dewi Jauh, ketika Mata matahari pergi, Ra menjadi rentan terhadap musuh-musuhnya dan kehilangan sebagian besar kekuatannya; ketiadaan Mata itu dan melemahnya Ra mungkin merujuk pada gerhana matahari.",
+          "quote": "With the solar eye gone, Ra is vulnerable to his enemies and bereft of a large part of his power. The eye's absence and Ra's weakened state may be a mythological reference to solar eclipses.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c41",
+          "source_id": "tefnut-s7",
+          "host": "en.wikipedia.org",
+          "statement": "Meanwhile the eye wanders in a distant land (Nubia, Libya or Punt) in the form of a wild feline, as dangerous and uncontrolled as the forces of chaos she is meant to subdue.",
+          "statement_id": "Sementara itu Mata mengembara di negeri jauh, yaitu Nubia, Libya, atau Punt, dalam wujud kucing liar yang berbahaya dan tak terkendali seperti kekuatan kekacauan yang seharusnya ia taklukkan.",
+          "quote": "Meanwhile, the eye wanders in a distant land—Nubia, Libya, or Punt. She takes the form of a wild feline, as dangerous and uncontrolled as the forces of chaos that she is meant to subdue.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c42",
+          "source_id": "tefnut-s7",
+          "host": "en.wikipedia.org",
+          "statement": "In some accounts it is Shu who searches for Tefnut, who in this case represents the eye rather than an independent deity.",
+          "statement_id": "Dalam beberapa kisah, Shu-lah yang mencari Tefnut, yang dalam hal ini mewakili Mata, bukan dewi yang berdiri sendiri.",
+          "quote": "In other accounts, it is Shu who searches for Tefnut, who in this case represents the eye rather than an independent deity.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c43",
+          "source_id": "tefnut-s7",
+          "host": "en.wikipedia.org",
+          "statement": "When the goddess is at last placated, the retrieving god escorts her back to Egypt; her return marks the beginning of the inundation and the new year.",
+          "statement_id": "Ketika sang dewi akhirnya tenang, dewa yang menjemputnya mengantarnya kembali ke Mesir; kepulangannya menandai awal banjir tahunan dan tahun baru.",
+          "quote": "When the goddess is at last placated, the retrieving god escorts her back to Egypt. Her return marks the beginning of the inundation and the new year.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c44",
+          "source_id": "tefnut-s8",
+          "host": "en.wikipedia.org",
+          "statement": "Tefnut and Shu once argued and Tefnut left Egypt for Nubia; Shu soon missed her, but she changed into a cat that destroyed any man or god that approached, until Thoth, disguised, eventually convinced her to return.",
+          "statement_id": "Tefnut dan Shu pernah bertengkar dan Tefnut meninggalkan Mesir menuju Nubia; Shu segera merindukannya, tetapi ia berubah menjadi kucing yang membinasakan setiap manusia atau dewa yang mendekat, sampai Thoth yang menyamar akhirnya berhasil membujuknya pulang.",
+          "quote": "Tefnut and Shu once argued, and Tefnut left Egypt for Nubia (which was always more temperate). It was said that Shu quickly decided that he missed her, but she changed into a cat that destroyed any man or god that approached. Thoth, disguised, eventually succeeded in convincing her to return.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c45",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "In the earlier Pyramid Texts she is said to produce pure waters.",
+          "statement_id": "Dalam Teks Piramida yang lebih awal, ia dikatakan menghasilkan air yang murni dari tubuhnya.",
+          "quote": "In the earlier Pyramid Texts she is said to produce pure waters from her vagina.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c46",
+          "source_id": "tefnut-s4",
+          "host": "en.wikipedia.org",
+          "statement": "At Heliopolis, Tefnut was one of the members of that city's great Ennead and is mentioned in connection with the purification of the wabet priest in the temple rite.",
+          "statement_id": "Di Heliopolis, Tefnut adalah salah satu anggota Ennead agung kota itu, dan disebut dalam kaitan dengan penyucian imam wabet sebagai bagian dari ritus kuil.",
+          "quote": "At Heliopolis, Tefnut was one of the members of that city's great Ennead, and is referred to in relation to the purification of the wabet (priest) as part of the temple rite.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c47",
+          "source_id": "tefnut-s5",
+          "host": "www.gutenberg.org",
+          "statement": "According to Budge, originally these gods personified air and dryness and liquids respectively; with their creation the materials for building the atmosphere and sky came into being.",
+          "statement_id": "Menurut Budge, pada mulanya Shu dan Tefnut adalah perwujudan udara dan kekeringan serta cairan; dengan penciptaan mereka, bahan untuk membangun atmosfer dan langit pun muncul.",
+          "quote": "Originally these gods were the personifications of air and dryness, and liquids respectively; thus with their creation the materials for the construction of the atmosphere and sky came into being.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c48",
+          "source_id": "tefnut-s5",
+          "host": "www.gutenberg.org",
+          "statement": "In the creation legend translated by Budge, Shu and Tefnut rejoiced and brought the creator his Eye (the Sun); afterwards he wept, and men and women sprang into being from the tears that came from his Eye.",
+          "statement_id": "Dalam legenda penciptaan yang diterjemahkan Budge, Shu dan Tefnut bergembira dan membawakan kepada sang pencipta Matanya (yaitu Matahari); setelah itu ia menangisinya, dan laki-laki serta perempuan muncul dari air mata yang keluar dari Matanya.",
+          "quote": "Then Shu and Tefnut rejoiced ... and they brought to me my Eye (i.e., the Sun). Now after these things I gathered together my members, and I wept over them, and men and women sprang into being from the tears which came forth from my Eye.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tefnut-c49",
+          "source_id": "tefnut-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Atum (Ra) sent his children Shu and Tefnut out to create the world; when they returned he shed tears of joy that became human beings, who had nowhere to live, so Shu and Tefnut gave birth to Geb (earth) and Nut (sky).",
+          "statement_id": "Menurut World History Encyclopedia, Atum (Ra) mengutus anak-anaknya Shu dan Tefnut untuk menciptakan dunia; saat mereka kembali, ia menangis bahagia dan air matanya menjadi manusia, yang belum punya tempat tinggal, sehingga Shu dan Tefnut melahirkan Geb (bumi) dan Nut (langit).",
+          "quote": "Atum (Ra) sent his children Shu and Tefnut out to create the world. When they returned, he was so happy he shed tears of joy which became human beings. These creatures had nowhere to live and so Shu and Tefnut mated to give birth to Geb (earth) and Nut (sky).",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],

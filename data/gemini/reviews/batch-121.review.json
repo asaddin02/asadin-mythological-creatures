@@ -1,19 +1,21 @@
 {
   "batch_id": "batch-121",
-  "checked_at": "2026-10-03T06:39:05.427Z",
+  "checked_at": "2026-10-08T10:03:10.826Z",
   "files": [
-    "batch-121.md"
+    "batch-121.md",
+    "batch-121-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "perun",
-      "file": "batch-121.md",
+      "file": "batch-121-fix-1.md",
+      "entry_sha256": "d217b7c70ac98a5bc7835fa9abfaa2b303fe017553ecbe52d03097efe1643c12",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 30,
-        "sources": 5,
+        "claims": 39,
+        "sources": 7,
         "images": 0
       },
       "issues": [],
@@ -317,6 +319,96 @@
           "quote": "The Finnic peoples had a deity Ukko, which had similar functions and attributes with the Slavic and Baltic deities.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "perun-c31",
+          "source_id": "perun-s6",
+          "host": "en.wikipedia.org",
+          "statement": "In Ivanov and Toporov's reconstruction the enmity between Perun and Veles starts with Veles's theft of Perun's son, wife or, usually, cattle; Perun attacks Veles with lightning bolts, Veles is finally killed, and whatever he stole is released as rain falling from the skies.",
+          "statement_id": "Menurut rekonstruksi Ivanov dan Toporov, permusuhan Perun dan Veles bermula dari pencurian putra, istri, atau terutama ternak Perun oleh Veles; Perun menyerang Veles dengan petir, Veles akhirnya dibunuh, dan apa yang dicurinya dilepaskan sebagai hujan dari langit.",
+          "quote": "Their enmity is, according to them, Veles's theft of Perun's son, wife, or, usually, cattle. ... Perun attacks Veles with his lightning bolts. ... In the end, he is killed by Perun and in this ritual death, whatever Veles stole is released in the form of rain falling from the skies.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "perun-c32",
+          "source_id": "perun-s6",
+          "host": "en.wikipedia.org",
+          "statement": "Téra rejects the theory: there is not a single piece of evidence that Veles fought Perun, and nothing is known of Veles's draconic or serpentine nature.",
+          "statement_id": "Téra menolak teori itu: tidak ada satu bukti pun bahwa Veles melawan Perun, dan tidak diketahui apa pun tentang sifat naga atau ularnya.",
+          "quote": "\"We have not a single piece of evidence that Veles fought Perun, and we know nothing about Veles’s draconic or serpentine nature.\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "perun-c33",
+          "source_id": "perun-s7",
+          "host": "ojs.zrc-sazu.si",
+          "statement": "According to Lyle, Vala is equated with Veles in the Slavic context, and his opponent, corresponding to Indra, is Perun, the thunder god.",
+          "statement_id": "Menurut Lyle, Vala disamakan dengan Veles dalam konteks Slavia, dan lawannya, setara dengan Indra, adalah Perun sang dewa guruh.",
+          "quote": "Vala is equated with Veles in the Slavic context and his opponent, corresponding to Indra, is Perun, the thunder god",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "perun-c34",
+          "source_id": "perun-s7",
+          "host": "ojs.zrc-sazu.si",
+          "statement": "In the form of the story Lyle postulates, Perun, as a bird of prey at the top of the tree, can fly and attacks and defeats Veles, after which all the other young gods of light are freed.",
+          "statement_id": "Dalam bentuk kisah yang diandaikan Lyle, Perun sebagai burung pemangsa di puncak pohon dapat terbang, menyerang dan mengalahkan Veles, lalu semua dewa terang lainnya dibebaskan.",
+          "quote": "However, Perun, as bird of prey (eagle or falcon) at the top of the tree, can fly and he attacks and defeats Veles, after which, ... in this postulated form of the story, all the other young gods of light are freed.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "perun-c35",
+          "source_id": "perun-s7",
+          "host": "ojs.zrc-sazu.si",
+          "statement": "Lyle herself calls the form of the story speculative for now, hoping further evidence may clarify it.",
+          "statement_id": "Lyle sendiri menyebut bentuk kisah itu masih spekulatif, dengan harapan bukti lebih lanjut dapat menjelaskannya.",
+          "quote": "The actual form of the story is speculative at present, although it can be hoped that further evidence may be adduced that will clarify it,",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "perun-c36",
+          "source_id": "perun-s6",
+          "host": "en.wikipedia.org",
+          "statement": "In the 971 treaty quoted from the Primary Chronicle, the Rus swear that if they break it they may be cursed by Perun and Volos and cut down by their own weapons.",
+          "statement_id": "Dalam kutipan perjanjian 971 dari Kronik Utama, pihak Rus bersumpah bahwa bila melanggar mereka terkutuk oleh Perun dan Volos dan akan ditebas oleh senjata mereka sendiri.",
+          "quote": "As I have sworn to the Greek emperors, and with me the boyars and all Rus’, so shall we uphold the true treaty. And if we do not fulfill anything of what has been stated above, I and those who are subject to me, may we be cursed by our god in whom we believe, by Perun and by Volos ... may we be cut down by our own weapons.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "perun-c37",
+          "source_id": "perun-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Besides his firestone arrows, Perun had an equally destructive weapon: mythical golden apples, which in many Slavic folk accounts are a talisman of ultimate destruction.",
+          "statement_id": "Selain panah api batu, Perun memiliki senjata yang tak kalah merusak: apel emas mitos, yang dalam banyak kisah rakyat Slavia menjadi jimat kehancuran pamungkas.",
+          "quote": "Perun also had another type of weapon in his arsenal, as destructive as his firestone arrows, but even more unusual: mythical golden apples. ... the golden apple appears as a talisman of ultimate destruction.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "perun-c38",
+          "source_id": "perun-s2",
+          "host": "www.encyclopediaofukraine.com",
+          "statement": "Human sacrifices to Perun, one boy and one girl, were chosen by lot.",
+          "statement_id": "Persembahan manusia untuk Perun, seorang anak laki-laki dan seorang anak perempuan, dipilih dengan undian.",
+          "quote": "Human sacrifices to Perun (one boy and girl) were chosen by lot.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "perun-c39",
+          "source_id": "perun-s2",
+          "host": "www.encyclopediaofukraine.com",
+          "statement": "According to the Primary Chronicle, when the pagans of Kyivan Rus made an agreement with Byzantium they swore an oath to Perun.",
+          "statement_id": "Menurut Kronik Utama, ketika orang-orang pagan Rus Kyiv membuat perjanjian dengan Bizantium, mereka bersumpah demi Perun.",
+          "quote": "According to the Primary Chronicle, when the pagans of Kyivan Rus’ entered into an agreement with Byzantium, they swore an oath to Perun.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
@@ -493,7 +585,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e69bbf250f787ae7f3a36d9fb433a209f486361b5981f30a422a338f41623f5d"
     },
     {
       "slug": "veles",
@@ -627,7 +720,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cbc9a1b5c3e2915f3339b535e171b7a5907b48e1415d224b40933ad46f8650b3"
     },
     {
       "slug": "svarog",
@@ -761,7 +855,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "98f0cd6f23f31eed7b7ba061183616dffcead50f0d005ebfd3d058db2d197ee7"
     },
     {
       "slug": "vodyanoy",
@@ -935,7 +1030,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "40d587add1f1df9c38713b46213cb4c4fe1bb35efbbc6b31c33bd58bd87d15b6"
     },
     {
       "slug": "perkunas",
@@ -1179,7 +1275,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f6ceb4c5cdcec1e50cb4fb687a4a6fdd2f5bbb27d05744966177f6c20babcf7b"
     },
     {
       "slug": "alkonost",
@@ -1383,7 +1480,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ae3ce72cdcef6fdad8b105a6099c33cde0424795836a976032fce66598a82ef8"
     },
     {
       "slug": "jarilo",
@@ -1547,7 +1645,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6332d95951340881eb4bbce5e59899565897b820c339bcf28a71053e8b2e81b7"
     },
     {
       "slug": "mokosh",
@@ -1751,7 +1850,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0f369de89479eb2e66c3e5ee184ac710d98076b0325df40e9d4e48b0ceb6f74e"
     },
     {
       "slug": "svetovit",
@@ -1915,7 +2015,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ed0c2325134f871b7c1afa0941fcf93a1db44b02ade476991fef527abda84fb7"
     },
     {
       "slug": "vainamoinen",
@@ -2119,7 +2220,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "26a10b5ce3daaeb1d27070453c2899d2650574ed56f136f48d78602118a456b4"
     },
     {
       "slug": "kikimora",
@@ -2303,7 +2405,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2945beff76b7552d403bf1a2f1466095d1c90b1266de3485276ee38cf541016b"
     },
     {
       "slug": "chernobog-and-belobog",
@@ -2507,7 +2610,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "58a317bfd2bb73972839f6339d0c8cbd5715b7a3fa4a7dd38b0348dd1f2f91b1"
     },
     {
       "slug": "turul",
@@ -2661,7 +2765,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "45a510599e3684743e4b484bdee22f67c7cf0fba4258f2d95a103f19078f72b0"
     },
     {
       "slug": "jiangshi",
@@ -2875,7 +2980,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "02194bfd0abfcf058ff728aa11604a7cfc33189689a97661c0c211272d49f30a"
     },
     {
       "slug": "vila-fairy",
@@ -3089,7 +3195,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e69f6a0d8923282f68c45cf2b43e27907b640d69154143d144f67dff60a2a286"
     },
     {
       "slug": "dhampir",
@@ -3253,7 +3360,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "eb342e150e2047a055c8640cf4fd0bda5ca047ef6ffa15d47811b9d3f3522018"
     },
     {
       "slug": "sirin",
@@ -3457,7 +3565,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "76dd712436759a2c0b7bfb37274f0b7f6cabf7d049dceda25eb29753ebc2b493"
     },
     {
       "slug": "wawel-dragon",
@@ -3661,7 +3770,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "84cea55f26905ff5b944e1ed3b7718056a629abda4add8e5ca0068dd09e4b3db"
     },
     {
       "slug": "mavka",
@@ -3845,7 +3955,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "56e8fc26ec60f742da073664a1250e2aa0c607be625c37597d9ff27fbd4cf671"
     },
     {
       "slug": "slavic-dragon",
@@ -4049,7 +4160,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d3eba83e323c72808f567404953eb0f09784695b54a9f97df7b772f3d0495542"
     },
     {
       "slug": "ajatar",
@@ -4213,7 +4325,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2572a4de041390655628bf13b2f33b54ed1f1864c242ac3dc3f94472a71ef711"
     },
     {
       "slug": "lady-midday",
@@ -4427,7 +4540,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d005ccc9b0d203a25647a7af331cfce48060c917ed38d380122c2ba7ab213814"
     },
     {
       "slug": "bannik",
@@ -4571,7 +4685,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dcdc16dd98b20248ada121038414ec1a61c8ae430434408843e0921591851cde"
     },
     {
       "slug": "gamayun",
@@ -4725,7 +4840,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c2aa8233366fd855ccf75a907cbd58cf40579f951df46664237c7e66c9444e72"
     },
     {
       "slug": "strigoi",
@@ -4919,7 +5035,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bf9f5507140eb13cebb37a782b31d32e0bb5143337d9a634029d23dc231b6d69"
     },
     {
       "slug": "astghik",
@@ -5103,7 +5220,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cbe9ee1d202b39163cdca06f1e5bd418600f23d70e75f0e427f3ce361df028a6"
     },
     {
       "slug": "hiisi",
@@ -5297,7 +5415,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0f73b4e417c8e9bde24a1d88112572275f0c51780b96eee81c373927a43a7519"
     },
     {
       "slug": "toell-the-great",
@@ -5471,7 +5590,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9f20d77b50179943f8c97186c38cdde963fd9aefb9fd5a4e7f61e7762635f694"
     },
     {
       "slug": "ala-demon",
@@ -5655,7 +5775,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f8f9b3a81f1b20b88704f7f4411782c8cfc83864f9442028667a0583bc690636"
     },
     {
       "slug": "goldhorn",
@@ -5829,7 +5950,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "37773dd965a3af2029f2c4319b6a1559238788873a6288464beb8229d06417f5"
     },
     {
       "slug": "drekavac",
@@ -5983,7 +6105,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9222cbbbdc128ac522500c1644d14b5cb954eb4cc43a9ea166bb85462c891844"
     },
     {
       "slug": "mermaid-of-warsaw",
@@ -6137,7 +6260,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "50abbd54be380f300f1338100cad486fb654629517973b5821e5186f9693dac4"
     },
     {
       "slug": "polevik",
@@ -6251,7 +6375,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "193344c28b2a0d2ff240530ddd67aad5baa0d6b03e79f6b946df0c5b23cd01e4"
     },
     {
       "slug": "bies",
@@ -6355,7 +6480,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "30f8f45e9c72e27b69d66259d60db5fc675d069bddc3d0cfc2c04c3ebf8e47bd"
     },
     {
       "slug": "iku-turso-creature",
@@ -6479,7 +6605,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "59e39d3773db15a432fca365f624b495651402d3f9001ef2e3e1c8f85a755749"
     },
     {
       "slug": "sava-savanovic",
@@ -6593,7 +6720,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "799932b926928aef65767edf49d9fe2ede6530b85d3d09d6ce58a4bbc1e09eea"
     },
     {
       "slug": "taltos",
@@ -6612,7 +6740,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "38d4adefe0a50b364b27dfab8a373ce8d88bf4c1408c8bd7b7910911c255f15b"
     },
     {
       "slug": "ahti",
@@ -6706,7 +6835,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c88b0b184fc63341b1211484f31ffabb0abd0786410f01b145b22f44a5efcac9"
     },
     {
       "slug": "aitvaras",
@@ -6810,7 +6940,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9196a8db63093edc628522dfb62d98e3b0d1d0a4d3cf930119a523b146d376ac"
     },
     {
       "slug": "balaur",
@@ -6934,7 +7065,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "03984c933b3d20939d1d7c43b643105c67a94746bc2593d3cfe7bad29b9b7865"
     },
     {
       "slug": "chort",
@@ -7078,7 +7210,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "426a8984a2836cef923a0c5026f770874c1165a03e3dd7271c930ce5a85aa397"
     },
     {
       "slug": "lauma",
@@ -7182,7 +7315,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "37aebe352ead0736330f6004676581da1999ee50be2fdd0e268eb051e6e974f9"
     }
   ]
 }

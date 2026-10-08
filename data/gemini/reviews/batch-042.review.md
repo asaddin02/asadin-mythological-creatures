@@ -1,6 +1,6 @@
 # Review batch-042
 
-Diperiksa 2026-09-30T02:35:29.314Z. Berkas: batch-042.md, batch-042-fix-1.md, batch-042-fix-2.md.
+Diperiksa 2026-10-08T10:03:06.975Z. Berkas: batch-042.md, batch-042-fix-1.md, batch-042-fix-2.md, batch-042-fix-3.md.
 
 ## amaterasu — lulus-otomatis
 
@@ -55,7 +55,7 @@ Klaim 15 (exact 15), sumber 3, gambar 0.
 
 ## bastet — lulus-otomatis
 
-Klaim 16 (exact 16), sumber 3, gambar 0.
+Klaim 30 (exact 30), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -75,6 +75,20 @@ Klaim 16 (exact 16), sumber 3, gambar 0.
 | bastet-c14 | exact | www.globalegyptianmuseum.org | In the Old Kingdom she was linked with lion goddesses such as Sakhmet of Memphis and Tefnut of Heliopolis. | In the Old Kingdom she was linked with lion goddesses such as Sakhmet of Memphis and Tefnut of Heliopolis. |
 | bastet-c15 | exact | www.globalegyptianmuseum.org | She was called the daughter of the sun god Re, his eye or the eye of the moon | She was called the daughter of the sun god Re, his eye or the eye of the moon |
 | bastet-c16 | exact | www.globalegyptianmuseum.org | Many bronze statuettes from the Late Period show her with a cat's head, sometimes holding a sistrum | Many bronze statuettes from the Late Period show her with a cat's head, sometimes holding a sistrum |
+| bastet-c17 | exact | www.worldhistory.org | According to Geraldine Pinch, from the Pyramid Texts onward Bastet has a double aspect of nurturing mother and terrifying avenger. | From the Pyramid Texts onward, Bastet has a double aspect of nurturing mother and terrifying avenger. |
+| bastet-c18 | exact | www.worldhistory.org | The "slaughterers of Bastet" were said to inflict plague and other disasters on humanity, and one spell advises pretending to be the "son of Bastet" in order to avoid catching the plague. | The "slaughterers of Bastet" were said to inflict plague and other disasters on humanity. ... One spell advises pretending to be the 'son of Bastet' in order to avoid catching the plague. |
+| bastet-c19 | exact | www.worldhistory.org | Although greatly venerated, Bastet was equally feared, as two of her titles show: The Lady of Dread and The Lady of Slaughter. | Although she was greatly venerated, she was equally feared as two of her titles demonstrate: The Lady of Dread and The Lady of Slaughter. |
+| bastet-c20 | exact | www.worldhistory.org | In her association with Mau, Bastet is sometimes seen destroying Apophis, the enemy of Ra, by slicing off his head with a knife in her paw. | In Bastet's association with Mau, she is sometimes seen destroying the enemy of Ra, Apophis, by slicing off his head with a knife in her paw |
+| bastet-c21 | exact | www.worldhistory.org | Although she became milder, Bastet remained no less dangerous to those who broke the law or abused others. | In Bastet's case, although she became milder, she was no less dangerous to those who broke the law or abused others. |
+| bastet-c22 | exact | www.worldhistory.org | In the tale of Setna and Taboubu, Prince Setna steals a book from a tomb even though the inhabitants beg him not to. | In this story young Prince Setna steals a book from a tomb, even after the inhabitants of the tomb beg him not to. |
+| bastet-c23 | exact | www.worldhistory.org | Setna then understands he has been punished for his transgression in the tomb and quickly returns the book. | Setna then understands he has been punished for his transgression in the tomb and quickly returns the book. |
+| bastet-c24 | exact | www.worldhistory.org | Pinch concludes that Taboubu is a manifestation of Bastet herself, playing her traditional role as punisher of humans who have offended the gods. | Geraldine Pinch concludes that Taboubu is a "manifestation of Bastet herself, playing her traditional role of punisher of humans who have offended the gods |
+| bastet-c25 | exact | www.worldhistory.org | By the time of the Pyramid Texts she was associated with the king of Egypt as his nursemaid in youth and protector as he grew. | By the time of the Pyramid Texts (c. 2400-2300 BCE) she was associated with the king of Egypt as his nursemaid in youth and protector as he grew. |
+| bastet-c26 | exact | en.wikipedia.org | Bastet was originally a fierce lioness warrior goddess of the sun, worshipped throughout most of ancient Egyptian history. | Bastet was originally a fierce lioness warrior goddess of the sun, worshipped throughout most of ancient Egyptian history. |
+| bastet-c27 | exact | en.wikipedia.org | As protector of Lower Egypt, Bastet was seen as defender of the king and so of the sun god Ra; with Hathor, Sekhmet and Isis she was associated with the Eye of Ra. | As protector of Lower Egypt, she was seen as defender of the king, and consequently of the sun god, Ra. Along with other deities such as Hathor, Sekhmet, and Isis, Bastet was associated with the Eye of Ra. |
+| bastet-c28 | exact | en.wikipedia.org | Eventually Bastet and Sekhmet were characterized as two aspects of the same goddess, Sekhmet representing the powerful warrior and protector aspect and Bastet a gentler aspect. | Eventually Bastet and Sekhmet were characterized as two aspects of the same goddess, with Sekhmet representing the powerful warrior and protector aspect, and Bastet, who increasingly was depicted as a cat, representing a gentler aspect. |
+| bastet-c29 | exact | en.wikipedia.org | Bastet has been depicted as fighting the evil snake Apep, an enemy of Ra. | She has been depicted as fighting the evil snake named Apep, an enemy of Ra. |
+| bastet-c30 | exact | www.worldhistory.org | Both Bastet and Sekhmet took their early forms as feline defenders of the innocent and avengers of the wronged, from Mafdet. | Both Bastet and Sekhmet took their early forms as feline defenders of the innocent, avengers of the wronged, from Mafdet. |
 
 
 ## ceres — lulus-otomatis

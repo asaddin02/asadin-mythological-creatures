@@ -1,6 +1,6 @@
 # Review batch-047
 
-Diperiksa 2026-09-30T02:36:27.355Z. Berkas: batch-047.md, batch-047-fix-1.md, batch-047-fix-2.md.
+Diperiksa 2026-10-08T10:20:38.020Z. Berkas: batch-047.md, batch-047-fix-1.md, batch-047-fix-2.md, batch-047-fix-3.md.
 
 ## surya — lulus-otomatis
 
@@ -27,7 +27,7 @@ Klaim 15 (exact 15), sumber 3, gambar 0.
 
 ## troll — lulus-otomatis
 
-Klaim 15 (unreachable 8, exact 7), sumber 3, gambar 0.
+Klaim 28 (unreachable 8, exact 20), sumber 4, gambar 0.
 
 **manual**
 - `claims` 8 kutipan tidak bisa dicek otomatis: www.visitnorway.com (HTTP 403).
@@ -49,6 +49,19 @@ Klaim 15 (unreachable 8, exact 7), sumber 3, gambar 0.
 | troll-c13 | exact | en.wikipedia.org | Old Norse sources describe isolated trolls living in small families. | In Old Norse sources, beings described as trolls dwell in isolated areas of rocks, mountains, or caves, live together in small family units, and are rarely helpful to human beings. |
 | troll-c14 | exact | en.wikipedia.org | Trolls may appear grotesque or humanlike. | Depending on the source, their appearance varies greatly; trolls may be ugly and slow-witted, or look and behave exactly like human beings |
 | troll-c15 | exact | en.wikipedia.org | Folklore links some landmarks to sun-exposed trolls. | In Scandinavian folklore, trolls are sometimes associated with particular landmarks (sometimes said to have been formed by a troll having been exposed to sunlight). |
+| troll-c16 | exact | en.wikipedia.org | Numerous tales describe trolls as extremely old, very strong but slow and dim-witted, at times man-eaters, and turning to stone upon contact with sunlight. | Numerous tales are recorded about trolls in which they are frequently described as being extremely old, very strong, but slow and dim-witted, and are at times described as man-eaters and as turning to stone upon contact with sunlight. |
+| troll-c17 | exact | en.wikipedia.org | According to John Lindow, trolls display a habit of bergtagning (kidnapping, literally "mountain-taking") and overrunning a farm or estate. | trolls display a habit of bergtagning ('kidnapping'; literally "mountain-taking") and overrunning a farm or estate. |
+| troll-c18 | exact | en.wikipedia.org | Numerous traditions relate how trolls destroyed a church under construction or hurled boulders and stones at completed churches. | numerous traditions relate how trolls destroyed a church under construction or hurled boulders and stones at completed churches. |
+| troll-c19 | exact | en.wikipedia.org | A Scandinavian folk belief that lightning frightens away trolls and jötnar appears in numerous folktales. | A Scandinavian folk belief that lightning frightens away trolls and jötnar appears in numerous Scandinavian folktales |
+| troll-c20 | exact | www.gutenberg.org | In Grettir's Saga, Thorsteinn's farm at Sandhaugar was generally thought to be much haunted by trolls. | Their place was generally thought to be much haunted by trolls. |
+| troll-c21 | exact | www.gutenberg.org | When the mistress went to spend Yule away, her husband who stayed at home disappeared and no one knew what had become of him; the next winter it happened just as before, and this time the servant disappeared. | went as usual to spend Yule at Eyjardalsa, while her husband stayed at home ... her husband had disappeared and no one knew what had become of him ... It happened just as before; this time the servant disappeared. |
+| troll-c22 | exact | www.gutenberg.org | People found some drops of blood upon the outer door and supposed that some evil spirit must have carried off both men. | found some drops of blood upon the outer door, so they supposed that some evil spirit must have carried off both the men. |
+| troll-c23 | exact | www.gutenberg.org | Towards midnight a huge troll-wife walked into the room carrying a trough in one hand and a rather large cutlass in the other. | Towards midnight he heard a loud noise outside, and very soon there walked a huge troll-wife into the room. She carried a trough in one hand and a rather large cutlass in the other. |
+| troll-c24 | exact | www.gutenberg.org | The troll-wife rushed at Gest (Grettir); they fought long, she was the stronger, and everything near them and the panelling of the back wall were broken to pieces. | she rushed at him; he started up and attacked her furiously. They fought long together; she was the stronger but he evaded her skilfully. Everything near them and the panelling of the back wall were broken to pieces. |
+| troll-c25 | exact | www.gutenberg.org | Grettir thought he had never met with such a monster for strength. | he thought he had never met with such a monster for strength. |
+| troll-c26 | exact | www.gutenberg.org | The men of Bardardal say that day dawned upon her while they were wrestling; when her arm was cut off she broke, and she is still standing there on the mountain in the likeness of a woman. | the men of Bardardal say that the day dawned upon her while they were wrestling; that when he cut off her arm she broke, and that she is still standing there on the mountain in the likeness of a woman. |
+| troll-c27 | exact | www.gutenberg.org | The churchgoers refused to search for the missing shepherd, saying they were not going to trust themselves into the power of trolls in the night. | the churchgoers cried off, and said they were not going to trust themselves into the power of trolls in the night |
+| troll-c28 | exact | www.gutenberg.org | Men had no doubt that these monsters were responsible for the disappearance of the men in the valley, and Grettir had evidently cleared the land of them. | Men felt no doubt that these monsters were responsible for the disappearance of the men in the valley ... Grettir had evidently cleared the land of them. |
 
 
 ## baal — lulus-otomatis
@@ -99,7 +112,7 @@ Klaim 15 (exact 15), sumber 3, gambar 0.
 
 ## marduk — lulus-otomatis
 
-Klaim 15 (exact 11, unreachable 4), sumber 3, gambar 0.
+Klaim 32 (exact 28, unreachable 4), sumber 4, gambar 0.
 
 **manual**
 - `claims` 4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
@@ -121,4 +134,21 @@ Klaim 15 (exact 11, unreachable 4), sumber 3, gambar 0.
 | marduk-c13 | unreachable (HTTP 429) | www.metmuseum.org | Marduk seeks kingship in return for victory. | The young warrior god Marduk then volunteers his strength in return for a promise that, if victorious, he will become king of the gods. |
 | marduk-c14 | unreachable (HTTP 429) | www.metmuseum.org | Marduk uses Tiamat’s body in creation. | Marduk then uses Tiamat’s carcass for the purpose of creation. |
 | marduk-c15 | exact | en.wikipedia.org | Marduk was later associated with Jupiter. | By the 1st millennium BC, Marduk had become astrologically associated with the planet Jupiter. |
+| marduk-c16 | exact | www.worldhistory.org | In the Enuma Elish the gods declare Marduk's (Bel's) destiny superior to that of all the gods and tell him to command annihilation and re-creation. | Your destiny, Be-l, is superior to that of all the gods ... Command and bring about annihilation and re-creation. |
+| marduk-c17 | exact | www.worldhistory.org | As a test, Marduk makes a constellation disappear and then reappear by his command alone, and the gods rejoice that "Marduk is the king!" | He gave the command and the constellation disappeared ... With a second command the constellation came into being again. ... They rejoiced and offered congratulation: "Marduk is the king!" |
+| marduk-c18 | exact | www.worldhistory.org | The gods declare that Marduk has the power to exalt and abase, that his utterance is sure and his command cannot be rebelled against. | It is in your power to exalt and abase. ... Your utterance is sure, your command cannot be rebelled against |
+| marduk-c19 | exact | www.worldhistory.org | The gods ask Marduk (Bel) to spare whoever trusts in him and to destroy the god who set his mind on evil. | Be-l, spare him who trusts in you ... But destroy the god who set his mind on evil. |
+| marduk-c20 | exact | www.worldhistory.org | Marduk (Bel) took up the Storm-flood as his great weapon and rode the fearful chariot of the irresistible storm. | Be-l took up the Storm-flood, his great weapon ... He rode the fearful chariot of the irresistible storm. |
+| marduk-c21 | exact | www.worldhistory.org | Marduk placed lightning before him, filled his body with tongues of flame, and wore an aura of terror on his head. | He placed lightning before him ... And filled his body with tongues of flame. ... And on has head he wore an aura of terror. |
+| marduk-c22 | exact | www.worldhistory.org | Marduk shot an arrow into Tiamat's belly, bound her and extinguished her life. | He let fly an arrow and pierced her belly ... He bound her and extinguished her life |
+| marduk-c23 | exact | www.worldhistory.org | After Tiamat was killed her assembly dispersed and her host scattered, and her aides beat a retreat in trembling and fear. | Her assembly dispersed, her host scattered. ... In trembling and fear beat a retreat. |
+| marduk-c24 | exact | www.worldhistory.org | Marduk took the Tablet of Destinies from Qingu and fastened it to his own breast. | He took from him the Tablet of Destinies, which was not properly his ... fastened it to his own breast. |
+| marduk-c25 | exact | www.worldhistory.org | In the list of the fifty names, creation and annihilation, forgiveness and exacting the penalty occur at Marduk's command. | Creation and annihilation, forgiveness and exacting the penalty ... Occur at his command |
+| marduk-c26 | exact | www.worldhistory.org | One of Marduk's names calls him fierce yet deliberating, angry yet relenting. | fierce yet deliberating, angry yet relenting |
+| marduk-c27 | exact | www.worldhistory.org | The gods in the upper and lower regions shudder at Marduk's injunctions; they are told to tremble at his name and quake on their seats. | The king at whose injunctions the gods in upper and lower regions shudder. ... Let the gods tremble at his name and quake on their seats. |
+| marduk-c28 | exact | www.worldhistory.org | One of Marduk's names is the destroyer of every rebel and of all the disobedient. | The destroyer of every rebel, of all the disobedient |
+| marduk-c29 | exact | www.worldhistory.org | One of Marduk's names calls him the one who mustered the Divine Fates and the warden of all peoples. | who, as his name says, mustered the Divine Fates ... He indeed is the warden of absolutely all peoples. |
+| marduk-c30 | exact | www.worldhistory.org | On the peoples he created, Marduk imposed the service of the gods, and the gods took rest. | On the peoples that he created, the living beings ... He imposed the service of the gods and they took rest. |
+| marduk-c31 | exact | www.worldhistory.org | Disaster was thought imminent when the god was not in the city, as there was no one to stand between the people and the forces of chaos. | disaster was thought imminent when the god was not in the city, as there was no one to stand between the people and the forces of chaos. |
+| marduk-c32 | exact | www.worldhistory.org | In The Wrath of Erra, once Marduk leaves to have new clothes made, Erra destroys the city, killing the people indiscriminately until he is stopped by the other gods and called to account. | Once Marduk leaves to have a new suit of clothes made, Erra destroys the city, killing the people indiscriminately until he is stopped by the other gods and called to account |
 

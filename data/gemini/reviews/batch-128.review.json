@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-128",
-  "checked_at": "2026-10-06T14:11:59.820Z",
+  "checked_at": "2026-10-08T10:03:11.652Z",
   "files": [
     "batch-128.md",
     "batch-128-fix-1.md",
-    "batch-128-fix-2.md"
+    "batch-128-fix-2.md",
+    "batch-128-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2573,11 +2574,12 @@
     },
     {
       "slug": "amphiptere",
-      "file": "batch-128.md",
+      "file": "batch-128-fix-3.md",
+      "entry_sha256": "282620b76384b7186275191c37d47befffb29b22dad2752d57ff5bb84064e042",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 3,
+        "claims": 14,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -2641,18 +2643,98 @@
           "quote": "アンピプテラは翼の生えた蛇として表現され、フランスのギーヴル（ヴイーヴル）に似ている。アンピテプラやヴイーブルといった怪物は、戦場で敵に脅威を与え威嚇する意味もあって紋章にしばしば描かれていた。",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "amphiptere-c07",
+          "source_id": "amphiptere-s4",
+          "host": "archive.org",
+          "statement": "The woods around a castle in Glamorgan had the reputation of being frequented by winged serpents, the terror of old and young alike.",
+          "statement_id": "Hutan di sekitar sebuah kastel di Glamorgan dikenal sering didatangi ular bersayap, yang menjadi teror bagi tua dan muda.",
+          "quote": "The woods around Penllyne Castle, Glamorgan, had the repu- tation of being frequented by winged serpents, and these were the terror of old and young alike.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amphiptere-c08",
+          "source_id": "amphiptere-s4",
+          "host": "archive.org",
+          "statement": "An aged inhabitant of Penllyne said that in his boyhood the winged serpents were described as very beautiful.",
+          "statement_id": "Seorang penduduk lanjut usia Penllyne mengatakan bahwa pada masa kecilnya ular bersayap itu digambarkan sangat indah.",
+          "quote": "An aged inhabitant of Penllyne, who died a few years ago, said that in his boyhood the winged serpents were described as very beautiful.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amphiptere-c09",
+          "source_id": "amphiptere-s4",
+          "host": "archive.org",
+          "statement": "When angry, the winged serpents flew over people's heads with bright outspread wings, sometimes with eyes like the feathers in a peacock's tail.",
+          "statement_id": "Bila marah, ular bersayap itu terbang di atas kepala orang dengan sayap terkembang yang cemerlang, kadang bermata seperti bulu ekor merak.",
+          "quote": "flew over people's heads, with outspread wings bright, and sometimes with eyes, too, like the feathers in a peacock's tail.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amphiptere-c10",
+          "source_id": "amphiptere-s4",
+          "host": "archive.org",
+          "statement": "The speaker's father and uncles had killed some of them because they were \"as bad as foxes for poultry\".",
+          "statement_id": "Ayah dan paman penutur telah membunuh beberapa ular bersayap itu karena mereka \"seburuk rubah\" bagi unggas.",
+          "quote": "father and uncles had killed some of them, for they were \" as bad as foxes for poultry.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amphiptere-c11",
+          "source_id": "amphiptere-s4",
+          "host": "archive.org",
+          "statement": "An old woman often heard people talking about the ravages of the winged serpents around Penmark Place, Glamorgan.",
+          "statement_id": "Seorang perempuan tua sering mendengar orang membicarakan kerusakan yang ditimbulkan ular bersayap di sekitar Penmark Place, Glamorgan.",
+          "quote": "An old woman, whose parents in her early childhood took her to visit Penmark Place, Glamorgan, said she often heard the people talking about the ravages of the winged serpents in that neighbourhood.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amphiptere-c12",
+          "source_id": "amphiptere-s4",
+          "host": "archive.org",
+          "statement": "In one account men shot a winged serpent, which fell wounded, then rose and attacked the speaker's uncle, beating him with its wings.",
+          "statement_id": "Dalam satu kisah, orang-orang menembak seekor ular bersayap yang jatuh terluka, lalu bangkit menyerang paman sang penutur dan memukulinya dengan sayapnya.",
+          "quote": "Then they shot at it, and the creature fell wounded, only to rise and attack my uncle, beating him about her head with its wings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amphiptere-c13",
+          "source_id": "amphiptere-s4",
+          "host": "archive.org",
+          "statement": "A fierce fight ensued between the men and the winged serpent, which was at last killed.",
+          "statement_id": "Pertarungan sengit terjadi antara para lelaki itu dan ular bersayap tersebut, yang akhirnya terbunuh.",
+          "quote": "She said a fierce fight ensued between the men and the serpent, which was at last killed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amphiptere-c14",
+          "source_id": "amphiptere-s4",
+          "host": "archive.org",
+          "statement": "The old people said that wherever winged serpents were to be seen, buried money or something of value was sure to be near at hand.",
+          "statement_id": "Orang tua dahulu berkata bahwa di mana pun ular bersayap terlihat, pasti ada uang terpendam atau barang berharga di dekatnya.",
+          "quote": "wherever winged serpents were to be seen, there ** was sure to be buried money or something of value \" near at hand.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7bd4f3598de535a8feb6b9666c54a3b6cffb0121bc74043188fe7518bbe8389e"
+      "images": []
     },
     {
       "slug": "biscione",
-      "file": "batch-128.md",
+      "file": "batch-128-fix-3.md",
+      "entry_sha256": "1f6f644d4ae62fef007558e101bace4bff30504b7c419976037355618cb965be",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 3,
+        "claims": 17,
+        "sources": 5,
         "images": 0
       },
       "issues": [],
@@ -2736,10 +2818,99 @@
           "quote": "Según una tradición recogida por Galvano Fiamma, Ottone Visconti habría conquistado la insignia de la víbora tras vencer en duelo a un sarraceno que la llevaba como arma, representada devorando a un hombre tanto en el escudo como sobre el yelmo.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "biscione-c09",
+          "source_id": "biscione-s4",
+          "host": "expo-animal-et-imaginaires.edel.univ-poitiers.fr",
+          "statement": "In the Boniface legend, while he was away on crusade against the Muslims, a \"serpent of marvellous size\" terrorised Lombardy and killed his son.",
+          "statement_id": "Dalam legenda Boniface, saat ia pergi perang salib melawan kaum Muslim, seekor \"ular berukuran luar biasa\" meneror Lombardia dan membunuh putranya.",
+          "quote": "Dans ses Mémoires datant de la fin du XVe siècle, Olivier de La Marche décrit l'aventure de Boniface, comte de Pavie marié à l'héritière de Milan. Alors qu'il était parti en croisade contre les Musulmans, un « serpent de merveilleuse grandeur » terrorisa la Lombardie et tua son fils.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biscione-c10",
+          "source_id": "biscione-s4",
+          "host": "expo-animal-et-imaginaires.edel.univ-poitiers.fr",
+          "statement": "Boniface returned and found the beast carrying a child in its jaws; after a fierce fight in which the serpent's severed head rejoined itself, the knight finally killed it.",
+          "statement_id": "Boniface kembali dan menemukan makhluk itu membawa seorang anak di rahangnya; setelah pertarungan sengit, ketika kepala ular yang dipenggal menyambung kembali, sang ksatria akhirnya membunuhnya.",
+          "quote": "Une fois revenu, Boniface retrouva cette « beste » qui emportait alors un enfant dans sa gueule. Après un combat acharné au cours duquel la tête du serpent se renouait une fois coupée, le chevalier finit par tuer l'animal.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biscione-c11",
+          "source_id": "biscione-s4",
+          "host": "expo-animal-et-imaginaires.edel.univ-poitiers.fr",
+          "statement": "In this legend, the knight's children took the emblem of a serpent with a child in its mouth in memory of the fight.",
+          "statement_id": "Menurut legenda itu, anak-anak sang ksatria mengambil lambang ular dengan seorang anak di mulutnya untuk mengenang pertarungan tersebut.",
+          "quote": "C'est en la mémoire de ce combat que ses enfants prirent l'emblème d'un serpent avec un enfant dans sa gueule.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biscione-c12",
+          "source_id": "biscione-s4",
+          "host": "expo-animal-et-imaginaires.edel.univ-poitiers.fr",
+          "statement": "In another legend, Othon, viscount of Milan, fought at the siege of Jerusalem a formidable Saracen giant named Volux, who wore on his helmet a crest of a serpent devouring a child to frighten his enemies.",
+          "statement_id": "Dalam legenda lain, Othon, vicomte de Milan, saat pengepungan Jerusalem melawan seorang Saracen raksasa bernama Volux yang memakai di helmnya lambang ular pemakan anak untuk menakuti musuh.",
+          "quote": "Othon, vicomte de Milan, aurait, pendant le siège de Jérusalem, combattu un redoutable Sarrasin, un géant nommé Volux. Ce dernier portait sur son casque un cimier représentant un serpent dévorant un enfant, afin d'effrayer ses ennemis.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biscione-c13",
+          "source_id": "biscione-s4",
+          "host": "expo-animal-et-imaginaires.edel.univ-poitiers.fr",
+          "statement": "In a third tale, the knight Azo, tired of war, took off his helmet to lie down; while he slept a serpent slid inside, and when he put it back on unawares the serpent fell down along his cheek without trying to bite him.",
+          "statement_id": "Dalam kisah ketiga, ksatria Azo yang lelah berperang melepas helmnya untuk berbaring; saat ia tidur seekor ular masuk ke helm itu, dan ketika ia memakainya tanpa sadar ular itu merosot di pipinya tanpa menggigit.",
+          "quote": "Un jour, le chevalier Azo, fatigué de la guerre, voulant se reposer, ôta son casque pour s'allonger sur le sol. Mais alors qu'il dort, un serpent se glisse à l'intérieur. Sans se rendre compte de la présence de l'animal, il remet son casque sur sa tête et le serpent retombe le long de sa joue sans chercher à le mordre.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biscione-c14",
+          "source_id": "biscione-s4",
+          "host": "expo-animal-et-imaginaires.edel.univ-poitiers.fr",
+          "statement": "The exhibition author concludes the serpent of Milan was shown as a real animal, an imaginary animal or an emblematic animal, and in all three cases its negative and dangerous aspect remains present.",
+          "statement_id": "Penulis pameran menyimpulkan bahwa ular Milan digambarkan sebagai hewan nyata, hewan imajiner, atau hewan lambang, dan dalam ketiganya sifatnya yang negatif dan berbahaya tetap hadir.",
+          "quote": "Le serpent de Milan a donc été représenté de manières différentes, soit en animal réel, en animal imaginaire ou en animal emblématique. Dans les trois cas, son aspect négatif et dangereux reste toujours présent.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "biscione-c15",
+          "source_id": "biscione-s5",
+          "host": "it.wikipedia.org",
+          "statement": "Tarantasio, the dragon of Lake Gerundo, was believed to devour children, destroy boats and foul the air with its pestilential breath, causing a strange disease called yellow fever.",
+          "statement_id": "Tarantasio, naga danau Gerundo, dipercaya memakan anak-anak, menghancurkan perahu, dan meracuni udara dengan napasnya yang mewabah sehingga menimbulkan penyakit yang disebut demam kuning.",
+          "quote": "Tarantasio è il nome di un drago leggendario che terrorizzava gli abitanti dell'antico e ipotetico lago Gerundo (poi prosciugato, secondo la leggenda), nella zona di Lodi, in Lombardia. Si riteneva che questo animale mitologico divorasse i bambini, distruggesse le imbarcazioni e ammorbasse l'aria con il suo fiato pestilenziale, causando una strana malattia denominata febbre gialla.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biscione-c16",
+          "source_id": "biscione-s5",
+          "host": "it.wikipedia.org",
+          "statement": "Tarantasio is a legendary dragon that terrorised the inhabitants of the ancient, hypothetical Lake Gerundo in the Lodi area of Lombardy.",
+          "statement_id": "Tarantasio adalah naga legendaris yang meneror penduduk danau Gerundo kuno di daerah Lodi, Lombardia.",
+          "quote": "Tarantasio è il nome di un drago leggendario che terrorizzava gli abitanti dell'antico e ipotetico lago Gerundo (poi prosciugato, secondo la leggenda), nella zona di Lodi, in Lombardia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "biscione-c17",
+          "source_id": "biscione-s5",
+          "host": "it.wikipedia.org",
+          "statement": "One tradition has the founder of the Visconti slay the dragon and adopt the defeated creature, the biscione with a child in its mouth, as his emblem.",
+          "statement_id": "Salah satu tradisi menyebut leluhur Visconti membunuh sang naga lalu memakai makhluk yang dikalahkan itu, biscione dengan anak di mulutnya, sebagai lambang.",
+          "quote": "La più suggestiva riguarda l'uccisione del drago da parte del capostipite dei Visconti, il quale avrebbe poi adottato come simbolo la creatura sconfitta, ovvero il biscione con il bambino in bocca.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ef9b794685a96e5889cbacbb93fbfec7ecee2c63513d702bea0653f06b4b62e7"
+      "images": []
     },
     {
       "slug": "sea-monk",

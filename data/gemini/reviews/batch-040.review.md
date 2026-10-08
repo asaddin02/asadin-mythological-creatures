@@ -1,6 +1,6 @@
 # Review batch-040
 
-Diperiksa 2026-10-06T14:16:21.635Z. Berkas: batch-040.md, batch-040-fix-1.md, batch-040-fix-2.md.
+Diperiksa 2026-10-08T10:03:06.619Z. Berkas: batch-040.md, batch-040-fix-1.md, batch-040-fix-2.md, batch-040-fix-3.md.
 
 ## agni — lulus-otomatis
 
@@ -48,7 +48,7 @@ Klaim 33 (exact 32, unreachable 1), sumber 4, gambar 0.
 
 ## hathor — lulus-otomatis
 
-Klaim 15 (exact 12, unreachable 3), sumber 3, gambar 0.
+Klaim 28 (exact 25, unreachable 3), sumber 4, gambar 0.
 
 **manual**
 - `claims` 3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
@@ -70,6 +70,19 @@ Klaim 15 (exact 12, unreachable 3), sumber 3, gambar 0.
 | hathor-c13 | unreachable (HTTP 429) | www.metmuseum.org | Hathor was said to protect and nurse infant Horus and was worshipped in the Shaking of the Papyrus ritual. | Horus was protected and nursed while a baby by the goddess Hathor, who was worshipped in the ritual of the Shaking of the Papyrus. |
 | hathor-c14 | unreachable (HTTP 429) | www.metmuseum.org | Sistrum and menat were rattled in Hathor's cult to evoke rustling papyrus. | Hathor’s primary cult instruments, the sistrum (68.44) and the menat (11.215.450), were rattled to produce a comparable rustling sound and evoke this mythical environment. |
 | hathor-c15 | unreachable (HTTP 429) | www.metmuseum.org | Hathor is also shown as a cow emerging from a papyrus thicket. | this goddess is shown in the form of a cow emerging from the papyrus thicket |
+| hathor-c16 | exact | www.worldhistory.org | In the Book of the Heavenly Cow, Hathor descends on the world in a fury of destruction, killing everyone she finds, toppling cities, crushing homes and tearing up fields and gardens, and so becomes Sekhmet. | Hathor descends on the world in a fury of destruction, killing everyone she finds and toppling their cities, crushing their homes and tearing up fields and gardens and so transforms into the goddess Sekhmet. |
+| hathor-c17 | exact | www.worldhistory.org | The other gods point out that Sekhmet is going too far in this "lesson" and that soon no human beings will be left on earth. | They point out that Sekhmet is going too far in teaching this "lesson" to humanity and how, soon, there will be no human beings left on earth to benefit from it. |
+| hathor-c18 | exact | www.worldhistory.org | Sekhmet, crazed with thirst for blood, drinks the blood-red beer, becomes drunk, falls asleep and wakes as the benevolent Hathor. | Sekhmet, by this time, is crazed with the thirst for more blood and, when she comes upon the blood-red beer, she quickly seizes it and begins drinking. She becomes drunk, falls asleep, and wakes up as Hathor the benevolent. |
+| hathor-c19 | exact | en.wikipedia.org | A scholarly summary of the Book of the Heavenly Cow: Hathor is chosen by Ra to act as the violent Eye of Ra to punish humanity, which she does by slaughtering the rebels and bringing death into the world. | After Ra consulting with the other gods, the goddess Hathor is chosen by Ra to act as the violent Eye of Ra. She was to deliver divine punishment to humanity and did so by slaughtering the rebels and bringing death into the world. |
+| hathor-c20 | exact | en.wikipedia.org | Divine punishment was inflicted through Hathor, and the survivors suffered separation from Ra, who now lived in the sky on the back of Nut, the heavenly cow. | Divine punishment was inflicted through the goddess Hathor, with the survivors suffering through separation from Ra, who now resided in the sky on the back of Nut, the heavenly cow. |
+| hathor-c21 | exact | www.worldhistory.org | According to Egyptologist Geraldine Pinch, Hathor was the golden goddess who helped women to give birth, the dead to be reborn, and the cosmos to be renewed. | Hathor was the golden goddess who helped women to give birth, the dead to be reborn, and the cosmos to be renewed. |
+| hathor-c22 | exact | www.worldhistory.org | Hathor is described as the primordial Mother Goddess, ruler of the sky, the sun, the moon, agriculture, fertility, the east, the west, moisture and childbirth. | She was the primordial Mother Goddess, ruler of the sky, the sun, the moon, agriculture, fertility, the east, the west, moisture and childbirth. |
+| hathor-c23 | exact | www.worldhistory.org | The Seven Hathors were present at the birth of a human being and decreed their fate. | The most important of these were the Seven Hathors who were present at the birth of a human being and decreed their fate. |
+| hathor-c24 | exact | www.worldhistory.org | The Seven Hathors had a red ribbon which they used to bind evil forces and dark demons. | The Seven Hathors shared these attributes but also had a red ribbon which they used to bind evil forces and dark demons. |
+| hathor-c25 | exact | www.worldhistory.org | In a Late Period story, Hathor rules the underworld, emerging to punish those who behave unjustly on earth. | In a Late Period story, Hathor rules the underworld, emerging to punish those who behave unjustly on earth. |
+| hathor-c26 | exact | www.worldhistory.org | Women among the dead who were deemed worthy to cross assumed Hathor's likeness and qualities, while the male dead continued to be associated with Osiris. | the female dead who were deemed worthy to cross ... assumed Hathor's likeness and qualities while the male dead continued to be associated with Osiris. |
+| hathor-c27 | exact | www.worldhistory.org | In the story of the sun god's voyage through the night sky and the underworld, Hathor stands in the prow keeping watch for any sign of danger from Apophis. | In the story of the sun god's voyage through the night sky and the underworld, Hathor stands in the prow keeping watch for any sign of danger from Apophis. |
+| hathor-c28 | exact | www.worldhistory.org | Hathor came to be identified with the Distant Goddess; when the goddess returned she brought the inundation with her, but had to be pacified with music, dancing, feasting and drunkenness. | Hathor was widely worshipped and came to be idenified with a deity known as The Distant Goddess. ... When the Distant Goddess returned, she brought the inundation with her, but she had to be pacified with music, dancing, feasting, and drunkenness. |
 
 
 ## helios — lulus-otomatis

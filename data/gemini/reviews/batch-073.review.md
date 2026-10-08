@@ -1,6 +1,6 @@
 # Review batch-073
 
-Diperiksa 2026-10-07T09:31:01.636Z. Berkas: batch-073.md, batch-073-fix-1.md, batch-073-fix-2.md, batch-073-fix-3.md, batch-073-fix-4.md, batch-073-fix-5.md.
+Diperiksa 2026-10-08T10:19:36.691Z. Berkas: batch-073.md, batch-073-fix-1.md, batch-073-fix-2.md, batch-073-fix-3.md, batch-073-fix-4.md, batch-073-fix-5.md, batch-073-fix-6.md.
 
 ## manasa — lulus-otomatis
 
@@ -346,7 +346,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## vahana — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 19 (exact 19), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -355,7 +355,20 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | vahana-c03 | exact | en.wikipedia.org | The Sanskrit root vah means to carry or transport. | Vah in Sanskrit means to carry or transport. The word also means 'vehicle' in Sanskrit and other Indian languages. |
 | vahana-c04 | exact | en.wikipedia.org | Nandi as Shiva's vehicle symbolizes strength; Saraswati's hamsa symbolizes wisdom. | Nandi the bull and vehicle of Shiva, represents strength and virility. ... The hamsa, the vehicle of Saraswati, represents wisdom, grace, and beauty. |
 | vahana-c05 | exact | en.wikipedia.org | Divine vehicles can also symbolize negative forces overcome by their deities. | However, a divine mount also symbolizes the negative or destructive forces over which the deity triumphs. Mounted on Parvani, Kartikeya reins in the peacock's vanity. Seated upon Dinka, the rat (Mushika), Ganesha subdues erratic thoughts, which multiply like rodents in the dark. Shani, the protector of property, rides a vulture, raven, or crow, whose thieving tendencies he represents. |
-| vahana-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | In Mackenzie's retelling the white elephant Airavata is Indra's mount. | Indra was attended by a dog, as befitted a deity of[Pg 18] primitive huntsmen. After the early Aryan period, he showed less favour for his bays and chariot, and seated himself upon a great white elephant, “the handsome and ever victorious”, named Airavata; it “was furnished with four tusks” and “resembled the mountain of Kailasa with its summits”. |
+| vahana-c06 | exact | www.gutenberg.org | In Mackenzie's retelling the white elephant Airavata is Indra's mount. | Indra was attended by a dog, as befitted a deity of[Pg 18] primitive huntsmen. After the early Aryan period, he showed less favour for his bays and chariot, and seated himself upon a great white elephant, “the handsome and ever victorious”, named Airavata; it “was furnished with four tusks” and “resembled the mountain of Kailasa with its summits”. |
+| vahana-c07 | exact | en.wikipedia.org | The vahana symbolically doubles as the deity's power, and also represents the devotee's mind, which the deity controls and guides. | The vahana symbolically doubles as a deity's power. The vahana also represents the devotee's mind, which the deity controls and guides. |
+| vahana-c08 | exact | en.wikipedia.org | A vahana may act independently, yet it is functionally emblematic of, or viewed as an extension of, its "rider". | though the vāhana may act independently, they are still functionally emblematic of or even viewed as an extension of their |
+| vahana-c09 | exact | en.wikipedia.org | In the Mahabharata episode quoted in the article, Garuda goes for the pot of amrita; the Devas, Indra, even the Sun and Moon line up against him, but he defeats them all. | Garuḍa approached the pot of nectar, and Viśvakarmā who attacked him first was felled to the ground. The dust storm raised by the waving of Garuḍa’s wings blinded everybody. The Devas and Indra, nay, even the sun and the Moon lined up against Garuḍa, but he defeated them all |
+| vahana-c10 | exact | en.wikipedia.org | At his request, Vishnu granted that Garuda become his vehicle and be rendered immortal without tasting amrita. | Garuḍa requested Viṣṇu that he should be made his (Viṣṇu's) vehicle and rendered immortal without his tasting amṛta. Both the boons were granted. |
+| vahana-c11 | exact | en.wikipedia.org | A giant mouse terrorized the child Ganesha's friends; Ganesha trapped it with his lasso and made it his mount. | While Ganesha was still a child, a giant mouse began to terrorize his friends. Ganesha trapped the creature with his lasso (pasha) and made him his mount. |
+| vahana-c12 | exact | en.wikipedia.org | The peacock Paravani, Kartikeya's mount, was originally the demon Surapadma, and the rooster on his banner was originally the demon Krichi. | This peacock was originally a demon named Surapadma, while his banner's rooster was originally a demon named Krichi. |
+| vahana-c13 | exact | en.wikipedia.org | A statue of Nandi guards the entrance of virtually every Shiva temple, perpetually facing the inner shrine. | Since then a statue of Nandi has guarded the entrance of virtually every Shiva temple, perpetually facing the inner shrine. |
+| vahana-c14 | exact | en.wikipedia.org | Goddess Durga defeated the demon Mahishasura without the help of her vahana, a lion given to her by her father Himalaya. | Goddess Durga defeated the demon Mahishasura without the help of her vahana, lion given to her by her father Himalaya. |
+| vahana-c15 | exact | www.worldhistory.org | Garuda, Vishnu's vehicle, is the enemy of all snakes, which are symbolic of death and the underworld. | The latter name is in reference to his role as the enemy of all snakes which are symbolic of death and the underworld. |
+| vahana-c16 | exact | www.worldhistory.org | In the Mahabharata Garuda eats evil men; once he swallowed a brahmana and his wife but had to spit them out because the priest burned his throat. | In the Mahabharata Garuda eats evil men. In one episode he swallowed a brahmana and his wife but the priest burned Garuda's throat so much that he was compelled to spit the couple out. |
+| vahana-c17 | exact | www.worldhistory.org | In the Bhagavata Purana Garuda attacks the many-headed snake Kaliya, hitting him with his wings so hard that Kaliya hides in a pool of the Kalindi River. | In the Bhagavata Purana a legend is told where Garuda fights the fearsome many-headed snake Kaliya. ... Garuda attacked Kaliya, hitting him so hard with his wings that Kaliya hid in a pool of the Kalindi River. |
+| vahana-c18 | exact | www.worldhistory.org | Indra soon found out and, unconvinced by Garuda's motive that he needed the amrta as a ransom to free his mother from Kadru, fought the giant bird in an epic battle; Indra lost his thunderbolt but eventually retrieved the amrta. | Indra soon found out and, unconvinced by Garuda's motive that he needed the amrta as a ransom to free his mother from the clutches of Kadru, fought the giant bird in an epic battle. Mighty Indra lost his famous thunderbolt in the clash but eventually managed to retrieve the amrta. |
+| vahana-c19 | exact | www.worldhistory.org | As king of the birds, Garuda threatened the Ocean that he would attack it incessantly if the sparrow's eggs were not given back; the Ocean relented and returned the eggs. | Garuda who, as king of the birds, felt sympathy and threatened the Ocean that if the eggs were not given back then Garuda himself would incessantly attack the Ocean. Ocean relented and returned the eggs to the ever grateful sparrow. |
 
 
 ## indrajit — lulus-otomatis
@@ -503,7 +516,7 @@ Klaim 6 (exact 5, unreachable 1), sumber 2, gambar 0.
 
 ## gana — lulus-otomatis
 
-Klaim 15 (exact 15), sumber 4, gambar 0.
+Klaim 23 (exact 23), sumber 8, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -522,6 +535,14 @@ Klaim 15 (exact 15), sumber 4, gambar 0.
 | gana-c14 | exact (HTTP 522; dicek lewat arsip Wayback) | www.wisdomlib.org | The Shiva Purana says the gods, the ganas and the celestial damsels sang songs joyously, danced and played on instruments. | The gods, the Gaṇas and the celestial damsels sang songs joyously, danced and played on instruments. |
 | gana-c15 | exact | www.wisdomlib.org | According to a study of the Saura Purana quoted by Wisdom Library, the form of Shiva's ganas is like that of Shiva himself: nilakantha, trinetra, with the moon on their heads, wearing tiger skin and decorated with all ornaments. | Gaṇa (गण) refers to the “associates of Śiva” and their form is described in the Saurapurāṇa as follows:—The svarūpa of the Gaṇas of Śiva are like the form of Śiva himself. They are nīlakaṇṭha, trinetra and having moon on their heads, and wearing the skin of tiger, decorated with all the Ornaments. |
 | gana-c16 | exact | www.wisdomlib.org | A Wisdom Library glossary entry says ganas are troops that generally appear in classes, nine classes being mentioned in the Puranas, attached to Shiva and serving under Ganesha, dwelling on Ganaparvata identified with Kailasa. | Gaṇas are troops who generally appear in classes. Nine such classes are mentioned in the Purāṇas: ... These are attached to Lord Śiva and serve under the command of Gaṇeśa, dwelling on Gaṇaparvata identified with Kailāsa—a peak of the Himālaya mountain. |
+| gana-c17 | exact | www.wisdomlib.org | In the Shiva Purana Shiva's Ganas call themselves "the excellent Ganas of Shiva", his doorkeepers, who have come at Shiva's bidding to throw Ganesha out. | We are the excellent Gaṇas of Śiva. We are his doorkeepers. We have come here to throw you out at the bidding of lord Śiva. |
+| gana-c18 | exact | www.wisdomlib.org | Thousands of Shiva's Ganas flee in all directions like deer on seeing a lion, and Ganesha returns to the doorway and stands there. | Just as deer flee to any direction on seeing a lion, the Gaṇas, who were thousands in number fled in that manner. Then Gaṇeśa returned to doorway and stood there. |
+| gana-c19 | exact | www.wisdomlib.org | Shiva says the boy at his door has destroyed many of his attendants and forcefully defeated his Ganas. | He has destroyed many of my Pārṣadas. He has forcefully defeated my Gaṇas. |
+| gana-c20 | exact | www.wisdomlib.org | Shiva issues directives to Indra and other gods, to the Ganas led by the six-faced Kumara, and to goblins, ghosts and spirits; at his bidding they all desire to kill Ganesha. | He issued directives to Indra and other gods, to the Gaṇas led by the six-faced Kumāra and to goblins, ghosts and spirits. ... At the bidding of Śiva they all desired to kill Gaṇeśa. |
+| gana-c21 | exact | www.wisdomlib.org | To destroy Daksha's sacrifice Shiva sends crores of valorous Ganas, equal to the fire of dissolution. | To add lustre to the campaign, Śiva sent crores of Gaṇas, very valorous and equal to the fire of dissolution. |
+| gana-c22 | exact | www.wisdomlib.org | At Shiva's bidding Virabhadra advances followed by crores and crores, thousands and thousands, hundreds and hundreds of Ganas. | Thus at the bidding of Śiva, the heroic Vīrabhadra went ahead followed by crores and crores, thousands and thousands, hundreds and hundreds of Gaṇas. |
+| gana-c23 | exact | www.wisdomlib.org | The guardians of the quarters including Indra fight fiercely with Virabhadra's Ganas; Indra fights Nandin and Kubera fights Kushmandapati. | The guardians of the quarters including Indra roared like lions and fought forcefully with the Gaṇas of Vīrabhadra. 6. A noisy terrible fight ensued between the Gaṇas and the guardians of the quarters, both roaring like lions. 7. Indra fought with Nandin; the fire-god with Aśman and the powerful Kubera fought with Kūṣmāṇḍapati. |
+| gana-c24 | exact | www.wisdomlib.org | A great voice makes Vishnu realize that the great Ganas are invincible, and he thinks of vanishing from the scene. | Viṣṇu was enlightened by the great voice that the great Gaṇas were invincible. He therefore thought of vanishing from the scene. |
 
 
 ## trijata — lulus-otomatis
@@ -602,7 +623,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## apasmara — lulus-otomatis
 
-Klaim 17 (exact 17), sumber 4, gambar 0.
+Klaim 23 (exact 23), sumber 8, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -623,6 +644,12 @@ Klaim 17 (exact 17), sumber 4, gambar 0.
 | apasmara-c15 | exact | www.wisdomlib.org | The study notes that, except for the protruding canine teeth, no other feature of that description can be traced in any image of Apasmarapurusha, in sculptures or paintings. | Except the protruding canine teeth no other feature can be traced in any of the images of Apasmārapuruṣa either in sculptures or in paintings. |
 | apasmara-c16 | exact | www.wisdomlib.org | A Wisdom Library glossary describes Apasmarapurusha as epilepsy or loss of memory personified; according to the Skanda Purana he is black with three heads and should be playing with a snake. | Apasmārapuruṣa (अपस्मारपुरुष) refers to epilepsy, loss of memory personified.—Apasmārapuruṣa, according to Skandapurāṇa is black with three heads etc. (Lakkaṇṇa, Śivatattvacintāmaṇi, p.137 ff). Apasmārapuruṣa should be playing with a snake. |
 | apasmara-c17 | exact | www.wisdomlib.org | On the Nataraja sculpture at the temple of Lokeshvara, according to a study quoted by Wisdom Library, Apasmara wears a dhoti, his face is lifted up to the left of Shiva, and he has a small horn. | Apasmāra is clad with a dhotī with kacce clearly traceable. His face is to the left of Śiva, lifted up, and he has a small horn. |
+| apasmara-c18 | exact | en.wikipedia.org | In the Thillai legend the sages gathered all their spiritual strength and invoked the powerful demon Muyalakan, a symbol of complete arrogance and ignorance; Shiva stepped on his back to immobilise him. | The sages gathered all their spiritual strength and invoked the powerful demon Muyalakan — a symbol of complete arrogance and ignorance. ... Shiva smiled gently, stepped on the demon's back to immobilise him |
+| apasmara-c19 | exact | en.wikipedia.org | After Muyalakan was immobilised, Shiva performed the Ananda Thandavam and disclosed his true form; the sages surrendered, realizing that rituals cannot control the gods. | and performed the Ánanda Thandavam (the dance of eternal bliss), thus disclosing his true form. The sages surrendered, realizing that rituals cannot control the gods. |
+| apasmara-c20 | exact | en.wikipedia.org | In the Skanda Purana the sages' black-magic sacrifice produces a serpent, a lion, an elephant (or tiger) and a dwarf that all attack Shiva; Shiva overpowers them, then dances on the dwarf and takes the form of Nataraja, the Cosmic Dancer. | they perform a black magic sacrifice, which produces a serpent, a lion, an elephant (or tiger), and a dwarf, all of which attack Shiva, who overpowers them. ... Shiva then dances on the dwarf and takes the form of Nataraja, the Cosmic Dancer. |
+| apasmara-c21 | exact | www.worldhistory.org | World History Encyclopedia: Shiva stamps on the dwarf figure Apasmara Purusha, who represents illusion and leads men away from the truth. | He also stamps one foot on the dwarf figure Apasmara Purusha who represents illusion and who leads men away from the truth. |
+| apasmara-c22 | exact | southasia.ucla.edu | According to Coomaraswamy, Nataraja's lower left hand points down to the demon Muyalaka, who holds a cobra and is crushed by Shiva's right foot. | The upper left hand holds a flame, the lower left hand points down to the demon Muyalaka, who is shown holding a cobra. The demon is being crushed by Shiva’s right foot; |
+| apasmara-c23 | exact | en.wikipedia.org | Apasmara is a "necessary evil" in the cosmic balance between spiritual knowledge and ignorance, and cannot be eradicated without disrupting the cosmic order. | This "necessary evil" of Apasmara is part of the cosmic balance between spiritual knowledge and the inherent ignorance in one's sense of self, and cannot be eradicated without disrupting the cosmic order. |
 
 
 ## vidyadhara — lulus-otomatis

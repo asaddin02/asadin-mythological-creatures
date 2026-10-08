@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-040",
-  "checked_at": "2026-10-06T14:16:21.635Z",
+  "checked_at": "2026-10-08T10:03:06.619Z",
   "files": [
     "batch-040.md",
     "batch-040-fix-1.md",
-    "batch-040-fix-2.md"
+    "batch-040-fix-2.md",
+    "batch-040-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -363,11 +364,12 @@
     },
     {
       "slug": "hathor",
-      "file": "batch-040-fix-1.md",
+      "file": "batch-040-fix-3.md",
+      "entry_sha256": "56a9f60c4899d75473d6366baaf4adee2bbde5c6136c5e594347ee28ded467ac",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 3,
+        "claims": 28,
+        "sources": 4,
         "images": 0
       },
       "issues": [
@@ -534,10 +536,139 @@
           "context": "scholarly-interpretation",
           "status": "unreachable",
           "detail": "HTTP 429"
+        },
+        {
+          "id": "hathor-c16",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Book of the Heavenly Cow, Hathor descends on the world in a fury of destruction, killing everyone she finds, toppling cities, crushing homes and tearing up fields and gardens, and so becomes Sekhmet.",
+          "statement_id": "Dalam Kitab Sapi Surgawi, Hathor turun ke dunia dalam amukan kehancuran: ia membunuh semua orang yang ditemuinya, meruntuhkan kota, menghancurkan rumah, dan mencabut ladang serta kebun, lalu menjadi Sekhmet.",
+          "quote": "Hathor descends on the world in a fury of destruction, killing everyone she finds and toppling their cities, crushing their homes and tearing up fields and gardens and so transforms into the goddess Sekhmet.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c17",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The other gods point out that Sekhmet is going too far in this \"lesson\" and that soon no human beings will be left on earth.",
+          "statement_id": "Para dewa lain menegur bahwa Sekhmet berlebihan dalam \"pelajaran\" itu, sebab tak lama lagi tidak akan ada manusia yang tersisa di bumi.",
+          "quote": "They point out that Sekhmet is going too far in teaching this \"lesson\" to humanity and how, soon, there will be no human beings left on earth to benefit from it.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c18",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Sekhmet, crazed with thirst for blood, drinks the blood-red beer, becomes drunk, falls asleep and wakes as the benevolent Hathor.",
+          "statement_id": "Sekhmet yang haus darah meminum bir merah, mabuk, tertidur, dan bangun sebagai Hathor yang murah hati.",
+          "quote": "Sekhmet, by this time, is crazed with the thirst for more blood and, when she comes upon the blood-red beer, she quickly seizes it and begins drinking. She becomes drunk, falls asleep, and wakes up as Hathor the benevolent.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c19",
+          "source_id": "hathor-s4",
+          "host": "en.wikipedia.org",
+          "statement": "A scholarly summary of the Book of the Heavenly Cow: Hathor is chosen by Ra to act as the violent Eye of Ra to punish humanity, which she does by slaughtering the rebels and bringing death into the world.",
+          "statement_id": "Ringkasan ilmiah Kitab Sapi Surgawi: Hathor dipilih Ra sebagai Mata Ra yang garang untuk menghukum manusia, dan ia melakukannya dengan membantai para pemberontak serta membawa kematian ke dunia.",
+          "quote": "After Ra consulting with the other gods, the goddess Hathor is chosen by Ra to act as the violent Eye of Ra. She was to deliver divine punishment to humanity and did so by slaughtering the rebels and bringing death into the world.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c20",
+          "source_id": "hathor-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Divine punishment was inflicted through Hathor, and the survivors suffered separation from Ra, who now lived in the sky on the back of Nut, the heavenly cow.",
+          "statement_id": "Hukuman ilahi dijatuhkan lewat Hathor; para penyintas menderita karena terpisah dari Ra, yang sejak itu tinggal di langit di punggung Nut, sapi surgawi.",
+          "quote": "Divine punishment was inflicted through the goddess Hathor, with the survivors suffering through separation from Ra, who now resided in the sky on the back of Nut, the heavenly cow.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c21",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to Egyptologist Geraldine Pinch, Hathor was the golden goddess who helped women to give birth, the dead to be reborn, and the cosmos to be renewed.",
+          "statement_id": "Menurut Egyptolog Geraldine Pinch, Hathor adalah dewi keemasan yang membantu perempuan melahirkan, orang mati dilahirkan kembali, dan kosmos diperbarui.",
+          "quote": "Hathor was the golden goddess who helped women to give birth, the dead to be reborn, and the cosmos to be renewed.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c22",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hathor is described as the primordial Mother Goddess, ruler of the sky, the sun, the moon, agriculture, fertility, the east, the west, moisture and childbirth.",
+          "statement_id": "Hathor digambarkan sebagai Dewi Ibu purba, penguasa langit, matahari, bulan, pertanian, kesuburan, timur, barat, kelembapan, dan kelahiran.",
+          "quote": "She was the primordial Mother Goddess, ruler of the sky, the sun, the moon, agriculture, fertility, the east, the west, moisture and childbirth.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c23",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Seven Hathors were present at the birth of a human being and decreed their fate.",
+          "statement_id": "Tujuh Hathor hadir pada kelahiran seorang manusia dan menetapkan nasibnya.",
+          "quote": "The most important of these were the Seven Hathors who were present at the birth of a human being and decreed their fate.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c24",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Seven Hathors had a red ribbon which they used to bind evil forces and dark demons.",
+          "statement_id": "Tujuh Hathor memiliki pita merah yang mereka pakai untuk mengikat kekuatan jahat dan iblis gelap.",
+          "quote": "The Seven Hathors shared these attributes but also had a red ribbon which they used to bind evil forces and dark demons.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c25",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In a Late Period story, Hathor rules the underworld, emerging to punish those who behave unjustly on earth.",
+          "statement_id": "Dalam sebuah kisah Periode Akhir, Hathor memerintah dunia bawah dan muncul untuk menghukum mereka yang bertindak tidak adil di bumi.",
+          "quote": "In a Late Period story, Hathor rules the underworld, emerging to punish those who behave unjustly on earth.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c26",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Women among the dead who were deemed worthy to cross assumed Hathor's likeness and qualities, while the male dead continued to be associated with Osiris.",
+          "statement_id": "Perempuan yang meninggal dan dinilai layak menyeberang ke Ladang Buluh mengambil rupa dan sifat Hathor, sedangkan laki-laki yang meninggal tetap dihubungkan dengan Osiris.",
+          "quote": "the female dead who were deemed worthy to cross ... assumed Hathor's likeness and qualities while the male dead continued to be associated with Osiris.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c27",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the story of the sun god's voyage through the night sky and the underworld, Hathor stands in the prow keeping watch for any sign of danger from Apophis.",
+          "statement_id": "Dalam kisah pelayaran dewa matahari melintasi langit malam dan dunia bawah, Hathor berdiri di haluan dan berjaga dari tanda bahaya yang datang dari Apophis.",
+          "quote": "In the story of the sun god's voyage through the night sky and the underworld, Hathor stands in the prow keeping watch for any sign of danger from Apophis.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c28",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hathor came to be identified with the Distant Goddess; when the goddess returned she brought the inundation with her, but had to be pacified with music, dancing, feasting and drunkenness.",
+          "statement_id": "Hathor dikenali dengan Dewi yang Jauh; ketika sang dewi kembali, ia membawa banjir tahunan, tetapi harus diredakan dengan musik, tarian, pesta, dan mabuk.",
+          "quote": "Hathor was widely worshipped and came to be idenified with a deity known as The Distant Goddess. ... When the Distant Goddess returned, she brought the inundation with her, but she had to be pacified with music, dancing, feasting, and drunkenness.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "3c7b870634c1acd5bd55ed294bee77295b58013a4f9031323c415797623a3ea7"
+      "images": []
     },
     {
       "slug": "helios",

@@ -11,9 +11,6 @@ Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka la
 ## feilong
 - `long_description[1]`: Tidak muncul di kutipan mana pun: Jepang, Korea, Vietnam. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
-## fuzhu-mythical-beast
-- `long_description[1]`: Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 ## gangcheori
 - `long_description[0]`: Tidak muncul di kutipan mana pun: 17. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 

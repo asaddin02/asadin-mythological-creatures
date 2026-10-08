@@ -1,6 +1,6 @@
 # Review batch-110
 
-Diperiksa 2026-10-03T01:27:23.645Z. Berkas: batch-110.md.
+Diperiksa 2026-10-08T10:03:09.750Z. Berkas: batch-110.md, batch-110-fix-1.md.
 
 ## rubezahl — lulus-otomatis
 
@@ -577,7 +577,7 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 ## litr — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 13 (exact 13), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -587,11 +587,18 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | litr-c04 | exact | en.wikipedia.org | Litr is also listed as a dwarf in Völuspá (12), and a dwarf Litr appears in Áns saga bogsveigis, forced by the hero Án to build him a bow. | Litr is also listed as a dwarf in Völuspá (12). A dwarf named Litr also appears in Áns saga bogsveigis, where he is coerced by the protagonist Án to build him a bow. |
 | litr-c05 | exact | es.wikipedia.org | In a stanza by the skald Bragi Boddason quoted by Snorri in the Skáldskaparmál, Litr appears in a kenning for Thor, 'challenger of Lit's men' (Litar flotna fangboði); as Thor is the giants' enemy, Litr here is generally taken as a giant. | En una estrofa del escaldo Bragi Boddason citada por Snorri en Skáldskaparmál Litr es también mencionado en un kenning para Thor: «El que desafía a luchar a los hombres de Lit» («Litar flotna fangboði»). Dado que Thor es el enemigo de los gigantes, generalmente se asume que, en este kenningar, Litr debe hacer referencia a un gigante. |
 | litr-c06 | exact | es.wikipedia.org | This led John Lindow to suggest there was probably only one original Litr, a giant. | Esto llevó a John Lindow a sugerir que probablemente hubiera solo un Litr original, un gigante |
+| litr-c07 | exact | www.gutenberg.org | In Anderson's translation of the Gylfaginning, Thor stood by the pile and hallowed it with Mjolner; a dwarf named Lit ran before his feet, Thor kicked him into the fire, and he was burned. | Thor stood by and hallowed the pile with Mjolner. Before his feet ran a dwarf, whose name is Lit. Him Thor kicked with his foot and dashed him into the fire, and he, too, was burned. |
+| litr-c08 | exact | www.gutenberg.org | In the same translation, the funeral pile was attended by many kinds of folk; first of all came Odin, accompanied by Frigg and the valkyries and his ravens. | But this funeral-pile was attended by many kinds of folk. First of all came Odin, accompanied by Frigg and the valkyries and his ravens. |
+| litr-c09 | exact | www.gutenberg.org | In Anderson's translation the dwarfs were first created and quickened in Ymer's flesh as maggots; now, by the decision of the gods, they have the understanding and likeness of men but must still dwell in the earth and in rocks. | The dwarfs had first been created and had quickened in Ymer’s flesh, and were then maggots; but now, by the decision of the gods, they got the understanding and likeness of men, but still had to dwell in the earth and in rocks. |
+| litr-c10 | exact | en.wikipedia.org | A dwarf named Litr appears in Þorsteins saga Víkingssonar as foster-father of Halfdan, sworn brother of Viking. After Dís, daughter of King Kol Kroppinbak of India, uses a magic drinking horn to afflict Viking with leprosy, Halfdan asks Litr to steal the horn from Dís. | A dwarf named Litr appears in Þorsteins saga Víkingssonar. In this, he is the foster-father of Halfdan, sworn brother of Viking. After Dís, daughter of King Kol Kroppinbak of India, uses a magic drinking horn to afflict Viking with leprosy, Halfdan asks Litr to steal the horn from Dís. |
+| litr-c11 | exact | en.wikipedia.org | Litr does not want to, fearing Dís, but agrees and returns with the horn seven days later, which heals Viking. | Litr does not want to, fearing Dís, but he agrees and returns with the horn seven days later, which heals Viking. |
+| litr-c12 | exact | en.wikipedia.org | Dís's husband Jokul later says that Litr used tricks to betray Dís and steal the horn, and that Litr grievously wounded her. | Dís's husband Jokul says later that Litr used tricks to betray Dís and steal the horn, and also that Litr grievously wounded her. |
+| litr-c13 | exact | en.wikipedia.org | Litr is also a jötunn in one version of the poem about Thor by Þorbjörn dísarskáld, where the skald lists jötnar and gýgjar killed by the god; Litr appears in only one manuscript, the others naming Lútr. | Litr is also a jötunn in one version of the poem about Thor by Þorbjörn dísarskáld, where the skald lists jötnar and gýgjar killed by the god (but Litr only appears in one manuscript, the others mentioning Lútr instead). |
 
 
 ## motsognir — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 11 (exact 11), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -601,6 +608,11 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | motsognir-c04 | exact | de.wikipedia.org | Modsognir or Motsognir is the first dwarf in Norse mythology, created by the gods; the meaning of the name is disputed, most likely 'the weary, powerless one'. | Modsognir, auch Motsognir (altnordisch Módsognir bzw. Mótsognir), ist in der nordischen Mythologie der erste Zwerg und wurde von den Göttern erschaffen. Umstritten ist die Bedeutung des Namens, am ehesten könnte man ihn mit ‚der Müde, der Kraftlose‘ wiedergeben |
 | motsognir-c05 | exact | en.wikipedia.org | Scholars dispute Snorri's interpretation of Völuspá 9–10 in the Prose Edda, chiefly because his text of the verse differs from independent manuscripts of the poem. | In scholarship, the interpretation of Völuspà 9–10 in Snorri's Prose Edda, (Gylfaginning 14), is disputed, primarily because his text of the verse varies from that found in independent manuscripts of the poem. |
 | motsognir-c06 | exact | de.wikipedia.org | No sources say whether Modsognir is to be understood as king or leader of the dwarfs. | Quellen darüber, ob Modsognir als König oder Anführer der Zwerge zu verstehen ist, liegen nicht vor. |
+| motsognir-c07 | exact | en.wikisource.org | In Bellows's translation of the Völuspá, Motsognir is the mightiest of all the dwarfs and Durin next; they made many a likeness of men, the dwarfs in the earth, as Durin said. | There was Motsognir the mightiest made Of all the dwarfs, and Durin next; Many a likeness of men they made, The dwarfs in the earth, as Durin said. |
+| motsognir-c08 | exact | en.wikisource.org | The holy gods took their assembly-seats and held council to find who should raise the race of dwarfs out of Brimir's blood and the legs of Blain. | Then sought the gods their assembly-seats, The holy ones, and council held; To find who should raise the race of dwarfs Out of Brimir's blood and the legs of Blain. |
+| motsognir-c09 | exact | www.gutenberg.org | In Anderson's translation the dwarfs were first created and quickened in Ymer's flesh as maggots; by decision of the gods they got the understanding and likeness of men but still dwell in the earth and in rocks. Modsogner was one dwarf and Durin another. | The dwarfs had first been created and had quickened in Ymer’s flesh, and were then maggots; but now, by the decision of the gods, they got the understanding and likeness of men, but still had to dwell in the earth and in rocks. Modsogner was one dwarf and Durin another. |
+| motsognir-c10 | exact | en.wikipedia.org | In Sigurd Nordal's report, Sophus Bugge read the second half of verse 10 as "these dwarfs made many manikins in the earth, as Durinn said", assuming Modsognir and Durin shape the dwarfs only as manikins (dead images of men) and the Æsir then give them life. | Sophus Bugge read the second half of verse 10 as "these dwarfs made many manikins in the earth, as Durinn said", noting "this appears to assume Modsognir and Durin shape the dwarfs, but only as manikins (i.e. dead images of men) and that the Æsir then gave them life." |
+| motsognir-c11 | exact | en.wikipedia.org | The original text in the Codex Regius and Hauksbók manuscripts appears to describe the dwarfs together giving shape to human beings (manlíkon), who are then brought to life by Odin and his brothers in the verses following the so-called Dvergatal. | The original text in the Codex Regius and Hauksbók manuscripts, appear to refer to how the dwarfs together gave shape to human beings (manlíkon), which are then brought to life by Odin and his brothers in the verses following the so-called Dvergatal |
 
 
 ## skogsra — lulus-otomatis

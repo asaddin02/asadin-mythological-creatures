@@ -1,6 +1,6 @@
 # Review batch-119
 
-Diperiksa 2026-10-07T05:08:22.217Z. Berkas: batch-119.md, batch-119-fix-1.md, batch-119-fix-2.md.
+Diperiksa 2026-10-08T10:19:39.059Z. Berkas: batch-119.md, batch-119-fix-1.md, batch-119-fix-2.md, batch-119-fix-3.md.
 
 ## aderyn-y-corff — lulus-otomatis
 
@@ -81,7 +81,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## bran-and-sceolang — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 29 (exact 29), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -91,6 +91,29 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | bran-and-sceolang-c04 | exact | en.wikipedia.org | Uirne sister of Muirne, Fionn's mother; the hounds are Fionn's cousins. | As Uirne is the sister of Fionn's mother Muirne, Bran and Sceólang would be their masters' cousins. |
 | bran-and-sceolang-c05 | exact | ga.wikipedia.org | ga article: Bran agus Sceólang, Fionn's hounds in the Fiannaíocht. | San Fhiannaíocht i miotaseolaíocht na nGael, cúnna Fhionn mhic Cumhaill ba ea Bran agus Sceólang (Fiach Dubh agus Scéalaí). |
 | bran-and-sceolang-c06 | exact | ga.wikipedia.org | They found Oisín, Fionn's son, naked in the forest; Sceólang died hunting; Bran drowned. | Dar le seanscéal, ba iadsan a tháinig ar Oisín mac Fhionn ar fáin lomnocht san fhoraois. |
+| bran-and-sceolang-c07 | exact | www.gutenberg.org | Tuiren was struck with a dark druid rod by a woman of the Sidhe and changed into the most beautiful hound ever seen. | So Tuiren went out with her, and when they were away from the house the woman of the Sidhe took out her dark Druid rod from under her cloak and gave her a blow of it that changed her into a hound, the most beautiful that was ever seen. |
+| bran-and-sceolang-c08 | exact | www.gutenberg.org | The two whelps always stopped with Finn, and he gave them the names Bran and Sceolan. | And as to the two whelps, they stopped always with Finn, and the names he gave them were Bran and Sceolan. |
+| bran-and-sceolang-c09 | exact | www.gutenberg.org | Bran and Sceolan, "without fault", are named among the three best things Finn ever got (the third being the Little Nut from the House of the Sidhe in Slieve-nam-ban). | These were the three best things Finn ever got, Bran and Sceolan that were without fault, and the Little Nut from the House of the Sidhe in Slieve-nam-ban. |
+| bran-and-sceolang-c10 | exact | www.gutenberg.org | In the chase of a beautiful fawn, all the men and dogs tired and fell back except Finn himself and Bran and Sceolan. | a beautiful fawn started up before them, and they followed after it, men and dogs, till at last they were all tired and fell back, all but Finn himself and Bran and Sceolan. |
+| bran-and-sceolang-c11 | exact | www.gutenberg.org | Bran and Sceolan overtook the fawn but did not harm it at all, playing about it and licking its neck and face. | Bran and Sceolan came up with it, and they did not harm it at all, but went playing about it, licking its neck and its face. |
+| bran-and-sceolang-c12 | exact | www.gutenberg.org | The speaker (the fawn) says that only Bran and Sceolan were left after her; they "have human wits" and she was safe with them because they knew her nature to be like their own. | And I never stopped then till there was no one after me but only Bran and Sceolan, that have human wits; and I was safe with them, for they knew my nature to be like their own." |
+| bran-and-sceolang-c13 | exact | www.gutenberg.org | Finn took to any hunting only the five hounds he trusted most: Bran, Sceolan, Lomaire, Brod and Lomluath. | he never brought out to any hunting but the five hounds he had most trust in, Bran and Sceolan and Lomaire and Brod and Lomluath, |
+| bran-and-sceolang-c14 | exact | www.gutenberg.org | Finn's five hounds stood in a ring keeping back the other hounds, with a young boy in the middle of the ring. | they saw the five hounds of Finn in a ring, and they keeping back the other hounds, and in the middle of the ring was a young boy, |
+| bran-and-sceolang-c15 | exact | www.gutenberg.org | Once the fight was stopped, Bran and Sceolan went up to the boy, whined and licked him as if they had forgotten their master. | as soon as the fight was stopped Bran and Sceolan went up to the little lad, and whined and licked him, that any one would think they had forgotten their master. |
+| bran-and-sceolang-c16 | exact | www.gutenberg.org | Glasan killed the first of them and Bran killed the second, but the third escaped. | And Glasan made a stroke that killed the first of them, and Bran killed the second, but the third made his escape. |
+| bran-and-sceolang-c17 | exact | www.gutenberg.org | Arthur, son of the King of Britain, took notice of three of Finn's hounds, Bran, Sceolan and Adhnuall, and planned to carry them across the sea. | he took notice of three of Finn's hounds, Bran, and Sceolan and Adhnuall, and he made a plan in his mind to go away across the sea, himself and his three nines, bringing those three hounds along with him. |
+| bran-and-sceolang-c18 | exact | www.gutenberg.org | When the hounds were counted, Bran, Sceolan and Adhnuall were missing and Finn was told. | Now on this day when they were counted, Bran and Sceolan and Adhnuall were missing; and that was told to Finn. |
+| bran-and-sceolang-c19 | exact | www.gutenberg.org | They went back to Finn bringing his three hounds and the King of Britain's son as a prisoner. | They went back to Finn then, bringing his three hounds with them, and the King of Britain's son as a prisoner; |
+| bran-and-sceolang-c20 | exact | www.gutenberg.org | Finn had three hundred full-grown hounds and two hundred whelps. | Three hundred full-grown hounds he had, and two hundred whelps; |
+| bran-and-sceolang-c21 | exact | en.wikipedia.org | According to legend they were the first to discover Fionn's son Oisín wandering naked in the forest. | Per legend, they were the first to discover Fionn's son Oisín wandering naked in the forest. |
+| bran-and-sceolang-c22 | exact | en.wikipedia.org | Throughout Fionn's hunts Bran is said to be always at his side, and later folk tales suggest the two hounds grew up together. | throughout Fionn's hunts, it is mentioned that Bran is always by his side, while certain later folk tales suggest that the dogs grew up alongside each other. |
+| bran-and-sceolang-c23 | exact | en.wikipedia.org | Sceólang eventually dies in the "Chase of Thrush Glen" after pursuing a half-black and half-white doe. | Sceólang eventually dies in the 'Chase of Thrush Glen', after pursuing a half-black and half-white doe. |
+| bran-and-sceolang-c24 | exact | en.wikipedia.org | Bran chooses to die by drowning after being struck by Fionn in an impulsive moment; other sources say he was killed in a hunting accident and buried by Fionn at Carnawaddy, near Omeath. | Bran, meanwhile, chooses to die by drowning after being struck by Fionn in an impulsive moment. Other sources say that Bran was killed by Fionn in a hunting accident, and that would then be buried by Fionn at Carnawaddy, near Omeath. |
+| bran-and-sceolang-c25 | exact | www.gutenberg.org | For seven years from then, whenever not fighting Ireland's enemies, Finn searched ever more in every far corner for beautiful Sadbh. | And through the length of seven years from that time, whenever he was not out fighting against the enemies of Ireland, he went searching and ever searching in every far corner for beautiful Sadbh. |
+| bran-and-sceolang-c26 | exact | www.gutenberg.org | Glasan slashed an old hag dead, but three young men leaped out of her body. | And at last he drew his sword and hit her a slash that killed her; but if he did, three young men leaped out of her body. |
+| bran-and-sceolang-c27 | exact | www.gutenberg.org | Finn concludes the King of Britain's son has taken away the hound and orders nine men chosen to follow. | The King of Britain's son has brought away the hound. And let nine men be chosen out to follow after them, |
+| bran-and-sceolang-c28 | exact | www.gutenberg.org | A beautiful young woman in rich dress came before Finn and told him she was the fawn he had been hunting that day. | a beautiful young woman having a rich dress came before him, and she told him it was she herself was the fawn he was after hunting that day. |
+| bran-and-sceolang-c29 | exact | www.gutenberg.org | Finn's mother Muirne came to Almhuin and brought with her Tuiren, her sister. | Finn's mother, Muirne, came one time to Almhuin, and she brought with her Tuiren, her sister. |
 
 
 ## buwch-frech — lulus-otomatis

@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-131",
-  "checked_at": "2026-10-07T04:29:59.408Z",
+  "checked_at": "2026-10-08T10:19:39.884Z",
   "files": [
     "batch-131.md",
     "batch-131-fix-1.md",
-    "batch-131-fix-2.md"
+    "batch-131-fix-2.md",
+    "batch-131-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -2583,11 +2584,12 @@
     },
     {
       "slug": "farfadet",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-3.md",
+      "entry_sha256": "6f7632766e93d9470d137ffb4fe1f4207d099b2cf7964ec53ac38b61c781c07d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 2,
+        "claims": 16,
+        "sources": 3,
         "images": 0
       },
       "issues": [],
@@ -2661,10 +2663,99 @@
           "quote": "Farfadet est un mot emprunté au provençal farfadet (« lutin ») du XVIe siècle, probablement forme renforcée de fadet, dérivé lui-même de fada, fado signifiant « fée ».",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "farfadet-c08",
+          "source_id": "farfadet-s3",
+          "host": "fr.wikisource.org",
+          "statement": "Farfadets are spirits, sprites or familiar demons that simple people think they see or hear at night; some show themselves as animals and most stay invisible.",
+          "statement_id": "Farfadet adalah roh, lutin, atau iblis penjaga rumah yang dikira orang sederhana terlihat atau terdengar pada malam hari; sebagian tampil sebagai hewan dan sebagian besar tak terlihat.",
+          "quote": "esprits, lutins ou démons familiers, que les personnes simples croient voir ou entendre la nuit. Quelques-uns se montrent sous des figures d’animaux ; le plus grand nombre restent invisibles.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "farfadet-c09",
+          "source_id": "farfadet-s3",
+          "host": "fr.wikisource.org",
+          "statement": "They are generally held to render good services.",
+          "statement_id": "Mereka umumnya dianggap memberi pertolongan yang baik.",
+          "quote": "Ils passent généralement pour rendre de bons offices.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "farfadet-c10",
+          "source_id": "farfadet-s3",
+          "host": "fr.wikisource.org",
+          "statement": "In 1221, around the grape harvest, the cook brother of a Cîteaux monastery had two servants guard the vines through the night.",
+          "statement_id": "Pada tahun 1221, juru masak biara Cîteaux menyuruh dua pelayan menjaga kebun anggur sepanjang malam.",
+          "quote": "Voici l’histoire d’un farfadet : En l’année 1221, vers le temps des vendanges, le frère cuisinier d’un monastère de Cîteaux chargea deux serviteurs de garder les vignes pendant la nuit.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "farfadet-c11",
+          "source_id": "farfadet-s3",
+          "host": "fr.wikisource.org",
+          "statement": "A sleepy servant called the devil aloud and promised to pay him well if he would guard the vineyard in his place; hardly had he spoken when a farfadet appeared.",
+          "statement_id": "Seorang pelayan yang mengantuk memanggil iblis dan berjanji membayarnya bila mau menjaga kebun anggur menggantikannya; begitu selesai bicara seekor farfadet muncul.",
+          "quote": "Un soir, l’un de ces deux hommes, ayant grande envie de dormir, appela le diable à haute voix et promit de le bien payer s’il voulait garder la vigne à sa place. Il achevait à peine ces mots, qu’un farfadet parut.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "farfadet-c12",
+          "source_id": "farfadet-s3",
+          "host": "fr.wikisource.org",
+          "statement": "The farfadet was faithful at his post until morning and was given the promised basket of grapes.",
+          "statement_id": "Farfadet itu setia di pos jaganya sampai pagi dan diberi sekeranjang anggur yang dijanjikan.",
+          "quote": "Les choses se passèrent aussi bien qu’on pouvait l’espérer ; le farfadet fut fidèle à son poste jusqu’au matin, et on lui donna le panier de raisin promis.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "farfadet-c13",
+          "source_id": "farfadet-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "A farfadet attached to a house or farm watches over the herds and the household, reaps, threshes and mows wheat, and finishes the tasks the servants had no time to complete, after punishing their laziness or negligence with a volley of blows.",
+          "statement_id": "Farfadet yang menetap di rumah atau pertanian menjaga ternak dan urusan rumah, menuai, mengirik, dan menyabit gandum, dan menyelesaikan pekerjaan yang tak sempat diselesaikan para pelayan, setelah memukul mereka karena malas atau lalai.",
+          "quote": "Il veille alors sur les troupeaux et la tenue de la maisonnée, moissonne, bat et fauche le blé, et achève les tâches que n'ont pas eu le temps de terminer les domestiques — non sans avoir puni ces derniers de leur paresse ou de leur négligence en leur assénant une volée de bâton.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "farfadet-c14",
+          "source_id": "farfadet-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "Spinners returning at night saw farfadets hauling a huge creaking cart up the slope of the road at stupefying speed; one of them made the sign of the cross and farfadets and cart vanished together.",
+          "statement_id": "Para pemintal yang pulang malam melihat farfadet menarik dengan kecepatan menakjubkan sebuah kereta besar beroda berderit menaiki lereng; satu tanda salib membuat farfadet dan kereta itu lenyap sekaligus.",
+          "quote": "Un soir qu'elles revenaient au village, elles aperçurent des farfadets qui faisaient remonter la pente de la route, à une vitesse stupéfiante, à un énorme chariot aux roues grinçantes. Une des fileuses eut l'idée de faire un signe de croix, ce qui eut pour effet de faire disparaître tout à la fois farfadets et chariot.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "farfadet-c15",
+          "source_id": "farfadet-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "To get rid of farfadets, some recommend piercing calves' hearts with needles.",
+          "statement_id": "Untuk menyingkirkan farfadet, sebagian orang menganjurkan menusuk jantung anak sapi dengan jarum.",
+          "quote": "Pour se débarrasser des farfadets, certains recommandent de percer des cœurs de veaux à l'aide d'aiguilles.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "farfadet-c16",
+          "source_id": "farfadet-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The 18th-century French writer AVC Berbiguer believed he was tormented by them and wrote extensively about them and their depredations.",
+          "statement_id": "Penulis Prancis abad ke-18 AVC Berbiguer percaya dirinya disiksa mereka dan menulis panjang lebar tentang mereka dan perbuatan mereka yang merusak.",
+          "quote": "Despite this reputation, the 18th century French writer AVC Berbiguer believed he was tormented by them, and wrote extensively about them and their depredations.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f592263abcf3f55f23743a6f3025ebc96a501296939dd687504378be8ba08775"
+      "images": []
     },
     {
       "slug": "forest-bull",
@@ -3038,14 +3129,26 @@
     },
     {
       "slug": "hada",
-      "file": "batch-131.md",
+      "file": "batch-131-fix-3.md",
+      "entry_sha256": "c7153dfa9608909984d3ec369e5087cb7590552c0a7d405feb4a8b8f973bbafc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 16,
+        "sources": 3,
         "images": 0
       },
-      "issues": [],
+      "issues": [
+        {
+          "level": "warn",
+          "where": "claims (hada-c15)",
+          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
+        },
+        {
+          "level": "warn",
+          "where": "claims (hada-c16)",
+          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
+        }
+      ],
       "claims": [
         {
           "id": "hada-c01",
@@ -3106,10 +3209,109 @@
           "quote": "L'hada gascona, en canvi, té molt més a veure amb la lamina basca, anomenada mora a l'Alt Aragó, o la dona d'aigua catalana.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hada-c07",
+          "source_id": "hada-s3",
+          "host": "escolagastonfebus.com",
+          "statement": "Fairies are often linked to water; by frequenting springs (hounts) they give them curative virtues.",
+          "statement_id": "Para fée sering dikaitkan dengan air; dengan mendatangi mata air (hounts) mereka memberinya khasiat penyembuh.",
+          "quote": "Les fées sont souvent liées à l’eau. En fréquentant les hounts / honts [fontaines], elles leur procurent des vertus curatives.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hada-c08",
+          "source_id": "hada-s3",
+          "host": "escolagastonfebus.com",
+          "statement": "At Lau-Balagnas the fairy Margalide lived at the spring hount dera Encantado; one spring she moved between restored virility to men, and the hount dets Couloums let sterile women have children.",
+          "statement_id": "Di Lau-Balagnas, fée Margalide tinggal di mata air hount dera Encantado; salah satu mata air tempat ia berpindah mengembalikan kejantanan lelaki, dan mata air hount dets Couloums membuat perempuan mandul dapat memiliki anak.",
+          "quote": "À Lau-Balagnas, la fée Margalide résidait à la hount dera Encantado, mais elle se déplaçait à la source Catibère ou à la hount det Barderou, cette dernière redonnait la virilité aux hommes. La hount dets Couloums, quant à elle, permettait aux femmes stériles d’avoir des enfants.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hada-c09",
+          "source_id": "hada-s3",
+          "host": "escolagastonfebus.com",
+          "statement": "In the legend, a lord lives in a tower built by the fairies in a single night, the same night as a mill.",
+          "statement_id": "Dalam legenda itu, seorang tuan tanah tinggal di menara yang dibangun para fée dalam satu malam, malam yang sama dengan pembangunan sebuah kincir air.",
+          "quote": "Le seigneur de Bénac habite une tour construite par les fées en une nuit, la même nuit que le moulin de la Gouaugue, comme le rapporte l’auteur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hada-c10",
+          "source_id": "hada-s3",
+          "host": "escolagastonfebus.com",
+          "statement": "By moonlight the fairies passed spades, trowels, troughs and hammers to one another through the air, in a flick of the hand, between the mill and the castle.",
+          "statement_id": "Di bawah sinar bulan para fée saling mengoper di udara, dengan sekali kibas tangan, sekop, cetok, palung, dan palu antara kincir dan kastil.",
+          "quote": "Au clair de lune, les fées se passaient en l’air et d’un tour de main, du moulin au château et du château au moulin, pelles, truelles, auges et marteaux.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hada-c11",
+          "source_id": "hada-s3",
+          "host": "escolagastonfebus.com",
+          "statement": "In the Hautes-Pyrénées or Haut Comminges a meal is left for the fairies on 31 December in a separate room with doors and windows left open.",
+          "statement_id": "Di Hautes-Pyrénées atau Haut Comminges, orang meninggalkan hidangan untuk para fée pada 31 Desember di kamar terpisah dengan pintu dan jendela terbuka.",
+          "quote": "Dans les Hautes-Pyrénées ou le Haut Comminges, on laisse un repas pour elles, le 31 décembre, dans une chambre à l’écart, en laissant portes et fenêtres ouvertes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hada-c12",
+          "source_id": "hada-s3",
+          "host": "escolagastonfebus.com",
+          "statement": "According to Simin Palay's dictionary the fairy holds happiness in the right hand and misfortune in the left.",
+          "statement_id": "Menurut kamus Simin Palay, sang fée memegang kebahagiaan di tangan kanan dan kemalangan di tangan kiri.",
+          "quote": "Simin Palay précise même dans le Dictionnaire du Béarnais et du Gascon modernes, que la fée tient le bonheur dans la main droite et le malheur dans la main gauche.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hada-c13",
+          "source_id": "hada-s3",
+          "host": "escolagastonfebus.com",
+          "statement": "The fairies (Hados, sometimes called las Blanquettes) hold a distinguished place in popular myths, and flowers are born under their steps.",
+          "statement_id": "Para fée (Hados, kadang disebut las Blanquettes) menempati tempat terhormat dalam mitos rakyat, dan bunga bermekaran di bawah langkah mereka.",
+          "quote": "Les fées, Hados, nommées aussi quelquefois las Blanquettes, occupent une place distinguée dans les Mythes populaires. Des fleurs naissent sous leurs pas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hada-c14",
+          "source_id": "hada-s3",
+          "host": "escolagastonfebus.com",
+          "statement": "The hadas are said to be fallen from their status as divinities or wives of the gods, which is why they are often associated with the water of springs, sources and caves.",
+          "statement_id": "Para hada dikatakan telah jatuh dari kedudukan sebagai dewi atau istri para dewa, karena itu sering dikaitkan dengan air mata air, sumber, dan gua.",
+          "quote": "On les dit déchues de leur statut de divinités ou de femmes des dieux. C’est d’ailleurs pour cela qu’elles sont souvent associées à l’eau des fontaines, des sources, des grottes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hada-c15",
+          "source_id": "hada-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "In the tales a hada's child may be taken by humans, to whom it reveals secrets about daily life, and generally ends by escaping back to its mother.",
+          "statement_id": "Dalam kisah, anak seorang hada bisa diculik manusia dan membawakan mereka rahasia kehidupan sehari-hari, lalu biasanya melarikan diri kembali kepada ibunya.",
+          "quote": "Dans les récits, un tel enfant peut se trouver enlevé par des humains, à qui il apporte des révélations de secrets concernant la vie quotidienne. Généralement, il finit par s'enfuir pour rejoindre sa mère.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hada-c16",
+          "source_id": "hada-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "Hadas are said to be dressed in white; for many informants, white linen spread out near a cave revealed their presence.",
+          "statement_id": "Para hada dikatakan berpakaian putih; bagi banyak informan, kehadiran mereka ditandai oleh kain putih yang dijemur di dekat gua.",
+          "quote": "Les hadas sont, dit-on, vêtues de blanc. Pour de nombreux informateurs, c’est le linge blanc, étendu non loin de la grotte, qui relevait leur présence »",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "74a4eebc5eb9f0e45ccbf29df3d37be8d34a2ebf3f4b93fa5c12793c754fa4e0"
+      "images": []
     },
     {
       "slug": "hypnalis",

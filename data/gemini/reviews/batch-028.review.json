@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-028",
-  "checked_at": "2026-10-06T13:24:24.370Z",
+  "checked_at": "2026-10-08T10:19:34.839Z",
   "files": [
     "batch-028.md",
     "batch-028-fix-1.md",
     "batch-028-fix-2.md",
     "batch-028-fix-3.md",
-    "batch-028-fix-4.md"
+    "batch-028-fix-4.md",
+    "batch-028-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -938,11 +939,12 @@
     },
     {
       "slug": "michael",
-      "file": "batch-028-fix-3.md",
+      "file": "batch-028-fix-5.md",
+      "entry_sha256": "f1f4f47705c1aa1ccbff54a2279b5545ad6279fe4affdbd75930a74b4df513fe",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 31,
-        "sources": 7,
+        "claims": 49,
+        "sources": 10,
         "images": 0
       },
       "issues": [],
@@ -1256,10 +1258,189 @@
           "quote": "Hebrew: מִיכָאֵל, romanized: Mīḵāʾēl, lit. 'Who is like El [God]?'",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "michael-c32",
+          "source_id": "michael-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "According to Exodus Rabbah (Ex. R. xviii. 5), as recorded by the Jewish Encyclopedia, Michael destroyed the army of Sennacherib.",
+          "statement_id": "Menurut Exodus Rabbah (Ex. R. xviii. 5), sebagaimana dicatat Jewish Encyclopedia, Mikhael menghancurkan pasukan Sanherib.",
+          "quote": "Michael destroyed the army of Sennacherib (Ex. R. xviii. 5).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c33",
+          "source_id": "michael-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "According to Eliezer b. Jacob (Gen. R. xliv. 16), it was Michael who rescued Abraham from the furnace into which Nimrod had thrown him.",
+          "statement_id": "Menurut Eliezer b. Jacob (Gen. R. xliv. 16), Mikhaellah yang menyelamatkan Abraham dari tungku yang ke dalamnya ia dilemparkan oleh Nimrod.",
+          "quote": "Thus, according to Eliezer b. Jacob, it was Michael who rescued Abraham from the furnace into which he had been thrown by Nimrod (Gen. R. xliv. 16).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c34",
+          "source_id": "michael-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "According to Abravanel (on Ex. xxiii. 20), Michael led the Israelites during their forty years of wandering in the wilderness.",
+          "statement_id": "Menurut Abravanel (pada Ex. xxiii. 20), Mikhael memimpin bangsa Israel selama empat puluh tahun pengembaraan mereka di padang gurun.",
+          "quote": "Michael led the Israelites during their forty years' wandering in the wilderness (Abravanel to Ex. xxiii. 20).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c35",
+          "source_id": "michael-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "Michael endeavored to prevent Israel from being led into captivity by Nebuchadnezzar and to save the Temple from destruction, but the sins of the people were so great that he was powerless to carry out his purposes.",
+          "statement_id": "Mikhael berusaha mencegah Israel dibawa ke pembuangan oleh Nebukadnezar dan menyelamatkan Bait Suci dari kehancuran, tetapi dosa umat begitu besar sehingga ia tidak berdaya mewujudkan maksudnya.",
+          "quote": "He endeavored also to prevent Israel from being led into captivity by Nebuchadnezzar and to save the Temple from destruction; but the sins of the people were so great that he was powerless to carry his purposes into effect.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c36",
+          "source_id": "michael-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "According to Yalkut on Lamentations (Yalḳ., Lam. 1009), Michael and Gabriel pleaded for the Israelites, who were nevertheless doomed, and the two angels were themselves compelled to set the Temple on fire.",
+          "statement_id": "Menurut Yalkut pada Ratapan (Yalḳ., Lam. 1009), Mikhael dan Gabriel membela orang Israel, tetapi mereka telah dijatuhi hukuman, dan kedua malaikat itu sendiri terpaksa membakar Bait Suci.",
+          "quote": "According to Yalḳ., Lam. 1009, Michael and Gabriel pleaded for the Israelites, who, however, were doomed, and the two angels were themselves compelled to set the Temple on fire.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c37",
+          "source_id": "michael-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "Samael will be subdued by Michael; but when Michael asks God to help Israel, God will say that Israel should turn toward Him, be it only as far as the point of a needle.",
+          "statement_id": "Samael akan ditaklukkan Mikhael; tetapi ketika Mikhael memohon agar Allah menolong Israel, Allah akan menjawab bahwa Israel harus berpaling kepada-Nya, sekalipun hanya sejauh ujung jarum.",
+          "quote": "Samael will be subdued by Michael; but when the latter asks God to help Israel, God will say, \"Israel should turn toward Me, be it only as far as the point of a needle.\"",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c38",
+          "source_id": "michael-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "At the resurrection Michael will sound the trumpet, at which the graves will open and the dead will rise.",
+          "statement_id": "Pada kebangkitan, Mikhael akan meniup sangkakala, sehingga kubur-kubur terbuka dan orang mati bangkit.",
+          "quote": "At the resurrection Michael will sound the trumpet, at which the graves will open and the dead will rise",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c39",
+          "source_id": "michael-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "Michael is called the viceroy of God, who rules over the world (Enoch lxix. 14 et seq.), and wherever Michael appears the Shekinah is also to be found (Ex. R. ii. 8).",
+          "statement_id": "Mikhael disebut wakil Allah yang memerintah dunia (Henokh lxix. 14 dst.), dan di mana pun Mikhael tampak, Shekinah juga ada (Ex. R. ii. 8).",
+          "quote": "He is the viceroy of God, who rules over the world (Enoch, lxix. 14 et seq.), and wherever Michael appears the Shekinah also is to be found (Ex. R. ii. 8).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c40",
+          "source_id": "michael-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "As an angel of nature, Michael is represented as being of the element of water, on account of which he is the prince of water.",
+          "statement_id": "Sebagai malaikat alam, Mikhael digambarkan berunsur air, dan karena itu ia adalah pangeran air.",
+          "quote": "As an angel of nature, Michael is represented as of the element of water, on account of which he is the prince of water",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c41",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "One of the four offices Christian tradition gives to Michael is to call men's souls away from earth and bring them to judgment.",
+          "statement_id": "Salah satu dari empat tugas Mikhael dalam tradisi Kristen adalah memanggil jiwa manusia dari bumi dan membawanya ke penghakiman.",
+          "quote": "Christian tradition gives to St. Michael four offices: ... To call away from earth and bring men's souls to judgment",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c42",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "The Fathers say Michael is often meant in Scripture without being named: they identify him as the cherub at the gate of paradise, the angel who stood in the way against Balaam, and the angel who routed the army of Sennacherib (2 Kings 19:35).",
+          "statement_id": "Menurut para Bapa Gereja, Mikhael sering dimaksud dalam Kitab Suci tanpa disebut namanya: ia dikenali sebagai kerub di gerbang firdaus, malaikat yang menghadang Bileam, dan malaikat yang menghalau pasukan Sanherib (2 Raja-raja 19:35).",
+          "quote": "They say he was the cherub who stood at the gate of paradise ... the angel who stood in the way against Balaam (Numbers 22:22 sqq.), the angel who routed the army of Sennacherib (2 Kings 19:35).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c43",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "According to the tradition at Colossae, pagans directed a stream against Michael's sanctuary to destroy it, but the archangel split the rock by lightning to give the stream a new bed, and sanctified forever the waters that came from the gorge.",
+          "statement_id": "Menurut tradisi di Kolose, orang kafir mengarahkan sebuah aliran air ke tempat suci Mikhael untuk menghancurkannya, tetapi sang malaikat agung membelah batu dengan petir sehingga air itu mengalir di jalur baru, dan ia menguduskan air dari ngarai itu untuk selamanya.",
+          "quote": "The pagans directed a stream against the sanctuary of St. Michael to destroy it, but the archangel split the rock by lightning to give a new bed to the stream, and sanctified forever the waters which came from the gorge.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c44",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "According to a legend the Catholic Encyclopedia calls possibly apocryphal, Michael appeared over the Moles Hadriani (Castel di S. Angelo) during the procession St. Gregory held against the pestilence, putting an end to the plague.",
+          "statement_id": "Menurut legenda yang oleh Catholic Encyclopedia disebut mungkin apokrif, Mikhael tampak di atas Moles Hadriani (Castel di S. Angelo) saat prosesi Santo Gregorius melawan wabah, dan mengakhiri wabah itu.",
+          "quote": "According to an (apocryphal?) legend of the tenth century he appeared over the Moles Hadriani (Castel di S. Angelo), in 950, during the procession which St. Gregory held against the pestilence, putting an end to the plague.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c45",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "The Lombards of Sipontum (Manfredonia) attributed their victory over the Greek Neapolitans on 8 May 663 to Michael's intercession.",
+          "statement_id": "Orang Lombardia di Sipontum (Manfredonia) menganggap kemenangan mereka atas orang Napoli Yunani pada 8 Mei 663 sebagai hasil syafaat Mikhael.",
+          "quote": "To his intercession the Lombards of Sipontum (Manfredonia) attributed their victory over the Greek Neapolitans, 8 May, 663.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c46",
+          "source_id": "michael-s8",
+          "host": "en.wikisource.org",
+          "statement": "In the Book of Enoch (Charles translation) the Lord orders Michael to bind Semjaza and his associates who united themselves with women, binding them fast for seventy generations in the valleys of the earth until the day of their judgement.",
+          "statement_id": "Dalam Kitab Henokh (terjemahan Charles), Tuhan memerintahkan Mikhael untuk mengikat Semjaza dan para sekutunya yang bersatu dengan perempuan, mengikat mereka selama tujuh puluh generasi di lembah-lembah bumi sampai hari penghakiman mereka.",
+          "quote": "Go, bind Semjâzâ and his associates who have united themselves with women ... bind them fast for seventy generations in the valleys of the earth, till the day of their judgement and of their consummation",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c47",
+          "source_id": "michael-s9",
+          "host": "corpus.quran.com",
+          "statement": "Quran 2:98 (Sahih International translation) states that whoever is an enemy to Allah, His angels, His messengers, Gabriel and Michael, then indeed Allah is an enemy to the disbelievers.",
+          "statement_id": "Al-Qur'an 2:98 (terjemahan Sahih International) menyatakan bahwa siapa pun yang menjadi musuh Allah, malaikat-malaikat-Nya, rasul-rasul-Nya, Jibril, dan Mikail, maka Allah adalah musuh bagi orang-orang kafir.",
+          "quote": "Whoever is an enemy to Allah and His angels and His messengers and Gabriel and Michael - then indeed, Allah is an enemy to the disbelievers.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c48",
+          "source_id": "michael-s10",
+          "host": "ebible.org",
+          "statement": "According to 2 Kings 19:35, the angel of the LORD went out and smote an hundred fourscore and five thousand (185,000) in the camp of the Assyrians; by morning they were all dead corpses. The text does not name Michael.",
+          "statement_id": "Menurut 2 Raja-raja 19:35, malaikat TUHAN keluar dan memukul seratus delapan puluh lima ribu orang di perkemahan orang Asyur (185.000); pagi harinya semuanya sudah menjadi mayat. Teks ini tidak menyebut nama Mikhael.",
+          "quote": "the angel of the LORD went out, and smote in the camp of the Assyrians an hundred fourscore and five thousand: and when they arose early in the morning, behold, they were all dead corpses.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c49",
+          "source_id": "michael-s6",
+          "host": "ebible.org",
+          "statement": "In Daniel 12:1, at the time Michael stands up there shall be a time of trouble such as never was since there was a nation, and at that time the people shall be delivered.",
+          "statement_id": "Dalam Daniel 12:1, pada saat Mikhael bangkit akan ada masa kesusahan yang belum pernah terjadi sejak ada bangsa, dan pada waktu itu umat itu akan diselamatkan.",
+          "quote": "and there shall be a time of trouble, such as never was since there was a nation even to that same time: and at that time thy people shall be delivered",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "43c3ec719ca7af9ab5f993ea4befce9827800a12264eb9f9cc8300ee2e0baa35"
+      "images": []
     },
     {
       "slug": "vampire",

@@ -1,6 +1,6 @@
 # Review batch-068
 
-Diperiksa 2026-10-07T09:26:54.474Z. Berkas: batch-068.md, batch-068-fix-1.md, batch-068-fix-2.md, batch-068-fix-3.md, batch-068-fix-4.md, batch-068-fix-5.md, batch-068-fix-6.md.
+Diperiksa 2026-10-08T10:03:08.337Z. Berkas: batch-068.md, batch-068-fix-1.md, batch-068-fix-2.md, batch-068-fix-3.md, batch-068-fix-4.md, batch-068-fix-5.md, batch-068-fix-6.md, batch-068-fix-7.md.
 
 ## sky-fox-mythology — lulus-otomatis
 
@@ -723,10 +723,7 @@ Klaim 6 (exact 3, loose 3), sumber 3, gambar 0.
 
 ## fuzhu-mythical-beast — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 3, gambar 0.
-
-**warn**
-- `long_description[1]` Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -736,6 +733,10 @@ Klaim 6 (exact 6), sumber 3, gambar 0.
 | fuzhu-mythical-beast-c04 | exact | en.wikipedia.org | Its appearance is associated with periods of flooding. | The Fuzhu usually appears during periods of flood. |
 | fuzhu-mythical-beast-c05 | exact | zh.wikisource.org | In the Shanhaijing (Zhongshan Jing), there is a beast shaped like a white deer with four horns called fuzhu; when it appears, its city suffers a great flood. | 北望河林，其狀如莤如舉。有獸焉，其狀如白鹿而四角，名曰夫諸，見則其邑大水。 |
 | fuzhu-mythical-beast-c06 | exact | zh.wikisource.org | In Wu Renchen's notes to the Shanhaijing, the Pianya is cited as saying that a white deer with four horns is fuzhu. | 如蒨如舉言其一望蔚葱有如丹青樹然〉有獸焉其狀如白鹿而四角名曰夫諸〈任臣案駢雅曰鹿四角而白為夫諸 |
+| fuzhu-mythical-beast-c07 | exact | zh.wikisource.org | In Wu Renchen's notes, the "Lin shu" is cited as saying that fuzhu and the overflowing of water are a warning from heaven. | 如丹青樹然〉有獸焉其狀如白鹿而四角名曰夫諸〈任臣案駢雅曰鹿四角而白為夫諸麟書云夫諸横流天戒 |
+| fuzhu-mythical-beast-c08 | exact | zh.wikipedia.org | Chinese Wikipedia describes the fuzhu's appearance as an omen of a great flood, and says the idea is first attested before the Qin dynasty. | 傳說中異獸名。狀如白鹿而有四角。其現為大水之兆。其說始見於先秦。 |
+| fuzhu-mythical-beast-c09 | exact | zh.wikipedia.org | Chinese Wikipedia calls the fuzhu a divine beast that foretells water and can bring on a great flood. | 夫諸状若白鹿，有四角。兆水之神兽，可招大水。最早在先秦时有记载。 |
+| fuzhu-mythical-beast-c10 | exact | zh.wikipedia.org | The Shanhaijing places the fuzhu around Mount Ao'an; when it is seen, the city there is struck by a great flood. | 中次三经萯山之首，曰敖岸之山，其阳多王雩琈之玉，其阴多赭、黄金。神熏池居之。是常出美玉。北望河林，其状如蒨如举。有兽焉，其状如白鹿而四角，名曰夫诸，见则其邑大水。 |
 
 
 ## gangcheori — lulus-otomatis

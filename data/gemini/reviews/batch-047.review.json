@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-047",
-  "checked_at": "2026-09-30T02:36:27.355Z",
+  "checked_at": "2026-10-08T10:20:38.020Z",
   "files": [
     "batch-047.md",
     "batch-047-fix-1.md",
-    "batch-047-fix-2.md"
+    "batch-047-fix-2.md",
+    "batch-047-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -175,15 +176,17 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ddc17a5d84a8647ba712be07c400f1bec543d3133cbdcdc4c0e10a0b41a5b092"
     },
     {
       "slug": "troll",
-      "file": "batch-047-fix-2.md",
+      "file": "batch-047-fix-3.md",
+      "entry_sha256": "09df3178dfdf558df8e10ea9c796071d6735de47a1cd21000e2f3aba02e51838",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 3,
+        "claims": 28,
+        "sources": 4,
         "images": 0
       },
       "issues": [
@@ -349,6 +352,136 @@
           "statement": "Folklore links some landmarks to sun-exposed trolls.",
           "statement_id": "Cerita rakyat mengaitkan beberapa bentuk alam dengan troll yang terkena matahari.",
           "quote": "In Scandinavian folklore, trolls are sometimes associated with particular landmarks (sometimes said to have been formed by a troll having been exposed to sunlight).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "troll-c16",
+          "source_id": "troll-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Numerous tales describe trolls as extremely old, very strong but slow and dim-witted, at times man-eaters, and turning to stone upon contact with sunlight.",
+          "statement_id": "Banyak kisah mencatat troll sebagai sangat tua, sangat kuat tetapi lamban dan dungu, kadang pemakan manusia, dan berubah menjadi batu bila terkena sinar matahari.",
+          "quote": "Numerous tales are recorded about trolls in which they are frequently described as being extremely old, very strong, but slow and dim-witted, and are at times described as man-eaters and as turning to stone upon contact with sunlight.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "troll-c17",
+          "source_id": "troll-s3",
+          "host": "en.wikipedia.org",
+          "statement": "According to John Lindow, trolls display a habit of bergtagning (kidnapping, literally \"mountain-taking\") and overrunning a farm or estate.",
+          "statement_id": "Menurut John Lindow, troll punya kebiasaan \"bergtagning\" (menculik, harfiah \"mengambil ke gunung\") dan menyerbu pertanian atau perkebunan.",
+          "quote": "trolls display a habit of bergtagning ('kidnapping'; literally \"mountain-taking\") and overrunning a farm or estate.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "troll-c18",
+          "source_id": "troll-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Numerous traditions relate how trolls destroyed a church under construction or hurled boulders and stones at completed churches.",
+          "statement_id": "Banyak tradisi menceritakan troll merusak gereja yang sedang dibangun atau melempar bongkahan batu ke gereja yang sudah selesai.",
+          "quote": "numerous traditions relate how trolls destroyed a church under construction or hurled boulders and stones at completed churches.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "troll-c19",
+          "source_id": "troll-s3",
+          "host": "en.wikipedia.org",
+          "statement": "A Scandinavian folk belief that lightning frightens away trolls and jötnar appears in numerous folktales.",
+          "statement_id": "Dalam banyak dongeng Skandinavia ada kepercayaan rakyat bahwa petir menakut-nakuti troll dan jötnar.",
+          "quote": "A Scandinavian folk belief that lightning frightens away trolls and jötnar appears in numerous Scandinavian folktales",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "troll-c20",
+          "source_id": "troll-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Grettir's Saga, Thorsteinn's farm at Sandhaugar was generally thought to be much haunted by trolls.",
+          "statement_id": "Dalam Saga Grettir, tempat tinggal Thorsteinn di Sandhaugar umumnya dianggap banyak dihantui troll.",
+          "quote": "Their place was generally thought to be much haunted by trolls.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "troll-c21",
+          "source_id": "troll-s4",
+          "host": "www.gutenberg.org",
+          "statement": "When the mistress went to spend Yule away, her husband who stayed at home disappeared and no one knew what had become of him; the next winter it happened just as before, and this time the servant disappeared.",
+          "statement_id": "Ketika nyonya rumah pergi merayakan Yule (Natal), suaminya yang tinggal di rumah menghilang tanpa ada yang tahu nasibnya; musim dingin berikutnya hal yang sama terjadi, dan kali ini pelayannya yang menghilang.",
+          "quote": "went as usual to spend Yule at Eyjardalsa, while her husband stayed at home ... her husband had disappeared and no one knew what had become of him ... It happened just as before; this time the servant disappeared.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "troll-c22",
+          "source_id": "troll-s4",
+          "host": "www.gutenberg.org",
+          "statement": "People found some drops of blood upon the outer door and supposed that some evil spirit must have carried off both men.",
+          "statement_id": "Orang-orang menemukan beberapa tetes darah di pintu luar dan menduga roh jahat telah membawa kedua lelaki itu.",
+          "quote": "found some drops of blood upon the outer door, so they supposed that some evil spirit must have carried off both the men.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "troll-c23",
+          "source_id": "troll-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Towards midnight a huge troll-wife walked into the room carrying a trough in one hand and a rather large cutlass in the other.",
+          "statement_id": "Menjelang tengah malam, seorang troll perempuan raksasa masuk ke ruangan membawa palung di satu tangan dan pedang besar di tangan lain.",
+          "quote": "Towards midnight he heard a loud noise outside, and very soon there walked a huge troll-wife into the room. She carried a trough in one hand and a rather large cutlass in the other.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "troll-c24",
+          "source_id": "troll-s4",
+          "host": "www.gutenberg.org",
+          "statement": "The troll-wife rushed at Gest (Grettir); they fought long, she was the stronger, and everything near them and the panelling of the back wall were broken to pieces.",
+          "statement_id": "Troll perempuan itu menyerbu Gest (Grettir); keduanya bertarung lama, ia lebih kuat, dan segala sesuatu di dekat mereka serta panel dinding belakang hancur berantakan.",
+          "quote": "she rushed at him; he started up and attacked her furiously. They fought long together; she was the stronger but he evaded her skilfully. Everything near them and the panelling of the back wall were broken to pieces.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "troll-c25",
+          "source_id": "troll-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Grettir thought he had never met with such a monster for strength.",
+          "statement_id": "Grettir merasa belum pernah bertemu monster sekuat itu.",
+          "quote": "he thought he had never met with such a monster for strength.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "troll-c26",
+          "source_id": "troll-s4",
+          "host": "www.gutenberg.org",
+          "statement": "The men of Bardardal say that day dawned upon her while they were wrestling; when her arm was cut off she broke, and she is still standing there on the mountain in the likeness of a woman.",
+          "statement_id": "Menurut orang Bardardal, fajar menyingsing saat mereka bergulat; ketika lengannya terpotong ia pecah, dan ia masih berdiri di gunung dalam rupa seorang perempuan.",
+          "quote": "the men of Bardardal say that the day dawned upon her while they were wrestling; that when he cut off her arm she broke, and that she is still standing there on the mountain in the likeness of a woman.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "troll-c27",
+          "source_id": "troll-s4",
+          "host": "www.gutenberg.org",
+          "statement": "The churchgoers refused to search for the missing shepherd, saying they were not going to trust themselves into the power of trolls in the night.",
+          "statement_id": "Orang-orang yang ke gereja menolak mencari gembala yang hilang karena tidak mau menyerahkan diri ke dalam kuasa troll pada malam hari.",
+          "quote": "the churchgoers cried off, and said they were not going to trust themselves into the power of trolls in the night",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "troll-c28",
+          "source_id": "troll-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Men had no doubt that these monsters were responsible for the disappearance of the men in the valley, and Grettir had evidently cleared the land of them.",
+          "statement_id": "Orang-orang yakin monster-monster itu bertanggung jawab atas hilangnya lelaki-lelaki di lembah, dan tampaknya Grettir telah membersihkan negeri dari mereka.",
+          "quote": "Men felt no doubt that these monsters were responsible for the disappearance of the men in the valley ... Grettir had evidently cleared the land of them.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -525,7 +658,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3002c4ffe1caed5eb469571ce44b29337e6d168c769893568dec2dac2eb6f7d7"
     },
     {
       "slug": "circe",
@@ -689,15 +823,17 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9f302bd6d9f426fc63ae87c9a6832932fee3b42d2ecc48b3f2d348be211c5fb3"
     },
     {
       "slug": "marduk",
-      "file": "batch-047.md",
+      "file": "batch-047-fix-3.md",
+      "entry_sha256": "581bb9219eb74c753797baf43c2193f09124f9acaab70a190c4af866ca8f1900",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 3,
+        "claims": 32,
+        "sources": 4,
         "images": 0
       },
       "issues": [
@@ -860,6 +996,176 @@
           "statement_id": "Marduk kemudian dikaitkan dengan Jupiter.",
           "quote": "By the 1st millennium BC, Marduk had become astrologically associated with the planet Jupiter.",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c16",
+          "source_id": "marduk-s4",
+          "host": "www.worldhistory.org",
+          "statement": "In the Enuma Elish the gods declare Marduk's (Bel's) destiny superior to that of all the gods and tell him to command annihilation and re-creation.",
+          "statement_id": "Dalam Enuma Elish, para dewa menyatakan nasib Marduk (Bel) lebih tinggi daripada semua dewa dan memerintahkannya menjalankan pemusnahan dan penciptaan ulang.",
+          "quote": "Your destiny, Be-l, is superior to that of all the gods ... Command and bring about annihilation and re-creation.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c17",
+          "source_id": "marduk-s4",
+          "host": "www.worldhistory.org",
+          "statement": "As a test, Marduk makes a constellation disappear and then reappear by his command alone, and the gods rejoice that \"Marduk is the king!\"",
+          "statement_id": "Sebagai ujian, Marduk memerintahkan sebuah rasi bintang lenyap lalu muncul kembali hanya dengan ucapannya, sehingga para dewa bersorak \"Marduk adalah raja!\"",
+          "quote": "He gave the command and the constellation disappeared ... With a second command the constellation came into being again. ... They rejoiced and offered congratulation: \"Marduk is the king!\"",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c18",
+          "source_id": "marduk-s4",
+          "host": "www.worldhistory.org",
+          "statement": "The gods declare that Marduk has the power to exalt and abase, that his utterance is sure and his command cannot be rebelled against.",
+          "statement_id": "Para dewa menyatakan Marduk berkuasa meninggikan dan merendahkan, ucapannya pasti, dan perintahnya tidak dapat dilawan.",
+          "quote": "It is in your power to exalt and abase. ... Your utterance is sure, your command cannot be rebelled against",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c19",
+          "source_id": "marduk-s4",
+          "host": "www.worldhistory.org",
+          "statement": "The gods ask Marduk (Bel) to spare whoever trusts in him and to destroy the god who set his mind on evil.",
+          "statement_id": "Para dewa meminta Marduk (Bel) menyelamatkan yang percaya kepadanya dan membinasakan dewa yang berniat jahat.",
+          "quote": "Be-l, spare him who trusts in you ... But destroy the god who set his mind on evil.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c20",
+          "source_id": "marduk-s4",
+          "host": "www.worldhistory.org",
+          "statement": "Marduk (Bel) took up the Storm-flood as his great weapon and rode the fearful chariot of the irresistible storm.",
+          "statement_id": "Marduk (Bel) mengangkat Banjir-Badai sebagai senjata besarnya dan mengendarai kereta badai yang dahsyat dan tak tertahankan.",
+          "quote": "Be-l took up the Storm-flood, his great weapon ... He rode the fearful chariot of the irresistible storm.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c21",
+          "source_id": "marduk-s4",
+          "host": "www.worldhistory.org",
+          "statement": "Marduk placed lightning before him, filled his body with tongues of flame, and wore an aura of terror on his head.",
+          "statement_id": "Marduk menaruh kilat di depannya, mengisi tubuhnya dengan lidah api, dan mengenakan aura kengerian di kepalanya.",
+          "quote": "He placed lightning before him ... And filled his body with tongues of flame. ... And on has head he wore an aura of terror.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c22",
+          "source_id": "marduk-s4",
+          "host": "www.worldhistory.org",
+          "statement": "Marduk shot an arrow into Tiamat's belly, bound her and extinguished her life.",
+          "statement_id": "Marduk memanah perut Tiamat dan mengikatnya serta memadamkan hidupnya.",
+          "quote": "He let fly an arrow and pierced her belly ... He bound her and extinguished her life",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c23",
+          "source_id": "marduk-s4",
+          "host": "www.worldhistory.org",
+          "statement": "After Tiamat was killed her assembly dispersed and her host scattered, and her aides beat a retreat in trembling and fear.",
+          "statement_id": "Setelah Tiamat tewas, pasukannya bubar dan tercerai-berai, dan para pembantunya mundur dalam gemetar dan ketakutan.",
+          "quote": "Her assembly dispersed, her host scattered. ... In trembling and fear beat a retreat.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c24",
+          "source_id": "marduk-s4",
+          "host": "www.worldhistory.org",
+          "statement": "Marduk took the Tablet of Destinies from Qingu and fastened it to his own breast.",
+          "statement_id": "Marduk merebut Lempeng Takdir dari Qingu dan mengikatnya di dadanya sendiri.",
+          "quote": "He took from him the Tablet of Destinies, which was not properly his ... fastened it to his own breast.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c25",
+          "source_id": "marduk-s4",
+          "host": "www.worldhistory.org",
+          "statement": "In the list of the fifty names, creation and annihilation, forgiveness and exacting the penalty occur at Marduk's command.",
+          "statement_id": "Dalam daftar lima puluh nama, penciptaan dan pemusnahan, pengampunan dan penjatuhan hukuman terjadi atas perintah Marduk.",
+          "quote": "Creation and annihilation, forgiveness and exacting the penalty ... Occur at his command",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c26",
+          "source_id": "marduk-s4",
+          "host": "www.worldhistory.org",
+          "statement": "One of Marduk's names calls him fierce yet deliberating, angry yet relenting.",
+          "statement_id": "Salah satu nama Marduk menyebutnya garang namun menimbang, murka namun mengalah.",
+          "quote": "fierce yet deliberating, angry yet relenting",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c27",
+          "source_id": "marduk-s4",
+          "host": "www.worldhistory.org",
+          "statement": "The gods in the upper and lower regions shudder at Marduk's injunctions; they are told to tremble at his name and quake on their seats.",
+          "statement_id": "Para dewa di atas dan di bawah bergidik pada perintah Marduk; mereka diminta gemetar pada namanya dan bergoyang di tempat duduk mereka.",
+          "quote": "The king at whose injunctions the gods in upper and lower regions shudder. ... Let the gods tremble at his name and quake on their seats.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c28",
+          "source_id": "marduk-s4",
+          "host": "www.worldhistory.org",
+          "statement": "One of Marduk's names is the destroyer of every rebel and of all the disobedient.",
+          "statement_id": "Salah satu nama Marduk adalah penghancur setiap pemberontak dan semua yang tidak taat.",
+          "quote": "The destroyer of every rebel, of all the disobedient",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c29",
+          "source_id": "marduk-s4",
+          "host": "www.worldhistory.org",
+          "statement": "One of Marduk's names calls him the one who mustered the Divine Fates and the warden of all peoples.",
+          "statement_id": "Salah satu nama Marduk menyebutnya yang menghimpun Takdir Ilahi dan penjaga seluruh bangsa.",
+          "quote": "who, as his name says, mustered the Divine Fates ... He indeed is the warden of absolutely all peoples.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c30",
+          "source_id": "marduk-s4",
+          "host": "www.worldhistory.org",
+          "statement": "On the peoples he created, Marduk imposed the service of the gods, and the gods took rest.",
+          "statement_id": "Pada bangsa-bangsa yang diciptakannya, Marduk membebankan pelayanan kepada para dewa sehingga para dewa beristirahat.",
+          "quote": "On the peoples that he created, the living beings ... He imposed the service of the gods and they took rest.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c31",
+          "source_id": "marduk-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Disaster was thought imminent when the god was not in the city, as there was no one to stand between the people and the forces of chaos.",
+          "statement_id": "Bencana dianggap sudah dekat ketika Marduk tidak ada di kota, sebab tidak ada yang berdiri di antara rakyat dan kekuatan kekacauan.",
+          "quote": "disaster was thought imminent when the god was not in the city, as there was no one to stand between the people and the forces of chaos.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "marduk-c32",
+          "source_id": "marduk-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In The Wrath of Erra, once Marduk leaves to have new clothes made, Erra destroys the city, killing the people indiscriminately until he is stopped by the other gods and called to account.",
+          "statement_id": "Dalam Murka Erra, ketika Marduk pergi membuat pakaian baru, Erra menghancurkan kota dan membunuh orang secara membabi buta sampai dihentikan para dewa lain dan dimintai pertanggungjawaban.",
+          "quote": "Once Marduk leaves to have a new suit of clothes made, Erra destroys the city, killing the people indiscriminately until he is stopped by the other gods and called to account",
+          "context": "religious-tradition",
           "status": "exact"
         }
       ],

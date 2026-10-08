@@ -1,6 +1,6 @@
 # Review batch-079
 
-Diperiksa 2026-10-06T14:12:00.183Z. Berkas: batch-079.md, batch-079-fix-1.md, batch-079-fix-2.md, batch-079-fix-3.md.
+Diperiksa 2026-10-08T10:19:37.356Z. Berkas: batch-079.md, batch-079-fix-1.md, batch-079-fix-2.md, batch-079-fix-3.md, batch-079-fix-4.md.
 
 ## anu — lulus-otomatis
 
@@ -120,7 +120,7 @@ Klaim 15 (exact 15), sumber 3, gambar 0.
 
 ## enki — lulus-otomatis
 
-Klaim 15 (exact 15), sumber 3, gambar 0.
+Klaim 31 (exact 31), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -139,6 +139,22 @@ Klaim 15 (exact 15), sumber 3, gambar 0.
 | enki-c13 | exact | etcsl.orinst.ox.ac.uk | In the Descent of Inanna, the goddess trusts Enki to restore her to life. | He is the one who will restore me to life. |
 | enki-c14 | exact | en.wikipedia.org | Damgalnuna is identified as Enki’s wife. | Enki's wife was Damgalnuna, and their children included Nanshe |
 | enki-c15 | exact | en.wikipedia.org | Enki’s primary symbols include the goat-fish, a ram-headed staff, and the turtle. | Enki/Ea's primary symbols included the goat-fish, the ram-headed staff and the turtle. |
+| enki-c16 | exact | www.worldhistory.org | In this article's account of the Atrahasis, Enki sees the flood plan as cruel and unjust but cannot deter Enlil, so he finds Atrahasis, an honest man devoted to him. | Enki recognizes the cruelty and injustice of this plan but cannot deter Enlil, so he goes to earth and finds an honest man, Atrahasis, one who has always been both wise and kind and has devoted himself to Enki piously. |
+| enki-c17 | exact | www.worldhistory.org | Enki whispers to Atrahasis to build an ark and enter it with two of every kind of animal. | Enki whispers to him to build an ark and enter it with two of every kind of animal. |
+| enki-c18 | exact | www.worldhistory.org | When Enlil sends drought, pestilence and then famine, people appeal to Enki, who first conceived them, and he helps by telling them what to do. | He sends a drought, then pestilence, then famine, and each time the people appeal to their father-god Enki, the one who first conceived of them, and he helps them by telling them what they should do |
+| enki-c19 | exact | www.worldhistory.org | In the Atrahasis, Enki proposes that lesser beings be created to work alongside the gods. | so Enki proposes that they create lesser beings who will be co-workers with them. |
+| enki-c20 | exact | www.worldhistory.org | In Inanna and the God of Wisdom, Enki holds the meh, the laws and powers over all of life and the gifts of civilization that belong to the gods alone, and lets Inanna take them at a drunken party. | He is shown in the story Inanna and the God of Wisdom as possessor of the meh, the laws and powers concerned with all of life and the gifts of civilization – the possessions of the gods alone – which he allows Inanna to take from him during a drunken party. |
+| enki-c21 | exact | etcsl.orinst.ox.ac.uk | In the Sumerian text Enki and Ninmah, Namma asks her son Enki to use the skill of his wisdom to create a substitute for the gods so they can be freed from toil. | Please apply the skill deriving from your wisdom and create a substitute (?) for the gods so that they can be freed from their toil! |
+| enki-c22 | exact | etcsl.orinst.ox.ac.uk | Enki tells Namma to knead clay from the top of the abzu so that the planned creature's form will come into being. | You should knead clay from the top of the abzu; the birth-goddesses (?) will nip off the clay and you shall bring the form into existence. |
+| enki-c23 | exact | etcsl.orinst.ox.ac.uk | The senior gods praise Enki as the one who holds the me of deciding destinies, even saying he is the me itself. | Like a corporeal father, you are the one who has the me of deciding destinies, in fact you are the me. |
+| enki-c24 | exact | etcsl.orinst.ox.ac.uk | Enki declares that he will counterbalance whatever fate, good or bad, Ninmah decides. | I will counterbalance whatever fate -- good or bad -- you happen to decide. |
+| enki-c25 | exact | etcsl.orinst.ox.ac.uk | Enki bathes one of Ninmah's creatures in enchanted water and drives the namtar demon out of his body. | Enki looked at the one who could not hold back his urine and bathed him in enchanted water and drove out the namtar demon from his body. |
+| enki-c26 | exact | etcsl.orinst.ox.ac.uk | In the Sumerian hymn, a single glance from Enki is enough to unsettle the heart of the mountains. | Enki, from whom a single glance is enough to unsettle the heart of the mountains; |
+| enki-c27 | exact | etcsl.orinst.ox.ac.uk | Enki need only open his mouth for everything to multiply and for plenty to be established. | You have only to open your mouth for everything to multiply and for plenty to be established. |
+| enki-c28 | exact | etcsl.orinst.ox.ac.uk | In his self-praise Enki says that at his command folds and pens were built, and when he approaches heaven abundant rain falls and when he approaches earth there is a high carp-flood. | At my command, sheepfolds have been built, cow-pens have been fenced off. When I approach heaven, a rain of abundance rains from heaven. When I approach earth, there is a high carp-flood. |
+| enki-c29 | exact | etcsl.orinst.ox.ac.uk | Enki says his elder brother gathered all the divine powers and placed them in his hand, and that he brought the arts and crafts from the E-kur, house of Enlil, to his Abzu in Eridug. | My elder brother, the king of all the lands, gathered up all the divine powers and placed them in my hand. I brought the arts and crafts from the E-kur, the house of Enlil, to my Abzu in Eridug. |
+| enki-c30 | exact | etcsl.orinst.ox.ac.uk | Enki says that with An he oversees justice and with Enlil he decrees good destinies over the lands. | With An the king, on An's dais, I oversee justice. With Enlil, looking out over the lands, I decree good destinies. |
+| enki-c31 | exact | etcsl.orinst.ox.ac.uk | Enki presented animals to those with no city and no houses, the Martu nomads. | He presented animals to those who have no city, to those who have no houses, to the Martu nomads. |
 
 
 ## cybele — lulus-otomatis
@@ -212,7 +228,7 @@ Klaim 15 (exact 15), sumber 3, gambar 0.
 
 ## iblis — lulus-otomatis
 
-Klaim 15 (loose 1, exact 14), sumber 4, gambar 0.
+Klaim 30 (loose 1, exact 29), sumber 13, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -220,32 +236,61 @@ Klaim 15 (loose 1, exact 14), sumber 4, gambar 0.
 | iblis-c02 | exact | quranx.com | Quran 18:50 identifies Iblis as one of the jinn who refuses the command to bow. | they all bowed but Iblis. He was one of the jinni and rebelled against his Lord's command. |
 | iblis-c03 | exact | quranx.com | The verse describes Iblis and his offspring as enemies of humanity. | And yet you take him and his offspring as your friends instead of Me, even though they are your enemies. |
 | iblis-c04 | exact | quranx.com | In Quran 7:12, Iblis claims superiority because he is created from fire and Adam from clay. | "I am better than him," said he. "You created me from fire, and him from clay." |
-| iblis-c05 | exact | www.iranicaonline.org | Hamid Algar traces a possible origin of Eblis to Greek diabolos. | The word Eblīs, a Koranic designation for the devil, appears to derive ultimately from the Greek diabolos. |
-| iblis-c06 | exact | www.iranicaonline.org | Some interpreters connect the name with Arabic ublisa. | Some authorities have nonetheless imaginatively connected it with Arabic ublisa |
-| iblis-c07 | exact | www.iranicaonline.org | Algar emphasizes that verse 18:50 identifies Eblis as being from the jinn. | 18:50 says clearly of Eblīs, “he was from the jinn” |
-| iblis-c08 | exact | www.iranicaonline.org | Many of the Sufi writers discussed regard egoism as the cause of Iblis’s downfall. | Many of them regarded as the main source of his undoing the egoism |
-| iblis-c09 | exact | www.iranicaonline.org | Sufi interpretation also identifies envy as a vice of Eblis. | Envy (ḥasad) is also discerned as one of the fatal vices of Eblīs |
-| iblis-c10 | exact | www.iranicaonline.org | In that Sufi account, Eblis misguides people by promoting his own vices. | It is in large part by promoting his own vices among men that Eblīs deludes and misguides them |
-| iblis-c11 | exact | www.iranicaonline.org | That account describes Eblis persuading people to perform good acts for malicious ends. | Eblīs persuades people to perform good acts for ultimately malicious purposes |
-| iblis-c12 | exact | www.iranicaonline.org | For the Sufis discussed, Eblis as tempter has an existence external to humanity. | for the Sufis Eblīs, as the agent of temptation, has a real existence external to man. |
-| iblis-c13 | exact | www.iranicaonline.org | Some Sufi expressions also treat Eblis as sinful inclinations internal to humanity. | Eblīs is indistinguishable from the sinful inclinations of man and is therefore internal to him. |
-| iblis-c14 | exact | www.iranicaonline.org | Algar cites al-Ghazali describing Eblis taking the forms of dogs, pigs, and frogs. | Ḡazālī observes, however, that Eblīs sometimes assumes the form of animals such as dogs, pigs, and frogs |
-| iblis-c15 | exact | www.iranicaonline.org | Algar reports Attar suggesting Eblis may ultimately be rehabilitated. | ʿAṭṭār suggests that he may ultimately be rehabilitated |
+| iblis-c05 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | Hamid Algar traces a possible origin of Eblis to Greek diabolos. | The word Eblīs, a Koranic designation for the devil, appears to derive ultimately from the Greek diabolos. |
+| iblis-c06 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | Some interpreters connect the name with Arabic ublisa. | Some authorities have nonetheless imaginatively connected it with Arabic ublisa |
+| iblis-c07 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | Algar emphasizes that verse 18:50 identifies Eblis as being from the jinn. | 18:50 says clearly of Eblīs, “he was from the jinn” |
+| iblis-c08 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | Many of the Sufi writers discussed regard egoism as the cause of Iblis’s downfall. | Many of them regarded as the main source of his undoing the egoism |
+| iblis-c09 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | Sufi interpretation also identifies envy as a vice of Eblis. | Envy (ḥasad) is also discerned as one of the fatal vices of Eblīs |
+| iblis-c10 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | In that Sufi account, Eblis misguides people by promoting his own vices. | It is in large part by promoting his own vices among men that Eblīs deludes and misguides them |
+| iblis-c11 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | That account describes Eblis persuading people to perform good acts for malicious ends. | Eblīs persuades people to perform good acts for ultimately malicious purposes |
+| iblis-c12 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | For the Sufis discussed, Eblis as tempter has an existence external to humanity. | for the Sufis Eblīs, as the agent of temptation, has a real existence external to man. |
+| iblis-c13 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | Some Sufi expressions also treat Eblis as sinful inclinations internal to humanity. | Eblīs is indistinguishable from the sinful inclinations of man and is therefore internal to him. |
+| iblis-c14 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | Algar cites al-Ghazali describing Eblis taking the forms of dogs, pigs, and frogs. | Ḡazālī observes, however, that Eblīs sometimes assumes the form of animals such as dogs, pigs, and frogs |
+| iblis-c15 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | Algar reports Attar suggesting Eblis may ultimately be rehabilitated. | ʿAṭṭār suggests that he may ultimately be rehabilitated |
+| iblis-c16 | exact | quranx.com | In the Sahih International translation, Iblees vows to make disobedience attractive to people on earth and to mislead them all. | [Iblees] said, "My Lord, because You have put me in error, I will surely make [disobedience] attractive to them on earth, and I will mislead them all |
+| iblis-c17 | exact | quranx.com | Iblees asks for a delay until the Day of Resurrection and vows to destroy the descendants of the one honored above him, except a few. | [Iblees] said, "Do You see this one whom You have honored above me? If You delay me until the Day of Resurrection, I will surely destroy his descendants, except for a few." |
+| iblis-c18 | exact | quranx.com | This verse describes Satan told to incite whoever he can with his voice, assault with horses and foot soldiers, and become a partner in their wealth and children; his promise is only delusion. | And incite [to senselessness] whoever you can among them with your voice and assault them with your horses and foot soldiers and become a partner in their wealth and their children and promise them." But Satan does not promise them except delusion. |
+| iblis-c19 | exact | quranx.com | Allah declares that Iblis has no authority over His servants, except the deviators who follow him. | Indeed, My servants - no authority will you have over them, except those who follow you of the deviators. |
+| iblis-c20 | exact | quranx.com | Satan's authority is only over those who take him as an ally and those who through him associate others with Allah. | His authority is only over those who take him as an ally and those who through him associate others with Allah. |
+| iblis-c21 | exact | quranx.com | Allah orders Satan out of Paradise, reproached and expelled, and says He will fill Hell with him and whoever follows him. | [Allah] said, "Get out of Paradise, reproached and expelled. Whoever follows you among them - I will surely fill Hell with you, all together." |
+| iblis-c22 | exact | quranx.com | Satan caused them to slip and be removed from their former condition, and they were told to go down as enemies to one another. | But Satan caused them to slip out of it and removed them from that [condition] in which they had been. And We said, "Go down, [all of you], as enemies to one another |
+| iblis-c23 | exact | quranx.com | Allah has cursed Satan, who said he would take a specific portion of His servants. | Whom Allah has cursed. For he had said, "I will surely take from among Your servants a specific portion. |
+| iblis-c24 | exact | quranx.com | Those who recite the Qur'an are told first to seek refuge in Allah from Satan, the one expelled from His mercy. | So when you recite the Qur'an, [first] seek refuge in Allah from Satan, the expelled [from His mercy]. |
+| iblis-c25 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | According to Encyclopaedia Iranica, the most frequently cited hadith speaks of Eblis having a throne on the waters from which he sends forth his hosts. | the most frequently cited being that in which the Prophet speaks of Eblīs having a throne “on the Waters,” which serves as the base from which he sends forth his hosts |
+| iblis-c26 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | Encyclopaedia Iranica notes that Quran 26:95 speaks of the hosts of Eblis being cast into Hellfire on the Day of Judgement. | 26:95, speaks of “the hosts of Eblīs” (jonūd Eblīs) being cast into Hellfire on the Day of Judgement. |
+| iblis-c27 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | According to Encyclopaedia Iranica, Eblis is generally understood as the father of the jinn, just as his adversary Adam was the father of mankind, even by authors who regard him as a fallen angel. | Eblīs is generally understood, even by authors who regard him as fallen angel, as the father of the jinn, just as his adversary Adam was the father of mankind |
+| iblis-c28 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | According to Encyclopaedia Iranica, narratives outside the Quran give Eblis named offspring, each entrusted with fostering a different vice among men. | extra-Koranic narratives attribute to him in addition the procreation of a named offspring, specifically and recognizably his own, each child being entrusted with the fostering of a different vice among men. |
+| iblis-c29 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | According to Encyclopaedia Iranica, sins such as lust, gluttony, acquisitiveness and above all anger provide dangerous inroads for Eblis into the human soul. | sins such as lust, gluttony, acquisitiveness, and, above all, anger provide dangerous inroads for Eblīs into the human soul |
+| iblis-c30 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | According to Encyclopaedia Iranica, the foremost Sufis were regarded as God's purified servants, who lie beyond the reach of Eblis's powers. | Numerous anecdotes relate his encounters with Sufis, at least the foremost of whom were regarded as falling within the category of God’s “purified servants” (Qurʾān, 15:40) who lie beyond the reach of his powers |
 
 
 ## simurgh — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 2, gambar 0.
+Klaim 21 (exact 21), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| simurgh-c01 | exact | www.iranicaonline.org | Simurgh is a Persian mythical bird also called Senmurw. | SIMORḠ (Persian), Sēnmurw (Pahlavi), Sīna-Mrū (Pāzand), a fabulous, mythical bird. |
-| simurgh-c02 | exact | www.iranicaonline.org | The name Simurgh is traced to the Avestan expression for the bird Saena. | The name derives from Avestan ... ‘the bird Saēna’, originally a raptor, either eagle or falcon |
-| simurgh-c03 | exact | www.iranicaonline.org | The Yasht situates Saēna’s tree in the middle of the sea. | Saēna’s tree stands in the middle of the sea |
-| simurgh-c04 | exact | www.iranicaonline.org | Simorḡ acts as Zāl-e zar’s guardian, savior, and tutor. | Simorḡ is the savior, tutor and guardian of Zāl-e zar. |
-| simurgh-c05 | exact | www.iranicaonline.org | Kamak is identified as Senmurw’s evil bird counterpart. | The Sēnmurw has an evil counterpart in the bird Kamak |
-| simurgh-c06 | exact | www.iranicaonline.org | The source distinguishes the protector of Zal and Rostam from an evil bird with the same name. | The Simorḡ, protector of Zāl and Rostam, has an evil counterpart called by the same name. |
+| simurgh-c01 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | Simurgh is a Persian mythical bird also called Senmurw. | SIMORḠ (Persian), Sēnmurw (Pahlavi), Sīna-Mrū (Pāzand), a fabulous, mythical bird. |
+| simurgh-c02 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | The name Simurgh is traced to the Avestan expression for the bird Saena. | The name derives from Avestan ... ‘the bird Saēna’, originally a raptor, either eagle or falcon |
+| simurgh-c03 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | The Yasht situates Saēna’s tree in the middle of the sea. | Saēna’s tree stands in the middle of the sea |
+| simurgh-c04 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | Simorḡ acts as Zāl-e zar’s guardian, savior, and tutor. | Simorḡ is the savior, tutor and guardian of Zāl-e zar. |
+| simurgh-c05 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | Kamak is identified as Senmurw’s evil bird counterpart. | The Sēnmurw has an evil counterpart in the bird Kamak |
+| simurgh-c06 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | The source distinguishes the protector of Zal and Rostam from an evil bird with the same name. | The Simorḡ, protector of Zāl and Rostam, has an evil counterpart called by the same name. |
 | simurgh-c07 | exact | www.worldhistory.org | The accompanying source describes Simurgh giving Zal three feathers to summon her for help. | Simurgh gave Zal three of her feathers to call upon her if he should ever need help. |
+| simurgh-c08 | exact | www.gutenberg.org | In Renninger's retelling of the Shahnameh, the Simurgh is a giant bird so large that she carries elephants in her claws to her nestlings. | Now the Simurgh is a giant bird, so large that she carrieth elephants in her claws unto her nestlings. |
+| simurgh-c09 | exact | www.gutenberg.org | In this retelling, the people also call the Simurgh the Bird of God. | it is not surprising that, by the people, the Simurgh is also called the Bird of God. |
+| simurgh-c10 | exact | www.gutenberg.org | The Simurgh gives Zal a golden feather and says that when he is in difficulty or danger he should place it on the fire and she will come instantly to secure his safety. | take and bear with thee into the world this golden feather from her breast, and when thou art involved in difficulty or danger place it upon the fire. I will then come unto thee instantly to secure thy safety. |
+| simurgh-c11 | exact | www.gutenberg.org | The Simurgh draws four arrow-heads from the wounded Rustem's body with her beak, then caresses the wounds with her wings, and in a moment all his strength returns. | the glorious Simurgh, swiftly passing her golden beak over the body of the wounded Hero, drew thence four wicked arrow-heads. Then caressing the wounds softly and lightly with her fluffy wings, lo, in a moment, Rustem felt all his strength return. |
+| simurgh-c12 | exact | www.gutenberg.org | The Simurgh tells Rustem to choose the finest branch of the tamarisk tree, because the fate of Isfendiyar is bound to that bough. | choose from this tree the longest, straightest and finest branch that thou canst find, for to this tamarisk bough is bound the fate of Isfendiyar. |
+| simurgh-c13 | exact | www.gutenberg.org | In Isfendiyar's tale, the swords and javelins on his carriage lacerate the giant bird's claws and beak until she is weakened by blood loss, and Isfendiyar cleaves her in two with his sword. | But alas! the swords and javelins cruelly lacerated both claws and beak, so that after a time the great bird became extremely weakened by the loss of blood. Then Isfendiyar, seizing this favorable moment, sprang out of the carriage, and with his sword cleft the mighty bird in twain. |
+| simurgh-c14 | exact | www.gutenberg.org | Rustem gives an onyx bracelet engraved with a Simurgh and says it will protect from the powers of evil, the badge of Rustem and Zal. | an onyx bracelet, upon which was engraved the image of a Simurgh ... for it will protect him from the powers of evil, being the badge of Rustem and of Zal. |
+| simurgh-c15 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | According to Encyclopaedia Iranica, in the Yasht Saena's tree has good and potent medicine, is called all-healing, and the seeds of all plants are deposited on it. | it has good and potent medicine, is called all-healing, and the seeds of all plants are deposited on it. |
+| simurgh-c16 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | According to Encyclopaedia Iranica, in the Pahlavi text when the bird rises a thousand shoots grow from the tree, and when it alights it breaks a thousand shoots and lets the seeds drop. | When the bird rises, a thousand shoots grow from the tree, and when he (or she) alights, he breaks a thousand shoots and lets the seeds drop from them. |
+| simurgh-c17 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | According to Encyclopaedia Iranica, at Rostam's birth the Simorgh suggested anaesthetizing the mother with wine before opening her side, prescribed herbs for the wound, and completed the healing by touching it with her feather. | The bird suggested they anaesthetize the mother with wine before opening up her side and also prescribed the herbs for healing the wound; the healing was completed by touching the wound with the bird’s feather |
+| simurgh-c18 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | According to Encyclopaedia Iranica, the Simorgh extracted the arrows and healed the wounds. | she extracted the arrows and healed the wounds. |
+| simurgh-c19 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | According to Encyclopaedia Iranica, the Simorgh, knowing the secrets of fate, warned that whoever killed Esfandiar would be damned in this world and the next. | Knowing the secrets of fate (rāz-e sepehr) she warned that whoever killed Esfandiār would be damned in this and the next world. |
+| simurgh-c20 | exact (HTTP 403; dicek lewat arsip Wayback) | www.iranicaonline.org | According to Encyclopaedia Iranica, the Simorgh who protects Zal and Rostam has an evil counterpart called by the same name: she lives on a mountain, looks like a mountain or a black cloud, can carry off crocodiles, panthers and elephants, and has two young as big as herself. | has an evil counterpart called by the same name. She lives on a mountain and looks like a mountain or a black cloud; she can carry off crocodiles, panthers and elephants. She has two young ones as big as herself. |
+| simurgh-c21 | exact | www.worldhistory.org | According to the World History Encyclopedia, Saena (Senmurv) is the great falcon in the top branches of the Tree of All Seeds; when she flaps her wings the seeds are scattered by the winds, with the help of the bird Chamrosh, to land in the earth. | Saena (Senmurv) – the great falcon who sits in the top branches of the Tree of All Seeds. When she flaps her wings, the seeds are scattered and carried away by the winds, with the help of the bird Chamrosh, to land in the earth. |
 
 
 ## tiamat — lulus-otomatis
@@ -334,19 +379,26 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## ghoul — lulus-otomatis
 
-Klaim 6 (loose 1, exact 2, unreachable 3), sumber 2, gambar 0.
-
-**manual**
-- `claims` 3 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed)).
+Klaim 16 (loose 1, exact 15), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | ghoul-c01 | loose | en.wikipedia.org | A ghoul is a demon-like or monstrous humanoid being in folklore. | a ghoul (from Arabic: غول, ghūl) is a demon-like being or monstrous humanoid |
 | ghoul-c02 | exact | en.wikipedia.org | The ghoul concept originates in pre-Islamic Arabian religion. | The concept of the ghoul originated in pre-Islamic Arabian religion. |
 | ghoul-c03 | exact | en.wikipedia.org | Al-Dimashqi describes ghouls as cave dwellers that emerge at night and avoid sunlight. | Al-Dimashqi describes the ghoul as cave-dwelling animals who only leave at night and avoid the light of the sun. |
-| ghoul-c04 | unreachable (tidak bisa dibuka (fetch failed)) | www.gutenberg.org | In the translated Arabian Nights tale, ghouls make their lairs in deserted buildings. | making their lairs in deserted buildings |
-| ghoul-c05 | unreachable (tidak bisa dibuka (fetch failed)) | www.gutenberg.org | The tale’s ghouls attack unwary travelers and eat their flesh. | springing out upon unwary travellers whose flesh they eat. |
-| ghoul-c06 | unreachable (tidak bisa dibuka (fetch failed)) | www.gutenberg.org | When no live victims appear, the ghouls go to cemeteries and feed on dead bodies. | If no live being goes their way, they then betake themselves to the cemeteries, and feed upon the dead bodies. |
+| ghoul-c04 | exact | www.gutenberg.org | In the translated Arabian Nights tale, ghouls make their lairs in deserted buildings. | making their lairs in deserted buildings |
+| ghoul-c05 | exact | www.gutenberg.org | The tale’s ghouls attack unwary travelers and eat their flesh. | springing out upon unwary travellers whose flesh they eat. |
+| ghoul-c06 | exact | www.gutenberg.org | When no live victims appear, the ghouls go to cemeteries and feed on dead bodies. | If no live being goes their way, they then betake themselves to the cemeteries, and feed upon the dead bodies. |
+| ghoul-c07 | exact | www.gutenberg.org | In Lane's notes, Ghools are said to appear as various animals, human beings and monstrous shapes, haunt burial grounds and sequestered spots, feed on dead human bodies, and kill and devour any human who falls in their way. | The Ghools are said to appear in the forms of various animals, and of human beings, and in many monstrous shapes; to haunt burial-grounds and other sequestered spots; to feed upon dead human bodies; and to kill and devour any human creature who has the misfortune to fall in their way |
+| ghoul-c08 | exact | www.gutenberg.org | In Lane's notes, one opinion says the Ghool appears to a person travelling alone at night in solitary places, is taken for a fellow traveller, and lures him out of his way. | it appears to a person travelling alone in the night and in solitary places, and, being supposed by him to be itself a traveller, lures him out of his way. |
+| ghoul-c09 | exact | www.gutenberg.org | In Lane's notes, a tradition says the Ghool is any Jinnee opposed to travels, assuming various forms and appearances. | The Ghool is any Jinnee that is opposed to travels, assuming various forms and appearances; |
+| ghoul-c10 | exact | www.gutenberg.org | In Lane's notes, these beings are said to be the offspring of Iblees and a wife God created for him from the fire of the Samoom. | are the offspring of Iblees and of a wife whom God created for him of the fire of the Samoom |
+| ghoul-c11 | exact | www.gutenberg.org | In the story of the Prince and the Ghooleh, the woman posing as a princess tells her children she has brought a fat young man, and they want to fill their stomachs with his flesh. | My children, I have brought you to-day a fat young man:—on which they exclaimed, Bring him in to us, O mother! that we may fill our stomachs with his flesh. |
+| ghoul-c12 | exact | www.gutenberg.org | In the same story, the Ghooleh departs from the Prince as soon as she hears his prayer to God. | the Ghooleh no sooner heard his prayer, than she departed from him. |
+| ghoul-c13 | exact | en.wikipedia.org | According to this article, in tales told to girls and young women the ghoul appears to men as a long-lost female relative or an unassuming old woman and lures them into her home to eat them. | In these tales, the ghoul appears to men as a long-lost female relative or an unassuming old woman; she uses this glamor to lure the hapless characters, who are usually husbands or fathers, into her home, where she can eat them. |
+| ghoul-c14 | exact | en.wikipedia.org | According to this article, the ghoul is said to lure unwary people into the desert or abandoned places to slay and devour them; it also preys on young children, drinks blood, steals coins, eats the dead, and takes the form of the person most recently eaten. | The ghoul is said to lure unwary people into the desert wastes or abandoned places to slay and devour them. The creature also preys on young children, drinks blood, steals coins, eats the dead, and takes the form of the person most recently eaten. |
+| ghoul-c15 | exact | en.wikipedia.org | According to this article, a hadith mentioned by Al-Damiri says lonely travelers can escape a ghoul's attack by reciting the adhan. | In one hadith mentioned by Al-Damīrī, is said, lonely travelers can escape a ghoul's attack by reciting the adhan (call to prayer). |
+| ghoul-c16 | exact | en.wikipedia.org | According to this article, Al-Masudi reports that on his journey to Syria Umar slew a ghoul with his sword. | Al-Masudi reports that on his journey to Syria, Umar slew a ghoul with his sword. |
 
 
 ## moloch — lulus-otomatis
@@ -437,10 +489,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## nephilim — lulus-otomatis
 
-Klaim 7 (exact 6, unreachable 1), sumber 2, gambar 0.
-
-**manual**
-- `claims` 1 kutipan tidak bisa dicek otomatis: www.biblegateway.com (tidak bisa dibuka (fetch failed)).
+Klaim 19 (exact 19), sumber 7, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -450,7 +499,19 @@ Klaim 7 (exact 6, unreachable 1), sumber 2, gambar 0.
 | nephilim-c04 | exact | en.wikipedia.org | The meaning of Nephilim remains uncertain. | The meaning of the term Nephilim is uncertain. |
 | nephilim-c05 | exact | en.wikipedia.org | Nephilim appear again in Numbers 13:33. | The Nephilim appear again in Numbers 13:33 |
 | nephilim-c06 | exact | en.wikipedia.org | One interpretation identifies Nephilim as offspring of rebellious angels and human women. | identifies the Nephilim as the offspring of rebellious angels (the Watchers) and human women |
-| nephilim-c07 | unreachable (tidak bisa dibuka (fetch failed)) | www.biblegateway.com | Genesis 6:4 in the KJV describes giants on the earth in those days. | There were giants in the earth in those days; |
+| nephilim-c07 | exact | www.biblegateway.com | Genesis 6:4 in the KJV describes giants on the earth in those days. | There were giants in the earth in those days; |
+| nephilim-c08 | exact | www.biblegateway.com | In the KJV of Genesis 6:4, they became mighty men of old, men of renown. | the same became mighty men which were of old, men of renown. |
+| nephilim-c09 | exact | www.biblegateway.com | In the KJV of Numbers 13:33, the spies report that they saw the giants, the sons of Anak, and were as grasshoppers in their own sight and in the giants' sight. | And there we saw the giants, the sons of Anak, which come of the giants: and we were in our own sight as grasshoppers, and so we were in their sight. |
+| nephilim-c10 | exact | en.wikipedia.org | According to this article, an influential view in Second Temple literature portrays the Nephilim as destructive giants whose corruption contributed to the moral decline preceding the flood. | portraying them as destructive giants whose corruption contributed to the moral decline preceding the flood. |
+| nephilim-c11 | exact | en.wikipedia.org | According to this article, the Book of Jubilees also states that ridding the Earth of the Nephilim was one of God's purposes for the flood in Noah's time. | the Book of Jubilees (7:21–25) also states that ridding the Earth of these Nephilim was one of God's purposes for flooding the Earth in Noah's time. |
+| nephilim-c12 | exact | www.biblegateway.com | In the same chapter the KJV records that the earth was corrupt before God and filled with violence. | The earth also was corrupt before God, and the earth was filled with violence. |
+| nephilim-c13 | exact | en.wikisource.org | In the Book of Enoch (Charles translation), the women become pregnant and bear great giants whose height was three thousand ells. | And they became pregnant, and they bare great giants, whose height was three thousand ells |
+| nephilim-c14 | exact | en.wikisource.org | The giants consumed all the acquisitions of men. | Who consumed all the acquisitions of men. |
+| nephilim-c15 | exact | en.wikisource.org | When men could no longer sustain them, the giants turned against them and devoured mankind. | And when men could no longer sustain them, the giants turned against them and devoured mankind. |
+| nephilim-c16 | exact | en.wikisource.org | They began to sin against birds, beasts, reptiles and fish, and to devour one another's flesh and drink the blood. | And they began to sin against birds, and beasts, and reptiles, and fish, and to devour one another's flesh, and drink the blood. |
+| nephilim-c17 | exact | en.wikisource.org | In the command to Gabriel, the children of the Watchers are to be sent against one another to destroy each other in battle, and they shall not have length of days. | send them one against the other that they may destroy each other in battle: for length of days shall they not have. |
+| nephilim-c18 | exact | en.wikisource.org | The spirits of the giants afflict, oppress, destroy, attack, do battle, and work destruction and trouble on the earth. | And the spirits of the giants afflict, oppress, destroy, attack, do battle, and work destruction on the earth, and cause trouble |
+| nephilim-c19 | exact | en.wikisource.org | The giants, produced from spirits and flesh, shall be called evil spirits upon the earth and dwell on the earth. | And now, the giants, who are produced from the spirits and flesh, shall be called evil spirits upon the earth, and on the earth shall be their dwelling. |
 
 
 ## anahita — lulus-otomatis
@@ -529,7 +590,10 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## lamassu — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 16 (exact 12, unreachable 4), sumber 4, gambar 0.
+
+**manual**
+- `claims` 4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429); www.britannica.com (HTTP 403).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -539,6 +603,16 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | lamassu-c04 | exact | en.wikipedia.org | Pairs of lamassu sculptures stand at Assyrian palace entrances. | Assyrian sculpture typically placed prominent pairs of lamassu at entrances in palaces |
 | lamassu-c05 | exact | en.wikipedia.org | Earlier sculptural versions can have five legs. | In earlier versions, they have five legs |
 | lamassu-c06 | exact | www.worldhistory.org | Lamassu adorn palaces and temples to frighten away chaotic forces. | who adorned palaces and temples to frighten off the forces of chaos. |
+| lamassu-c07 | unreachable (HTTP 429) | www.metmuseum.org | The Met quotes the palace inscription of Ashurnasirpal: beasts of the mountains and the seas fashioned from white limestone and alabaster were set up in its gates. | Beasts of the mountains and the seas, which I had fashioned out of white limestone and alabaster, I had set up in its gates. |
+| lamassu-c08 | unreachable (HTTP 429) | www.metmuseum.org | According to The Met, the horned cap attests to the figure's divinity and the belt signifies its power. | The horned cap attests to its divinity, and the belt signifies its power. |
+| lamassu-c09 | unreachable (HTTP 429) | www.metmuseum.org | According to The Met, lamassu protected and supported important doorways in Assyrian palaces. | Lamassu protected and supported important doorways in Assyrian palaces. |
+| lamassu-c10 | unreachable (HTTP 403) | www.britannica.com | According to Britannica, the palaces were a display of the kings' power, and lamassu served to guard and exude that power. | The palaces were a display of the kings’ power, and lamassu served to guard and exude that power. |
+| lamassu-c11 | exact | www.worldhistory.org | According to the World History Encyclopedia, Lama is the Sumerian goddess of protection, known to the Akkadians as Lamassu; as Lamassu she appeared as a winged bull or lion with a woman's face and protected temples and palaces against the forces of chaos and their attendant evils. | LAMA - The Sumerian goddess of protection. She was known to the Akkadians as Lamassu. As Lama she was depicted as a woman in a long, tiered robe while, as Lamassu, she appeared as a winged bull or lion with a woman's face or head and protected temples and palaces against the forces of chaos and their attendant evils. |
+| lamassu-c12 | exact | www.worldhistory.org | According to the World History Encyclopedia, Lama often appears on cylinder seals, was widely petitioned for intercession with the gods, and her name means protective spirit. | Lama appears often on cylinder seals and was widely petitioned for intercession with the gods. Her name means `protective spirit'. |
+| lamassu-c13 | exact | en.wikipedia.org | According to this article, the lamassu and shedu were household protective spirits of the common Assyrian people, later associated as royal protectors, and placed as sentinels at entrances. | The lamassu and shedu were household protective spirits of the common Assyrian people, becoming associated later as royal protectors, and were placed as sentinels at entrances. |
+| lamassu-c14 | exact | en.wikipedia.org | According to this article, to protect houses lamassu were engraved on clay tablets buried under the door's threshold. | To protect houses, the lamassu were engraved in clay tablets, which were then buried under the door's threshold. |
+| lamassu-c15 | exact | en.wikipedia.org | According to this article, at city entrances lamassu were sculpted in colossal size and placed as a pair, one on each side of the city door. | At the entrance of cities, they were sculpted in colossal size, and placed as a pair, one at each side of the door of the city |
+| lamassu-c16 | exact | en.wikipedia.org | According to this article, in the palace of Sargon II a group of at least seven lamassu and two heroes with lions surrounded the throne room entrance, a concentration of figures giving an overwhelming impression of power. | a group of at least seven lamassu and two such heroes with lions surrounded the entrance to the "throne room", "a concentration of figures which produced an overwhelming impression of power". |
 
 
 ## al-uzza — lulus-otomatis
@@ -701,14 +775,21 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## hippocamp — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | hippocamp-c01 | exact | en.wikipedia.org | The hippocamp is a mythical creature combining a horse’s upper body and a fish’s lower body. | typically depicted as having the upper body of a horse with the lower body of a fish. |
 | hippocamp-c02 | exact | en.wikipedia.org | Fourth-century BCE Tyrian coins depict Melqart riding a winged hippocamp. | Coins minted at Tyre around the 4th century BC show the patron god Melqart riding on a winged hippocampus |
 | hippocamp-c03 | exact | en.wikipedia.org | A gold hippocamp from a Lydian hoard is dated to the sixth century BCE. | A gold hippocamp was discovered in a hoard from the kingdom of Lydia, Asia Minor, dating to the 6th century BC. |
-| hippocamp-c04 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.theoi.com | Hippokampoi are described as fish-tailed horses of the sea. | HIPPOKAMPOI (Hippocamps) were the fish-tailed horses of the sea. |
-| hippocamp-c05 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.theoi.com | Their form combines a horse’s head and foreparts with a serpentine fish tail. | They were depicted as composite creatures with the head and fore-parts of a horse and the serpentine-tail of a fish. |
-| hippocamp-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.theoi.com | Mosaic art can give hippocamps green scales and fin-like manes and appendages. | In mosaic art they were often had green scales and fish-fin manes and appendages. |
+| hippocamp-c04 | exact | www.theoi.com | Hippokampoi are described as fish-tailed horses of the sea. | HIPPOKAMPOI (Hippocamps) were the fish-tailed horses of the sea. |
+| hippocamp-c05 | exact | www.theoi.com | Their form combines a horse’s head and foreparts with a serpentine fish tail. | They were depicted as composite creatures with the head and fore-parts of a horse and the serpentine-tail of a fish. |
+| hippocamp-c06 | exact | www.theoi.com | Mosaic art can give hippocamps green scales and fin-like manes and appendages. | In mosaic art they were often had green scales and fish-fin manes and appendages. |
+| hippocamp-c07 | exact | www.theoi.com | According to the Theoi Project, hippokampoi were the mounts of Nereid nymphs and sea-gods, and Poseidon drove a chariot drawn by two or four of them. | Hippokampoi were the mounts of Nereid nymphs and sea-gods, and Poseidon drove a chariot drawn by two or four of the creatures. |
+| hippocamp-c08 | exact | www.theoi.com | In Philostratus's description of a painting, hippokampoi draw the chariot, creatures with web-footed hoofs, good swimmers, blue-eyed, and in all respects like dolphins. | here it is Hippokampoi (Hippocamps) that draw the chariot, creatures with web-footed hoofs, good swimmers, blue-eyed, and, by Zeus, in all respects like dolphins. |
+| hippocamp-c09 | exact | www.theoi.com | In Statius's Achilleid, Poseidon urges his team of hippokampoi with his three-pronged spear; the fronts run at furious speed amid foam, while the rears swim and blot out their footprints with their tails. | He [Poseidon] towers on high above the peaceful waves, urging his team [of Hippokampoi (Hippocamps)] with his three-pronged spear: frontwise they run at furious speed amid showers of foam, behind they swim and blot out their footprints with their tails. |
+| hippocamp-c10 | exact | www.theoi.com | According to the Dictionary of Greek and Roman Biography and Mythology as quoted by Theoi, the horse is Poseidon's symbol in the Homeric poems, his chariot is drawn over the sea's surface by swift horses, and later poets and artists depicted the horses of sea divinities as a horse-fish blend. | The horse appears even in the Homeric poems as the symbol of Poseidon, whose chariot was drawn over the surface of the sea by swift horses. The later poets and artists conceived and represented the horses of Poseidon and other marine divinities as a combination of a horse and a fish. |
+| hippocamp-c11 | exact | www.theoi.com | According to the Theoi Project, the ancients believed hippokampoi were the adult form of the small fish we call the sea-horse. | The ancients believed they were the adult-form of the small fish we call the "sea-horse". |
+| hippocamp-c12 | exact | en.wikipedia.org | According to this article, in Hellenistic and Roman imagery Poseidon often drives a sea-chariot drawn by hippocampi. | In Hellenistic and Roman imagery, however, Poseidon often drives a "sea-chariot", drawn by hippocampi. |
+| hippocamp-c13 | exact | en.wikipedia.org | According to this article, Katharine Shepard found in the Etruscan hippocamp theme a belief in a sea-voyage to the other world. | Katharine Shepard found in the theme an Etruscan belief in a sea-voyage to the other world. |
 

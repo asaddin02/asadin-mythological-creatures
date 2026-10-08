@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-068",
-  "checked_at": "2026-10-07T09:26:54.474Z",
+  "checked_at": "2026-10-08T10:03:08.337Z",
   "files": [
     "batch-068.md",
     "batch-068-fix-1.md",
@@ -8,7 +8,8 @@
     "batch-068-fix-3.md",
     "batch-068-fix-4.md",
     "batch-068-fix-5.md",
-    "batch-068-fix-6.md"
+    "batch-068-fix-6.md",
+    "batch-068-fix-7.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -4542,21 +4543,15 @@
     },
     {
       "slug": "fuzhu-mythical-beast",
-      "file": "batch-068-fix-5.md",
-      "entry_sha256": "b7d51be0d802537f3bb6db199003d6eb9b5a5b25199720771860c362bf1af1a9",
+      "file": "batch-068-fix-7.md",
+      "entry_sha256": "1ea586494b1dfd21446118a896d17d1d4ac3c236e692426f07926d575a28dfc7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 3,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "warn",
-          "where": "long_description[1]",
-          "message": "Tidak muncul di kutipan mana pun: Wikipedia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "fuzhu-mythical-beast-c01",
@@ -4616,6 +4611,46 @@
           "statement_id": "Dalam catatan Wu Renchen pada Shanhaijing, kamus Pianya disebut menyatakan bahwa rusa putih bertanduk empat adalah fuzhu.",
           "quote": "如蒨如舉言其一望蔚葱有如丹青樹然〉有獸焉其狀如白鹿而四角名曰夫諸〈任臣案駢雅曰鹿四角而白為夫諸",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fuzhu-mythical-beast-c07",
+          "source_id": "fuzhu-mythical-beast-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In Wu Renchen's notes, the \"Lin shu\" is cited as saying that fuzhu and the overflowing of water are a warning from heaven.",
+          "statement_id": "Dalam catatan Wu Renchen, \"kitab Lin\" disebut menyatakan bahwa fuzhu bersama aliran air yang meluap adalah peringatan dari langit.",
+          "quote": "如丹青樹然〉有獸焉其狀如白鹿而四角名曰夫諸〈任臣案駢雅曰鹿四角而白為夫諸麟書云夫諸横流天戒",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fuzhu-mythical-beast-c08",
+          "source_id": "fuzhu-mythical-beast-s4",
+          "host": "zh.wikipedia.org",
+          "statement": "Chinese Wikipedia describes the fuzhu's appearance as an omen of a great flood, and says the idea is first attested before the Qin dynasty.",
+          "statement_id": "Wikipedia Mandarin menyebut kemunculan fuzhu sebagai pertanda banjir besar, dan gagasan ini pertama tercatat pada masa sebelum Qin.",
+          "quote": "傳說中異獸名。狀如白鹿而有四角。其現為大水之兆。其說始見於先秦。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fuzhu-mythical-beast-c09",
+          "source_id": "fuzhu-mythical-beast-s4",
+          "host": "zh.wikipedia.org",
+          "statement": "Chinese Wikipedia calls the fuzhu a divine beast that foretells water and can bring on a great flood.",
+          "statement_id": "Wikipedia Mandarin menggambarkan fuzhu sebagai makhluk gaib pertanda air yang dapat mendatangkan banjir besar.",
+          "quote": "夫諸状若白鹿，有四角。兆水之神兽，可招大水。最早在先秦时有记载。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fuzhu-mythical-beast-c10",
+          "source_id": "fuzhu-mythical-beast-s4",
+          "host": "zh.wikipedia.org",
+          "statement": "The Shanhaijing places the fuzhu around Mount Ao'an; when it is seen, the city there is struck by a great flood.",
+          "statement_id": "Shanhaijing menempatkan fuzhu di sekitar Gunung Ao'an, dan bila ia terlihat, kota tempat itu dilanda banjir besar.",
+          "quote": "中次三经萯山之首，曰敖岸之山，其阳多王雩琈之玉，其阴多赭、黄金。神熏池居之。是常出美玉。北望河林，其状如蒨如举。有兽焉，其状如白鹿而四角，名曰夫诸，见则其邑大水。",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],

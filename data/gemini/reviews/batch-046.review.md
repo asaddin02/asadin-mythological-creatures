@@ -1,6 +1,6 @@
 # Review batch-046
 
-Diperiksa 2026-09-30T02:36:02.241Z. Berkas: batch-046.md, batch-046-fix-1.md, batch-046-fix-2.md.
+Diperiksa 2026-10-08T10:19:35.798Z. Berkas: batch-046.md, batch-046-fix-1.md, batch-046-fix-2.md, batch-046-fix-3.md.
 
 ## bigfoot — lulus-otomatis
 
@@ -102,7 +102,7 @@ Klaim 15 (exact 15), sumber 3, gambar 0.
 
 ## sobek — lulus-otomatis
 
-Klaim 15 (exact 15), sumber 3, gambar 0.
+Klaim 26 (exact 26), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -121,4 +121,15 @@ Klaim 15 (exact 15), sumber 3, gambar 0.
 | sobek-c13 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | then directly with the god Re. | then directly with the god Re. |
 | sobek-c14 | exact | ancientegyptonline.co.uk | In some areas, a tame crocodile was worshiped as the earthly embodiment of Sobek himself, while in other places crocodiles were reviled, hunted, and killed. | In some areas, a tame crocodile was worshiped as the earthly embodiment of Sobek himself, while in other places crocodiles were reviled, hunted, and killed. |
 | sobek-c15 | exact | ancientegyptonline.co.uk | Sobek (also known as Sebek, Sebek-Ra, Sobeq, Suchos, Sobki, and Soknopais) was the ancient god of crocodiles. | Sobek (also known as Sebek, Sebek-Ra, Sobeq, Suchos, Sobki, and Soknopais) was the ancient god of crocodiles. |
+| sobek-c16 | exact | ancientegyptonline.co.uk | Sobek first appeared in the Old Kingdom as the son of Neith with the epithet "The Rager". | Sobek first appeared in the Old Kingdom as the son of Neith with the epithet “The Rager |
+| sobek-c17 | exact | ancientegyptonline.co.uk | As well as a force for creation, Sobek was seen as an unpredictable deity who sometimes allied himself with the forces of Chaos. | However, as well as being a force for creation, he was seen as an unpredictable deity who sometimes allied himself with the forces of Chaos. |
+| sobek-c18 | exact | ancientegyptonline.co.uk | It seems likely that Sobek began as a dark god who had to be appeased, but his protective qualities and strength were valued when used in defence of the pharaoh and the people. | It seems likely that Sobek began as a dark god who had to be appeased, but that his protective qualities and his strength were valued when they were used in defence of the pharaoh and the people. |
+| sobek-c19 | exact | ancientegyptonline.co.uk | Because of his ferocity, Sobek was considered the patron of the army. | Because of his ferocity, he was considered to be the patron of the army. |
+| sobek-c20 | exact | ancientegyptonline.co.uk | Sobek rescued the four mummiform sons of Horus by gathering them in a net when they rose from the waters in a lotus bloom. | He also rescued the four mummiform sons of Horus ... by gathering them in a net when they rose from the waters in a lotus bloom. |
+| sobek-c21 | exact | ancientegyptonline.co.uk | Sobek was also thought to have assisted Isis when she gave birth to Horus. | Sobek was also thought to have assisted Isis when she gave birth to Horus. |
+| sobek-c22 | exact | ancientegyptonline.co.uk | Sobek could protect the justified dead in the netherworld, restoring their sight and reviving their senses. | Sobek could protect the justified dead in the netherworld, restoring their sight and reviving their senses. |
+| sobek-c23 | exact | en.wikipedia.org | Sobek is, above all else, an aggressive and animalistic deity who lives up to the vicious reputation of his patron animal, the Nile crocodile. | Sobek is, above all else, an aggressive and animalistic deity who lives up to the vicious reputation of his patron animal, the large and violent Nile crocodile / West African crocodile |
+| sobek-c24 | exact | en.wikipedia.org | Common epithets of Sobek portray his nature: "he who loves robbery", "he who eats while he also mates", and "pointed of teeth". | Some of his common epithets portray this nature succinctly, the most notable of which being: "he who loves robbery", "he who eats while he also mates", and "pointed of teeth". |
+| sobek-c25 | exact | en.wikipedia.org | In Pyramid Text 317 the king Unis is identified with Sobek; Unis is called lord of semen, who takes women from their husbands. | Unis is Sobek, green of plumage ... Unis is lord of semen, who takes women from their husbands |
+| sobek-c26 | exact | en.wikipedia.org | Sobek's fierceness was able to ward off evil while simultaneously defending the innocent. | His fierceness was able to ward off evil while simultaneously defending the innocent. |
 

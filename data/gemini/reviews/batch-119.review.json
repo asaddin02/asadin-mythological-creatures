@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-119",
-  "checked_at": "2026-10-07T05:08:22.217Z",
+  "checked_at": "2026-10-08T10:19:39.059Z",
   "files": [
     "batch-119.md",
     "batch-119-fix-1.md",
-    "batch-119-fix-2.md"
+    "batch-119-fix-2.md",
+    "batch-119-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -456,11 +457,12 @@
     },
     {
       "slug": "bran-and-sceolang",
-      "file": "batch-119.md",
+      "file": "batch-119-fix-3.md",
+      "entry_sha256": "3e79a6c9e64c3b0841f70ce8812a5262b9804b6aab9688ab426fab0160a5202c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 29,
+        "sources": 3,
         "images": 0
       },
       "issues": [],
@@ -524,10 +526,239 @@
           "quote": "Dar le seanscéal, ba iadsan a tháinig ar Oisín mac Fhionn ar fáin lomnocht san fhoraois.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c07",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Tuiren was struck with a dark druid rod by a woman of the Sidhe and changed into the most beautiful hound ever seen.",
+          "statement_id": "Tuiren dipukul dengan tongkat druid gelap oleh seorang wanita Sidhe sehingga berubah menjadi anjing betina yang paling cantik yang pernah terlihat.",
+          "quote": "So Tuiren went out with her, and when they were away from the house the woman of the Sidhe took out her dark Druid rod from under her cloak and gave her a blow of it that changed her into a hound, the most beautiful that was ever seen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c08",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "The two whelps always stopped with Finn, and he gave them the names Bran and Sceolan.",
+          "statement_id": "Kedua anak anjing itu selalu tinggal bersama Finn dan ia memberi mereka nama Bran dan Sceolan.",
+          "quote": "And as to the two whelps, they stopped always with Finn, and the names he gave them were Bran and Sceolan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c09",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Bran and Sceolan, \"without fault\", are named among the three best things Finn ever got (the third being the Little Nut from the House of the Sidhe in Slieve-nam-ban).",
+          "statement_id": "Bran dan Sceolan, \"tanpa cela\", disebut dua dari tiga hal terbaik yang pernah diperoleh Finn (yang ketiga: Kacang Kecil dari Rumah Sidhe di Slieve-nam-ban).",
+          "quote": "These were the three best things Finn ever got, Bran and Sceolan that were without fault, and the Little Nut from the House of the Sidhe in Slieve-nam-ban.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c10",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the chase of a beautiful fawn, all the men and dogs tired and fell back except Finn himself and Bran and Sceolan.",
+          "statement_id": "Dalam perburuan seekor anak rusa yang indah, semua orang dan anjing kelelahan dan tertinggal, kecuali Finn sendiri serta Bran dan Sceolan.",
+          "quote": "a beautiful fawn started up before them, and they followed after it, men and dogs, till at last they were all tired and fell back, all but Finn himself and Bran and Sceolan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c11",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Bran and Sceolan overtook the fawn but did not harm it at all, playing about it and licking its neck and face.",
+          "statement_id": "Bran dan Sceolan menyusul rusa itu tetapi tidak melukainya sama sekali; mereka bermain-main di dekatnya dan menjilati leher dan wajahnya.",
+          "quote": "Bran and Sceolan came up with it, and they did not harm it at all, but went playing about it, licking its neck and its face.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c12",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "The speaker (the fawn) says that only Bran and Sceolan were left after her; they \"have human wits\" and she was safe with them because they knew her nature to be like their own.",
+          "statement_id": "Si rusa (yang berbicara) berkata hanya Bran dan Sceolan yang masih mengejarnya; keduanya \"berakal manusia\" dan ia aman bersama mereka karena mereka tahu wataknya seperti watak mereka.",
+          "quote": "And I never stopped then till there was no one after me but only Bran and Sceolan, that have human wits; and I was safe with them, for they knew my nature to be like their own.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c13",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Finn took to any hunting only the five hounds he trusted most: Bran, Sceolan, Lomaire, Brod and Lomluath.",
+          "statement_id": "Finn hanya membawa ke perburuan lima anjing yang paling ia percaya: Bran, Sceolan, Lomaire, Brod, dan Lomluath.",
+          "quote": "he never brought out to any hunting but the five hounds he had most trust in, Bran and Sceolan and Lomaire and Brod and Lomluath,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c14",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Finn's five hounds stood in a ring keeping back the other hounds, with a young boy in the middle of the ring.",
+          "statement_id": "Lima anjing Finn berdiri melingkar menahan anjing-anjing lain, dan di tengah lingkaran itu ada seorang anak laki-laki.",
+          "quote": "they saw the five hounds of Finn in a ring, and they keeping back the other hounds, and in the middle of the ring was a young boy,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c15",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Once the fight was stopped, Bran and Sceolan went up to the boy, whined and licked him as if they had forgotten their master.",
+          "statement_id": "Setelah perkelahian anjing dihentikan, Bran dan Sceolan mendatangi anak itu, merengek dan menjilatinya seolah lupa pada tuan mereka.",
+          "quote": "as soon as the fight was stopped Bran and Sceolan went up to the little lad, and whined and licked him, that any one would think they had forgotten their master.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c16",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Glasan killed the first of them and Bran killed the second, but the third escaped.",
+          "statement_id": "Glasan membunuh yang pertama dari mereka dan Bran membunuh yang kedua, tetapi yang ketiga lolos.",
+          "quote": "And Glasan made a stroke that killed the first of them, and Bran killed the second, but the third made his escape.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c17",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Arthur, son of the King of Britain, took notice of three of Finn's hounds, Bran, Sceolan and Adhnuall, and planned to carry them across the sea.",
+          "statement_id": "Arthur, putra Raja Britania, memperhatikan tiga anjing Finn (Bran, Sceolan, dan Adhnuall) dan berencana membawa mereka menyeberangi laut.",
+          "quote": "he took notice of three of Finn's hounds, Bran, and Sceolan and Adhnuall, and he made a plan in his mind to go away across the sea, himself and his three nines, bringing those three hounds along with him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c18",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "When the hounds were counted, Bran, Sceolan and Adhnuall were missing and Finn was told.",
+          "statement_id": "Saat anjing-anjing dihitung, Bran, Sceolan, dan Adhnuall hilang dan hal itu dilaporkan kepada Finn.",
+          "quote": "Now on this day when they were counted, Bran and Sceolan and Adhnuall were missing; and that was told to Finn.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c19",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "They went back to Finn bringing his three hounds and the King of Britain's son as a prisoner.",
+          "statement_id": "Mereka kembali kepada Finn membawa tiga anjingnya dan putra Raja Britania sebagai tawanan.",
+          "quote": "They went back to Finn then, bringing his three hounds with them, and the King of Britain's son as a prisoner;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c20",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Finn had three hundred full-grown hounds and two hundred whelps.",
+          "statement_id": "Finn memiliki tiga ratus anjing dewasa dan dua ratus anak anjing.",
+          "quote": "Three hundred full-grown hounds he had, and two hundred whelps;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c21",
+          "source_id": "bran-and-sceolang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to legend they were the first to discover Fionn's son Oisín wandering naked in the forest.",
+          "statement_id": "Menurut legenda, merekalah yang pertama menemukan Oisín, putra Fionn, berkeliaran telanjang di hutan.",
+          "quote": "Per legend, they were the first to discover Fionn's son Oisín wandering naked in the forest.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c22",
+          "source_id": "bran-and-sceolang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Throughout Fionn's hunts Bran is said to be always at his side, and later folk tales suggest the two hounds grew up together.",
+          "statement_id": "Dalam perburuan Fionn, Bran disebut selalu ada di sisinya; kisah rakyat belakangan menyebut kedua anjing itu tumbuh bersama.",
+          "quote": "throughout Fionn's hunts, it is mentioned that Bran is always by his side, while certain later folk tales suggest that the dogs grew up alongside each other.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c23",
+          "source_id": "bran-and-sceolang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Sceólang eventually dies in the \"Chase of Thrush Glen\" after pursuing a half-black and half-white doe.",
+          "statement_id": "Sceólang akhirnya mati dalam \"Pengejaran di Lembah Thrush\" setelah mengejar rusa betina setengah hitam setengah putih.",
+          "quote": "Sceólang eventually dies in the 'Chase of Thrush Glen', after pursuing a half-black and half-white doe.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c24",
+          "source_id": "bran-and-sceolang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Bran chooses to die by drowning after being struck by Fionn in an impulsive moment; other sources say he was killed in a hunting accident and buried by Fionn at Carnawaddy, near Omeath.",
+          "statement_id": "Bran memilih mati tenggelam setelah dipukul Fionn dalam sekejap amarah; sumber lain menyebut ia terbunuh dalam kecelakaan berburu dan dikubur Fionn di Carnawaddy dekat Omeath.",
+          "quote": "Bran, meanwhile, chooses to die by drowning after being struck by Fionn in an impulsive moment. Other sources say that Bran was killed by Fionn in a hunting accident, and that would then be buried by Fionn at Carnawaddy, near Omeath.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c25",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "For seven years from then, whenever not fighting Ireland's enemies, Finn searched ever more in every far corner for beautiful Sadbh.",
+          "statement_id": "Selama tujuh tahun sejak itu, di luar waktu perang melawan musuh Irlandia, Finn terus mencari Sadbh yang cantik di setiap pojok jauh.",
+          "quote": "And through the length of seven years from that time, whenever he was not out fighting against the enemies of Ireland, he went searching and ever searching in every far corner for beautiful Sadbh.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c26",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Glasan slashed an old hag dead, but three young men leaped out of her body.",
+          "statement_id": "Glasan menebas seorang perempuan tua hingga mati, tetapi tiga pemuda melompat keluar dari tubuhnya.",
+          "quote": "And at last he drew his sword and hit her a slash that killed her; but if he did, three young men leaped out of her body.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c27",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Finn concludes the King of Britain's son has taken away the hound and orders nine men chosen to follow.",
+          "statement_id": "Finn menyimpulkan bahwa putra Raja Britania telah membawa anjing-anjingnya dan menyuruh memilih sembilan orang untuk menyusul.",
+          "quote": "The King of Britain's son has brought away the hound. And let nine men be chosen out to follow after them,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c28",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "A beautiful young woman in rich dress came before Finn and told him she was the fawn he had been hunting that day.",
+          "statement_id": "Seorang wanita muda cantik berpakaian mewah mendatangi Finn dan mengatakan bahwa dialah rusa yang ia buru hari itu.",
+          "quote": "a beautiful young woman having a rich dress came before him, and she told him it was she herself was the fawn he was after hunting that day.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bran-and-sceolang-c29",
+          "source_id": "bran-and-sceolang-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Finn's mother Muirne came to Almhuin and brought with her Tuiren, her sister.",
+          "statement_id": "Ibu Finn, Muirne, datang ke Almhuin bersama Tuiren, saudarinya.",
+          "quote": "Finn's mother, Muirne, came one time to Almhuin, and she brought with her Tuiren, her sister.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7bb621104105dd04856288d7ea0f3b1cec5b782811dfe39397f5bd81e4d04a0c"
+      "images": []
     },
     {
       "slug": "buwch-frech",

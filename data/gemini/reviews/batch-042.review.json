@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-042",
-  "checked_at": "2026-09-30T02:35:29.314Z",
+  "checked_at": "2026-10-08T10:03:06.975Z",
   "files": [
     "batch-042.md",
     "batch-042-fix-1.md",
-    "batch-042-fix-2.md"
+    "batch-042-fix-2.md",
+    "batch-042-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -221,7 +222,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "31b86540c85f6fd90427ee7bfd50e8fc2ec315d4f0daff08c128a26c170ac088"
     },
     {
       "slug": "avalokitesvara",
@@ -385,15 +387,17 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "11d1df2fec83829a6050bf484812debcfabece5216ec69fdcf7b16989361ce29"
     },
     {
       "slug": "bastet",
-      "file": "batch-042-fix-1.md",
+      "file": "batch-042-fix-3.md",
+      "entry_sha256": "42d9f04e60808ddaea0e040e3164d80c29b37e7945c38730c09969e923d4c1fb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 16,
-        "sources": 3,
+        "claims": 30,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -555,6 +559,146 @@
           "statement": "Many bronze statuettes from the Late Period show her with a cat's head, sometimes holding a sistrum",
           "statement_id": "Bastet terkait dengan Many bronze statuettes from the Late Period show her with a cat's head, sometimes holding a sistrum",
           "quote": "Many bronze statuettes from the Late Period show her with a cat's head, sometimes holding a sistrum",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "bastet-c17",
+          "source_id": "bastet-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to Geraldine Pinch, from the Pyramid Texts onward Bastet has a double aspect of nurturing mother and terrifying avenger.",
+          "statement_id": "Menurut Geraldine Pinch, sejak Teks Piramida Bastet memiliki dua sisi: ibu yang mengasuh dan pembalas yang menakutkan.",
+          "quote": "From the Pyramid Texts onward, Bastet has a double aspect of nurturing mother and terrifying avenger.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bastet-c18",
+          "source_id": "bastet-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The \"slaughterers of Bastet\" were said to inflict plague and other disasters on humanity, and one spell advises pretending to be the \"son of Bastet\" in order to avoid catching the plague.",
+          "statement_id": "\"Para penjagal Bastet\" dikatakan menimpakan wabah dan bencana lain kepada manusia; satu mantra menyarankan berpura-pura menjadi \"putra Bastet\" agar tidak terkena wabah.",
+          "quote": "The \"slaughterers of Bastet\" were said to inflict plague and other disasters on humanity. ... One spell advises pretending to be the 'son of Bastet' in order to avoid catching the plague.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bastet-c19",
+          "source_id": "bastet-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Although greatly venerated, Bastet was equally feared, as two of her titles show: The Lady of Dread and The Lady of Slaughter.",
+          "statement_id": "Meski sangat dipuja, Bastet sama-sama ditakuti, seperti terlihat dari dua gelarnya: Sang Penguasa Kengerian dan Sang Penguasa Pembantaian.",
+          "quote": "Although she was greatly venerated, she was equally feared as two of her titles demonstrate: The Lady of Dread and The Lady of Slaughter.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "bastet-c20",
+          "source_id": "bastet-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In her association with Mau, Bastet is sometimes seen destroying Apophis, the enemy of Ra, by slicing off his head with a knife in her paw.",
+          "statement_id": "Dalam hubungannya dengan Mau, Bastet kadang tampak membinasakan Apophis, musuh Ra, dengan memenggal kepalanya memakai pisau di cakarnya.",
+          "quote": "In Bastet's association with Mau, she is sometimes seen destroying the enemy of Ra, Apophis, by slicing off his head with a knife in her paw",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "bastet-c21",
+          "source_id": "bastet-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Although she became milder, Bastet remained no less dangerous to those who broke the law or abused others.",
+          "statement_id": "Meski menjadi lebih lembut, Bastet tetap berbahaya bagi mereka yang melanggar hukum atau menyalahgunakan orang lain.",
+          "quote": "In Bastet's case, although she became milder, she was no less dangerous to those who broke the law or abused others.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "bastet-c22",
+          "source_id": "bastet-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the tale of Setna and Taboubu, Prince Setna steals a book from a tomb even though the inhabitants beg him not to.",
+          "statement_id": "Dalam kisah Setna dan Taboubu, Pangeran Setna mencuri sebuah kitab dari makam walau para penghuninya memohon agar ia tidak melakukannya.",
+          "quote": "In this story young Prince Setna steals a book from a tomb, even after the inhabitants of the tomb beg him not to.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "bastet-c23",
+          "source_id": "bastet-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Setna then understands he has been punished for his transgression in the tomb and quickly returns the book.",
+          "statement_id": "Setna lalu sadar bahwa ia dihukum karena pelanggarannya di makam dan segera mengembalikan kitab itu.",
+          "quote": "Setna then understands he has been punished for his transgression in the tomb and quickly returns the book.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "bastet-c24",
+          "source_id": "bastet-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Pinch concludes that Taboubu is a manifestation of Bastet herself, playing her traditional role as punisher of humans who have offended the gods.",
+          "statement_id": "Pinch menyimpulkan bahwa Taboubu adalah perwujudan Bastet sendiri yang memainkan peran tradisionalnya sebagai penghukum manusia yang menyinggung para dewa.",
+          "quote": "Geraldine Pinch concludes that Taboubu is a \"manifestation of Bastet herself, playing her traditional role of punisher of humans who have offended the gods",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bastet-c25",
+          "source_id": "bastet-s1",
+          "host": "www.worldhistory.org",
+          "statement": "By the time of the Pyramid Texts she was associated with the king of Egypt as his nursemaid in youth and protector as he grew.",
+          "statement_id": "Pada masa Teks Piramida, Bastet dikaitkan dengan raja Mesir sebagai pengasuhnya di masa muda dan pelindungnya ketika ia dewasa.",
+          "quote": "By the time of the Pyramid Texts (c. 2400-2300 BCE) she was associated with the king of Egypt as his nursemaid in youth and protector as he grew.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bastet-c26",
+          "source_id": "bastet-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Bastet was originally a fierce lioness warrior goddess of the sun, worshipped throughout most of ancient Egyptian history.",
+          "statement_id": "Bastet semula adalah dewi pejuang singa betina yang garang dan berkaitan dengan matahari, dipuja hampir sepanjang sejarah Mesir kuno.",
+          "quote": "Bastet was originally a fierce lioness warrior goddess of the sun, worshipped throughout most of ancient Egyptian history.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "bastet-c27",
+          "source_id": "bastet-s4",
+          "host": "en.wikipedia.org",
+          "statement": "As protector of Lower Egypt, Bastet was seen as defender of the king and so of the sun god Ra; with Hathor, Sekhmet and Isis she was associated with the Eye of Ra.",
+          "statement_id": "Sebagai pelindung Mesir Hilir, Bastet dipandang sebagai pembela raja dan karenanya pembela dewa matahari Ra; bersama Hathor, Sekhmet, dan Isis ia dikaitkan dengan Mata Ra.",
+          "quote": "As protector of Lower Egypt, she was seen as defender of the king, and consequently of the sun god, Ra. Along with other deities such as Hathor, Sekhmet, and Isis, Bastet was associated with the Eye of Ra.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "bastet-c28",
+          "source_id": "bastet-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Eventually Bastet and Sekhmet were characterized as two aspects of the same goddess, Sekhmet representing the powerful warrior and protector aspect and Bastet a gentler aspect.",
+          "statement_id": "Pada akhirnya Bastet dan Sekhmet dipandang sebagai dua sisi dewi yang sama: Sekhmet sebagai sisi pejuang dan pelindung yang kuat, Bastet sebagai sisi yang lebih lembut.",
+          "quote": "Eventually Bastet and Sekhmet were characterized as two aspects of the same goddess, with Sekhmet representing the powerful warrior and protector aspect, and Bastet, who increasingly was depicted as a cat, representing a gentler aspect.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "bastet-c29",
+          "source_id": "bastet-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Bastet has been depicted as fighting the evil snake Apep, an enemy of Ra.",
+          "statement_id": "Bastet pernah digambarkan melawan ular jahat Apep, musuh Ra.",
+          "quote": "She has been depicted as fighting the evil snake named Apep, an enemy of Ra.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "bastet-c30",
+          "source_id": "bastet-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Both Bastet and Sekhmet took their early forms as feline defenders of the innocent and avengers of the wronged, from Mafdet.",
+          "statement_id": "Bastet dan Sekhmet sama-sama berawal sebagai pembela kaum tak bersalah dan pembalas orang yang dizalimi berwujud kucing besar, bersumber dari Mafdet.",
+          "quote": "Both Bastet and Sekhmet took their early forms as feline defenders of the innocent, avengers of the wronged, from Mafdet.",
           "context": "religious-tradition",
           "status": "exact"
         }
@@ -743,7 +887,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "19031fa41d884548ef714e87fbe48c27c81f432e84554b2268673b51c6d22796"
     },
     {
       "slug": "elf",
@@ -917,7 +1062,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2bb95df1511e722ebe8cdfdfe2f90e261527ec6ebc6013cb98401f8c82c9feeb"
     }
   ]
 }

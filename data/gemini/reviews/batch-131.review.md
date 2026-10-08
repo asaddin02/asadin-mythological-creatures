@@ -1,6 +1,6 @@
 # Review batch-131
 
-Diperiksa 2026-10-07T04:29:59.408Z. Berkas: batch-131.md, batch-131-fix-1.md, batch-131-fix-2.md.
+Diperiksa 2026-10-08T10:19:39.884Z. Berkas: batch-131.md, batch-131-fix-1.md, batch-131-fix-2.md, batch-131-fix-3.md.
 
 ## nefeles — lulus-otomatis
 
@@ -466,7 +466,7 @@ Klaim 7 (exact 7), sumber 3, gambar 0.
 
 ## farfadet — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 2, gambar 0.
+Klaim 16 (exact 16), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -477,6 +477,15 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 | farfadet-c05 | exact | en.wikipedia.org | Yet too much kindness, such as leaving new clothes for them, can frighten them away. | However they can be frightened away by too much kindness, such as leaving new clothes out for them. |
 | farfadet-c06 | exact | en.wikipedia.org | The French writer A. V. C. Berbiguier, who believed farfadets tormented him, published the autobiography Les Farfadets ou Tous les démons ne sont pas de l'autre monde in 1821. | In 1821 he was constrained to publish an autobiography, Les Farfadets ou Tous les démons ne sont pas de l'autre monde |
 | farfadet-c07 | exact | fr.wikipedia.org | Farfadet is borrowed from 16th-century Provençal farfadet ('sprite'), probably an intensified form of fadet, itself from fada or fado, 'fairy'. | Farfadet est un mot emprunté au provençal farfadet (« lutin ») du XVIe siècle, probablement forme renforcée de fadet, dérivé lui-même de fada, fado signifiant « fée ». |
+| farfadet-c08 | exact | fr.wikisource.org | Farfadets are spirits, sprites or familiar demons that simple people think they see or hear at night; some show themselves as animals and most stay invisible. | esprits, lutins ou démons familiers, que les personnes simples croient voir ou entendre la nuit. Quelques-uns se montrent sous des figures d’animaux ; le plus grand nombre restent invisibles. |
+| farfadet-c09 | exact | fr.wikisource.org | They are generally held to render good services. | Ils passent généralement pour rendre de bons offices. |
+| farfadet-c10 | exact | fr.wikisource.org | In 1221, around the grape harvest, the cook brother of a Cîteaux monastery had two servants guard the vines through the night. | Voici l’histoire d’un farfadet : En l’année 1221, vers le temps des vendanges, le frère cuisinier d’un monastère de Cîteaux chargea deux serviteurs de garder les vignes pendant la nuit. |
+| farfadet-c11 | exact | fr.wikisource.org | A sleepy servant called the devil aloud and promised to pay him well if he would guard the vineyard in his place; hardly had he spoken when a farfadet appeared. | Un soir, l’un de ces deux hommes, ayant grande envie de dormir, appela le diable à haute voix et promit de le bien payer s’il voulait garder la vigne à sa place. Il achevait à peine ces mots, qu’un farfadet parut. |
+| farfadet-c12 | exact | fr.wikisource.org | The farfadet was faithful at his post until morning and was given the promised basket of grapes. | Les choses se passèrent aussi bien qu’on pouvait l’espérer ; le farfadet fut fidèle à son poste jusqu’au matin, et on lui donna le panier de raisin promis. |
+| farfadet-c13 | exact | fr.wikipedia.org | A farfadet attached to a house or farm watches over the herds and the household, reaps, threshes and mows wheat, and finishes the tasks the servants had no time to complete, after punishing their laziness or negligence with a volley of blows. | Il veille alors sur les troupeaux et la tenue de la maisonnée, moissonne, bat et fauche le blé, et achève les tâches que n'ont pas eu le temps de terminer les domestiques — non sans avoir puni ces derniers de leur paresse ou de leur négligence en leur assénant une volée de bâton. |
+| farfadet-c14 | exact | fr.wikipedia.org | Spinners returning at night saw farfadets hauling a huge creaking cart up the slope of the road at stupefying speed; one of them made the sign of the cross and farfadets and cart vanished together. | Un soir qu'elles revenaient au village, elles aperçurent des farfadets qui faisaient remonter la pente de la route, à une vitesse stupéfiante, à un énorme chariot aux roues grinçantes. Une des fileuses eut l'idée de faire un signe de croix, ce qui eut pour effet de faire disparaître tout à la fois farfadets et chariot. |
+| farfadet-c15 | exact | fr.wikipedia.org | To get rid of farfadets, some recommend piercing calves' hearts with needles. | Pour se débarrasser des farfadets, certains recommandent de percer des cœurs de veaux à l'aide d'aiguilles. |
+| farfadet-c16 | exact | en.wikipedia.org | The 18th-century French writer AVC Berbiguer believed he was tormented by them and wrote extensively about them and their depredations. | Despite this reputation, the 18th century French writer AVC Berbiguer believed he was tormented by them, and wrote extensively about them and their depredations. |
 
 
 ## forest-bull — lulus-otomatis
@@ -544,7 +553,11 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## hada — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 16 (exact 16), sumber 3, gambar 0.
+
+**warn**
+- `claims (hada-c15)` Klaim ini tidak dirujuk bagian teks mana pun.
+- `claims (hada-c16)` Klaim ini tidak dirujuk bagian teks mana pun.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -554,6 +567,16 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | hada-c04 | exact | fr.wikipedia.org | Hadas are akin to the laminak of Basque mythology, also associated with caves and underground spirits. | Les hades s'apparentent aux laminak, très présentes dans la mythologie basque, également associées aux grottes et aux esprits souterrains. |
 | hada-c05 | exact | fr.wikipedia.org | Pyrenean imagery sometimes describes a 'hadetta' as a woman with webbed feet. | L’imagerie populaire et la mythologie pyrénéenne décrivent aussi parfois une « hadetta » comme une femme aux pieds palmés. |
 | hada-c06 | exact | ca.wikipedia.org | According to the Catalan article, the Gascon hada is much closer to the Basque lamina, called mora in Upper Aragon, or the Catalan dona d'aigua. | L'hada gascona, en canvi, té molt més a veure amb la lamina basca, anomenada mora a l'Alt Aragó, o la dona d'aigua catalana. |
+| hada-c07 | exact | escolagastonfebus.com | Fairies are often linked to water; by frequenting springs (hounts) they give them curative virtues. | Les fées sont souvent liées à l’eau. En fréquentant les hounts / honts [fontaines], elles leur procurent des vertus curatives. |
+| hada-c08 | exact | escolagastonfebus.com | At Lau-Balagnas the fairy Margalide lived at the spring hount dera Encantado; one spring she moved between restored virility to men, and the hount dets Couloums let sterile women have children. | À Lau-Balagnas, la fée Margalide résidait à la hount dera Encantado, mais elle se déplaçait à la source Catibère ou à la hount det Barderou, cette dernière redonnait la virilité aux hommes. La hount dets Couloums, quant à elle, permettait aux femmes stériles d’avoir des enfants. |
+| hada-c09 | exact | escolagastonfebus.com | In the legend, a lord lives in a tower built by the fairies in a single night, the same night as a mill. | Le seigneur de Bénac habite une tour construite par les fées en une nuit, la même nuit que le moulin de la Gouaugue, comme le rapporte l’auteur. |
+| hada-c10 | exact | escolagastonfebus.com | By moonlight the fairies passed spades, trowels, troughs and hammers to one another through the air, in a flick of the hand, between the mill and the castle. | Au clair de lune, les fées se passaient en l’air et d’un tour de main, du moulin au château et du château au moulin, pelles, truelles, auges et marteaux. |
+| hada-c11 | exact | escolagastonfebus.com | In the Hautes-Pyrénées or Haut Comminges a meal is left for the fairies on 31 December in a separate room with doors and windows left open. | Dans les Hautes-Pyrénées ou le Haut Comminges, on laisse un repas pour elles, le 31 décembre, dans une chambre à l’écart, en laissant portes et fenêtres ouvertes. |
+| hada-c12 | exact | escolagastonfebus.com | According to Simin Palay's dictionary the fairy holds happiness in the right hand and misfortune in the left. | Simin Palay précise même dans le Dictionnaire du Béarnais et du Gascon modernes, que la fée tient le bonheur dans la main droite et le malheur dans la main gauche. |
+| hada-c13 | exact | escolagastonfebus.com | The fairies (Hados, sometimes called las Blanquettes) hold a distinguished place in popular myths, and flowers are born under their steps. | Les fées, Hados, nommées aussi quelquefois las Blanquettes, occupent une place distinguée dans les Mythes populaires. Des fleurs naissent sous leurs pas. |
+| hada-c14 | exact | escolagastonfebus.com | The hadas are said to be fallen from their status as divinities or wives of the gods, which is why they are often associated with the water of springs, sources and caves. | On les dit déchues de leur statut de divinités ou de femmes des dieux. C’est d’ailleurs pour cela qu’elles sont souvent associées à l’eau des fontaines, des sources, des grottes. |
+| hada-c15 | exact | fr.wikipedia.org | In the tales a hada's child may be taken by humans, to whom it reveals secrets about daily life, and generally ends by escaping back to its mother. | Dans les récits, un tel enfant peut se trouver enlevé par des humains, à qui il apporte des révélations de secrets concernant la vie quotidienne. Généralement, il finit par s'enfuir pour rejoindre sa mère. |
+| hada-c16 | exact | fr.wikipedia.org | Hadas are said to be dressed in white; for many informants, white linen spread out near a cave revealed their presence. | Les hadas sont, dit-on, vêtues de blanc. Pour de nombreux informateurs, c’est le linge blanc, étendu non loin de la grotte, qui relevait leur présence » |
 
 
 ## hypnalis — lulus-otomatis

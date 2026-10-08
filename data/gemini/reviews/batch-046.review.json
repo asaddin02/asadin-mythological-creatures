@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-046",
-  "checked_at": "2026-09-30T02:36:02.241Z",
+  "checked_at": "2026-10-08T10:19:35.798Z",
   "files": [
     "batch-046.md",
     "batch-046-fix-1.md",
-    "batch-046-fix-2.md"
+    "batch-046-fix-2.md",
+    "batch-046-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -191,7 +192,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dbfc13f08a3b4837ee71c25d7e7ccf2fdd254f90a4c54f78751e7f9c493df739"
     },
     {
       "slug": "hecate",
@@ -363,7 +365,8 @@
           "detail": "HTTP 429"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e4d816e65b7ccdfb5e07855a1b6827626f1c238fd496a7c5caba38e18920df32"
     },
     {
       "slug": "janus",
@@ -534,7 +537,8 @@
           "detail": "halaman hampir tanpa teks (mungkin dirender JavaScript)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bb3e7d936ee35247dc7f161c8c2a2126a382402bf351f1e099a525334db9d816"
     },
     {
       "slug": "mnemosyne",
@@ -698,15 +702,17 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d13e91dbfa98fc490ca5eb87c564d166c81f5c28ace5a54dd4b981d3cf1cc4b4"
     },
     {
       "slug": "sobek",
-      "file": "batch-046-fix-2.md",
+      "file": "batch-046-fix-3.md",
+      "entry_sha256": "143a750c10ee34ea0b1e55c7b64a86e05802d74c9947262c77c154a5274a4c8e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 15,
-        "sources": 3,
+        "claims": 26,
+        "sources": 4,
         "images": 0
       },
       "issues": [],
@@ -867,6 +873,116 @@
           "statement_id": "Sobek terkait dengan Sobek (also known as Sebek, Sebek-Ra, Sobeq, Suchos, Sobki, and Soknopais) was the ancient god of crocodiles.",
           "quote": "Sobek (also known as Sebek, Sebek-Ra, Sobeq, Suchos, Sobki, and Soknopais) was the ancient god of crocodiles.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c16",
+          "source_id": "sobek-s3",
+          "host": "ancientegyptonline.co.uk",
+          "statement": "Sobek first appeared in the Old Kingdom as the son of Neith with the epithet \"The Rager\".",
+          "statement_id": "Sobek pertama kali muncul pada Kerajaan Lama sebagai putra Neith dengan julukan \"Si Pengamuk\".",
+          "quote": "Sobek first appeared in the Old Kingdom as the son of Neith with the epithet “The Rager",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c17",
+          "source_id": "sobek-s3",
+          "host": "ancientegyptonline.co.uk",
+          "statement": "As well as a force for creation, Sobek was seen as an unpredictable deity who sometimes allied himself with the forces of Chaos.",
+          "statement_id": "Selain kekuatan penciptaan, Sobek dipandang sebagai dewa yang tak terduga dan kadang bersekutu dengan kekuatan Kekacauan.",
+          "quote": "However, as well as being a force for creation, he was seen as an unpredictable deity who sometimes allied himself with the forces of Chaos.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c18",
+          "source_id": "sobek-s3",
+          "host": "ancientegyptonline.co.uk",
+          "statement": "It seems likely that Sobek began as a dark god who had to be appeased, but his protective qualities and strength were valued when used in defence of the pharaoh and the people.",
+          "statement_id": "Tampaknya Sobek berawal sebagai dewa gelap yang harus diredakan, tetapi sifat pelindung dan kekuatannya dihargai ketika dipakai untuk membela firaun dan rakyat.",
+          "quote": "It seems likely that Sobek began as a dark god who had to be appeased, but that his protective qualities and his strength were valued when they were used in defence of the pharaoh and the people.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c19",
+          "source_id": "sobek-s3",
+          "host": "ancientegyptonline.co.uk",
+          "statement": "Because of his ferocity, Sobek was considered the patron of the army.",
+          "statement_id": "Karena kegarangannya, Sobek dianggap pelindung pasukan.",
+          "quote": "Because of his ferocity, he was considered to be the patron of the army.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c20",
+          "source_id": "sobek-s3",
+          "host": "ancientegyptonline.co.uk",
+          "statement": "Sobek rescued the four mummiform sons of Horus by gathering them in a net when they rose from the waters in a lotus bloom.",
+          "statement_id": "Sobek menyelamatkan empat putra Horus yang berwujud mumi dengan menjaring mereka ketika mereka muncul dari air dalam kuntum teratai.",
+          "quote": "He also rescued the four mummiform sons of Horus ... by gathering them in a net when they rose from the waters in a lotus bloom.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c21",
+          "source_id": "sobek-s3",
+          "host": "ancientegyptonline.co.uk",
+          "statement": "Sobek was also thought to have assisted Isis when she gave birth to Horus.",
+          "statement_id": "Sobek juga dipercaya membantu Isis ketika ia melahirkan Horus.",
+          "quote": "Sobek was also thought to have assisted Isis when she gave birth to Horus.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c22",
+          "source_id": "sobek-s3",
+          "host": "ancientegyptonline.co.uk",
+          "statement": "Sobek could protect the justified dead in the netherworld, restoring their sight and reviving their senses.",
+          "statement_id": "Sobek dapat melindungi orang mati yang dibenarkan di dunia bawah, memulihkan penglihatan dan menghidupkan kembali indra mereka.",
+          "quote": "Sobek could protect the justified dead in the netherworld, restoring their sight and reviving their senses.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c23",
+          "source_id": "sobek-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Sobek is, above all else, an aggressive and animalistic deity who lives up to the vicious reputation of his patron animal, the Nile crocodile.",
+          "statement_id": "Sobek terutama adalah dewa yang agresif dan bersifat hewani, sesuai reputasi buas hewan lambangnya, buaya Nil.",
+          "quote": "Sobek is, above all else, an aggressive and animalistic deity who lives up to the vicious reputation of his patron animal, the large and violent Nile crocodile / West African crocodile",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c24",
+          "source_id": "sobek-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Common epithets of Sobek portray his nature: \"he who loves robbery\", \"he who eats while he also mates\", and \"pointed of teeth\".",
+          "statement_id": "Julukan umum Sobek menggambarkan wataknya: \"dia yang suka merampok\", \"dia yang makan sambil kawin\", dan \"bergigi runcing\".",
+          "quote": "Some of his common epithets portray this nature succinctly, the most notable of which being: \"he who loves robbery\", \"he who eats while he also mates\", and \"pointed of teeth\".",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c25",
+          "source_id": "sobek-s4",
+          "host": "en.wikipedia.org",
+          "statement": "In Pyramid Text 317 the king Unis is identified with Sobek; Unis is called lord of semen, who takes women from their husbands.",
+          "statement_id": "Dalam Teks Piramida 317, raja Unis diidentikkan dengan Sobek; Unis disebut penguasa benih yang mengambil perempuan dari suami mereka.",
+          "quote": "Unis is Sobek, green of plumage ... Unis is lord of semen, who takes women from their husbands",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c26",
+          "source_id": "sobek-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Sobek's fierceness was able to ward off evil while simultaneously defending the innocent.",
+          "statement_id": "Kegarangan Sobek mampu menangkal kejahatan sekaligus membela orang yang tak bersalah.",
+          "quote": "His fierceness was able to ward off evil while simultaneously defending the innocent.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],

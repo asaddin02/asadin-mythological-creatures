@@ -1,10 +1,10 @@
 # Review batch-121
 
-Diperiksa 2026-10-03T06:39:05.427Z. Berkas: batch-121.md.
+Diperiksa 2026-10-08T10:03:10.826Z. Berkas: batch-121.md, batch-121-fix-1.md.
 
 ## perun — lulus-otomatis
 
-Klaim 30 (exact 30), sumber 5, gambar 0.
+Klaim 39 (exact 39), sumber 7, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -38,6 +38,15 @@ Klaim 30 (exact 30), sumber 5, gambar 0.
 | perun-c28 | exact | ja.wikipedia.org | Perun (Перун) is the chief god of Slavic mythology and a thunder god; in Russian he is also called Pyerun, and in Polish Piorun. | ペルーン（ウクライナ語 / キリル表記：Перун、ラテン表記：Perun）またはペルンは、スラヴ神話の主神であり、雷神。ロシア語ではほかにピィエルン (Pyerun)、またポーランド語ではピョルンまたはピオルン (Piorun) |
 | perun-c29 | exact | ja.wikipedia.org | Like many thunder gods he has the form of a bearded middle-aged man; he flies on a millstone, hurling lightning and thunder. | 類似する多くの雷神と同じように、髭を生やした中年男性の姿をしている。 石臼に乗って空を飛びながら稲妻を放ち雷鳴を轟かせる。 |
 | perun-c30 | exact | en.wikipedia.org | The Finnic peoples had a god Ukko with functions and attributes similar to the Slavic and Baltic deities. | The Finnic peoples had a deity Ukko, which had similar functions and attributes with the Slavic and Baltic deities. |
+| perun-c31 | exact | en.wikipedia.org | In Ivanov and Toporov's reconstruction the enmity between Perun and Veles starts with Veles's theft of Perun's son, wife or, usually, cattle; Perun attacks Veles with lightning bolts, Veles is finally killed, and whatever he stole is released as rain falling from the skies. | Their enmity is, according to them, Veles's theft of Perun's son, wife, or, usually, cattle. ... Perun attacks Veles with his lightning bolts. ... In the end, he is killed by Perun and in this ritual death, whatever Veles stole is released in the form of rain falling from the skies. |
+| perun-c32 | exact | en.wikipedia.org | Téra rejects the theory: there is not a single piece of evidence that Veles fought Perun, and nothing is known of Veles's draconic or serpentine nature. | "We have not a single piece of evidence that Veles fought Perun, and we know nothing about Veles’s draconic or serpentine nature." |
+| perun-c33 | exact | ojs.zrc-sazu.si | According to Lyle, Vala is equated with Veles in the Slavic context, and his opponent, corresponding to Indra, is Perun, the thunder god. | Vala is equated with Veles in the Slavic context and his opponent, corresponding to Indra, is Perun, the thunder god |
+| perun-c34 | exact | ojs.zrc-sazu.si | In the form of the story Lyle postulates, Perun, as a bird of prey at the top of the tree, can fly and attacks and defeats Veles, after which all the other young gods of light are freed. | However, Perun, as bird of prey (eagle or falcon) at the top of the tree, can fly and he attacks and defeats Veles, after which, ... in this postulated form of the story, all the other young gods of light are freed. |
+| perun-c35 | exact | ojs.zrc-sazu.si | Lyle herself calls the form of the story speculative for now, hoping further evidence may clarify it. | The actual form of the story is speculative at present, although it can be hoped that further evidence may be adduced that will clarify it, |
+| perun-c36 | exact | en.wikipedia.org | In the 971 treaty quoted from the Primary Chronicle, the Rus swear that if they break it they may be cursed by Perun and Volos and cut down by their own weapons. | As I have sworn to the Greek emperors, and with me the boyars and all Rus’, so shall we uphold the true treaty. And if we do not fulfill anything of what has been stated above, I and those who are subject to me, may we be cursed by our god in whom we believe, by Perun and by Volos ... may we be cut down by our own weapons. |
+| perun-c37 | exact | en.wikipedia.org | Besides his firestone arrows, Perun had an equally destructive weapon: mythical golden apples, which in many Slavic folk accounts are a talisman of ultimate destruction. | Perun also had another type of weapon in his arsenal, as destructive as his firestone arrows, but even more unusual: mythical golden apples. ... the golden apple appears as a talisman of ultimate destruction. |
+| perun-c38 | exact | www.encyclopediaofukraine.com | Human sacrifices to Perun, one boy and one girl, were chosen by lot. | Human sacrifices to Perun (one boy and girl) were chosen by lot. |
+| perun-c39 | exact | www.encyclopediaofukraine.com | According to the Primary Chronicle, when the pagans of Kyivan Rus made an agreement with Byzantium they swore an oath to Perun. | According to the Primary Chronicle, when the pagans of Kyivan Rus’ entered into an agreement with Byzantium, they swore an oath to Perun. |
 
 
 ## rusalka — lulus-otomatis

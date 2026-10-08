@@ -1,6 +1,6 @@
 # Review batch-123
 
-Diperiksa 2026-10-06T19:16:33.444Z. Berkas: batch-123.md, batch-123-fix-1.md.
+Diperiksa 2026-10-08T10:03:11.275Z. Berkas: batch-123.md, batch-123-fix-1.md, batch-123-fix-2.md.
 
 ## topielec — lulus-otomatis
 
@@ -159,7 +159,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## sanziana — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 2, gambar 0.
+Klaim 15 (exact 15), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -170,6 +170,14 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 | sanziana-c05 | exact | ro.wikipedia.org | The Sânziene are sometimes also called drăgaice. | Uneori sânzienele sunt numite și drăgaice |
 | sanziana-c06 | exact | ro.wikipedia.org | In more recent layers of folklore a single fairy appears, Iana Sânziana, sister of the Sun in cosmological carols. | în straturile mai recente ale folclorului apare și o zână individualizată, Iana Sânziana (sora Soarelui în colindele cosmologice) |
 | sanziana-c07 | exact | ro.wikipedia.org | According to Mircea Eliade, the Sânziene derive from a Roman cult connected with the goddess Diana, Sancta Diana. | După Mircea Eliade, Sânzienele provin dintr-un cult roman, raportat la zeița Diana — Sancta Diana |
+| sanziana-c08 | exact | ojs.folklore.ee | According to Jiga Iliescu, neither Pentecost nor St. John's Day is dedicated to the fairies, but according to widespread folk belief the power of the Rusalii and of the Sânziene-Drăgaice is at its maximum on those days. | This underlines the fact that neither Pentecost nor St. John Feast are dedicated to fairies, but according to widespread folk beliefs, the power of the Rusalii, respectively of the SânzieneDrăgaice, are at their maximum during these days. |
+| sanziana-c09 | exact | ojs.folklore.ee | In the general portrait of the fairies (Iele), of which the article names the Sânziene a subcategory, they abduct humans, take them up in the air and force them into their dance. | they abduct humans, lads and maiden, take them up in the air and force them to enter their dance; |
+| sanziana-c10 | exact | ojs.folklore.ee | In that general portrait of the fairies, violating a taboo is punished by bodily harm (paralysis, arthritis) or mental injury (hallucination, epilepsy, dementia). | The violation of at least one of the taboos is punished by bodily harms (paralysis, arthritis) or mental injuries (hallucination, epilepsy, dementia). |
+| sanziana-c11 | exact | ojs.folklore.ee | Jiga Iliescu distinguishes the two: the Rusalii are most punitive against those who do not observe Pentecost, whereas the Sânziene-Drăgaice are deeply connected with agriculture and with the medicinal flowers whose name they bear. | There is to distinguish the Rusalii fairies from the Sânziene Drăgaice fairies: the first ones are most punitive against those who do not observe the Pentecost celebration, ... the Sânziene Drăgaice are deeply connected with agriculture and with the medicinal flowers whose name they bear |
+| sanziana-c12 | exact | en.wikipedia.org | According to Wikipedia, on Sânziene Eve the fairies dance in the air, blessing the crops and bestowing health; they do not like to be seen by males, and whoever sees them will be maimed, or the fairies take his hearing or speech, or make him mad. | It is not a good thing though to be a male and walk at night during Sanziene Eve night, as that is the time when the fairies dance in the air, blessing the crops and bestowing health on people - they do not like to be seen by males, and whoever sees them will be maimed, or the fairies will take their hearing/speech or make them mad. |
+| sanziana-c13 | exact | ro.wikipedia.org | Romanian Wikipedia describes the Sânziene as benevolent female fairies whose greatest ritual activity falls on the night of 23 to 24 June. | Entitățile mitologice: zâne reprezentate ca făpturi feminine binefăcătoare, a căror activitate rituală maximă este plasată în noaptea de 23 spre 24 iunie. |
+| sanziana-c14 | exact | ro.wikipedia.org | Romanian Wikipedia notes that in traditional rural communities the day was marked by a ban on work (a taboo) and devoted only to divination and fertility rituals. | marcată de interdicția muncii (tabu), fiind dedicată exclusiv actelor de divinație și ritualurilor de fecunditate. |
+| sanziana-c15 | exact | ro.wikipedia.org | To protect the household against spirits regarded as malevolent, locals pick sânziene flowers (Galium verum) to decorate gates, windows and eaves. | Pentru protecția gospodăriei împotriva spiritelor considerate malefice, localnicii culeg flori de sânziene (Galium verum) destinate împodobirii porților, ferestrelor și streșinilor. |
 
 
 ## shtriga — lulus-otomatis
