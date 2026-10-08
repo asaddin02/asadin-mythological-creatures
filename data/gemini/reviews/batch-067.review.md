@@ -1,6 +1,6 @@
 # Review batch-067
 
-Diperiksa 2026-10-07T09:26:54.178Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md, batch-067-fix-3.md, batch-067-fix-4.md, batch-067-fix-5.md, batch-067-fix-6.md, batch-067-fix-7.md, batch-067-fix-8.md.
+Diperiksa 2026-10-08T13:53:22.354Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md, batch-067-fix-3.md, batch-067-fix-4.md, batch-067-fix-5.md, batch-067-fix-6.md, batch-067-fix-7.md, batch-067-fix-8.md, batch-067-fix-9.md.
 
 ## jiaolong — lulus-otomatis
 
@@ -540,8 +540,8 @@ Klaim 7 (exact 7), sumber 3, gambar 0.
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | fuzanglong-c01 | exact | en.wikipedia.org | Fuzanglong is a Chinese underworld dragon guarding buried treasure. | In Chinese mythology, the Fuzanglong (simplified Chinese: 伏藏龙; traditional Chinese: 伏藏龍; pinyin: Fúzánglóng; Wade–Giles: Fu-ts'ang-Lung) is the Chinese dragon of hidden treasures and an underworld dragon which guards buried treasure, both natural and man-made. Volcanoes are said to form when these dragons burst out of the ground to report to heaven. |
-| fuzanglong-c02 | exact | en.wikipedia.org | The guarded treasures may be natural or human-made. | In Chinese mythology, the Fuzanglong (simplified Chinese: 伏藏龙; traditional Chinese: 伏藏龍; pinyin: Fúzánglóng; Wade–Giles: Fu-ts'ang-Lung) is the Chinese dragon of hidden treasures and an underworld dragon which guards buried treasure, both natural and man-made. Volcanoes are said to form when these dragons burst out of the ground to report to heaven. |
-| fuzanglong-c03 | exact | en.wikipedia.org | One tale explains volcanoes as dragons breaking through the ground to report to heaven. | In Chinese mythology, the Fuzanglong (simplified Chinese: 伏藏龙; traditional Chinese: 伏藏龍; pinyin: Fúzánglóng; Wade–Giles: Fu-ts'ang-Lung) is the Chinese dragon of hidden treasures and an underworld dragon which guards buried treasure, both natural and man-made. Volcanoes are said to form when these dragons burst out of the ground to report to heaven. |
+| fuzanglong-c02 | exact | en.wikipedia.org | The guarded treasures may be natural or human-made. | an underworld dragon which guards buried treasure, both natural and man-made |
+| fuzanglong-c03 | exact | en.wikipedia.org | One tale explains volcanoes as dragons breaking through the ground to report to heaven. | Volcanoes are said to form when these dragons burst out of the ground to report to heaven. |
 | fuzanglong-c04 | exact | en.wikipedia.org | A magical pearl is described as its most treasured possession. | The Fuzanglong possesses a magic pearl which is its most treasured possession. |
 | fuzanglong-c05 | exact | en.wikipedia.org | According to the article, several tiles and light reliefs depict Fuzanglong dragons serving as mounts to Immortals. | Several tiles and light reliefs depict Fuzanglong dragons serving as mounts to Immortals. |
 | fuzanglong-c06 | exact | zh.wikisource.org | The Fanyi Mingyi Ji text quotes a commentary saying dragons are of four kinds: guardians of heavenly palaces, bringers of clouds and rain who benefit people, earth dragons who open rivers and channels, and fuzang (伏藏) dragons who guard the treasures of the wheel-turning king (cakravartin) and of people of great fortune. | 别行䟽云龍有四種一守天宫殿持令不落人間屋上作龍像之爾二興雲致雨〉 〈益人間者三地龍決江開瀆四伏藏守轉輪王大福人藏也龍有四生俱舎云𡖉生金翅鳥能食四生龍〉 〈罵意經云 |
@@ -565,10 +565,10 @@ Klaim 7 (exact 7), sumber 4, gambar 0.
 
 ## luo-shen — lulus-otomatis
 
-Klaim 6 (exact 5, unreachable 1), sumber 2, gambar 0.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
-**manual**
-- `claims` 1 kutipan tidak bisa dicek otomatis: allenartcollection.oberlin.edu (tidak bisa dibuka (fetch failed)).
+**warn**
+- `long_description[2].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("she has become a symbol of beauty and unattainable love in chinese…"). Tulis ulang dengan kata-kata sendiri.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -577,7 +577,11 @@ Klaim 6 (exact 5, unreachable 1), sumber 2, gambar 0.
 | luo-shen-c03 | exact | en.wikipedia.org | Traditions identify her with several different historical figures. | The goddess of the Luo River is identified with various historical figures from different dynasties in Chinese history. |
 | luo-shen-c04 | exact | en.wikipedia.org | One version calls her Fufei, Fuxi's daughter, while another identifies her as Fuxi's consort. | According to legend, the goddess of the Luo River was Fufei, the daughter of Fuxi. Additionally, some versions of the legend state that she is Fuxi's consort. She drowned in the Luo River while crossing it and became the spirit of the Luo River. |
 | luo-shen-c05 | exact | en.wikipedia.org | The tale says she drowns in the Luo River and becomes its spirit. | According to legend, the goddess of the Luo River was Fufei, the daughter of Fuxi. Additionally, some versions of the legend state that she is Fuxi's consort. She drowned in the Luo River while crossing it and became the spirit of the Luo River. |
-| luo-shen-c06 | unreachable (tidak bisa dibuka (fetch failed)) | allenartcollection.oberlin.edu | The Allen Museum explains Cao Zhi’s poem as a star-crossed encounter with a beautiful river goddess. | It describes a star-crossed meeting between the poet and a beautiful river goddess. |
+| luo-shen-c06 | exact | allenartcollection.oberlin.edu | The Allen Museum explains Cao Zhi’s poem as a star-crossed encounter with a beautiful river goddess. | It describes a star-crossed meeting between the poet and a beautiful river goddess. |
+| luo-shen-c07 | exact | en.wikipedia.org | She has become a symbol of beauty and unattainable love in Chinese culture. | she has become a symbol of beauty and unattainable love in Chinese culture. |
+| luo-shen-c08 | exact | en.wikipedia.org | The poem portrays the goddess of the Luo River as a captivating, exquisite figure dancing gracefully by the water's edge. | The poem portrays the goddess of the Luo River as a captivating and exquisite figure gracefully dancing by the water's edge. |
+| luo-shen-c09 | exact | en.wikipedia.org | Because of this prose poem, his sister-in-law Lady Zhen was regarded as the reincarnation of the goddess of the Luo River. | Because of this prose poem, his sister-in-law, Lady Zhen, was regarded as the reincarnation of the goddess of the Luo River. |
+| luo-shen-c10 | exact | en.wikipedia.org | In the Chu Ci account, Hou Yi eventually killed Hebo, the god of the Yellow River, and took his wife Luoshen; thus Luoshen is considered Hebo's wife. | he eventually killed Hebo, the god of Yellow River and took his wife Luoshen as his own. Thus, Luoshen is considered to be the wife of Hebo. |
 
 
 ## pulao-dragon — lulus-otomatis

@@ -1,6 +1,6 @@
 # Review batch-080
 
-Diperiksa 2026-10-06T14:25:46.261Z. Berkas: batch-080.md, batch-080-fix-1.md, batch-080-fix-2.md, batch-080-fix-3.md, batch-080-fix-4.md.
+Diperiksa 2026-10-08T13:53:48.202Z. Berkas: batch-080.md, batch-080-fix-1.md, batch-080-fix-2.md, batch-080-fix-3.md, batch-080-fix-4.md, batch-080-fix-5.md.
 
 ## ifrit — lulus-otomatis
 
@@ -556,7 +556,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## nisroch — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -566,6 +566,9 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | nisroch-c04 | exact | www.biblegateway.com | Second Kings places the king’s worship in the house of the god Nisroch. | as he was worshipping in the house of Nisroch his god |
 | nisroch-c05 | exact | www.biblegateway.com | In that worship episode, Adrammelech and Sharezer kill the king with a sword. | that Adrammelech and Sharezer his sons smote him with the sword |
 | nisroch-c06 | exact | www.biblegateway.com | In the same episode, Esarhaddon succeeds the king as ruler. | And Esarhaddon his son reigned in his stead. |
+| nisroch-c07 | exact | ja.wikipedia.org | Austen Henry Layard identified an eagle-headed relief he excavated in Ashurnasirpal II's palace at Kalhu (modern Nimrud) as Nisroch, but it is known not to have existed in Sennacherib's time. | オースティン・ヘンリー・レヤードはカラフ（現在のニムルド）のアッシュル・ナツィルパル2世の宮殿で発掘した鷲頭のレリーフをニスロクと同定したが、これはセンナケリブの時代には存在しなかったことが知られている。 |
+| nisroch-c08 | exact | ja.wikipedia.org | In Collin de Plancy's Dictionnaire infernal, Nisroch is a second-rank demon, Beelzebub's head cook, and master of temptation through delicacies and the pleasures of the table. | コラン・ド・プランシーの『地獄の辞典』では、第二級の魔神、ベルゼビュートの料理長、美味による誘惑と食卓の楽しみの権威者とされている。 |
+| nisroch-c09 | exact | ja.wikipedia.org | In John Milton's Paradise Lost, Nisroch appears as a rebel angel and is called the chief of the Principalities. | ジョン・ミルトンの『失楽園』にも反逆天使として登場し、権天使の長とされている。 |
 
 
 ## anqa — lulus-otomatis

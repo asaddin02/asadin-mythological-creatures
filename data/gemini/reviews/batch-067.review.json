@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-067",
-  "checked_at": "2026-10-07T09:26:54.178Z",
+  "checked_at": "2026-10-08T13:53:22.354Z",
   "files": [
     "batch-067.md",
     "batch-067-fix-1.md",
@@ -10,7 +10,8 @@
     "batch-067-fix-5.md",
     "batch-067-fix-6.md",
     "batch-067-fix-7.md",
-    "batch-067-fix-8.md"
+    "batch-067-fix-8.md",
+    "batch-067-fix-9.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -3507,8 +3508,8 @@
     },
     {
       "slug": "fuzanglong",
-      "file": "batch-067-fix-5.md",
-      "entry_sha256": "34c148575fbac5c28bbbb5a08d134a343caf778e3f054befe1443d8168a638f4",
+      "file": "batch-067-fix-9.md",
+      "entry_sha256": "fb2c56a54b6f694ff7f0af516827c3c49c028b42d5ae4bb28d28dead3df7a66b",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 7,
@@ -3533,7 +3534,7 @@
           "host": "en.wikipedia.org",
           "statement": "The guarded treasures may be natural or human-made.",
           "statement_id": "Harta yang dijaganya dapat bersifat alami maupun buatan manusia.",
-          "quote": "In Chinese mythology, the Fuzanglong (simplified Chinese: 伏藏龙; traditional Chinese: 伏藏龍; pinyin: Fúzánglóng; Wade–Giles: Fu-ts'ang-Lung) is the Chinese dragon of hidden treasures and an underworld dragon which guards buried treasure, both natural and man-made. Volcanoes are said to form when these dragons burst out of the ground to report to heaven.",
+          "quote": "an underworld dragon which guards buried treasure, both natural and man-made",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -3543,7 +3544,7 @@
           "host": "en.wikipedia.org",
           "statement": "One tale explains volcanoes as dragons breaking through the ground to report to heaven.",
           "statement_id": "Sebuah kisah menjelaskan gunung berapi sebagai akibat naga yang menerobos tanah untuk melapor ke langit.",
-          "quote": "In Chinese mythology, the Fuzanglong (simplified Chinese: 伏藏龙; traditional Chinese: 伏藏龍; pinyin: Fúzánglóng; Wade–Giles: Fu-ts'ang-Lung) is the Chinese dragon of hidden treasures and an underworld dragon which guards buried treasure, both natural and man-made. Volcanoes are said to form when these dragons burst out of the ground to report to heaven.",
+          "quote": "Volcanoes are said to form when these dragons burst out of the ground to report to heaven.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -3677,18 +3678,19 @@
     },
     {
       "slug": "luo-shen",
-      "file": "batch-067-fix-1.md",
+      "file": "batch-067-fix-9.md",
+      "entry_sha256": "70b5b0154191d515a7893fd5fc083934afb28af3bec4dd9127a16ad06b78740d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 10,
         "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "claims",
-          "message": "1 kutipan tidak bisa dicek otomatis: allenartcollection.oberlin.edu (tidak bisa dibuka (fetch failed))."
+          "level": "warn",
+          "where": "long_description[2].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"she has become a symbol of beauty and unattainable love in chinese…\"). Tulis ulang dengan kata-kata sendiri."
         }
       ],
       "claims": [
@@ -3750,12 +3752,50 @@
           "statement_id": "Museum Allen menjelaskan puisi Cao Zhi sebagai pertemuan cinta yang tidak tercapai dengan dewi sungai.",
           "quote": "It describes a star-crossed meeting between the poet and a beautiful river goddess.",
           "context": "scholarly-interpretation",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed)"
+          "status": "exact"
+        },
+        {
+          "id": "luo-shen-c07",
+          "source_id": "luo-shen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She has become a symbol of beauty and unattainable love in Chinese culture.",
+          "statement_id": "Ia telah menjadi lambang keindahan dan cinta yang tak tergapai dalam budaya Tionghoa.",
+          "quote": "she has become a symbol of beauty and unattainable love in Chinese culture.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "luo-shen-c08",
+          "source_id": "luo-shen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The poem portrays the goddess of the Luo River as a captivating, exquisite figure dancing gracefully by the water's edge.",
+          "statement_id": "Puisi itu menggambarkan dewi Sungai Luo sebagai sosok yang memikat dan indah, menari anggun di tepi air.",
+          "quote": "The poem portrays the goddess of the Luo River as a captivating and exquisite figure gracefully dancing by the water's edge.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "luo-shen-c09",
+          "source_id": "luo-shen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because of this prose poem, his sister-in-law Lady Zhen was regarded as the reincarnation of the goddess of the Luo River.",
+          "statement_id": "Karena puisi prosa itu, ipar Cao Zhi, Lady Zhen, dianggap penjelmaan dewi Sungai Luo.",
+          "quote": "Because of this prose poem, his sister-in-law, Lady Zhen, was regarded as the reincarnation of the goddess of the Luo River.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "luo-shen-c10",
+          "source_id": "luo-shen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Chu Ci account, Hou Yi eventually killed Hebo, the god of the Yellow River, and took his wife Luoshen; thus Luoshen is considered Hebo's wife.",
+          "statement_id": "Menurut Chu Ci, Hou Yi akhirnya membunuh Hebo, dewa Sungai Kuning, dan mengambil istrinya Luoshen; karena itu Luoshen dianggap istri Hebo.",
+          "quote": "he eventually killed Hebo, the god of Yellow River and took his wife Luoshen as his own. Thus, Luoshen is considered to be the wife of Hebo.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4fb28cd80dfebeaef77db1f021ea9781adc17e758d91ddf57dbdd4aaf233ae01"
+      "images": []
     },
     {
       "slug": "pulao-dragon",

@@ -1,6 +1,6 @@
 # Review batch-066
 
-Diperiksa 2026-10-06T06:19:37.334Z. Berkas: batch-066.md, batch-066-fix-1.md, batch-066-fix-2.md, batch-066-fix-3.md, batch-066-fix-4.md, batch-066-fix-5.md, batch-066-fix-6.md, batch-066-fix-7.md.
+Diperiksa 2026-10-08T13:53:47.822Z. Berkas: batch-066.md, batch-066-fix-1.md, batch-066-fix-2.md, batch-066-fix-3.md, batch-066-fix-4.md, batch-066-fix-5.md, batch-066-fix-6.md, batch-066-fix-7.md, batch-066-fix-8.md.
 
 ## loong — lulus-otomatis
 
@@ -257,7 +257,10 @@ Klaim 10 (exact 9, loose 1), sumber 2, gambar 0.
 
 ## druk — lulus-otomatis
 
-Klaim 8 (loose 3, exact 5), sumber 2, gambar 0.
+Klaim 11 (loose 3, exact 8), sumber 2, gambar 0.
+
+**warn**
+- `long_description[3].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("the 1900s the grand lama of bhutan wore a hat with thunder…"). Tulis ulang dengan kata-kata sendiri.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -269,6 +272,9 @@ Klaim 8 (loose 3, exact 5), sumber 2, gambar 0.
 | druk-c06 | exact | so06.tci-thaijo.org | According to this journal article, Tsangpa Gyare or Yeshe Dorji (1161–1211) was the main disciple of Lingchen Repa Pema Dorji and the founder of "Bhutan's Dragon Tradition", the Drukpa Kagyu Lineage. | Tsangpa Gyare or Yeshe Dorji (1161–1211) was the main disciple of Lingchen Repa Pema Dorji and the founder of the Bhutan’s Dragon Tradition – Drukpa Kagyu Lineage |
 | druk-c07 | exact | so06.tci-thaijo.org | The article states that Druk is highly regarded by the lineage of Drukpa Tsangpa Gyare/Yeshe Dorji, and became the name of the country after the arrival of Shabdrung Ngawang Namgyel in 1616 and the first monastic establishment in 1621 at Chagri Dorji Dhen. | Druk is highly regarded by the lineage of Drukpa Tsangpa Gyare/Yeshe Dorji. Not only, Druk became the name of the country after the arrival of respected Shabdrung Ngawang Namgyel in 1616 and after the first monastic establishment in 1621 at Chagri Dorji Dhen |
 | druk-c08 | exact | so06.tci-thaijo.org | According to the article, the country of Bhutan is called "Druk", the land "Drukyul", and the people "Drukpa". | The country of Bhutan is therefore called as ‘Druk’; the land is called as ‘Drukyul’; and the people are called as ‘Drukpa’. |
+| druk-c09 | exact | en.wikipedia.org | Bhutanese leaders are called Druk Gyalpo, "Thunder Dragon Kings". | Bhutanese leaders are called Druk Gyalpo, "Thunder Dragon Kings". |
+| druk-c10 | exact | en.wikipedia.org | As of the 1900s, the Grand Lama of Bhutan wore a hat with thunder dragons on it to signify the origins of the sect. | As of the 1900s, the Grand Lama of Bhutan wore a hat with thunder dragons on it to signify the origins of the sect. |
+| druk-c11 | exact | en.wikipedia.org | As the sect grew more popular it set up monasteries in what is now Bhutan, so the area became known as Dug Yul, Land of Thunder, among both Tibetans and Bhutanese. | As the sect became more popular, it set up monasteries in what is now Bhutan, with the result that the area became known as Dug Yul, or Land of Thunder, among both Tibetans and Bhutanese. |
 
 
 ## gonggong — lulus-otomatis
@@ -425,7 +431,10 @@ Klaim 13 (exact 12, loose 1), sumber 3, gambar 0.
 
 ## yeren — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 7 (exact 7), sumber 2, gambar 0.
+
+**warn**
+- `claims (yeren-c08)` Klaim ini tidak dirujuk bagian teks mana pun.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -435,6 +444,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | yeren-c04 | exact | ja.wikipedia.org | Proposed explanations include mistaken identification of monkeys and fabricated reports. | また、目撃証言も信憑性の低いものが非常に多いとされる。現在では、既存のサルの誤認、狂言説が有力。 |
 | yeren-c05 | exact | zh.wikisource.org | The Bencao Gangmu (本草綱目), with Li Shizhen (時珍) quoting the Fangyu zhi (《方輿志》), says the 狒狒 also exists in the mountains of Xishu and Chuzhou and is called 人熊; at Youshan in Shaxian in the Min region (閩中) one is more than a 丈 long, laughs on meeting people, is called 山大人, or is said to be a 野人 and 山魈. | 時珍曰︰按《方輿志》云︰狒狒，西蜀及處州山中亦有之，呼為人熊。人亦食其掌，剝其皮。閩中沙縣幼山有之，長丈餘，逢人則笑，呼為山大人，或曰野人及山魈也。 |
 | yeren-c06 | exact | zh.wikisource.org | The Bencao Gangmu quotes Luo Yuan (羅願) in the Erya yi (《爾雅翼》) that present-day accounts of the xingxing (猩猩) are not far from the 狒狒: like a woman with loose hair and bare feet, without knees, walking in groups and covering its form with its hands on meeting people; this is called a 野人. | 又羅願《爾雅翼》云︰古之說猩猩者，如豕、如狗、如猴。今之說猩猩者，與狒狒不相遠。云如婦人被髮袒足，無膝群行，遇人則手掩其形，謂之野人。 |
+| yeren-c08 | exact | ja.wikipedia.org | Accounts of yeren sightings in China are often featured on Japanese television and in magazines, making the word common in Japan. | 中国での野人目撃談は、日本のテレビ番組や雑誌でもしばしば取り上げられ、日本では一般に通用する言葉になっている。 |
 
 
 ## four-symbols — lulus-otomatis
@@ -790,7 +800,11 @@ Klaim 11 (loose 1, exact 10), sumber 2, gambar 0.
 
 ## four-holy-beasts — lulus-otomatis
 
-Klaim 6 (loose 3, exact 3), sumber 2, gambar 0.
+Klaim 8 (loose 3, exact 5), sumber 2, gambar 0.
+
+**warn**
+- `claims (four-holy-beasts-c07)` Klaim ini tidak dirujuk bagian teks mana pun.
+- `claims (four-holy-beasts-c08)` Klaim ini tidak dirujuk bagian teks mana pun.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -800,4 +814,6 @@ Klaim 6 (loose 3, exact 3), sumber 2, gambar 0.
 | four-holy-beasts-c04 | exact | en.wikipedia.org | Patterns of this group occur on Goryeo bronze mirrors and pottery. | Patterns of the four holy beasts are found in Bronze mirrors of the Goryeo dynasty and Pottery. |
 | four-holy-beasts-c05 | exact | zh.wikisource.org | The Liji (chapter Liyun) asks "what are the four ling (四靈)?" and answers: the qilin (麟), the fenghuang (鳳), the tortoise (龜), and the dragon (龍). | 四靈以爲畜，故飲食有由也。何謂四靈？麟、鳳、龜、龍，謂之四靈。 |
 | four-holy-beasts-c06 | exact | zh.wikisource.org | The Liji states that when the dragon is taken as a kept animal (畜) the fish are not startled, when the fenghuang is, the birds are not startled, when the qilin is, the beasts are not startled, and when the tortoise is, human feelings do not go astray. | 故龍以爲畜，故魚鮪不淰；鳳以爲畜，故鳥不獝；麟以爲畜，故獸不狘；龜以爲畜，故人情不失。 |
+| four-holy-beasts-c07 | exact | en.wikipedia.org | The Summer Palace has statues of the four Beasts. | Summer Palace has statues of the four Beasts. |
+| four-holy-beasts-c08 | exact | en.wikipedia.org | In Ho Chi Minh City there are four areas named after the beasts in Suối Tiên Park. | In Ho Chi Minh City, there are four areas named after the beasts in Suối Tiên Park. |
 

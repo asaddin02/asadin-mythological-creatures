@@ -1,6 +1,6 @@
 # Review batch-074
 
-Diperiksa 2026-10-07T09:29:54.620Z. Berkas: batch-074.md, batch-074-fix-1.md, batch-074-fix-2.md, batch-074-fix-3.md, batch-074-fix-4.md.
+Diperiksa 2026-10-08T13:53:48.602Z. Berkas: batch-074.md, batch-074-fix-1.md, batch-074-fix-2.md, batch-074-fix-3.md, batch-074-fix-4.md, batch-074-fix-5.md.
 
 ## hamsa-bird — lulus-otomatis
 
@@ -33,7 +33,11 @@ Klaim 7 (exact 6, loose 1), sumber 2, gambar 0.
 
 ## karkotaka — lulus-otomatis
 
-Klaim 6 (loose 2, exact 4), sumber 2, gambar 0.
+Klaim 9 (loose 2, exact 7), sumber 2, gambar 0.
+
+**warn**
+- `claims (karkotaka-c08)` Klaim ini tidak dirujuk bagian teks mana pun.
+- `claims (karkotaka-c09)` Klaim ini tidak dirujuk bagian teks mana pun.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -42,7 +46,10 @@ Klaim 6 (loose 2, exact 4), sumber 2, gambar 0.
 | karkotaka-c03 | exact | en.wikipedia.org | His bite makes King Nala ugly. | According to Hindu mythology, he stings King Nala, transforming him into a twisted and ugly shape. |
 | karkotaka-c04 | exact | en.wikipedia.org | Narada curses him to immobility after he deceives the sage in a game. | Karkotaka once deceived Narada, the divine sage, in a game of chance. Angered, Narada cursed him that he would remain stationary in the forest until he is saved by King Nala. In the Mahabharata, Karkotaka encountered King Nala when there was a wildfire in the forest where he dwelt, calling out to the king to rescue him. |
 | karkotaka-c05 | exact | en.wikipedia.org | Nala saves him from a fire after he shrinks to thumb size. | Reducing himself to the size of a thumb, he urged Nala to save him, and the king promptly moved the serpent to a safer spot. |
-| karkotaka-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Mackenzie recounts Karkotaka's poison tormenting Kali possessing Nala while leaving Nala unharmed. | My poison, too, will cause unceasing anguish to the evil one who possesseth thy soul; ... My poison will harm thee not, |
+| karkotaka-c06 | exact | www.gutenberg.org | Mackenzie recounts Karkotaka's poison tormenting Kali possessing Nala while leaving Nala unharmed. | My poison, too, will cause unceasing anguish to the evil one who possesseth thy soul; ... My poison will harm thee not, |
+| karkotaka-c07 | exact | en.wikipedia.org | Karkotaka assured Nala that he would face no danger and be undefeatable in battle as long as the poison remained in his body. | He assured Nala that he would face no danger and be undefeatable in battle as long as the poison remained in his body. |
+| karkotaka-c08 | exact | en.wikipedia.org | It is believed that dwelling on Karkotaka safeguards one against the asura Kali. | It is believed that dwelling on Karkotaka allows one to be safeguarded against the asura Kali. |
+| karkotaka-c09 | exact | en.wikipedia.org | In Hindu sources he is counted among the Eight Naga Kings. | He is counted among the Eight Naga Kings in Hindu sources. |
 
 
 ## manohara — lulus-otomatis
@@ -61,10 +68,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## tarakasur — lulus-otomatis
 
-Klaim 6 (loose 4, exact 1, unreachable 1), sumber 2, gambar 0.
-
-**manual**
-- `claims` 1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed); arsip Wayback tidak memuat kutipan).
+Klaim 11 (loose 4, exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -73,7 +77,12 @@ Klaim 6 (loose 4, exact 1, unreachable 1), sumber 2, gambar 0.
 | tarakasur-c03 | loose | en.wikipedia.org | His three sons Tarakaksha, Vidyunmali, and Kamalaksha are known as the Tripurasura. | Tarakasura (Sanskrit: तारकासुर) is a powerful asura in Hindu mythology. He is the son of the asura Vajranga and his wife Vajrangi. Taraka had three sons: Tarakaksha, Vidyunmali, and Kamalaksha, who were known as the Tripurasura. He is slain by Kartikeya. |
 | tarakasur-c04 | loose | en.wikipedia.org | Kartikeya kills him. | Tarakasura (Sanskrit: तारकासुर) is a powerful asura in Hindu mythology. He is the son of the asura Vajranga and his wife Vajrangi. Taraka had three sons: Tarakaksha, Vidyunmali, and Kamalaksha, who were known as the Tripurasura. He is slain by Kartikeya. |
 | tarakasur-c05 | exact | en.wikipedia.org | Brahma grants him a boon that only Shiva's son can kill him. | Taraka performed penance to Brahma and, when the creator appeared, asked for two boons: One, that none shall be his equal in all of the three worlds, and two, that only a son of Shiva could slay him. |
-| tarakasur-c06 | unreachable (tidak bisa dibuka (fetch failed); arsip Wayback tidak memuat kutipan) | www.gutenberg.org | Griffith's Kumara Sambhava translation recounts Taraka troubling heaven and earth so the gods flee to Brahma. | While impious Tárak in resistless might Was troubling heaven and earth with wild affright, To Brahmá's high abode, by Indra led, The mournful deities for refuge fled. |
+| tarakasur-c06 | exact | www.gutenberg.org | Griffith's Kumara Sambhava translation recounts Taraka troubling heaven and earth so the gods flee to Brahma. | While impious Tárak in resistless might Was troubling heaven and earth with wild affright, To Brahmá's high abode, by Indra led, The mournful deities for refuge fled. |
+| tarakasur-c07 | exact | en.wikipedia.org | His wish granted, Tarakasura promptly overran Svarga, expelling the devas as his father had, and declared himself the new Indra. | His wish granted, Tarakasura promptly overran Svarga, expelling the devas just like his father had, but now declaring himself to be the new Indra. |
+| tarakasur-c08 | exact | en.wikipedia.org | Taraka, king of the daityas, summoned billions of asuras to defend his realm, his forces commanded by Kalanemi. | Taraka, the king of the daityas, summoned billions of asuras to defend his realm, his forces commanded by Kalanemi. |
+| tarakasur-c09 | exact | en.wikipedia.org | In the Skanda Purana Vishnu says Taraka is the one by whom Sakra and others were transformed into monkeys for one hundred million years. | It is he by whom Śakra and others had been transformed into monkeys for one hundred million years. |
+| tarakasur-c10 | exact | en.wikipedia.org | When the gods rushed at him together, Taraka proved equal to all of their prowess combined, roaring triumphantly. | Nevertheless, Taraka proved to be equal to all of their prowess combined, roaring triumphantly. |
+| tarakasur-c11 | exact | en.wikipedia.org | Skanda finally slew Tarakasura by piercing his chest with the divine spear Vel (the Shakti weapon), destroying the demon and restoring cosmic order. | Skanda ultimately slew Tarakasura by piercing his chest with his divine spear, the Vel (also referred to as the Shakti weapon), destroying the demon and restoring cosmic order. |
 
 
 ## aghasura — lulus-otomatis

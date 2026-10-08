@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-074",
-  "checked_at": "2026-10-07T09:29:54.620Z",
+  "checked_at": "2026-10-08T13:53:48.602Z",
   "files": [
     "batch-074.md",
     "batch-074-fix-1.md",
     "batch-074-fix-2.md",
     "batch-074-fix-3.md",
-    "batch-074-fix-4.md"
+    "batch-074-fix-4.md",
+    "batch-074-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -177,14 +178,26 @@
     },
     {
       "slug": "karkotaka",
-      "file": "batch-074.md",
+      "file": "batch-074-fix-5.md",
+      "entry_sha256": "79360fe493d0570307e8bf9ea65c45c0ebc6f3b53222b9a04e1062194e268bdd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 9,
         "sources": 2,
         "images": 0
       },
-      "issues": [],
+      "issues": [
+        {
+          "level": "warn",
+          "where": "claims (karkotaka-c08)",
+          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
+        },
+        {
+          "level": "warn",
+          "where": "claims (karkotaka-c09)",
+          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
+        }
+      ],
       "claims": [
         {
           "id": "karkotaka-c01",
@@ -244,13 +257,40 @@
           "statement_id": "Mackenzie menuturkan racun Karkotaka menyiksa Kali yang merasuki Nala, tetapi tidak membahayakan Nala.",
           "quote": "My\r\npoison, too, will cause unceasing anguish to the evil one\r\nwho possesseth thy soul; ... My\r\npoison will harm thee not,",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260929185200id_/https://www.gutenberg.org/cache/epub/47228/pg47228-images.html",
-          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
+          "status": "exact"
+        },
+        {
+          "id": "karkotaka-c07",
+          "source_id": "karkotaka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Karkotaka assured Nala that he would face no danger and be undefeatable in battle as long as the poison remained in his body.",
+          "statement_id": "Karkotaka meyakinkan Nala bahwa ia tidak akan menghadapi bahaya dan tak terkalahkan dalam pertempuran selama racun itu tetap di tubuhnya.",
+          "quote": "He assured Nala that he would face no danger and be undefeatable in battle as long as the poison remained in his body.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "karkotaka-c08",
+          "source_id": "karkotaka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is believed that dwelling on Karkotaka safeguards one against the asura Kali.",
+          "statement_id": "Dipercaya bahwa merenungkan Karkotaka membuat seseorang terlindung dari asura Kali.",
+          "quote": "It is believed that dwelling on Karkotaka allows one to be safeguarded against the asura Kali.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "karkotaka-c09",
+          "source_id": "karkotaka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Hindu sources he is counted among the Eight Naga Kings.",
+          "statement_id": "Dalam sumber Hindu ia termasuk Delapan Raja Naga.",
+          "quote": "He is counted among the Eight Naga Kings in Hindu sources.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9f6be2401615d53b1d357fa5e4874bc413272b85cf07dd2c4c19e92c1c6bff38"
+      "images": []
     },
     {
       "slug": "manohara",
@@ -329,20 +369,15 @@
     },
     {
       "slug": "tarakasur",
-      "file": "batch-074.md",
+      "file": "batch-074-fix-5.md",
+      "entry_sha256": "220248bf53a3cd4432a72277fceb48a8294fcca8e574458e887a869db999060b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 11,
         "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed); arsip Wayback tidak memuat kutipan)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tarakasur-c01",
@@ -402,13 +437,60 @@
           "statement_id": "Terjemahan Kumara Sambhava Griffith menuturkan Taraka meneror langit dan bumi sehingga dewa mengungsi kepada Brahma.",
           "quote": "While impious Tárak in resistless might Was troubling heaven and earth with wild affright, To Brahmá's high abode, by Indra led, The mournful deities for refuge fled.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (fetch failed); arsip Wayback tidak memuat kutipan",
-          "archive_url": "https://web.archive.org/web/20251122190407id_/https://www.gutenberg.org/files/31968/31968-h/31968-h.htm"
+          "status": "exact"
+        },
+        {
+          "id": "tarakasur-c07",
+          "source_id": "tarakasur-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His wish granted, Tarakasura promptly overran Svarga, expelling the devas as his father had, and declared himself the new Indra.",
+          "statement_id": "Setelah permintaannya dikabulkan, Tarakasura segera menyerbu Svarga, mengusir para dewa seperti ayahnya dahulu, dan menyatakan dirinya Indra yang baru.",
+          "quote": "His wish granted, Tarakasura promptly overran Svarga, expelling the devas just like his father had, but now declaring himself to be the new Indra.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tarakasur-c08",
+          "source_id": "tarakasur-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Taraka, king of the daityas, summoned billions of asuras to defend his realm, his forces commanded by Kalanemi.",
+          "statement_id": "Taraka, raja para daitya, memanggil miliaran asura untuk mempertahankan kerajaannya, dengan pasukan yang dipimpin Kalanemi.",
+          "quote": "Taraka, the king of the daityas, summoned billions of asuras to defend his realm, his forces commanded by Kalanemi.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tarakasur-c09",
+          "source_id": "tarakasur-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Skanda Purana Vishnu says Taraka is the one by whom Sakra and others were transformed into monkeys for one hundred million years.",
+          "statement_id": "Dalam Skanda Purana, Wisnu berkata bahwa Taraka-lah yang mengubah Sakra (Indra) dan dewa lain menjadi monyet selama seratus juta tahun.",
+          "quote": "It is he by whom Śakra and others had been transformed into monkeys for one hundred million years.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tarakasur-c10",
+          "source_id": "tarakasur-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When the gods rushed at him together, Taraka proved equal to all of their prowess combined, roaring triumphantly.",
+          "statement_id": "Ketika para dewa menyerbu bersama dengan senjata mereka, Taraka terbukti setara dengan gabungan kekuatan mereka semua dan mengaum penuh kemenangan.",
+          "quote": "Nevertheless, Taraka proved to be equal to all of their prowess combined, roaring triumphantly.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tarakasur-c11",
+          "source_id": "tarakasur-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Skanda finally slew Tarakasura by piercing his chest with the divine spear Vel (the Shakti weapon), destroying the demon and restoring cosmic order.",
+          "statement_id": "Skanda akhirnya membunuh Tarakasura dengan menembus dadanya memakai tombak ilahi Vel (juga disebut senjata Shakti), membinasakan iblis itu dan memulihkan tatanan kosmos.",
+          "quote": "Skanda ultimately slew Tarakasura by piercing his chest with his divine spear, the Vel (also referred to as the Shakti weapon), destroying the demon and restoring cosmic order.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "58c90a33c786a5f29180f2c55a10c26d47e2de02a20726ce1b483f6707d9d6e0"
+      "images": []
     },
     {
       "slug": "aghasura",

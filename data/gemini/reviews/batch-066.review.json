@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-066",
-  "checked_at": "2026-10-06T06:19:37.334Z",
+  "checked_at": "2026-10-08T13:53:47.822Z",
   "files": [
     "batch-066.md",
     "batch-066-fix-1.md",
@@ -9,7 +9,8 @@
     "batch-066-fix-4.md",
     "batch-066-fix-5.md",
     "batch-066-fix-6.md",
-    "batch-066-fix-7.md"
+    "batch-066-fix-7.md",
+    "batch-066-fix-8.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -1701,15 +1702,21 @@
     },
     {
       "slug": "druk",
-      "file": "batch-066-fix-4.md",
-      "entry_sha256": "3dff2f8130d2c97a254c7a2cc891a479b10f5e1582e50c8772888012984860c0",
+      "file": "batch-066-fix-8.md",
+      "entry_sha256": "74f6a3ec48106da0d7fcb1c1fe8fe3a2e34995988959217e56f8e951b7ecc6e2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
+        "claims": 11,
         "sources": 2,
         "images": 0
       },
-      "issues": [],
+      "issues": [
+        {
+          "level": "warn",
+          "where": "long_description[3].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"the 1900s the grand lama of bhutan wore a hat with thunder…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
       "claims": [
         {
           "id": "druk-c01",
@@ -1789,6 +1796,36 @@
           "statement_id": "Menurut artikel itu, negara Bhutan disebut \"Druk\", tanahnya \"Drukyul\", dan rakyatnya \"Drukpa\".",
           "quote": "The country of Bhutan is therefore called as ‘Druk’; the land is called as ‘Drukyul’; and the people are called as ‘Drukpa’.",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "druk-c09",
+          "source_id": "druk-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Bhutanese leaders are called Druk Gyalpo, \"Thunder Dragon Kings\".",
+          "statement_id": "Para pemimpin Bhutan disebut Druk Gyalpo, \"Raja Naga Guruh\".",
+          "quote": "Bhutanese leaders are called Druk Gyalpo, \"Thunder Dragon Kings\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "druk-c10",
+          "source_id": "druk-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As of the 1900s, the Grand Lama of Bhutan wore a hat with thunder dragons on it to signify the origins of the sect.",
+          "statement_id": "Pada tahun 1900-an, Lama Agung Bhutan mengenakan topi bergambar naga guruh untuk menandai asal-usul aliran itu.",
+          "quote": "As of the 1900s, the Grand Lama of Bhutan wore a hat with thunder dragons on it to signify the origins of the sect.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "druk-c11",
+          "source_id": "druk-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As the sect grew more popular it set up monasteries in what is now Bhutan, so the area became known as Dug Yul, Land of Thunder, among both Tibetans and Bhutanese.",
+          "statement_id": "Ketika aliran itu makin populer, ia mendirikan biara di wilayah yang kini Bhutan, sehingga wilayah itu dikenal sebagai Dug Yul, Negeri Guruh, di kalangan orang Tibet maupun Bhutan.",
+          "quote": "As the sect became more popular, it set up monasteries in what is now Bhutan, with the result that the area became known as Dug Yul, or Land of Thunder, among both Tibetans and Bhutanese.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -2773,15 +2810,21 @@
     },
     {
       "slug": "yeren",
-      "file": "batch-066-fix-6.md",
-      "entry_sha256": "8935d72b56c86933403d14d99c1b9abf98765a086e6f83d3fb7e2f77e831d8c5",
+      "file": "batch-066-fix-8.md",
+      "entry_sha256": "7d94dbf2d30538500bb59238ee550f99e3091bd347c14eba7530c8f8fc29ccfa",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 7,
         "sources": 2,
         "images": 0
       },
-      "issues": [],
+      "issues": [
+        {
+          "level": "warn",
+          "where": "claims (yeren-c08)",
+          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
+        }
+      ],
       "claims": [
         {
           "id": "yeren-c01",
@@ -2841,6 +2884,16 @@
           "statement_id": "Bencao Gangmu mengutip Luo Yuan (羅願) dalam Erya yi (《爾雅翼》) bahwa uraian masa kini tentang xingxing (猩猩) tak jauh dari 狒狒: seperti perempuan berambut terurai dan berkaki telanjang, tanpa lutut, berjalan berkelompok, dan menutupi tubuhnya dengan tangan saat bertemu orang; makhluk ini disebut 野人.",
           "quote": "又羅願《爾雅翼》云︰古之說猩猩者，如豕、如狗、如猴。今之說猩猩者，與狒狒不相遠。云如婦人被髮袒足，無膝群行，遇人則手掩其形，謂之野人。",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yeren-c08",
+          "source_id": "yeren-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Accounts of yeren sightings in China are often featured on Japanese television and in magazines, making the word common in Japan.",
+          "statement_id": "Kisah penampakan yeren di Tiongkok sering diangkat acara televisi dan majalah Jepang, sehingga kata itu menjadi kata umum di Jepang.",
+          "quote": "中国での野人目撃談は、日本のテレビ番組や雑誌でもしばしば取り上げられ、日本では一般に通用する言葉になっている。",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -5058,15 +5111,26 @@
     },
     {
       "slug": "four-holy-beasts",
-      "file": "batch-066-fix-4.md",
-      "entry_sha256": "a12648250a0ef4b3061d4e6d6a16fbfcfd42f916a33b0e0b0405a805a828e879",
+      "file": "batch-066-fix-8.md",
+      "entry_sha256": "b89a3f19bcb5ee69b691224e2f7b14d729e8031ac9a5e45716390ce5df3114e3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 8,
         "sources": 2,
         "images": 0
       },
-      "issues": [],
+      "issues": [
+        {
+          "level": "warn",
+          "where": "claims (four-holy-beasts-c07)",
+          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
+        },
+        {
+          "level": "warn",
+          "where": "claims (four-holy-beasts-c08)",
+          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
+        }
+      ],
       "claims": [
         {
           "id": "four-holy-beasts-c01",
@@ -5126,6 +5190,26 @@
           "statement_id": "Liji menyatakan bahwa bila naga dijadikan hewan peliharaan (畜) ikan tidak terusik, bila fenghuang demikian burung tidak terusik, bila qilin demikian hewan buas tidak terusik, dan bila kura-kura demikian perasaan manusia tidak keliru.",
           "quote": "故龍以爲畜，故魚鮪不淰；鳳以爲畜，故鳥不獝；麟以爲畜，故獸不狘；龜以爲畜，故人情不失。",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "four-holy-beasts-c07",
+          "source_id": "four-holy-beasts-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Summer Palace has statues of the four Beasts.",
+          "statement_id": "Istana Musim Panas memiliki patung keempat hewan itu.",
+          "quote": "Summer Palace has statues of the four Beasts.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "four-holy-beasts-c08",
+          "source_id": "four-holy-beasts-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Ho Chi Minh City there are four areas named after the beasts in Suối Tiên Park.",
+          "statement_id": "Di Kota Ho Chi Minh, ada empat area yang dinamai menurut keempat hewan itu di Taman Suối Tiên.",
+          "quote": "In Ho Chi Minh City, there are four areas named after the beasts in Suối Tiên Park.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],

@@ -1,12 +1,13 @@
 {
   "batch_id": "batch-080",
-  "checked_at": "2026-10-06T14:25:46.261Z",
+  "checked_at": "2026-10-08T13:53:48.202Z",
   "files": [
     "batch-080.md",
     "batch-080-fix-1.md",
     "batch-080-fix-2.md",
     "batch-080-fix-3.md",
-    "batch-080-fix-4.md"
+    "batch-080-fix-4.md",
+    "batch-080-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -3371,10 +3372,11 @@
     },
     {
       "slug": "nisroch",
-      "file": "batch-080.md",
+      "file": "batch-080-fix-5.md",
+      "entry_sha256": "0c78215705925c98546d31511c9e078b7a74a8138579a314a076cf18f81f57ed",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 9,
         "sources": 2,
         "images": 0
       },
@@ -3439,10 +3441,39 @@
           "quote": "And Esarhaddon his son reigned in his stead.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "nisroch-c07",
+          "source_id": "nisroch-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "Austen Henry Layard identified an eagle-headed relief he excavated in Ashurnasirpal II's palace at Kalhu (modern Nimrud) as Nisroch, but it is known not to have existed in Sennacherib's time.",
+          "statement_id": "Austen Henry Layard mengidentifikasi relief berkepala elang dari istana Ashurnasirpal II di Kalhu (kini Nimrud) sebagai Nisroch, tetapi relief itu diketahui tidak ada pada zaman Sanherib.",
+          "quote": "オースティン・ヘンリー・レヤードはカラフ（現在のニムルド）のアッシュル・ナツィルパル2世の宮殿で発掘した鷲頭のレリーフをニスロクと同定したが、これはセンナケリブの時代には存在しなかったことが知られている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nisroch-c08",
+          "source_id": "nisroch-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In Collin de Plancy's Dictionnaire infernal, Nisroch is a second-rank demon, Beelzebub's head cook, and master of temptation through delicacies and the pleasures of the table.",
+          "statement_id": "Dalam Dictionnaire infernal karya Collin de Plancy, Nisroch adalah iblis tingkat kedua, kepala juru masak Beelzebub, dan penguasa godaan lewat kelezatan dan kesenangan meja makan.",
+          "quote": "コラン・ド・プランシーの『地獄の辞典』では、第二級の魔神、ベルゼビュートの料理長、美味による誘惑と食卓の楽しみの権威者とされている。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "nisroch-c09",
+          "source_id": "nisroch-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In John Milton's Paradise Lost, Nisroch appears as a rebel angel and is called the chief of the Principalities.",
+          "statement_id": "Dalam Paradise Lost karya John Milton, Nisroch muncul sebagai malaikat pemberontak dan disebut pemimpin para Principalities.",
+          "quote": "ジョン・ミルトンの『失楽園』にも反逆天使として登場し、権天使の長とされている。",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f9a5d2127823aded53cabe10427830ee5dfc18f3ef2720a96159d1a2717a07d3"
+      "images": []
     },
     {
       "slug": "anqa",
