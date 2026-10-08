@@ -1,10 +1,10 @@
 # Review batch-072
 
-Diperiksa 2026-10-07T09:32:47.374Z. Berkas: batch-072.md, batch-072-fix-1.md, batch-072-fix-2.md, batch-072-fix-3.md, batch-072-fix-4.md, batch-072-fix-5.md.
+Diperiksa 2026-10-08T10:45:15.889Z. Berkas: batch-072.md, batch-072-fix-1.md, batch-072-fix-2.md, batch-072-fix-3.md, batch-072-fix-4.md, batch-072-fix-5.md, batch-072-fix-6.md.
 
 ## sita — lulus-otomatis
 
-Klaim 15 (loose 3, exact 12), sumber 3, gambar 0.
+Klaim 20 (loose 3, exact 17), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -15,14 +15,19 @@ Klaim 15 (loose 3, exact 12), sumber 3, gambar 0.
 | sita-c05 | exact | en.wikipedia.org | She chooses Rama of Ayodhya as her husband in a svayamvara. | Described as the daughter of Bhūmi (the earth), Sita is brought up as the adopted daughter of King Janaka of Videha. Sita, in her youth, chooses Rama, the prince of Ayodhya, as her husband in a svayamvara. After the svayamvara, she accompanies her husband to his kingdom but later chooses to accompany him along with her brother-in-law Lakshmana in his exile. |
 | sita-c06 | exact | en.wikipedia.org | She accompanies Rama into exile with Lakshmana. | Described as the daughter of Bhūmi (the earth), Sita is brought up as the adopted daughter of King Janaka of Videha. Sita, in her youth, chooses Rama, the prince of Ayodhya, as her husband in a svayamvara. After the svayamvara, she accompanies her husband to his kingdom but later chooses to accompany him along with her brother-in-law Lakshmana in his exile. |
 | sita-c07 | exact | en.wikipedia.org | Ravana abducts her from the Dandaka forest and holds her in Ashoka Vatika garden in Lanka. | While in exile, the trio settles in the Dandaka forest from where she is abducted by Ravana, the Rakshasa king of Lanka. She is imprisoned in the garden of Ashoka Vatika in Lanka until she is rescued by Rama, who slays her captor. |
-| sita-c08 | exact | en.wikipedia.org | In some versions, Sita demonstrates her chastity through the Agni Pariksha fire ordeal. | After the war, in some versions of the epic, Rama asks Sita to undergo Agni Pariksha (an ordeal of fire), by which she proves her chastity, before she is accepted by Rama. Such an episode of trial makes Lakshmana angry at Rama, for the first time. |
+| sita-c08 | exact | en.wikipedia.org | In some versions, Sita demonstrates her chastity through the Agni Pariksha fire ordeal. | After the war, in some versions of the epic, Rama asks Sita to undergo an Agni Pariksha (an ordeal of fire), by which she proves her chastity, before she is accepted by Rama. Such an episode of trial makes Lakshmana angry at Rama, for the first time. |
 | sita-c09 | exact | en.wikipedia.org | Other versions say Maya Sita replaces her during the abduction while the real Sita shelters in fire. | In some other versions of the epic, Maya Sita, an illusion created by Agni, takes Sita's place and is abducted by Ravana and suffers his captivity, while the real Sita hides in the fire. |
-| sita-c10 | exact | en.wikipedia.org | Some texts connect her previous birth with Vedavati. | Some scriptures also mention her previous birth as Vedavati, a woman Ravana tries to molest. |
+| sita-c10 | exact | en.wikipedia.org | Some texts connect her previous birth with Vedavati. | Some scriptures also mention her previous birth as Vedavati, a woman whom Ravana tries to molest. |
 | sita-c11 | exact | en.wikipedia.org | In the continuation, Sita shelters in Valmiki's ashram and gives birth to twins Kusha and Lava. | She takes shelter at Sage Valmiki's ashram. She gives birth to twin sons there: Kusha and Lava. |
 | sita-c12 | exact | en.wikipedia.org | That ending recounts Sita's return to the earth, her mother. | Years later, Sita reunites her two sons with their father Rama and then returns to the womb of her mother, the earth, as a testimony to her ultimate purity. |
 | sita-c13 | exact | en.wikipedia.org | The name Sita derives from a Sanskrit word meaning furrow. | The goddess is best known by the name "Sita", derived from the Sanskrit word sīta, ("furrow".) |
-| sita-c14 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Mackenzie also places Sita as Lakshmi's human incarnation in the Ramayana. | She has had several human incarnations, and in each case was loved by the incarnation of Vishnu. She is Sita in the Ramáyana, and the beautiful herdswoman beloved by Krishna. |
+| sita-c14 | exact | www.gutenberg.org | Mackenzie also places Sita as Lakshmi's human incarnation in the Ramayana. | She has had several human incarnations, and in each case was loved by the incarnation of Vishnu. She is Sita in the Ramáyana, and the beautiful herdswoman beloved by Krishna. |
 | sita-c15 | exact | digitalprojects.carlos.emory.edu | The painting discussed by the Carlos Museum depicts Ravana carrying Sita away from a forest hermitage. | Ravana carries Sita away from her opulent hermitage in the highly stylized forest |
+| sita-c16 | exact | en.wikipedia.org | Hanuman was sent by Rama to seek Sita and found where she was; Sita gave him her jewellery to pass to her husband. | Hanuman was sent by Rama to seek Sita and eventually succeeded in discovering Sita's whereabouts. Sita gave Hanuman her jewelery and asked him to give it to her husband. |
+| sita-c17 | exact | en.wikipedia.org | With a heavy heart Rama had Lakshmana take Sita to a forest outside Ayodhya and leave her there; in her second exile the pregnant Sita took refuge in Valmiki's hermitage and bore the twins Lava and Kusha. | With a heavy heart, he instructed Lakshmana to take Sita to a forest outside Ayodhya and leave her there. Following her second exile, a pregnant Sita sought refuge in the hermitage of Valmiki, where she gave birth to twin sons, Lava and Kusha. |
+| sita-c18 | exact | en.wikipedia.org | In response Sita asserted her fidelity by calling on her mother, the earth goddess Bhumi, to receive her; Bhumi emerged from the earth and descended back with Sita amid the assembly's praise. | In response, Sita asserted her fidelity by calling upon her mother, the earth goddess Bhumi, to receive her. Bhumi emerged from the earth and descended back with Sita, amid praise from the assembly. |
+| sita-c19 | exact | en.wikipedia.org | According to the Padma Purana, Sita's exile during her pregnancy was due to a curse from her childhood. | According to the Padma Purana, Sita's exile during her pregnancy was because of a curse during her childhood. |
+| sita-c20 | exact | www.gutenberg.org | In Mackenzie's retelling Hanuman beholds the long-lost Sita, "the queen of stars", surrounded by fierce she-demons with the heads of dogs, pigs, horses and buffaloes. | There he beheld the long-lost Sita, the queen of stars. Fierce she demons surrounded her, and some were of fearsome shape; they had dogs' heads and pigs' heads and the faces of horses and buffaloes |
 
 
 ## varuna — lulus-otomatis
@@ -179,7 +184,7 @@ Klaim 29 (exact 29), sumber 4, gambar 0.
 
 ## radha — lulus-otomatis
 
-Klaim 15 (loose 4, exact 11), sumber 3, gambar 0.
+Klaim 20 (loose 4, exact 16), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -196,8 +201,13 @@ Klaim 15 (loose 4, exact 11), sumber 3, gambar 0.
 | radha-c11 | exact | en.wikipedia.org | In the sixteenth century Bhakti movement, Radha's love for Krishna became more prominent. | During the Bhakti movement era in the sixteenth century, she became more well known as her extraordinary love for Krishna was highlighted. |
 | radha-c12 | exact | en.wikipedia.org | Jayadeva's twelfth century Gita Govinda is one of her major literary appearances. | Radha's first major appearance in the 12th-century Gita Govinda in Sanskrit by Jayadeva, as well as Nimbarkacharya's philosophical works. Thus in the Gita Govinda Krishna speaks to Radha: |
 | radha-c13 | exact | en.wikipedia.org | Scholarship summarised by the article distinguishes Radha as a gopi and as a goddess. | According to Jaya Chemburkar, there are at least two significant and different aspects of Radha in the literature associated with her, such as Sri Radhika namasahasram. One aspect is she is a milkmaid (gopi), another as a female deity similar to those found in the Hindu goddess traditions. |
-| radha-c14 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Archer's study says the Gita Govinda recounts separation, longing, and reunion between Radha and Krishna. | Its subject is the estrangement of Radha and Krishna caused by Krishna's love for other cowgirls, Radha's anguish at Krishna's neglect and lastly the rapture which attends their final reunion. |
+| radha-c14 | exact | www.gutenberg.org | Archer's study says the Gita Govinda recounts separation, longing, and reunion between Radha and Krishna. | Its subject is the estrangement of Radha and Krishna caused by Krishna's love for other cowgirls, Radha's anguish at Krishna's neglect and lastly the rapture which attends their final reunion. |
 | radha-c15 | exact | en.wikisource.org | Arnold's translation depicts Radha awaiting Krishna by the wood in spring. | Beautiful Radha, Jasmine bosomed Radha, All in the Spring-time waited by the wood For Krishna fair, Krishna the all-forgetful, |
+| radha-c16 | exact | en.wikipedia.org | Radha's birthday is celebrated every year at Radhashtami. | Radha's birthday is celebrated every year on the occasion of Radhashtami. |
+| radha-c17 | exact | en.wikipedia.org | Among her epithets are Raseshvari and Rasa-priya (queen of the Raslila, fond of the rasa dance), Vrindavaneshvari (queen of Vrindavan) and Krishneshvari (feminine counterpart of Krishna). | Raseshvari and Rasa-priya: Queen of Raslila and she who is fond of rasa dance Vrindavaneshvari: Queen of Vrindavan Krishneshvari: Feminine counterpart of Krishna |
+| radha-c18 | exact | en.wikipedia.org | Radha appears in several Puranas: the Padma Purana (as an avatar of Lakshmi), the Devi-Bhagavata (as a form of Mahadevi), the Brahma Vaivarta (Radha-Krishna as supreme deity), the Matsya, Linga, Varaha (as Krishna's consort), Narada (as goddess of love), Skanda and Shiva Puranas. | Radha also appears in the Puranas namely the Padma Purana (as an avatar of Lakshmi), the Devi-Bhagavata Purana (as a form of Mahadevi), the Brahma Vaivarta Purana (as Radha-Krishna supreme deity), the Matsya Purana (as form of Devi), the Linga Purana (as form of Lakshmi), the Varaha Purana (as consort of Krishna), the Narada Purana (as goddess of love), the Skanda Purana and the Shiva Purana. |
+| radha-c19 | exact | en.wikipedia.org | The Gatha Saptasati, written around the first or second century AD, mentions Radha explicitly in its verse. | The text was written around first or second century AD. Gatha Saptasati mentioned Radha explicitly in its verse: |
+| radha-c20 | exact | en.wikisource.org | In Arnold's translation, the opening of the Gita Govinda has Krishna's feet find the road aright led by Radha's spirit, and together they taste love's divine delight. | So Nanda spoke -- and led by Radha’s spirit, The feet of Krishna found the road aright; Wherefore, in bliss which all high hearts inherit, Together taste they love's divine delight. |
 
 
 ## naga — lulus-otomatis
@@ -456,7 +466,10 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## chandra — lulus-otomatis
 
-Klaim 6 (loose 2, exact 4), sumber 2, gambar 0.
+Klaim 9 (loose 2, exact 7), sumber 2, gambar 0.
+
+**warn**
+- `claims (chandra-c09)` Klaim ini tidak dirujuk bagian teks mana pun.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -465,7 +478,10 @@ Klaim 6 (loose 2, exact 4), sumber 2, gambar 0.
 | chandra-c03 | exact | en.wikipedia.org | Chandra means bright or shining in Sanskrit. | The word "Chandra" literally means "bright, shining or glittering" and is used for the "Moon" in Sanskrit and other Indo-Aryan languages. It is also the name of various other figures in Hindu mythology, including an asura and a Suryavamsha king. It is also a common Indian name and surname. |
 | chandra-c04 | exact | en.wikipedia.org | His epithets include Shashank, meaning hare marked. | Some of the epithets of Chandra include Soma (distill), Indu (bright drop), Shashank (hare-marked), Atrisuta (son of Atri), Shashin or Shachin (the essence), Taradhipa (lord of stars), Nishakara (the night maker), Nakshatrapati (lord of the Nakshatra), Oshadhipati (lord of herbs), Uduraj or Udupati (water lord), Kumudanatha (lord of lotuses), and Udupa (boat). |
 | chandra-c05 | exact | en.wikipedia.org | The time when Soma became a name of the Moon is debated by scholars. | Soma is one of the most common other names used for the deity; but the earliest use of the word to refer to the Moon is a subject of scholarly debate. Some scholars state that the word Soma is occasionally used for the Moon in the Vedas, while other scholars suggest that such usage emerged only in the post-Vedic literature. |
-| chandra-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Mackenzie identifies the Moon god Chandra with Soma. | The moon is the god Chandra, who became identified with Soma. |
+| chandra-c06 | exact | www.gutenberg.org | Mackenzie identifies the Moon god Chandra with Soma. | The moon is the god Chandra, who became identified with Soma. |
+| chandra-c07 | exact | en.wikipedia.org | Chandra is traditionally married to the 27 daughters of the sage Daksha, who personify the 27 Nakshatras. | Chandra is traditionally married to the 27 daughters of the sage Daksha, who personify the 27 Nakshatras (lunar mansions). |
+| chandra-c08 | exact | en.wikipedia.org | In anger Daksha cursed Chandra to suffer from Kshayaroga (consumption); the affliction struck not only Chandra but also the medicinal plants and other living beings dependent on lunar influence. | Despite being married to all 27, Chandra showed special affection for Rohini, causing jealousy among his other wives. ... In anger, Daksha cursed Chandra to suffer from Kshayaroga (consumption or tuberculosis). This affliction impacted not just Chandra but also affected the medicinal plants and other living beings dependent on lunar influence. |
+| chandra-c09 | exact | en.wikipedia.org | His most common iconography is a white deity holding a mace, riding a three-wheeled chariot drawn by three or more white horses (up to ten). | The most common is one where he is a white-coloured deity, holding a mace in his hand, riding a chariot with three wheels and three or more white horses (up to ten). |
 
 
 ## ganga — lulus-otomatis
@@ -489,7 +505,7 @@ Klaim 11 (loose 1, exact 10), sumber 2, gambar 0.
 
 ## balarama — lulus-otomatis
 
-Klaim 6 (loose 3, exact 3), sumber 2, gambar 0.
+Klaim 9 (loose 3, exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -498,7 +514,10 @@ Klaim 6 (loose 3, exact 3), sumber 2, gambar 0.
 | balarama-c03 | loose | en.wikipedia.org | His other names include Baladeva, Balabhadra, and Sankarshana. | Balarama (Sanskrit: बलराम, IAST: Balarāma) is a Hindu god, and the elder brother of Krishna. He is particularly significant in the Jagannath tradition, as one of the triad deities. He is also known as Haladhara, Halayudha, Baladeva, Balabhadra, and Sankarshana. |
 | balarama-c04 | exact | en.wikipedia.org | The epithets Haladhara and Halayudha connect him with the plough and farming. | The first two epithets associate him with hala (langala, "plough") from his strong associations with farming and farmers, as the deity who used farm equipment as weapons when needed, and the next two refer to his strength. |
 | balarama-c05 | exact | en.wikipedia.org | He is usually regarded as an incarnation of Shesha, but some traditions count him as an avatar of Vishnu. | Originally an agricultural deity, Balarama is mostly described as an incarnation of Shesha, the serpent associated with the deity Vishnu while some Vaishnava traditions regard him as the eighth avatar of Vishnu, with Jayadeva’s Gita Govinda (c.1200) "incorporat[ing] Balarama into the pantheon" as the ninth of the 10 principal avatars of Vishnu. |
-| balarama-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Mackenzie describes Balarama as an incarnation of the world serpent Shesha. | Balarama is an incarnation of the world serpent Shesha. |
+| balarama-c06 | exact | www.gutenberg.org | Mackenzie describes Balarama as an incarnation of the world serpent Shesha. | Balarama is an incarnation of the world serpent Shesha. |
+| balarama-c07 | exact | en.wikipedia.org | Balarama killed Dhenuka, an asura sent by Kamsa, and the wrestlers Pralamba and Mushtika sent by the king; while Krishna killed Kamsa, Balarama slew his mighty commander Kalavakra. | He killed Dhenuka, an asura sent by Kamsa, as well as Pralamba and Mushtika wrestlers sent by the king. When Krishna was killing Kamsa, Balarama slew his mighty commander, Kalavakra. |
+| balarama-c08 | exact | en.wikipedia.org | The plough is Balarama's weapon; in the Bhagavata Purana he uses it to fight asuras, to dig a channel bringing the Yamuna closer to Vrindavan, and to drag the whole capital of Hastinapura into the Ganga. | The plough is Balarama's weapon. In the Bhagavata Purana, he uses it to fight asuras, dig a way for Yamuna river to bring it closer to Vrindavan, and he also availed it to drag the entire capital of Hastinapura into the Ganga river. |
+| balarama-c09 | exact | en.wikipedia.org | Balarama taught both Duryodhana of the Kauravas and Bhima of the Pandavas the art of mace warfare; when war broke out he had obligations to both sides and stayed neutral. | Balarama taught both Duryodhana of the Kauravas and Bhima of the Pandavas the art of war with a mace. When war broke between the Kauravas and the Pandavas, Balarama carried obligations for both sides and so remained neutral. |
 
 
 ## rudra — lulus-otomatis
@@ -670,7 +689,10 @@ Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
 
 ## prithvi — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 8 (exact 8), sumber 2, gambar 0.
+
+**warn**
+- `claims (prithvi-c07)` Klaim ini tidak dirujuk bagian teks mana pun.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -680,6 +702,8 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | prithvi-c04 | exact | en.wikipedia.org | In classical Hinduism her figure is supplanted by Bhumi, with Prithvi becoming an epithet of Bhumi. | In classical Hinduism, the figure of Prithvi is supplanted by the goddess Bhumi, while the term Prithvi serves as one of her epithets. She becomes significantly associated with Vishnu, one of the most important gods in later Hinduism, and two of his dashavatars—Varaha and Prithu. |
 | prithvi-c05 | exact | en.wikipedia.org | The Prithu narrative recounts the earth goddess changing into a cow. | Another connection is found between Prithvi and the mythological figure Prithu (Sanskrit: पृथु, Pṛthu), who chases the goddess Prthvi, shapeshifted as a cow. His name means 'far, wide, broad' and in later texts, the term Prithvi is treated as patronym for Earth derived from his name. |
 | prithvi-c06 | exact | en.wikisource.org | Rigveda 5.84 invokes Prithvi bearing the tool that rends hills and quickening earth. | THOU, of a truth, O Prthivi, bearest the tool that rends the hills: ... Thou rich in torrents, who with might quickenest earth, O Mighty One. |
+| prithvi-c07 | exact | en.wikipedia.org | As in the Rig Veda, Prithvi is associated with the cow called Gauri, revered for giving milk; the cow is a symbol of nourishment and motherhood. | Like in the Rig Veda, Prithvi is associated with the cow, called Gauri, which is revered for its milk-giving qualities. The cow is seen as a symbol of nourishment and motherhood, making this connection with Prithvi natural. |
+| prithvi-c08 | exact | en.wikisource.org | Rigveda 5.84 praises Prithvi who with her might grasps even the strong sovereigns of the wood when the rain-floods of heaven descend from the lightning of her cloud. | Who graspest with thy might on earth. e'en the strong sovrans of the wood, When from the lightning of thy cloud the rain-floods of the heaven descend. |
 
 
 ## sani — lulus-otomatis
@@ -726,7 +750,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## rahu — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -735,7 +759,9 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | rahu-c03 | exact | en.wikipedia.org | Rahu kala is a time considered inauspicious in the astrological tradition. | Rahu is usually paired with Ketu, the south lunar node. The time of day considered to be under the influence of Rahu is called Rāhu kāla and is considered inauspicious. |
 | rahu-c04 | exact | en.wikipedia.org | The Puranic narrative recounts Svarbhanu disguising himself to drink amrita. | one of the asuras, Svarbhanu, sat in the row of devas and drank the amrita. |
 | rahu-c05 | exact | en.wikipedia.org | The head severed by Vishnu is called Rahu, while the body is called Ketu. | Vishnu, as Mohini, cut off Svarbhanu's head with his discus, the Sudarshana Chakra. ... his head came to be known as Rahu, while his body came to be known as Ketu. |
-| rahu-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Mackenzie depicts Rahu as a demon causing eclipses by swallowing the sun and moon. | One of the terrible Asuras is the demon Rahu, who causes eclipses by swallowing the sun and the moon, like the Chinese dragon, the wolf Managarm of Teutonic mythology, and the Grecian demons who devour Helena, the sun maiden, sister of the twin Dioscuri. In the Vedic period Rahu was represented by the demon Svarbhanu. |
+| rahu-c06 | exact | www.gutenberg.org | Mackenzie depicts Rahu as a demon causing eclipses by swallowing the sun and moon. | One of the terrible Asuras is the demon Rahu, who causes eclipses by swallowing the sun and the moon, like the Chinese dragon, the wolf Managarm of Teutonic mythology, and the Grecian demons who devour Helena, the sun maiden, sister of the twin Dioscuri. In the Vedic period Rahu was represented by the demon Svarbhanu. |
+| rahu-c07 | exact | en.wikipedia.org | Surya and Chandra noticed him and told Mohini, but by then Svarbhanu had already become immortal. | Surya and Chandra noticed him and they informed Mohini; however, by that time, Svarbhanu had already become immortal. |
+| rahu-c08 | exact | en.wikipedia.org | Eclipses occur when the Sun and the Moon stand at one of these nodes, which gave rise to the understanding that the snake swallows the Sun and the Moon. | Eclipses occur when the Sun and the Moon are at one of these points, giving rise to the understanding of swallowing of the Sun and the Moon by the snake. |
 
 
 ## vishvakarma — lulus-otomatis
@@ -754,7 +780,7 @@ Klaim 6 (exact 5, loose 1), sumber 2, gambar 0.
 
 ## dyaus-pita — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 8 (exact 7, loose 1), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -763,7 +789,9 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | dyaus-pita-c03 | exact | en.wikipedia.org | The word dyaus without the word father refers to the daylight sky. | The noun dyaús (when used without the pitṛ́ 'father') refers to the daylight sky, and occurs frequently in the Rigveda, as an entity. The sky in Vedic writing was described as rising in three tiers: avamá, madhyamá, and uttamá or tṛtī́ya. |
 | dyaus-pita-c04 | exact | en.wikipedia.org | Vedic scriptures mention Dyaus Pita with Prithvi Mata, Mother Earth. | Dyáuṣ Pitṛ́ appears in hymns with Prithvi Mata, 'Mother Earth' in the ancient Vedic scriptures of Hinduism. |
 | dyaus-pita-c05 | exact | en.wikipedia.org | He is likened to a black stallion studded with pearls representing the night sky. | Dyauṣ is also stated to be like a black stallion studded with pearls in a simile with the night sky. |
-| dyaus-pita-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Mackenzie connects Dyaus with the image of a ruddy bull whose bellowing is thunder. | Dyaus is sometimes referred to as a ruddy bull, whose bellowing is the thunder; |
+| dyaus-pita-c06 | exact | www.gutenberg.org | Mackenzie connects Dyaus with the image of a ruddy bull whose bellowing is thunder. | Dyaus is sometimes referred to as a ruddy bull, whose bellowing is the thunder; |
+| dyaus-pita-c07 | exact | en.wikipedia.org | Dyaus's other sons include Agni, Parjanya, the Adityas, the Maruts and the Angirases; the Ashvins are called his offspring. Dyaus is often visualized as a roaring animal, often a bull, who fertilizes the earth. | Dyauṣ's other sons include Agni, Parjanya, the Ādityas, the Maruts, and the Angirases. The Ashvins are called "divó nápāt", meaning offspring/progeny/grandsons of Dyauṣ. Dyauṣ is often visualized as a roaring animal, often a bull, who fertilizes the earth. |
+| dyaus-pita-c08 | loose | en.wikipedia.org | Indra's separation of Dyaus and Prithvi is celebrated in the Rigveda as an important creation myth; in the Mahabharata Bhishma is the human incarnation of Dyaus after the Vasus were cursed to live as humans for stealing from Vasishtha. | Indra's separation of Dyauṣ and Prithvi is celebrated in the Rigveda as an important creation myth. In the Mahabharata, Bhishma is the human incarnation of Dyaus after the Vasus got cursed to live a human life on earth for stealing from Vasishtha out of pride. |
 
 
 ## gandharva — lulus-otomatis

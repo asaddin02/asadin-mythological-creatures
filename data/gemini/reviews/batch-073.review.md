@@ -1,6 +1,6 @@
 # Review batch-073
 
-Diperiksa 2026-10-08T10:19:36.691Z. Berkas: batch-073.md, batch-073-fix-1.md, batch-073-fix-2.md, batch-073-fix-3.md, batch-073-fix-4.md, batch-073-fix-5.md, batch-073-fix-6.md.
+Diperiksa 2026-10-08T10:45:40.372Z. Berkas: batch-073.md, batch-073-fix-1.md, batch-073-fix-2.md, batch-073-fix-3.md, batch-073-fix-4.md, batch-073-fix-5.md, batch-073-fix-6.md, batch-073-fix-7.md.
 
 ## manasa — lulus-otomatis
 
@@ -18,7 +18,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## narayana — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
+Klaim 8 (loose 1, exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -27,12 +27,14 @@ Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
 | narayana-c03 | exact | en.wikipedia.org | He is also known as Purushottama. | He is also known as Purushottama, and is considered the Supreme Being in Vaishnavism. |
 | narayana-c04 | exact | en.wikipedia.org | In Vaishnavism Narayana is regarded as the Supreme Being. | He is also known as Purushottama, and is considered the Supreme Being in Vaishnavism. |
 | narayana-c05 | exact | en.wikipedia.org | The Manusmriti explanation connects narah, waters, with ayana, the first residence. | The waters are called narah, (for) the waters are, indeed, the offspring of Nara; as they were his first residence (ayana), he thence is named Narayana. |
-| narayana-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Mackenzie recounts Narayana as Vishnu's form awakening at each yuga's dawn from primordial waters. | When Vishnu, the god of mercy and goodness, received recognition as Narayana in the Brahmanical Age, he was worshipped as the “unconquerable preserver” who at the dawn of each Yuga (Age) awoke as the child of the primordial waters. |
+| narayana-c06 | exact | www.gutenberg.org | Mackenzie recounts Narayana as Vishnu's form awakening at each yuga's dawn from primordial waters. | When Vishnu, the god of mercy and goodness, received recognition as Narayana in the Brahmanical Age, he was worshipped as the “unconquerable preserver” who at the dawn of each Yuga (Age) awoke as the child of the primordial waters. |
+| narayana-c07 | exact | en.wikipedia.org | Kshira Sagara, where Narayana rests on Shesha in his reclining ananta shayana form, is sometimes seen as Vaikuntha within the material universe; the Sruti texts call Narayana the primordial being present even when Brahma and Ishana (Shiva) were not. | Sometimes, Kshira Sagara, where Narayana or Vishnu rests on Shesha in his reclining ananta shayana form, is also perceived as Vaikuntha within the material universe. The Śruti texts mention Narayana as the primordial being who was present even when Brahma and Ishana (Shiva) were not present. |
+| narayana-c08 | exact | en.wikipedia.org | The Bhagavata Purana declares Narayana the Supreme Personality of Godhead who creates the 14 worlds through Brahma, sustains the universe as Vishnu, and himself annihilates it at the end of the Maha-Kalpa as Kalagni Rudra. | The Bhagavata Purana declares Narayana as the Supreme Personality of Godhead, who engages in the creation of 14 worlds within the universe Brahma who is Deity of rajas-guna, himself sustains, maintains and preserves the universe as Vishnu by accepting sattva-guna.Narayana himself annihilates the universe at the end of Maha-Kalpa as Kalagni Rudra who is presiding deity of tamas-guna. |
 
 
 ## nataraja — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -42,6 +44,8 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | nataraja-c04 | exact | en.wikipedia.org | The name Nataraja combines nata and raja meaning Lord of Dance. | The word Nataraja is a Sanskrit term, from नट Nata meaning "act, drama, dance" and राज Raja meaning "king, lord"; it can be roughly translated as Lord of the dance or King of the dance. According to Ananda Coomaraswamy, the name is related to Shiva's fame as the "Lord of Dancers" or "King of Actors". |
 | nataraja-c05 | exact | en.wikipedia.org | He is the principal deity at the Nataraja Temple in Chidambaram. | This form is present in most Shiva temples, and is the prime deity in the Nataraja Temple at Chidambaram (Tillai). |
 | nataraja-c06 | exact | www.clevelandart.org | The Cleveland Museum interprets the dwarfish figure trampled in Shiva's dance as personifying ignorance. | With every step in his dance, he lands on a dwarfish figure personifying ignorance. |
+| nataraja-c07 | exact | en.wikipedia.org | He is surrounded by a ring of flames, standing on a lotus pedestal, lifting his left leg (rarely the right) and trampling a demon shown as a dwarf (Apasmara or Muyalaka) who symbolizes spiritual ignorance. | He is surrounded by a ring of flames, standing on a lotus pedestal, lifting his left leg (or in rare cases, the right leg) and balancing / trampling upon a demon shown as a dwarf (Apasmara or Muyalaka) who symbolizes spiritual ignorance. |
+| nataraja-c08 | exact | en.wikipedia.org | It typically shows Shiva dancing in a Natya Shastra pose, holding Agni (fire) in his left back hand, the front hand in gajahasta or dandahasta mudra, and the front right hand, wrapped by a snake, in the abhaya (fear not) mudra. | It typically shows Shiva dancing in one of the Natya Shastra poses, holding Agni (fire) in his left back hand, the front hand in gajahasta (elephant hand) or dandahasta (stick hand) mudra, the front right hand with a wrapped snake that is in abhaya (fear not) mudra while pointing to a Sutra text |
 
 
 ## tridevi — lulus-otomatis
@@ -160,7 +164,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## jatayu — lulus-otomatis
 
-Klaim 6 (exact 4, loose 2), sumber 2, gambar 0.
+Klaim 8 (exact 6, loose 2), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -169,7 +173,9 @@ Klaim 6 (exact 4, loose 2), sumber 2, gambar 0.
 | jatayu-c03 | loose | en.wikipedia.org | Jatayu is an old friend of Dasharatha, Rama's father. | Jatayu (Sanskrit: जटायु, IAST: Jaṭāyu) is a demigod in the Hindu epic Rāmayana, who has the form of a vulture. He was the younger son of Aruṇa and his wife Shyeni, the brother of Sampati, and the nephew of Garuda. He was also an old friend of King Dasharatha, Rāma's father. |
 | jatayu-c04 | exact | en.wikipedia.org | In the youth narrative Sampati shields him from Surya's heat and has his own wings burned. | In a desperate bid to rescue his brother, Sampati flew ahead of him, spreading his wings wide open to shield him. As a consequence, it was Sampati who had his wings burnt, |
 | jatayu-c05 | exact | en.wikipedia.org | Jatayu tries to save Sita from Ravana's abduction but is defeated. | According to the epic, the rakshasa Ravana was abducting the avatar of Lakshmi, Sita, when Jatayu tried to rescue her. Jatayu fought valiantly with Ravana, but as Jatayu was very old, Ravana soon defeated him, |
-| jatayu-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Mackenzie recounts dying Jatayu telling Rama what happened to Sita. | On the morrow the brethren went forth again in quest of the lost one. They came to the place where Jatayus lay dying, and that lordly bird spake to Rama and related all that had befallen Sita and himself. |
+| jatayu-c06 | exact | www.gutenberg.org | Mackenzie recounts dying Jatayu telling Rama what happened to Sita. | On the morrow the brethren went forth again in quest of the lost one. They came to the place where Jatayus lay dying, and that lordly bird spake to Rama and related all that had befallen Sita and himself. |
+| jatayu-c07 | exact | en.wikipedia.org | Searching for Sita, Rama and Lakshmana found the dying Jatayu, who told them of the battle with Ravana and that Ravana had headed south; Jatayu then died of his wounds and Rama performed his funeral rites. | Rama and Lakshmana, while searching for Sita, chanced upon the stricken and dying Jatayu, who informed them of the battle with Ravana, and told them that Ravana had headed south. Jatayu then died of his wounds and Rama performed his final funeral rites. |
+| jatayu-c08 | exact | www.gutenberg.org | In Mackenzie's retelling the Monarch of Vultures, asleep on a mountain top, hears Sita, wakes and darts upon Ravana like Indra's thunderbolt; a fierce battle is fought in mid air. | Monarch of Vultures, who lay asleep on a mountain top, heard her and awoke; he darted upon Ravana like to the thunderbolt of Indra. A fierce battle was fought in mid air. |
 
 
 ## vasuki — lulus-otomatis
@@ -429,7 +435,10 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## ulupi — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 8 (exact 8), sumber 2, gambar 0.
+
+**warn**
+- `claims (ulupi-c07)` Klaim ini tidak dirujuk bagian teks mana pun.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -438,7 +447,9 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | ulupi-c03 | exact | en.wikipedia.org | She revives Arjuna after Babhruvahana kills him, redeeming him from the Vasus' curse. | Ulupi is said to have met and married Arjuna when he was in exile, and with whom she bore his son Iravan. She is also credited with redeeming Arjuna from the curse of the Vasus by restoring his life after he was slain in a battle by his son, Babhruvahana. |
 | ulupi-c04 | exact | en.wikipedia.org | The Mahabharata names her in many ways, including Kauravyaduhita and Pannagi. | Little is said about Ulupi in the Mahabharata. Ulupi is known by numerous names in the Mahabharata—Bhujagātmajā, Bhujagendrakanyakā, Bhujagottamā Kauravī, Kauravyaduhitā, Kauravyakulanandinī, Pannaganandinī, Pannagasutā, Pannagātmajā, Pannageśvarakanyā, Pannagī, and Uragātmajā. |
 | ulupi-c05 | exact | en.wikipedia.org | She is depicted as a nagakanya, part woman and part serpent. | Ulupi is described as a mythical form of a Nāgakanyā (Nāga princess), half-maiden and half-serpent. |
-| ulupi-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.gutenberg.org | Mackenzie calls Ulupi Iravat's mother and a serpent nymph, daughter of the naga king. | brave Iravat, whose mother was Ulupi, the serpent nymph, daughter of the king of the Nagas. |
+| ulupi-c06 | exact | www.gutenberg.org | Mackenzie calls Ulupi Iravat's mother and a serpent nymph, daughter of the naga king. | brave Iravat, whose mother was Ulupi, the serpent nymph, daughter of the king of the Nagas. |
+| ulupi-c07 | exact | en.wikipedia.org | Ulupi was the daughter of the Naga king Kauravya, who ruled the underwater kingdom of serpents in the Ganga; she was a well-trained warrior. | Ulupi was the daughter of the Naga King Kauravya. Her father ruled the underwater kingdom of serpents in the Ganga river. She was a well-trained warrior. |
+| ulupi-c08 | exact | en.wikipedia.org | Ganga said Arjuna would be killed by his own son Babhruvahana and brought back to life when Ulupi placed the gem Nagamani on his chest; on her father's advice Ulupi incites Babhruvahana to fight Arjuna. | Upon hearing him, Ganga said that Arjuna would be killed by his own son, Babhruvahana—Arjuna's son through Chitrangada—and brought back to life when Ulupi placed a gem called Nagamani on his chest. Following her father's advice, Ulupi instigates Babruvāhana to fight Arjuna. |
 
 
 ## iravan — lulus-otomatis
@@ -738,7 +749,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## kaliya — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 2, gambar 0.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -748,4 +759,6 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | kaliya-c04 | exact | en.wikipedia.org | He leaves his Ramanaka homeland in fear of Garuda. | The proper home of Kāliya was the island of Ramaṇaka, but he had been driven away from there in fear of Garuḍa, the foe of all serpents. Garuḍa had been cursed by the yogi Saubhari dwelling at Vrindavan so that he could not come to Vrindavan without meeting his death. Therefore, Kāliya chose Vrindavan as his residence, knowing it was the only place where Garuḍa could not come. |
 | kaliya-c05 | exact | en.wikipedia.org | Krishna dances on Kaliya's heads to release his poison so he no longer pollutes the Yamuna. | Krishna immediately regained his original form and began to jump on all of Kāliya's heads so as to release the poison in the snake so that he could no longer pollute the Yamunā. |
 | kaliya-c06 | exact | vedabase.io | In the Vedabase Bhagavata version Krishna orders Kaliya to leave the river with his family and return to Ramanaka. | Kṛṣṇa told him to leave the Yamunā lake with his family and return to Ramaṇaka Island. |
+| kaliya-c07 | exact | vedabase.io | With his boisterous dancing Krishna trampled the serpent's one thousand hoods until his body slackened; vomiting blood from his mouths, Kaliya finally understood that Krishna was the primeval personality, Narayana. | By this wonderful, boisterous dancing, Śrī Kṛṣṇa trampled the serpent’s one thousand hoods until his body slackened. Vomiting blood from his mouths, Kāliya finally understood that Kṛṣṇa was the primeval personality, Lord Nārāyaṇa, the spiritual master of all |
+| kaliya-c08 | exact | en.wikipedia.org | Kaliya's wives came and prayed to Krishna with joined palms for mercy for their husband; Kaliya recognized Krishna's greatness and surrendered, promising never to harass anyone again. | But then Kāliya's wives came and prayed to Krishna with joined palms, worshiping him and praying for mercy for their husband. Kāliya recognized the greatness of Krishna and surrendered, promising he would not harass anybody again. |
 
